@@ -30,7 +30,7 @@ jobs:
     env:
       AI_API_KEY: ${{ secrets.AI_API_KEY }}
       AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://xcode.best/v1' }}
-      AI_MODEL: ${{ vars.AI_MODEL || 'deepseek-v4-flash' }}
+      AI_MODEL: ${{ vars.AI_MODEL || 'kimi-k2.6' }}
       SEARCH_PROVIDER: github-code
       GITHUB_SEARCH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       TARGET_ARTICLE_COUNT: ${{ github.event_name == 'schedule' && '30' || github.event_name == 'push' && '1' || inputs.target_count }}

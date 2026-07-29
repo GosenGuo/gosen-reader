@@ -20,11 +20,11 @@ test("uses the configured OpenAI-compatible relay and allowed model", async () =
     const client = new AiClient({
       AI_API_KEY: "test-only",
       AI_BASE_URL: "https://xcode.best/v1",
-      AI_MODEL: "deepseek-v4-flash"
+      AI_MODEL: "kimi-k2.6"
     });
     assert.deepEqual(await client.json("system", "user"), { ok: true });
     assert.equal(requestedUrl, "https://xcode.best/v1/chat/completions");
-    assert.equal(requestedBody.model, "deepseek-v4-flash");
+    assert.equal(requestedBody.model, "kimi-k2.6");
   } finally {
     globalThis.fetch = originalFetch;
   }

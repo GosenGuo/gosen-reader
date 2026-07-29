@@ -67,7 +67,7 @@ API Key 不能放进 APK。App 只读取生成后的题库，AI 中转站和搜�
 
 - `AI_API_KEY`：在仓库 Settings → Secrets and variables → Actions 中添加
 - `AI_BASE_URL`：默认 `https://xcode.best/v1`
-- `AI_MODEL`：默认使用该密钥允许的 `deepseek-v4-flash`
+- `AI_MODEL`：默认使用该密钥允许的 `kimi-k2.6`
 
 默认使用免费的 360 中文搜索，不需要搜索 API Key，并过滤明显无关结果。AI 或搜索失败时，工作流会停止，不会覆盖上一次可用题库。
 

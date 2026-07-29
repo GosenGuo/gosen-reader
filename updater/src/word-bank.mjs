@@ -30,7 +30,7 @@ export async function repairArticleGlossary(article, minimax, wordBank) {
     if (missing.length === 0) return;
     console.log(`  glossary repair ${attempt}: ${missing.length} word(s)`);
 
-    for (const batch of chunks(missing, 18)) {
+    for (const batch of chunks(missing, 36)) {
       const requested = batch.map(word => {
         const sentences = findWordSentences(article.body, word);
         return {

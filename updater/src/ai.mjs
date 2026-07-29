@@ -5,7 +5,7 @@ export class AiClient {
     this.apiKey = env.AI_API_KEY?.trim();
     this.baseUrl = trimSlash(env.AI_BASE_URL || "https://xcode.best/v1");
     this.chatUrl = env.AI_CHAT_URL?.trim() || `${this.baseUrl}/chat/completions`;
-    this.model = env.AI_MODEL?.trim() || "deepseek-v4-flash";
+    this.model = env.AI_MODEL?.trim() || "kimi-k2.6";
     if (!this.apiKey) throw new Error("AI_API_KEY is required");
   }
 
