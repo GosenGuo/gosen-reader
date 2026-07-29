@@ -26,7 +26,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: ${{ github.event_name == 'schedule' && 180 || 30 }}
     env:
       AI_API_KEY: ${{ secrets.AI_API_KEY }}
       AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://xcode.best/v1' }}
@@ -35,6 +35,7 @@ jobs:
       GITHUB_SEARCH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       TARGET_ARTICLE_COUNT: ${{ github.event_name == 'schedule' && '30' || github.event_name == 'push' && '1' || inputs.target_count }}
       MAX_SEARCH_RESULTS: ${{ github.event_name == 'schedule' && '80' || '20' }}
+      MAX_CANDIDATE_ATTEMPTS: ${{ github.event_name == 'schedule' && '40' || github.event_name == 'push' && '3' || '10' }}
       RACE_DIR: /tmp/RACE
       OUTPUT_PATH: ../docs/articles.json
       WORD_BANK_PATH: ../docs/word-bank.json
