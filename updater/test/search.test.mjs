@@ -1,6 +1,66 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { WebSearchClient } from "../src/search.mjs";
+import { WebSearchClient, downloadReadablePage } from "../src/search.mjs";
+
+test("uses authenticated GitHub code search and constructs raw download URLs", async () => {
+  const originalFetch = globalThis.fetch;
+  let request;
+  globalThis.fetch = async (url, options) => {
+    request = { url: String(url), options };
+    return Response.json({
+      items: [{
+        name: "exam.md",
+        path: "题库/exam.md",
+        html_url: "https://github.com/example/exams/blob/main/%E9%A2%98%E5%BA%93/exam.md",
+        repository: {
+          full_name: "example/exams",
+          default_branch: "main"
+        }
+      }]
+    });
+  };
+  try {
+    const client = new WebSearchClient({
+      SEARCH_PROVIDER: "github-code",
+      GITHUB_SEARCH_TOKEN: "test-token"
+    });
+    assert.deepEqual(await client.search('"阅读理解" extension:md', 5), [{
+      title: "exam.md",
+      url: "https://github.com/example/exams/blob/main/%E9%A2%98%E5%BA%93/exam.md",
+      fetchUrl: "https://raw.githubusercontent.com/example/exams/main/%E9%A2%98%E5%BA%93/exam.md",
+      snippet: "example/exams/题库/exam.md"
+    }]);
+    assert.match(request.url, /api\.github\.com\/search\/code/);
+    assert.equal(request.options.headers.Authorization, "Bearer test-token");
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("downloads candidate raw content while keeping its public source URL", async () => {
+  const originalFetch = globalThis.fetch;
+  let fetchedUrl;
+  globalThis.fetch = async url => {
+    fetchedUrl = String(url);
+    return new Response("A complete English passage. ".repeat(30), {
+      status: 200,
+      headers: { "Content-Type": "text/plain; charset=utf-8" }
+    });
+  };
+  try {
+    const candidate = {
+      title: "exam.md",
+      url: "https://github.com/example/exams/blob/main/exam.md",
+      fetchUrl: "https://raw.githubusercontent.com/example/exams/main/exam.md"
+    };
+    const page = await downloadReadablePage(candidate);
+    assert.equal(fetchedUrl, candidate.fetchUrl);
+    assert.equal(page.url, candidate.url);
+    assert.match(page.text, /complete English passage/);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
 
 test("falls back from empty Bing RSS to current HTML result cards", async () => {
   const originalFetch = globalThis.fetch;

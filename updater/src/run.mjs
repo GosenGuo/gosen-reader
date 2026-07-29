@@ -82,6 +82,16 @@ console.log(`Wrote ${Object.keys(wordBank.words).length} words to ${wordBankPath
 await publishIfConfigured(payload);
 
 async function planQueries() {
+  if (search.provider === "github-code") {
+    return [
+      '"阅读理解" "答案" extension:md',
+      '"英语阅读" "参考答案" extension:txt',
+      '"高考英语" "阅读理解" extension:md',
+      '"高中英语" "阅读理解" extension:txt',
+      '"reading comprehension" "answer key" extension:md',
+      '"reading comprehension" "questions" "answers" extension:json'
+    ];
+  }
   const planned = await ai.json(
     `You plan web searches for existing Chinese high-school English reading-comprehension questions.
 Return a JSON array of strings only. Do not add explanations or markdown.`,

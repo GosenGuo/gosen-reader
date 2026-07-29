@@ -1,11 +1,15 @@
 export class WebSearchClient {
   constructor(env = process.env) {
     this.apiKey = env.SEARCH_API_KEY;
+    this.githubToken = env.GITHUB_SEARCH_TOKEN;
     this.url = env.SEARCH_API_URL || "https://api.bochaai.com/v1/web-search";
-    this.provider = env.SEARCH_PROVIDER || (this.apiKey ? "api" : "so-html");
+    this.provider = env.SEARCH_PROVIDER || (this.githubToken ? "github-code" : (this.apiKey ? "api" : "so-html"));
   }
 
   async search(query, count = 10) {
+    if (this.provider === "github-code") {
+      return this.searchGithubCode(query, count);
+    }
     if (this.provider === "so-html") {
       return this.searchSoHtml(query, count);
     }
@@ -42,6 +46,42 @@ export class WebSearchClient {
       url: item.url || item.link || "",
       snippet: item.summary || item.snippet || ""
     })).filter(item => /^https?:\/\//.test(item.url));
+  }
+
+  async searchGithubCode(query, count) {
+    if (!this.githubToken) {
+      throw new Error("GITHUB_SEARCH_TOKEN is required when SEARCH_PROVIDER=github-code");
+    }
+    const url = `https://api.github.com/search/code?q=${encodeURIComponent(query)}&per_page=${Math.min(count, 100)}`;
+    const response = await fetch(url, {
+      headers: {
+        "Accept": "application/vnd.github+json",
+        "Authorization": `Bearer ${this.githubToken}`,
+        "User-Agent": "GosenReaderBot/0.3",
+        "X-GitHub-Api-Version": "2022-11-28"
+      },
+      signal: AbortSignal.timeout(30_000)
+    });
+    if (!response.ok) {
+      throw new Error(`GitHub code search ${response.status}: ${(await response.text()).slice(0, 300)}`);
+    }
+    const payload = await response.json();
+    return (payload.items || []).map(item => {
+      const fullName = item.repository?.full_name || "";
+      const branch = item.repository?.default_branch || "main";
+      const encodedPath = String(item.path || "")
+        .split("/")
+        .map(encodeURIComponent)
+        .join("/");
+      return {
+        title: item.name || item.path || "",
+        url: item.html_url || "",
+        fetchUrl: fullName && encodedPath
+          ? `https://raw.githubusercontent.com/${fullName}/${encodeURIComponent(branch)}/${encodedPath}`
+          : "",
+        snippet: `${fullName}/${item.path || ""}`
+      };
+    }).filter(item => /^https?:\/\//.test(item.url) && /^https?:\/\//.test(item.fetchUrl));
   }
 
   async searchBingRss(query, count) {
@@ -92,8 +132,9 @@ export class WebSearchClient {
 }
 
 export async function downloadReadablePage(candidate) {
-  if (/\.pdf(?:$|\?)/i.test(candidate.url)) return null;
-  const response = await fetch(candidate.url, {
+  const fetchUrl = candidate.fetchUrl || candidate.url;
+  if (/\.pdf(?:$|\?)/i.test(fetchUrl)) return null;
+  const response = await fetch(fetchUrl, {
     headers: {
       "User-Agent": "Mozilla/5.0 (compatible; GosenReaderBot/0.1; personal study)",
       "Accept": "text/html,text/plain;q=0.9"

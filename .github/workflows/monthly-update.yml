@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: monthly-content-update
@@ -25,7 +26,8 @@ jobs:
       AI_API_KEY: ${{ secrets.AI_API_KEY }}
       AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://xcode.best/v1' }}
       AI_MODEL: ${{ vars.AI_MODEL || 'deepseek-v4-flash' }}
-      SEARCH_PROVIDER: so-html
+      SEARCH_PROVIDER: github-code
+      GITHUB_SEARCH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       TARGET_ARTICLE_COUNT: ${{ github.event_name == 'schedule' && '30' || inputs.target_count }}
       MAX_SEARCH_RESULTS: ${{ github.event_name == 'schedule' && '80' || '20' }}
       OUTPUT_PATH: ../docs/articles.json
@@ -53,10 +55,12 @@ jobs:
           node src/check.mjs ../docs/articles.json ../docs/word-bank.json
 
       - name: Commit the validated package
+        id: content_commit
         shell: bash
         run: |
           if git diff --quiet -- docs/articles.json docs/word-bank.json; then
             echo "No content change"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -64,3 +68,11 @@ jobs:
           git add docs/articles.json docs/word-bank.json
           git commit -m "content: monthly reading package"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy the updated package to GitHub Pages
+        if: steps.content_commit.outputs.changed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run pages.yml --ref main
