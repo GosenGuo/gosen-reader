@@ -10,11 +10,14 @@ android {
         applicationId "com.gosen.reader"
         minSdk 26
         targetSdk 35
-        versionCode 2
-        versionName "0.1.1"
+        versionCode Integer.parseInt(project.findProperty("VERSION_CODE") ?: "2")
+        versionName project.findProperty("VERSION_NAME") ?: "0.1.1"
 
         def feedUrl = project.findProperty("CONTENT_FEED_URL") ?: ""
+        def updateManifestUrl = project.findProperty("UPDATE_MANIFEST_URL")
+                ?: "https://gosenguo.github.io/gosen-reader/app-update.json"
         buildConfigField "String", "CONTENT_FEED_URL", "\"${feedUrl}\""
+        buildConfigField "String", "UPDATE_MANIFEST_URL", "\"${updateManifestUrl}\""
     }
 
     buildFeatures {
