@@ -2,10 +2,13 @@ export class WebSearchClient {
   constructor(env = process.env) {
     this.apiKey = env.SEARCH_API_KEY;
     this.url = env.SEARCH_API_URL || "https://api.bochaai.com/v1/web-search";
-    this.provider = env.SEARCH_PROVIDER || (this.apiKey ? "api" : "bing-rss");
+    this.provider = env.SEARCH_PROVIDER || (this.apiKey ? "api" : "so-html");
   }
 
   async search(query, count = 10) {
+    if (this.provider === "so-html") {
+      return this.searchSoHtml(query, count);
+    }
     if (this.provider === "bing-rss") {
       return this.searchBingRss(query, count);
     }
@@ -71,6 +74,21 @@ export class WebSearchClient {
     }
     return parseBingHtml(await htmlResponse.text(), count);
   }
+
+  async searchSoHtml(query, count) {
+    const url = `https://www.so.com/s?q=${encodeURIComponent(query)}`;
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; GosenReaderBot/0.2; personal study)",
+        "Accept": "text/html,application/xhtml+xml"
+      },
+      signal: AbortSignal.timeout(30_000)
+    });
+    if (!response.ok) {
+      throw new Error(`360 Search ${response.status}: ${(await response.text()).slice(0, 300)}`);
+    }
+    return parseSoHtml(await response.text(), count);
+  }
 }
 
 export async function downloadReadablePage(candidate) {
@@ -131,6 +149,7 @@ function readXmlTag(xml, tag) {
     .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(parseInt(code, 16)))
     .replace(/&quot;/gi, "\"")
     .replace(/&apos;|&#39;/gi, "'")
+    .replace(/&nbsp;/gi, " ")
     .replace(/&lt;/gi, "<")
     .replace(/&gt;/gi, ">")
     .replace(/&amp;/gi, "&")
@@ -169,6 +188,33 @@ function parseBingHtml(html, count) {
     .slice(0, count);
 }
 
+function parseSoHtml(html, count) {
+  return [...html.matchAll(/<li\b[^>]*class=["'][^"']*\bres-list\b[^"']*["'][^>]*>([\s\S]*?)<\/li>/gi)]
+    .map(match => {
+      const item = match[1];
+      const heading = /<h3\b[^>]*>([\s\S]*?)<\/h3>/i.exec(item)?.[1] || "";
+      const anchor = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/i.exec(heading);
+      const description = /<(?:p|div)\b[^>]*class=["'][^"']*(?:res-desc|mh-desc)[^"']*["'][^>]*>([\s\S]*?)<\/(?:p|div)>/i
+        .exec(item)?.[1] || "";
+      const rawUrl = decodeHtml(anchor?.[1] || "");
+      const url = rawUrl.startsWith("//") ? `https:${rawUrl}` : rawUrl;
+      return {
+        title: cleanHtmlText(anchor?.[2] || ""),
+        url,
+        snippet: cleanHtmlText(description)
+      };
+    })
+    .filter(item => /^https?:\/\//.test(item.url) && isRelevantExamResult(item))
+    .slice(0, count);
+}
+
+function isRelevantExamResult(item) {
+  if (/ai\.so\.com/i.test(item.url)) return false;
+  const text = `${item.title} ${item.snippet}`;
+  return /(英语|english)/i.test(text)
+    && /(阅读|试题|真题|答案|模拟|高考|联考|期中|期末)/i.test(text);
+}
+
 function cleanHtmlText(value) {
   return decodeHtml(String(value).replace(/<[^>]+>/g, " "))
     .replace(/\s+/g, " ")
@@ -179,6 +225,7 @@ function decodeHtml(value) {
   return String(value)
     .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
     .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(parseInt(code, 16)))
+    .replace(/&nbsp;/gi, " ")
     .replace(/&quot;/gi, "\"")
     .replace(/&apos;|&#39;/gi, "'")
     .replace(/&lt;/gi, "<")

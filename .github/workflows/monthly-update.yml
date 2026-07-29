@@ -25,7 +25,7 @@ jobs:
       AI_API_KEY: ${{ secrets.AI_API_KEY }}
       AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://xcode.best/v1' }}
       AI_MODEL: ${{ vars.AI_MODEL || 'deepseek-v4-flash' }}
-      SEARCH_PROVIDER: bing-rss
+      SEARCH_PROVIDER: so-html
       TARGET_ARTICLE_COUNT: ${{ github.event_name == 'schedule' && '30' || inputs.target_count }}
       MAX_SEARCH_RESULTS: ${{ github.event_name == 'schedule' && '80' || '20' }}
       OUTPUT_PATH: ../docs/articles.json

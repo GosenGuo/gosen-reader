@@ -31,3 +31,28 @@ test("falls back from empty Bing RSS to current HTML result cards", async () => 
     globalThis.fetch = originalFetch;
   }
 });
+
+test("parses relevant 360 exam results and removes unrelated cards", async () => {
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async () => new Response(`
+    <ul class="result">
+      <li class="res-list">
+        <h3><a href="https://example.com/exam">高考英语阅读理解真题及答案</a></h3>
+        <p class="res-desc">包含完整文章、四个选项和答案解析</p>
+      </li>
+      <li class="res-list">
+        <h3><a href="https://example.com/cars">Used trucks for sale</a></h3>
+        <p class="res-desc">Buy a car today</p>
+      </li>
+    </ul>`, { status: 200 });
+  try {
+    const client = new WebSearchClient({ SEARCH_PROVIDER: "so-html" });
+    assert.deepEqual(await client.search("高考英语阅读", 10), [{
+      title: "高考英语阅读理解真题及答案",
+      url: "https://example.com/exam",
+      snippet: "包含完整文章、四个选项和答案解析"
+    }]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
