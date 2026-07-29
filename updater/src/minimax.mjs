@@ -3,13 +3,17 @@ const trimSlash = value => value.replace(/\/+$/, "");
 export class MiniMaxClient {
   constructor(env = process.env) {
     this.apiKey = env.MINIMAX_API_KEY;
-    this.baseUrl = trimSlash(env.MINIMAX_BASE_URL || "https://api.minimax.io/v1");
+    this.baseUrl = trimSlash(env.MINIMAX_BASE_URL || "https://api.minimaxi.com/v1");
+    this.chatUrl = env.MINIMAX_CHAT_URL?.trim()
+      || (this.baseUrl.includes("api.minimaxi.com")
+        ? `${this.baseUrl}/text/chatcompletion_v2`
+        : `${this.baseUrl}/chat/completions`);
     this.model = env.MINIMAX_MODEL || "MiniMax-M2.5";
     if (!this.apiKey) throw new Error("MINIMAX_API_KEY is required");
   }
 
   async json(system, user, temperature = 0.1) {
-    const response = await fetch(`${this.baseUrl}/chat/completions`, {
+    const response = await fetch(this.chatUrl, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

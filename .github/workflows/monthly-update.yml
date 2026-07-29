@@ -23,7 +23,7 @@ jobs:
     timeout-minutes: 120
     env:
       MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
-      MINIMAX_BASE_URL: ${{ vars.MINIMAX_BASE_URL || 'https://api.minimax.io/v1' }}
+      MINIMAX_BASE_URL: ${{ vars.MINIMAX_BASE_URL || 'https://api.minimaxi.com/v1' }}
       MINIMAX_MODEL: ${{ vars.MINIMAX_MODEL || 'MiniMax-M2.5' }}
       SEARCH_PROVIDER: bing-rss
       TARGET_ARTICLE_COUNT: ${{ github.event_name == 'schedule' && '30' || inputs.target_count }}
