@@ -42,29 +42,34 @@ export class WebSearchClient {
   }
 
   async searchBingRss(query, count) {
-    const url = `https://cn.bing.com/search?format=rss&q=${encodeURIComponent(query)}`;
-    const response = await fetch(url, {
-      headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; GosenReaderBot/0.2; personal study)",
-        "Accept": "application/rss+xml,application/xml,text/xml"
-      },
+    const headers = {
+      "User-Agent": "Mozilla/5.0 (compatible; GosenReaderBot/0.2; personal study)",
+      "Accept": "application/rss+xml,application/xml,text/html;q=0.9"
+    };
+    const rssUrl = `https://cn.bing.com/search?format=rss&q=${encodeURIComponent(query)}`;
+    const response = await fetch(rssUrl, {
+      headers,
       signal: AbortSignal.timeout(30_000)
     });
     if (!response.ok) {
       throw new Error(`Bing RSS ${response.status}: ${(await response.text()).slice(0, 300)}`);
     }
     const xml = await response.text();
-    return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)]
-      .slice(0, count)
-      .map(match => {
-        const item = match[1];
-        return {
-          title: readXmlTag(item, "title"),
-          url: readXmlTag(item, "link"),
-          snippet: readXmlTag(item, "description")
-        };
-      })
-      .filter(item => /^https?:\/\//.test(item.url));
+    const rssResults = parseBingRss(xml, count);
+    if (rssResults.length) return rssResults;
+
+    const htmlUrl = `https://cn.bing.com/search?q=${encodeURIComponent(query)}`;
+    const htmlResponse = await fetch(htmlUrl, {
+      headers: {
+        ...headers,
+        "Accept": "text/html,application/xhtml+xml"
+      },
+      signal: AbortSignal.timeout(30_000)
+    });
+    if (!htmlResponse.ok) {
+      throw new Error(`Bing HTML ${htmlResponse.status}: ${(await htmlResponse.text()).slice(0, 300)}`);
+    }
+    return parseBingHtml(await htmlResponse.text(), count);
   }
 }
 
@@ -131,4 +136,52 @@ function readXmlTag(xml, tag) {
     .replace(/&amp;/gi, "&")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function parseBingRss(xml, count) {
+  return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)]
+    .slice(0, count)
+    .map(match => {
+      const item = match[1];
+      return {
+        title: readXmlTag(item, "title"),
+        url: readXmlTag(item, "link"),
+        snippet: readXmlTag(item, "description")
+      };
+    })
+    .filter(item => /^https?:\/\//.test(item.url));
+}
+
+function parseBingHtml(html, count) {
+  return [...html.matchAll(/<li\b[^>]*class=["'][^"']*\bb_algo\b[^"']*["'][^>]*>([\s\S]*?)<\/li>/gi)]
+    .map(match => {
+      const item = match[1];
+      const heading = /<h2\b[^>]*>([\s\S]*?)<\/h2>/i.exec(item)?.[1] || "";
+      const anchor = /<a\b[^>]*href=["'](https?:\/\/[^"']+)["'][^>]*>([\s\S]*?)<\/a>/i.exec(heading);
+      const caption = /<div\b[^>]*class=["'][^"']*\bb_caption\b[^"']*["'][^>]*>([\s\S]*?)<\/div>/i.exec(item)?.[1] || "";
+      return {
+        title: cleanHtmlText(anchor?.[2] || ""),
+        url: decodeHtml(anchor?.[1] || ""),
+        snippet: cleanHtmlText(caption)
+      };
+    })
+    .filter(item => /^https?:\/\//.test(item.url) && item.title)
+    .slice(0, count);
+}
+
+function cleanHtmlText(value) {
+  return decodeHtml(String(value).replace(/<[^>]+>/g, " "))
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function decodeHtml(value) {
+  return String(value)
+    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(parseInt(code, 16)))
+    .replace(/&quot;/gi, "\"")
+    .replace(/&apos;|&#39;/gi, "'")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&amp;/gi, "&");
 }
