@@ -1,0 +1,87 @@
+import crypto from "node:crypto";
+
+export function normalizeArticle(raw, source) {
+  const body = String(raw.body || "").replace(/\r/g, "").trim();
+  const title = String(raw.title || source.title || "高中英语阅读").trim();
+  const hash = crypto.createHash("sha256")
+    .update(body.toLowerCase().replace(/\s+/g, " "))
+    .digest("hex").slice(0, 16);
+  return {
+    id: `web-${hash}`,
+    title,
+    source: String(raw.source || source.title || "网络试题").slice(0, 120),
+    sourceUrl: source.url,
+    region: String(raw.region || "高中英语"),
+    year: Number(raw.year) || new Date().getFullYear(),
+    difficulty: String(raw.difficulty || "高考"),
+    body,
+    wordCount: body.match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g)?.length || 0,
+    sentenceTranslations: raw.sentenceTranslations || {},
+    glossary: raw.glossary || {},
+    questions: Array.isArray(raw.questions) ? raw.questions.map(question => ({
+      prompt: String(question.prompt || "").trim(),
+      options: Array.isArray(question.options)
+        ? question.options.map(value => String(value).trim())
+        : [],
+      answer: Number(question.answer),
+      explanation: String(question.explanation || "").trim()
+    })) : []
+  };
+}
+
+export function validateArticle(article) {
+  const errors = [];
+  if (!article.id) errors.push("missing id");
+  if (article.wordCount < 90 || article.wordCount > 900) errors.push("word count outside 90-900");
+  if (!Array.isArray(article.questions) || article.questions.length < 2) {
+    errors.push("fewer than two questions");
+  }
+  for (const [index, question] of article.questions.entries()) {
+    if (!question.prompt) errors.push(`question ${index + 1} has no prompt`);
+    if (question.options.length !== 4) errors.push(`question ${index + 1} does not have four options`);
+    if (!Number.isInteger(question.answer) || question.answer < 0 || question.answer > 3) {
+      errors.push(`question ${index + 1} answer is invalid`);
+    }
+    if (!question.explanation) errors.push(`question ${index + 1} has no explanation`);
+  }
+  const sentences = splitSentences(article.body);
+  const translated = sentences.filter(sentence => article.sentenceTranslations[sentence]).length;
+  if (translated < Math.max(1, Math.floor(sentences.length * 0.85))) {
+    errors.push("sentence translations cover less than 85%");
+  }
+  const uniqueWords = new Set(
+    (article.body.match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g) || [])
+      .map(word => word.toLowerCase().replace("’", "'"))
+  );
+  const glossaryCoverage = [...uniqueWords]
+    .filter(word => article.glossary[word]).length / Math.max(1, uniqueWords.size);
+  if (!article.source.startsWith("内置示例") && glossaryCoverage < 0.72) {
+    errors.push("glossary coverage below 72%");
+  }
+  return errors;
+}
+
+export function validatePackage(payload) {
+  const errors = [];
+  if (payload.schemaVersion !== 1) errors.push("schemaVersion must be 1");
+  if (!Array.isArray(payload.articles) || payload.articles.length === 0) {
+    errors.push("package contains no articles");
+    return errors;
+  }
+  const ids = new Set();
+  for (const [index, article] of payload.articles.entries()) {
+    if (ids.has(article.id)) errors.push(`duplicate article id ${article.id}`);
+    ids.add(article.id);
+    for (const error of validateArticle(article)) {
+      errors.push(`article ${index + 1}: ${error}`);
+    }
+  }
+  return errors;
+}
+
+export function splitSentences(body) {
+  return body
+    .replace(/\n+/g, " ")
+    .match(/[^.!?]+[.!?]/g)
+    ?.map(value => value.trim()) || [];
+}

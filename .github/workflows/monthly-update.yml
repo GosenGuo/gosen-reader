@@ -1,0 +1,60 @@
+name: Monthly content update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 2 1 * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monthly-content-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+      MINIMAX_BASE_URL: ${{ vars.MINIMAX_BASE_URL || 'https://api.minimax.io/v1' }}
+      MINIMAX_MODEL: ${{ vars.MINIMAX_MODEL || 'MiniMax-M2.5' }}
+      SEARCH_PROVIDER: bing-rss
+      TARGET_ARTICLE_COUNT: "30"
+      MAX_SEARCH_RESULTS: "80"
+      OUTPUT_PATH: ../docs/articles.json
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Ensure MiniMax secret exists
+        shell: bash
+        run: |
+          if [ -z "$MINIMAX_API_KEY" ]; then
+            echo "::error::Repository secret MINIMAX_API_KEY is missing"
+            exit 1
+          fi
+
+      - name: Generate and validate monthly package
+        working-directory: updater
+        run: |
+          node src/run.mjs
+          node src/check.mjs ../docs/articles.json
+
+      - name: Commit the validated package
+        shell: bash
+        run: |
+          if git diff --quiet -- docs/articles.json; then
+            echo "No content change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/articles.json
+          git commit -m "content: monthly reading package"
+          git push

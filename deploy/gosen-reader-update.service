@@ -1,0 +1,13 @@
+[Unit]
+Description=Generate the monthly Gosen Reader article package
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/gosen-reader/updater
+EnvironmentFile=/etc/gosen-reader-updater.env
+ExecStart=/usr/bin/node /opt/gosen-reader/updater/src/run.mjs
+User=gosen-reader
+Group=gosen-reader
+NoNewPrivileges=true
+PrivateTmp=true

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-29T00:00:00+08:00",
+  "articles": [
+    {
+      "id": "seed-library-map",
+      "title": "A Map That Changed the Library",
+      "source": "内置示例阅读",
+      "region": "高中英语",
+      "year": 2026,
+      "difficulty": "基础",
+      "body": "When Lina entered her new school, she found that the library was almost empty after class. Many students believed it had few useful books. However, Lina noticed that the real problem was not the collection but the confusing arrangement.\n\nShe drew a simple map showing where different subjects could be found and placed it beside the entrance. She also added small cards recommending books for beginners. Within two weeks, more students began visiting the library. Some came for homework, while others stayed because they had discovered stories they truly enjoyed.\n\nThe librarian thanked Lina, but she replied that she had only made the existing resources easier to see. Her small action showed that improvement does not always require something new. Sometimes it begins by helping people notice what is already there.",
+      "wordCount": 137,
+      "sentenceTranslations": {
+        "When Lina entered her new school, she found that the library was almost empty after class.": "当莉娜进入新学校时，她发现图书馆放学后几乎空无一人。",
+        "Many students believed it had few useful books.": "许多学生认为那里几乎没有有用的书。",
+        "However, Lina noticed that the real problem was not the collection but the confusing arrangement.": "然而，莉娜注意到真正的问题不是藏书，而是令人困惑的排列方式。",
+        "She drew a simple map showing where different subjects could be found and placed it beside the entrance.": "她画了一张简单的地图，标明不同学科的书在哪里，并把它放在入口旁。",
+        "She also added small cards recommending books for beginners.": "她还添加了为初学者推荐书籍的小卡片。",
+        "Within two weeks, more students began visiting the library.": "不到两周，更多学生开始来到图书馆。",
+        "Some came for homework, while others stayed because they had discovered stories they truly enjoyed.": "有些人来做作业，另一些人留下来，是因为他们发现了自己真正喜欢的故事。",
+        "The librarian thanked Lina, but she replied that she had only made the existing resources easier to see.": "图书管理员感谢莉娜，但她回答说，自己只是让现有资源更容易被看到。",
+        "Her small action showed that improvement does not always require something new.": "她的小小行动表明，改进并不总是需要新事物。",
+        "Sometimes it begins by helping people notice what is already there.": "有时，改进始于帮助人们注意到已经存在的东西。"
+      },
+      "glossary": {
+        "entered": {"lemma":"enter","translation":"进入","pos":"v.","forms":"enters · entered · entering","meanings":"进入；参加；输入"},
+        "empty": {"lemma":"empty","translation":"空的","pos":"adj.","forms":"emptier · emptiest; empty · emptied · emptying","meanings":"空的；无人居住的；倒空"},
+        "believed": {"lemma":"believe","translation":"认为","pos":"v.","forms":"believes · believed · believing","meanings":"相信；认为；信任"},
+        "useful": {"lemma":"useful","translation":"有用的","pos":"adj.","forms":"more useful · most useful","meanings":"有用的；有益的"},
+        "however": {"lemma":"however","translation":"然而","pos":"adv.","forms":"—","meanings":"然而；无论怎样"},
+        "noticed": {"lemma":"notice","translation":"注意到","pos":"v.","forms":"notices · noticed · noticing","meanings":"注意到；通知；布告"},
+        "collection": {"lemma":"collection","translation":"藏书","pos":"n.","forms":"collections","meanings":"收藏品；收集；一批物品；藏书"},
+        "confusing": {"lemma":"confusing","translation":"令人困惑的","pos":"adj.","forms":"confuse · confused · confusing","meanings":"令人困惑的；难以理解的"},
+        "arrangement": {"lemma":"arrangement","translation":"排列方式","pos":"n.","forms":"arrangements","meanings":"安排；排列；约定"},
+        "subjects": {"lemma":"subject","translation":"学科","pos":"n.","forms":"subjects","meanings":"学科；主题；实验对象"},
+        "placed": {"lemma":"place","translation":"放置","pos":"v.","forms":"places · placed · placing","meanings":"放置；安置；地点"},
+        "beside": {"lemma":"beside","translation":"在……旁边","pos":"prep.","forms":"—","meanings":"在旁边；与……相比"},
+        "entrance": {"lemma":"entrance","translation":"入口","pos":"n.","forms":"entrances","meanings":"入口；进入；入场权"},
+        "recommending": {"lemma":"recommend","translation":"推荐","pos":"v.","forms":"recommends · recommended · recommending","meanings":"推荐；建议"},
+        "beginners": {"lemma":"beginner","translation":"初学者","pos":"n.","forms":"beginners","meanings":"初学者；新手"},
+        "within": {"lemma":"within","translation":"在……之内","pos":"prep.","forms":"—","meanings":"在……以内；在内部"},
+        "visiting": {"lemma":"visit","translation":"到访","pos":"v.","forms":"visits · visited · visiting","meanings":"参观；拜访；访问"},
+        "while": {"lemma":"while","translation":"而","pos":"conj.","forms":"—","meanings":"当……时；而；尽管"},
+        "discovered": {"lemma":"discover","translation":"发现","pos":"v.","forms":"discovers · discovered · discovering","meanings":"发现；了解到"},
+        "truly": {"lemma":"truly","translation":"真正地","pos":"adv.","forms":"—","meanings":"真正地；确实"},
+        "librarian": {"lemma":"librarian","translation":"图书管理员","pos":"n.","forms":"librarians","meanings":"图书管理员"},
+        "replied": {"lemma":"reply","translation":"回答","pos":"v.","forms":"replies · replied · replying","meanings":"回答；答复"},
+        "existing": {"lemma":"existing","translation":"现有的","pos":"adj.","forms":"exist · exists · existed · existing","meanings":"现存的；目前的"},
+        "resources": {"lemma":"resource","translation":"资源","pos":"n.","forms":"resources","meanings":"资源；资料；财力"},
+        "action": {"lemma":"action","translation":"行动","pos":"n.","forms":"actions","meanings":"行动；行为；作用"},
+        "improvement": {"lemma":"improvement","translation":"改进","pos":"n.","forms":"improvements","meanings":"改善；提高；改进之处"},
+        "require": {"lemma":"require","translation":"需要","pos":"v.","forms":"requires · required · requiring","meanings":"需要；要求"},
+        "notice": {"lemma":"notice","translation":"注意到","pos":"v.","forms":"notices · noticed · noticing","meanings":"注意到；通知；布告"},
+        "already": {"lemma":"already","translation":"已经","pos":"adv.","forms":"—","meanings":"已经；早已"}
+      },
+      "questions": [
+        {
+          "prompt": "Why was the library almost empty after class?",
+          "options": ["It had no librarian.", "Its books were badly arranged.", "Students were not allowed inside.", "The school had closed it."],
+          "answer": 1,
+          "explanation": "第三句指出，真正的问题不是藏书数量，而是令人困惑的排列方式。"
+        },
+        {
+          "prompt": "What did Lina do first to improve the situation?",
+          "options": ["She bought new books.", "She asked students to donate.", "She made a map of the library.", "She changed the opening hours."],
+          "answer": 2,
+          "explanation": "第二段开头说明她画了一张地图，标明不同学科书籍的位置。"
+        },
+        {
+          "prompt": "What can we learn from Lina's experience?",
+          "options": ["Small changes can make existing resources more useful.", "Every school needs a larger library.", "Students prefer stories to homework.", "New resources are always necessary."],
+          "answer": 0,
+          "explanation": "末段强调改进不一定需要新事物，也可以从让现有资源更易被发现开始。"
+        }
+      ]
+    },
+    {
+      "id": "seed-walk-to-school",
+      "title": "The Longer Way to School",
+      "source": "内置示例阅读",
+      "region": "高中英语",
+      "year": 2026,
+      "difficulty": "基础",
+      "body": "Every morning, Chen Yu used to take the shortest road to school. One rainy day, construction work blocked that road, so he followed a longer path beside a small river. At first he worried about arriving late, but the quiet view soon changed his mood.\n\nAlong the path, he saw shop owners preparing for the day, older people exercising, and birds resting near the water. The walk took only eight minutes more than usual. After the road reopened, Chen Yu continued using the riverside path twice a week. He realized that efficiency is valuable, but the fastest choice is not always the most rewarding one.",
+      "wordCount": 103,
+      "sentenceTranslations": {
+        "Every morning, Chen Yu used to take the shortest road to school.": "每天早晨，陈宇过去总走最短的路去学校。",
+        "One rainy day, construction work blocked that road, so he followed a longer path beside a small river.": "一个雨天，施工堵住了那条路，所以他沿着一条小河旁更长的小路走。",
+        "At first he worried about arriving late, but the quiet view soon changed his mood.": "起初他担心迟到，但宁静的景色很快改变了他的心情。",
+        "Along the path, he saw shop owners preparing for the day, older people exercising, and birds resting near the water.": "沿途，他看见店主为一天做准备、老人锻炼以及鸟儿在水边休息。",
+        "The walk took only eight minutes more than usual.": "这段路只比平时多花八分钟。",
+        "After the road reopened, Chen Yu continued using the riverside path twice a week.": "道路重新开放后，陈宇仍然每周走两次河边小路。",
+        "He realized that efficiency is valuable, but the fastest choice is not always the most rewarding one.": "他意识到效率很有价值，但最快的选择并不总是最有收获的选择。"
+      },
+      "glossary": {
+        "shortest": {"lemma":"short","translation":"最短的","pos":"adj.","forms":"short · shorter · shortest","meanings":"短的；不足的；简短的"},
+        "construction": {"lemma":"construction","translation":"施工","pos":"n.","forms":"constructions","meanings":"建造；建筑；施工"},
+        "blocked": {"lemma":"block","translation":"堵住","pos":"v.","forms":"blocks · blocked · blocking","meanings":"阻挡；堵塞；街区"},
+        "followed": {"lemma":"follow","translation":"沿着……行进","pos":"v.","forms":"follows · followed · following","meanings":"跟随；沿着；理解"},
+        "path": {"lemma":"path","translation":"小路","pos":"n.","forms":"paths","meanings":"小路；路线；途径"},
+        "worried": {"lemma":"worry","translation":"担心","pos":"v.","forms":"worries · worried · worrying","meanings":"担心；使焦虑"},
+        "view": {"lemma":"view","translation":"景色","pos":"n.","forms":"views · viewed · viewing","meanings":"景色；观点；观看"},
+        "mood": {"lemma":"mood","translation":"心情","pos":"n.","forms":"moods","meanings":"心情；气氛"},
+        "preparing": {"lemma":"prepare","translation":"准备","pos":"v.","forms":"prepares · prepared · preparing","meanings":"准备；使做好准备"},
+        "exercising": {"lemma":"exercise","translation":"锻炼","pos":"v.","forms":"exercises · exercised · exercising","meanings":"锻炼；练习；行使"},
+        "usual": {"lemma":"usual","translation":"通常的","pos":"adj.","forms":"—","meanings":"通常的；惯常的"},
+        "reopened": {"lemma":"reopen","translation":"重新开放","pos":"v.","forms":"reopens · reopened · reopening","meanings":"重新开放；重新开始"},
+        "continued": {"lemma":"continue","translation":"继续","pos":"v.","forms":"continues · continued · continuing","meanings":"继续；延续"},
+        "riverside": {"lemma":"riverside","translation":"河边的","pos":"adj.","forms":"—","meanings":"河边；河畔的"},
+        "realized": {"lemma":"realize","translation":"意识到","pos":"v.","forms":"realizes · realized · realizing","meanings":"意识到；实现"},
+        "efficiency": {"lemma":"efficiency","translation":"效率","pos":"n.","forms":"efficiencies","meanings":"效率；效能"},
+        "valuable": {"lemma":"valuable","translation":"有价值的","pos":"adj.","forms":"more valuable · most valuable","meanings":"有价值的；贵重的"},
+        "rewarding": {"lemma":"rewarding","translation":"有收获的","pos":"adj.","forms":"reward · rewarded · rewarding","meanings":"值得的；有益的；有回报的"}
+      },
+      "questions": [
+        {
+          "prompt": "Why did Chen Yu first take the riverside path?",
+          "options": ["He wanted to exercise.", "The usual road was blocked.", "His friend recommended it.", "He was looking for birds."],
+          "answer": 1,
+          "explanation": "第一段说明施工堵住了原来的路，因此他改走河边小路。"
+        },
+        {
+          "prompt": "What changed Chen Yu's mood?",
+          "options": ["The quiet view.", "The rainy weather.", "The shop owners.", "The shorter journey."],
+          "answer": 0,
+          "explanation": "原文直接说 the quiet view soon changed his mood。"
+        },
+        {
+          "prompt": "What is the main message of the passage?",
+          "options": ["Always choose the shortest road.", "Walking is better than studying.", "A slower choice may offer unexpected value.", "Construction work improves daily life."],
+          "answer": 2,
+          "explanation": "文章结尾指出，最快的选择并不总是最有收获的。"
+        }
+      ]
+    }
+  ]
+}

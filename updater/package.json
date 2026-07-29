@@ -1,0 +1,13 @@
+{
+  "name": "gosen-reader-updater",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node src/run.mjs",
+    "check": "node src/check.mjs ../app/src/main/assets/articles.json"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
