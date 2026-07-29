@@ -21,7 +21,9 @@ const wordBank = await loadWordBank(wordBankPath);
 
 console.log(`Starting monthly update; target=${targetCount}`);
 const queries = await planQueries();
+console.log(`Searching with ${queries.length} query phrases`);
 const candidates = await collectCandidates(queries);
+console.log(`Collected ${candidates.length} candidate pages`);
 const articles = [];
 const seenIds = new Set();
 
@@ -81,12 +83,16 @@ await publishIfConfigured(payload);
 
 async function planQueries() {
   const planned = await minimax.json(
-    "你是高中英语阅读题搜索规划器。只输出JSON数组，不回答其他内容。",
-    `为中国高中生寻找互联网上已有的完整英语阅读理解题。需要覆盖高考真题、各省市模拟考、联考、期中和期末试卷。生成10条适合中文网页搜索引擎的检索词，优先寻找含完整英文文章、四选一题目和答案的网页。年份不重要。输出字符串数组。`,
+    `You plan web searches for existing Chinese high-school English reading-comprehension questions.
+Return a JSON array of strings only. Do not add explanations or markdown.`,
+    `Create 20 search phrases suitable for a Chinese web search engine.
+Find pages containing a complete English passage, multiple-choice questions, answer choices, and confirmed answers.
+Include Gaokao papers, provincial or city mock exams, joint exams, midterms, and final exams. The year does not matter.
+Use Chinese search phrases and vary source types. Prefer HTML pages over PDF files.`,
     0.3
   );
   if (!Array.isArray(planned)) throw new Error("Query planner did not return an array");
-  return planned.slice(0, 12).map(String);
+  return planned.slice(0, 12).map(String).filter(Boolean);
 }
 
 async function collectCandidates(queries) {
@@ -94,6 +100,7 @@ async function collectCandidates(queries) {
   for (const query of queries) {
     try {
       const results = await search.search(query, 10);
+      console.log(`  search "${query}" -> ${results.length} result(s)`);
       for (const result of results) {
         if (!found.has(result.url)) found.set(result.url, result);
         if (found.size >= maxSearchResults) break;
@@ -108,30 +115,36 @@ async function collectCandidates(queries) {
 
 async function extractArticle(page) {
   const result = await minimax.json(
-    `你负责从网页中提取“已经存在”的高中英语四选一阅读理解题，绝不补写、续写或虚构缺失内容。
-只输出JSON。若网页没有一篇完整可用的阅读题，输出 {"usable":false}。
-若可用，输出：
-{"usable":true,"title":"","source":"","region":"","year":2020,"difficulty":"基础|高考|较难","body":"完整英文文章","questions":[{"prompt":"英文题干","options":["A选项正文","B选项正文","C选项正文","D选项正文"],"answer":0,"explanation":"基于原文的中文简析"}]}
-answer使用0到3。网页没有明确答案时必须输出usable=false。不要把网页导航、广告或中文解析混进body。`,
-    `网页标题：${page.title}\n来源网址：${page.url}\n\n网页正文：\n${page.text}`,
+    `Extract one already-existing high-school English multiple-choice reading question from a web page.
+Never invent, complete, continue, or rewrite missing passage or question text.
+Return JSON only. If the page lacks a complete passage, at least two questions, four choices per question, or confirmed answers, return {"usable":false}.
+If usable, return:
+{"usable":true,"title":"","source":"","region":"","year":2020,"difficulty":"基础|高考|较难","body":"complete original English passage","questions":[{"prompt":"original English question","options":["option A text","option B text","option C text","option D text"],"answer":0,"explanation":"brief Chinese explanation grounded in the passage"}]}
+Use answer indexes 0 to 3. Keep navigation, advertisements, and Chinese commentary out of body.`,
+    `Page title: ${page.title}
+Source URL: ${page.url}
+
+Page text:
+${page.text}`,
     0
   );
   return result?.usable ? result : null;
 }
 
 async function enrichArticle(extracted, page) {
-  const result = await minimax.json(
-    `你是高中英语阅读数据处理器。保留输入文章与题目原文，不得改写。
-只输出一个JSON对象，并保留输入中的title、source、region、year、difficulty、body、questions字段。
-增加sentenceTranslations和glossary字段。
-sentenceTranslations：以文章中每个完整英文句子原文为键，以自然、准确的中文整句翻译为值，键必须逐字符来自原文。
-glossary：为文章每个不同的英文单词建立条目，以正文中小写词形为键。值格式：
-{"lemma":"原形","translation":"该词在本句中的中文含义","pos":"词性缩写","forms":"高考常见词形变化","meanings":"3至6个高考常见含义，用；分隔"}
-同一个词在不同句子含义不同时，以文章首次出现的语境义作为translation；meanings包含其他常见义。不要遗漏冠词、介词等基础词。`,
+  return minimax.json(
+    `Convert an existing high-school English reading question into app data.
+Preserve the supplied article and questions exactly. Return one JSON object only, retaining title, source, region, year, difficulty, body, and questions.
+
+Add sentenceTranslations: copy every complete English sentence from body exactly as a key and give a natural, accurate Chinese full-sentence translation as its value.
+
+Add glossary: include every distinct English word in body, keyed by its lowercase surface form. Each value must contain:
+{"lemma":"base form","translation":"best Chinese meaning in its first occurrence","pos":"part of speech in its first occurrence","forms":"common exam-relevant forms, or 无常见变形","meanings":"3-5 common Chinese meanings separated by ；","contexts":{"exact sentence copied from body":{"translation":"only the exact Chinese meaning in this sentence","pos":"part of speech in this sentence"}}}
+
+The contexts object must cover every distinct sentence in which the word occurs. Determine different senses separately. For example, figure may mean 数字 or 人物 as a noun and 认为 as a verb depending on its sentence. Do not omit articles, prepositions, pronouns, or other basic words.`,
     JSON.stringify({ ...extracted, sourceUrl: page.url }),
     0
   );
-  return result;
 }
 
 async function publishIfConfigured(payload) {
