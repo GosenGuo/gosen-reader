@@ -18,6 +18,7 @@ import {
 
 const targetCount = Number(process.env.TARGET_ARTICLE_COUNT || 30);
 const maxSearchResults = Number(process.env.MAX_SEARCH_RESULTS || 80);
+const maxCandidateAttempts = Number(process.env.MAX_CANDIDATE_ATTEMPTS || Math.max(targetCount * 3, 3));
 const outputPath = path.resolve(process.env.OUTPUT_PATH || "./dist/articles.json");
 const wordBankPath = path.resolve(process.env.WORD_BANK_PATH || "./dist/word-bank.json");
 
@@ -28,12 +29,14 @@ const wordBank = await loadWordBank(wordBankPath);
 console.log(`Starting monthly update; target=${targetCount}`);
 const candidates = await findCandidates();
 console.log(`Collected ${candidates.length} candidate pages`);
+const attemptedCandidates = candidates.slice(0, maxCandidateAttempts);
+console.log(`Attempt budget: ${attemptedCandidates.length} candidate(s)`);
 const articles = [];
 const seenIds = new Set();
 
-for (const [index, candidate] of candidates.entries()) {
+for (const [index, candidate] of attemptedCandidates.entries()) {
   if (articles.length >= targetCount) break;
-  console.log(`[${index + 1}/${candidates.length}] Reading ${candidate.url}`);
+  console.log(`[${index + 1}/${attemptedCandidates.length}] Reading ${candidate.url}`);
   try {
     const page = candidate.structured
       ? { ...candidate, text: candidate.structured.body }
