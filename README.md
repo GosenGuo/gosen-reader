@@ -15,6 +15,7 @@
 - 当前连续天数、最长连续天数、累计文章、累计词数和点击次数
 - 所有学习记录保存在手机本地
 - App 启动时每 28 天检查一次远程题库，失败时继续使用已有题库
+- 生成时自动检查每个可点击单词，缺失词义会由 AI 补齐并写入公共单词表
 - 动态适配状态栏、挖孔、折叠屏和底部手势安全区域
 - 内置两篇无需联网即可体验的示例文章
 
@@ -77,9 +78,10 @@ API Key 不能放进 APK。App 只读取生成后的题库，MiniMax 和搜索 A
 3. 自动下载和清理网页；
 4. MiniMax 只提取网页里已经存在的文章、题目、选项和答案；
 5. MiniMax 生成逐词数据、常见词形、整句翻译和简析；
-6. 检查文章长度、四个选项、答案、翻译覆盖率、词卡覆盖率和重复内容；
-7. 合格文章达到约 30 篇后生成 `articles.json`；
-8. 提交到 GitHub Pages，App 下次检查时自动取得。
+6. 扫描文章中的每个可点击单词，自动补齐缺失词卡并更新 `word-bank.json`；
+7. 检查文章长度、四个选项、答案、翻译覆盖率、词卡 100% 覆盖和重复内容；
+8. 合格文章达到约 30 篇后生成 `articles.json`；
+9. 提交题库和公共单词表到 GitHub Pages，App 下次检查时自动取得。
 
 执行：
 
@@ -96,6 +98,12 @@ node src/run.mjs
 
 ```text
 https://gosenguo.github.io/gosen-reader/articles.json
+```
+
+公共单词表地址：
+
+```text
+https://gosenguo.github.io/gosen-reader/word-bank.json
 ```
 
 中国大陆网络若访问 GitHub Pages 不稳定，可以使用 VPN。API 密钥只存在 GitHub Secrets，不进入代码仓库和手机。

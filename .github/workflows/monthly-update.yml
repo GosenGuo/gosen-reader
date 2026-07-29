@@ -2,6 +2,11 @@ name: Monthly content update
 
 on:
   workflow_dispatch:
+    inputs:
+      target_count:
+        description: "Number of articles for a manual test/update"
+        required: true
+        default: "3"
   schedule:
     - cron: "20 2 1 * *"
 
@@ -21,9 +26,10 @@ jobs:
       MINIMAX_BASE_URL: ${{ vars.MINIMAX_BASE_URL || 'https://api.minimax.io/v1' }}
       MINIMAX_MODEL: ${{ vars.MINIMAX_MODEL || 'MiniMax-M2.5' }}
       SEARCH_PROVIDER: bing-rss
-      TARGET_ARTICLE_COUNT: "30"
-      MAX_SEARCH_RESULTS: "80"
+      TARGET_ARTICLE_COUNT: ${{ github.event_name == 'schedule' && '30' || inputs.target_count }}
+      MAX_SEARCH_RESULTS: ${{ github.event_name == 'schedule' && '80' || '20' }}
       OUTPUT_PATH: ../docs/articles.json
+      WORD_BANK_PATH: ../docs/word-bank.json
 
     steps:
       - uses: actions/checkout@v4
@@ -44,17 +50,17 @@ jobs:
         working-directory: updater
         run: |
           node src/run.mjs
-          node src/check.mjs ../docs/articles.json
+          node src/check.mjs ../docs/articles.json ../docs/word-bank.json
 
       - name: Commit the validated package
         shell: bash
         run: |
-          if git diff --quiet -- docs/articles.json; then
+          if git diff --quiet -- docs/articles.json docs/word-bank.json; then
             echo "No content change"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/articles.json
+          git add docs/articles.json docs/word-bank.json
           git commit -m "content: monthly reading package"
           git push

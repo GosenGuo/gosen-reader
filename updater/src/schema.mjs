@@ -1,4 +1,8 @@
 import crypto from "node:crypto";
+import {
+  extractUniqueWords,
+  findIncompleteWords
+} from "./word-bank.mjs";
 
 export function normalizeArticle(raw, source) {
   const body = String(raw.body || "").replace(/\r/g, "").trim();
@@ -49,14 +53,13 @@ export function validateArticle(article) {
   if (translated < Math.max(1, Math.floor(sentences.length * 0.85))) {
     errors.push("sentence translations cover less than 85%");
   }
-  const uniqueWords = new Set(
-    (article.body.match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g) || [])
-      .map(word => word.toLowerCase().replace("’", "'"))
-  );
-  const glossaryCoverage = [...uniqueWords]
-    .filter(word => article.glossary[word]).length / Math.max(1, uniqueWords.size);
-  if (!article.source.startsWith("内置示例") && glossaryCoverage < 0.72) {
-    errors.push("glossary coverage below 72%");
+  const uniqueWords = extractUniqueWords(article.body);
+  const incompleteWords = findIncompleteWords(article);
+  if (!article.source.startsWith("内置示例") && incompleteWords.length > 0) {
+    errors.push(
+      `glossary incomplete for ${incompleteWords.length}/${uniqueWords.length} word(s): `
+      + incompleteWords.slice(0, 12).join(", ")
+    );
   }
   return errors;
 }

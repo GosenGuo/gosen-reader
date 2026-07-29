@@ -3,13 +3,21 @@ import path from "node:path";
 import { MiniMaxClient } from "./minimax.mjs";
 import { WebSearchClient, downloadReadablePage } from "./search.mjs";
 import { normalizeArticle, validateArticle, validatePackage } from "./schema.mjs";
+import {
+  loadWordBank,
+  mergeArticleIntoWordBank,
+  repairArticleGlossary,
+  validateWordBank
+} from "./word-bank.mjs";
 
 const targetCount = Number(process.env.TARGET_ARTICLE_COUNT || 30);
 const maxSearchResults = Number(process.env.MAX_SEARCH_RESULTS || 80);
 const outputPath = path.resolve(process.env.OUTPUT_PATH || "./dist/articles.json");
+const wordBankPath = path.resolve(process.env.WORD_BANK_PATH || "./dist/word-bank.json");
 
 const minimax = new MiniMaxClient();
 const search = new WebSearchClient();
+const wordBank = await loadWordBank(wordBankPath);
 
 console.log(`Starting monthly update; target=${targetCount}`);
 const queries = await planQueries();
@@ -27,6 +35,7 @@ for (const [index, candidate] of candidates.entries()) {
     if (!extracted) continue;
     const enriched = await enrichArticle(extracted, page);
     const article = normalizeArticle(enriched, page);
+    await repairArticleGlossary(article, minimax, wordBank);
     const errors = validateArticle(article);
     if (seenIds.has(article.id) || errors.length) {
       console.log(`  rejected: ${seenIds.has(article.id) ? "duplicate" : errors.join("; ")}`);
@@ -34,6 +43,7 @@ for (const [index, candidate] of candidates.entries()) {
     }
     seenIds.add(article.id);
     articles.push(article);
+    mergeArticleIntoWordBank(article, wordBank);
     console.log(`  accepted: ${article.title} (${article.wordCount} words)`);
   } catch (error) {
     console.warn(`  skipped: ${error.message}`);
@@ -56,10 +66,17 @@ const packageErrors = validatePackage(payload);
 if (packageErrors.length) {
   throw new Error(`Package validation failed:\n${packageErrors.join("\n")}`);
 }
+const wordBankErrors = validateWordBank(wordBank);
+if (wordBankErrors.length) {
+  throw new Error(`Word bank validation failed:\n${wordBankErrors.join("\n")}`);
+}
 
 await fs.mkdir(path.dirname(outputPath), { recursive: true });
 await fs.writeFile(outputPath, JSON.stringify(payload, null, 2), "utf8");
+await fs.mkdir(path.dirname(wordBankPath), { recursive: true });
+await fs.writeFile(wordBankPath, JSON.stringify(wordBank, null, 2), "utf8");
 console.log(`Wrote ${articles.length} articles to ${outputPath}`);
+console.log(`Wrote ${Object.keys(wordBank.words).length} words to ${wordBankPath}`);
 await publishIfConfigured(payload);
 
 async function planQueries() {

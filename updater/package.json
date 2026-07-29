@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "update": "node src/run.mjs",
-    "check": "node src/check.mjs ../app/src/main/assets/articles.json"
+    "check": "node src/check.mjs ../app/src/main/assets/articles.json ../docs/word-bank.json",
+    "test": "node --test"
   },
   "engines": {
     "node": ">=20"

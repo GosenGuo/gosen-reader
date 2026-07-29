@@ -68,7 +68,7 @@ final class ContentRepository {
                 if (status >= 200 && status < 300) {
                     String raw = readAll(connection.getInputStream());
                     JSONObject payload = new JSONObject(raw);
-                    validate(payload);
+                    validate(payload, true);
                     try (FileOutputStream output = context.openFileOutput(STORE_FILE, Context.MODE_PRIVATE)) {
                         output.write(raw.getBytes(StandardCharsets.UTF_8));
                     }
@@ -96,14 +96,14 @@ final class ContentRepository {
                     : context.getAssets().open(STORE_FILE);
             String raw = readAll(input);
             JSONObject payload = new JSONObject(raw);
-            validate(payload);
+            validate(payload, downloaded.exists());
             articles = payload.getJSONArray("articles");
         } catch (Exception error) {
             articles = new JSONArray();
         }
     }
 
-    private static void validate(JSONObject payload) throws Exception {
+    private static void validate(JSONObject payload, boolean requireCompleteGlossary) throws Exception {
         if (payload.optInt("schemaVersion") != 1) throw new Exception("Unsupported schema");
         JSONArray list = payload.getJSONArray("articles");
         if (list.length() == 0) throw new Exception("Empty article package");
@@ -116,7 +116,48 @@ final class ContentRepository {
                     || item.optJSONArray("questions").length() == 0) {
                 throw new Exception("Invalid article at index " + i);
             }
+            if (requireCompleteGlossary) {
+                validateGlossary(item, i);
+            }
         }
+    }
+
+    private static void validateGlossary(JSONObject article, int articleIndex) throws Exception {
+        JSONObject glossary = article.optJSONObject("glossary");
+        if (glossary == null) throw new Exception("Missing glossary at index " + articleIndex);
+        java.util.regex.Matcher matcher = java.util.regex.Pattern
+                .compile("[A-Za-z]+(?:['’][A-Za-z]+)*")
+                .matcher(article.optString("body"));
+        while (matcher.find()) {
+            String key = matcher.group().toLowerCase(java.util.Locale.ROOT).replace('’', '\'');
+            JSONObject entry = glossary.optJSONObject(key);
+            if (entry == null
+                    || entry.optString("lemma").trim().isEmpty()
+                    || entry.optString("translation").trim().isEmpty()
+                    || entry.optString("pos").trim().isEmpty()
+                    || entry.optString("forms").trim().isEmpty()
+                    || entry.optString("meanings").trim().isEmpty()) {
+                throw new Exception("Incomplete glossary word " + key + " at index " + articleIndex);
+            }
+            String sentence = findSentence(article.optString("body"), matcher.start());
+            JSONObject contexts = entry.optJSONObject("contexts");
+            JSONObject context = contexts == null ? null : contexts.optJSONObject(sentence);
+            if (context == null
+                    || context.optString("translation").trim().isEmpty()
+                    || context.optString("pos").trim().isEmpty()) {
+                throw new Exception("Incomplete contextual meaning for " + key
+                        + " at index " + articleIndex);
+            }
+        }
+    }
+
+    private static String findSentence(String body, int index) {
+        int start = index;
+        while (start > 0 && ".!?".indexOf(body.charAt(start - 1)) < 0) start--;
+        int end = index;
+        while (end < body.length() && ".!?".indexOf(body.charAt(end)) < 0) end++;
+        if (end < body.length()) end++;
+        return body.substring(start, end).trim();
     }
 
     private static String readAll(InputStream input) throws Exception {

@@ -360,6 +360,8 @@ public class MainActivity extends Activity {
         String key = displayedWord.toLowerCase(Locale.ROOT).replace('’', '\'');
         JSONObject entry = glossary == null ? null : glossary.optJSONObject(key);
         if (entry == null) entry = commonEntry(key);
+        JSONObject contexts = entry == null ? null : entry.optJSONObject("contexts");
+        JSONObject contextEntry = contexts == null ? null : contexts.optJSONObject(sentence);
 
         String lemma = entry != null ? entry.optString("lemma", key) : roughLemma(key);
         int history = prefs.getInt("click:" + lemma, 0) + 1;
@@ -381,10 +383,14 @@ public class MainActivity extends Activity {
                 13, MUTED, false));
         sheet.addView(space(16));
 
-        String translation = entry == null ? "该词释义待题库处理器补充"
+        String translation = contextEntry != null
+                ? contextEntry.optString("translation", entry.optString("translation"))
+                : entry == null ? "该词释义待题库处理器补充"
                 : entry.optString("translation");
         sheet.addView(label(translation, 24, GREEN, true));
-        String pos = entry == null ? "—" : entry.optString("pos", "—");
+        String pos = contextEntry != null
+                ? contextEntry.optString("pos", entry.optString("pos", "—"))
+                : entry == null ? "—" : entry.optString("pos", "—");
         sheet.addView(label("词性  " + pos, 14, MUTED, false));
         sheet.addView(space(14));
 
