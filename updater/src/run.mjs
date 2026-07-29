@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { MiniMaxClient } from "./minimax.mjs";
+import { AiClient } from "./ai.mjs";
 import { WebSearchClient, downloadReadablePage } from "./search.mjs";
 import { normalizeArticle, validateArticle, validatePackage } from "./schema.mjs";
 import {
@@ -15,7 +15,7 @@ const maxSearchResults = Number(process.env.MAX_SEARCH_RESULTS || 80);
 const outputPath = path.resolve(process.env.OUTPUT_PATH || "./dist/articles.json");
 const wordBankPath = path.resolve(process.env.WORD_BANK_PATH || "./dist/word-bank.json");
 
-const minimax = new MiniMaxClient();
+const ai = new AiClient();
 const search = new WebSearchClient();
 const wordBank = await loadWordBank(wordBankPath);
 
@@ -37,7 +37,7 @@ for (const [index, candidate] of candidates.entries()) {
     if (!extracted) continue;
     const enriched = await enrichArticle(extracted, page);
     const article = normalizeArticle(enriched, page);
-    await repairArticleGlossary(article, minimax, wordBank);
+    await repairArticleGlossary(article, ai, wordBank);
     const errors = validateArticle(article);
     if (seenIds.has(article.id) || errors.length) {
       console.log(`  rejected: ${seenIds.has(article.id) ? "duplicate" : errors.join("; ")}`);
@@ -82,7 +82,7 @@ console.log(`Wrote ${Object.keys(wordBank.words).length} words to ${wordBankPath
 await publishIfConfigured(payload);
 
 async function planQueries() {
-  const planned = await minimax.json(
+  const planned = await ai.json(
     `You plan web searches for existing Chinese high-school English reading-comprehension questions.
 Return a JSON array of strings only. Do not add explanations or markdown.`,
     `Create 20 search phrases suitable for a Chinese web search engine.
@@ -114,7 +114,7 @@ async function collectCandidates(queries) {
 }
 
 async function extractArticle(page) {
-  const result = await minimax.json(
+  const result = await ai.json(
     `Extract one already-existing high-school English multiple-choice reading question from a web page.
 Never invent, complete, continue, or rewrite missing passage or question text.
 Return JSON only. If the page lacks a complete passage, at least two questions, four choices per question, or confirmed answers, return {"usable":false}.
@@ -132,7 +132,7 @@ ${page.text}`,
 }
 
 async function enrichArticle(extracted, page) {
-  return minimax.json(
+  return ai.json(
     `Convert an existing high-school English reading question into app data.
 Preserve the supplied article and questions exactly. Return one JSON object only, retaining title, source, region, year, difficulty, body, and questions.
 

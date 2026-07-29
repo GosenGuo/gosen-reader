@@ -1,0 +1,35 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+import { AiClient } from "../src/ai.mjs";
+
+test("uses the configured OpenAI-compatible relay and allowed model", async () => {
+  const originalFetch = globalThis.fetch;
+  let requestedUrl = "";
+  let requestedBody;
+  globalThis.fetch = async (url, options) => {
+    requestedUrl = String(url);
+    requestedBody = JSON.parse(options.body);
+    return new Response(JSON.stringify({
+      choices: [{ message: { content: "{\"ok\":true}" } }]
+    }), {
+      status: 200,
+      headers: { "Content-Type": "application/json" }
+    });
+  };
+  try {
+    const client = new AiClient({
+      AI_API_KEY: "test-only",
+      AI_BASE_URL: "https://xcode.best/v1",
+      AI_MODEL: "deepseek-v4-flash"
+    });
+    assert.deepEqual(await client.json("system", "user"), { ok: true });
+    assert.equal(requestedUrl, "https://xcode.best/v1/chat/completions");
+    assert.equal(requestedBody.model, "deepseek-v4-flash");
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("requires the relay secret", () => {
+  assert.throws(() => new AiClient({}), /AI_API_KEY is required/);
+});

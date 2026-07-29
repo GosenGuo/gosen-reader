@@ -46,7 +46,7 @@ export class WebSearchClient {
       "User-Agent": "Mozilla/5.0 (compatible; GosenReaderBot/0.2; personal study)",
       "Accept": "application/rss+xml,application/xml,text/html;q=0.9"
     };
-    const rssUrl = `https://cn.bing.com/search?format=rss&q=${encodeURIComponent(query)}`;
+    const rssUrl = `https://www.bing.com/search?format=rss&mkt=zh-CN&setlang=zh-hans&q=${encodeURIComponent(query)}`;
     const response = await fetch(rssUrl, {
       headers,
       signal: AbortSignal.timeout(30_000)
@@ -58,7 +58,7 @@ export class WebSearchClient {
     const rssResults = parseBingRss(xml, count);
     if (rssResults.length) return rssResults;
 
-    const htmlUrl = `https://cn.bing.com/search?q=${encodeURIComponent(query)}`;
+    const htmlUrl = `https://www.bing.com/search?mkt=zh-CN&setlang=zh-hans&q=${encodeURIComponent(query)}`;
     const htmlResponse = await fetch(htmlUrl, {
       headers: {
         ...headers,
