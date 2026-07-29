@@ -7,7 +7,7 @@ import { loadRaceCandidates, normalizeRaceRecord } from "../src/race-source.mjs"
 
 const sample = {
   id: "high123.txt",
-  article: "This is a complete high-school English reading passage. ".repeat(14),
+  article: "This is a complete high-school English reading passage. ".repeat(30),
   questions: ["What is the passage mainly about?", "What can we infer?"],
   options: [
     ["Choice A", "Choice B", "Choice C", "Choice D"],

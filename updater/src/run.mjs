@@ -155,19 +155,31 @@ ${page.text}`,
 }
 
 async function enrichArticle(extracted, page) {
-  return ai.json(
-    `Convert an existing high-school English reading question into app data.
-Preserve the supplied article and questions exactly. Return one JSON object only, retaining title, source, region, year, difficulty, body, and questions.
-
-Add sentenceTranslations: copy every complete English sentence from body exactly as a key and give a natural, accurate Chinese full-sentence translation as its value.
-
-Add glossary: include every distinct English word in body, keyed by its lowercase surface form. Each value must contain:
-{"lemma":"base form","translation":"best Chinese meaning in its first occurrence","pos":"part of speech in its first occurrence","forms":"common exam-relevant forms, or 无常见变形","meanings":"3-5 common Chinese meanings separated by ；","contexts":{"exact sentence copied from body":{"translation":"only the exact Chinese meaning in this sentence","pos":"part of speech in this sentence"}}}
-
-The contexts object must cover every distinct sentence in which the word occurs. Determine different senses separately. For example, figure may mean 数字 or 人物 as a noun and 认为 as a verb depending on its sentence. Do not omit articles, prepositions, pronouns, or other basic words.`,
-    JSON.stringify({ ...extracted, sourceUrl: page.url }),
+  const additions = await ai.json(
+    `Prepare compact Chinese support data for one existing high-school English reading question.
+Return exactly one JSON object:
+{"sentenceTranslations":{"exact complete English sentence copied from body":"natural Chinese full-sentence translation"},"questionExplanations":["brief Chinese explanation for question 1 grounded in the passage","..."]}
+Cover every complete sentence. Keep sentence keys byte-for-byte identical to the supplied body. Return one explanation for every question, in order. Do not return the article, questions, glossary, markdown, or commentary.`,
+    JSON.stringify({
+      body: extracted.body,
+      questions: extracted.questions.map(question => ({
+        prompt: question.prompt,
+        options: question.options,
+        answer: question.answer
+      }))
+    }),
     0
   );
+  return {
+    ...extracted,
+    sourceUrl: page.url,
+    sentenceTranslations: additions?.sentenceTranslations || {},
+    glossary: {},
+    questions: extracted.questions.map((question, index) => ({
+      ...question,
+      explanation: String(additions?.questionExplanations?.[index] || "").trim()
+    }))
+  };
 }
 
 async function publishIfConfigured(payload) {

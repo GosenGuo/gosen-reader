@@ -27,10 +27,11 @@ export async function loadRaceCandidates(root, limit, seed = currentMonthSeed())
 
 export function normalizeRaceRecord(record, fallbackId = "race-high") {
   const article = String(record?.article || "").trim();
+  const wordCount = article.match(/[A-Za-z]+(?:'[A-Za-z]+)*/g)?.length || 0;
   const questions = Array.isArray(record?.questions) ? record.questions : [];
   const options = Array.isArray(record?.options) ? record.options : [];
   const answers = Array.isArray(record?.answers) ? record.answers : [];
-  if (article.length < 500 || questions.length < 2) return null;
+  if (wordCount < 180 || wordCount > 420 || questions.length < 2) return null;
   if (questions.length !== options.length || questions.length !== answers.length) return null;
 
   const normalizedQuestions = questions.map((prompt, index) => {
