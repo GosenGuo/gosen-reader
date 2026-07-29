@@ -34,7 +34,13 @@ export class MiniMaxClient {
     }
     const payload = await response.json();
     const content = payload.choices?.[0]?.message?.content;
-    if (!content) throw new Error("MiniMax returned no message content");
+    if (!content) {
+      const code = payload.base_resp?.status_code ?? payload.error?.code ?? "unknown";
+      const message = payload.base_resp?.status_msg
+        ?? payload.error?.message
+        ?? "empty response";
+      throw new Error(`MiniMax returned no message content (${code}: ${message})`);
+    }
     return parseJson(content);
   }
 }
