@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { AiClient } from "./ai.mjs";
 import { WebSearchClient, downloadReadablePage } from "./search.mjs";
+import { loadRaceCandidates } from "./race-source.mjs";
 import { normalizeArticle, validateArticle, validatePackage } from "./schema.mjs";
 import {
   loadWordBank,
@@ -20,9 +21,7 @@ const search = new WebSearchClient();
 const wordBank = await loadWordBank(wordBankPath);
 
 console.log(`Starting monthly update; target=${targetCount}`);
-const queries = await planQueries();
-console.log(`Searching with ${queries.length} query phrases`);
-const candidates = await collectCandidates(queries);
+const candidates = await findCandidates();
 console.log(`Collected ${candidates.length} candidate pages`);
 const articles = [];
 const seenIds = new Set();
@@ -31,9 +30,11 @@ for (const [index, candidate] of candidates.entries()) {
   if (articles.length >= targetCount) break;
   console.log(`[${index + 1}/${candidates.length}] Reading ${candidate.url}`);
   try {
-    const page = await downloadReadablePage(candidate);
+    const page = candidate.structured
+      ? { ...candidate, text: candidate.structured.body }
+      : await downloadReadablePage(candidate);
     if (!page) continue;
-    const extracted = await extractArticle(page);
+    const extracted = candidate.structured || await extractArticle(page);
     if (!extracted) continue;
     const enriched = await enrichArticle(extracted, page);
     const article = normalizeArticle(enriched, page);
@@ -80,6 +81,17 @@ await fs.writeFile(wordBankPath, JSON.stringify(wordBank, null, 2), "utf8");
 console.log(`Wrote ${articles.length} articles to ${outputPath}`);
 console.log(`Wrote ${Object.keys(wordBank.words).length} words to ${wordBankPath}`);
 await publishIfConfigured(payload);
+
+async function findCandidates() {
+  const raceDir = process.env.RACE_DIR?.trim();
+  if (raceDir) {
+    console.log("Loading structured RACE high-school examination questions");
+    return loadRaceCandidates(raceDir, maxSearchResults, process.env.CONTENT_SEED);
+  }
+  const queries = await planQueries();
+  console.log(`Searching with ${queries.length} query phrases`);
+  return collectCandidates(queries);
+}
 
 async function planQueries() {
   if (search.provider === "github-code") {
