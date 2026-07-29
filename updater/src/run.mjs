@@ -169,16 +169,16 @@ async function enrichArticle(extracted, page) {
   const sentences = splitSentences(extracted.body)
     .map((sentence, index) => ({ id: `s${index}`, sentence }));
   const sentenceTranslationsById = {};
-  for (const group of chunkValues(chunkValues(sentences, 6), 3)) {
-    const translated = await Promise.all(group.map(batch => ai.json(
+  for (const batch of chunkValues(sentences, 6)) {
+    const translated = await ai.json(
       `Translate English sentences for a Chinese high-school student.
 Return exactly one JSON object keyed by every supplied sentence id:
 {"s0":"natural, accurate Chinese full-sentence translation","s1":"..."}
 Do not omit ids or return English source text, markdown, or commentary.`,
       JSON.stringify(batch),
       0
-    )));
-    for (const result of translated) Object.assign(sentenceTranslationsById, result);
+    );
+    Object.assign(sentenceTranslationsById, translated);
   }
   const questionResult = await ai.json(
     `Explain existing high-school English multiple-choice reading questions in Chinese.

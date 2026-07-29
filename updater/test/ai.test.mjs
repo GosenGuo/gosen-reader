@@ -53,3 +53,28 @@ test("extracts JSON after DeepSeek reasoning text", async () => {
     globalThis.fetch = originalFetch;
   }
 });
+
+test("retries temporary relay throttling without changing the request", async () => {
+  const originalFetch = globalThis.fetch;
+  let calls = 0;
+  globalThis.fetch = async () => {
+    calls += 1;
+    if (calls === 1) {
+      return new Response("busy", { status: 429 });
+    }
+    return Response.json({
+      choices: [{ message: { content: "{\"ok\":true}" } }]
+    });
+  };
+  try {
+    const client = new AiClient({
+      AI_API_KEY: "test-key",
+      AI_MODEL: "deepseek-v4-flash",
+      AI_RETRY_DELAY_MS: "0"
+    });
+    assert.deepEqual(await client.json("system", "user"), { ok: true });
+    assert.equal(calls, 2);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});

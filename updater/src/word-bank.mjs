@@ -25,13 +25,13 @@ export async function loadWordBank(filePath) {
 export async function repairArticleGlossary(article, minimax, wordBank) {
   article.glossary = isPlainObject(article.glossary) ? article.glossary : {};
 
-  for (let attempt = 1; attempt <= 4; attempt++) {
+  for (let attempt = 1; attempt <= 2; attempt++) {
     const missing = findIncompleteWords(article);
     if (missing.length === 0) return;
     console.log(`  glossary repair ${attempt}: ${missing.length} word(s)`);
 
     const batches = chunks(missing, 20);
-    for (const group of chunks(batches, 3)) {
+    for (const group of chunks(batches, 1)) {
       const completed = await Promise.all(group.map(async batch => {
         const requested = batch.map(word => {
           const sentences = findWordSentences(article.body, word);
