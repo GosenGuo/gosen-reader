@@ -30,33 +30,45 @@ export async function repairArticleGlossary(article, minimax, wordBank) {
     if (missing.length === 0) return;
     console.log(`  glossary repair ${attempt}: ${missing.length} word(s)`);
 
-    for (const batch of chunks(missing, 36)) {
-      const requested = batch.map(word => {
-        const sentences = findWordSentences(article.body, word);
-        return {
-          word,
-          contexts: sentences.map((sentence, index) => ({ id: `s${index}`, sentence })),
-          known: reusableWordData(article.glossary[word])
-            || reusableWordData(wordBank.words[word])
-        };
-      });
-      const result = await minimax.json(
-        `You prepare vocabulary data for Chinese high-school English reading.
+    const batches = chunks(missing, 36);
+    for (const group of chunks(batches, 3)) {
+      const completed = await Promise.all(group.map(async batch => {
+        const requested = batch.map(word => {
+          const sentences = findWordSentences(article.body, word);
+          return {
+            word,
+            contexts: sentences.map((sentence, index) => ({ id: `s${index}`, sentence })),
+            known: reusableWordData(article.glossary[word])
+              || reusableWordData(wordBank.words[word])
+          };
+        });
+        try {
+          const result = await minimax.json(
+            `You prepare vocabulary data for Chinese high-school English reading.
 Return one JSON object only. Each input word must appear as an unchanged lowercase key.
 For every word return:
 {"lemma":"base form","translation":"the best Chinese meaning in the first supplied context","pos":"part of speech in the first context","forms":"common exam-relevant word forms, or 无常见变形","meanings":"3-5 common Chinese meanings separated by ；","contexts":{"s0":{"translation":"one exact Chinese contextual meaning","pos":"part of speech"},"s1":{"translation":"...","pos":"..."}}}
 Return a contexts item for every supplied context id. Determine each meaning from that sentence; do not dump all dictionary meanings into translation. Reuse accurate known data when supplied.`,
-        JSON.stringify({ title: article.title, words: requested }),
-        0
-      );
-      if (!isPlainObject(result)) continue;
-      for (const request of requested) {
-        const rawEntry = result[request.word];
-        const entry = normalizeGlossaryEntry(rawEntry);
-        if (!entry) continue;
-        entry.contexts = normalizeReturnedContexts(rawEntry?.contexts, request.contexts);
-        if (isCompleteGlossaryEntry(entry, request.contexts.map(item => item.sentence))) {
-          article.glossary[request.word] = entry;
+            JSON.stringify({ title: article.title, words: requested }),
+            0
+          );
+          return { requested, result };
+        } catch (error) {
+          console.warn(`  glossary batch failed: ${error.message}`);
+          return null;
+        }
+      }));
+
+      for (const completedBatch of completed) {
+        if (!completedBatch || !isPlainObject(completedBatch.result)) continue;
+        for (const request of completedBatch.requested) {
+          const rawEntry = completedBatch.result[request.word];
+          const entry = normalizeGlossaryEntry(rawEntry);
+          if (!entry) continue;
+          entry.contexts = normalizeReturnedContexts(rawEntry?.contexts, request.contexts);
+          if (isCompleteGlossaryEntry(entry, request.contexts.map(item => item.sentence))) {
+            article.glossary[request.word] = entry;
+          }
         }
       }
     }
