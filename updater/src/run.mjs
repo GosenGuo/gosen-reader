@@ -168,13 +168,25 @@ ${page.text}`,
 async function enrichArticle(extracted, page) {
   const sentences = splitSentences(extracted.body)
     .map((sentence, index) => ({ id: `s${index}`, sentence }));
-  const additions = await ai.json(
-    `Prepare compact Chinese support data for one existing high-school English reading question.
+  const sentenceTranslationsById = {};
+  for (const group of chunkValues(chunkValues(sentences, 6), 3)) {
+    const translated = await Promise.all(group.map(batch => ai.json(
+      `Translate English sentences for a Chinese high-school student.
+Return exactly one JSON object keyed by every supplied sentence id:
+{"s0":"natural, accurate Chinese full-sentence translation","s1":"..."}
+Do not omit ids or return English source text, markdown, or commentary.`,
+      JSON.stringify(batch),
+      0
+    )));
+    for (const result of translated) Object.assign(sentenceTranslationsById, result);
+  }
+  const questionResult = await ai.json(
+    `Explain existing high-school English multiple-choice reading questions in Chinese.
 Return exactly one JSON object:
-{"sentenceTranslations":{"s0":"natural Chinese full-sentence translation","s1":"..."},"questionExplanations":["brief Chinese explanation for question 1 grounded in the passage","..."]}
-Return one translation for every supplied sentence id and one explanation for every question, in order. Do not return the article, questions, glossary, markdown, or commentary.`,
+{"questionExplanations":["brief Chinese explanation for question 1 grounded in the passage","..."]}
+Return one explanation for every question, in order. Do not rewrite questions or return markdown or commentary.`,
     JSON.stringify({
-      sentences,
+      body: extracted.body,
       questions: extracted.questions.map(question => ({
         prompt: question.prompt,
         options: question.options,
@@ -185,7 +197,7 @@ Return one translation for every supplied sentence id and one explanation for ev
   );
   const sentenceTranslations = {};
   for (const { id, sentence } of sentences) {
-    const translation = String(additions?.sentenceTranslations?.[id] || "").trim();
+    const translation = String(sentenceTranslationsById[id] || "").trim();
     if (translation) sentenceTranslations[sentence] = translation;
   }
   return {
@@ -195,9 +207,17 @@ Return one translation for every supplied sentence id and one explanation for ev
     glossary: {},
     questions: extracted.questions.map((question, index) => ({
       ...question,
-      explanation: String(additions?.questionExplanations?.[index] || "").trim()
+      explanation: String(questionResult?.questionExplanations?.[index] || "").trim()
     }))
   };
+}
+
+function chunkValues(values, size) {
+  const result = [];
+  for (let index = 0; index < values.length; index += size) {
+    result.push(values.slice(index, index + size));
+  }
+  return result;
 }
 
 async function publishIfConfigured(payload) {
