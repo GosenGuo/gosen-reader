@@ -41,23 +41,53 @@ export class AiClient {
 
 function parseJson(content) {
   const cleaned = String(content)
+    .replace(/<think>[\s\S]*?<\/think>/gi, "")
     .replace(/^```(?:json)?\s*/i, "")
     .replace(/\s*```$/, "")
     .trim();
   try {
     return JSON.parse(cleaned);
   } catch {
-    const objectStart = cleaned.indexOf("{");
-    const objectEnd = cleaned.lastIndexOf("}");
-    const arrayStart = cleaned.indexOf("[");
-    const arrayEnd = cleaned.lastIndexOf("]");
-    if (arrayStart >= 0 && arrayEnd > arrayStart
-        && (objectStart < 0 || arrayStart < objectStart)) {
-      return JSON.parse(cleaned.slice(arrayStart, arrayEnd + 1));
-    }
-    if (objectStart >= 0 && objectEnd > objectStart) {
-      return JSON.parse(cleaned.slice(objectStart, objectEnd + 1));
+    for (const candidate of balancedJsonCandidates(cleaned)) {
+      try {
+        return JSON.parse(candidate);
+      } catch {
+        // Keep scanning past prose brackets and incomplete fragments.
+      }
     }
     throw new Error("AI relay output was not valid JSON");
   }
+}
+
+function balancedJsonCandidates(text) {
+  const candidates = [];
+  for (let start = 0; start < text.length; start++) {
+    const first = text[start];
+    if (first !== "{" && first !== "[") continue;
+    const stack = [first];
+    let quoted = false;
+    let escaped = false;
+    for (let index = start + 1; index < text.length; index++) {
+      const character = text[index];
+      if (quoted) {
+        if (escaped) escaped = false;
+        else if (character === "\\") escaped = true;
+        else if (character === "\"") quoted = false;
+        continue;
+      }
+      if (character === "\"") {
+        quoted = true;
+      } else if (character === "{" || character === "[") {
+        stack.push(character);
+      } else if (character === "}" || character === "]") {
+        const expected = character === "}" ? "{" : "[";
+        if (stack.pop() !== expected) break;
+        if (stack.length === 0) {
+          candidates.push(text.slice(start, index + 1));
+          break;
+        }
+      }
+    }
+  }
+  return candidates;
 }

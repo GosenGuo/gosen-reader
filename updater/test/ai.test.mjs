@@ -33,3 +33,23 @@ test("uses the configured OpenAI-compatible relay and allowed model", async () =
 test("requires the relay secret", () => {
   assert.throws(() => new AiClient({}), /AI_API_KEY is required/);
 });
+
+test("extracts JSON after DeepSeek reasoning text", async () => {
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async () => new Response(JSON.stringify({
+    choices: [{
+      message: {
+        content: "<think>I should return [a list] now.</think>\nResult:\n```json\n[\"query one\",\"query two\"]\n```"
+      }
+    }]
+  }), {
+    status: 200,
+    headers: { "Content-Type": "application/json" }
+  });
+  try {
+    const client = new AiClient({ AI_API_KEY: "test-only" });
+    assert.deepEqual(await client.json("system", "user"), ["query one", "query two"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});

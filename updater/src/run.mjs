@@ -91,8 +91,9 @@ Include Gaokao papers, provincial or city mock exams, joint exams, midterms, and
 Use Chinese search phrases and vary source types. Prefer HTML pages over PDF files.`,
     0.3
   );
-  if (!Array.isArray(planned)) throw new Error("Query planner did not return an array");
-  return planned.slice(0, 12).map(String).filter(Boolean);
+  const values = Array.isArray(planned) ? planned : planned?.queries;
+  if (!Array.isArray(values)) throw new Error("Query planner did not return a query list");
+  return values.slice(0, 12).map(String).filter(Boolean);
 }
 
 async function collectCandidates(queries) {
