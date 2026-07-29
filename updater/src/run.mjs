@@ -3,7 +3,12 @@ import path from "node:path";
 import { AiClient } from "./ai.mjs";
 import { WebSearchClient, downloadReadablePage } from "./search.mjs";
 import { loadRaceCandidates } from "./race-source.mjs";
-import { normalizeArticle, validateArticle, validatePackage } from "./schema.mjs";
+import {
+  normalizeArticle,
+  splitSentences,
+  validateArticle,
+  validatePackage
+} from "./schema.mjs";
 import {
   loadWordBank,
   mergeArticleIntoWordBank,
@@ -38,6 +43,12 @@ for (const [index, candidate] of candidates.entries()) {
     if (!extracted) continue;
     const enriched = await enrichArticle(extracted, page);
     const article = normalizeArticle(enriched, page);
+    const preliminaryErrors = validateArticle(article)
+      .filter(error => !error.startsWith("glossary incomplete"));
+    if (preliminaryErrors.length) {
+      console.log(`  rejected before glossary: ${preliminaryErrors.join("; ")}`);
+      continue;
+    }
     await repairArticleGlossary(article, ai, wordBank);
     const errors = validateArticle(article);
     if (seenIds.has(article.id) || errors.length) {
@@ -155,13 +166,15 @@ ${page.text}`,
 }
 
 async function enrichArticle(extracted, page) {
+  const sentences = splitSentences(extracted.body)
+    .map((sentence, index) => ({ id: `s${index}`, sentence }));
   const additions = await ai.json(
     `Prepare compact Chinese support data for one existing high-school English reading question.
 Return exactly one JSON object:
-{"sentenceTranslations":{"exact complete English sentence copied from body":"natural Chinese full-sentence translation"},"questionExplanations":["brief Chinese explanation for question 1 grounded in the passage","..."]}
-Cover every complete sentence. Keep sentence keys byte-for-byte identical to the supplied body. Return one explanation for every question, in order. Do not return the article, questions, glossary, markdown, or commentary.`,
+{"sentenceTranslations":{"s0":"natural Chinese full-sentence translation","s1":"..."},"questionExplanations":["brief Chinese explanation for question 1 grounded in the passage","..."]}
+Return one translation for every supplied sentence id and one explanation for every question, in order. Do not return the article, questions, glossary, markdown, or commentary.`,
     JSON.stringify({
-      body: extracted.body,
+      sentences,
       questions: extracted.questions.map(question => ({
         prompt: question.prompt,
         options: question.options,
@@ -170,10 +183,15 @@ Cover every complete sentence. Keep sentence keys byte-for-byte identical to the
     }),
     0
   );
+  const sentenceTranslations = {};
+  for (const { id, sentence } of sentences) {
+    const translation = String(additions?.sentenceTranslations?.[id] || "").trim();
+    if (translation) sentenceTranslations[sentence] = translation;
+  }
   return {
     ...extracted,
     sourceUrl: page.url,
-    sentenceTranslations: additions?.sentenceTranslations || {},
+    sentenceTranslations,
     glossary: {},
     questions: extracted.questions.map((question, index) => ({
       ...question,
