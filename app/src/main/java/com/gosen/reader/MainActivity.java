@@ -61,6 +61,7 @@ public class MainActivity extends Activity {
     private LinearLayout nav;
     private JSONObject activeArticle;
     private boolean onHomeScreen;
+    private AppUpdateManager updateManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,6 +83,24 @@ public class MainActivity extends Activity {
         buildShell();
         showHome();
         repository.checkForMonthlyUpdate(this::showHome);
+        updateManager = new AppUpdateManager(this);
+        updateManager.checkForUpdates();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (updateManager != null) {
+            updateManager.resumePendingInstall();
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (updateManager != null) {
+            updateManager.close();
+        }
+        super.onDestroy();
     }
 
     @Override
