@@ -100,10 +100,12 @@ test("falls back to the next model after repeated temporary failures", async () 
       AI_RETRY_DELAY_MS: "0"
     });
     assert.deepEqual(await client.json("system", "user"), { ok: true });
+    assert.deepEqual(await client.json("system", "user again"), { ok: true });
+    assert.equal(client.model, "gemini-2.5-flash");
     assert.deepEqual(requestedModels, [
       "deepseek-v4-pro",
       "deepseek-v4-pro",
-      "deepseek-v4-pro",
+      "gemini-2.5-flash",
       "gemini-2.5-flash"
     ]);
   } finally {
