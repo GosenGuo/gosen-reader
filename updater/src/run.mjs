@@ -10,6 +10,10 @@ import {
   validatePackage
 } from "./schema.mjs";
 import {
+  loadExistingArticles,
+  mergeArticles
+} from "./package-store.mjs";
+import {
   loadWordBank,
   mergeArticleIntoWordBank,
   repairArticleGlossary,
@@ -25,17 +29,18 @@ const wordBankPath = path.resolve(process.env.WORD_BANK_PATH || "./dist/word-ban
 const ai = new AiClient();
 const search = new WebSearchClient();
 const wordBank = await loadWordBank(wordBankPath);
+const existingArticles = await loadExistingArticles(outputPath);
 
-console.log(`Starting monthly update; target=${targetCount}`);
+console.log(`Starting monthly update; target=${targetCount}; existing=${existingArticles.length}`);
 const candidates = await findCandidates();
 console.log(`Collected ${candidates.length} candidate pages`);
 const attemptedCandidates = candidates.slice(0, maxCandidateAttempts);
 console.log(`Attempt budget: ${attemptedCandidates.length} candidate(s)`);
-const articles = [];
-const seenIds = new Set();
+const newArticles = [];
+const seenIds = new Set(existingArticles.map(article => article.id));
 
 for (const [index, candidate] of attemptedCandidates.entries()) {
-  if (articles.length >= targetCount) break;
+  if (newArticles.length >= targetCount) break;
   console.log(`[${index + 1}/${attemptedCandidates.length}] Reading ${candidate.url}`);
   try {
     const page = candidate.structured
@@ -44,6 +49,11 @@ for (const [index, candidate] of attemptedCandidates.entries()) {
     if (!page) continue;
     const extracted = candidate.structured || await extractArticle(page);
     if (!extracted) continue;
+    const identity = normalizeArticle(extracted, page);
+    if (seenIds.has(identity.id)) {
+      console.log(`  skipped existing article: ${identity.title}`);
+      continue;
+    }
     const enriched = await enrichArticle(extracted, page);
     const article = normalizeArticle(enriched, page);
     const preliminaryErrors = validateArticle(article)
@@ -59,7 +69,7 @@ for (const [index, candidate] of attemptedCandidates.entries()) {
       continue;
     }
     seenIds.add(article.id);
-    articles.push(article);
+    newArticles.push(article);
     mergeArticleIntoWordBank(article, wordBank);
     console.log(`  accepted: ${article.title} (${article.wordCount} words)`);
   } catch (error) {
@@ -67,13 +77,14 @@ for (const [index, candidate] of attemptedCandidates.entries()) {
   }
 }
 
-if (articles.length === 0) {
+if (newArticles.length === 0) {
   throw new Error("No valid articles were produced; the previous package must remain published");
 }
-if (articles.length < targetCount) {
-  console.warn(`Only ${articles.length}/${targetCount} passed validation; publishing quality over quota`);
+if (newArticles.length < targetCount) {
+  console.warn(`Only ${newArticles.length}/${targetCount} passed validation; publishing quality over quota`);
 }
 
+const articles = mergeArticles(existingArticles, newArticles);
 const payload = {
   schemaVersion: 1,
   generatedAt: new Date().toISOString(),
@@ -93,6 +104,7 @@ await fs.writeFile(outputPath, JSON.stringify(payload, null, 2), "utf8");
 await fs.mkdir(path.dirname(wordBankPath), { recursive: true });
 await fs.writeFile(wordBankPath, JSON.stringify(wordBank, null, 2), "utf8");
 console.log(`Wrote ${articles.length} articles to ${outputPath}`);
+console.log(`Added ${newArticles.length} new article(s); kept ${existingArticles.length} existing article(s)`);
 console.log(`Wrote ${Object.keys(wordBank.words).length} words to ${wordBankPath}`);
 await publishIfConfigured(payload);
 
@@ -100,7 +112,11 @@ async function findCandidates() {
   const raceDir = process.env.RACE_DIR?.trim();
   if (raceDir) {
     console.log("Loading structured RACE high-school examination questions");
-    return loadRaceCandidates(raceDir, maxSearchResults, process.env.CONTENT_SEED);
+    return loadRaceCandidates(
+      raceDir,
+      maxSearchResults,
+      process.env.CONTENT_SEED?.trim() || undefined
+    );
   }
   const queries = await planQueries();
   console.log(`Searching with ${queries.length} query phrases`);
