@@ -82,7 +82,9 @@ public class MainActivity extends Activity {
         repository = new ContentRepository(this);
         buildShell();
         showHome();
-        repository.checkForMonthlyUpdate(this::showHome);
+        repository.checkForUpdates((success, changed) -> {
+            if (changed && onHomeScreen) showHome();
+        });
         updateManager = new AppUpdateManager(this);
         updateManager.checkForUpdates();
     }
@@ -99,6 +101,9 @@ public class MainActivity extends Activity {
     protected void onDestroy() {
         if (updateManager != null) {
             updateManager.close();
+        }
+        if (repository != null) {
+            repository.close();
         }
         super.onDestroy();
     }
@@ -249,6 +254,25 @@ public class MainActivity extends Activity {
         page.addView(label("阅读题库", 28, INK, true));
         page.addView(label("当前共有 " + repository.size() + " 篇，月度更新包会自动替换题库。",
                 14, MUTED, false));
+        page.addView(space(12));
+        Button refresh = secondaryButton("刷新题库");
+        refresh.setOnClickListener(view -> {
+            refresh.setEnabled(false);
+            refresh.setText("正在刷新…");
+            repository.checkForUpdates((success, changed) -> {
+                if (success) {
+                    Toast.makeText(this, changed ? "题库已更新" : "当前已是最新题库",
+                            Toast.LENGTH_SHORT).show();
+                    showLibrary();
+                } else {
+                    refresh.setEnabled(true);
+                    refresh.setText("刷新题库");
+                    Toast.makeText(this, "题库刷新失败，请检查网络后重试",
+                            Toast.LENGTH_LONG).show();
+                }
+            });
+        });
+        page.addView(refresh);
         page.addView(space(18));
         for (int i = 0; i < repository.size(); i++) {
             page.addView(articleCard(repository.get(i), false));
