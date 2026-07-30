@@ -21,10 +21,6 @@ import java.util.concurrent.Executors;
 
 final class ContentRepository {
     private static final String STORE_FILE = "articles.json";
-    private static final String PREF_LAST_SUCCESS = "lastContentUpdateSuccess";
-    private static final String PREF_LAST_ATTEMPT = "lastContentUpdateAttempt";
-    private static final long SUCCESS_CHECK_INTERVAL_MS = 24L * 60 * 60 * 1000;
-    private static final long RETRY_CHECK_INTERVAL_MS = 30L * 60 * 1000;
 
     private final Context context;
     private final ExecutorService executor = Executors.newSingleThreadExecutor();
@@ -52,22 +48,15 @@ final class ContentRepository {
         return null;
     }
 
-    void checkForMonthlyUpdate(Runnable onUpdated) {
+    void checkForUpdates(UpdateCallback callback) {
         String feed = BuildConfig.CONTENT_FEED_URL.trim();
-        if (feed.isEmpty()) return;
-
-        android.content.SharedPreferences preferences =
-                context.getSharedPreferences("reader", Context.MODE_PRIVATE);
-        long now = System.currentTimeMillis();
-        long lastSuccess = preferences.getLong(PREF_LAST_SUCCESS, 0);
-        long lastAttempt = preferences.getLong(PREF_LAST_ATTEMPT, 0);
-        if (now - lastSuccess < SUCCESS_CHECK_INTERVAL_MS
-                || now - lastAttempt < RETRY_CHECK_INTERVAL_MS) {
+        if (feed.isEmpty()) {
+            if (callback != null) callback.onComplete(false, false);
             return;
         }
-        preferences.edit().putLong(PREF_LAST_ATTEMPT, now).apply();
 
         executor.execute(() -> {
+            boolean success = false;
             boolean changed = false;
             HttpURLConnection connection = null;
             try {
@@ -92,19 +81,28 @@ final class ContentRepository {
                         packageGeneratedAt = downloadedGeneratedAt;
                         changed = true;
                     }
-                    preferences.edit()
-                            .putLong(PREF_LAST_SUCCESS, System.currentTimeMillis())
-                            .apply();
+                    success = true;
                 }
             } catch (Exception ignored) {
-                // Keep the current package and retry after the short attempt interval.
+                // Keep the current package. The next launch or manual refresh retries.
             } finally {
                 if (connection != null) connection.disconnect();
             }
-            if (changed && onUpdated != null) {
-                new Handler(Looper.getMainLooper()).post(onUpdated);
+            if (callback != null) {
+                boolean resultSuccess = success;
+                boolean resultChanged = changed;
+                new Handler(Looper.getMainLooper()).post(
+                        () -> callback.onComplete(resultSuccess, resultChanged));
             }
         });
+    }
+
+    void close() {
+        executor.shutdownNow();
+    }
+
+    interface UpdateCallback {
+        void onComplete(boolean success, boolean changed);
     }
 
     private void load() {
