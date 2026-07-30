@@ -72,6 +72,7 @@ jobs:
           node src/check.mjs ../docs/articles.json ../docs/word-bank.json
 
       - name: Commit the validated package
+        if: github.event_name != 'push'
         id: content_commit
         shell: bash
         run: |
