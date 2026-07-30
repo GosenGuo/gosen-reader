@@ -21,11 +21,15 @@ import java.util.concurrent.Executors;
 
 final class ContentRepository {
     private static final String STORE_FILE = "articles.json";
-    private static final long UPDATE_INTERVAL_MS = 28L * 24 * 60 * 60 * 1000;
+    private static final String PREF_LAST_SUCCESS = "lastContentUpdateSuccess";
+    private static final String PREF_LAST_ATTEMPT = "lastContentUpdateAttempt";
+    private static final long SUCCESS_CHECK_INTERVAL_MS = 24L * 60 * 60 * 1000;
+    private static final long RETRY_CHECK_INTERVAL_MS = 30L * 60 * 1000;
 
     private final Context context;
     private final ExecutorService executor = Executors.newSingleThreadExecutor();
     private JSONArray articles = new JSONArray();
+    private String packageGeneratedAt = "";
 
     ContentRepository(Context context) {
         this.context = context.getApplicationContext();
@@ -52,14 +56,22 @@ final class ContentRepository {
         String feed = BuildConfig.CONTENT_FEED_URL.trim();
         if (feed.isEmpty()) return;
 
-        long lastCheck = context.getSharedPreferences("reader", Context.MODE_PRIVATE)
-                .getLong("lastUpdateCheck", 0);
-        if (System.currentTimeMillis() - lastCheck < UPDATE_INTERVAL_MS) return;
+        android.content.SharedPreferences preferences =
+                context.getSharedPreferences("reader", Context.MODE_PRIVATE);
+        long now = System.currentTimeMillis();
+        long lastSuccess = preferences.getLong(PREF_LAST_SUCCESS, 0);
+        long lastAttempt = preferences.getLong(PREF_LAST_ATTEMPT, 0);
+        if (now - lastSuccess < SUCCESS_CHECK_INTERVAL_MS
+                || now - lastAttempt < RETRY_CHECK_INTERVAL_MS) {
+            return;
+        }
+        preferences.edit().putLong(PREF_LAST_ATTEMPT, now).apply();
 
         executor.execute(() -> {
             boolean changed = false;
+            HttpURLConnection connection = null;
             try {
-                HttpURLConnection connection = (HttpURLConnection) new URL(feed).openConnection();
+                connection = (HttpURLConnection) new URL(feed).openConnection();
                 connection.setConnectTimeout(12_000);
                 connection.setReadTimeout(20_000);
                 connection.setRequestProperty("Accept", "application/json");
@@ -69,18 +81,25 @@ final class ContentRepository {
                     String raw = readAll(connection.getInputStream());
                     JSONObject payload = new JSONObject(raw);
                     validate(payload, true);
-                    try (FileOutputStream output = context.openFileOutput(STORE_FILE, Context.MODE_PRIVATE)) {
-                        output.write(raw.getBytes(StandardCharsets.UTF_8));
+                    String downloadedGeneratedAt = payload.optString("generatedAt");
+                    if (downloadedGeneratedAt.isEmpty()
+                            || !downloadedGeneratedAt.equals(packageGeneratedAt)) {
+                        try (FileOutputStream output =
+                                     context.openFileOutput(STORE_FILE, Context.MODE_PRIVATE)) {
+                            output.write(raw.getBytes(StandardCharsets.UTF_8));
+                        }
+                        articles = payload.getJSONArray("articles");
+                        packageGeneratedAt = downloadedGeneratedAt;
+                        changed = true;
                     }
-                    articles = payload.getJSONArray("articles");
-                    changed = true;
+                    preferences.edit()
+                            .putLong(PREF_LAST_SUCCESS, System.currentTimeMillis())
+                            .apply();
                 }
-                connection.disconnect();
             } catch (Exception ignored) {
-                // The built-in package remains available if a monthly update fails.
+                // Keep the current package and retry after the short attempt interval.
             } finally {
-                context.getSharedPreferences("reader", Context.MODE_PRIVATE).edit()
-                        .putLong("lastUpdateCheck", System.currentTimeMillis()).apply();
+                if (connection != null) connection.disconnect();
             }
             if (changed && onUpdated != null) {
                 new Handler(Looper.getMainLooper()).post(onUpdated);
@@ -98,8 +117,10 @@ final class ContentRepository {
             JSONObject payload = new JSONObject(raw);
             validate(payload, downloaded.exists());
             articles = payload.getJSONArray("articles");
+            packageGeneratedAt = payload.optString("generatedAt");
         } catch (Exception error) {
             articles = new JSONArray();
+            packageGeneratedAt = "";
         }
     }
 
