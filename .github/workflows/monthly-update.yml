@@ -1,4 +1,4 @@
-name: Monthly content update
+name: On-demand content refill
 
 on:
   push:
@@ -9,38 +9,40 @@ on:
   workflow_dispatch:
     inputs:
       target_count:
-        description: "Number of articles for a manual test/update"
+        description: "Number of articles to add"
         required: true
-        default: "3"
-  schedule:
-    - cron: "20 2 1 * *"
+        default: "30"
 
 permissions:
   contents: write
   actions: write
 
 concurrency:
-  group: monthly-content-update
-  cancel-in-progress: true
+  group: on-demand-content-refill
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ github.event_name == 'schedule' && 180 || 30 }}
+    timeout-minutes: ${{ github.event_name == 'push' && 30 || 360 }}
     env:
       AI_API_KEY: ${{ secrets.AI_API_KEY }}
       AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://xcode.best/v1' }}
       AI_MODEL: ${{ vars.AI_MODEL || 'deepseek-v4-pro' }}
       AI_FALLBACK_MODELS: ${{ vars.AI_FALLBACK_MODELS || 'gemini-2.5-flash' }}
+      AI_MODEL_PRICING_JSON: ${{ vars.AI_MODEL_PRICING_JSON }}
+      AI_REPORTED_COST_CURRENCY: ${{ vars.AI_REPORTED_COST_CURRENCY }}
+      USD_CNY_RATE: ${{ vars.USD_CNY_RATE }}
       SEARCH_PROVIDER: github-code
       GITHUB_SEARCH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      TARGET_ARTICLE_COUNT: ${{ github.event_name == 'schedule' && '30' || github.event_name == 'push' && '1' || inputs.target_count }}
-      MAX_SEARCH_RESULTS: ${{ github.event_name == 'schedule' && '80' || '20' }}
-      MAX_CANDIDATE_ATTEMPTS: ${{ github.event_name == 'schedule' && '40' || github.event_name == 'push' && '3' || '10' }}
+      TARGET_ARTICLE_COUNT: ${{ github.event_name == 'push' && '1' || inputs.target_count }}
+      MAX_SEARCH_RESULTS: ${{ github.event_name == 'push' && '20' || '120' }}
+      MAX_CANDIDATE_ATTEMPTS: ${{ github.event_name == 'push' && '3' || '90' }}
       CONTENT_SEED: ${{ github.run_id }}
       RACE_DIR: /tmp/RACE
       OUTPUT_PATH: ../docs/articles.json
       WORD_BANK_PATH: ../docs/word-bank.json
+      GENERATION_LEDGER_PATH: ../docs/generation-ledger.json
 
     steps:
       - uses: actions/checkout@v4
@@ -66,7 +68,7 @@ jobs:
           tar -xzf /tmp/RACE.tar.gz -C /tmp
           test -d /tmp/RACE/train/high
 
-      - name: Generate and validate monthly package
+      - name: Generate and validate content refill
         working-directory: updater
         run: |
           node src/run.mjs
@@ -79,15 +81,15 @@ jobs:
         id: content_commit
         shell: bash
         run: |
-          if git diff --quiet -- docs/articles.json docs/word-bank.json; then
+          if git diff --quiet -- docs/articles.json docs/word-bank.json docs/generation-ledger.json; then
             echo "No content change"
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/articles.json docs/word-bank.json
-          git commit -m "content: monthly reading package"
+          git add docs/articles.json docs/word-bank.json docs/generation-ledger.json
+          git commit -m "content: refill reading library"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 

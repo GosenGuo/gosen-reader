@@ -1,0 +1,13 @@
+name = "gosen-reader-refill"
+main = "src/index.js"
+compatibility_date = "2026-07-01"
+
+[vars]
+GITHUB_OWNER = "GosenGuo"
+GITHUB_REPO = "gosen-reader"
+GITHUB_WORKFLOW = "monthly-update.yml"
+GITHUB_REF = "main"
+
+# Set these as encrypted secrets, never in this file:
+# wrangler secret put GITHUB_TOKEN
+# wrangler secret put APP_TRIGGER_TOKEN

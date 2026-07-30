@@ -62,6 +62,7 @@ public class MainActivity extends Activity {
     private JSONObject activeArticle;
     private boolean onHomeScreen;
     private AppUpdateManager updateManager;
+    private ContentRefillManager refillManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,10 +81,12 @@ public class MainActivity extends Activity {
 
         prefs = getSharedPreferences("reader", Context.MODE_PRIVATE);
         repository = new ContentRepository(this);
+        refillManager = new ContentRefillManager(this);
         buildShell();
         showHome();
         repository.checkForUpdates((success, changed) -> {
             if (changed && onHomeScreen) showHome();
+            maybeRequestContentRefill();
         });
         updateManager = new AppUpdateManager(this);
         updateManager.checkForUpdates();
@@ -104,6 +107,9 @@ public class MainActivity extends Activity {
         }
         if (repository != null) {
             repository.close();
+        }
+        if (refillManager != null) {
+            refillManager.close();
         }
         super.onDestroy();
     }
@@ -631,14 +637,14 @@ public class MainActivity extends Activity {
     private void markTodayComplete(JSONObject article) {
         String today = LocalDate.now().format(DATE_FORMAT);
         Set<String> dates = new HashSet<>(prefs.getStringSet("completedDates", new HashSet<>()));
+        Set<String> ids = new HashSet<>(prefs.getStringSet("completedIds", new HashSet<>()));
+        ids.add(article.optString("id"));
         if (!dates.contains(today)) {
             String last = prefs.getString("lastCompletedDate", "");
             int streak = prefs.getInt("streak", 0);
             String yesterday = LocalDate.now().minusDays(1).format(DATE_FORMAT);
             streak = yesterday.equals(last) ? streak + 1 : 1;
             dates.add(today);
-            Set<String> ids = new HashSet<>(prefs.getStringSet("completedIds", new HashSet<>()));
-            ids.add(article.optString("id"));
             prefs.edit()
                     .putStringSet("completedDates", dates)
                     .putStringSet("completedIds", ids)
@@ -649,7 +655,10 @@ public class MainActivity extends Activity {
                     .putInt("totalWords", prefs.getInt("totalWords", 0)
                             + article.optInt("wordCount", 0))
                     .apply();
+        } else {
+            prefs.edit().putStringSet("completedIds", ids).apply();
         }
+        maybeRequestContentRefill();
     }
 
     private boolean isTodayDone() {
@@ -659,6 +668,20 @@ public class MainActivity extends Activity {
 
     private boolean isCompleted(String articleId) {
         return prefs.getStringSet("completedIds", new HashSet<>()).contains(articleId);
+    }
+
+    private void maybeRequestContentRefill() {
+        if (refillManager == null || repository == null || prefs == null) return;
+        Set<String> completedIds =
+                prefs.getStringSet("completedIds", new HashSet<>());
+        int unread = 0;
+        for (int index = 0; index < repository.size(); index++) {
+            JSONObject article = repository.get(index);
+            if (article != null && !completedIds.contains(article.optString("id"))) {
+                unread++;
+            }
+        }
+        refillManager.requestIfBelowThreshold(unread);
     }
 
     private int completedDaysThisMonth() {

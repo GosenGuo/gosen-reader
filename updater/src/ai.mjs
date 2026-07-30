@@ -19,7 +19,20 @@ export class AiClient {
       1,
       Number(env.AI_MAX_ATTEMPTS_PER_MODEL ?? 2)
     );
+    this.pricing = parsePricing(env.AI_MODEL_PRICING_JSON);
+    this.usdCnyRate = positiveNumber(env.USD_CNY_RATE);
+    this.reportedCostCurrency =
+      env.AI_REPORTED_COST_CURRENCY?.trim() || "provider_units";
+    this.usageEntries = [];
     if (!this.apiKey) throw new Error("AI_API_KEY is required");
+  }
+
+  usageSnapshot() {
+    return this.usageEntries.length;
+  }
+
+  usageSince(snapshot = 0) {
+    return summarizeUsage(this.usageEntries.slice(snapshot), this.usdCnyRate);
   }
 
   async json(system, user, temperature = 0.1) {
@@ -93,6 +106,7 @@ export class AiClient {
         throw relayError;
       }
       const payload = await response.json();
+      this.recordUsage(model, payload);
       const content = payload.choices?.[0]?.message?.content;
       if (!content) {
         const message = payload.error?.message || "empty response";
@@ -117,6 +131,39 @@ export class AiClient {
     }
     throw new Error("AI relay retry loop ended unexpectedly");
   }
+
+  recordUsage(model, payload) {
+    const usage = payload?.usage;
+    if (!usage || typeof usage !== "object") return;
+    const inputTokens = tokenNumber(usage.prompt_tokens ?? usage.input_tokens);
+    const outputTokens = tokenNumber(usage.completion_tokens ?? usage.output_tokens);
+    const totalTokens = tokenNumber(
+      usage.total_tokens ?? inputTokens + outputTokens
+    );
+    const rate = this.pricing[model];
+    const estimatedCostUsd = rate
+      ? (inputTokens * rate.inputUsdPerMillion
+        + outputTokens * rate.outputUsdPerMillion) / 1_000_000
+      : null;
+    const reportedCost = optionalNumber(
+      usage.cost
+      ?? usage.total_cost
+      ?? payload.total_cost
+      ?? payload.cost
+    );
+    this.usageEntries.push({
+      model,
+      inputTokens,
+      outputTokens,
+      totalTokens,
+      reportedCost,
+      reportedCostCurrency: reportedCost == null
+        ? null
+        : String(usage.currency || payload.currency || this.reportedCostCurrency),
+      estimatedCostUsd,
+      pricing: rate || null
+    });
+  }
 }
 
 class AiRelayError extends Error {
@@ -128,6 +175,92 @@ class AiRelayError extends Error {
 }
 
 const uniqueModels = models => [...new Set(models.filter(Boolean))];
+const tokenNumber = value => {
+  const number = Number(value);
+  return Number.isFinite(number) && number >= 0 ? number : 0;
+};
+const positiveNumber = value => {
+  const number = Number(value);
+  return Number.isFinite(number) && number > 0 ? number : null;
+};
+const optionalNumber = value => {
+  if (value == null || value === "") return null;
+  const number = Number(value);
+  return Number.isFinite(number) && number >= 0 ? number : null;
+};
+
+function parsePricing(raw) {
+  if (!raw?.trim()) return {};
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch {
+    throw new Error("AI_MODEL_PRICING_JSON must be valid JSON");
+  }
+  const pricing = {};
+  for (const [model, value] of Object.entries(parsed)) {
+    const inputUsdPerMillion = positiveNumber(value?.inputUsdPerMillion);
+    const outputUsdPerMillion = positiveNumber(value?.outputUsdPerMillion);
+    if (!inputUsdPerMillion || !outputUsdPerMillion) {
+      throw new Error(
+        `AI_MODEL_PRICING_JSON has invalid input/output rates for ${model}`
+      );
+    }
+    pricing[model] = { inputUsdPerMillion, outputUsdPerMillion };
+  }
+  return pricing;
+}
+
+function summarizeUsage(entries, usdCnyRate) {
+  const summary = {
+    requests: entries.length,
+    inputTokens: 0,
+    outputTokens: 0,
+    totalTokens: 0,
+    estimatedCostUsd: null,
+    estimatedCostCny: null,
+    reportedCosts: {},
+    pricingComplete: entries.length > 0
+  };
+  let estimatedCostUsd = 0;
+  const models = {};
+  for (const entry of entries) {
+    summary.inputTokens += entry.inputTokens;
+    summary.outputTokens += entry.outputTokens;
+    summary.totalTokens += entry.totalTokens;
+    if (entry.estimatedCostUsd == null) summary.pricingComplete = false;
+    else estimatedCostUsd += entry.estimatedCostUsd;
+    if (entry.reportedCost != null) {
+      const currency = entry.reportedCostCurrency || "provider_units";
+      summary.reportedCosts[currency] =
+        roundMoney((summary.reportedCosts[currency] || 0) + entry.reportedCost);
+    }
+    const model = models[entry.model] ||= {
+      requests: 0,
+      inputTokens: 0,
+      outputTokens: 0,
+      totalTokens: 0,
+      estimatedCostUsd: null
+    };
+    model.requests += 1;
+    model.inputTokens += entry.inputTokens;
+    model.outputTokens += entry.outputTokens;
+    model.totalTokens += entry.totalTokens;
+    if (entry.estimatedCostUsd != null) {
+      model.estimatedCostUsd = (model.estimatedCostUsd || 0) + entry.estimatedCostUsd;
+    }
+  }
+  if (summary.pricingComplete && entries.length > 0) {
+    summary.estimatedCostUsd = roundMoney(estimatedCostUsd);
+    if (usdCnyRate) {
+      summary.estimatedCostCny = roundMoney(estimatedCostUsd * usdCnyRate);
+    }
+  }
+  summary.models = models;
+  return summary;
+}
+
+const roundMoney = value => Math.round(value * 100_000_000) / 100_000_000;
 const isRetryableStatus = status =>
   [408, 425, 429, 500, 502, 503, 504, 520, 522, 524, 529].includes(status);
 

@@ -16,8 +16,12 @@ android {
         def feedUrl = project.findProperty("CONTENT_FEED_URL") ?: ""
         def updateManifestUrl = project.findProperty("UPDATE_MANIFEST_URL")
                 ?: "https://gosenguo.github.io/gosen-reader/app-update.json"
+        def contentRefillUrl = project.findProperty("CONTENT_REFILL_URL") ?: ""
+        def contentRefillToken = project.findProperty("CONTENT_REFILL_TOKEN") ?: ""
         buildConfigField "String", "CONTENT_FEED_URL", "\"${feedUrl}\""
         buildConfigField "String", "UPDATE_MANIFEST_URL", "\"${updateManifestUrl}\""
+        buildConfigField "String", "CONTENT_REFILL_URL", "\"${contentRefillUrl}\""
+        buildConfigField "String", "CONTENT_REFILL_TOKEN", "\"${contentRefillToken}\""
     }
 
     buildFeatures {

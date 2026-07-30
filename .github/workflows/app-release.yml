@@ -63,7 +63,9 @@ jobs:
             -PVERSION_CODE="$VERSION_CODE" \
             -PVERSION_NAME="$VERSION_NAME" \
             -PCONTENT_FEED_URL="https://gosenguo.github.io/gosen-reader/articles.json" \
-            -PUPDATE_MANIFEST_URL="https://gosenguo.github.io/gosen-reader/app-update.json"
+            -PUPDATE_MANIFEST_URL="https://gosenguo.github.io/gosen-reader/app-update.json" \
+            -PCONTENT_REFILL_URL="${{ vars.CONTENT_REFILL_URL }}" \
+            -PCONTENT_REFILL_TOKEN="${{ secrets.CONTENT_REFILL_TOKEN }}"
           cp app/build/outputs/apk/debug/app-debug.apk "GosenReader-${VERSION_NAME}.apk"
 
       - name: Publish the APK and update manifest

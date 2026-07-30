@@ -79,6 +79,81 @@ test("retries temporary relay throttling without changing the request", async ()
   }
 });
 
+test("records token usage and estimates per-model cost", async () => {
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async () => Response.json({
+    choices: [{ message: { content: "{\"ok\":true}" } }],
+    usage: {
+      prompt_tokens: 2_000,
+      completion_tokens: 500,
+      total_tokens: 2_500
+    }
+  });
+  try {
+    const client = new AiClient({
+      AI_API_KEY: "test-only",
+      AI_MODEL: "test-model",
+      AI_MODEL_PRICING_JSON: JSON.stringify({
+        "test-model": {
+          inputUsdPerMillion: 1,
+          outputUsdPerMillion: 4
+        }
+      }),
+      USD_CNY_RATE: "7.2"
+    });
+    const before = client.usageSnapshot();
+    await client.json("system", "user");
+    assert.deepEqual(client.usageSince(before), {
+      requests: 1,
+      inputTokens: 2_000,
+      outputTokens: 500,
+      totalTokens: 2_500,
+      estimatedCostUsd: 0.004,
+      estimatedCostCny: 0.0288,
+      reportedCosts: {},
+      pricingComplete: true,
+      models: {
+        "test-model": {
+          requests: 1,
+          inputTokens: 2_000,
+          outputTokens: 500,
+          totalTokens: 2_500,
+          estimatedCostUsd: 0.004
+        }
+      }
+    });
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("keeps a provider-reported charge without guessing its currency", async () => {
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async () => Response.json({
+    choices: [{ message: { content: "{\"ok\":true}" } }],
+    usage: {
+      prompt_tokens: 10,
+      completion_tokens: 5,
+      total_tokens: 15,
+      cost: 0.0025
+    }
+  });
+  try {
+    const client = new AiClient({
+      AI_API_KEY: "test-only",
+      AI_MODEL: "test-model",
+      AI_REPORTED_COST_CURRENCY: "CNY"
+    });
+    await client.json("system", "user");
+    const usage = client.usageSince(0);
+    assert.deepEqual(usage.reportedCosts, { CNY: 0.0025 });
+    assert.equal(usage.estimatedCostUsd, null);
+    assert.equal(usage.pricingComplete, false);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
 test("falls back to the next model after repeated temporary failures", async () => {
   const originalFetch = globalThis.fetch;
   const requestedModels = [];

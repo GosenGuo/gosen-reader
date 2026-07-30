@@ -25,23 +25,28 @@ const maxSearchResults = Number(process.env.MAX_SEARCH_RESULTS || 80);
 const maxCandidateAttempts = Number(process.env.MAX_CANDIDATE_ATTEMPTS || Math.max(targetCount * 3, 3));
 const outputPath = path.resolve(process.env.OUTPUT_PATH || "./dist/articles.json");
 const wordBankPath = path.resolve(process.env.WORD_BANK_PATH || "./dist/word-bank.json");
+const ledgerPath = path.resolve(
+  process.env.GENERATION_LEDGER_PATH || "./dist/generation-ledger.json"
+);
 
 const ai = new AiClient();
 const search = new WebSearchClient();
 const wordBank = await loadWordBank(wordBankPath);
 const existingArticles = await loadExistingArticles(outputPath);
 
-console.log(`Starting monthly update; target=${targetCount}; existing=${existingArticles.length}`);
+console.log(`Starting on-demand refill; target=${targetCount}; existing=${existingArticles.length}`);
 const candidates = await findCandidates();
 console.log(`Collected ${candidates.length} candidate pages`);
 const attemptedCandidates = candidates.slice(0, maxCandidateAttempts);
 console.log(`Attempt budget: ${attemptedCandidates.length} candidate(s)`);
 const newArticles = [];
+const articleUsage = [];
 const seenIds = new Set(existingArticles.map(article => article.id));
 
 for (const [index, candidate] of attemptedCandidates.entries()) {
   if (newArticles.length >= targetCount) break;
   console.log(`[${index + 1}/${attemptedCandidates.length}] Reading ${candidate.url}`);
+  const usageStart = ai.usageSnapshot();
   try {
     const page = candidate.structured
       ? { ...candidate, text: candidate.structured.body }
@@ -69,9 +74,21 @@ for (const [index, candidate] of attemptedCandidates.entries()) {
       continue;
     }
     seenIds.add(article.id);
+    const generationUsage = ai.usageSince(usageStart);
+    article.generationUsage = generationUsage;
     newArticles.push(article);
+    articleUsage.push({
+      articleId: article.id,
+      title: article.title,
+      sourceUrl: article.sourceUrl,
+      ...generationUsage
+    });
     mergeArticleIntoWordBank(article, wordBank);
-    console.log(`  accepted: ${article.title} (${article.wordCount} words)`);
+    console.log(
+      `  accepted: ${article.title} (${article.wordCount} words, `
+      + `${generationUsage.totalTokens} tokens, `
+      + formatCost(generationUsage) + ")"
+    );
   } catch (error) {
     console.warn(`  skipped: ${error.message}`);
   }
@@ -103,6 +120,13 @@ await fs.mkdir(path.dirname(outputPath), { recursive: true });
 await fs.writeFile(outputPath, JSON.stringify(payload, null, 2), "utf8");
 await fs.mkdir(path.dirname(wordBankPath), { recursive: true });
 await fs.writeFile(wordBankPath, JSON.stringify(wordBank, null, 2), "utf8");
+await appendGenerationLedger({
+  generatedAt: payload.generatedAt,
+  requestedArticles: targetCount,
+  acceptedArticles: newArticles.length,
+  usage: ai.usageSince(0),
+  articles: articleUsage
+});
 console.log(`Wrote ${articles.length} articles to ${outputPath}`);
 console.log(`Added ${newArticles.length} new article(s); kept ${existingArticles.length} existing article(s)`);
 console.log(`Wrote ${Object.keys(wordBank.words).length} words to ${wordBankPath}`);
@@ -256,5 +280,38 @@ async function publishIfConfigured(payload) {
     signal: AbortSignal.timeout(60_000)
   });
   if (!response.ok) throw new Error(`Publish failed ${response.status}: ${await response.text()}`);
-  console.log("Published monthly package");
+  console.log("Published on-demand package");
+}
+
+async function appendGenerationLedger(runRecord) {
+  let ledger = { schemaVersion: 1, runs: [] };
+  try {
+    ledger = JSON.parse(await fs.readFile(ledgerPath, "utf8"));
+    if (ledger.schemaVersion !== 1 || !Array.isArray(ledger.runs)) {
+      throw new Error("Generation ledger has an unsupported schema");
+    }
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+  ledger.runs.push(runRecord);
+  await fs.mkdir(path.dirname(ledgerPath), { recursive: true });
+  await fs.writeFile(ledgerPath, JSON.stringify(ledger, null, 2), "utf8");
+  console.log(
+    `Recorded ${runRecord.usage.totalTokens} total tokens; `
+    + formatCost(runRecord.usage)
+  );
+}
+
+function formatCost(usage) {
+  const reported = Object.entries(usage.reportedCosts || {});
+  if (reported.length > 0) {
+    return reported
+      .map(([currency, value]) => `${currency} ${Number(value).toFixed(6)} reported`)
+      .join(" + ");
+  }
+  if (!usage.pricingComplete) return "cost unavailable (pricing not configured)";
+  const cny = usage.estimatedCostCny == null
+    ? ""
+    : ` / ¥${usage.estimatedCostCny.toFixed(6)}`;
+  return `$${usage.estimatedCostUsd.toFixed(6)}${cny}`;
 }
