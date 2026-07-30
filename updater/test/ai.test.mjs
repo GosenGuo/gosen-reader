@@ -78,3 +78,35 @@ test("retries temporary relay throttling without changing the request", async ()
     globalThis.fetch = originalFetch;
   }
 });
+
+test("falls back to the next model after repeated temporary failures", async () => {
+  const originalFetch = globalThis.fetch;
+  const requestedModels = [];
+  globalThis.fetch = async (_url, options) => {
+    const body = JSON.parse(options.body);
+    requestedModels.push(body.model);
+    if (body.model === "deepseek-v4-pro") {
+      return new Response("overloaded", { status: 503 });
+    }
+    return Response.json({
+      choices: [{ message: { content: "{\"ok\":true}" } }]
+    });
+  };
+  try {
+    const client = new AiClient({
+      AI_API_KEY: "test-key",
+      AI_MODEL: "deepseek-v4-pro",
+      AI_FALLBACK_MODELS: "gemini-2.5-flash",
+      AI_RETRY_DELAY_MS: "0"
+    });
+    assert.deepEqual(await client.json("system", "user"), { ok: true });
+    assert.deepEqual(requestedModels, [
+      "deepseek-v4-pro",
+      "deepseek-v4-pro",
+      "deepseek-v4-pro",
+      "gemini-2.5-flash"
+    ]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
