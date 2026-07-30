@@ -37,8 +37,6 @@ public final class AppUpdateManager {
     private static final String KEY_FILE_NAME = "file_name";
     private static final String KEY_SHA256 = "sha256";
     private static final String KEY_VERIFIED = "verified";
-    private static final String KEY_LAST_CHECK = "last_check";
-    private static final long CHECK_INTERVAL_MS = 6L * 60L * 60L * 1000L;
 
     private final Activity activity;
     private final SharedPreferences preferences;
@@ -79,11 +77,6 @@ public final class AppUpdateManager {
                 || !BuildConfig.UPDATE_MANIFEST_URL.startsWith("https://")) {
             return;
         }
-        long now = System.currentTimeMillis();
-        if (now - preferences.getLong(KEY_LAST_CHECK, 0L) < CHECK_INTERVAL_MS) {
-            return;
-        }
-        preferences.edit().putLong(KEY_LAST_CHECK, now).apply();
         executor.execute(() -> {
             try {
                 UpdateInfo info = fetchUpdateInfo(BuildConfig.UPDATE_MANIFEST_URL);
