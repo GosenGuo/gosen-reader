@@ -12,16 +12,29 @@ export class AiClient {
         .map(value => value.trim())
     ]);
     this.model = this.models[0];
+    this.activeModelIndex = 0;
     this.retryDelayMs = Number(env.AI_RETRY_DELAY_MS ?? 15_000);
+    this.requestTimeoutMs = Number(env.AI_REQUEST_TIMEOUT_MS ?? 90_000);
+    this.maxAttemptsPerModel = Math.max(
+      1,
+      Number(env.AI_MAX_ATTEMPTS_PER_MODEL ?? 2)
+    );
     if (!this.apiKey) throw new Error("AI_API_KEY is required");
   }
 
   async json(system, user, temperature = 0.1) {
     let lastError;
-    for (let modelIndex = 0; modelIndex < this.models.length; modelIndex += 1) {
+    for (
+      let modelIndex = this.activeModelIndex;
+      modelIndex < this.models.length;
+      modelIndex += 1
+    ) {
       const model = this.models[modelIndex];
       try {
-        return await this.jsonWithModel(model, system, user, temperature);
+        const result = await this.jsonWithModel(model, system, user, temperature);
+        this.activeModelIndex = modelIndex;
+        this.model = model;
+        return result;
       } catch (error) {
         lastError = error;
         const fallback = this.models[modelIndex + 1];
@@ -33,7 +46,7 @@ export class AiClient {
   }
 
   async jsonWithModel(model, system, user, temperature) {
-    for (let attempt = 1; attempt <= 3; attempt += 1) {
+    for (let attempt = 1; attempt <= this.maxAttemptsPerModel; attempt += 1) {
       let response;
       try {
         response = await fetch(this.chatUrl, {
@@ -50,14 +63,14 @@ export class AiClient {
               { role: "user", content: user }
             ]
           }),
-          signal: AbortSignal.timeout(120_000)
+          signal: AbortSignal.timeout(this.requestTimeoutMs)
         });
       } catch (error) {
         const relayError = new AiRelayError(
           `AI relay network error for ${model}: ${error.message}`,
           true
         );
-        if (attempt === 3) throw relayError;
+        if (attempt === this.maxAttemptsPerModel) throw relayError;
         await retryDelay(this.retryDelayMs, attempt, `AI relay network error for ${model}`);
         continue;
       }
@@ -68,7 +81,7 @@ export class AiClient {
           `AI relay ${response.status} for ${model}: ${detail}`,
           retryable
         );
-        if (retryable && attempt < 3) {
+        if (retryable && attempt < this.maxAttemptsPerModel) {
           const retryAfter = Number(response.headers.get("retry-after")) * 1000;
           const delay = Number.isFinite(retryAfter) && retryAfter > 0
             ? retryAfter
@@ -87,7 +100,7 @@ export class AiClient {
           `AI relay returned no message content for ${model}: ${message}`,
           true
         );
-        if (attempt === 3) throw relayError;
+        if (attempt === this.maxAttemptsPerModel) throw relayError;
         await retryDelay(this.retryDelayMs, attempt, `AI relay returned no content for ${model}`);
         continue;
       }
@@ -98,7 +111,7 @@ export class AiClient {
           `AI relay output from ${model} was not valid JSON`,
           true
         );
-        if (attempt === 3) throw relayError;
+        if (attempt === this.maxAttemptsPerModel) throw relayError;
         await retryDelay(this.retryDelayMs, attempt, `Invalid JSON from ${model}`);
       }
     }
