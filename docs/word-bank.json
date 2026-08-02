@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T12:01:48.380Z",
+  "generatedAt": "2026-08-02T12:02:12.297Z",
   "words": {
     "on": {
       "lemma": "on",
@@ -8,18 +8,6 @@
       "forms": "无常见变形",
       "meanings": "关于；在……之上；通过（媒介）；在（时间）",
       "senses": [
-        {
-          "translation": "旅行的最后一周，她每天靠一把坚果和一点水维持生命。",
-          "pos": "prep.",
-          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "在网站上，她分享了自己的冒险经历，以激励学生们。",
-          "pos": "prep.",
-          "example": "On the site,she shared her adventures in order to inspire students.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
         {
           "translation": "1996年，她承担了另一项挑战——撒哈拉沙漠。",
           "pos": "prep.",
@@ -79,6 +67,18 @@
           "pos": "prep.",
           "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "在……之上",
+          "pos": "prep.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "在……情况中",
+          "pos": "prep.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -88,10 +88,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "web": {
       "lemma": "web",
@@ -176,54 +177,6 @@
       "meanings": "这，那；特指；用于最高级前；专有名词前",
       "senses": [
         {
-          "translation": "特指（新的一期）",
-          "pos": "art.",
-          "example": "When the new issue arrives, T.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "特指（那个汉堡）",
-          "pos": "art.",
-          "example": "J, honey, what did the hamburger name his daughter?",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "特指（那张桌子）",
-          "pos": "art.",
-          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "特指（那个房间）",
-          "pos": "art.",
-          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "特指（那个项目）",
-          "pos": "art.",
-          "example": "\"Brad, can I help you with the project ?",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "特指（那个房间）",
-          "pos": "art.",
-          "example": "\"\nNita walks out of the room looking sad.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "特指（Nita脸上的神情）",
-          "pos": "art.",
-          "example": "The look on Nita's face reminds me of the look on T.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "特指（傍晚早些时候）",
-          "pos": "art.",
-          "example": "J's face earlier in the evening .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
           "translation": "特指（餐桌）",
           "pos": "art.",
           "example": "J's silence at the dinner table.",
@@ -246,6 +199,54 @@
           "pos": "art.",
           "example": "So let's find more riddles for the next time I go over there.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "（用于专有名词前）",
+          "pos": "art.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "example": "What are the Benefits of a Language Holiday?",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "example": "You have little or no opportunity to escape the English language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -255,10 +256,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "internet": {
       "lemma": "internet",
@@ -376,14 +378,33 @@
           "pos": "n.",
           "example": "We can meet new and interesting people in the chat now.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "人们",
+          "pos": "n.",
+          "example": "You live with local people, often staying with a host family.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "人们",
+          "pos": "n.",
+          "example": "People think and behave differently.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "人们",
+          "pos": "n.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "can": {
       "lemma": "can",
@@ -391,24 +412,6 @@
       "forms": "could",
       "meanings": "能够；可以；可能；罐头",
       "senses": [
-        {
-          "translation": "能够",
-          "pos": "modal v.",
-          "example": "We can chat with a person who is sitting in the other part of the world.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal v.",
-          "example": "We can e-mail our friends and they can read the e-mails within a minute.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal v.",
-          "example": "We can use search engines to find the information we need.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
         {
           "translation": "能够",
           "pos": "modal v.",
@@ -462,6 +465,24 @@
           "pos": "modal v.",
           "example": "And maybe you can come along with me sometime.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "可以",
+          "pos": "modal v.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal v.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal v.",
+          "example": "Your mind is more relaxed and you can learn more easily.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -470,10 +491,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "access": {
       "lemma": "access",
@@ -498,68 +520,8 @@
       "lemma": "a",
       "pos": "art.",
       "forms": "an",
-      "meanings": "一个；每一；任何",
+      "meanings": "一个；每一；任何；一种",
       "senses": [
-        {
-          "translation": "一位",
-          "pos": "article",
-          "example": "Jack's success wouldn't have been possible without Anirban Maitra, a professor at Johns Hopkins.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "一个",
-          "pos": "article",
-          "example": "\"I was very surprised that this was a 15-year-old who was writing this.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "一个",
-          "pos": "article",
-          "example": "He is now talking with companies about developing the test into a simple product.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "But today, Internet has become a useful tool for people all over the world.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "We can chat with a person who is sitting in the other part of the world.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "We can e-mail our friends and they can read the e-mails within a minute.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
         {
           "translation": "一种",
           "pos": "art.",
@@ -571,6 +533,66 @@
           "pos": "art.",
           "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "一种",
+          "pos": "art.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "You live with local people, often staying with a host family.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "What are the Benefits of a Language Holiday?",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Cultural Understanding   Learning a language is not only about learning words.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -580,10 +602,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "variety": {
       "lemma": "variety",
@@ -610,36 +633,6 @@
       "forms": "无常见变形",
       "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
       "senses": [
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Giving all kinds of information is probably the biggest advantage of the Internet.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "We can also do shopping and find nearly all kinds of goods.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "……的（属于月份的）",
-          "pos": "prep.",
-          "example": "The longest day of the month is the day after my younger brother T.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
         {
           "translation": "……的（关于某事物的）",
           "pos": "prep.",
@@ -681,6 +674,36 @@
           "pos": "prep.",
           "example": "\" I used one of your riddles tonight.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "What are the Benefits of a Language Holiday?",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -690,10 +713,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "information": {
       "lemma": "information",
@@ -811,16 +835,23 @@
           "pos": "prep.",
           "example": "Now I don't feel so good about T.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "关于",
+          "pos": "prep.",
+          "example": "Cultural Understanding   Learning a language is not only about learning words.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "you": {
       "lemma": "you",
@@ -831,83 +862,84 @@
         {
           "translation": "你",
           "pos": "pronoun",
-          "example": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "Your training includes everything you need!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "Books, lessons, learning aids---even professional-quality tools and equipment --- everything you need to master your training and move ahead to a new career is included in the low tuition   price you pay.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "The career of your dreams is closer than you think!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "Even if you have no experience before, you can get valuable job skills in today's hottest fields!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "Then, write in the name and number of the program you're most interested in, and mail it today.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "We'll rush your free information about how you can take advantage of the opportunities.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "In the field you've chosen.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "\"Brad, can I help you with the project ?",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "Do you know what the hamburger named his daughter ?",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
           "example": "And maybe you can come along with me sometime.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "You live with local people, often staying with a host family.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "You have little or no opportunity to escape the English language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "This is how you learn your own language - constant exposure.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "Your mind is more relaxed and you can learn more easily.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "You'll find schools offering language holidays at EnglishClub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "it's": {
       "lemma": "it is",
@@ -934,42 +966,6 @@
       "forms": "无常见变形",
       "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；使用（某种语言/材料）",
       "senses": [
-        {
-          "translation": "在……内",
-          "pos": "preposition",
-          "example": "There he developed a simple paper test, which can recognize the disease in a single drop of blood.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "对……（表示兴趣）",
-          "pos": "preposition",
-          "example": "He was the only person among the 200 researchers Jack wrote to who showed interest in his project.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "在……内",
-          "pos": "preposition",
-          "example": "\"\nJack worked in Professor Maitra's laboratory, completing his project in 7 months.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "在……期间",
-          "pos": "prep.",
-          "example": "In the early 1990s,the word\" Internet\" was strange to most people.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "在……领域",
-          "pos": "prep.",
-          "example": "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "在……之内",
-          "pos": "prep.",
-          "example": "We can chat with a person who is sitting in the other part of the world.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
         {
           "translation": "输入（信息）",
           "pos": "adv.",
@@ -1005,6 +1001,42 @@
           "pos": "prep.",
           "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -1014,47 +1046,18 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "your": {
       "lemma": "your",
-      "pos": "pronoun",
+      "pos": "pron.",
       "forms": "yours",
       "meanings": "你的；你们的",
       "senses": [
-        {
-          "translation": "你的",
-          "pos": "pronoun",
-          "example": "Have you ever wondered what a Degree might be worth to you in your job or career?",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你的",
-          "pos": "pronoun",
-          "example": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你的",
-          "pos": "pronoun",
-          "example": "Your training includes everything you need!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你的",
-          "pos": "pronoun",
-          "example": "Books, lessons, learning aids---even professional-quality tools and equipment --- everything you need to master your training and move ahead to a new career is included in the low tuition   price you pay.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你的",
-          "pos": "pronoun",
-          "example": "Your education is nationally recognized!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
         {
           "translation": "你的",
           "pos": "pronoun",
@@ -1096,15 +1099,46 @@
           "pos": "pronoun",
           "example": "\" I used one of your riddles tonight.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "This is how you learn your own language - constant exposure.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Your mind is more relaxed and you can learn more easily.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "interest": {
       "lemma": "interest",
@@ -1134,52 +1168,10 @@
     },
     "to": {
       "lemma": "to",
-      "pos": "prep.",
+      "pos": "particle",
       "forms": "无常见变形",
       "meanings": "到；向；给；构成不定式",
       "senses": [
-        {
-          "translation": "（构成不定式）",
-          "pos": "particle",
-          "example": "\"It costs 3 cents per test, and then it takes only 5 minutes to run,\" he said.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "向",
-          "pos": "preposition",
-          "example": "He was the only person among the 200 researchers Jack wrote to who showed interest in his project.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "（构成不定式）",
-          "pos": "particle",
-          "example": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "给（予）",
-          "pos": "preposition",
-          "example": "The government has given the Maryland teenager patent rights to the pancreatic cancer test.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "在……期间",
-          "pos": "preposition",
-          "example": "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "对……而言",
-          "pos": "prep.",
-          "example": "In the early 1990s,the word\" Internet\" was strange to most people.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "We can use search engines to find the information we need.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
         {
           "translation": "构成不定式",
           "pos": "particle",
@@ -1209,6 +1201,48 @@
           "pos": "particle",
           "example": "I can tell that she just wants to be around her big brother.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "到",
+          "pos": "prep.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "You have little or no opportunity to escape the English language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -1218,10 +1252,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "be": {
       "lemma": "be",
@@ -1288,6 +1323,12 @@
           "pos": "v.",
           "example": "I can tell that she just wants to be around her big brother.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -1295,10 +1336,11 @@
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "aware": {
       "lemma": "aware",
@@ -1395,42 +1437,6 @@
       "meanings": "和；而且；然后；接着",
       "senses": [
         {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "We can e-mail our friends and they can read the e-mails within a minute.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "We can meet new and interesting people in the chat now.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "We can also listen to music and see films.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "以及",
-          "pos": "conj.",
-          "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "We can also do shopping and find nearly all kinds of goods.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
           "translation": "并且",
           "pos": "conj.",
           "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
@@ -1465,6 +1471,42 @@
           "pos": "conj.",
           "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Your mind is more relaxed and you can learn more easily.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "People think and behave differently.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -1474,10 +1516,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "take": {
       "lemma": "take",
@@ -1582,12 +1625,6 @@
       "meanings": "它；这；那个；代指已提到的事物",
       "senses": [
         {
-          "translation": "它（指代利益）",
-          "pos": "pron.",
-          "example": "\"However,I don't believe it is the only benefit,nor the most powerful.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
           "translation": "它（指代音乐教学的转化）",
           "pos": "pron.",
           "example": "It is truly exciting to see how my music teaching can transfer to other classrooms.",
@@ -1652,6 +1689,12 @@
           "pos": "pron.",
           "example": "Brad's little sister thought it was really funny.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "形式主语（无义）",
+          "pos": "pron.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -1660,10 +1703,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "what": {
       "lemma": "what",
@@ -1736,6 +1780,12 @@
           "pos": "pron.",
           "example": "J, guess what ?",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "什么",
+          "pos": "pronoun",
+          "example": "What are the Benefits of a Language Holiday?",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -1743,10 +1793,11 @@
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "want": {
       "lemma": "want",
@@ -1852,34 +1903,10 @@
     },
     "or": {
       "lemma": "or",
-      "pos": "conjunction",
+      "pos": "conj.",
       "forms": "无常见变形",
       "meanings": "或者；否则；也不",
       "senses": [
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "You can add keywords that apply only to you; for example your city, your employer, or a hobby.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
         {
           "translation": "或者",
           "pos": "conj.",
@@ -1921,15 +1948,46 @@
           "pos": "conjunction",
           "example": "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "You have little or no opportunity to escape the English language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "improving": {
       "lemma": "improve",
@@ -1954,44 +2012,8 @@
       "lemma": "be",
       "pos": "v.",
       "forms": "am, are, was, were, being, been",
-      "meanings": "是；存在；等于",
+      "meanings": "是；存在；等于；位于",
       "senses": [
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "The Maryland teenager is the youngest winner of the $75,000 prize.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "'\" He found that early discovery is important to increasing the chances of surviving the disease.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "It also is 100 times more sensitive than other tests.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "He is now talking with companies about developing the test into a simple product.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Communicating with others on the Internet is much faster.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -2027,6 +2049,42 @@
           "pos": "v.",
           "example": "\"\nHe is suddenly quiet.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "This is how you learn your own language - constant exposure.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Your mind is more relaxed and you can learn more easily.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Cultural Understanding   Learning a language is not only about learning words.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Their language is closely associated with their culture.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -2035,10 +2093,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "find": {
       "lemma": "find",
@@ -2075,15 +2134,22 @@
           "pos": "v.",
           "example": "So let's find more riddles for the next time I go over there.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "发现",
+          "pos": "v.",
+          "example": "You'll find schools offering language holidays at EnglishClub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "out": {
       "lemma": "out",
@@ -2526,6 +2592,12 @@
           "pos": "prep.",
           "example": "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "通过",
+          "pos": "prep.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -2533,10 +2605,11 @@
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "typing": {
       "lemma": "type",
@@ -2560,7 +2633,7 @@
     "last": {
       "lemma": "last",
       "pos": "adj.",
-      "forms": "lasts/lasted/lasting",
+      "forms": "lasts, lasted, lasting",
       "meanings": "最后的；上一个；最终；持续；姓",
       "senses": [
         {
@@ -2580,15 +2653,22 @@
           "pos": "adj.",
           "example": "At last --- some peace and quiet.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "最后的",
+          "pos": "adj.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-ffeb0429c5817c0f",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "into": {
       "lemma": "into",
@@ -2666,14 +2746,21 @@
           "pos": "adj.",
           "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "受欢迎的",
+          "pos": "adj.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "search": {
       "lemma": "search",
@@ -2862,7 +2949,7 @@
     },
     "are": {
       "lemma": "be",
-      "pos": "verb",
+      "pos": "v.",
       "forms": "am, is, were, been, being",
       "meanings": "是；在；存在",
       "senses": [
@@ -2889,15 +2976,52 @@
           "pos": "verb",
           "example": "There are some games for free.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "What are the Benefits of a Language Holiday?",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "mentioned": {
       "lemma": "mention",
@@ -3272,7 +3396,7 @@
     },
     "so": {
       "lemma": "so",
-      "pos": "adv.",
+      "pos": "conj.",
       "forms": "无常见变形",
       "meanings": "那么；如此；因此；非常",
       "senses": [
@@ -3305,16 +3429,35 @@
           "pos": "conj.",
           "example": "So let's find more riddles for the next time I go over there.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "因此",
+          "pos": "conj.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "因此",
+          "pos": "conj.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "因此",
+          "pos": "conj.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "that": {
       "lemma": "that",
@@ -3322,12 +3465,6 @@
       "forms": "those",
       "meanings": "引导从句；那个；那；因为",
       "senses": [
-        {
-          "translation": "（引导从句）",
-          "pos": "conj.",
-          "example": "It was with this mindset that she started to pursue a degree in medicine.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
         {
           "translation": "（引导从句）",
           "pos": "conj.",
@@ -3393,6 +3530,12 @@
           "pos": "pron.",
           "example": "\" I heard that from my brother, T.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -3402,10 +3545,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "engine": {
       "lemma": "engine",
@@ -3546,16 +3690,29 @@
           "pos": "adv.",
           "example": "This evening, he does not .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "Cultural Understanding   Learning a language is not only about learning words.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "two": {
       "lemma": "two",
@@ -3574,18 +3731,25 @@
           "pos": "num.",
           "example": "Earn your degree in as little as two years!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "二",
+          "pos": "num.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "more": {
       "lemma": "more",
-      "pos": "adj.",
+      "pos": "adv.",
       "forms": "无常见变形",
       "meanings": "更多；较大程度；额外；再",
       "senses": [
@@ -3618,16 +3782,23 @@
           "pos": "adj.",
           "example": "So let's find more riddles for the next time I go over there.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "更",
+          "pos": "adv.",
+          "example": "Your mind is more relaxed and you can learn more easily.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "unrelated": {
       "lemma": "unrelated",
@@ -3650,7 +3821,7 @@
     },
     "words": {
       "lemma": "word",
-      "pos": "noun",
+      "pos": "n.",
       "forms": "words",
       "meanings": "单词；词；话语；消息",
       "senses": [
@@ -3659,13 +3830,20 @@
           "pos": "noun",
           "example": "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "单词",
+          "pos": "n.",
+          "example": "Cultural Understanding   Learning a language is not only about learning words.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "just": {
       "lemma": "just",
@@ -3720,16 +3898,23 @@
           "pos": "adv.",
           "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "仅仅",
+          "pos": "adv.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "happen": {
       "lemma": "happen",
@@ -3835,16 +4020,29 @@
           "pos": "det.",
           "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "全部",
+          "pos": "det.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "全部",
+          "pos": "det.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "names": {
       "lemma": "name",
@@ -3918,12 +4116,6 @@
         {
           "translation": "有",
           "pos": "verb",
-          "example": "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "有",
-          "pos": "verb",
           "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
         },
@@ -3968,16 +4160,41 @@
           "pos": "aux. v.",
           "example": "Jack's success wouldn't have been possible without Anirban Maitra, a professor at Johns Hopkins.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "You have little or no opportunity to escape the English language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "必须",
+          "pos": "v.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "拥有",
+          "pos": "v.",
+          "example": "Different nations have different cultures.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "ever": {
       "lemma": "ever",
@@ -4049,13 +4266,26 @@
           "pos": "adjective",
           "example": "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "不同的",
+          "pos": "adjective",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "不同的",
+          "pos": "adjective",
+          "example": "Different nations have different cultures.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "use": {
       "lemma": "use",
@@ -4086,15 +4316,22 @@
           "pos": "v.",
           "example": "We can use search engines to find the information we need.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "使用",
+          "pos": "v.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-ffeb0429c5817c0f",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "middle": {
       "lemma": "middle",
@@ -4537,6 +4774,12 @@
           "pos": "adv.",
           "example": "J's eyes light up .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "起来（指起床）",
+          "pos": "adv.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -4544,10 +4787,11 @@
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "other": {
       "lemma": "other",
@@ -4602,6 +4846,12 @@
           "pos": "adj.",
           "example": "We can chat with a person who is sitting in the other part of the world.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "其他的",
+          "pos": "adj.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -4609,10 +4859,11 @@
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "who": {
       "lemma": "who",
@@ -4715,14 +4966,27 @@
           "pos": "adj.",
           "example": "Nearly 2,000 American companies --- including General Electric, IBM, Mobil, General Motors, Ford, and many others --- have used our training for their employees.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "许多",
+          "pos": "adj.",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "许多",
+          "pos": "adj.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "false": {
       "lemma": "false",
@@ -4898,16 +5162,23 @@
           "pos": "adj.",
           "example": "He was the only person among the 200 researchers Jack wrote to who showed interest in his project.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "仅仅",
+          "pos": "adv.",
+          "example": "Cultural Understanding   Learning a language is not only about learning words.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "for": {
       "lemma": "for",
@@ -5189,13 +5460,20 @@
           "pos": "det.",
           "example": "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "任何",
+          "pos": "det.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "friends": {
       "lemma": "friend",
@@ -5240,14 +5518,27 @@
           "pos": "noun",
           "example": "He started to learn it after losing a close family friend to the disease.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "家庭",
+          "pos": "noun",
+          "example": "You live with local people, often staying with a host family.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "家庭",
+          "pos": "noun",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "members": {
       "lemma": "member",
@@ -5460,18 +5751,6 @@
       "meanings": "从；来自；因为；由于；起始",
       "senses": [
         {
-          "translation": "从",
-          "pos": "prep.",
-          "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "从",
-          "pos": "prep.",
-          "example": "The most visible benefit from their success in music is their increased confidence and selfesteem,\" Peterson said.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
           "translation": "根据（某书）",
           "pos": "prep.",
           "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
@@ -5512,6 +5791,36 @@
           "pos": "prep.",
           "example": "\" I heard that from my brother, T.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "来自",
+          "pos": "prep.",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "从（起始时间/地点）",
+          "pos": "prep.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "从",
+          "pos": "prep.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "来自",
+          "pos": "prep.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "摆脱；离开",
+          "pos": "prep.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -5520,10 +5829,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "time": {
       "lemma": "time",
@@ -5560,16 +5870,23 @@
           "pos": "n.",
           "example": "So let's find more riddles for the next time I go over there.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "时间",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "they": {
       "lemma": "they",
@@ -5600,16 +5917,23 @@
           "pos": "pron.",
           "example": "We can e-mail our friends and they can read the e-mails within a minute.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "它们（指代language holidays）",
+          "pos": "pron.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "writing": {
       "lemma": "write",
@@ -6043,15 +6367,22 @@
           "pos": "art.",
           "example": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "outstanding": {
       "lemma": "outstanding",
@@ -6191,12 +6522,6 @@
       "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）；向；针对",
       "senses": [
         {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "Parents,staff and community members continue to be in awe of what she is able to bring forth from the children,\"said Debra Rose Howell,a colleague of Peterson's at Monte Crisco Elementary School.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
           "translation": "在（某年龄）",
           "pos": "prep.",
           "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
@@ -6261,6 +6586,12 @@
           "pos": "prep.",
           "example": "J's silence at the dinner table.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "在",
+          "pos": "prep.",
+          "example": "You'll find schools offering language holidays at EnglishClub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -6269,10 +6600,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "young": {
       "lemma": "young",
@@ -6580,30 +6912,6 @@
       "meanings": "与……一起；使用；带有；由于；关于",
       "senses": [
         {
-          "translation": "与……相符",
-          "pos": "prep.",
-          "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "装有",
-          "pos": "prep.",
-          "example": "She pulled her own sled piled with 160 pounds of supplies,and during her trip no one brought her fresh supplies.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "与……相遇",
-          "pos": "prep.",
-          "example": "Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "持有；带有",
-          "pos": "prep.",
-          "example": "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
           "translation": "使用；通过",
           "pos": "prep.",
           "example": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.",
@@ -6650,6 +6958,30 @@
           "pos": "prep.",
           "example": "And maybe you can come along with me sometime.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "与……一起",
+          "pos": "prep.",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "与……一起",
+          "pos": "prep.",
+          "example": "You live with local people, often staying with a host family.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "与……一起",
+          "pos": "prep.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "关于；与……有关",
+          "pos": "prep.",
+          "example": "Their language is closely associated with their culture.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -6658,10 +6990,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "this": {
       "lemma": "this",
@@ -6698,15 +7031,22 @@
           "pos": "det.",
           "example": "This evening, he does not .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "这",
+          "pos": "det.",
+          "example": "This is how you learn your own language - constant exposure.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "mindset": {
       "lemma": "mindset",
@@ -6884,18 +7224,25 @@
           "pos": "conj.",
           "example": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "当……时候",
+          "pos": "conj.",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "visiting": {
       "lemma": "visit",
-      "pos": "verb",
+      "pos": "v.",
       "forms": "visits, visited, visiting",
       "meanings": "拜访；参观；探望；视察",
       "senses": [
@@ -6910,14 +7257,21 @@
           "pos": "verb",
           "example": "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "拜访",
+          "pos": "v.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "her": {
       "lemma": "she",
@@ -7068,14 +7422,21 @@
           "pos": "adv.",
           "example": "Near the end of her trip,a forceful wind blew away the majority of her supplies.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "不在，远离",
+          "pos": "adv.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "college": {
       "lemma": "college",
@@ -7648,15 +8009,28 @@
           "pos": "n.",
           "example": "It is the largest high school science competition in the world.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "学校",
+          "pos": "n.",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "学校",
+          "pos": "n.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "levels": {
       "lemma": "level",
@@ -7952,15 +8326,34 @@
           "pos": "n.",
           "example": "He was chosen from among 1,500 students in 70 countries.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "学生",
+          "pos": "n.",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "学生",
+          "pos": "n.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "学生",
+          "pos": "n.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "participate": {
       "lemma": "participate",
@@ -7983,22 +8376,41 @@
     },
     "country": {
       "lemma": "country",
-      "pos": "adj.",
-      "forms": "countries (n.)",
-      "meanings": "全国的；农村的；国家的",
+      "pos": "n.",
+      "forms": "countries",
+      "meanings": "国家；国土；农村；乡下",
       "senses": [
         {
           "translation": "全国的",
           "pos": "adj.",
           "example": "The growth of the music program in Granite Falls School District has encouraged students to participate in country,state and national music competitions,and won numerous prizes for the district.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "国家",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "国家",
+          "pos": "n.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "国家",
+          "pos": "n.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "state": {
       "lemma": "state",
@@ -8397,15 +8809,22 @@
           "pos": "det.",
           "example": "In the early 1990s,the word\" Internet\" was strange to most people.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "大多数",
+          "pos": "det.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "visible": {
       "lemma": "visible",
@@ -8474,15 +8893,22 @@
           "pos": "pron.",
           "example": "Nearly 2,000 American companies --- including General Electric, IBM, Mobil, General Motors, Ford, and many others --- have used our training for their employees.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "他们的",
+          "pos": "pron.",
+          "example": "Their language is closely associated with their culture.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "success": {
       "lemma": "success",
@@ -8813,14 +9239,21 @@
           "pos": "adv.",
           "example": "We'll rush your free information about how you can take advantage of the opportunities.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "如何",
+          "pos": "adv.",
+          "example": "This is how you learn your own language - constant exposure.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "my": {
       "lemma": "my",
@@ -9068,13 +9501,20 @@
           "pos": "n.",
           "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "课堂",
+          "pos": "n.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "such": {
       "lemma": "such",
@@ -9113,13 +9553,44 @@
           "pos": "n.",
           "example": "\" With this philosophy,Peterson introduced a crosscurriculum program,wherein she takes lessons taught in other classes,such as English and math,and expands upon them in an eightweek unit.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "英语",
+          "pos": "n.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "英语",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "英语",
+          "pos": "n.",
+          "example": "You have little or no opportunity to escape the English language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "英语",
+          "pos": "n.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "英语",
+          "pos": "n.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "math": {
       "lemma": "math",
@@ -9263,6 +9734,12 @@
           "pos": "pron.",
           "example": "\" I used one of your riddles tonight.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "一",
+          "pos": "num.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
@@ -9270,10 +9747,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "projects": {
       "lemma": "project",
@@ -9497,14 +9975,27 @@
           "pos": "n.",
           "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "班级",
+          "pos": "n.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "班级",
+          "pos": "n.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "work": {
       "lemma": "work",
@@ -10493,14 +10984,21 @@
           "pos": "prep.",
           "example": "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "像",
+          "pos": "prep.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "what's": {
       "lemma": "what is",
@@ -10825,14 +11323,27 @@
           "pos": "adj.",
           "example": "Prepare for promotions, pay raises, or even start a business of your own.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "自己的",
+          "pos": "adj.",
+          "example": "This is how you learn your own language - constant exposure.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "自己的",
+          "pos": "adj.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "sled": {
       "lemma": "sled",
@@ -10990,14 +11501,21 @@
           "pos": "det.",
           "example": "Even if you have no experience before, you can get valuable job skills in today's hottest fields!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "没有",
+          "pos": "det.",
+          "example": "You have little or no opportunity to escape the English language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "brought": {
       "lemma": "bring",
@@ -11318,15 +11836,22 @@
           "pos": "conj.",
           "example": "When I get home, T.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "attacked": {
       "lemma": "attack",
@@ -11478,14 +12003,21 @@
           "pos": "n.",
           "example": "Call anytime, 24 hours a day, 7 days a week.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "周",
+          "pos": "n.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "handful": {
       "lemma": "handful",
@@ -11554,15 +12086,22 @@
           "pos": "adj.",
           "example": "Brad's little sister thought it was really funny.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "很少的",
+          "pos": "adj.",
+          "example": "You have little or no opportunity to escape the English language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "water": {
       "lemma": "water",
@@ -11746,15 +12285,22 @@
           "pos": "conj.",
           "example": "But a constant stream of riddles can get annoying .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "also": {
       "lemma": "also",
@@ -12097,13 +12643,20 @@
           "pos": "adv.",
           "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "经常",
+          "pos": "adv.",
+          "example": "You live with local people, often staying with a host family.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "world": {
       "lemma": "world",
@@ -12134,15 +12687,28 @@
           "pos": "n.",
           "example": "We can chat with a person who is sitting in the other part of the world.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "世界",
+          "pos": "n.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "世界",
+          "pos": "n.",
+          "example": "com ESL World.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "negative": {
       "lemma": "negative",
@@ -13155,14 +13721,33 @@
           "pos": "v.",
           "example": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "pandas": {
       "lemma": "panda",
@@ -13848,10 +14433,10 @@
       "updatedAt": "2026-08-02T11:57:25.789Z"
     },
     "learning": {
-      "lemma": "learning",
-      "pos": "n.",
-      "forms": "无常见变形",
-      "meanings": "学习；学问；知识",
+      "lemma": "learn",
+      "pos": "v./n.",
+      "forms": "learns, learned/learnt, learning",
+      "meanings": "学习；学问；知识；得知",
       "senses": [
         {
           "translation": "学习",
@@ -13882,13 +14467,26 @@
           "pos": "n.",
           "example": "com \nE-mail: Harcourt@learning.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "Cultural Understanding   Learning a language is not only about learning words.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "direct": {
       "lemma": "direct",
@@ -14058,14 +14656,21 @@
           "pos": "n.",
           "example": "When I get home, T.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "家",
+          "pos": "n.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "spare": {
       "lemma": "spare",
@@ -14126,22 +14731,29 @@
     },
     "better": {
       "lemma": "good",
-      "pos": "adj.",
+      "pos": "adv.",
       "forms": "best (superlative)",
-      "meanings": "更好的；更优秀的；改善；胜过",
+      "meanings": "更好的；更优秀的；改善；胜过；更好地",
       "senses": [
         {
           "translation": "更好的",
           "pos": "adj.",
           "example": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "更好地",
+          "pos": "adv.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "majors": {
       "lemma": "major",
@@ -14179,13 +14791,20 @@
           "pos": "n.",
           "example": "Prepare for promotions, pay raises, or even start a business of your own.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "事务（指工作等）",
+          "pos": "n.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "management": {
       "lemma": "management",
@@ -15148,15 +15767,22 @@
           "pos": "modal v.",
           "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "将要",
+          "pos": "modal v.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "earn": {
       "lemma": "earn",
@@ -15271,13 +15897,20 @@
           "pos": "v.",
           "example": "The career of your dreams is closer than you think!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "认为",
+          "pos": "v.",
+          "example": "People think and behave differently.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "experience": {
       "lemma": "experience",
@@ -16095,14 +16728,21 @@
           "pos": "n.",
           "example": "com\n\"Patty!",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "商业网站后缀",
+          "pos": "n.",
+          "example": "com ESL World.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "e": {
       "lemma": "e",
@@ -16570,20 +17210,39 @@
       "lemma": "country",
       "pos": "n.",
       "forms": "countries",
-      "meanings": "国家；国土；乡下",
+      "meanings": "国家；国土；乡下；地区",
       "senses": [
         {
           "translation": "国家",
           "pos": "n.",
           "example": "He was chosen from among 1,500 students in 70 countries.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "国家",
+          "pos": "n.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "国家",
+          "pos": "n.",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "国家",
+          "pos": "n.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "invented": {
       "lemma": "invent",
@@ -16711,7 +17370,7 @@
     },
     "learn": {
       "lemma": "learn",
-      "pos": "verb",
+      "pos": "v.",
       "forms": "learnt/learned, learning",
       "meanings": "学习；得知；获悉；认识到；学会",
       "senses": [
@@ -16720,13 +17379,38 @@
           "pos": "verb",
           "example": "He started to learn it after losing a close family friend to the disease.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "This is how you learn your own language - constant exposure.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "Your mind is more relaxed and you can learn more easily.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "after": {
       "lemma": "after",
@@ -16920,22 +17604,29 @@
     },
     "late": {
       "lemma": "late",
-      "pos": "adverb",
+      "pos": "adj./adv.",
       "forms": "later, latest",
-      "meanings": "晚地；迟地；已故的；晚期的",
+      "meanings": "晚的；迟的；已故的；晚期的",
       "senses": [
         {
           "translation": "晚地",
           "pos": "adverb",
           "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "晚的",
+          "pos": "adj.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "someone": {
       "lemma": "someone",
@@ -17397,15 +18088,22 @@
           "pos": "adv.",
           "example": "So let's find more riddles for the next time I go over there.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "在那里",
+          "pos": "adv.",
+          "example": "While there, you study in a language school with students from many different countries.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "developed": {
       "lemma": "develop",
@@ -17867,13 +18565,20 @@
           "pos": "adj.",
           "example": "Jack's success wouldn't have been possible without Anirban Maitra, a professor at Johns Hopkins.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "可能的",
+          "pos": "adj.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "anirban": {
       "lemma": "anirban",
@@ -18100,15 +18805,22 @@
           "pos": "adv.",
           "example": "\"He's very funny.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "非常",
+          "pos": "adv.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "surprised": {
       "lemma": "surprise",
@@ -18140,13 +18852,20 @@
           "pos": "n.",
           "example": "\"I was very surprised that this was a 15-year-old who was writing this.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "年",
+          "pos": "n.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "old": {
       "lemma": "old",
@@ -18305,15 +19024,22 @@
           "pos": "adv.",
           "example": "So let's find more riddles for the next time I go over there.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "遍及",
+          "pos": "adv.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "interview": {
       "lemma": "interview",
@@ -18771,13 +19497,20 @@
           "pos": "v.",
           "example": "But today, Internet has become a useful tool for people all over the world.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "成为",
+          "pos": "v.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "useful": {
       "lemma": "useful",
@@ -20115,13 +20848,20 @@
           "pos": "adj.",
           "example": "But a constant stream of riddles can get annoying .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "不断的",
+          "pos": "adj.",
+          "example": "This is how you learn your own language - constant exposure.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "stream": {
       "lemma": "stream",
@@ -20692,13 +21432,20 @@
           "pos": "n.",
           "example": "J's face earlier in the evening .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "傍晚",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "does": {
       "lemma": "do",
@@ -21842,13 +22589,20 @@
           "pos": "v.",
           "example": "And maybe you can come along with me sometime.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "来自",
+          "pos": "v.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-52737a111ab04db4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     },
     "along": {
       "lemma": "along",
@@ -22039,6 +22793,1328 @@
       ],
       "articleCount": 1,
       "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "language": {
+      "lemma": "language",
+      "pos": "n.",
+      "forms": "languages",
+      "meanings": "语言；语言学科；说话方式；表达方式",
+      "senses": [
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "What are the Benefits of a Language Holiday?",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "You have little or no opportunity to escape the English language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "This is how you learn your own language - constant exposure.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "Cultural Understanding   Learning a language is not only about learning words.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "Their language is closely associated with their culture.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n.",
+          "example": "You'll find schools offering language holidays at EnglishClub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "holiday": {
+      "lemma": "holiday",
+      "pos": "n.",
+      "forms": "holidays",
+      "meanings": "假期；假日；度假",
+      "senses": [
+        {
+          "translation": "假期",
+          "pos": "n.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "假期",
+          "pos": "n.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "假期",
+          "pos": "n.",
+          "example": "What are the Benefits of a Language Holiday?",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "假期",
+          "pos": "n.",
+          "example": "On a language holiday, students come from countries all over the world.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "假期",
+          "pos": "n.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "combination": {
+      "lemma": "combination",
+      "pos": "n.",
+      "forms": "combinations",
+      "meanings": "结合；组合；混合；联合",
+      "senses": [
+        {
+          "translation": "结合",
+          "pos": "n.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "abroad": {
+      "lemma": "abroad",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "在国外；到国外；广为流传",
+      "senses": [
+        {
+          "translation": "在国外",
+          "pos": "adv.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "improve": {
+      "lemma": "improve",
+      "pos": "v.",
+      "forms": "improves, improving, improved",
+      "meanings": "提高；改善；精进；增进",
+      "senses": [
+        {
+          "translation": "提高",
+          "pos": "v.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "foreign": {
+      "lemma": "foreign",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "外国的；不熟悉的；涉外的",
+      "senses": [
+        {
+          "translation": "外国的",
+          "pos": "adj.",
+          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "外国的",
+          "pos": "adj.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "holidays": {
+      "lemma": "holiday",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "假期；假日；度假",
+      "senses": [
+        {
+          "translation": "假期",
+          "pos": "n.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "假期",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "假期",
+          "pos": "n.",
+          "example": "You'll find schools offering language holidays at EnglishClub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "taken": {
+      "lemma": "take",
+      "pos": "v.",
+      "forms": "takes, taking, took, taken",
+      "meanings": "参加；拍摄；采取；拿走；接受",
+      "senses": [
+        {
+          "translation": "参加",
+          "pos": "v.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "speaking": {
+      "lemma": "speak",
+      "pos": "adj.",
+      "forms": "speaks, speaking, spoke, spoken",
+      "meanings": "讲（某种语言）的；口头的；说话的",
+      "senses": [
+        {
+          "translation": "讲（某种语言）的",
+          "pos": "adj.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "讲（某种语言）的",
+          "pos": "adj.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "england": {
+      "lemma": "england",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "英国；英格兰",
+      "senses": [
+        {
+          "translation": "英国",
+          "pos": "n.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "usa": {
+      "lemma": "usa",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "美国",
+      "senses": [
+        {
+          "translation": "美国",
+          "pos": "n.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "australia": {
+      "lemma": "australia",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "澳大利亚",
+      "senses": [
+        {
+          "translation": "澳大利亚",
+          "pos": "n.",
+          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "live": {
+      "lemma": "live",
+      "pos": "v.",
+      "forms": "lives, living, lived",
+      "meanings": "居住；生存；生活；现场的",
+      "senses": [
+        {
+          "translation": "居住",
+          "pos": "v.",
+          "example": "You live with local people, often staying with a host family.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "local": {
+      "lemma": "local",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "当地的；本地的；局部的",
+      "senses": [
+        {
+          "translation": "当地的",
+          "pos": "adj.",
+          "example": "You live with local people, often staying with a host family.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "当地的",
+          "pos": "adj.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "staying": {
+      "lemma": "stay",
+      "pos": "v.",
+      "forms": "stays, stayed, staying",
+      "meanings": "停留；保持；待；逗留",
+      "senses": [
+        {
+          "translation": "停留；暂住",
+          "pos": "v.",
+          "example": "You live with local people, often staying with a host family.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "host": {
+      "lemma": "host",
+      "pos": "noun",
+      "forms": "hosts",
+      "meanings": "东道主；房东；主持人；主办方",
+      "senses": [
+        {
+          "translation": "东道主",
+          "pos": "noun",
+          "example": "You live with local people, often staying with a host family.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "房东",
+          "pos": "noun",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "length": {
+      "lemma": "length",
+      "pos": "noun",
+      "forms": "lengths",
+      "meanings": "长度；时长；一段时间",
+      "senses": [
+        {
+          "translation": "时长",
+          "pos": "noun",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "three": {
+      "lemma": "three",
+      "pos": "num.",
+      "forms": "无常见变形",
+      "meanings": "三；三个",
+      "senses": [
+        {
+          "translation": "三",
+          "pos": "num.",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "weeks": {
+      "lemma": "week",
+      "pos": "noun",
+      "forms": "week",
+      "meanings": "周；星期",
+      "senses": [
+        {
+          "translation": "周",
+          "pos": "noun",
+          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "benefits": {
+      "lemma": "benefit",
+      "pos": "noun",
+      "forms": "benefit",
+      "meanings": "益处；好处；津贴；优势",
+      "senses": [
+        {
+          "translation": "益处",
+          "pos": "noun",
+          "example": "What are the Benefits of a Language Holiday?",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "method": {
+      "lemma": "method",
+      "pos": "n.",
+      "forms": "methods",
+      "meanings": "方法；办法；秩序；条理",
+      "senses": [
+        {
+          "translation": "方法",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "because": {
+      "lemma": "because",
+      "pos": "conj.",
+      "forms": "无常见变形",
+      "meanings": "因为",
+      "senses": [
+        {
+          "translation": "因为",
+          "pos": "conj.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "advantages": {
+      "lemma": "advantage",
+      "pos": "n.",
+      "forms": "advantages",
+      "meanings": "优势；长处；有利条件；益处",
+      "senses": [
+        {
+          "translation": "优势",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "total": {
+      "lemma": "total",
+      "pos": "adj.",
+      "forms": "totals, totaled, totaling",
+      "meanings": "完全的；总数的；总计；总额",
+      "senses": [
+        {
+          "translation": "完全的",
+          "pos": "adj.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "exposure": {
+      "lemma": "exposure",
+      "pos": "n.",
+      "forms": "exposures",
+      "meanings": "接触；暴露；揭露；曝光",
+      "senses": [
+        {
+          "translation": "接触",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "接触",
+          "pos": "n.",
+          "example": "This is how you learn your own language - constant exposure.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "constantly": {
+      "lemma": "constant",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "不断地；始终；经常地",
+      "senses": [
+        {
+          "translation": "不断地",
+          "pos": "adv.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "exposed": {
+      "lemma": "expose",
+      "pos": "v.",
+      "forms": "exposes, exposing, exposed",
+      "meanings": "使接触；暴露；揭露；显示",
+      "senses": [
+        {
+          "translation": "使接触",
+          "pos": "v.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "wake": {
+      "lemma": "wake",
+      "pos": "v.",
+      "forms": "wakes, woke, woken, waking",
+      "meanings": "醒来；叫醒；唤起",
+      "senses": [
+        {
+          "translation": "醒来",
+          "pos": "v.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "breakfast": {
+      "lemma": "breakfast",
+      "pos": "n.",
+      "forms": "breakfasts",
+      "meanings": "早餐；早饭",
+      "senses": [
+        {
+          "translation": "早餐",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "until": {
+      "lemma": "until",
+      "pos": "prep./conj.",
+      "forms": "无常见变形",
+      "meanings": "直到……为止；在……之前",
+      "senses": [
+        {
+          "translation": "直到",
+          "pos": "prep.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "drink": {
+      "lemma": "drink",
+      "pos": "n.",
+      "forms": "drinks, drank, drunk, drinking",
+      "meanings": "喝；饮；饮料；酒",
+      "senses": [
+        {
+          "translation": "饮料",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "pub": {
+      "lemma": "pub",
+      "pos": "n.",
+      "forms": "pubs",
+      "meanings": "酒吧；酒馆",
+      "senses": [
+        {
+          "translation": "酒吧",
+          "pos": "n.",
+          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "opportunity": {
+      "lemma": "opportunity",
+      "pos": "n.",
+      "forms": "opportunities",
+      "meanings": "机会；时机",
+      "senses": [
+        {
+          "translation": "机会",
+          "pos": "n.",
+          "example": "You have little or no opportunity to escape the English language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "escape": {
+      "lemma": "escape",
+      "pos": "v.",
+      "forms": "escapes, escaped, escaping",
+      "meanings": "逃跑；逃脱；避开；逃避",
+      "senses": [
+        {
+          "translation": "逃避",
+          "pos": "v.",
+          "example": "You have little or no opportunity to escape the English language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "mixed": {
+      "lemma": "mix",
+      "pos": "adj.",
+      "forms": "mixer, mixing",
+      "meanings": "混合的；混杂的",
+      "senses": [
+        {
+          "translation": "混合的",
+          "pos": "adj.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "speak": {
+      "lemma": "speak",
+      "pos": "v.",
+      "forms": "speaks, spoke, spoken, speaking",
+      "meanings": "说；讲；发言；演说",
+      "senses": [
+        {
+          "translation": "说",
+          "pos": "v.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "说",
+          "pos": "v.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "forced": {
+      "lemma": "force",
+      "pos": "adj.",
+      "forms": "forces, forced, forcing",
+      "meanings": "强迫；迫使；被迫的",
+      "senses": [
+        {
+          "translation": "被迫的",
+          "pos": "adj.",
+          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "nobody": {
+      "lemma": "nobody",
+      "pos": "pron.",
+      "forms": "无常见变形",
+      "meanings": "没有人；无名小卒",
+      "senses": [
+        {
+          "translation": "没有人",
+          "pos": "pron.",
+          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "freedom": {
+      "lemma": "freedom",
+      "pos": "n.",
+      "forms": "freedoms",
+      "meanings": "自由；自主；豁免",
+      "senses": [
+        {
+          "translation": "自由",
+          "pos": "n.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "pressure": {
+      "lemma": "pressure",
+      "pos": "n.",
+      "forms": "pressures",
+      "meanings": "压力；压迫；气压",
+      "senses": [
+        {
+          "translation": "压力",
+          "pos": "n.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "forget": {
+      "lemma": "forget",
+      "pos": "v.",
+      "forms": "forgot, forgotten, forgetting",
+      "meanings": "忘记；忽略；遗忘",
+      "senses": [
+        {
+          "translation": "忘记",
+          "pos": "v.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "everyday": {
+      "lemma": "everyday",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "日常的；平常的；平凡的",
+      "senses": [
+        {
+          "translation": "日常的",
+          "pos": "adj.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "pressures": {
+      "lemma": "pressure",
+      "pos": "n.",
+      "forms": "pressure",
+      "meanings": "压力；压迫；气压",
+      "senses": [
+        {
+          "translation": "压力",
+          "pos": "n.",
+          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "mind": {
+      "lemma": "mind",
+      "pos": "n.",
+      "forms": "minds",
+      "meanings": "头脑；思想；理智；在意",
+      "senses": [
+        {
+          "translation": "思维；头脑",
+          "pos": "n.",
+          "example": "Your mind is more relaxed and you can learn more easily.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "relaxed": {
+      "lemma": "relaxed",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "放松的；从容的；松懈的",
+      "senses": [
+        {
+          "translation": "放松的",
+          "pos": "adj.",
+          "example": "Your mind is more relaxed and you can learn more easily.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "easily": {
+      "lemma": "easily",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "容易地；轻易地；无疑地",
+      "senses": [
+        {
+          "translation": "容易地",
+          "pos": "adv.",
+          "example": "Your mind is more relaxed and you can learn more easily.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "cultural": {
+      "lemma": "cultural",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "文化的；有关文化的",
+      "senses": [
+        {
+          "translation": "文化的",
+          "pos": "adj.",
+          "example": "Cultural Understanding   Learning a language is not only about learning words.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "understanding": {
+      "lemma": "understanding",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "理解；领会；谅解；融洽",
+      "senses": [
+        {
+          "translation": "理解",
+          "pos": "n.",
+          "example": "Cultural Understanding   Learning a language is not only about learning words.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "nations": {
+      "lemma": "nation",
+      "pos": "n.",
+      "forms": "nations",
+      "meanings": "国家；民族；国民",
+      "senses": [
+        {
+          "translation": "国家",
+          "pos": "n.",
+          "example": "Different nations have different cultures.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "cultures": {
+      "lemma": "culture",
+      "pos": "n.",
+      "forms": "cultures",
+      "meanings": "文化；文明；教养；栽培",
+      "senses": [
+        {
+          "translation": "文化",
+          "pos": "n.",
+          "example": "Different nations have different cultures.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "behave": {
+      "lemma": "behave",
+      "pos": "v.",
+      "forms": "behaves, behaved, behaving",
+      "meanings": "表现；行为；守规矩",
+      "senses": [
+        {
+          "translation": "表现",
+          "pos": "v.",
+          "example": "People think and behave differently.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "differently": {
+      "lemma": "differently",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "不同地；有差异地",
+      "senses": [
+        {
+          "translation": "不同地",
+          "pos": "adv.",
+          "example": "People think and behave differently.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "closely": {
+      "lemma": "closely",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "紧密地；严密地；接近地",
+      "senses": [
+        {
+          "translation": "紧密地",
+          "pos": "adv.",
+          "example": "Their language is closely associated with their culture.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "associated": {
+      "lemma": "associate",
+      "pos": "v.",
+      "forms": "associates, associated, associating",
+      "meanings": "联系；联合；结交",
+      "senses": [
+        {
+          "translation": "联系",
+          "pos": "v.",
+          "example": "Their language is closely associated with their culture.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "culture": {
+      "lemma": "culture",
+      "pos": "n.",
+      "forms": "cultures",
+      "meanings": "文化；文明；教养；栽培",
+      "senses": [
+        {
+          "translation": "文化",
+          "pos": "n.",
+          "example": "Their language is closely associated with their culture.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "文化",
+          "pos": "n.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "living": {
+      "lemma": "live",
+      "pos": "v.",
+      "forms": "lives, lived, living",
+      "meanings": "居住；生存；生活",
+      "senses": [
+        {
+          "translation": "居住",
+          "pos": "v.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "understand": {
+      "lemma": "understand",
+      "pos": "v.",
+      "forms": "understood, understanding, understands",
+      "meanings": "理解；明白；懂得；体谅",
+      "senses": [
+        {
+          "translation": "理解",
+          "pos": "v.",
+          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "you'll": {
+      "lemma": "you will",
+      "pos": "pron. + v.",
+      "forms": "无常见变形",
+      "meanings": "你将；你会",
+      "senses": [
+        {
+          "translation": "你将",
+          "pos": "pron. + v.",
+          "example": "You'll find schools offering language holidays at EnglishClub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "schools": {
+      "lemma": "school",
+      "pos": "n.",
+      "forms": "school",
+      "meanings": "学校；学院；学派；教育",
+      "senses": [
+        {
+          "translation": "学校",
+          "pos": "n.",
+          "example": "You'll find schools offering language holidays at EnglishClub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "offering": {
+      "lemma": "offer",
+      "pos": "v.",
+      "forms": "offered, offers, offering",
+      "meanings": "提供；提出；给予；出价",
+      "senses": [
+        {
+          "translation": "提供",
+          "pos": "v.",
+          "example": "You'll find schools offering language holidays at EnglishClub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "englishclub": {
+      "lemma": "englishclub",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "英语学习俱乐部；网站名称",
+      "senses": [
+        {
+          "translation": "EnglishClub（网站名）",
+          "pos": "n.",
+          "example": "You'll find schools offering language holidays at EnglishClub.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "esl": {
+      "lemma": "esl",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "英语为第二语言；英语教学",
+      "senses": [
+        {
+          "translation": "英语为第二语言",
+          "pos": "n.",
+          "example": "com ESL World.",
+          "sourceArticleId": "web-52737a111ab04db4"
+        }
+      ],
+      "articleIds": [
+        "web-52737a111ab04db4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:02:12.297Z"
     }
   }
 }

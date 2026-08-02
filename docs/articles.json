@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T12:01:48.383Z",
+  "generatedAt": "2026-08-02T12:02:12.299Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -20161,6 +20161,2571 @@
             "inputTokens": 33624,
             "outputTokens": 23697,
             "totalTokens": 57321,
+            "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-52737a111ab04db4",
+      "title": "RACE 高中英语阅读 high17053",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language. English language holidays are taken in English-speaking countries like England, the USA or Australia. While there, you study in a language school with students from many different countries. You live with local people, often staying with a host family. A language holiday can be of any length - from one week to one year - but most are two or three weeks.\nWhat are the Benefits of a Language Holiday?\nLanguage holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub. You have little or no opportunity to escape the English language. This is how you learn your own language - constant exposure.\nMixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English. On a language holiday, students come from countries all over the world. It is possible that nobody in your class will speak your language, so you will just have to speak English!\nFreedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business. Your mind is more relaxed and you can learn more easily.\nCultural Understanding   Learning a language is not only about learning words. Different nations have different cultures. People think and behave differently. Their language is closely associated with their culture. By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.\nYou'll find schools offering language holidays at EnglishClub.com ESL World.",
+      "wordCount": 319,
+      "sentenceTranslations": {
+        "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": "“语言假期”是“度假”与“海外游学”的结合，旨在学习或提高外语水平。",
+        "English language holidays are taken in English-speaking countries like England, the USA or Australia.": "英语语言假期通常在英国、美国或澳大利亚等英语国家进行。",
+        "While there, you study in a language school with students from many different countries.": "在那里，你将在语言学校与来自许多不同国家的学生一起学习。",
+        "You live with local people, often staying with a host family.": "你将与当地人住在一起，通常是寄宿在接待家庭中。",
+        "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": "语言假期的时间长短不一——从一周到一年不等——但大多数为期两到三周。",
+        "What are the Benefits of a Language Holiday?": "语言假期有哪些益处？",
+        "Language holidays have become a very popular method of learning English because they have many advantages: Total Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": "游学已经成为一种非常受欢迎的英语学习方式，因为它有许多优点：全浸入式环境。因为你身处英语国家，从早起与寄宿家庭共进早餐，到深夜在当地酒吧喝完最后一杯酒，你始终都处在英语的环境中。",
+        "You have little or no opportunity to escape the English language.": "你几乎没有机会逃避英语。",
+        "This is how you learn your own language - constant exposure.": "这就是你学习母语的方式——持续的语言接触。",
+        "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": "混合班级。当你在国内学习时，班上所有其他同学都说你的母语，因此你不会被迫使用英语。",
+        "On a language holiday, students come from countries all over the world.": "而在游学中，学生们来自世界各国。",
+        "It is possible that nobody in your class will speak your language, so you will just have to speak English!": "很可能班上没有人会说你的母语，所以你只能说英语！",
+        "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": "远离压力：在语言游学期间，你远离家乡，可以忘掉学校或工作中的日常压力。",
+        "Your mind is more relaxed and you can learn more easily.": "你的心态更加放松，学习起来也更容易。",
+        "Cultural Understanding   Learning a language is not only about learning words.": "文化理解：学习一门语言不仅仅是学习词汇。",
+        "Different nations have different cultures.": "不同的国家拥有不同的文化。",
+        "People think and behave differently.": "人们的思维方式和行为举止各不相同。",
+        "Their language is closely associated with their culture.": "他们的语言与他们的文化紧密相连。",
+        "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": "通过访问和居住在国外，你学会了理解那里的文化和人民，从而也能更好地理解这门语言。",
+        "You'll find schools offering language holidays at EnglishClub.": "你可以在EnglishClub找到提供语言度假项目的学校。",
+        "com ESL World.": "com ESL World。"
+      },
+      "glossary": {
+        "a": {
+          "lemma": "a",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何；一种",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "一种",
+              "pos": "art."
+            },
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "You live with local people, often staying with a host family.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "What are the Benefits of a Language Holiday?": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Cultural Understanding   Learning a language is not only about learning words.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "language": {
+          "lemma": "language",
+          "translation": "语言",
+          "pos": "n.",
+          "forms": "languages",
+          "meanings": "语言；语言学科；说话方式；表达方式",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "What are the Benefits of a Language Holiday?": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "You have little or no opportunity to escape the English language.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "This is how you learn your own language - constant exposure.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "Cultural Understanding   Learning a language is not only about learning words.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "Their language is closely associated with their culture.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "语言",
+              "pos": "n."
+            },
+            "You'll find schools offering language holidays at EnglishClub.": {
+              "translation": "语言",
+              "pos": "n."
+            }
+          }
+        },
+        "holiday": {
+          "lemma": "holiday",
+          "translation": "假期",
+          "pos": "n.",
+          "forms": "holidays",
+          "meanings": "假期；假日；度假",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "假期",
+              "pos": "n."
+            },
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "假期",
+              "pos": "n."
+            },
+            "What are the Benefits of a Language Holiday?": {
+              "translation": "假期",
+              "pos": "n."
+            },
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "假期",
+              "pos": "n."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "假期",
+              "pos": "n."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于；位于",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "This is how you learn your own language - constant exposure.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Your mind is more relaxed and you can learn more easily.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Cultural Understanding   Learning a language is not only about learning words.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Their language is closely associated with their culture.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "combination": {
+          "lemma": "combination",
+          "translation": "结合",
+          "pos": "n.",
+          "forms": "combinations",
+          "meanings": "结合；组合；混合；联合",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "结合",
+              "pos": "n."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "What are the Benefits of a Language Holiday?": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Your mind is more relaxed and you can learn more easily.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "People think and behave differently.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "和",
+              "pos": "conj."
+            }
+          }
+        },
+        "study": {
+          "lemma": "study",
+          "translation": "学习",
+          "pos": "v.",
+          "forms": "studies, studying, studied",
+          "meanings": "学习；研究；细看；书房",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "学习",
+              "pos": "v."
+            },
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "学习",
+              "pos": "v."
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "学习",
+              "pos": "v."
+            }
+          }
+        },
+        "abroad": {
+          "lemma": "abroad",
+          "translation": "在国外",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在国外；到国外；广为流传",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "在国外",
+              "pos": "adv."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "构成不定式",
+          "pos": "particle",
+          "forms": "无常见变形",
+          "meanings": "到；向；给；构成不定式",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "到",
+              "pos": "prep."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "You have little or no opportunity to escape the English language.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            }
+          }
+        },
+        "learn": {
+          "lemma": "learn",
+          "translation": "学习",
+          "pos": "v.",
+          "forms": "learnt/learned, learning",
+          "meanings": "学习；得知；获悉；认识到；学会",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "学习",
+              "pos": "v."
+            },
+            "This is how you learn your own language - constant exposure.": {
+              "translation": "学习",
+              "pos": "v."
+            },
+            "Your mind is more relaxed and you can learn more easily.": {
+              "translation": "学习",
+              "pos": "v."
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "学习",
+              "pos": "v."
+            }
+          }
+        },
+        "or": {
+          "lemma": "or",
+          "translation": "或者",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "或者；否则；也不",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "或者",
+              "pos": "conj."
+            },
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "或者",
+              "pos": "conj."
+            },
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "或者",
+              "pos": "conj."
+            },
+            "You have little or no opportunity to escape the English language.": {
+              "translation": "或者",
+              "pos": "conj."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "或者",
+              "pos": "conj."
+            }
+          }
+        },
+        "improve": {
+          "lemma": "improve",
+          "translation": "提高",
+          "pos": "v.",
+          "forms": "improves, improving, improved",
+          "meanings": "提高；改善；精进；增进",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "提高",
+              "pos": "v."
+            }
+          }
+        },
+        "foreign": {
+          "lemma": "foreign",
+          "translation": "外国的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "外国的；不熟悉的；涉外的",
+          "contexts": {
+            "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.": {
+              "translation": "外国的",
+              "pos": "adj."
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "外国的",
+              "pos": "adj."
+            }
+          }
+        },
+        "english": {
+          "lemma": "English",
+          "translation": "英语",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "英语；英国人",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "英语",
+              "pos": "n."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "英语",
+              "pos": "n."
+            },
+            "You have little or no opportunity to escape the English language.": {
+              "translation": "英语",
+              "pos": "n."
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "英语",
+              "pos": "n."
+            },
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "英语",
+              "pos": "n."
+            }
+          }
+        },
+        "holidays": {
+          "lemma": "holiday",
+          "translation": "假期",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "假期；假日；度假",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "假期",
+              "pos": "n."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "假期",
+              "pos": "n."
+            },
+            "You'll find schools offering language holidays at EnglishClub.": {
+              "translation": "假期",
+              "pos": "n."
+            }
+          }
+        },
+        "are": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, were, been, being",
+          "meanings": "是；在；存在",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "What are the Benefits of a Language Holiday?": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "taken": {
+          "lemma": "take",
+          "translation": "参加",
+          "pos": "v.",
+          "forms": "takes, taking, took, taken",
+          "meanings": "参加；拍摄；采取；拿走；接受",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "参加",
+              "pos": "v."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……之内",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；使用（某种语言/材料）",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            }
+          }
+        },
+        "speaking": {
+          "lemma": "speak",
+          "translation": "讲（某种语言）的",
+          "pos": "adj.",
+          "forms": "speaks, speaking, spoke, spoken",
+          "meanings": "讲（某种语言）的；口头的；说话的",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "讲（某种语言）的",
+              "pos": "adj."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "讲（某种语言）的",
+              "pos": "adj."
+            }
+          }
+        },
+        "countries": {
+          "lemma": "country",
+          "translation": "国家",
+          "pos": "n.",
+          "forms": "countries",
+          "meanings": "国家；国土；乡下；地区",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "国家",
+              "pos": "n."
+            },
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "国家",
+              "pos": "n."
+            },
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "国家",
+              "pos": "n."
+            }
+          }
+        },
+        "like": {
+          "lemma": "like",
+          "translation": "像",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "像；如同；例如；喜欢",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "像",
+              "pos": "prep."
+            }
+          }
+        },
+        "england": {
+          "lemma": "england",
+          "translation": "英国",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "英国；英格兰",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "英国",
+              "pos": "n."
+            }
+          }
+        },
+        "the": {
+          "lemma": "the",
+          "translation": "这，那",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这，那；特指；用于最高级前；专有名词前",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "（用于专有名词前）",
+              "pos": "art."
+            },
+            "What are the Benefits of a Language Holiday?": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "You have little or no opportunity to escape the English language.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            }
+          }
+        },
+        "usa": {
+          "lemma": "usa",
+          "translation": "美国",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "美国",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "美国",
+              "pos": "n."
+            }
+          }
+        },
+        "australia": {
+          "lemma": "australia",
+          "translation": "澳大利亚",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "澳大利亚",
+          "contexts": {
+            "English language holidays are taken in English-speaking countries like England, the USA or Australia.": {
+              "translation": "澳大利亚",
+              "pos": "n."
+            }
+          }
+        },
+        "while": {
+          "lemma": "while",
+          "translation": "当……时候",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "当……时候；然而；虽然；在……期间",
+          "contexts": {
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "当……时候",
+              "pos": "conj."
+            }
+          }
+        },
+        "there": {
+          "lemma": "there",
+          "translation": "在那里",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在那里；到那里；（用于there be句型）",
+          "contexts": {
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "在那里",
+              "pos": "adv."
+            }
+          }
+        },
+        "you": {
+          "lemma": "you",
+          "translation": "你",
+          "pos": "pronoun",
+          "forms": "your; yours; yourself",
+          "meanings": "你；你们；人们（泛指）",
+          "contexts": {
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "You live with local people, often staying with a host family.": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "You have little or no opportunity to escape the English language.": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "This is how you learn your own language - constant exposure.": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "Your mind is more relaxed and you can learn more easily.": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "You'll find schools offering language holidays at EnglishClub.": {
+              "translation": "你",
+              "pos": "pronoun"
+            }
+          }
+        },
+        "school": {
+          "lemma": "school",
+          "translation": "学校",
+          "pos": "n.",
+          "forms": "schools",
+          "meanings": "学校；学院；上学；学派",
+          "contexts": {
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "学校",
+              "pos": "n."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "与……一起",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "与……一起；使用；带有；由于；关于",
+          "contexts": {
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "与……一起",
+              "pos": "prep."
+            },
+            "You live with local people, often staying with a host family.": {
+              "translation": "与……一起",
+              "pos": "prep."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "与……一起",
+              "pos": "prep."
+            },
+            "Their language is closely associated with their culture.": {
+              "translation": "关于；与……有关",
+              "pos": "prep."
+            }
+          }
+        },
+        "students": {
+          "lemma": "student",
+          "translation": "学生",
+          "pos": "n.",
+          "forms": "students",
+          "meanings": "学生；学者；研究者",
+          "contexts": {
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "学生",
+              "pos": "n."
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "学生",
+              "pos": "n."
+            },
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "学生",
+              "pos": "n."
+            }
+          }
+        },
+        "from": {
+          "lemma": "from",
+          "translation": "来自",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "从；来自；因为；由于；起始",
+          "contexts": {
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "来自",
+              "pos": "prep."
+            },
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "从（起始时间/地点）",
+              "pos": "prep."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "从",
+              "pos": "prep."
+            },
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "来自",
+              "pos": "prep."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "摆脱；离开",
+              "pos": "prep."
+            }
+          }
+        },
+        "many": {
+          "lemma": "many",
+          "translation": "许多",
+          "pos": "adj.",
+          "forms": "more, most",
+          "meanings": "许多；大量；许多人",
+          "contexts": {
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "许多",
+              "pos": "adj."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "许多",
+              "pos": "adj."
+            }
+          }
+        },
+        "different": {
+          "lemma": "different",
+          "translation": "不同的",
+          "pos": "adjective",
+          "forms": "无常见变形",
+          "meanings": "不同的；各种各样的；异类的",
+          "contexts": {
+            "While there, you study in a language school with students from many different countries.": {
+              "translation": "不同的",
+              "pos": "adjective"
+            },
+            "Different nations have different cultures.": {
+              "translation": "不同的",
+              "pos": "adjective"
+            }
+          }
+        },
+        "live": {
+          "lemma": "live",
+          "translation": "居住",
+          "pos": "v.",
+          "forms": "lives, living, lived",
+          "meanings": "居住；生存；生活；现场的",
+          "contexts": {
+            "You live with local people, often staying with a host family.": {
+              "translation": "居住",
+              "pos": "v."
+            }
+          }
+        },
+        "local": {
+          "lemma": "local",
+          "translation": "当地的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "当地的；本地的；局部的",
+          "contexts": {
+            "You live with local people, often staying with a host family.": {
+              "translation": "当地的",
+              "pos": "adj."
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "当地的",
+              "pos": "adj."
+            }
+          }
+        },
+        "people": {
+          "lemma": "people",
+          "translation": "人们",
+          "pos": "n.",
+          "forms": "peoples",
+          "meanings": "人们；民族；人；国民",
+          "contexts": {
+            "You live with local people, often staying with a host family.": {
+              "translation": "人们",
+              "pos": "n."
+            },
+            "People think and behave differently.": {
+              "translation": "人们",
+              "pos": "n."
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "人们",
+              "pos": "n."
+            }
+          }
+        },
+        "often": {
+          "lemma": "often",
+          "translation": "经常",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "经常；往往；屡次",
+          "contexts": {
+            "You live with local people, often staying with a host family.": {
+              "translation": "经常",
+              "pos": "adv."
+            }
+          }
+        },
+        "staying": {
+          "lemma": "stay",
+          "translation": "停留",
+          "pos": "v.",
+          "forms": "stays, stayed, staying",
+          "meanings": "停留；保持；待；逗留",
+          "contexts": {
+            "You live with local people, often staying with a host family.": {
+              "translation": "停留；暂住",
+              "pos": "v."
+            }
+          }
+        },
+        "host": {
+          "lemma": "host",
+          "translation": "东道主",
+          "pos": "noun",
+          "forms": "hosts",
+          "meanings": "东道主；房东；主持人；主办方",
+          "contexts": {
+            "You live with local people, often staying with a host family.": {
+              "translation": "东道主",
+              "pos": "noun"
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "房东",
+              "pos": "noun"
+            }
+          }
+        },
+        "family": {
+          "lemma": "family",
+          "translation": "家庭",
+          "pos": "noun",
+          "forms": "families",
+          "meanings": "家庭；家人；亲属；家族",
+          "contexts": {
+            "You live with local people, often staying with a host family.": {
+              "translation": "家庭",
+              "pos": "noun"
+            },
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "家庭",
+              "pos": "noun"
+            }
+          }
+        },
+        "can": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal v.",
+          "forms": "could",
+          "meanings": "能够；可以；可能；罐头",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "可以",
+              "pos": "modal v."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "Your mind is more relaxed and you can learn more easily.": {
+              "translation": "能够",
+              "pos": "modal v."
+            }
+          }
+        },
+        "be": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；表现为；处于……状态",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "any": {
+          "lemma": "any",
+          "translation": "任何",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "任何；一些；任一",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "任何",
+              "pos": "det."
+            }
+          }
+        },
+        "length": {
+          "lemma": "length",
+          "translation": "长度",
+          "pos": "noun",
+          "forms": "lengths",
+          "meanings": "长度；时长；一段时间",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "时长",
+              "pos": "noun"
+            }
+          }
+        },
+        "one": {
+          "lemma": "one",
+          "translation": "一个",
+          "pos": "pron.",
+          "forms": "ones",
+          "meanings": "一个；某人；单一的；（指代前文提到的事物）",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "一",
+              "pos": "num."
+            }
+          }
+        },
+        "week": {
+          "lemma": "week",
+          "translation": "周",
+          "pos": "n.",
+          "forms": "weeks",
+          "meanings": "周；星期",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "周",
+              "pos": "n."
+            }
+          }
+        },
+        "year": {
+          "lemma": "year",
+          "translation": "年",
+          "pos": "n.",
+          "forms": "years",
+          "meanings": "年；年份；年龄；年度",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "年",
+              "pos": "n."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "most": {
+          "lemma": "most",
+          "translation": "大多数",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "大多数；最；极度；绝大部分",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "大多数",
+              "pos": "det."
+            }
+          }
+        },
+        "two": {
+          "lemma": "two",
+          "translation": "二",
+          "pos": "num.",
+          "forms": "无常见变形",
+          "meanings": "二；两个",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "二",
+              "pos": "num."
+            }
+          }
+        },
+        "three": {
+          "lemma": "three",
+          "translation": "三",
+          "pos": "num.",
+          "forms": "无常见变形",
+          "meanings": "三；三个",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "三",
+              "pos": "num."
+            }
+          }
+        },
+        "weeks": {
+          "lemma": "week",
+          "translation": "周",
+          "pos": "noun",
+          "forms": "week",
+          "meanings": "周；星期",
+          "contexts": {
+            "A language holiday can be of any length - from one week to one year - but most are two or three weeks.": {
+              "translation": "周",
+              "pos": "noun"
+            }
+          }
+        },
+        "what": {
+          "lemma": "what",
+          "translation": "什么",
+          "pos": "pronoun",
+          "forms": "无常见变形",
+          "meanings": "什么；……的事物；多么；究竟是什么",
+          "contexts": {
+            "What are the Benefits of a Language Holiday?": {
+              "translation": "什么",
+              "pos": "pronoun"
+            }
+          }
+        },
+        "benefits": {
+          "lemma": "benefit",
+          "translation": "益处",
+          "pos": "noun",
+          "forms": "benefit",
+          "meanings": "益处；好处；津贴；优势",
+          "contexts": {
+            "What are the Benefits of a Language Holiday?": {
+              "translation": "益处",
+              "pos": "noun"
+            }
+          }
+        },
+        "have": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "aux. v.",
+          "forms": "having, had, has",
+          "meanings": "有；经历；吃；使（某人做某事）；辅助动词（完成时态）",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "You have little or no opportunity to escape the English language.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "必须",
+              "pos": "v."
+            },
+            "Different nations have different cultures.": {
+              "translation": "拥有",
+              "pos": "v."
+            }
+          }
+        },
+        "become": {
+          "lemma": "become",
+          "translation": "成为",
+          "pos": "v.",
+          "forms": "became, become, becoming",
+          "meanings": "成为；变得；适应",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "成为",
+              "pos": "v."
+            }
+          }
+        },
+        "very": {
+          "lemma": "very",
+          "translation": "非常",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "非常；极；完全；正是",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "非常",
+              "pos": "adv."
+            }
+          }
+        },
+        "popular": {
+          "lemma": "popular",
+          "translation": "受欢迎的",
+          "pos": "adj.",
+          "forms": "more popular, most popular",
+          "meanings": "受欢迎的；流行的；大众的",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "受欢迎的",
+              "pos": "adj."
+            }
+          }
+        },
+        "method": {
+          "lemma": "method",
+          "translation": "方法",
+          "pos": "n.",
+          "forms": "methods",
+          "meanings": "方法；办法；秩序；条理",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "方法",
+              "pos": "n."
+            }
+          }
+        },
+        "learning": {
+          "lemma": "learn",
+          "translation": "学习",
+          "pos": "v./n.",
+          "forms": "learns, learned/learnt, learning",
+          "meanings": "学习；学问；知识；得知",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "学习",
+              "pos": "v."
+            },
+            "Cultural Understanding   Learning a language is not only about learning words.": {
+              "translation": "学习",
+              "pos": "v."
+            }
+          }
+        },
+        "because": {
+          "lemma": "because",
+          "translation": "因为",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "因为",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "因为",
+              "pos": "conj."
+            }
+          }
+        },
+        "they": {
+          "lemma": "they",
+          "translation": "它们",
+          "pos": "pron.",
+          "forms": "their/theirs/them/themselves",
+          "meanings": "他们；她们；它们",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "它们（指代language holidays）",
+              "pos": "pron."
+            }
+          }
+        },
+        "advantages": {
+          "lemma": "advantage",
+          "translation": "优势",
+          "pos": "n.",
+          "forms": "advantages",
+          "meanings": "优势；长处；有利条件；益处",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "优势",
+              "pos": "n."
+            }
+          }
+        },
+        "total": {
+          "lemma": "total",
+          "translation": "完全的",
+          "pos": "adj.",
+          "forms": "totals, totaled, totaling",
+          "meanings": "完全的；总数的；总计；总额",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "完全的",
+              "pos": "adj."
+            }
+          }
+        },
+        "exposure": {
+          "lemma": "exposure",
+          "translation": "接触",
+          "pos": "n.",
+          "forms": "exposures",
+          "meanings": "接触；暴露；揭露；曝光",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "接触",
+              "pos": "n."
+            },
+            "This is how you learn your own language - constant exposure.": {
+              "translation": "接触",
+              "pos": "n."
+            }
+          }
+        },
+        "an": {
+          "lemma": "an",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "一个；任何；每一",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "country": {
+          "lemma": "country",
+          "translation": "国家",
+          "pos": "n.",
+          "forms": "countries",
+          "meanings": "国家；国土；农村；乡下",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "国家",
+              "pos": "n."
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "国家",
+              "pos": "n."
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "国家",
+              "pos": "n."
+            }
+          }
+        },
+        "constantly": {
+          "lemma": "constant",
+          "translation": "不断地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不断地；始终；经常地",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "不断地",
+              "pos": "adv."
+            }
+          }
+        },
+        "exposed": {
+          "lemma": "expose",
+          "translation": "使接触",
+          "pos": "v.",
+          "forms": "exposes, exposing, exposed",
+          "meanings": "使接触；暴露；揭露；显示",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "使接触",
+              "pos": "v."
+            }
+          }
+        },
+        "time": {
+          "lemma": "time",
+          "translation": "时间",
+          "pos": "n.",
+          "forms": "times",
+          "meanings": "时间；时代；次数；倍数",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "时间",
+              "pos": "n."
+            }
+          }
+        },
+        "wake": {
+          "lemma": "wake",
+          "translation": "醒来",
+          "pos": "v.",
+          "forms": "wakes, woke, woken, waking",
+          "meanings": "醒来；叫醒；唤起",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "醒来",
+              "pos": "v."
+            }
+          }
+        },
+        "up": {
+          "lemma": "up",
+          "translation": "起来",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向上；完全；结束；出现",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "起来（指起床）",
+              "pos": "adv."
+            }
+          }
+        },
+        "breakfast": {
+          "lemma": "breakfast",
+          "translation": "早餐",
+          "pos": "n.",
+          "forms": "breakfasts",
+          "meanings": "早餐；早饭",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "早餐",
+              "pos": "n."
+            }
+          }
+        },
+        "your": {
+          "lemma": "your",
+          "translation": "你的",
+          "pos": "pron.",
+          "forms": "yours",
+          "meanings": "你的；你们的",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "This is how you learn your own language - constant exposure.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "Your mind is more relaxed and you can learn more easily.": {
+              "translation": "你的",
+              "pos": "pron."
+            }
+          }
+        },
+        "until": {
+          "lemma": "until",
+          "translation": "直到",
+          "pos": "prep./conj.",
+          "forms": "无常见变形",
+          "meanings": "直到……为止；在……之前",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "直到",
+              "pos": "prep."
+            }
+          }
+        },
+        "late": {
+          "lemma": "late",
+          "translation": "晚的",
+          "pos": "adj./adv.",
+          "forms": "later, latest",
+          "meanings": "晚的；迟的；已故的；晚期的",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "晚的",
+              "pos": "adj."
+            }
+          }
+        },
+        "evening": {
+          "lemma": "evening",
+          "translation": "傍晚",
+          "pos": "n.",
+          "forms": "evenings",
+          "meanings": "傍晚；晚上；晚会",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "傍晚",
+              "pos": "n."
+            }
+          }
+        },
+        "last": {
+          "lemma": "last",
+          "translation": "最后的",
+          "pos": "adj.",
+          "forms": "lasts, lasted, lasting",
+          "meanings": "最后的；上一个；最终；持续；姓",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "最后的",
+              "pos": "adj."
+            }
+          }
+        },
+        "drink": {
+          "lemma": "drink",
+          "translation": "饮料",
+          "pos": "n.",
+          "forms": "drinks, drank, drunk, drinking",
+          "meanings": "喝；饮；饮料；酒",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "饮料",
+              "pos": "n."
+            }
+          }
+        },
+        "pub": {
+          "lemma": "pub",
+          "translation": "酒吧",
+          "pos": "n.",
+          "forms": "pubs",
+          "meanings": "酒吧；酒馆",
+          "contexts": {
+            "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.": {
+              "translation": "酒吧",
+              "pos": "n."
+            }
+          }
+        },
+        "little": {
+          "lemma": "little",
+          "translation": "很少的",
+          "pos": "adj.",
+          "forms": "less, least",
+          "meanings": "幼小的；小的；少量的；短暂的",
+          "contexts": {
+            "You have little or no opportunity to escape the English language.": {
+              "translation": "很少的",
+              "pos": "adj."
+            }
+          }
+        },
+        "no": {
+          "lemma": "no",
+          "translation": "没有",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "没有；不；禁止；一点也不",
+          "contexts": {
+            "You have little or no opportunity to escape the English language.": {
+              "translation": "没有",
+              "pos": "det."
+            }
+          }
+        },
+        "opportunity": {
+          "lemma": "opportunity",
+          "translation": "机会",
+          "pos": "n.",
+          "forms": "opportunities",
+          "meanings": "机会；时机",
+          "contexts": {
+            "You have little or no opportunity to escape the English language.": {
+              "translation": "机会",
+              "pos": "n."
+            }
+          }
+        },
+        "escape": {
+          "lemma": "escape",
+          "translation": "逃避",
+          "pos": "v.",
+          "forms": "escapes, escaped, escaping",
+          "meanings": "逃跑；逃脱；避开；逃避",
+          "contexts": {
+            "You have little or no opportunity to escape the English language.": {
+              "translation": "逃避",
+              "pos": "v."
+            }
+          }
+        },
+        "this": {
+          "lemma": "this",
+          "translation": "这",
+          "pos": "det.",
+          "forms": "these",
+          "meanings": "这个；这；这种；此",
+          "contexts": {
+            "This is how you learn your own language - constant exposure.": {
+              "translation": "这",
+              "pos": "det."
+            }
+          }
+        },
+        "how": {
+          "lemma": "how",
+          "translation": "如何",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "如何；以何种方式；多么；状况",
+          "contexts": {
+            "This is how you learn your own language - constant exposure.": {
+              "translation": "如何",
+              "pos": "adv."
+            }
+          }
+        },
+        "own": {
+          "lemma": "own",
+          "translation": "自己的",
+          "pos": "adj.",
+          "forms": "owns, owned, owning",
+          "meanings": "自己的；拥有；承认；本人",
+          "contexts": {
+            "This is how you learn your own language - constant exposure.": {
+              "translation": "自己的",
+              "pos": "adj."
+            },
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "自己的",
+              "pos": "adj."
+            }
+          }
+        },
+        "constant": {
+          "lemma": "constant",
+          "translation": "不断的",
+          "pos": "adj.",
+          "forms": "constantly",
+          "meanings": "不断的；持续的；忠实的；常数",
+          "contexts": {
+            "This is how you learn your own language - constant exposure.": {
+              "translation": "不断的",
+              "pos": "adj."
+            }
+          }
+        },
+        "mixed": {
+          "lemma": "mix",
+          "translation": "混合的",
+          "pos": "adj.",
+          "forms": "mixer, mixing",
+          "meanings": "混合的；混杂的",
+          "contexts": {
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "混合的",
+              "pos": "adj."
+            }
+          }
+        },
+        "classes": {
+          "lemma": "class",
+          "translation": "课堂",
+          "pos": "n.",
+          "forms": "classes",
+          "meanings": "课堂；班级；种类；等级",
+          "contexts": {
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "课堂",
+              "pos": "n."
+            }
+          }
+        },
+        "when": {
+          "lemma": "when",
+          "translation": "当……时",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "当……时；在……时候；既然；考虑到",
+          "contexts": {
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "当……时",
+              "pos": "conj."
+            }
+          }
+        },
+        "all": {
+          "lemma": "all",
+          "translation": "全部",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "全部；所有；总共；整个",
+          "contexts": {
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "全部",
+              "pos": "det."
+            },
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "全部",
+              "pos": "det."
+            }
+          }
+        },
+        "other": {
+          "lemma": "other",
+          "translation": "其他的",
+          "pos": "adj.",
+          "forms": "others",
+          "meanings": "其他的；另外的；另一方的；其余的",
+          "contexts": {
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "其他的",
+              "pos": "adj."
+            }
+          }
+        },
+        "class": {
+          "lemma": "class",
+          "translation": "班级",
+          "pos": "n.",
+          "forms": "classes",
+          "meanings": "课程；班级；等级；阶级",
+          "contexts": {
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "班级",
+              "pos": "n."
+            },
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "班级",
+              "pos": "n."
+            }
+          }
+        },
+        "speak": {
+          "lemma": "speak",
+          "translation": "说",
+          "pos": "v.",
+          "forms": "speaks, spoke, spoken, speaking",
+          "meanings": "说；讲；发言；演说",
+          "contexts": {
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "说",
+              "pos": "v."
+            },
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "说",
+              "pos": "v."
+            }
+          }
+        },
+        "so": {
+          "lemma": "so",
+          "translation": "因此",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "那么；如此；因此；非常",
+          "contexts": {
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "因此",
+              "pos": "conj."
+            },
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "因此",
+              "pos": "conj."
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "因此",
+              "pos": "conj."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是",
+          "contexts": {
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "Cultural Understanding   Learning a language is not only about learning words.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "forced": {
+          "lemma": "force",
+          "translation": "被迫的",
+          "pos": "adj.",
+          "forms": "forces, forced, forcing",
+          "meanings": "强迫；迫使；被迫的",
+          "contexts": {
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "被迫的",
+              "pos": "adj."
+            }
+          }
+        },
+        "use": {
+          "lemma": "use",
+          "translation": "使用",
+          "pos": "v.",
+          "forms": "uses, used, using",
+          "meanings": "使用；利用；消耗；习惯于",
+          "contexts": {
+            "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.": {
+              "translation": "使用",
+              "pos": "v."
+            }
+          }
+        },
+        "on": {
+          "lemma": "on",
+          "translation": "在……之上",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；在……之上；通过（媒介）；在（时间）",
+          "contexts": {
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "在……之上",
+              "pos": "prep."
+            },
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "在……情况中",
+              "pos": "prep."
+            }
+          }
+        },
+        "come": {
+          "lemma": "come",
+          "translation": "来",
+          "pos": "v.",
+          "forms": "came, coming, comes",
+          "meanings": "来；到达；出现；开始",
+          "contexts": {
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "来自",
+              "pos": "v."
+            }
+          }
+        },
+        "over": {
+          "lemma": "over",
+          "translation": "遍及",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "遍及；超过；在……上方；结束；越过",
+          "contexts": {
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "遍及",
+              "pos": "adv."
+            }
+          }
+        },
+        "world": {
+          "lemma": "world",
+          "translation": "世界",
+          "pos": "n.",
+          "forms": "worlds",
+          "meanings": "世界；地球；领域；世间",
+          "contexts": {
+            "On a language holiday, students come from countries all over the world.": {
+              "translation": "世界",
+              "pos": "n."
+            },
+            "com ESL World.": {
+              "translation": "世界",
+              "pos": "n."
+            }
+          }
+        },
+        "it": {
+          "lemma": "it",
+          "translation": "它",
+          "pos": "pron.",
+          "forms": "its, itself",
+          "meanings": "它；这；那个；代指已提到的事物",
+          "contexts": {
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "形式主语（无义）",
+              "pos": "pron."
+            }
+          }
+        },
+        "possible": {
+          "lemma": "possible",
+          "translation": "可能的",
+          "pos": "adj.",
+          "forms": "possibly (adv.), possibility (n.)",
+          "meanings": "可能的；合理的；能做到的；潜在的",
+          "contexts": {
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "可能的",
+              "pos": "adj."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "引导从句",
+          "pos": "conj.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；因为",
+          "contexts": {
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "引导从句",
+              "pos": "conj."
+            }
+          }
+        },
+        "nobody": {
+          "lemma": "nobody",
+          "translation": "没有人",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "没有人；无名小卒",
+          "contexts": {
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "没有人",
+              "pos": "pron."
+            }
+          }
+        },
+        "will": {
+          "lemma": "will",
+          "translation": "将要",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将要；愿意；会；意志（名词）",
+          "contexts": {
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "将要",
+              "pos": "modal v."
+            }
+          }
+        },
+        "just": {
+          "lemma": "just",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；刚才；正好；公正地",
+          "contexts": {
+            "It is possible that nobody in your class will speak your language, so you will just have to speak English!": {
+              "translation": "仅仅",
+              "pos": "adv."
+            }
+          }
+        },
+        "freedom": {
+          "lemma": "freedom",
+          "translation": "自由",
+          "pos": "n.",
+          "forms": "freedoms",
+          "meanings": "自由；自主；豁免",
+          "contexts": {
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "自由",
+              "pos": "n."
+            }
+          }
+        },
+        "pressure": {
+          "lemma": "pressure",
+          "translation": "压力",
+          "pos": "n.",
+          "forms": "pressures",
+          "meanings": "压力；压迫；气压",
+          "contexts": {
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "压力",
+              "pos": "n."
+            }
+          }
+        },
+        "away": {
+          "lemma": "away",
+          "translation": "不在",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "离开；不在；向远处；一直",
+          "contexts": {
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "不在，远离",
+              "pos": "adv."
+            }
+          }
+        },
+        "home": {
+          "lemma": "home",
+          "translation": "家",
+          "pos": "n.",
+          "forms": "homes",
+          "meanings": "家；住宅；故乡；在家里",
+          "contexts": {
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "家",
+              "pos": "n."
+            }
+          }
+        },
+        "forget": {
+          "lemma": "forget",
+          "translation": "忘记",
+          "pos": "v.",
+          "forms": "forgot, forgotten, forgetting",
+          "meanings": "忘记；忽略；遗忘",
+          "contexts": {
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "忘记",
+              "pos": "v."
+            }
+          }
+        },
+        "everyday": {
+          "lemma": "everyday",
+          "translation": "日常的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "日常的；平常的；平凡的",
+          "contexts": {
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "日常的",
+              "pos": "adj."
+            }
+          }
+        },
+        "pressures": {
+          "lemma": "pressure",
+          "translation": "压力（复数）",
+          "pos": "n.",
+          "forms": "pressure",
+          "meanings": "压力；压迫；气压",
+          "contexts": {
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "压力",
+              "pos": "n."
+            }
+          }
+        },
+        "business": {
+          "lemma": "business",
+          "translation": "生意",
+          "pos": "n.",
+          "forms": "businesses",
+          "meanings": "商业；生意；事务；公事",
+          "contexts": {
+            "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.": {
+              "translation": "事务（指工作等）",
+              "pos": "n."
+            }
+          }
+        },
+        "mind": {
+          "lemma": "mind",
+          "translation": "头脑",
+          "pos": "n.",
+          "forms": "minds",
+          "meanings": "头脑；思想；理智；在意",
+          "contexts": {
+            "Your mind is more relaxed and you can learn more easily.": {
+              "translation": "思维；头脑",
+              "pos": "n."
+            }
+          }
+        },
+        "more": {
+          "lemma": "more",
+          "translation": "更",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "更多；较大程度；额外；再",
+          "contexts": {
+            "Your mind is more relaxed and you can learn more easily.": {
+              "translation": "更",
+              "pos": "adv."
+            }
+          }
+        },
+        "relaxed": {
+          "lemma": "relaxed",
+          "translation": "放松的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "放松的；从容的；松懈的",
+          "contexts": {
+            "Your mind is more relaxed and you can learn more easily.": {
+              "translation": "放松的",
+              "pos": "adj."
+            }
+          }
+        },
+        "easily": {
+          "lemma": "easily",
+          "translation": "容易地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "容易地；轻易地；无疑地",
+          "contexts": {
+            "Your mind is more relaxed and you can learn more easily.": {
+              "translation": "容易地",
+              "pos": "adv."
+            }
+          }
+        },
+        "cultural": {
+          "lemma": "cultural",
+          "translation": "文化的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "文化的；有关文化的",
+          "contexts": {
+            "Cultural Understanding   Learning a language is not only about learning words.": {
+              "translation": "文化的",
+              "pos": "adj."
+            }
+          }
+        },
+        "understanding": {
+          "lemma": "understanding",
+          "translation": "理解",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "理解；领会；谅解；融洽",
+          "contexts": {
+            "Cultural Understanding   Learning a language is not only about learning words.": {
+              "translation": "理解",
+              "pos": "n."
+            }
+          }
+        },
+        "only": {
+          "lemma": "only",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；只；才；唯一",
+          "contexts": {
+            "Cultural Understanding   Learning a language is not only about learning words.": {
+              "translation": "仅仅",
+              "pos": "adv."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围",
+          "contexts": {
+            "Cultural Understanding   Learning a language is not only about learning words.": {
+              "translation": "关于",
+              "pos": "prep."
+            }
+          }
+        },
+        "words": {
+          "lemma": "word",
+          "translation": "单词",
+          "pos": "n.",
+          "forms": "words",
+          "meanings": "单词；词；话语；消息",
+          "contexts": {
+            "Cultural Understanding   Learning a language is not only about learning words.": {
+              "translation": "单词",
+              "pos": "n."
+            }
+          }
+        },
+        "nations": {
+          "lemma": "nation",
+          "translation": "国家",
+          "pos": "n.",
+          "forms": "nations",
+          "meanings": "国家；民族；国民",
+          "contexts": {
+            "Different nations have different cultures.": {
+              "translation": "国家",
+              "pos": "n."
+            }
+          }
+        },
+        "cultures": {
+          "lemma": "culture",
+          "translation": "文化",
+          "pos": "n.",
+          "forms": "cultures",
+          "meanings": "文化；文明；教养；栽培",
+          "contexts": {
+            "Different nations have different cultures.": {
+              "translation": "文化",
+              "pos": "n."
+            }
+          }
+        },
+        "think": {
+          "lemma": "think",
+          "translation": "认为",
+          "pos": "v.",
+          "forms": "thinks, thought, thinking",
+          "meanings": "认为；想；思考；打算",
+          "contexts": {
+            "People think and behave differently.": {
+              "translation": "认为",
+              "pos": "v."
+            }
+          }
+        },
+        "behave": {
+          "lemma": "behave",
+          "translation": "表现",
+          "pos": "v.",
+          "forms": "behaves, behaved, behaving",
+          "meanings": "表现；行为；守规矩",
+          "contexts": {
+            "People think and behave differently.": {
+              "translation": "表现",
+              "pos": "v."
+            }
+          }
+        },
+        "differently": {
+          "lemma": "differently",
+          "translation": "不同地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不同地；有差异地",
+          "contexts": {
+            "People think and behave differently.": {
+              "translation": "不同地",
+              "pos": "adv."
+            }
+          }
+        },
+        "their": {
+          "lemma": "they",
+          "translation": "他们的",
+          "pos": "pron.",
+          "forms": "theirs",
+          "meanings": "他们的；她们的；它们的",
+          "contexts": {
+            "Their language is closely associated with their culture.": {
+              "translation": "他们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "closely": {
+          "lemma": "closely",
+          "translation": "紧密地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "紧密地；严密地；接近地",
+          "contexts": {
+            "Their language is closely associated with their culture.": {
+              "translation": "紧密地",
+              "pos": "adv."
+            }
+          }
+        },
+        "associated": {
+          "lemma": "associate",
+          "translation": "联系",
+          "pos": "v.",
+          "forms": "associates, associated, associating",
+          "meanings": "联系；联合；结交",
+          "contexts": {
+            "Their language is closely associated with their culture.": {
+              "translation": "联系",
+              "pos": "v."
+            }
+          }
+        },
+        "culture": {
+          "lemma": "culture",
+          "translation": "文化",
+          "pos": "n.",
+          "forms": "cultures",
+          "meanings": "文化；文明；教养；栽培",
+          "contexts": {
+            "Their language is closely associated with their culture.": {
+              "translation": "文化",
+              "pos": "n."
+            },
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "文化",
+              "pos": "n."
+            }
+          }
+        },
+        "by": {
+          "lemma": "by",
+          "translation": "通过",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "通过；被；凭借；在……旁边",
+          "contexts": {
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "通过",
+              "pos": "prep."
+            }
+          }
+        },
+        "visiting": {
+          "lemma": "visit",
+          "translation": "拜访",
+          "pos": "v.",
+          "forms": "visits, visited, visiting",
+          "meanings": "拜访；参观；探望；视察",
+          "contexts": {
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "拜访",
+              "pos": "v."
+            }
+          }
+        },
+        "living": {
+          "lemma": "live",
+          "translation": "居住",
+          "pos": "v.",
+          "forms": "lives, lived, living",
+          "meanings": "居住；生存；生活",
+          "contexts": {
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "居住",
+              "pos": "v."
+            }
+          }
+        },
+        "understand": {
+          "lemma": "understand",
+          "translation": "理解",
+          "pos": "v.",
+          "forms": "understood, understanding, understands",
+          "meanings": "理解；明白；懂得；体谅",
+          "contexts": {
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "理解",
+              "pos": "v."
+            }
+          }
+        },
+        "better": {
+          "lemma": "good",
+          "translation": "更好地",
+          "pos": "adv.",
+          "forms": "best (superlative)",
+          "meanings": "更好的；更优秀的；改善；胜过；更好地",
+          "contexts": {
+            "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.": {
+              "translation": "更好地",
+              "pos": "adv."
+            }
+          }
+        },
+        "you'll": {
+          "lemma": "you will",
+          "translation": "你将",
+          "pos": "pron. + v.",
+          "forms": "无常见变形",
+          "meanings": "你将；你会",
+          "contexts": {
+            "You'll find schools offering language holidays at EnglishClub.": {
+              "translation": "你将",
+              "pos": "pron. + v."
+            }
+          }
+        },
+        "find": {
+          "lemma": "find",
+          "translation": "发现",
+          "pos": "v.",
+          "forms": "found, finding, finds",
+          "meanings": "发现；找到；认为；发觉",
+          "contexts": {
+            "You'll find schools offering language holidays at EnglishClub.": {
+              "translation": "发现",
+              "pos": "v."
+            }
+          }
+        },
+        "schools": {
+          "lemma": "school",
+          "translation": "学校",
+          "pos": "n.",
+          "forms": "school",
+          "meanings": "学校；学院；学派；教育",
+          "contexts": {
+            "You'll find schools offering language holidays at EnglishClub.": {
+              "translation": "学校",
+              "pos": "n."
+            }
+          }
+        },
+        "offering": {
+          "lemma": "offer",
+          "translation": "提供",
+          "pos": "v.",
+          "forms": "offered, offers, offering",
+          "meanings": "提供；提出；给予；出价",
+          "contexts": {
+            "You'll find schools offering language holidays at EnglishClub.": {
+              "translation": "提供",
+              "pos": "v."
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "在",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）；向；针对",
+          "contexts": {
+            "You'll find schools offering language holidays at EnglishClub.": {
+              "translation": "在",
+              "pos": "prep."
+            }
+          }
+        },
+        "englishclub": {
+          "lemma": "englishclub",
+          "translation": "EnglishClub（网站名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "英语学习俱乐部；网站名称",
+          "contexts": {
+            "You'll find schools offering language holidays at EnglishClub.": {
+              "translation": "EnglishClub（网站名）",
+              "pos": "n."
+            }
+          }
+        },
+        "com": {
+          "lemma": "com",
+          "translation": "商业网站后缀",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "商业网站后缀",
+          "contexts": {
+            "com ESL World.": {
+              "translation": "商业网站后缀",
+              "pos": "n."
+            }
+          }
+        },
+        "esl": {
+          "lemma": "esl",
+          "translation": "英语为第二语言",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "英语为第二语言；英语教学",
+          "contexts": {
+            "com ESL World.": {
+              "translation": "英语为第二语言",
+              "pos": "n."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Why are mixed classes good for English learning?",
+          "options": [
+            "Because you are forced to speak your language",
+            "Because students come from English countries.",
+            "Because nobody in your class speaks your language.",
+            "Because you have no choice but to speak English."
+          ],
+          "answer": 3,
+          "explanation": "文中提到混合班级使得班里其他学生可能不会说你的母语，从而强迫你必须使用英语交流，故选项D更准确地概括了其带来的直接效果。"
+        },
+        {
+          "prompt": "Where can you probably find the passage?",
+          "options": [
+            "On the Internet.",
+            "In a science textbook.",
+            "In a travel guide.",
+            "In a medical newspaper"
+          ],
+          "answer": 0,
+          "explanation": "文章结尾明确提到了一个网址（EnglishClub.com），这表明该文章很可能发布在互联网上，用于宣传语言游学项目。"
+        }
+      ],
+      "generationUsage": {
+        "requests": 13,
+        "inputTokens": 35599,
+        "outputTokens": 17613,
+        "totalTokens": 53212,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 13,
+            "inputTokens": 35599,
+            "outputTokens": 17613,
+            "totalTokens": 53212,
             "estimatedCostUsd": null
           }
         }
