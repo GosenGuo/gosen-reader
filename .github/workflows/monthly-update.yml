@@ -28,6 +28,7 @@ jobs:
       AI_MODEL_PRICING_JSON: ${{ vars.AI_MODEL_PRICING_JSON }}
       AI_REPORTED_COST_CURRENCY: ${{ vars.AI_REPORTED_COST_CURRENCY }}
       USD_CNY_RATE: ${{ vars.USD_CNY_RATE }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       SEARCH_PROVIDER: github-code
       GITHUB_SEARCH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       TARGET_ARTICLE_COUNT: ${{ inputs.target_count }}
@@ -38,6 +39,8 @@ jobs:
       OUTPUT_PATH: ../docs/articles.json
       WORD_BANK_PATH: ../docs/word-bank.json
       GENERATION_LEDGER_PATH: ../docs/generation-ledger.json
+      GENERATION_RUN_ID: ${{ github.run_id }}
+      CHECKPOINT_EACH_ARTICLE: "true"
 
     steps:
       - uses: actions/checkout@v4
