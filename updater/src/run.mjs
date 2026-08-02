@@ -1,5 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import { AiClient } from "./ai.mjs";
 import { WebSearchClient, downloadReadablePage } from "./search.mjs";
 import { loadRaceCandidates } from "./race-source.mjs";
@@ -28,6 +30,13 @@ const wordBankPath = path.resolve(process.env.WORD_BANK_PATH || "./dist/word-ban
 const ledgerPath = path.resolve(
   process.env.GENERATION_LEDGER_PATH || "./dist/generation-ledger.json"
 );
+const checkpointEachArticle = process.env.CHECKPOINT_EACH_ARTICLE === "true"
+  || (process.env.CHECKPOINT_EACH_ARTICLE !== "false" && process.env.GITHUB_ACTIONS === "true");
+const generationRunId = process.env.GENERATION_RUN_ID
+  || process.env.GITHUB_RUN_ID
+  || `local-${Date.now()}`;
+const generationStartedAt = new Date().toISOString();
+const execFileAsync = promisify(execFile);
 
 const ai = new AiClient();
 const search = new WebSearchClient();
@@ -89,7 +98,16 @@ for (const [index, candidate] of attemptedCandidates.entries()) {
       + `${generationUsage.totalTokens} tokens, `
       + formatCost(generationUsage) + ")"
     );
+    if (checkpointEachArticle) {
+      try {
+        await persistCurrentPackage({ completed: false, checkpointArticle: article });
+      } catch (error) {
+        error.checkpointFatal = true;
+        throw error;
+      }
+    }
   } catch (error) {
+    if (error.checkpointFatal) throw error;
     console.warn(`  skipped: ${error.message}`);
   }
 }
@@ -101,32 +119,8 @@ if (newArticles.length < targetCount) {
   console.warn(`Only ${newArticles.length}/${targetCount} passed validation; publishing quality over quota`);
 }
 
-const articles = mergeArticles(existingArticles, newArticles);
-const payload = {
-  schemaVersion: 1,
-  generatedAt: new Date().toISOString(),
-  articles
-};
-const packageErrors = validatePackage(payload);
-if (packageErrors.length) {
-  throw new Error(`Package validation failed:\n${packageErrors.join("\n")}`);
-}
-const wordBankErrors = validateWordBank(wordBank);
-if (wordBankErrors.length) {
-  throw new Error(`Word bank validation failed:\n${wordBankErrors.join("\n")}`);
-}
-
-await fs.mkdir(path.dirname(outputPath), { recursive: true });
-await fs.writeFile(outputPath, JSON.stringify(payload, null, 2), "utf8");
-await fs.mkdir(path.dirname(wordBankPath), { recursive: true });
-await fs.writeFile(wordBankPath, JSON.stringify(wordBank, null, 2), "utf8");
-await appendGenerationLedger({
-  generatedAt: payload.generatedAt,
-  requestedArticles: targetCount,
-  acceptedArticles: newArticles.length,
-  usage: ai.usageSince(0),
-  articles: articleUsage
-});
+const payload = await persistCurrentPackage({ completed: true });
+const articles = payload.articles;
 console.log(`Wrote ${articles.length} articles to ${outputPath}`);
 console.log(`Added ${newArticles.length} new article(s); kept ${existingArticles.length} existing article(s)`);
 console.log(`Wrote ${Object.keys(wordBank.words).length} words to ${wordBankPath}`);
@@ -283,7 +277,44 @@ async function publishIfConfigured(payload) {
   console.log("Published on-demand package");
 }
 
-async function appendGenerationLedger(runRecord) {
+async function persistCurrentPackage({ completed, checkpointArticle = null }) {
+  const articles = mergeArticles(existingArticles, newArticles);
+  const payload = {
+    schemaVersion: 1,
+    generatedAt: new Date().toISOString(),
+    articles
+  };
+  const packageErrors = validatePackage(payload);
+  if (packageErrors.length) {
+    throw new Error(`Package validation failed:\n${packageErrors.join("\n")}`);
+  }
+  const wordBankErrors = validateWordBank(wordBank);
+  if (wordBankErrors.length) {
+    throw new Error(`Word bank validation failed:\n${wordBankErrors.join("\n")}`);
+  }
+
+  await fs.mkdir(path.dirname(outputPath), { recursive: true });
+  await fs.writeFile(outputPath, JSON.stringify(payload, null, 2), "utf8");
+  await fs.mkdir(path.dirname(wordBankPath), { recursive: true });
+  await fs.writeFile(wordBankPath, JSON.stringify(wordBank, null, 2), "utf8");
+  await writeGenerationLedgerProgress({
+    runId: generationRunId,
+    startedAt: generationStartedAt,
+    generatedAt: payload.generatedAt,
+    requestedArticles: targetCount,
+    acceptedArticles: newArticles.length,
+    completed,
+    usage: ai.usageSince(0),
+    articles: articleUsage
+  });
+
+  if (checkpointArticle) {
+    await commitArticleCheckpoint(checkpointArticle);
+  }
+  return payload;
+}
+
+async function writeGenerationLedgerProgress(runRecord) {
   let ledger = { schemaVersion: 1, runs: [] };
   try {
     ledger = JSON.parse(await fs.readFile(ledgerPath, "utf8"));
@@ -293,13 +324,62 @@ async function appendGenerationLedger(runRecord) {
   } catch (error) {
     if (error.code !== "ENOENT") throw error;
   }
-  ledger.runs.push(runRecord);
+  const existingIndex = ledger.runs.findIndex(record => record.runId === runRecord.runId);
+  if (existingIndex >= 0) ledger.runs[existingIndex] = runRecord;
+  else ledger.runs.push(runRecord);
   await fs.mkdir(path.dirname(ledgerPath), { recursive: true });
   await fs.writeFile(ledgerPath, JSON.stringify(ledger, null, 2), "utf8");
   console.log(
     `Recorded ${runRecord.usage.totalTokens} total tokens; `
     + formatCost(runRecord.usage)
   );
+}
+
+async function commitArticleCheckpoint(article) {
+  const repositoryPath = process.env.GITHUB_WORKSPACE?.trim();
+  if (!repositoryPath) {
+    console.warn("  checkpoint skipped: GITHUB_WORKSPACE is unavailable");
+    return;
+  }
+  const files = [outputPath, wordBankPath, ledgerPath]
+    .map(file => path.relative(repositoryPath, file));
+  const git = args => execFileAsync("git", args, {
+    cwd: repositoryPath,
+    maxBuffer: 10 * 1024 * 1024
+  });
+  await git(["add", "--", ...files]);
+  await git([
+    "-c", "user.name=github-actions[bot]",
+    "-c", "user.email=41898282+github-actions[bot]@users.noreply.github.com",
+    "commit", "-m", `content: add reading ${article.id}`
+  ]);
+  let lastError;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      await git(["pull", "--rebase", "origin", "main"]);
+      await git(["push", "origin", "HEAD:main"]);
+      console.log(`  published checkpoint ${newArticles.length}/${targetCount}: ${article.id}`);
+      try {
+        await execFileAsync("gh", [
+          "workflow", "run", "pages.yml",
+          "--repo", process.env.GITHUB_REPOSITORY,
+          "--ref", "main"
+        ], {
+          cwd: repositoryPath,
+          env: process.env,
+          maxBuffer: 10 * 1024 * 1024
+        });
+        console.log("  requested GitHub Pages deployment for this checkpoint");
+      } catch (error) {
+        console.warn(`  checkpoint was saved, but Pages dispatch failed: ${error.message}`);
+      }
+      return;
+    } catch (error) {
+      lastError = error;
+      console.warn(`  checkpoint push attempt ${attempt}/3 failed; retrying`);
+    }
+  }
+  throw new Error(`Checkpoint push failed: ${lastError?.message || "unknown git error"}`);
 }
 
 function formatCost(usage) {
