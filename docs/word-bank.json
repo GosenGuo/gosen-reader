@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T12:02:12.297Z",
+  "generatedAt": "2026-08-02T12:04:45.834Z",
   "words": {
     "on": {
       "lemma": "on",
@@ -174,26 +174,8 @@
       "lemma": "the",
       "pos": "art.",
       "forms": "无常见变形",
-      "meanings": "这，那；特指；用于最高级前；专有名词前",
+      "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
       "senses": [
-        {
-          "translation": "特指（餐桌）",
-          "pos": "art.",
-          "example": "J's silence at the dinner table.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "特指（那个项目）",
-          "pos": "art.",
-          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "特指（那个汉堡）",
-          "pos": "art.",
-          "example": "Do you know what the hamburger named his daughter ?",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
         {
           "translation": "特指（下一次）",
           "pos": "art.",
@@ -247,6 +229,24 @@
           "pos": "art.",
           "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -257,10 +257,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "internet": {
       "lemma": "internet",
@@ -396,15 +397,22 @@
           "pos": "n.",
           "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "人们",
+          "pos": "n.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-91480225d160a6b6",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "can": {
       "lemma": "can",
@@ -523,12 +531,6 @@
       "meanings": "一个；每一；任何；一种",
       "senses": [
         {
-          "translation": "一种",
-          "pos": "art.",
-          "example": "But a constant stream of riddles can get annoying .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
           "translation": "一个",
           "pos": "art.",
           "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
@@ -593,6 +595,12 @@
           "pos": "art.",
           "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -603,10 +611,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "variety": {
       "lemma": "variety",
@@ -634,54 +643,6 @@
       "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
       "senses": [
         {
-          "translation": "……的（关于某事物的）",
-          "pos": "prep.",
-          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "……的（种类）",
-          "pos": "prep.",
-          "example": "But a constant stream of riddles can get annoying .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "……的（部分，即一口食物）",
-          "pos": "prep.",
-          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "……的（在房间外）",
-          "pos": "prep.",
-          "example": "\"\nNita walks out of the room looking sad.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "……的（关于某事物的）",
-          "pos": "prep.",
-          "example": "The look on Nita's face reminds me of the look on T.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "……的（在房间前部）",
-          "pos": "prep.",
-          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "……中的（其中之一）",
-          "pos": "prep.",
-          "example": "\" I used one of your riddles tonight.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
           "translation": "……的",
           "pos": "prep.",
           "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
@@ -704,6 +665,54 @@
           "pos": "prep.",
           "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "在……之中",
+          "pos": "prep.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "对……的",
+          "pos": "prep.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -714,10 +723,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "information": {
       "lemma": "information",
@@ -967,18 +977,6 @@
       "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；使用（某种语言/材料）",
       "senses": [
         {
-          "translation": "输入（信息）",
-          "pos": "adv.",
-          "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "在……之内",
-          "pos": "prep.",
-          "example": "We can meet new and interesting people in the chat now.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
           "translation": "在……之内",
           "pos": "prep.",
           "example": "J tells me every riddle in it .",
@@ -1037,6 +1035,18 @@
           "pos": "prep.",
           "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "在……之中",
+          "pos": "prep.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "在……之中",
+          "pos": "prep.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -1047,10 +1057,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "your": {
       "lemma": "your",
@@ -1175,36 +1186,6 @@
         {
           "translation": "构成不定式",
           "pos": "particle",
-          "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "We can also listen to music and see films.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "到",
-          "pos": "prep.",
-          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "去（表示目的）",
-          "pos": "prep.",
-          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "I can tell that she just wants to be around her big brother.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
           "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
           "sourceArticleId": "web-52737a111ab04db4"
         },
@@ -1243,6 +1224,36 @@
           "pos": "particle",
           "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "向",
+          "pos": "prep.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "向",
+          "pos": "prep.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "到",
+          "pos": "prep.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -1253,10 +1264,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "be": {
       "lemma": "be",
@@ -1390,14 +1402,21 @@
           "pos": "adj.",
           "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "在线的",
+          "pos": "adj.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "reputation": {
       "lemma": "reputation",
@@ -1437,48 +1456,6 @@
       "meanings": "和；而且；然后；接着",
       "senses": [
         {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "At last --- some peace and quiet.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "\"\nNita laughs and I laugh too .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "而且",
-          "pos": "conj.",
-          "example": "And maybe you can come along with me sometime.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "接着",
-          "pos": "conj.",
-          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
           "translation": "和",
           "pos": "conj.",
           "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
@@ -1507,6 +1484,48 @@
           "pos": "conj.",
           "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -1517,10 +1536,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "take": {
       "lemma": "take",
@@ -1810,13 +1830,26 @@
           "pos": "v.",
           "example": "It's in your interest to be aware of your online reputation and to take the necessary actions to make it what you want it to be.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "想要",
+          "pos": "v.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "想要",
+          "pos": "v.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "first": {
       "lemma": "first",
@@ -2155,7 +2188,7 @@
       "lemma": "out",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "向外；出；在外；彻底地",
+      "meanings": "向外；彻底地；离开；（与动词连用表示完成或终结）",
       "senses": [
         {
           "translation": "（与find连用）找出",
@@ -2174,14 +2207,21 @@
           "pos": "adv.",
           "example": "\"\nNita walks out of the room looking sad.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "（与carried连用表示执行）",
+          "pos": "adv.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "already": {
       "lemma": "already",
@@ -3012,16 +3052,29 @@
           "pos": "v.",
           "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "mentioned": {
       "lemma": "mention",
@@ -3139,13 +3192,20 @@
           "pos": "n.",
           "example": "Example:\n   \"Robin Counts\" \"Woodgrove Bank\"\n   \"Robin counts\"----skydiving\n   Go blogging.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "罗宾",
+          "pos": "n.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "counts": {
       "lemma": "count",
@@ -3466,30 +3526,6 @@
       "meanings": "引导从句；那个；那；因为",
       "senses": [
         {
-          "translation": "（引导从句）",
-          "pos": "conj.",
-          "example": "However,while visiting her brothers who were away at college studying music education,she realized that she was drawn to teach music,too.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "（引导从句）",
-          "pos": "conj.",
-          "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "（引导从句）",
-          "pos": "conj.",
-          "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "那",
-          "pos": "pron.",
-          "example": "\" She has gone almost everywhere to do that.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
           "translation": "引导从句",
           "pos": "conj.",
           "example": "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!",
@@ -3536,6 +3572,30 @@
           "pos": "conj.",
           "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -3546,10 +3606,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "engine": {
       "lemma": "engine",
@@ -3631,16 +3692,29 @@
           "pos": "prep.",
           "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "像……一样",
+          "pos": "prep.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "作为",
+          "pos": "prep.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "phrase": {
       "lemma": "phrase",
@@ -3665,7 +3739,7 @@
       "lemma": "not",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "不；没；不是",
+      "meanings": "不；没；不是；绝非",
       "senses": [
         {
           "translation": "不",
@@ -3702,6 +3776,36 @@
           "pos": "adv.",
           "example": "Cultural Understanding   Learning a language is not only about learning words.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -3709,10 +3813,11 @@
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "two": {
       "lemma": "two",
@@ -3788,6 +3893,30 @@
           "pos": "adv.",
           "example": "Your mind is more relaxed and you can learn more easily.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "更",
+          "pos": "adv.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "更",
+          "pos": "adv.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "更",
+          "pos": "adv.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "更",
+          "pos": "adv.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -3795,10 +3924,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "unrelated": {
       "lemma": "unrelated",
@@ -4032,6 +4162,12 @@
           "pos": "det.",
           "example": "On a language holiday, students come from countries all over the world.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "所有",
+          "pos": "det.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -4039,10 +4175,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "names": {
       "lemma": "name",
@@ -4098,57 +4235,34 @@
           "pos": "conj.",
           "example": "Even if you have no experience before, you can get valuable job skills in today's hottest fields!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "如果",
+          "pos": "conj.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "如果",
+          "pos": "conj.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "have": {
       "lemma": "have",
-      "pos": "aux. v.",
+      "pos": "v.",
       "forms": "having, had, has",
       "meanings": "有；经历；吃；使（某人做某事）；辅助动词（完成时态）",
       "senses": [
-        {
-          "translation": "有",
-          "pos": "verb",
-          "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "已经（完成）",
-          "pos": "aux.",
-          "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "已经（完成）",
-          "pos": "aux.",
-          "example": "\"Through Andrea's efforts these kids have helped to put Granite Falls,Washington,on the map for musical talents.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "有",
-          "pos": "verb",
-          "example": "Have you ever wondered what a Degree might be worth to you in your job or career?",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "不得不",
-          "pos": "verb",
-          "example": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "已经",
-          "pos": "auxiliary verb",
-          "example": "Nearly 2,000 American companies --- including General Electric, IBM, Mobil, General Motors, Ford, and many others --- have used our training for their employees.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
         {
           "translation": "有",
           "pos": "verb",
@@ -4184,6 +4298,42 @@
           "pos": "v.",
           "example": "Different nations have different cultures.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -4191,10 +4341,11 @@
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "ever": {
       "lemma": "ever",
@@ -4477,7 +4628,7 @@
       "lemma": "do",
       "pos": "aux.",
       "forms": "无常见变形",
-      "meanings": "不（助动词否定形式）；不做",
+      "meanings": "不（助动词否定形式）；不做；进行；表现",
       "senses": [
         {
           "translation": "不",
@@ -4508,16 +4659,29 @@
           "pos": "aux.",
           "example": "\"I don't know.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "不",
+          "pos": "aux.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "不",
+          "pos": "aux.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "miss": {
       "lemma": "miss",
@@ -4900,16 +5064,29 @@
           "pos": "pron.",
           "example": "We can chat with a person who is sitting in the other part of the world.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "……的人",
+          "pos": "pron.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "……的人",
+          "pos": "pron.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-cda4f9a292f21a6c",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "share": {
       "lemma": "share",
@@ -5037,13 +5214,20 @@
           "pos": "v.",
           "example": "If your search turns up information about other people who share your name, you caneliminate  many false hits by using keywords.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "使用",
+          "pos": "v.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "keywords": {
       "lemma": "keyword",
@@ -5168,6 +5352,12 @@
           "pos": "adv.",
           "example": "Cultural Understanding   Learning a language is not only about learning words.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "仅仅",
+          "pos": "adv.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -5175,10 +5365,11 @@
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "for": {
       "lemma": "for",
@@ -5186,12 +5377,6 @@
       "forms": "无常见变形",
       "meanings": "为了；对于；给；支持；因为",
       "senses": [
-        {
-          "translation": "为了",
-          "pos": "prep.",
-          "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
         {
           "translation": "为了",
           "pos": "prep.",
@@ -5257,6 +5442,12 @@
           "pos": "prep.",
           "example": "So let's find more riddles for the next time I go over there.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "对于……的",
+          "pos": "prep.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -5266,10 +5457,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "city": {
       "lemma": "city",
@@ -5447,7 +5639,7 @@
       "lemma": "any",
       "pos": "det.",
       "forms": "无常见变形",
-      "meanings": "任何；一些；任一",
+      "meanings": "任何；任一；一点（用于否定/疑问句）；一些",
       "senses": [
         {
           "translation": "任何",
@@ -5466,14 +5658,39 @@
           "pos": "det.",
           "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "任何",
+          "pos": "det.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "任何",
+          "pos": "det.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "任何",
+          "pos": "det.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "任何",
+          "pos": "det.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "friends": {
       "lemma": "friend",
@@ -5503,7 +5720,7 @@
     },
     "family": {
       "lemma": "family",
-      "pos": "noun",
+      "pos": "n.",
       "forms": "families",
       "meanings": "家庭；家人；亲属；家族",
       "senses": [
@@ -5530,15 +5747,22 @@
           "pos": "noun",
           "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "家庭",
+          "pos": "n.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-6889075584252ffd",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "members": {
       "lemma": "member",
@@ -5621,13 +5845,20 @@
           "pos": "adj.",
           "example": "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "个人的",
+          "pos": "adj.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "pages": {
       "lemma": "page",
@@ -5709,7 +5940,7 @@
       "lemma": "they",
       "pos": "pron.",
       "forms": "they/their/theirs/themselves",
-      "meanings": "它们；他们；她们",
+      "meanings": "他们；她们；它们",
       "senses": [
         {
           "translation": "他们",
@@ -5734,15 +5965,22 @@
           "pos": "pron.",
           "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-cda4f9a292f21a6c",
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "from": {
       "lemma": "from",
@@ -5923,6 +6161,48 @@
           "pos": "pron.",
           "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -5930,10 +6210,11 @@
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
         "web-91480225d160a6b6",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "writing": {
       "lemma": "write",
@@ -6245,7 +6526,7 @@
     },
     "mention": {
       "lemma": "mention",
-      "pos": "n.",
+      "pos": "v.",
       "forms": "mentioned, mentioning, mentions",
       "meanings": "提及；说起；简要说明；提名表扬",
       "senses": [
@@ -6254,13 +6535,26 @@
           "pos": "n.",
           "example": "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "提及",
+          "pos": "v.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "提及",
+          "pos": "v.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "growing": {
       "lemma": "grow",
@@ -6373,16 +6667,23 @@
           "pos": "art.",
           "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "outstanding": {
       "lemma": "outstanding",
@@ -6655,14 +6956,21 @@
           "pos": "n.",
           "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "年龄",
+          "pos": "n.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "she": {
       "lemma": "she",
@@ -6755,7 +7063,7 @@
       "lemma": "want",
       "pos": "v.",
       "forms": "wants, wanted, wanting",
-      "meanings": "想要；希望；需要",
+      "meanings": "想要；希望；需要；打算",
       "senses": [
         {
           "translation": "想要",
@@ -6768,14 +7076,27 @@
           "pos": "v.",
           "example": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "想要",
+          "pos": "v.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "想要",
+          "pos": "v.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "serve": {
       "lemma": "serve",
@@ -6894,16 +7215,23 @@
           "pos": "v.",
           "example": "Brad's little sister thought it was really funny.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "with": {
       "lemma": "with",
@@ -6911,30 +7239,6 @@
       "forms": "无常见变形",
       "meanings": "与……一起；使用；带有；由于；关于",
       "senses": [
-        {
-          "translation": "使用；通过",
-          "pos": "prep.",
-          "example": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "与……一起",
-          "pos": "prep.",
-          "example": "He is now talking with companies about developing the test into a simple product.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "与……一起",
-          "pos": "prep.",
-          "example": "Communicating with others on the Internet is much faster.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "与……一起",
-          "pos": "prep.",
-          "example": "We can chat with a person who is sitting in the other part of the world.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
         {
           "translation": "带有",
           "pos": "prep.",
@@ -6982,6 +7286,30 @@
           "pos": "prep.",
           "example": "Their language is closely associated with their culture.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "与……相比",
+          "pos": "prep.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "与……相比",
+          "pos": "prep.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "与……相比",
+          "pos": "prep.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "具有；带有",
+          "pos": "prep.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -6991,14 +7319,15 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "this": {
       "lemma": "this",
-      "pos": "det.",
+      "pos": "pron.",
       "forms": "these",
       "meanings": "这个；这；这种；此",
       "senses": [
@@ -7037,16 +7366,23 @@
           "pos": "det.",
           "example": "This is how you learn your own language - constant exposure.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "这（指代前文观点）",
+          "pos": "pron.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-6889075584252ffd",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "mindset": {
       "lemma": "mindset",
@@ -7199,18 +7535,25 @@
           "pos": "adv.",
           "example": "\"However,I don't believe it is the only benefit,nor the most powerful.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "然而",
+          "pos": "adv.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "while": {
       "lemma": "while",
       "pos": "conj.",
-      "forms": "无常见变形",
+      "forms": "whiles",
       "meanings": "当……时候；然而；虽然；在……期间",
       "senses": [
         {
@@ -7230,15 +7573,22 @@
           "pos": "conj.",
           "example": "While there, you study in a language school with students from many different countries.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "而",
+          "pos": "conj.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "visiting": {
       "lemma": "visit",
@@ -7383,7 +7733,7 @@
       "lemma": "be",
       "pos": "v.",
       "forms": "am, is, are, was, were, being, been",
-      "meanings": "是；位于（复数形式）",
+      "meanings": "是（are的过去式）；位于",
       "senses": [
         {
           "translation": "在（某处）",
@@ -7396,14 +7746,33 @@
           "pos": "v.",
           "example": "Her parents  were athletes and mountain climbers.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "away": {
       "lemma": "away",
@@ -8036,20 +8405,27 @@
       "lemma": "level",
       "pos": "n.",
       "forms": "levels",
-      "meanings": "水平；级别；高度；平坦的",
+      "meanings": "水平；程度；级别；高度；平坦的",
       "senses": [
         {
           "translation": "水平",
           "pos": "n.",
           "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "程度",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "extent": {
       "lemma": "extent",
@@ -9004,7 +9380,7 @@
       "lemma": "say",
       "pos": "v.",
       "forms": "says, saying, said",
-      "meanings": "说；讲；陈述；表达",
+      "meanings": "说；讲；陈述；表达；声称",
       "senses": [
         {
           "translation": "说",
@@ -9023,14 +9399,27 @@
           "pos": "v.",
           "example": "\"It costs 3 cents per test, and then it takes only 5 minutes to run,\" he said.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "说",
+          "pos": "v.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "说",
+          "pos": "v.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "i": {
       "lemma": "I",
@@ -9284,14 +9673,21 @@
           "pos": "pron.",
           "example": "\" I heard that from my brother, T.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我的",
+          "pos": "pron.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "transfer": {
       "lemma": "transfer",
@@ -9740,6 +10136,12 @@
           "pos": "num.",
           "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "一个",
+          "pos": "pron.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
@@ -9748,10 +10150,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "projects": {
       "lemma": "project",
@@ -9999,9 +10402,9 @@
     },
     "work": {
       "lemma": "work",
-      "pos": "v.",
+      "pos": "n.",
       "forms": "works, worked, working",
-      "meanings": "工作；致力于；运作；起作用",
+      "meanings": "工作；研究；作品；职业",
       "senses": [
         {
           "translation": "工作",
@@ -10026,16 +10429,23 @@
           "pos": "v.",
           "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "研究工作",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "together": {
       "lemma": "together",
@@ -10162,14 +10572,21 @@
           "pos": "v.",
           "example": "Now I don't feel so good about T.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "感到",
+          "pos": "v.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "then": {
       "lemma": "then",
@@ -10444,7 +10861,7 @@
       "lemma": "parent",
       "pos": "n.",
       "forms": "parents",
-      "meanings": "父母；父亲或母亲；（动植物）亲本",
+      "meanings": "父母；父亲或母亲；亲本；根源",
       "senses": [
         {
           "translation": "父母",
@@ -10463,14 +10880,21 @@
           "pos": "n.",
           "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "父母",
+          "pos": "n.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "staff": {
       "lemma": "staff",
@@ -10611,13 +11035,56 @@
           "pos": "n.",
           "example": "Parents,staff and community members continue to be in awe of what she is able to bring forth from the children,\"said Debra Rose Howell,a colleague of Peterson's at Monte Crisco Elementary School.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "孩子",
+          "pos": "n.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "孩子",
+          "pos": "n.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "孩子",
+          "pos": "n.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "孩子",
+          "pos": "n.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "孩子",
+          "pos": "n.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "孩子",
+          "pos": "n.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "孩子",
+          "pos": "n.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "debra": {
       "lemma": "Debra",
@@ -10893,9 +11360,9 @@
     },
     "challenges": {
       "lemma": "challenge",
-      "pos": "n.",
-      "forms": "challenges",
-      "meanings": "挑战；质问；具有挑战性的任务",
+      "pos": "v.",
+      "forms": "challenges, challenged, challenging",
+      "meanings": "挑战；质问；怀疑；具有挑战性的任务",
       "senses": [
         {
           "translation": "海伦·泰尔是20世纪最伟大的探险家之一，她热爱挑战。",
@@ -10908,13 +11375,20 @@
           "pos": "n.",
           "example": "She wants to inspire her students to never stop facing challenges.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "挑战（质疑）",
+          "pos": "v.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "says": {
       "lemma": "say",
@@ -11087,13 +11561,20 @@
           "pos": "adv.",
           "example": "\" She has gone almost everywhere to do that.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "几乎",
+          "pos": "adv.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "everywhere": {
       "lemma": "everywhere",
@@ -11507,15 +11988,22 @@
           "pos": "det.",
           "example": "You have little or no opportunity to escape the English language.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "没有",
+          "pos": "det.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "brought": {
       "lemma": "bring",
@@ -12624,13 +13112,20 @@
           "pos": "conj.",
           "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "虽然",
+          "pos": "conj.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "often": {
       "lemma": "often",
@@ -14220,22 +14715,29 @@
     },
     "average": {
       "lemma": "average",
-      "pos": "v.",
-      "forms": "averages, averaged, averaging",
-      "meanings": "平均为；算出……平均数；平均水平；一般的",
+      "pos": "adj.",
+      "forms": "averages",
+      "meanings": "平均的；普通的；一般的；达到平均数的",
       "senses": [
         {
           "translation": "平均为",
           "pos": "v.",
           "example": "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "平均的",
+          "pos": "adj.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "nearly": {
       "lemma": "nearly",
@@ -14311,7 +14813,7 @@
       "lemma": "than",
       "pos": "conj.",
       "forms": "无常见变形",
-      "meanings": "比；除……之外",
+      "meanings": "比；除……之外；与之相比",
       "senses": [
         {
           "translation": "比",
@@ -14336,14 +14838,39 @@
           "pos": "conj.",
           "example": "It also is 100 times more sensitive than other tests.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "比",
+          "pos": "conj.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "比",
+          "pos": "conj.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "比",
+          "pos": "conj.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "比",
+          "pos": "conj.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "those": {
       "lemma": "those",
@@ -15914,22 +16441,29 @@
     },
     "experience": {
       "lemma": "experience",
-      "pos": "n.",
+      "pos": "v.",
       "forms": "experiences, experienced, experiencing",
-      "meanings": "经验；经历；体验；感受",
+      "meanings": "经历；体验；感受；经验",
       "senses": [
         {
           "translation": "经验",
           "pos": "n.",
           "example": "Even if you have no experience before, you can get valuable job skills in today's hottest fields!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "经历",
+          "pos": "v.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "valuable": {
       "lemma": "valuable",
@@ -17099,14 +17633,8 @@
       "lemma": "he",
       "pos": "pron.",
       "forms": "him, his, himself",
-      "meanings": "他；（指代男性）；某人",
+      "meanings": "他；（指代男性）；某人；那个人",
       "senses": [
-        {
-          "translation": "他",
-          "pos": "pron.",
-          "example": "There he developed a simple paper test, which can recognize the disease in a single drop of blood.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
         {
           "translation": "他",
           "pos": "pron.",
@@ -17172,14 +17700,21 @@
           "pos": "pron.",
           "example": "\"He's very funny.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "他",
+          "pos": "pron.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "among": {
       "lemma": "among",
@@ -17198,13 +17733,26 @@
           "pos": "prep.",
           "example": "He was the only person among the 200 researchers Jack wrote to who showed interest in his project.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "在……之中",
+          "pos": "prep.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "在……群体里",
+          "pos": "prep.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "countries": {
       "lemma": "country",
@@ -17575,13 +18123,26 @@
           "pos": "verb",
           "example": "'\" He found that early discovery is important to increasing the chances of surviving the disease.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "发现",
+          "pos": "verb",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "发现",
+          "pos": "verb",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "cancers": {
       "lemma": "cancer",
@@ -18006,20 +18567,27 @@
       "lemma": "university",
       "pos": "n.",
       "forms": "universities",
-      "meanings": "大学；高等学府",
+      "meanings": "大学；高等学府；综合性大学",
       "senses": [
         {
           "translation": "大学",
           "pos": "n.",
           "example": "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "大学",
+          "pos": "n.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "baltimore": {
       "lemma": "Baltimore",
@@ -18094,16 +18662,23 @@
           "pos": "adv.",
           "example": "While there, you study in a language school with students from many different countries.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "存在",
+          "pos": "adv.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "developed": {
       "lemma": "develop",
@@ -18291,14 +18866,21 @@
           "pos": "pron.",
           "example": "Do you know what the hamburger named his daughter ?",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "他的",
+          "pos": "pron.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "proved": {
       "lemma": "prove",
@@ -18692,13 +19274,20 @@
           "pos": "n.",
           "example": "He was the only person among the 200 researchers Jack wrote to who showed interest in his project.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "研究人员",
+          "pos": "n.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "wrote": {
       "lemma": "write",
@@ -19663,13 +20252,20 @@
           "pos": "adv.",
           "example": "Communicating with others on the Internet is much faster.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "非常",
+          "pos": "adv.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "faster": {
       "lemma": "fast",
@@ -19839,14 +20435,21 @@
           "pos": "n.",
           "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "种类",
+          "pos": "n.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "probably": {
       "lemma": "probably",
@@ -20997,8 +21600,8 @@
     "did": {
       "lemma": "do",
       "pos": "v.",
-      "forms": "does, doing, done",
-      "meanings": "做；进行；（助动词）构成疑问或否定；实行",
+      "forms": "does, doing, did, done",
+      "meanings": "（构成疑问或否定）；做；进行；行动",
       "senses": [
         {
           "translation": "（助动词，无实义）",
@@ -21011,13 +21614,38 @@
           "pos": "v.",
           "example": "J, honey, what did the hamburger name his daughter?",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "（构成否定句的助动词）",
+          "pos": "v.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "（构成否定句的助动词）",
+          "pos": "v.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "（构成否定句的助动词）",
+          "pos": "v.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "（构成否定句的助动词）",
+          "pos": "v.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "hamburger": {
       "lemma": "hamburger",
@@ -21939,7 +22567,7 @@
       "lemma": "sad",
       "pos": "adj.",
       "forms": "sadder, saddest",
-      "meanings": "悲伤的；难过的；令人遗憾的",
+      "meanings": "悲伤的；难过的；令人遗憾的；阴郁的",
       "senses": [
         {
           "translation": "悲伤的",
@@ -21952,13 +22580,20 @@
           "pos": "adj.",
           "example": "She still looks sad.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "悲伤的",
+          "pos": "adj.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "bad": {
       "lemma": "bad",
@@ -21971,13 +22606,20 @@
           "pos": "adj.",
           "example": "I feel bad for her.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "负面的（情绪）",
+          "pos": "adj.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "tell": {
       "lemma": "tell",
@@ -23323,20 +23965,45 @@
       "lemma": "because",
       "pos": "conj.",
       "forms": "无常见变形",
-      "meanings": "因为",
+      "meanings": "因为；由于",
       "senses": [
         {
           "translation": "因为",
           "pos": "conj.",
           "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "因为",
+          "pos": "conj.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "因为",
+          "pos": "conj.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "因为",
+          "pos": "conj.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "因为",
+          "pos": "conj.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "advantages": {
       "lemma": "advantage",
@@ -23733,21 +24400,28 @@
     "pressures": {
       "lemma": "pressure",
       "pos": "n.",
-      "forms": "pressure",
-      "meanings": "压力；压迫；气压",
+      "forms": "pressures, pressured, pressuring",
+      "meanings": "压力；压迫；气压；强制",
       "senses": [
         {
           "translation": "压力",
           "pos": "n.",
           "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "压力",
+          "pos": "n.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "mind": {
       "lemma": "mind",
@@ -23810,20 +24484,27 @@
       "lemma": "cultural",
       "pos": "adj.",
       "forms": "无常见变形",
-      "meanings": "文化的；有关文化的",
+      "meanings": "文化的；有关文化的；教养的",
       "senses": [
         {
           "translation": "文化的",
           "pos": "adj.",
           "example": "Cultural Understanding   Learning a language is not only about learning words.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "文化的",
+          "pos": "adj.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
         }
       ],
       "articleIds": [
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-eecaaca1e069e103"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     },
     "understanding": {
       "lemma": "understanding",
@@ -24115,6 +24796,1131 @@
       ],
       "articleCount": 1,
       "updatedAt": "2026-08-02T12:02:12.297Z"
+    },
+    "british": {
+      "lemma": "british",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "英国的；英国人的；英国文化的",
+      "senses": [
+        {
+          "translation": "英国的",
+          "pos": "adj.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "men": {
+      "lemma": "man",
+      "pos": "n.",
+      "forms": "man (单数)",
+      "meanings": "男人；男士；人类",
+      "senses": [
+        {
+          "translation": "男人",
+          "pos": "n.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "男人",
+          "pos": "n.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "男人",
+          "pos": "n.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "男人",
+          "pos": "n.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "男人",
+          "pos": "n.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "男人",
+          "pos": "n.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "男人",
+          "pos": "n.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "男人",
+          "pos": "n.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "男人",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "男人",
+          "pos": "n.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "男人",
+          "pos": "n.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "likely": {
+      "lemma": "likely",
+      "pos": "adj.",
+      "forms": "likelier, likeliest",
+      "meanings": "很可能的；有希望的",
+      "senses": [
+        {
+          "translation": "很可能的",
+          "pos": "adj.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "很可能的",
+          "pos": "adj.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "很可能的",
+          "pos": "adj.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "很可能的",
+          "pos": "adj.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "women": {
+      "lemma": "woman",
+      "pos": "n.",
+      "forms": "woman (单数)",
+      "meanings": "女人；女性",
+      "senses": [
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "lonely": {
+      "lemma": "lonely",
+      "pos": "adj.",
+      "forms": "lonelier, loneliest",
+      "meanings": "孤独的；寂寞的；荒凉的",
+      "senses": [
+        {
+          "translation": "孤独的",
+          "pos": "adj.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "depressed": {
+      "lemma": "depress",
+      "pos": "adj.",
+      "forms": "depressing, depression",
+      "meanings": "沮丧的；消沉的；萧条的",
+      "senses": [
+        {
+          "translation": "沮丧的",
+          "pos": "adj.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "angry": {
+      "lemma": "angry",
+      "pos": "adj.",
+      "forms": "angrier, angriest",
+      "meanings": "愤怒的；生气的；激烈的",
+      "senses": [
+        {
+          "translation": "愤怒的",
+          "pos": "adj.",
+          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "childless": {
+      "lemma": "childless",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "没有孩子的；无子女的",
+      "senses": [
+        {
+          "translation": "没有孩子的",
+          "pos": "adj.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "没有孩子的",
+          "pos": "adj.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "wish": {
+      "lemma": "wish",
+      "pos": "n.",
+      "forms": "wishes, wished, wishing",
+      "meanings": "愿望；希望；祝愿；请求",
+      "senses": [
+        {
+          "translation": "愿望",
+          "pos": "n.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "愿望",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "biological": {
+      "lemma": "biological",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "生物学的；生理的；亲生的",
+      "senses": [
+        {
+          "translation": "生理的",
+          "pos": "adj.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "urge": {
+      "lemma": "urge",
+      "pos": "n.",
+      "forms": "urges, urged, urging",
+      "meanings": "冲动；推动力；迫切要求",
+      "senses": [
+        {
+          "translation": "冲动",
+          "pos": "n.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "major": {
+      "lemma": "major",
+      "pos": "adj.",
+      "forms": "majors, majored, majoring",
+      "meanings": "主要的；重要的；大调的；专业",
+      "senses": [
+        {
+          "translation": "主要的",
+          "pos": "adj.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "influences": {
+      "lemma": "influence",
+      "pos": "n.",
+      "forms": "influences, influenced, influencing",
+      "meanings": "影响；感化；影响力；有影响的人或物",
+      "senses": [
+        {
+          "translation": "影响",
+          "pos": "n.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "compared": {
+      "lemma": "compare",
+      "pos": "v.",
+      "forms": "compared, comparing, compares",
+      "meanings": "相比；对比；比作",
+      "senses": [
+        {
+          "translation": "相比",
+          "pos": "v.",
+          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "相比",
+          "pos": "v.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "相比",
+          "pos": "v.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "相比",
+          "pos": "v.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "societal": {
+      "lemma": "societal",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "社会的；关于社会的",
+      "senses": [
+        {
+          "translation": "社会的",
+          "pos": "adj.",
+          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "hadley": {
+      "lemma": "hadley",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "哈德利（人名）",
+      "senses": [
+        {
+          "translation": "哈德利",
+          "pos": "n.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "哈德利",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "keele": {
+      "lemma": "keele",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "基尔（地名/大学名）",
+      "senses": [
+        {
+          "translation": "基尔",
+          "pos": "n.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "percent": {
+      "lemma": "percent",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "百分之……；百分比；百分率",
+      "senses": [
+        {
+          "translation": "百分之",
+          "pos": "n.",
+          "example": "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "百分之",
+          "pos": "n.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "百分之",
+          "pos": "n.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "百分之",
+          "pos": "n.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "百分之",
+          "pos": "n.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "half": {
+      "lemma": "half",
+      "pos": "n.",
+      "forms": "halves",
+      "meanings": "一半；半；二分之一",
+      "senses": [
+        {
+          "translation": "一半",
+          "pos": "n.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "had": {
+      "lemma": "have",
+      "pos": "v.",
+      "forms": "has, having, had",
+      "meanings": "（构成完成时态）；有；吃；经历",
+      "senses": [
+        {
+          "translation": "已经（过去完成时）",
+          "pos": "v.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "已经（过去完成时）",
+          "pos": "v.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "已经（过去完成时）",
+          "pos": "v.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "已经（过去完成时）",
+          "pos": "v.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "experienced": {
+      "lemma": "experience",
+      "pos": "v.",
+      "forms": "experiences, experienced, experiencing",
+      "meanings": "经历；体验；感受；遭遇",
+      "senses": [
+        {
+          "translation": "经历",
+          "pos": "v.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "经历",
+          "pos": "v.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "经历",
+          "pos": "v.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "经历",
+          "pos": "v.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "loneliness": {
+      "lemma": "loneliness",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "孤独；寂寞；孤单",
+      "senses": [
+        {
+          "translation": "孤独",
+          "pos": "n.",
+          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "孤独",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "thirty": {
+      "lemma": "thirty",
+      "pos": "num.",
+      "forms": "thirties",
+      "meanings": "三十",
+      "senses": [
+        {
+          "translation": "三十",
+          "pos": "num.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "eight": {
+      "lemma": "eight",
+      "pos": "num.",
+      "forms": "eighth",
+      "meanings": "八；八个；八岁；八点",
+      "senses": [
+        {
+          "translation": "八",
+          "pos": "num.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "depression": {
+      "lemma": "depression",
+      "pos": "n.",
+      "forms": "depressions",
+      "meanings": "抑郁症；沮丧；消沉；不景气",
+      "senses": [
+        {
+          "translation": "抑郁症",
+          "pos": "n.",
+          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "抑郁",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "four": {
+      "lemma": "four",
+      "pos": "num.",
+      "forms": "fourth",
+      "meanings": "四；四个；四岁；四点",
+      "senses": [
+        {
+          "translation": "四",
+          "pos": "num.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "anger": {
+      "lemma": "anger",
+      "pos": "n.",
+      "forms": "angers",
+      "meanings": "愤怒；怒气；激怒",
+      "senses": [
+        {
+          "translation": "愤怒",
+          "pos": "n.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "愤怒",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "sadness": {
+      "lemma": "sadness",
+      "pos": "n.",
+      "forms": "sadnesses",
+      "meanings": "悲伤；忧愁；哀痛",
+      "senses": [
+        {
+          "translation": "悲伤",
+          "pos": "n.",
+          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "悲伤",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "guilt": {
+      "lemma": "guilt",
+      "pos": "n.",
+      "forms": "guilts",
+      "meanings": "内疚；负罪感；罪行；罪责",
+      "senses": [
+        {
+          "translation": "内疚",
+          "pos": "n.",
+          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "mr": {
+      "lemma": "mr",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "先生；（头衔）",
+      "senses": [
+        {
+          "translation": "先生",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "shows": {
+      "lemma": "show",
+      "pos": "v.",
+      "forms": "shows, showed, shown, showing",
+      "meanings": "显示；展示；说明；表演",
+      "senses": [
+        {
+          "translation": "显示",
+          "pos": "v.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "similar": {
+      "lemma": "similar",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "相似的；相像的；类似的；同类的",
+      "senses": [
+        {
+          "translation": "相似的",
+          "pos": "adj.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "level": {
+      "lemma": "level",
+      "pos": "n.",
+      "forms": "levels",
+      "meanings": "水平；程度；级别；高度；平坦的",
+      "senses": [
+        {
+          "translation": "程度",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "parenthood": {
+      "lemma": "parenthood",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "为人父母；亲子关系；父母身份",
+      "senses": [
+        {
+          "translation": "为人父母",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "survey": {
+      "lemma": "survey",
+      "pos": "n.",
+      "forms": "surveys, surveyed, surveying",
+      "meanings": "调查；测量；概述；勘察",
+      "senses": [
+        {
+          "translation": "调查",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "调查",
+          "pos": "n.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "higher": {
+      "lemma": "high",
+      "pos": "adj.",
+      "forms": "higher, highest",
+      "meanings": "更高的；高级的；高尚的；高音的",
+      "senses": [
+        {
+          "translation": "更高的",
+          "pos": "adj.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "jealousy": {
+      "lemma": "jealousy",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "嫉妒；猜忌；戒心",
+      "senses": [
+        {
+          "translation": "嫉妒",
+          "pos": "n.",
+          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "common": {
+      "lemma": "common",
+      "pos": "adj.",
+      "forms": "commoner, commonest",
+      "meanings": "普遍的；共同的；平凡的；粗俗的",
+      "senses": [
+        {
+          "translation": "普遍的",
+          "pos": "adj.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "idea": {
+      "lemma": "idea",
+      "pos": "n.",
+      "forms": "ideas",
+      "meanings": "观点；想法；念头；概念",
+      "senses": [
+        {
+          "translation": "观点",
+          "pos": "n.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "always": {
+      "lemma": "always",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "总是；一直；永远；始终",
+      "senses": [
+        {
+          "translation": "总是",
+          "pos": "adv.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "emotions": {
+      "lemma": "emotion",
+      "pos": "n.",
+      "forms": "emotions",
+      "meanings": "情绪；情感；激动",
+      "senses": [
+        {
+          "translation": "情绪",
+          "pos": "n.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "deeply": {
+      "lemma": "deeply",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "深刻地；深深地；极度；程度深地",
+      "senses": [
+        {
+          "translation": "深刻地",
+          "pos": "adv.",
+          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "carried": {
+      "lemma": "carry",
+      "pos": "v.",
+      "forms": "carries, carried, carrying",
+      "meanings": "进行；搬运；携带；传送；支撑",
+      "senses": [
+        {
+          "translation": "进行",
+          "pos": "v.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "questionnaire": {
+      "lemma": "questionnaire",
+      "pos": "n.",
+      "forms": "questionnaires",
+      "meanings": "调查问卷；问卷调查；询问表",
+      "senses": [
+        {
+          "translation": "调查问卷",
+          "pos": "n.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
+    },
+    "aged": {
+      "lemma": "age",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "处于……年龄的；老年的；具有……年纪的",
+      "senses": [
+        {
+          "translation": "处于……年龄的",
+          "pos": "adj.",
+          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+          "sourceArticleId": "web-eecaaca1e069e103"
+        }
+      ],
+      "articleIds": [
+        "web-eecaaca1e069e103"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:04:45.834Z"
     }
   }
 }

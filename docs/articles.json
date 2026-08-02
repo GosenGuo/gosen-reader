@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T12:02:12.299Z",
+  "generatedAt": "2026-08-02T12:04:45.836Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -22726,6 +22726,2059 @@
             "inputTokens": 35599,
             "outputTokens": 17613,
             "totalTokens": 53212,
+            "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-eecaaca1e069e103",
+      "title": "RACE 高中英语阅读 high17058",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them. \nChildless women were more likely to mention personal wish and biological urge  as major influences, compared to men. Men were more likely to mention cultural, societal and family pressures than women. \nRobin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children. Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women. Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.\nOne in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women. However, no men had experienced guilt   because they did not have any children although 16 percent of women had. \nMr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women. This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
+      "wordCount": 280,
+      "sentenceTranslations": {
+        "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": "英国研究人员发现，男性和女性想要孩子的可能性几乎不相上下，而且如果未能如愿，男性比女性更容易感到孤独、沮丧、愤怒和悲伤。",
+        "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": "与男性相比，女性更倾向于将个人意愿和生理冲动视为影响其生育意愿的主要因素。",
+        "Men were more likely to mention cultural, societal and family pressures than women.": "男性则比女性更倾向于提到文化、社会和家庭带来的压力。",
+        "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": "基尔大学的罗宾·哈德利发现，59%的男性和63%的女性表示他们想要孩子。",
+        "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": "在想要孩子的男性中，有一半人因为没有孩子而感到孤独，而女性中这一比例为27%。",
+        "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": "38%的男性因为没有孩子而感到沮丧，而女性只有27%。",
+        "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": "四分之一的男性曾因没有孩子而感到愤怒，女性的这一比例为18%；而56%的男性曾因没有孩子而感到悲伤，女性的这一比例则为43%。",
+        "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": "然而，没有男性因为没有孩子而感到内疚，尽管有16%的女性有过这种感受。",
+        "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": "哈德利先生说：“我的研究表明，参与调查的无子女男性和女性对为人父母的渴望程度相近，但男性在愤怒、抑郁、悲伤、嫉妒和孤独感方面比女性表现得更为强烈。”",
+        "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": "这挑战了一种普遍观点，即女性比男性更渴望拥有孩子，且如果没能生育，她们所经历的各种负面情绪总是比男性更为深重。",
+        "\" He carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": "他通过一份在线问卷对27名男性和81名女性进行了调查，受访者均为非父母群体，年龄在20至66岁之间，平均年龄为41岁。"
+      },
+      "glossary": {
+        "british": {
+          "lemma": "british",
+          "translation": "英国的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "英国的；英国人的；英国文化的",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "英国的",
+              "pos": "adj."
+            }
+          }
+        },
+        "researchers": {
+          "lemma": "researcher",
+          "translation": "研究人员",
+          "pos": "n.",
+          "forms": "researchers (pl.)",
+          "meanings": "研究人员；调查员；探究者",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "研究人员",
+              "pos": "n."
+            }
+          }
+        },
+        "found": {
+          "lemma": "find",
+          "translation": "发现",
+          "pos": "verb",
+          "forms": "found, finding",
+          "meanings": "发现；查明；觉得；获得",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "发现",
+              "pos": "verb"
+            },
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "发现",
+              "pos": "verb"
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "引导从句",
+          "pos": "conj.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；因为",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            }
+          }
+        },
+        "men": {
+          "lemma": "man",
+          "translation": "男人",
+          "pos": "n.",
+          "forms": "man (单数)",
+          "meanings": "男人；男士；人类",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "男人",
+              "pos": "n."
+            }
+          }
+        },
+        "are": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, were, been, being",
+          "meanings": "是；在；存在",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "almost": {
+          "lemma": "almost",
+          "translation": "几乎",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "几乎；差不多",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "几乎",
+              "pos": "adv."
+            }
+          }
+        },
+        "as": {
+          "lemma": "as",
+          "translation": "像……一样",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "像……一样；作为；当……时；因为",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "像……一样",
+              "pos": "prep."
+            },
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "作为",
+              "pos": "prep."
+            }
+          }
+        },
+        "likely": {
+          "lemma": "likely",
+          "translation": "很可能的",
+          "pos": "adj.",
+          "forms": "likelier, likeliest",
+          "meanings": "很可能的；有希望的",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "很可能的",
+              "pos": "adj."
+            },
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "很可能的",
+              "pos": "adj."
+            },
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "很可能的",
+              "pos": "adj."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "很可能的",
+              "pos": "adj."
+            }
+          }
+        },
+        "women": {
+          "lemma": "woman",
+          "translation": "女人",
+          "pos": "n.",
+          "forms": "woman (单数)",
+          "meanings": "女人；女性",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "女人",
+              "pos": "n."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "构成不定式",
+          "pos": "particle",
+          "forms": "无常见变形",
+          "meanings": "到；向；给；构成不定式",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "向",
+              "pos": "prep."
+            },
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "向",
+              "pos": "prep."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "到",
+              "pos": "prep."
+            }
+          }
+        },
+        "want": {
+          "lemma": "want",
+          "translation": "想要",
+          "pos": "v.",
+          "forms": "wanted, wanting, wants",
+          "meanings": "想要；希望；需要；缺乏",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "想要",
+              "pos": "v."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "想要",
+              "pos": "v."
+            }
+          }
+        },
+        "children": {
+          "lemma": "child",
+          "translation": "孩子",
+          "pos": "n.",
+          "forms": "child (单数)",
+          "meanings": "儿童；孩子；子女；产物",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "孩子",
+              "pos": "n."
+            },
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "孩子",
+              "pos": "n."
+            },
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "孩子",
+              "pos": "n."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "孩子",
+              "pos": "n."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "孩子",
+              "pos": "n."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "孩子",
+              "pos": "n."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "孩子",
+              "pos": "n."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "和",
+              "pos": "conj."
+            }
+          }
+        },
+        "they": {
+          "lemma": "they",
+          "translation": "他们",
+          "pos": "pron.",
+          "forms": "their/theirs/them/themselves",
+          "meanings": "他们；她们；它们",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "他们",
+              "pos": "pron."
+            }
+          }
+        },
+        "feel": {
+          "lemma": "feel",
+          "translation": "感到",
+          "pos": "v.",
+          "forms": "feels, felt, feeling",
+          "meanings": "感到；触摸；认为；有……感觉",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "感到",
+              "pos": "v."
+            }
+          }
+        },
+        "more": {
+          "lemma": "more",
+          "translation": "更",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "更多；较大程度；额外；再",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "更",
+              "pos": "adv."
+            },
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "更",
+              "pos": "adv."
+            },
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "更",
+              "pos": "adv."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "更",
+              "pos": "adv."
+            }
+          }
+        },
+        "lonely": {
+          "lemma": "lonely",
+          "translation": "孤独的",
+          "pos": "adj.",
+          "forms": "lonelier, loneliest",
+          "meanings": "孤独的；寂寞的；荒凉的",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "孤独的",
+              "pos": "adj."
+            }
+          }
+        },
+        "depressed": {
+          "lemma": "depress",
+          "translation": "沮丧的",
+          "pos": "adj.",
+          "forms": "depressing, depression",
+          "meanings": "沮丧的；消沉的；萧条的",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "沮丧的",
+              "pos": "adj."
+            }
+          }
+        },
+        "angry": {
+          "lemma": "angry",
+          "translation": "愤怒的",
+          "pos": "adj.",
+          "forms": "angrier, angriest",
+          "meanings": "愤怒的；生气的；激烈的",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "愤怒的",
+              "pos": "adj."
+            }
+          }
+        },
+        "robin": {
+          "lemma": "robin",
+          "translation": "罗宾",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "罗宾（人名）；知更鸟",
+          "contexts": {
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "罗宾",
+              "pos": "n."
+            }
+          }
+        },
+        "hadley": {
+          "lemma": "hadley",
+          "translation": "哈德利",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "哈德利（人名）",
+          "contexts": {
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "哈德利",
+              "pos": "n."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "哈德利",
+              "pos": "n."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
+          "contexts": {
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "在……之中",
+              "pos": "prep."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "对……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "keele": {
+          "lemma": "keele",
+          "translation": "基尔",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "基尔（地名/大学名）",
+          "contexts": {
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "基尔",
+              "pos": "n."
+            }
+          }
+        },
+        "university": {
+          "lemma": "university",
+          "translation": "大学",
+          "pos": "n.",
+          "forms": "universities",
+          "meanings": "大学；高等学府；综合性大学",
+          "contexts": {
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "大学",
+              "pos": "n."
+            }
+          }
+        },
+        "percent": {
+          "lemma": "percent",
+          "translation": "百分之……",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "百分之……；百分比；百分率",
+          "contexts": {
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "百分之",
+              "pos": "n."
+            },
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "百分之",
+              "pos": "n."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "百分之",
+              "pos": "n."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "百分之",
+              "pos": "n."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "百分之",
+              "pos": "n."
+            }
+          }
+        },
+        "said": {
+          "lemma": "say",
+          "translation": "说",
+          "pos": "v.",
+          "forms": "says, saying, said",
+          "meanings": "说；讲；陈述；表达；声称",
+          "contexts": {
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "说",
+              "pos": "v."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "说",
+              "pos": "v."
+            }
+          }
+        },
+        "wanted": {
+          "lemma": "want",
+          "translation": "想要",
+          "pos": "v.",
+          "forms": "wants, wanted, wanting",
+          "meanings": "想要；希望；需要；打算",
+          "contexts": {
+            "Robin Hadley, of Keele University, found that 59 percent of men and 63 percent of women said they wanted children.": {
+              "translation": "想要",
+              "pos": "v."
+            },
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "想要",
+              "pos": "v."
+            }
+          }
+        },
+        "the": {
+          "lemma": "the",
+          "translation": "这，那",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
+          "contexts": {
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            }
+          }
+        },
+        "who": {
+          "lemma": "who",
+          "translation": "……的人",
+          "pos": "pron.",
+          "forms": "whom, whose",
+          "meanings": "谁；……的人；（引导定语从句）",
+          "contexts": {
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "……的人",
+              "pos": "pron."
+            },
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "……的人",
+              "pos": "pron."
+            }
+          }
+        },
+        "half": {
+          "lemma": "half",
+          "translation": "一半",
+          "pos": "n.",
+          "forms": "halves",
+          "meanings": "一半；半；二分之一",
+          "contexts": {
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "一半",
+              "pos": "n."
+            }
+          }
+        },
+        "had": {
+          "lemma": "have",
+          "translation": "已经",
+          "pos": "v.",
+          "forms": "has, having, had",
+          "meanings": "（构成完成时态）；有；吃；经历",
+          "contexts": {
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "已经（过去完成时）",
+              "pos": "v."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "已经（过去完成时）",
+              "pos": "v."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "已经（过去完成时）",
+              "pos": "v."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "已经（过去完成时）",
+              "pos": "v."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "有",
+              "pos": "v."
+            }
+          }
+        },
+        "experienced": {
+          "lemma": "experience",
+          "translation": "经历",
+          "pos": "v.",
+          "forms": "experiences, experienced, experiencing",
+          "meanings": "经历；体验；感受；遭遇",
+          "contexts": {
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "经历",
+              "pos": "v."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "经历",
+              "pos": "v."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "经历",
+              "pos": "v."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "经历",
+              "pos": "v."
+            }
+          }
+        },
+        "loneliness": {
+          "lemma": "loneliness",
+          "translation": "孤独",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "孤独；寂寞；孤单",
+          "contexts": {
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "孤独",
+              "pos": "n."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "孤独",
+              "pos": "n."
+            }
+          }
+        },
+        "because": {
+          "lemma": "because",
+          "translation": "因为",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "因为；由于",
+          "contexts": {
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "因为",
+              "pos": "conj."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "因为",
+              "pos": "conj."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "因为",
+              "pos": "conj."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "因为",
+              "pos": "conj."
+            }
+          }
+        },
+        "did": {
+          "lemma": "do",
+          "translation": "（助动词）",
+          "pos": "v.",
+          "forms": "does, doing, did, done",
+          "meanings": "（构成疑问或否定）；做；进行；行动",
+          "contexts": {
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "（构成否定句的助动词）",
+              "pos": "v."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "（构成否定句的助动词）",
+              "pos": "v."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "（构成否定句的助动词）",
+              "pos": "v."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "（构成否定句的助动词）",
+              "pos": "v."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是；绝非",
+          "contexts": {
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "any": {
+          "lemma": "any",
+          "translation": "任何",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "任何；任一；一点（用于否定/疑问句）；一些",
+          "contexts": {
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "任何",
+              "pos": "det."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "任何",
+              "pos": "det."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "任何",
+              "pos": "det."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "任何",
+              "pos": "det."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "与……一起",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "与……一起；使用；带有；由于；关于",
+          "contexts": {
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "与……相比",
+              "pos": "prep."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "与……相比",
+              "pos": "prep."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "与……相比",
+              "pos": "prep."
+            },
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "具有；带有",
+              "pos": "prep."
+            }
+          }
+        },
+        "thirty": {
+          "lemma": "thirty",
+          "translation": "三十",
+          "pos": "num.",
+          "forms": "thirties",
+          "meanings": "三十",
+          "contexts": {
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "三十",
+              "pos": "num."
+            }
+          }
+        },
+        "eight": {
+          "lemma": "eight",
+          "translation": "八",
+          "pos": "num.",
+          "forms": "eighth",
+          "meanings": "八；八个；八岁；八点",
+          "contexts": {
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "八",
+              "pos": "num."
+            }
+          }
+        },
+        "depression": {
+          "lemma": "depression",
+          "translation": "抑郁症",
+          "pos": "n.",
+          "forms": "depressions",
+          "meanings": "抑郁症；沮丧；消沉；不景气",
+          "contexts": {
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "抑郁症",
+              "pos": "n."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "抑郁",
+              "pos": "n."
+            }
+          }
+        },
+        "only": {
+          "lemma": "only",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；只；才；唯一",
+          "contexts": {
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "仅仅",
+              "pos": "adv."
+            }
+          }
+        },
+        "one": {
+          "lemma": "one",
+          "translation": "一个",
+          "pos": "pron.",
+          "forms": "ones",
+          "meanings": "一个；某人；单一的；（指代前文提到的事物）",
+          "contexts": {
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "一个",
+              "pos": "pron."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……之中",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；使用（某种语言/材料）",
+          "contexts": {
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "在……之中",
+              "pos": "prep."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "在……之中",
+              "pos": "prep."
+            }
+          }
+        },
+        "four": {
+          "lemma": "four",
+          "translation": "四",
+          "pos": "num.",
+          "forms": "fourth",
+          "meanings": "四；四个；四岁；四点",
+          "contexts": {
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "四",
+              "pos": "num."
+            }
+          }
+        },
+        "anger": {
+          "lemma": "anger",
+          "translation": "愤怒",
+          "pos": "n.",
+          "forms": "angers",
+          "meanings": "愤怒；怒气；激怒",
+          "contexts": {
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "愤怒",
+              "pos": "n."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "愤怒",
+              "pos": "n."
+            }
+          }
+        },
+        "while": {
+          "lemma": "while",
+          "translation": "而",
+          "pos": "conj.",
+          "forms": "whiles",
+          "meanings": "当……时候；然而；虽然；在……期间",
+          "contexts": {
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "而",
+              "pos": "conj."
+            }
+          }
+        },
+        "sadness": {
+          "lemma": "sadness",
+          "translation": "悲伤",
+          "pos": "n.",
+          "forms": "sadnesses",
+          "meanings": "悲伤；忧愁；哀痛",
+          "contexts": {
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "悲伤",
+              "pos": "n."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "悲伤",
+              "pos": "n."
+            }
+          }
+        },
+        "however": {
+          "lemma": "however",
+          "translation": "然而",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "然而；可是；无论如何；不管怎样",
+          "contexts": {
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "然而",
+              "pos": "adv."
+            }
+          }
+        },
+        "no": {
+          "lemma": "no",
+          "translation": "没有",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "没有；不；禁止；一点也不",
+          "contexts": {
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "没有",
+              "pos": "det."
+            }
+          }
+        },
+        "guilt": {
+          "lemma": "guilt",
+          "translation": "内疚",
+          "pos": "n.",
+          "forms": "guilts",
+          "meanings": "内疚；负罪感；罪行；罪责",
+          "contexts": {
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "内疚",
+              "pos": "n."
+            }
+          }
+        },
+        "although": {
+          "lemma": "although",
+          "translation": "虽然",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "尽管；虽然；然而",
+          "contexts": {
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "虽然",
+              "pos": "conj."
+            }
+          }
+        },
+        "mr": {
+          "lemma": "mr",
+          "translation": "先生",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "先生；（头衔）",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "先生",
+              "pos": "n."
+            }
+          }
+        },
+        "my": {
+          "lemma": "my",
+          "translation": "我的",
+          "pos": "pron.",
+          "forms": "mine",
+          "meanings": "我的",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "我的",
+              "pos": "pron."
+            }
+          }
+        },
+        "work": {
+          "lemma": "work",
+          "translation": "研究工作",
+          "pos": "n.",
+          "forms": "works, worked, working",
+          "meanings": "工作；研究；作品；职业",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "研究工作",
+              "pos": "n."
+            }
+          }
+        },
+        "shows": {
+          "lemma": "show",
+          "translation": "显示",
+          "pos": "v.",
+          "forms": "shows, showed, shown, showing",
+          "meanings": "显示；展示；说明；表演",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "显示",
+              "pos": "v."
+            }
+          }
+        },
+        "there": {
+          "lemma": "there",
+          "translation": "存在",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在那里；到那里；（用于there be句型）",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "存在",
+              "pos": "adv."
+            }
+          }
+        },
+        "was": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；在；存在；成为",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何；一种",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "similar": {
+          "lemma": "similar",
+          "translation": "相似的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "相似的；相像的；类似的；同类的",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "相似的",
+              "pos": "adj."
+            }
+          }
+        },
+        "level": {
+          "lemma": "level",
+          "translation": "程度",
+          "pos": "n.",
+          "forms": "levels",
+          "meanings": "水平；程度；级别；高度；平坦的",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "程度",
+              "pos": "n."
+            }
+          }
+        },
+        "for": {
+          "lemma": "for",
+          "translation": "对于……的（愿望）",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "为了；对于；给；支持；因为",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "对于……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "parenthood": {
+          "lemma": "parenthood",
+          "translation": "为人父母",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "为人父母；亲子关系；父母身份",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "为人父母",
+              "pos": "n."
+            }
+          }
+        },
+        "among": {
+          "lemma": "among",
+          "translation": "在……之中",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之中；在……群体里；为……所公认",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "在……之中",
+              "pos": "prep."
+            },
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "在……群体里",
+              "pos": "prep."
+            }
+          }
+        },
+        "survey": {
+          "lemma": "survey",
+          "translation": "调查",
+          "pos": "n.",
+          "forms": "surveys, surveyed, surveying",
+          "meanings": "调查；测量；概述；勘察",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "调查",
+              "pos": "n."
+            },
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "调查",
+              "pos": "n."
+            }
+          }
+        },
+        "higher": {
+          "lemma": "high",
+          "translation": "更高的",
+          "pos": "adj.",
+          "forms": "higher, highest",
+          "meanings": "更高的；高级的；高尚的；高音的",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "更高的",
+              "pos": "adj."
+            }
+          }
+        },
+        "levels": {
+          "lemma": "level",
+          "translation": "程度",
+          "pos": "n.",
+          "forms": "levels",
+          "meanings": "水平；程度；级别；高度；平坦的",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "程度",
+              "pos": "n."
+            }
+          }
+        },
+        "jealousy": {
+          "lemma": "jealousy",
+          "translation": "嫉妒",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "嫉妒；猜忌；戒心",
+          "contexts": {
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "嫉妒",
+              "pos": "n."
+            }
+          }
+        },
+        "this": {
+          "lemma": "this",
+          "translation": "这",
+          "pos": "pron.",
+          "forms": "these",
+          "meanings": "这个；这；这种；此",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "这（指代前文观点）",
+              "pos": "pron."
+            }
+          }
+        },
+        "challenges": {
+          "lemma": "challenge",
+          "translation": "挑战",
+          "pos": "v.",
+          "forms": "challenges, challenged, challenging",
+          "meanings": "挑战；质问；怀疑；具有挑战性的任务",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "挑战（质疑）",
+              "pos": "v."
+            }
+          }
+        },
+        "common": {
+          "lemma": "common",
+          "translation": "普遍的",
+          "pos": "adj.",
+          "forms": "commoner, commonest",
+          "meanings": "普遍的；共同的；平凡的；粗俗的",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "普遍的",
+              "pos": "adj."
+            }
+          }
+        },
+        "idea": {
+          "lemma": "idea",
+          "translation": "观点",
+          "pos": "n.",
+          "forms": "ideas",
+          "meanings": "观点；想法；念头；概念",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "观点",
+              "pos": "n."
+            }
+          }
+        },
+        "much": {
+          "lemma": "much",
+          "translation": "非常",
+          "pos": "adv.",
+          "forms": "more, most",
+          "meanings": "很；非常；多",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "非常",
+              "pos": "adv."
+            }
+          }
+        },
+        "always": {
+          "lemma": "always",
+          "translation": "总是",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "总是；一直；永远；始终",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "总是",
+              "pos": "adv."
+            }
+          }
+        },
+        "experience": {
+          "lemma": "experience",
+          "translation": "经历",
+          "pos": "v.",
+          "forms": "experiences, experienced, experiencing",
+          "meanings": "经历；体验；感受；经验",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "经历",
+              "pos": "v."
+            }
+          }
+        },
+        "all": {
+          "lemma": "all",
+          "translation": "所有",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "全部；所有；总共；整个",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "所有",
+              "pos": "det."
+            }
+          }
+        },
+        "kinds": {
+          "lemma": "kind",
+          "translation": "种类",
+          "pos": "n.",
+          "forms": "kinds",
+          "meanings": "种类；性质；类型；亲切的",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "种类",
+              "pos": "n."
+            }
+          }
+        },
+        "bad": {
+          "lemma": "bad",
+          "translation": "坏的",
+          "pos": "adj.",
+          "forms": "worse, worst",
+          "meanings": "坏的；糟糕的；严重的；有害的",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "负面的（情绪）",
+              "pos": "adj."
+            }
+          }
+        },
+        "emotions": {
+          "lemma": "emotion",
+          "translation": "情绪",
+          "pos": "n.",
+          "forms": "emotions",
+          "meanings": "情绪；情感；激动",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "情绪",
+              "pos": "n."
+            }
+          }
+        },
+        "deeply": {
+          "lemma": "deeply",
+          "translation": "深刻地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "深刻地；深深地；极度；程度深地",
+          "contexts": {
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "深刻地",
+              "pos": "adv."
+            }
+          }
+        },
+        "he": {
+          "lemma": "he",
+          "translation": "他",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他；（指代男性）；某人；那个人",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "他",
+              "pos": "pron."
+            }
+          }
+        },
+        "carried": {
+          "lemma": "carry",
+          "translation": "进行",
+          "pos": "v.",
+          "forms": "carries, carried, carrying",
+          "meanings": "进行；搬运；携带；传送；支撑",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "进行",
+              "pos": "v."
+            }
+          }
+        },
+        "out": {
+          "lemma": "out",
+          "translation": "（与动词搭配完成动作）",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向外；彻底地；离开；（与动词连用表示完成或终结）",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "（与carried连用表示执行）",
+              "pos": "adv."
+            }
+          }
+        },
+        "his": {
+          "lemma": "he",
+          "translation": "他的",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他的；属于他的",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "他的",
+              "pos": "pron."
+            }
+          }
+        },
+        "parents": {
+          "lemma": "parent",
+          "translation": "父母",
+          "pos": "n.",
+          "forms": "parents",
+          "meanings": "父母；父亲或母亲；亲本；根源",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "父母",
+              "pos": "n."
+            }
+          }
+        },
+        "using": {
+          "lemma": "use",
+          "translation": "使用",
+          "pos": "v.",
+          "forms": "uses, used, using",
+          "meanings": "使用；利用；运用；消耗",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "使用",
+              "pos": "v."
+            }
+          }
+        },
+        "an": {
+          "lemma": "an",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "一个；任何；每一",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "online": {
+          "lemma": "online",
+          "translation": "在线的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "在线的；联网的；网络上的",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "在线的",
+              "pos": "adj."
+            }
+          }
+        },
+        "questionnaire": {
+          "lemma": "questionnaire",
+          "translation": "调查问卷",
+          "pos": "n.",
+          "forms": "questionnaires",
+          "meanings": "调查问卷；问卷调查；询问表",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "调查问卷",
+              "pos": "n."
+            }
+          }
+        },
+        "people": {
+          "lemma": "people",
+          "translation": "人们",
+          "pos": "n.",
+          "forms": "peoples",
+          "meanings": "人们；民族；人；国民",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "人们",
+              "pos": "n."
+            }
+          }
+        },
+        "aged": {
+          "lemma": "age",
+          "translation": "处于……年龄的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "处于……年龄的；老年的；具有……年纪的",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "处于……年龄的",
+              "pos": "adj."
+            }
+          }
+        },
+        "average": {
+          "lemma": "average",
+          "translation": "平均的",
+          "pos": "adj.",
+          "forms": "averages",
+          "meanings": "平均的；普通的；一般的；达到平均数的",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "平均的",
+              "pos": "adj."
+            }
+          }
+        },
+        "age": {
+          "lemma": "age",
+          "translation": "年龄",
+          "pos": "n.",
+          "forms": "ages, aged, ageing",
+          "meanings": "年龄；时代；长时间；老年",
+          "contexts": {
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "年龄",
+              "pos": "n."
+            }
+          }
+        },
+        "sad": {
+          "lemma": "sad",
+          "translation": "悲伤的",
+          "pos": "adj.",
+          "forms": "sadder, saddest",
+          "meanings": "悲伤的；难过的；令人遗憾的；阴郁的",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "悲伤的",
+              "pos": "adj."
+            }
+          }
+        },
+        "than": {
+          "lemma": "than",
+          "translation": "比",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "比；除……之外；与之相比",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "比",
+              "pos": "conj."
+            }
+          }
+        },
+        "if": {
+          "lemma": "if",
+          "translation": "如果",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "如果；是否；即使；设若",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "如果",
+              "pos": "conj."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "如果",
+              "pos": "conj."
+            }
+          }
+        },
+        "don't": {
+          "lemma": "do",
+          "translation": "不",
+          "pos": "aux.",
+          "forms": "无常见变形",
+          "meanings": "不（助动词否定形式）；不做；进行；表现",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "不",
+              "pos": "aux."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "不",
+              "pos": "aux."
+            }
+          }
+        },
+        "have": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "having, had, has",
+          "meanings": "有；经历；吃；使（某人做某事）；辅助动词（完成时态）",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.": {
+              "translation": "有",
+              "pos": "v."
+            }
+          }
+        },
+        "them": {
+          "lemma": "they",
+          "translation": "他们",
+          "pos": "pron.",
+          "forms": "they/their/theirs/themselves",
+          "meanings": "他们；她们；它们",
+          "contexts": {
+            "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.": {
+              "translation": "他们",
+              "pos": "pron."
+            }
+          }
+        },
+        "childless": {
+          "lemma": "childless",
+          "translation": "没有孩子的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "没有孩子的；无子女的",
+          "contexts": {
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "没有孩子的",
+              "pos": "adj."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "没有孩子的",
+              "pos": "adj."
+            }
+          }
+        },
+        "were": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是（are的过去式）；位于",
+          "contexts": {
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "mention": {
+          "lemma": "mention",
+          "translation": "提及",
+          "pos": "v.",
+          "forms": "mentioned, mentioning, mentions",
+          "meanings": "提及；说起；简要说明；提名表扬",
+          "contexts": {
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "提及",
+              "pos": "v."
+            },
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "提及",
+              "pos": "v."
+            }
+          }
+        },
+        "personal": {
+          "lemma": "personal",
+          "translation": "个人的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "个人的；私人的；亲自的；人身的",
+          "contexts": {
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "个人的",
+              "pos": "adj."
+            }
+          }
+        },
+        "wish": {
+          "lemma": "wish",
+          "translation": "愿望",
+          "pos": "n.",
+          "forms": "wishes, wished, wishing",
+          "meanings": "愿望；希望；祝愿；请求",
+          "contexts": {
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "愿望",
+              "pos": "n."
+            },
+            "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.": {
+              "translation": "愿望",
+              "pos": "n."
+            }
+          }
+        },
+        "biological": {
+          "lemma": "biological",
+          "translation": "生物学的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "生物学的；生理的；亲生的",
+          "contexts": {
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "生理的",
+              "pos": "adj."
+            }
+          }
+        },
+        "urge": {
+          "lemma": "urge",
+          "translation": "冲动",
+          "pos": "n.",
+          "forms": "urges, urged, urging",
+          "meanings": "冲动；推动力；迫切要求",
+          "contexts": {
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "冲动",
+              "pos": "n."
+            }
+          }
+        },
+        "major": {
+          "lemma": "major",
+          "translation": "主要的",
+          "pos": "adj.",
+          "forms": "majors, majored, majoring",
+          "meanings": "主要的；重要的；大调的；专业",
+          "contexts": {
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "主要的",
+              "pos": "adj."
+            }
+          }
+        },
+        "influences": {
+          "lemma": "influence",
+          "translation": "影响",
+          "pos": "n.",
+          "forms": "influences, influenced, influencing",
+          "meanings": "影响；感化；影响力；有影响的人或物",
+          "contexts": {
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "影响",
+              "pos": "n."
+            }
+          }
+        },
+        "compared": {
+          "lemma": "compare",
+          "translation": "相比",
+          "pos": "v.",
+          "forms": "compared, comparing, compares",
+          "meanings": "相比；对比；比作",
+          "contexts": {
+            "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.": {
+              "translation": "相比",
+              "pos": "v."
+            },
+            "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.": {
+              "translation": "相比",
+              "pos": "v."
+            },
+            "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.": {
+              "translation": "相比",
+              "pos": "v."
+            },
+            "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.": {
+              "translation": "相比",
+              "pos": "v."
+            }
+          }
+        },
+        "cultural": {
+          "lemma": "cultural",
+          "translation": "文化的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "文化的；有关文化的；教养的",
+          "contexts": {
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "文化的",
+              "pos": "adj."
+            }
+          }
+        },
+        "societal": {
+          "lemma": "societal",
+          "translation": "社会的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "社会的；关于社会的",
+          "contexts": {
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "社会的",
+              "pos": "adj."
+            }
+          }
+        },
+        "family": {
+          "lemma": "family",
+          "translation": "家庭",
+          "pos": "n.",
+          "forms": "families",
+          "meanings": "家庭；家人；亲属；家族",
+          "contexts": {
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "家庭",
+              "pos": "n."
+            }
+          }
+        },
+        "pressures": {
+          "lemma": "pressure",
+          "translation": "压力",
+          "pos": "n.",
+          "forms": "pressures, pressured, pressuring",
+          "meanings": "压力；压迫；气压；强制",
+          "contexts": {
+            "Men were more likely to mention cultural, societal and family pressures than women.": {
+              "translation": "压力",
+              "pos": "n."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "If a woman wants to have a child, she may say_.",
+          "options": [
+            "she should have a baby according to the cultural requirement",
+            "she needs to have a child because of the family pressure",
+            "she has to give birth to a child to avoid social prejudice",
+            "she is ready to have a baby because of her age and body"
+          ],
+          "answer": 3,
+          "explanation": "根据文中第二段，女性提到生育的主要影响因素是个人愿望和生理驱动（biological urge），即生理年龄和身体需求，D项符合。"
+        },
+        {
+          "prompt": "Because they didn't have children, half men experienced_.",
+          "options": [
+            "loneliness and sadness",
+            "depression and anger",
+            "happiness and freedom",
+            "jealousy and loneliness"
+          ],
+          "answer": 0,
+          "explanation": "文中第三段明确指出，在想要孩子的男性中，有一半的人经历过孤独感（loneliness），结合第四段提到的情绪比例数据，选项A中的孤独和悲伤符合原文描述。"
+        },
+        {
+          "prompt": "According to Mr Hadley's words, we can learn that without children_.",
+          "options": [
+            "men actually experience bad emotions more deeply than women",
+            "women are much more likely to want to have children than men",
+            "men and women have the same level of anger and depression",
+            "men have a higher level of guilt and depression than women"
+          ],
+          "answer": 0,
+          "explanation": "根据文末最后一段Mr Hadley的总结，研究挑战了女性比男性更想生孩子以及女性负面情绪更深的传统观点，指出男性的负面情绪实际上更为强烈，A项正确。"
+        },
+        {
+          "prompt": "Which of the following may be the best title for the passage?",
+          "options": [
+            "Every woman needs a baby",
+            "Women are happy without children",
+            "Men need children more badly",
+            "A research about men and women"
+          ],
+          "answer": 2,
+          "explanation": "文章主要通过数据对比，揭示了男性在渴望孩子及因无子女产生的负面情绪上并不比女性少，甚至在某些方面（如孤独、抑郁、愤怒等）表现得更为强烈，C项最能概括文章核心发现。"
+        }
+      ],
+      "generationUsage": {
+        "requests": 9,
+        "inputTokens": 30755,
+        "outputTokens": 14923,
+        "totalTokens": 45678,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 9,
+            "inputTokens": 30755,
+            "outputTokens": 14923,
+            "totalTokens": 45678,
             "estimatedCostUsd": null
           }
         }
