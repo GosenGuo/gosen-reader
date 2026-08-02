@@ -4,25 +4,25 @@
     {
       "runId": "30746604746",
       "startedAt": "2026-08-02T11:52:38.005Z",
-      "generatedAt": "2026-08-02T11:59:42.746Z",
+      "generatedAt": "2026-08-02T12:01:48.383Z",
       "requestedArticles": 30,
-      "acceptedArticles": 4,
+      "acceptedArticles": 5,
       "completed": false,
       "usage": {
-        "requests": 71,
-        "inputTokens": 136352,
-        "outputTokens": 96237,
-        "totalTokens": 232589,
+        "requests": 98,
+        "inputTokens": 171318,
+        "outputTokens": 120436,
+        "totalTokens": 291754,
         "estimatedCostUsd": null,
         "estimatedCostCny": null,
         "reportedCosts": {},
         "pricingComplete": false,
         "models": {
           "gemini-2.5-flash": {
-            "requests": 68,
-            "inputTokens": 135335,
-            "outputTokens": 95946,
-            "totalTokens": 231281,
+            "requests": 95,
+            "inputTokens": 170301,
+            "outputTokens": 120145,
+            "totalTokens": 290446,
             "estimatedCostUsd": null
           },
           "deepseek-v4-flash": {
@@ -126,6 +126,28 @@
               "inputTokens": 24920,
               "outputTokens": 13754,
               "totalTokens": 38674,
+              "estimatedCostUsd": null
+            }
+          }
+        },
+        {
+          "articleId": "web-2e315a8a858c375d",
+          "title": "RACE 高中英语阅读 high17052",
+          "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+          "requests": 22,
+          "inputTokens": 33624,
+          "outputTokens": 23697,
+          "totalTokens": 57321,
+          "estimatedCostUsd": null,
+          "estimatedCostCny": null,
+          "reportedCosts": {},
+          "pricingComplete": false,
+          "models": {
+            "gemini-2.5-flash": {
+              "requests": 22,
+              "inputTokens": 33624,
+              "outputTokens": 23697,
+              "totalTokens": 57321,
               "estimatedCostUsd": null
             }
           }

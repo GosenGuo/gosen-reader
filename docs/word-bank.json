@@ -1,31 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T11:59:42.745Z",
+  "generatedAt": "2026-08-02T12:01:48.380Z",
   "words": {
     "on": {
       "lemma": "on",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "通过（媒介）；在……之上；关于；在（时间）",
+      "meanings": "关于；在……之上；通过（媒介）；在（时间）",
       "senses": [
-        {
-          "translation": "在社交网站上",
-          "pos": "prep.",
-          "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "在……之上",
-          "pos": "prep.",
-          "example": "\"Through Andrea's efforts these kids have helped to put Granite Falls,Washington,on the map for musical talents.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "她说：“我喜欢看看山的那边有什么。”",
-          "pos": "prep.",
-          "example": "She says,\"I like to see what's on the other side of the hill.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
         {
           "translation": "旅行的最后一周，她每天靠一把坚果和一点水维持生命。",
           "pos": "prep.",
@@ -79,6 +61,24 @@
           "pos": "prep.",
           "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "关于",
+          "pos": "prep.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "在……之上",
+          "pos": "prep.",
+          "example": "The look on Nita's face reminds me of the look on T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "关于",
+          "pos": "prep.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -87,10 +87,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "web": {
       "lemma": "web",
@@ -175,76 +176,76 @@
       "meanings": "这，那；特指；用于最高级前；专有名词前",
       "senses": [
         {
-          "translation": "特指",
+          "translation": "特指（新的一期）",
           "pos": "art.",
-          "example": "In the early 1990s,the word\" Internet\" was strange to most people.",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "When the new issue arrives, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "特指",
+          "translation": "特指（那个汉堡）",
           "pos": "art.",
-          "example": "But today, Internet has become a useful tool for people all over the world.",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "J, honey, what did the hamburger name his daughter?",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "用于最高级前",
+          "translation": "特指（那张桌子）",
           "pos": "art.",
-          "example": "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "特指",
+          "translation": "特指（那个房间）",
           "pos": "art.",
-          "example": "Communicating with others on the Internet is much faster.",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "特指",
+          "translation": "特指（那个项目）",
           "pos": "art.",
-          "example": "We can chat with a person who is sitting in the other part of the world.",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "\"Brad, can I help you with the project ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "特指",
+          "translation": "特指（那个房间）",
           "pos": "art.",
-          "example": "We can e-mail our friends and they can read the e-mails within a minute.",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "\"\nNita walks out of the room looking sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "特指",
+          "translation": "特指（Nita脸上的神情）",
           "pos": "art.",
-          "example": "Giving all kinds of information is probably the biggest advantage of the Internet.",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "The look on Nita's face reminds me of the look on T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "特指",
+          "translation": "特指（傍晚早些时候）",
           "pos": "art.",
-          "example": "We can use search engines to find the information we need.",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "J's face earlier in the evening .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "特指",
+          "translation": "特指（餐桌）",
           "pos": "art.",
-          "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "J's silence at the dinner table.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "特指",
+          "translation": "特指（那个项目）",
           "pos": "art.",
-          "example": "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "特指",
+          "translation": "特指（那个汉堡）",
           "pos": "art.",
-          "example": "We can meet new and interesting people in the chat now.",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "Do you know what the hamburger named his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "特指",
+          "translation": "特指（下一次）",
           "pos": "art.",
-          "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
-          "sourceArticleId": "web-91480225d160a6b6"
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -253,10 +254,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "internet": {
       "lemma": "internet",
@@ -392,30 +394,6 @@
         {
           "translation": "能够",
           "pos": "modal v.",
-          "example": "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal v.",
-          "example": "Even if you have no experience before, you can get valuable job skills in today's hottest fields!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "可以",
-          "pos": "modal v.",
-          "example": "We'll rush your free information about how you can take advantage of the opportunities.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal v.",
-          "example": "There he developed a simple paper test, which can recognize the disease in a single drop of blood.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal v.",
           "example": "We can chat with a person who is sitting in the other part of the world.",
           "sourceArticleId": "web-91480225d160a6b6"
         },
@@ -460,6 +438,30 @@
           "pos": "modal v.",
           "example": "Sometimes we can find something that is quite good but very cheap.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "可能",
+          "pos": "modal v.",
+          "example": "But a constant stream of riddles can get annoying .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal v.",
+          "example": "\"Brad, can I help you with the project ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal v.",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal v.",
+          "example": "And maybe you can come along with me sometime.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -467,10 +469,11 @@
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "access": {
       "lemma": "access",
@@ -497,24 +500,6 @@
       "forms": "an",
       "meanings": "一个；每一；任何",
       "senses": [
-        {
-          "translation": "一个",
-          "pos": "article",
-          "example": "He started to learn it after losing a close family friend to the disease.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "一个",
-          "pos": "article",
-          "example": "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "一个",
-          "pos": "article",
-          "example": "There he developed a simple paper test, which can recognize the disease in a single drop of blood.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
         {
           "translation": "一位",
           "pos": "article",
@@ -568,6 +553,24 @@
           "pos": "art.",
           "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "一种",
+          "pos": "art.",
+          "example": "But a constant stream of riddles can get annoying .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -576,10 +579,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "variety": {
       "lemma": "variety",
@@ -607,54 +611,6 @@
       "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
       "senses": [
         {
-          "translation": "关于",
-          "pos": "prep.",
-          "example": "We'll rush your free information about how you can take advantage of the opportunities.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "The Maryland teenager is the youngest winner of the $75,000 prize.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "'\" He found that early discovery is important to increasing the chances of surviving the disease.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "There he developed a simple paper test, which can recognize the disease in a single drop of blood.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "His test has proved correct 90% of the time.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "We can chat with a person who is sitting in the other part of the world.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
           "translation": "……的",
           "pos": "prep.",
           "example": "Giving all kinds of information is probably the biggest advantage of the Internet.",
@@ -677,6 +633,54 @@
           "pos": "prep.",
           "example": "We can also do shopping and find nearly all kinds of goods.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "……的（属于月份的）",
+          "pos": "prep.",
+          "example": "The longest day of the month is the day after my younger brother T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "……的（关于某事物的）",
+          "pos": "prep.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "……的（种类）",
+          "pos": "prep.",
+          "example": "But a constant stream of riddles can get annoying .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "……的（部分，即一口食物）",
+          "pos": "prep.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "……的（在房间外）",
+          "pos": "prep.",
+          "example": "\"\nNita walks out of the room looking sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "……的（关于某事物的）",
+          "pos": "prep.",
+          "example": "The look on Nita's face reminds me of the look on T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "……的（在房间前部）",
+          "pos": "prep.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "……中的（其中之一）",
+          "pos": "prep.",
+          "example": "\" I used one of your riddles tonight.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -685,10 +689,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "information": {
       "lemma": "information",
@@ -800,15 +805,22 @@
           "pos": "prep.",
           "example": "He is now talking with companies about developing the test into a simple product.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "关于",
+          "pos": "prep.",
+          "example": "Now I don't feel so good about T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "you": {
       "lemma": "you",
@@ -816,24 +828,6 @@
       "forms": "your; yours; yourself",
       "meanings": "你；你们；人们（泛指）",
       "senses": [
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "Have you ever wondered what a Degree might be worth to you in your job or career?",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "你",
-          "pos": "pronoun",
-          "example": "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
         {
           "translation": "你",
           "pos": "pronoun",
@@ -887,14 +881,33 @@
           "pos": "pronoun",
           "example": "In the field you've chosen.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "\"Brad, can I help you with the project ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "Do you know what the hamburger named his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "你",
+          "pos": "pronoun",
+          "example": "And maybe you can come along with me sometime.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "it's": {
       "lemma": "it is",
@@ -921,30 +934,6 @@
       "forms": "无常见变形",
       "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；使用（某种语言/材料）",
       "senses": [
-        {
-          "translation": "在……领域",
-          "pos": "preposition",
-          "example": "In the field you've chosen.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "在……之内",
-          "pos": "preposition",
-          "example": "It is the largest high school science competition in the world.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "在……内",
-          "pos": "preposition",
-          "example": "He was chosen from among 1,500 students in 70 countries.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "在……里",
-          "pos": "preposition",
-          "example": "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
         {
           "translation": "在……内",
           "pos": "preposition",
@@ -992,6 +981,30 @@
           "pos": "prep.",
           "example": "We can meet new and interesting people in the chat now.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "J tells me every riddle in it .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "在……期间",
+          "pos": "prep.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "在……时间段",
+          "pos": "prep.",
+          "example": "J's face earlier in the evening .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "在……位置",
+          "pos": "prep.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -1000,10 +1013,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "your": {
       "lemma": "your",
@@ -1011,12 +1025,6 @@
       "forms": "yours",
       "meanings": "你的；你们的",
       "senses": [
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
         {
           "translation": "你的",
           "pos": "pronoun",
@@ -1082,14 +1090,21 @@
           "pos": "pronoun",
           "example": "We'll rush your free information about how you can take advantage of the opportunities.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "你的",
+          "pos": "pronoun",
+          "example": "\" I used one of your riddles tonight.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "interest": {
       "lemma": "interest",
@@ -1121,26 +1136,8 @@
       "lemma": "to",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "对……而言；去；向；到；构成不定式",
+      "meanings": "到；向；给；构成不定式",
       "senses": [
-        {
-          "translation": "（构成不定式）",
-          "pos": "particle",
-          "example": "We should be able to do something.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "对……而言",
-          "pos": "preposition",
-          "example": "'\" He found that early discovery is important to increasing the chances of surviving the disease.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "（构成不定式）",
-          "pos": "particle",
-          "example": "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
         {
           "translation": "（构成不定式）",
           "pos": "particle",
@@ -1194,6 +1191,24 @@
           "pos": "particle",
           "example": "We can also listen to music and see films.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "到",
+          "pos": "prep.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "去（表示目的）",
+          "pos": "prep.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -1202,16 +1217,17 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "be": {
       "lemma": "be",
       "pos": "v.",
       "forms": "am, is, are, was, were, being, been",
-      "meanings": "是；存在；等于；位于；发生",
+      "meanings": "是；位于；表现为；处于……状态",
       "senses": [
         {
           "translation": "成为",
@@ -1260,16 +1276,29 @@
           "pos": "v.",
           "example": "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "（祈使句中保持某种状态）",
+          "pos": "v.",
+          "example": "\"Keith , be nice ,\"Mom says.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "（处于某种位置或状态）",
+          "pos": "v.",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "aware": {
       "lemma": "aware",
@@ -1368,42 +1397,6 @@
         {
           "translation": "和",
           "pos": "conj.",
-          "example": "Then, write in the name and number of the program you're most interested in, and mail it today.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "Jack Andraka from Maryland won the grand prize at the 2012 Intel International Science and Engineering Fair.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "而且",
-          "pos": "conj.",
-          "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "\"It costs 3 cents per test, and then it takes only 5 minutes to run,\" he said.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
           "example": "We can e-mail our friends and they can read the e-mails within a minute.",
           "sourceArticleId": "web-91480225d160a6b6"
         },
@@ -1436,6 +1429,42 @@
           "pos": "conj.",
           "example": "We can also do shopping and find nearly all kinds of goods.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "并且",
+          "pos": "conj.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "At last --- some peace and quiet.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "并且",
+          "pos": "conj.",
+          "example": "\"\nNita laughs and I laugh too .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "而且",
+          "pos": "conj.",
+          "example": "And maybe you can come along with me sometime.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "接着",
+          "pos": "conj.",
+          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -1444,10 +1473,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "take": {
       "lemma": "take",
@@ -1547,22 +1577,10 @@
     },
     "it": {
       "lemma": "it",
-      "pos": "pronoun",
+      "pos": "pron.",
       "forms": "its, itself",
       "meanings": "它；这；那个；代指已提到的事物",
       "senses": [
-        {
-          "translation": "这（指代这种心态）",
-          "pos": "pron.",
-          "example": "It was with this mindset that she started to pursue a degree in medicine.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "它（指代教学）",
-          "pos": "pron.",
-          "example": "Teaching music is only a part of Peterson's instruction-it serves as a vehicle to other areas.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
         {
           "translation": "它（指代利益）",
           "pos": "pron.",
@@ -1622,6 +1640,18 @@
           "pos": "pronoun",
           "example": "\"It costs 3 cents per test, and then it takes only 5 minutes to run,\" he said.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "它",
+          "pos": "pron.",
+          "example": "J tells me every riddle in it .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "它",
+          "pos": "pron.",
+          "example": "Brad's little sister thought it was really funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -1629,16 +1659,17 @@
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "what": {
       "lemma": "what",
       "pos": "pronoun",
       "forms": "无常见变形",
-      "meanings": "什么；……的事物；多么",
+      "meanings": "什么；……的事物；多么；究竟是什么",
       "senses": [
         {
           "translation": "……的样子",
@@ -1675,16 +1706,47 @@
           "pos": "pronoun",
           "example": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "什么",
+          "pos": "pron.",
+          "example": "What did he hamburger name his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "什么",
+          "pos": "pron.",
+          "example": "J, honey, what did the hamburger name his daughter?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "什么",
+          "pos": "pron.",
+          "example": "Do you know what the hamburger named his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "什么",
+          "pos": "pron.",
+          "example": "What?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "什么",
+          "pos": "pron.",
+          "example": "J, guess what ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "want": {
       "lemma": "want",
@@ -1897,18 +1959,6 @@
         {
           "translation": "是",
           "pos": "v.",
-          "example": "The career of your dreams is closer than you think!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "It is the largest high school science competition in the world.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
           "example": "The Maryland teenager is the youngest winner of the $75,000 prize.",
           "sourceArticleId": "web-6889075584252ffd"
         },
@@ -1965,6 +2015,18 @@
           "pos": "v.",
           "example": "Sometimes we can find something that is quite good but very cheap.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "The longest day of the month is the day after my younger brother T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "\"\nHe is suddenly quiet.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -1972,10 +2034,11 @@
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "find": {
       "lemma": "find",
@@ -2006,14 +2069,21 @@
           "pos": "v.",
           "example": "Sometimes we can find something that is quite good but very cheap.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "寻找",
+          "pos": "v.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "out": {
       "lemma": "out",
@@ -2032,13 +2102,20 @@
           "pos": "adv.",
           "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "向外",
+          "pos": "adv.",
+          "example": "\"\nNita walks out of the room looking sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "already": {
       "lemma": "already",
@@ -2278,9 +2355,9 @@
     },
     "name": {
       "lemma": "name",
-      "pos": "n.",
+      "pos": "v.",
       "forms": "naming, named, names",
-      "meanings": "名字；命名；名誉；提及",
+      "meanings": "给……命名；说出……的名字；提名；名字",
       "senses": [
         {
           "translation": "名字",
@@ -2335,15 +2412,28 @@
           "pos": "n.",
           "example": "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "命名",
+          "pos": "v.",
+          "example": "What did he hamburger name his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "命名",
+          "pos": "v.",
+          "example": "J, honey, what did the hamburger name his daughter?",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "game": {
       "lemma": "game",
@@ -2471,7 +2561,7 @@
       "lemma": "last",
       "pos": "adj.",
       "forms": "lasts/lasted/lasting",
-      "meanings": "最后的；上一个；持续；姓",
+      "meanings": "最后的；上一个；最终；持续；姓",
       "senses": [
         {
           "translation": "姓",
@@ -2484,14 +2574,21 @@
           "pos": "adj.",
           "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "最后",
+          "pos": "adj.",
+          "example": "At last --- some peace and quiet.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "into": {
       "lemma": "into",
@@ -2516,15 +2613,22 @@
           "pos": "prep.",
           "example": "He is now talking with companies about developing the test into a simple product.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "进入",
+          "pos": "prep.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-ffeb0429c5817c0f",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "several": {
       "lemma": "several",
@@ -2675,7 +2779,7 @@
       "lemma": "see",
       "pos": "v.",
       "forms": "saw, seen, seeing",
-      "meanings": "看见；查看；理解；领会；拜访",
+      "meanings": "看见；查看；理解；拜访",
       "senses": [
         {
           "translation": "查看",
@@ -2718,6 +2822,12 @@
           "pos": "v.",
           "example": "We can also listen to music and see films.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "看见",
+          "pos": "v.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -2725,10 +2835,11 @@
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "where": {
       "lemma": "where",
@@ -3003,14 +3114,27 @@
           "pos": "v.",
           "example": "Even if you have no experience before, you can get valuable job skills in today's hottest fields!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "变得",
+          "pos": "v.",
+          "example": "But a constant stream of riddles can get annoying .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "到达",
+          "pos": "v.",
+          "example": "When I get home, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "moreprecise": {
       "lemma": "precise",
@@ -3124,26 +3248,33 @@
       "lemma": "around",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "围绕；大约；在……附近；到处",
+      "meanings": "在……身边；围绕；大约；到处",
       "senses": [
         {
           "translation": "围绕",
           "pos": "prep.",
           "example": "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "在……身边",
+          "pos": "prep.",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "so": {
       "lemma": "so",
-      "pos": "conj.",
+      "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "因此；所以；如此；非常",
+      "meanings": "那么；如此；因此；非常",
       "senses": [
         {
           "translation": "因此",
@@ -3162,15 +3293,28 @@
           "pos": "conj.",
           "example": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "那么",
+          "pos": "adv.",
+          "example": "Now I don't feel so good about T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "因此",
+          "pos": "conj.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "that": {
       "lemma": "that",
@@ -3178,18 +3322,6 @@
       "forms": "those",
       "meanings": "引导从句；那个；那；因为",
       "senses": [
-        {
-          "translation": "引导从句",
-          "pos": "conj.",
-          "example": "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "（引导从句）",
-          "pos": "conj.",
-          "example": "Growing up the daughter of an outstanding educator,Andrea Peterson knew at a young age that she wanted to serve others.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
         {
           "translation": "（引导从句）",
           "pos": "conj.",
@@ -3249,6 +3381,18 @@
           "pos": "conj.",
           "example": "Sometimes we can find something that is quite good but very cheap.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "那",
+          "pos": "pron.",
+          "example": "\" I heard that from my brother, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -3257,10 +3401,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "engine": {
       "lemma": "engine",
@@ -3376,7 +3521,7 @@
       "lemma": "not",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "不；不是；没",
+      "meanings": "不；没；不是",
       "senses": [
         {
           "translation": "不",
@@ -3395,15 +3540,22 @@
           "pos": "adv.",
           "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "This evening, he does not .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-ffeb0429c5817c0f",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "two": {
       "lemma": "two",
@@ -3433,7 +3585,7 @@
     },
     "more": {
       "lemma": "more",
-      "pos": "adv.",
+      "pos": "adj.",
       "forms": "无常见变形",
       "meanings": "更多；较大程度；额外；再",
       "senses": [
@@ -3460,15 +3612,22 @@
           "pos": "adv.",
           "example": "It also is 100 times more sensitive than other tests.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "更多的",
+          "pos": "adj.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "unrelated": {
       "lemma": "unrelated",
@@ -3510,7 +3669,7 @@
     },
     "just": {
       "lemma": "just",
-      "pos": "adverb",
+      "pos": "adv.",
       "forms": "无常见变形",
       "meanings": "仅仅；刚才；正好；公正地",
       "senses": [
@@ -3537,15 +3696,40 @@
           "pos": "adverb",
           "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "恰好（用于标题）",
+          "pos": "adv.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "恰好（用于标题）",
+          "pos": "adv.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "仅仅",
+          "pos": "adv.",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "恰好（用于标题）",
+          "pos": "adv.",
+          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "happen": {
       "lemma": "happen",
@@ -3645,15 +3829,22 @@
           "pos": "det.",
           "example": "We can also do shopping and find nearly all kinds of goods.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "各种各样的",
+          "pos": "det.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "names": {
       "lemma": "name",
@@ -3831,14 +4022,21 @@
           "pos": "v.",
           "example": "Nearly 2,000 American companies --- including General Electric, IBM, Mobil, General Motors, Ford, and many others --- have used our training for their employees.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "使用",
+          "pos": "v.",
+          "example": "\" I used one of your riddles tonight.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "different": {
       "lemma": "different",
@@ -4040,9 +4238,9 @@
     },
     "don't": {
       "lemma": "do",
-      "pos": "v.",
+      "pos": "aux.",
       "forms": "无常见变形",
-      "meanings": "不（do not的缩写）；不做",
+      "meanings": "不（助动词否定形式）；不做",
       "senses": [
         {
           "translation": "不",
@@ -4061,15 +4259,28 @@
           "pos": "v.",
           "example": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "不",
+          "pos": "aux.",
+          "example": "Now I don't feel so good about T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "不",
+          "pos": "aux.",
+          "example": "\"I don't know.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-cda4f9a292f21a6c",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "miss": {
       "lemma": "miss",
@@ -4094,20 +4305,27 @@
       "lemma": "anything",
       "pos": "pron.",
       "forms": "无常见变形",
-      "meanings": "任何事物；某事（用于疑问句/否定句）",
+      "meanings": "任何事物；某事；（用于疑问或否定句）什么事",
       "senses": [
         {
           "translation": "任何事物",
           "pos": "pron.",
           "example": "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "任何事物",
+          "pos": "pron.",
+          "example": "J doesn't say anything .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "important": {
       "lemma": "important",
@@ -4139,20 +4357,87 @@
       "lemma": "j",
       "pos": "n.",
       "forms": "无常见变形",
-      "meanings": "字母J",
+      "meanings": "字母J；名字缩写",
       "senses": [
         {
-          "translation": "字母J",
+          "translation": "J（人名）",
           "pos": "n.",
-          "example": "Example:\n   \"Robin Counts\"\n   \"Robin J.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J（人名）",
+          "pos": "n.",
+          "example": "J tells me every riddle in it .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J（人名）",
+          "pos": "n.",
+          "example": "J !",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J（人名）",
+          "pos": "n.",
+          "example": "J, honey, what did the hamburger name his daughter?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J（人名）",
+          "pos": "n.",
+          "example": "J doesn't say anything .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J（人名）",
+          "pos": "n.",
+          "example": "J's face earlier in the evening .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J（人名）",
+          "pos": "n.",
+          "example": "J's silence at the dinner table.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J（人名）",
+          "pos": "n.",
+          "example": "J,\" I say.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J（人名）",
+          "pos": "n.",
+          "example": "J still looks unhappy.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J（人名）",
+          "pos": "n.",
+          "example": "J, guess what ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J（人名）",
+          "pos": "n.",
+          "example": "J's eyes light up .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J（人名）",
+          "pos": "n.",
+          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "jensen": {
       "lemma": "jensen",
@@ -4246,16 +4531,23 @@
           "pos": "adv.",
           "example": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "（眼睛）发亮",
+          "pos": "adv.",
+          "example": "J's eyes light up .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "other": {
       "lemma": "other",
@@ -4621,26 +4913,8 @@
       "lemma": "for",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "对于；为了；给；支持；因为",
+      "meanings": "为了；对于；给；支持；因为",
       "senses": [
-        {
-          "translation": "因为",
-          "pos": "prep.",
-          "example": "\"Through Andrea's efforts these kids have helped to put Granite Falls,Washington,on the map for musical talents.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "为了",
-          "pos": "prep.",
-          "example": "Helen goes to challenging places not only for  adventures,but also for education.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "为了",
-          "pos": "prep.",
-          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
         {
           "translation": "为了",
           "pos": "prep.",
@@ -4694,6 +4968,24 @@
           "pos": "adj.",
           "example": "There are some games for free.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "为了",
+          "pos": "prep.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "为（某人）感到",
+          "pos": "prep.",
+          "example": "I feel bad for her.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "为了",
+          "pos": "prep.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -4702,10 +4994,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "city": {
       "lemma": "city",
@@ -4825,7 +5118,7 @@
       "lemma": "go",
       "pos": "v.",
       "forms": "goes, went, gone, going",
-      "meanings": "开始进行；去；走；变得",
+      "meanings": "去；走；开始进行；变得；运行",
       "senses": [
         {
           "translation": "开始进行",
@@ -4838,14 +5131,27 @@
           "pos": "v.",
           "example": "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "去",
+          "pos": "v.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "去",
+          "pos": "v.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "blogging": {
       "lemma": "blog",
@@ -5200,6 +5506,12 @@
           "pos": "prep.",
           "example": "He was chosen from among 1,500 students in 70 countries.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "从",
+          "pos": "prep.",
+          "example": "\" I heard that from my brother, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -5207,10 +5519,11 @@
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "time": {
       "lemma": "time",
@@ -5241,15 +5554,22 @@
           "pos": "n.",
           "example": "His test has proved correct 90% of the time.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "次",
+          "pos": "n.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "they": {
       "lemma": "they",
@@ -5429,7 +5749,7 @@
       "lemma": "some",
       "pos": "adj.",
       "forms": "无常见变形",
-      "meanings": "一些；某个；一部分；大约",
+      "meanings": "一些；某几个；某些；相当数量",
       "senses": [
         {
           "translation": "一些",
@@ -5442,14 +5762,27 @@
           "pos": "adj.",
           "example": "There are some games for free.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "一些",
+          "pos": "adj.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "一些",
+          "pos": "adj.",
+          "example": "At last --- some peace and quiet.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "enables": {
       "lemma": "enable",
@@ -5562,16 +5895,29 @@
           "pos": "adj.",
           "example": "We can meet new and interesting people in the chat now.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "新的",
+          "pos": "adj.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "新的",
+          "pos": "adj.",
+          "example": "When the new issue arrives, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "mention": {
       "lemma": "mention",
@@ -5622,20 +5968,39 @@
       "lemma": "daughter",
       "pos": "n.",
       "forms": "daughters",
-      "meanings": "女儿",
+      "meanings": "女儿；子代",
       "senses": [
         {
           "translation": "女儿",
           "pos": "n.",
           "example": "Growing up the daughter of an outstanding educator,Andrea Peterson knew at a young age that she wanted to serve others.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "女儿",
+          "pos": "n.",
+          "example": "What did he hamburger name his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "女儿",
+          "pos": "n.",
+          "example": "J, honey, what did the hamburger name his daughter?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "女儿",
+          "pos": "n.",
+          "example": "Do you know what the hamburger named his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "an": {
       "lemma": "an",
@@ -5828,24 +6193,6 @@
         {
           "translation": "在",
           "pos": "prep.",
-          "example": "Growing up the daughter of an outstanding educator,Andrea Peterson knew at a young age that she wanted to serve others.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "However,while visiting her brothers who were away at college studying music education,she realized that she was drawn to teach music,too.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
           "example": "Parents,staff and community members continue to be in awe of what she is able to bring forth from the children,\"said Debra Rose Howell,a colleague of Peterson's at Monte Crisco Elementary School.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
         },
@@ -5896,6 +6243,24 @@
           "pos": "prep.",
           "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "在",
+          "pos": "prep.",
+          "example": "At last --- some peace and quiet.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "向",
+          "pos": "prep.",
+          "example": "\" He shouts at her .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "在……时",
+          "pos": "prep.",
+          "example": "J's silence at the dinner table.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -5903,10 +6268,11 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "young": {
       "lemma": "young",
@@ -5973,18 +6339,6 @@
       "meanings": "她",
       "senses": [
         {
-          "translation": "仅有她的狗查理陪同，她经受住了严寒和与北极熊的相遇。",
-          "pos": "pron.",
-          "example": "Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "旅行的最后一周，她每天靠一把坚果和一点水维持生命。",
-          "pos": "pron.",
-          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
           "translation": "在北极之旅前，她创办了一个名为“冒险课堂”的网站。",
           "pos": "pron.",
           "example": "Before her Arctic journey,she started a website called Adventure Classroom.",
@@ -6043,14 +6397,27 @@
           "pos": "pron.",
           "example": "She wants to inspire her students to never stop facing challenges.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她",
+          "pos": "pron.",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "她",
+          "pos": "pron.",
+          "example": "She still looks sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "wanted": {
       "lemma": "want",
@@ -6189,15 +6556,22 @@
           "pos": "v.",
           "example": "In the early 1990s,the word\" Internet\" was strange to most people.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Brad's little sister thought it was really funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "with": {
       "lemma": "with",
@@ -6205,24 +6579,6 @@
       "forms": "无常见变形",
       "meanings": "与……一起；使用；带有；由于；关于",
       "senses": [
-        {
-          "translation": "带着",
-          "pos": "prep.",
-          "example": "It was with this mindset that she started to pursue a degree in medicine.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "处理（assist with）",
-          "pos": "prep.",
-          "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "秉持",
-          "pos": "prep.",
-          "example": "\" With this philosophy,Peterson introduced a crosscurriculum program,wherein she takes lessons taught in other classes,such as English and math,and expands upon them in an eightweek unit.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
         {
           "translation": "与……相符",
           "pos": "prep.",
@@ -6270,6 +6626,30 @@
           "pos": "prep.",
           "example": "We can chat with a person who is sitting in the other part of the world.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "带有",
+          "pos": "prep.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "随身携带",
+          "pos": "prep.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "协助",
+          "pos": "prep.",
+          "example": "\"Brad, can I help you with the project ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "与……一起",
+          "pos": "prep.",
+          "example": "And maybe you can come along with me sometime.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
@@ -6277,15 +6657,16 @@
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "this": {
       "lemma": "this",
       "pos": "det.",
-      "forms": "these (pl.)",
+      "forms": "these",
       "meanings": "这个；这；这种；此",
       "senses": [
         {
@@ -6311,14 +6692,21 @@
           "pos": "det.",
           "example": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "这个",
+          "pos": "det.",
+          "example": "This evening, he does not .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "mindset": {
       "lemma": "mindset",
@@ -6535,26 +6923,8 @@
       "lemma": "she",
       "pos": "pron.",
       "forms": "hers, herself",
-      "meanings": "她的（形容词性物主代词）；她（宾格）",
+      "meanings": "她的；她（宾格）",
       "senses": [
-        {
-          "translation": "她的",
-          "pos": "pron.",
-          "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "她的",
-          "pos": "pron.",
-          "example": "She pulled her own sled piled with 160 pounds of supplies,and during her trip no one brought her fresh supplies.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "她的",
-          "pos": "pron.",
-          "example": "Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
         {
           "translation": "她（宾格）",
           "pos": "pron.",
@@ -6608,14 +6978,33 @@
           "pos": "pron.",
           "example": "She wants to inspire her students to never stop facing challenges.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她",
+          "pos": "pron.",
+          "example": "\" He shouts at her .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "她",
+          "pos": "pron.",
+          "example": "I feel bad for her.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "brothers": {
       "lemma": "brother",
@@ -6908,14 +7297,21 @@
           "pos": "adv.",
           "example": "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "也",
+          "pos": "adv.",
+          "example": "\"\nNita laughs and I laugh too .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "ten": {
       "lemma": "ten",
@@ -8219,41 +8615,84 @@
         {
           "translation": "我",
           "pos": "pron.",
-          "example": "\"However,I don't believe it is the only benefit,nor the most powerful.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
-          "translation": "她说：“我喜欢看看山的那边有什么。”",
+          "translation": "我",
           "pos": "pron.",
-          "example": "She says,\"I like to see what's on the other side of the hill.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
+          "example": "Now I don't feel so good about T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
           "translation": "我",
-          "pos": "pronoun",
-          "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
-          "sourceArticleId": "web-6889075584252ffd"
+          "pos": "pron.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
           "translation": "我",
-          "pos": "pronoun",
-          "example": "\"I was very surprised that this was a 15-year-old who was writing this.",
-          "sourceArticleId": "web-6889075584252ffd"
+          "pos": "pron.",
+          "example": "\" I ask.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         },
         {
           "translation": "我",
-          "pos": "pronoun",
-          "example": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
-          "sourceArticleId": "web-6889075584252ffd"
+          "pos": "pron.",
+          "example": "\"I don't know.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我",
+          "pos": "pron.",
+          "example": "\"\nNita laughs and I laugh too .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我",
+          "pos": "pron.",
+          "example": "\" I heard that from my brother, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我",
+          "pos": "pron.",
+          "example": "J,\" I say.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我",
+          "pos": "pron.",
+          "example": "When I get home, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我",
+          "pos": "pron.",
+          "example": "\" I say.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我",
+          "pos": "pron.",
+          "example": "\" I used one of your riddles tonight.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我",
+          "pos": "pron.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "believe": {
       "lemma": "believe",
@@ -8394,13 +8833,32 @@
           "pos": "pron.",
           "example": "It is truly exciting to see how my music teaching can transfer to other classrooms.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "我的",
+          "pos": "pron.",
+          "example": "The longest day of the month is the day after my younger brother T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我的",
+          "pos": "pron.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我的",
+          "pos": "pron.",
+          "example": "\" I heard that from my brother, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "transfer": {
       "lemma": "transfer",
@@ -8799,16 +9257,23 @@
           "pos": "pron.",
           "example": "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "一个",
+          "pos": "pron.",
+          "example": "\" I used one of your riddles tonight.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "projects": {
       "lemma": "project",
@@ -9019,26 +9484,33 @@
       "lemma": "class",
       "pos": "n.",
       "forms": "classes",
-      "meanings": "班级；课程；等级；阶级",
+      "meanings": "课程；班级；等级；阶级",
       "senses": [
         {
           "translation": "班级",
           "pos": "n.",
           "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "课程",
+          "pos": "n.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "work": {
       "lemma": "work",
       "pos": "v.",
       "forms": "works, worked, working",
-      "meanings": "工作；运作；起作用；致力于",
+      "meanings": "工作；致力于；运作；起作用",
       "senses": [
         {
           "translation": "工作",
@@ -9057,15 +9529,22 @@
           "pos": "v.",
           "example": "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "工作",
+          "pos": "v.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "together": {
       "lemma": "together",
@@ -9171,22 +9650,35 @@
     },
     "feel": {
       "lemma": "feel",
-      "pos": "n.",
-      "forms": "feels",
-      "meanings": "感觉；氛围；摸起来；认为",
+      "pos": "v.",
+      "forms": "feels, felt, feeling",
+      "meanings": "感到；触摸；认为；有……感觉",
       "senses": [
         {
           "translation": "感觉",
           "pos": "n.",
           "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "感到",
+          "pos": "v.",
+          "example": "I feel bad for her.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "感到",
+          "pos": "v.",
+          "example": "Now I don't feel so good about T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "then": {
       "lemma": "then",
@@ -9211,15 +9703,22 @@
           "pos": "adv.",
           "example": "\"It costs 3 cents per test, and then it takes only 5 minutes to run,\" he said.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "然后",
+          "pos": "adv.",
+          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "perform": {
       "lemma": "perform",
@@ -9930,7 +10429,7 @@
       "lemma": "say",
       "pos": "v.",
       "forms": "said, saying",
-      "meanings": "说；讲；写道；陈述",
+      "meanings": "说；讲；陈述；写道",
       "senses": [
         {
           "translation": "她说：“我喜欢看看山的那边有什么。”",
@@ -9943,14 +10442,33 @@
           "pos": "v.",
           "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "说",
+          "pos": "v.",
+          "example": "\"Keith , be nice ,\"Mom says.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "说",
+          "pos": "v.",
+          "example": "\"\n\"Patty,\" he says.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "说",
+          "pos": "v.",
+          "example": "\" Nita says.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "like": {
       "lemma": "like",
@@ -10100,7 +10618,7 @@
     },
     "do": {
       "lemma": "do",
-      "pos": "v.",
+      "pos": "aux.v.",
       "forms": "did, done, doing, does",
       "meanings": "做；干；进行；引起",
       "senses": [
@@ -10121,15 +10639,22 @@
           "pos": "v.",
           "example": "We can also do shopping and find nearly all kinds of goods.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "（助动词，用于构成疑问句）",
+          "pos": "aux.v.",
+          "example": "Do you know what the hamburger named his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "became": {
       "lemma": "become",
@@ -10205,13 +10730,20 @@
           "pos": "adv.",
           "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "独自",
+          "pos": "adv.",
+          "example": "\"Leave us alone!",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "north": {
       "lemma": "north",
@@ -10395,13 +10927,20 @@
           "pos": "prep.",
           "example": "She pulled her own sled piled with 160 pounds of supplies,and during her trip no one brought her fresh supplies.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "在……期间",
+          "pos": "prep.",
+          "example": "During dinner ,T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "trip": {
       "lemma": "trip",
@@ -10740,7 +11279,7 @@
     },
     "when": {
       "lemma": "when",
-      "pos": "conjunction",
+      "pos": "conj.",
       "forms": "无常见变形",
       "meanings": "当……时；在……时候；既然；考虑到",
       "senses": [
@@ -10755,14 +11294,39 @@
           "pos": "conjunction",
           "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "When the new issue arrives, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "When I get home, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "attacked": {
       "lemma": "attack",
@@ -10965,7 +11529,7 @@
       "lemma": "little",
       "pos": "adj.",
       "forms": "less, least",
-      "meanings": "少量的；小的；幼小的；短暂的",
+      "meanings": "幼小的；小的；少量的；短暂的",
       "senses": [
         {
           "translation": "少量的",
@@ -10978,14 +11542,27 @@
           "pos": "adj.",
           "example": "Earn your degree in as little as two years!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "幼小的",
+          "pos": "adj.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "幼小的",
+          "pos": "adj.",
+          "example": "Brad's little sister thought it was really funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "water": {
       "lemma": "water",
@@ -11042,14 +11619,21 @@
           "pos": "n.",
           "example": "Call anytime, 24 hours a day, 7 days a week.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "天",
+          "pos": "n.",
+          "example": "The longest day of the month is the day after my younger brother T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "goes": {
       "lemma": "go",
@@ -11156,14 +11740,21 @@
           "pos": "conj.",
           "example": "Sometimes we can find something that is quite good but very cheap.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "But a constant stream of riddles can get annoying .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "also": {
       "lemma": "also",
@@ -12755,20 +13346,27 @@
       "lemma": "want",
       "pos": "v.",
       "forms": "wants, wanted, wanting",
-      "meanings": "想要；希望；需要",
+      "meanings": "想要；希望；需要；打算",
       "senses": [
         {
           "translation": "想要",
           "pos": "v.",
           "example": "She wants to inspire her students to never stop facing challenges.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "想要",
+          "pos": "v.",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "stop": {
       "lemma": "stop",
@@ -13439,7 +14037,7 @@
     },
     "home": {
       "lemma": "home",
-      "pos": "n./adv.",
+      "pos": "n.",
       "forms": "homes",
       "meanings": "家；住宅；故乡；在家里",
       "senses": [
@@ -13454,13 +14052,20 @@
           "pos": "n.",
           "example": "Send today for FREE information about Harcourt at-home training!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "家",
+          "pos": "n.",
+          "example": "When I get home, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "spare": {
       "lemma": "spare",
@@ -13700,7 +14305,7 @@
       "lemma": "science",
       "pos": "n.",
       "forms": "sciences",
-      "meanings": "科学；学科；自然科学；理科",
+      "meanings": "科学；自然科学；理科；学科",
       "senses": [
         {
           "translation": "科学",
@@ -13719,14 +14324,21 @@
           "pos": "n.",
           "example": "It is the largest high school science competition in the world.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "科学",
+          "pos": "n.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "engineering": {
       "lemma": "engineering",
@@ -15454,10 +16066,11 @@
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "com": {
       "lemma": "com",
@@ -15476,13 +16089,20 @@
           "pos": "n.",
           "example": "com",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "商业网站后缀",
+          "pos": "n.",
+          "example": "com\n\"Patty!",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "e": {
       "lemma": "e",
@@ -15839,32 +16459,8 @@
       "lemma": "he",
       "pos": "pron.",
       "forms": "him, his, himself",
-      "meanings": "他",
+      "meanings": "他；（指代男性）；某人",
       "senses": [
-        {
-          "translation": "他",
-          "pos": "pron.",
-          "example": "He was chosen from among 1,500 students in 70 countries.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "他",
-          "pos": "pron.",
-          "example": "He started to learn it after losing a close family friend to the disease.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "他",
-          "pos": "pron.",
-          "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "他",
-          "pos": "pron.",
-          "example": "'\" He found that early discovery is important to increasing the chances of surviving the disease.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
         {
           "translation": "他",
           "pos": "pron.",
@@ -15894,13 +16490,56 @@
           "pos": "pron.",
           "example": "He is now talking with companies about developing the test into a simple product.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "他",
+          "pos": "pron.",
+          "example": "What did he hamburger name his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "他",
+          "pos": "pron.",
+          "example": "\"\nHe is suddenly quiet.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "他",
+          "pos": "pron.",
+          "example": "\"\n\"Patty,\" he says.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "他",
+          "pos": "pron.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "他",
+          "pos": "pron.",
+          "example": "This evening, he does not .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "他",
+          "pos": "pron.",
+          "example": "\" He shouts at her .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "他",
+          "pos": "pron.",
+          "example": "\"He's very funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "among": {
       "lemma": "among",
@@ -16091,22 +16730,35 @@
     },
     "after": {
       "lemma": "after",
-      "pos": "preposition",
+      "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "在……之后；后来；随（某人）后",
+      "meanings": "在……之后；后来；跟随",
       "senses": [
         {
           "translation": "在……之后",
           "pos": "preposition",
           "example": "He started to learn it after losing a close family friend to the disease.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "在……之后",
+          "pos": "prep.",
+          "example": "The longest day of the month is the day after my younger brother T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "在……之后",
+          "pos": "prep.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "losing": {
       "lemma": "lose",
@@ -16148,22 +16800,29 @@
     },
     "friend": {
       "lemma": "friend",
-      "pos": "noun",
+      "pos": "n.",
       "forms": "friends",
-      "meanings": "朋友；支持者；伙伴",
+      "meanings": "朋友；支持者；伙伴；友人",
       "senses": [
         {
           "translation": "朋友",
           "pos": "noun",
           "example": "He started to learn it after losing a close family friend to the disease.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "朋友",
+          "pos": "n.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "disease": {
       "lemma": "disease",
@@ -16732,14 +17391,21 @@
           "pos": "adv.",
           "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "那里",
+          "pos": "adv.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "developed": {
       "lemma": "develop",
@@ -16903,13 +17569,38 @@
           "pos": "pron.",
           "example": "\"\nJack worked in Professor Maitra's laboratory, completing his project in 7 months.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "他的",
+          "pos": "pron.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "他的",
+          "pos": "pron.",
+          "example": "What did he hamburger name his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "他的",
+          "pos": "pron.",
+          "example": "J, honey, what did the hamburger name his daughter?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "他的",
+          "pos": "pron.",
+          "example": "Do you know what the hamburger named his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "proved": {
       "lemma": "prove",
@@ -17359,13 +18050,32 @@
           "pos": "n.",
           "example": "\"\nJack worked in Professor Maitra's laboratory, completing his project in 7 months.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "项目",
+          "pos": "n.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "项目",
+          "pos": "n.",
+          "example": "\"Brad, can I help you with the project ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "项目",
+          "pos": "n.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "very": {
       "lemma": "very",
@@ -17384,14 +18094,21 @@
           "pos": "adv.",
           "example": "Sometimes we can find something that is quite good but very cheap.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "非常",
+          "pos": "adv.",
+          "example": "\"He's very funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "surprised": {
       "lemma": "surprise",
@@ -17537,24 +18254,31 @@
       "lemma": "he",
       "pos": "pron.",
       "forms": "he, his, him",
-      "meanings": "他（宾格）",
+      "meanings": "他（宾格）；他（自己）",
       "senses": [
         {
           "translation": "他",
           "pos": "pron.",
           "example": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "他",
+          "pos": "pron.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "over": {
       "lemma": "over",
-      "pos": "prep.",
+      "pos": "adv.",
       "forms": "无常见变形",
       "meanings": "遍及；超过；在……上方；结束；越过",
       "senses": [
@@ -17575,14 +18299,21 @@
           "pos": "prep.",
           "example": "But today, Internet has become a useful tool for people all over the world.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "过去",
+          "pos": "adv.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "interview": {
       "lemma": "interview",
@@ -17759,14 +18490,21 @@
           "pos": "adv.",
           "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "现在",
+          "pos": "adv.",
+          "example": "Now I don't feel so good about T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "talking": {
       "lemma": "talk",
@@ -17950,13 +18688,20 @@
           "pos": "adj.",
           "example": "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "接下来的",
+          "pos": "adj.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "s": {
       "lemma": "s",
@@ -18064,13 +18809,20 @@
           "pos": "adv.",
           "example": "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "或许",
+          "pos": "adv.",
+          "example": "And maybe you can come along with me sometime.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "invention": {
       "lemma": "invention",
@@ -18348,13 +19100,20 @@
           "pos": "n.",
           "example": "We can also do shopping and find nearly all kinds of goods.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "种类",
+          "pos": "n.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "probably": {
       "lemma": "probably",
@@ -18443,13 +19202,26 @@
           "pos": "pron.",
           "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "\"Leave us alone!",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "list": {
       "lemma": "list",
@@ -18516,22 +19288,29 @@
     },
     "look": {
       "lemma": "look",
-      "pos": "v.",
+      "pos": "n.",
       "forms": "looks, looked, looking",
-      "meanings": "看；看起来；寻找；注视",
+      "meanings": "表情；外表；看；注视",
       "senses": [
         {
           "translation": "看",
           "pos": "v.",
           "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "表情",
+          "pos": "n.",
+          "example": "The look on Nita's face reminds me of the look on T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "enjoy": {
       "lemma": "enjoy",
@@ -18866,20 +19645,27 @@
       "lemma": "good",
       "pos": "adj.",
       "forms": "better, best",
-      "meanings": "好的；优良的；愉快的",
+      "meanings": "好；愉快的；优良的",
       "senses": [
         {
           "translation": "好的",
           "pos": "adj.",
           "example": "Sometimes we can find something that is quite good but very cheap.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "好",
+          "pos": "adj.",
+          "example": "Now I don't feel so good about T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
         }
       ],
       "articleIds": [
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-2e315a8a858c375d"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     },
     "cheap": {
       "lemma": "cheap",
@@ -18899,6 +19685,2360 @@
       ],
       "articleCount": 1,
       "updatedAt": "2026-08-02T11:59:42.745Z"
+    },
+    "longest": {
+      "lemma": "long",
+      "pos": "adj.",
+      "forms": "longer, longest",
+      "meanings": "最长的；时间最久的",
+      "senses": [
+        {
+          "translation": "最长的",
+          "pos": "adj.",
+          "example": "The longest day of the month is the day after my younger brother T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "month": {
+      "lemma": "month",
+      "pos": "n.",
+      "forms": "months",
+      "meanings": "月；一个月的时间",
+      "senses": [
+        {
+          "translation": "月",
+          "pos": "n.",
+          "example": "The longest day of the month is the day after my younger brother T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "younger": {
+      "lemma": "young",
+      "pos": "adj.",
+      "forms": "younger, youngest",
+      "meanings": "更年轻的；年纪较小的",
+      "senses": [
+        {
+          "translation": "更年轻的",
+          "pos": "adj.",
+          "example": "The longest day of the month is the day after my younger brother T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "brother": {
+      "lemma": "brother",
+      "pos": "n.",
+      "forms": "brothers",
+      "meanings": "兄弟；同事，同胞",
+      "senses": [
+        {
+          "translation": "兄弟",
+          "pos": "n.",
+          "example": "The longest day of the month is the day after my younger brother T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "兄弟",
+          "pos": "n.",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "兄弟",
+          "pos": "n.",
+          "example": "\" I heard that from my brother, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "t": {
+      "lemma": "t",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "字母T；名字缩写",
+      "senses": [
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "The longest day of the month is the day after my younger brother T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "When the new issue arrives, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "\"\n  \"T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "\"T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "During dinner ,T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "J doesn't say anything .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "The look on Nita's face reminds me of the look on T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "Now I don't feel so good about T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "\"I don't know.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "\" I heard that from my brother, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "When I get home, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "T（人名）",
+          "pos": "n.",
+          "example": "\" T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "gets": {
+      "lemma": "get",
+      "pos": "v.",
+      "forms": "gets, getting, got, gotten",
+      "meanings": "获得；变成；收到；到达",
+      "senses": [
+        {
+          "translation": "获得（收到）",
+          "pos": "v.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "issue": {
+      "lemma": "issue",
+      "pos": "n.",
+      "forms": "issues",
+      "meanings": "（期刊）期；问题；发行",
+      "senses": [
+        {
+          "translation": "（期刊）期",
+          "pos": "n.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "（期刊）期",
+          "pos": "n.",
+          "example": "When the new issue arrives, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "joking": {
+      "lemma": "joke",
+      "pos": "v.",
+      "forms": "jokes, joking, joked",
+      "meanings": "开玩笑；戏谑",
+      "senses": [
+        {
+          "translation": "开玩笑（用于标题）",
+          "pos": "v.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "开玩笑（用于标题）",
+          "pos": "v.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "开玩笑（用于标题）",
+          "pos": "v.",
+          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "magazine": {
+      "lemma": "magazine",
+      "pos": "n.",
+      "forms": "magazines",
+      "meanings": "杂志；弹仓",
+      "senses": [
+        {
+          "translation": "杂志",
+          "pos": "n.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "filled": {
+      "lemma": "fill",
+      "pos": "v.",
+      "forms": "fills, filled, filling",
+      "meanings": "充满；装满；填充；补缺",
+      "senses": [
+        {
+          "translation": "装满",
+          "pos": "v.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "jokes": {
+      "lemma": "joke",
+      "pos": "n.",
+      "forms": "jokes, joked, joking",
+      "meanings": "笑话；玩笑；开玩笑；戏谑",
+      "senses": [
+        {
+          "translation": "笑话",
+          "pos": "n.",
+          "example": "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "arrives": {
+      "lemma": "arrive",
+      "pos": "v.",
+      "forms": "arrives, arrived, arriving",
+      "meanings": "到达；送达；发生；达成",
+      "senses": [
+        {
+          "translation": "送达",
+          "pos": "v.",
+          "example": "When the new issue arrives, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "tells": {
+      "lemma": "tell",
+      "pos": "v.",
+      "forms": "tells, told, telling",
+      "meanings": "告诉；讲述；吩咐；辨别",
+      "senses": [
+        {
+          "translation": "讲述",
+          "pos": "v.",
+          "example": "J tells me every riddle in it .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "讲述",
+          "pos": "v.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "me": {
+      "lemma": "I",
+      "pos": "pron.",
+      "forms": "my, mine, me",
+      "meanings": "我（宾格）",
+      "senses": [
+        {
+          "translation": "我",
+          "pos": "pron.",
+          "example": "J tells me every riddle in it .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我",
+          "pos": "pron.",
+          "example": "The look on Nita's face reminds me of the look on T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "我",
+          "pos": "pron.",
+          "example": "And maybe you can come along with me sometime.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "every": {
+      "lemma": "every",
+      "pos": "det.",
+      "forms": "无常见变形",
+      "meanings": "每一个；所有；每隔",
+      "senses": [
+        {
+          "translation": "每一个",
+          "pos": "det.",
+          "example": "J tells me every riddle in it .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "riddle": {
+      "lemma": "riddle",
+      "pos": "n.",
+      "forms": "riddles",
+      "meanings": "谜语；难解之谜；充满（问题）",
+      "senses": [
+        {
+          "translation": "谜语",
+          "pos": "n.",
+          "example": "J tells me every riddle in it .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "constant": {
+      "lemma": "constant",
+      "pos": "adj.",
+      "forms": "constantly",
+      "meanings": "不断的；持续的；忠实的；常数",
+      "senses": [
+        {
+          "translation": "不断的",
+          "pos": "adj.",
+          "example": "But a constant stream of riddles can get annoying .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "stream": {
+      "lemma": "stream",
+      "pos": "n.",
+      "forms": "streams",
+      "meanings": "溪流；一股；流出；连续不断",
+      "senses": [
+        {
+          "translation": "连续不断的系列",
+          "pos": "n.",
+          "example": "But a constant stream of riddles can get annoying .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "riddles": {
+      "lemma": "riddle",
+      "pos": "n.",
+      "forms": "riddles",
+      "meanings": "谜语；难解之谜；充满（问题）",
+      "senses": [
+        {
+          "translation": "谜语",
+          "pos": "n.",
+          "example": "But a constant stream of riddles can get annoying .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "谜语",
+          "pos": "n.",
+          "example": "\"Enough riddles !",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "谜语",
+          "pos": "n.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "谜语",
+          "pos": "n.",
+          "example": "\" I used one of your riddles tonight.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "谜语",
+          "pos": "n.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "annoying": {
+      "lemma": "annoy",
+      "pos": "adj.",
+      "forms": "annoy, annoyed, annoying",
+      "meanings": "恼人的；烦人的；令人不快的",
+      "senses": [
+        {
+          "translation": "恼人的",
+          "pos": "adj.",
+          "example": "But a constant stream of riddles can get annoying .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "hey": {
+      "lemma": "hey",
+      "pos": "interj.",
+      "forms": "无常见变形",
+      "meanings": "嘿（用于引起注意）；喂；哟",
+      "senses": [
+        {
+          "translation": "嘿",
+          "pos": "interj.",
+          "example": "\"Hey, Keith !",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "嘿",
+          "pos": "interj.",
+          "example": "\"Hey, Nita!",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "keith": {
+      "lemma": "keith",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "基思（人名）；Keith；凯斯",
+      "senses": [
+        {
+          "translation": "基思",
+          "pos": "n.",
+          "example": "\"Hey, Keith !",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "基思",
+          "pos": "n.",
+          "example": "\"Keith , be nice ,\"Mom says.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "did": {
+      "lemma": "do",
+      "pos": "v.",
+      "forms": "does, doing, done",
+      "meanings": "做；进行；（助动词）构成疑问或否定；实行",
+      "senses": [
+        {
+          "translation": "（助动词，无实义）",
+          "pos": "v.",
+          "example": "What did he hamburger name his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "（助动词，无实义）",
+          "pos": "v.",
+          "example": "J, honey, what did the hamburger name his daughter?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "hamburger": {
+      "lemma": "hamburger",
+      "pos": "n.",
+      "forms": "hamburgers",
+      "meanings": "汉堡包；牛肉饼",
+      "senses": [
+        {
+          "translation": "汉堡包",
+          "pos": "n.",
+          "example": "What did he hamburger name his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "汉堡包",
+          "pos": "n.",
+          "example": "J, honey, what did the hamburger name his daughter?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "汉堡包",
+          "pos": "n.",
+          "example": "Do you know what the hamburger named his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "shout": {
+      "lemma": "shout",
+      "pos": "v.",
+      "forms": "shouted, shouting, shouts",
+      "meanings": "大喊；高声说；大叫",
+      "senses": [
+        {
+          "translation": "大喊",
+          "pos": "v.",
+          "example": "\" I shout .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "enough": {
+      "lemma": "enough",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "足够的；充分的；足够地；（用作感叹）够了",
+      "senses": [
+        {
+          "translation": "够了",
+          "pos": "adj.",
+          "example": "\"Enough riddles !",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "suddenly": {
+      "lemma": "sudden",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "突然地；出其不意地",
+      "senses": [
+        {
+          "translation": "突然地",
+          "pos": "adv.",
+          "example": "\"\nHe is suddenly quiet.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "quiet": {
+      "lemma": "quiet",
+      "pos": "adj.",
+      "forms": "quieter, quietest, quietly",
+      "meanings": "安静的；宁静的；平静的；安静",
+      "senses": [
+        {
+          "translation": "安静的",
+          "pos": "adj.",
+          "example": "\"\nHe is suddenly quiet.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "安静",
+          "pos": "n.",
+          "example": "At last --- some peace and quiet.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "nice": {
+      "lemma": "nice",
+      "pos": "adj.",
+      "forms": "nicer, nicest",
+      "meanings": "好的；友好的；亲切的；令人愉快的",
+      "senses": [
+        {
+          "translation": "好的",
+          "pos": "adj.",
+          "example": "\"Keith , be nice ,\"Mom says.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "mom": {
+      "lemma": "mom",
+      "pos": "n.",
+      "forms": "moms",
+      "meanings": "妈妈；母亲",
+      "senses": [
+        {
+          "translation": "妈妈",
+          "pos": "n.",
+          "example": "\"Keith , be nice ,\"Mom says.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "honey": {
+      "lemma": "honey",
+      "pos": "n.",
+      "forms": "honeys",
+      "meanings": "亲爱的（称呼语）；蜂蜜",
+      "senses": [
+        {
+          "translation": "亲爱的",
+          "pos": "n.",
+          "example": "J, honey, what did the hamburger name his daughter?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "patty": {
+      "lemma": "patty",
+      "pos": "n.",
+      "forms": "patties",
+      "meanings": "帕蒂（人名）；小肉饼",
+      "senses": [
+        {
+          "translation": "帕蒂",
+          "pos": "n.",
+          "example": "\"\n\"Patty,\" he says.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "帕蒂",
+          "pos": "n.",
+          "example": "com\n\"Patty!",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "dinner": {
+      "lemma": "dinner",
+      "pos": "n.",
+      "forms": "dinners",
+      "meanings": "晚餐；正餐；宴会；晚餐时间",
+      "senses": [
+        {
+          "translation": "晚餐",
+          "pos": "n.",
+          "example": "During dinner ,T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "晚餐",
+          "pos": "n.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "晚餐",
+          "pos": "n.",
+          "example": "J's silence at the dinner table.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "doesn't": {
+      "lemma": "do",
+      "pos": "aux.",
+      "forms": "do, does, did, doing, done",
+      "meanings": "不；没（用于构成否定句）；（用于强调）；（构成疑问句）",
+      "senses": [
+        {
+          "translation": "不",
+          "pos": "aux.",
+          "example": "J doesn't say anything .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "say": {
+      "lemma": "say",
+      "pos": "v.",
+      "forms": "says, said, saying",
+      "meanings": "说；讲；表达；（书面）记载",
+      "senses": [
+        {
+          "translation": "说",
+          "pos": "v.",
+          "example": "J doesn't say anything .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "说",
+          "pos": "v.",
+          "example": "J,\" I say.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "说",
+          "pos": "v.",
+          "example": "\" I say.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "usually": {
+      "lemma": "usual",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "通常；经常；平素",
+      "senses": [
+        {
+          "translation": "通常",
+          "pos": "adv.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "brings": {
+      "lemma": "bring",
+      "pos": "v.",
+      "forms": "brought, bringing",
+      "meanings": "带来；拿来；导致；把...带给",
+      "senses": [
+        {
+          "translation": "带来",
+          "pos": "v.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "table": {
+      "lemma": "table",
+      "pos": "n.",
+      "forms": "tables",
+      "meanings": "餐桌；桌子；表；目录",
+      "senses": [
+        {
+          "translation": "餐桌",
+          "pos": "n.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "餐桌",
+          "pos": "n.",
+          "example": "J's silence at the dinner table.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "between": {
+      "lemma": "between",
+      "pos": "prep.",
+      "forms": "无常见变形",
+      "meanings": "在...之间；介于...之间；在两者之间",
+      "senses": [
+        {
+          "translation": "在...之间",
+          "pos": "prep.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "bites": {
+      "lemma": "bite",
+      "pos": "n.",
+      "forms": "bites, bit, bitten, biting",
+      "meanings": "一口（食物）；咬；刺痛；叮咬",
+      "senses": [
+        {
+          "translation": "一口",
+          "pos": "n.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "food": {
+      "lemma": "food",
+      "pos": "n.",
+      "forms": "foods",
+      "meanings": "食物；食品；养料",
+      "senses": [
+        {
+          "translation": "食物",
+          "pos": "n.",
+          "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "evening": {
+      "lemma": "evening",
+      "pos": "n.",
+      "forms": "evenings",
+      "meanings": "傍晚；晚上；晚会",
+      "senses": [
+        {
+          "translation": "晚上",
+          "pos": "n.",
+          "example": "This evening, he does not .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "晚上",
+          "pos": "n.",
+          "example": "J's face earlier in the evening .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "does": {
+      "lemma": "do",
+      "pos": "v.",
+      "forms": "do, does, did, doing, done",
+      "meanings": "做；进行；行动；表现",
+      "senses": [
+        {
+          "translation": "做",
+          "pos": "v.",
+          "example": "This evening, he does not .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "i'm": {
+      "lemma": "i",
+      "pos": "pron. + v.",
+      "forms": "无常见变形",
+      "meanings": "我是",
+      "senses": [
+        {
+          "translation": "我是",
+          "pos": "pron. + v.",
+          "example": "I'm relieved .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "relieved": {
+      "lemma": "relieve",
+      "pos": "adj.",
+      "forms": "relieves, relieved, relieving",
+      "meanings": "感到宽慰的；解除的；缓解的；换岗的",
+      "senses": [
+        {
+          "translation": "感到宽慰的",
+          "pos": "adj.",
+          "example": "I'm relieved .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "peace": {
+      "lemma": "peace",
+      "pos": "n.",
+      "forms": "peaces",
+      "meanings": "平静；和平；安宁；和睦",
+      "senses": [
+        {
+          "translation": "平静",
+          "pos": "n.",
+          "example": "At last --- some peace and quiet.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "brad's": {
+      "lemma": "Brad",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "布拉德的（人名所有格）",
+      "senses": [
+        {
+          "translation": "布拉德的",
+          "pos": "n.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "布拉德的",
+          "pos": "n.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "布拉德的",
+          "pos": "n.",
+          "example": "Brad's little sister thought it was really funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "house": {
+      "lemma": "house",
+      "pos": "n.",
+      "forms": "houses",
+      "meanings": "房子；家；住宅；机构",
+      "senses": [
+        {
+          "translation": "家",
+          "pos": "n.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "we're": {
+      "lemma": "we are",
+      "pos": "pron.+v.",
+      "forms": "无常见变形",
+      "meanings": "我们正在",
+      "senses": [
+        {
+          "translation": "我们正在",
+          "pos": "pron.+v.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "painting": {
+      "lemma": "paint",
+      "pos": "v.",
+      "forms": "paints, painted, painting",
+      "meanings": "绘画；油漆；描述；涂抹",
+      "senses": [
+        {
+          "translation": "绘画",
+          "pos": "v.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "planets": {
+      "lemma": "planet",
+      "pos": "n.",
+      "forms": "planets",
+      "meanings": "行星；星球；地球；（口语）天体",
+      "senses": [
+        {
+          "translation": "行星",
+          "pos": "n.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "sister": {
+      "lemma": "sister",
+      "pos": "n.",
+      "forms": "sisters",
+      "meanings": "姐妹；修女；护士长；同行",
+      "senses": [
+        {
+          "translation": "姐妹",
+          "pos": "n.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "姐妹",
+          "pos": "n.",
+          "example": "Brad's little sister thought it was really funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "nita": {
+      "lemma": "Nita",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "妮塔（人名）",
+      "senses": [
+        {
+          "translation": "妮塔",
+          "pos": "n.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "妮塔",
+          "pos": "n.",
+          "example": "\" Nita asks.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "妮塔",
+          "pos": "n.",
+          "example": "\"Nita !",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "妮塔",
+          "pos": "n.",
+          "example": "\"\nNita walks out of the room looking sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "妮塔",
+          "pos": "n.",
+          "example": "The look on Nita's face reminds me of the look on T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "妮塔",
+          "pos": "n.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "妮塔",
+          "pos": "n.",
+          "example": "\"Hey, Nita!",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "妮塔",
+          "pos": "n.",
+          "example": "\" Nita says.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "妮塔",
+          "pos": "n.",
+          "example": "\"\nNita laughs and I laugh too .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "comes": {
+      "lemma": "come",
+      "pos": "v.",
+      "forms": "comes, came, coming",
+      "meanings": "来到；到达；出现；发生；开始",
+      "senses": [
+        {
+          "translation": "来到",
+          "pos": "v.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "回来",
+          "pos": "v.",
+          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "room": {
+      "lemma": "room",
+      "pos": "n.",
+      "forms": "rooms",
+      "meanings": "房间；空间；余地；座位",
+      "senses": [
+        {
+          "translation": "房间",
+          "pos": "n.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "房间",
+          "pos": "n.",
+          "example": "\"\nNita walks out of the room looking sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "房间",
+          "pos": "n.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "brad": {
+      "lemma": "brad",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "布拉德（人名）",
+      "senses": [
+        {
+          "translation": "布拉德",
+          "pos": "n.",
+          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "布拉德",
+          "pos": "n.",
+          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "布拉德",
+          "pos": "n.",
+          "example": "\"Brad, can I help you with the project ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "布拉德",
+          "pos": "n.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "布拉德",
+          "pos": "n.",
+          "example": "Brad's little sister thought it was really funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "help": {
+      "lemma": "help",
+      "pos": "v.",
+      "forms": "helps, helped, helping",
+      "meanings": "帮助；协助；救助；有助于",
+      "senses": [
+        {
+          "translation": "帮助",
+          "pos": "v.",
+          "example": "\"Brad, can I help you with the project ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "asks": {
+      "lemma": "ask",
+      "pos": "v.",
+      "forms": "asks, asked, asking",
+      "meanings": "询问；请求；要求；邀请",
+      "senses": [
+        {
+          "translation": "询问",
+          "pos": "v.",
+          "example": "\" Nita asks.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "shouts": {
+      "lemma": "shout",
+      "pos": "v.",
+      "forms": "shouts, shouted, shouting",
+      "meanings": "大喊；高呼；吵闹",
+      "senses": [
+        {
+          "translation": "大喊",
+          "pos": "v.",
+          "example": "\" He shouts at her .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "leave": {
+      "lemma": "leave",
+      "pos": "v.",
+      "forms": "leaves, left, leaving",
+      "meanings": "离开；丢下；让……处于某种状态；留下",
+      "senses": [
+        {
+          "translation": "离开",
+          "pos": "v.",
+          "example": "\"Leave us alone!",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "walks": {
+      "lemma": "walk",
+      "pos": "v.",
+      "forms": "walks, walked, walking",
+      "meanings": "走；步行；散步",
+      "senses": [
+        {
+          "translation": "走",
+          "pos": "v.",
+          "example": "\"\nNita walks out of the room looking sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "looking": {
+      "lemma": "look",
+      "pos": "v.",
+      "forms": "looks, looked, looking",
+      "meanings": "看起来；注视；寻找；面容",
+      "senses": [
+        {
+          "translation": "看起来",
+          "pos": "v.",
+          "example": "\"\nNita walks out of the room looking sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "sad": {
+      "lemma": "sad",
+      "pos": "adj.",
+      "forms": "sadder, saddest",
+      "meanings": "悲伤的；难过的；令人遗憾的",
+      "senses": [
+        {
+          "translation": "悲伤的",
+          "pos": "adj.",
+          "example": "\"\nNita walks out of the room looking sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "悲伤的",
+          "pos": "adj.",
+          "example": "She still looks sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "bad": {
+      "lemma": "bad",
+      "pos": "adj.",
+      "forms": "worse, worst",
+      "meanings": "坏的；糟糕的；严重的；有害的",
+      "senses": [
+        {
+          "translation": "糟糕的",
+          "pos": "adj.",
+          "example": "I feel bad for her.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "tell": {
+      "lemma": "tell",
+      "pos": "v.",
+      "forms": "tells, told, telling",
+      "meanings": "看出；讲述；告诉；吩咐",
+      "senses": [
+        {
+          "translation": "看出",
+          "pos": "v.",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "big": {
+      "lemma": "big",
+      "pos": "adj.",
+      "forms": "bigger, biggest",
+      "meanings": "年长的；大的；重大的；大受欢迎的",
+      "senses": [
+        {
+          "translation": "年长的",
+          "pos": "adj.",
+          "example": "I can tell that she just wants to be around her big brother.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "nita's": {
+      "lemma": "nita",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "尼塔的（人名所有格）",
+      "senses": [
+        {
+          "translation": "尼塔的",
+          "pos": "n.",
+          "example": "The look on Nita's face reminds me of the look on T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "face": {
+      "lemma": "face",
+      "pos": "n.",
+      "forms": "faces, faced, facing",
+      "meanings": "脸；表情；正面；面临",
+      "senses": [
+        {
+          "translation": "脸",
+          "pos": "n.",
+          "example": "The look on Nita's face reminds me of the look on T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "脸",
+          "pos": "n.",
+          "example": "J's face earlier in the evening .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "reminds": {
+      "lemma": "remind",
+      "pos": "v.",
+      "forms": "reminds, reminded, reminding",
+      "meanings": "使想起；提醒",
+      "senses": [
+        {
+          "translation": "使想起",
+          "pos": "v.",
+          "example": "The look on Nita's face reminds me of the look on T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "j's": {
+      "lemma": "j",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "J的（人名缩写所有格）",
+      "senses": [
+        {
+          "translation": "J的",
+          "pos": "n.",
+          "example": "J's face earlier in the evening .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J的",
+          "pos": "n.",
+          "example": "J's silence at the dinner table.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "J的",
+          "pos": "n.",
+          "example": "J's eyes light up .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "earlier": {
+      "lemma": "early",
+      "pos": "adv.",
+      "forms": "earlier, earliest",
+      "meanings": "早些时候；较早地",
+      "senses": [
+        {
+          "translation": "早些时候",
+          "pos": "adv.",
+          "example": "J's face earlier in the evening .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "silence": {
+      "lemma": "silence",
+      "pos": "n.",
+      "forms": "silences, silenced, silencing",
+      "meanings": "沉默；寂静；无声",
+      "senses": [
+        {
+          "translation": "沉默",
+          "pos": "n.",
+          "example": "J's silence at the dinner table.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "finish": {
+      "lemma": "finish",
+      "pos": "v.",
+      "forms": "finishes, finished, finishing",
+      "meanings": "完成；结束；做完",
+      "senses": [
+        {
+          "translation": "完成",
+          "pos": "v.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "working": {
+      "lemma": "work",
+      "pos": "v.",
+      "forms": "works, worked, working",
+      "meanings": "工作；运作；致力于",
+      "senses": [
+        {
+          "translation": "工作",
+          "pos": "v.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "front": {
+      "lemma": "front",
+      "pos": "n.",
+      "forms": "fronts",
+      "meanings": "前面；前线；前部",
+      "senses": [
+        {
+          "translation": "前面",
+          "pos": "n.",
+          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "still": {
+      "lemma": "still",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "仍然；更；静止的",
+      "senses": [
+        {
+          "translation": "仍然",
+          "pos": "adv.",
+          "example": "She still looks sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "仍然",
+          "pos": "adv.",
+          "example": "J still looks unhappy.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "looks": {
+      "lemma": "look",
+      "pos": "v.",
+      "forms": "looks, looked, looking",
+      "meanings": "看起来；注视；朝向；寻找；外观",
+      "senses": [
+        {
+          "translation": "看起来",
+          "pos": "v.",
+          "example": "She still looks sad.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "看起来",
+          "pos": "v.",
+          "example": "J still looks unhappy.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "know": {
+      "lemma": "know",
+      "pos": "v.",
+      "forms": "knows, knew, known, knowing",
+      "meanings": "知道；了解；认识；熟悉",
+      "senses": [
+        {
+          "translation": "知道",
+          "pos": "v.",
+          "example": "Do you know what the hamburger named his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "知道",
+          "pos": "v.",
+          "example": "\"I don't know.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "named": {
+      "lemma": "name",
+      "pos": "v.",
+      "forms": "names, named, naming",
+      "meanings": "命名；给……取名；指出；选定",
+      "senses": [
+        {
+          "translation": "给……取名",
+          "pos": "v.",
+          "example": "Do you know what the hamburger named his daughter ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "ask": {
+      "lemma": "ask",
+      "pos": "v.",
+      "forms": "asks, asked, asking",
+      "meanings": "询问；要求；请求；邀请",
+      "senses": [
+        {
+          "translation": "询问",
+          "pos": "v.",
+          "example": "\" I ask.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "ks": {
+      "lemma": "ks",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "考试；（网站名一部分）",
+      "senses": [
+        {
+          "translation": "考试（网站名一部分）",
+          "pos": "n.",
+          "example": "ks5u.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "u": {
+      "lemma": "u",
+      "pos": "pron.",
+      "forms": "无常见变形",
+      "meanings": "你；（网络用语）",
+      "senses": [
+        {
+          "translation": "你（网络缩写）",
+          "pos": "pron.",
+          "example": "ks5u.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "laughs": {
+      "lemma": "laugh",
+      "pos": "v.",
+      "forms": "laughs, laughed, laughing",
+      "meanings": "笑；嘲笑；开怀大笑",
+      "senses": [
+        {
+          "translation": "笑",
+          "pos": "v.",
+          "example": "\"\nNita laughs and I laugh too .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "laugh": {
+      "lemma": "laugh",
+      "pos": "v.",
+      "forms": "laughs, laughed, laughing",
+      "meanings": "笑；嘲笑；开怀大笑",
+      "senses": [
+        {
+          "translation": "笑",
+          "pos": "v.",
+          "example": "\"\nNita laughs and I laugh too .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "heard": {
+      "lemma": "hear",
+      "pos": "v.",
+      "forms": "hears, heard, hearing",
+      "meanings": "听到；听说；得知；听取",
+      "senses": [
+        {
+          "translation": "听说",
+          "pos": "v.",
+          "example": "\" I heard that from my brother, T.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "he's": {
+      "lemma": "he's",
+      "pos": "pron.+v.",
+      "forms": "无常见变形",
+      "meanings": "他是；他正",
+      "senses": [
+        {
+          "translation": "他是",
+          "pos": "pron.+v.",
+          "example": "\"He's very funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "funny": {
+      "lemma": "funny",
+      "pos": "adj.",
+      "forms": "funnier, funniest",
+      "meanings": "有趣的；滑稽的；可笑的；奇怪的",
+      "senses": [
+        {
+          "translation": "有趣的",
+          "pos": "adj.",
+          "example": "\"He's very funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "滑稽的",
+          "pos": "adj.",
+          "example": "Brad's little sister thought it was really funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "unhappy": {
+      "lemma": "unhappy",
+      "pos": "adj.",
+      "forms": "unhappier, unhappiest",
+      "meanings": "不开心的；难过的；不幸的",
+      "senses": [
+        {
+          "translation": "不开心的",
+          "pos": "adj.",
+          "example": "J still looks unhappy.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "guess": {
+      "lemma": "guess",
+      "pos": "v.",
+      "forms": "guesses, guessed, guessing",
+      "meanings": "猜；猜测；推测；认为",
+      "senses": [
+        {
+          "translation": "猜",
+          "pos": "v.",
+          "example": "J, guess what ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "tonight": {
+      "lemma": "tonight",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "今晚；在今晚",
+      "senses": [
+        {
+          "translation": "今晚",
+          "pos": "adv.",
+          "example": "\" I used one of your riddles tonight.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "thought": {
+      "lemma": "think",
+      "pos": "v.",
+      "forms": "thought, thinking, thinks",
+      "meanings": "认为；想；思考；打算",
+      "senses": [
+        {
+          "translation": "认为",
+          "pos": "v.",
+          "example": "Brad's little sister thought it was really funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "really": {
+      "lemma": "really",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "真正地；确实；非常；实际上",
+      "senses": [
+        {
+          "translation": "非常",
+          "pos": "adv.",
+          "example": "Brad's little sister thought it was really funny.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "真的吗",
+          "pos": "adv.",
+          "example": "\"\n\"Really ?",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "let's": {
+      "lemma": "let",
+      "pos": "v.",
+      "forms": "letting, let, lets",
+      "meanings": "允许；让；出租；使",
+      "senses": [
+        {
+          "translation": "让我们",
+          "pos": "v.",
+          "example": "So let's find more riddles for the next time I go over there.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "come": {
+      "lemma": "come",
+      "pos": "v.",
+      "forms": "came, coming, comes",
+      "meanings": "来；到达；出现；开始",
+      "senses": [
+        {
+          "translation": "来",
+          "pos": "v.",
+          "example": "And maybe you can come along with me sometime.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "along": {
+      "lemma": "along",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "一起；沿着；向前",
+      "senses": [
+        {
+          "translation": "一起",
+          "pos": "adv.",
+          "example": "And maybe you can come along with me sometime.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "sometime": {
+      "lemma": "sometime",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "在某时；改天",
+      "senses": [
+        {
+          "translation": "某时",
+          "pos": "adv.",
+          "example": "And maybe you can come along with me sometime.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "eyes": {
+      "lemma": "eye",
+      "pos": "n.",
+      "forms": "eyes",
+      "meanings": "眼睛；视力；眼力",
+      "senses": [
+        {
+          "translation": "眼睛",
+          "pos": "n.",
+          "example": "J's eyes light up .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "light": {
+      "lemma": "light",
+      "pos": "v.",
+      "forms": "lit/lighted, lighting, lights",
+      "meanings": "发亮；点燃；照亮",
+      "senses": [
+        {
+          "translation": "发亮",
+          "pos": "v.",
+          "example": "J's eyes light up .",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "ok": {
+      "lemma": "ok",
+      "pos": "interj.",
+      "forms": "无常见变形",
+      "meanings": "好；对；行；同意",
+      "senses": [
+        {
+          "translation": "好",
+          "pos": "interj.",
+          "example": "\"OK!",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "runs": {
+      "lemma": "run",
+      "pos": "v.",
+      "forms": "ran, running, runs",
+      "meanings": "跑；经营；运转；流淌",
+      "senses": [
+        {
+          "translation": "跑",
+          "pos": "v.",
+          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "upstairs": {
+      "lemma": "upstairs",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "往楼上；在楼上",
+      "senses": [
+        {
+          "translation": "往楼上",
+          "pos": "adv.",
+          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "back": {
+      "lemma": "back",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "回来；向后；背部；后面",
+      "senses": [
+        {
+          "translation": "回来",
+          "pos": "adv.",
+          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "smiling": {
+      "lemma": "smile",
+      "pos": "v.",
+      "forms": "smiled, smiling, smiles",
+      "meanings": "微笑；露出笑容",
+      "senses": [
+        {
+          "translation": "微笑地",
+          "pos": "v.",
+          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
+    },
+    "carrying": {
+      "lemma": "carry",
+      "pos": "v.",
+      "forms": "carried, carrying, carries",
+      "meanings": "携带；运送；支撑；负荷",
+      "senses": [
+        {
+          "translation": "携带",
+          "pos": "v.",
+          "example": "J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+          "sourceArticleId": "web-2e315a8a858c375d"
+        }
+      ],
+      "articleIds": [
+        "web-2e315a8a858c375d"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-02T12:01:48.380Z"
     }
   }
 }

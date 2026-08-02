@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T11:59:42.746Z",
+  "generatedAt": "2026-08-02T12:01:48.383Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -16853,6 +16853,3314 @@
             "inputTokens": 24920,
             "outputTokens": 13754,
             "totalTokens": 38674,
+            "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-2e315a8a858c375d",
+      "title": "RACE 高中英语阅读 high17052",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "The longest day of the month is the day after my younger brother T.J gets his new issue of Just Joking , a magazine filled with all kinds of jokes. When the new issue arrives, T.J tells me every riddle in it . But a constant stream of riddles can get annoying .\n\"Hey, Keith ! What did he hamburger name his daughter ?\"\n  \"T.J !\" I shout . \"Enough riddles !\"\nHe is suddenly quiet.\n\"Keith , be nice ,\"Mom says. \"T.J, honey, what did the hamburger name his daughter?\"\n\"Patty,\" he says.\nDuring dinner ,T.J doesn't say anything . Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .This evening, he does not .I'm relieved . At last --- some peace and quiet.\nAfter dinner, I go to my friend Brad's house to work on a project for science class . We're painting the planets when Brad's little sister, Nita, comes into the room.\n\"Brad, can I help you with the project ?\" Nita asks.\n\"Nita !\" He shouts at her . \"Leave us alone!\"\nNita walks out of the room looking sad. I feel bad for her. I can tell that she just wants to be around her big brother. The look on Nita's face reminds me of the look on T.J's face earlier in the evening . Now I don't feel so good about T.J's silence at the dinner table.\nWhen Brad and I finish working on the project, I see Nita in the front of the room .She still looks sad.\n\"Hey, Nita! Do you know what the hamburger named his daughter ?\" I ask.\n\"I don't know. What?\" Nita says.www.ks5u.com\n\"Patty!\"\nNita laughs and I laugh too . \" I heard that from my brother, T.J,\" I say. \"He's very funny.\nWhen I get home, T.J still looks unhappy.\n\"T.J, guess what ?\" I say. \" I used one of your riddles tonight. Brad's little sister thought it was really funny. So let's find more riddles for the next time I go over there. And maybe you can come along with me sometime.\"\n\"Really ?\" T.J's eyes light up . \"OK!\" T.J runs upstairs, and then comes back, smiling and carrying Just Joking.",
+      "wordCount": 372,
+      "sentenceTranslations": {
+        "The longest day of the month is the day after my younger brother T.": "这个月最长的一天是我弟弟T.生日的后一天。",
+        "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": "J收到了他那本《就爱开玩笑》的新一期杂志，里面塞满了各种各样的笑话。",
+        "When the new issue arrives, T.": "当新一期的杂志寄到时，T.",
+        "J tells me every riddle in it .": "J会把里面所有的谜语都讲给我听。",
+        "But a constant stream of riddles can get annoying .": "但源源不断的谜语听多了也会让人心烦。",
+        "\"Hey, Keith !": "“嘿，基思！”",
+        "What did he hamburger name his daughter ?": "他给女儿取的名字叫什么？",
+        "\"   \"T.": "“ ”T.",
+        "J !": "J！",
+        "\" I shout .": "“我喊道。",
+        "\"Enough riddles !": "“别再打哑谜了！",
+        "\" He is suddenly quiet.": "” 他突然安静了下来。",
+        "\"Keith , be nice ,\"Mom says.": "“基思，礼貌点，”妈妈说。",
+        "\"T.": "“T.J.。”",
+        "J, honey, what did the hamburger name his daughter?": "J，宝贝，汉堡给他的女儿取了什么名字？”",
+        "\" \"Patty,\" he says.": "““帕蒂（Patty），”他说。",
+        "During dinner ,T.": "晚饭时，T.",
+        "J doesn't say anything .": "J一言不发。”",
+        "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": "他通常会带着《爱开玩笑》那本书上桌，然后在吃东西的间隙给我们讲些谜语。",
+        "This evening, he does not .": "今天晚上，他没有这样做。",
+        "I'm relieved .": "我松了一口气。",
+        "At last --- some peace and quiet.": "终于——可以清静一会儿了。",
+        "After dinner, I go to my friend Brad's house to work on a project for science class .": "晚饭后，我去了朋友布拉德家，一起做科学课的课题。",
+        "We're painting the planets when Brad's little sister, Nita, comes into the room.": "我们正在画行星模型时，布拉德的妹妹妮塔走进了房间。",
+        "\"Brad, can I help you with the project ?": "“布拉德，我能帮你完成这个项目吗？”",
+        "\" Nita asks.": "尼塔问道。",
+        "\"Nita !": "“尼塔！”",
+        "\" He shouts at her .": "他冲她大喊道。",
+        "\"Leave us alone!": "“离我们远点！”",
+        "\" Nita walks out of the room looking sad.": "尼塔一脸伤心地走出了房间。",
+        "I feel bad for her.": "我为她感到难过。",
+        "I can tell that she just wants to be around her big brother.": "我看得出来，她只是想待在她哥哥身边。",
+        "The look on Nita's face reminds me of the look on T.": "尼塔脸上的表情让我想起了T。",
+        "J's face earlier in the evening .": "J今天傍晚时的表情。",
+        "Now I don't feel so good about T.": "现在我对T的感觉没那么好了。",
+        "J's silence at the dinner table.": "J在餐桌上的沉默。",
+        "When Brad and I finish working on the project, I see Nita in the front of the room .": "当布拉德和我完成那个项目时，我看到妮塔在教室前面。",
+        "She still looks sad.": "她看起来还是很伤心。",
+        "\"Hey, Nita!": "“嘿，妮塔！",
+        "Do you know what the hamburger named his daughter ?": "你知道汉堡给他的女儿取了什么名字吗？”",
+        "\" I ask.": "我问道。",
+        "\"I don't know.": "“我不知道。”",
+        "What?": "什么？",
+        "\" Nita says.": "“尼塔说。",
+        "www.": "www.",
+        "ks5u.": "ks5u.",
+        "com \"Patty!": "com “帕蒂！",
+        "\" Nita laughs and I laugh too .": "”尼塔笑了，我也跟着笑了。",
+        "\" I heard that from my brother, T.": "“那是听我弟弟T.J.说的。”",
+        "J,\" I say.": "我说道。",
+        "\"He's very funny.": "“他非常幽默。”",
+        "When I get home, T.": "当我到家时，T.J.",
+        "J still looks unhappy.": "看起来依然很不开心。",
+        "J, guess what ?": "J，你猜怎么着？",
+        "\" I say.": "“我说。",
+        "\" I used one of your riddles tonight.": "“我今晚用了一个你的谜语。”",
+        "Brad's little sister thought it was really funny.": "布拉德的小妹妹觉得这非常有意思。",
+        "So let's find more riddles for the next time I go over there.": "所以我们多找点谜语，好让我下次去他家时用。",
+        "And maybe you can come along with me sometime.": "而且说不定哪天你也可以跟我一起去。",
+        "\" \"Really ?": "“真的吗？”",
+        "\" T.": "“T说。",
+        "J's eyes light up .": "J的双眼亮了起来。",
+        "\"OK!": "“好吧！”",
+        "J runs upstairs, and then comes back, smiling and carrying Just Joking.": "J跑上楼，然后面带微笑地拿着《Just Joking》跑了下来。"
+      },
+      "glossary": {
+        "the": {
+          "lemma": "the",
+          "translation": "这，那",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这，那；特指；用于最高级前；专有名词前",
+          "contexts": {
+            "The longest day of the month is the day after my younger brother T.": {
+              "translation": "特指（某个月份）",
+              "pos": "art."
+            },
+            "When the new issue arrives, T.": {
+              "translation": "特指（新的一期）",
+              "pos": "art."
+            },
+            "J, honey, what did the hamburger name his daughter?": {
+              "translation": "特指（那个汉堡）",
+              "pos": "art."
+            },
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "特指（那张桌子）",
+              "pos": "art."
+            },
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "特指（那个房间）",
+              "pos": "art."
+            },
+            "\"Brad, can I help you with the project ?": {
+              "translation": "特指（那个项目）",
+              "pos": "art."
+            },
+            "\"\nNita walks out of the room looking sad.": {
+              "translation": "特指（那个房间）",
+              "pos": "art."
+            },
+            "The look on Nita's face reminds me of the look on T.": {
+              "translation": "特指（Nita脸上的神情）",
+              "pos": "art."
+            },
+            "J's face earlier in the evening .": {
+              "translation": "特指（傍晚早些时候）",
+              "pos": "art."
+            },
+            "J's silence at the dinner table.": {
+              "translation": "特指（餐桌）",
+              "pos": "art."
+            },
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "特指（那个项目）",
+              "pos": "art."
+            },
+            "Do you know what the hamburger named his daughter ?": {
+              "translation": "特指（那个汉堡）",
+              "pos": "art."
+            },
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "特指（下一次）",
+              "pos": "art."
+            }
+          }
+        },
+        "longest": {
+          "lemma": "long",
+          "translation": "最长的",
+          "pos": "adj.",
+          "forms": "longer, longest",
+          "meanings": "最长的；时间最久的",
+          "contexts": {
+            "The longest day of the month is the day after my younger brother T.": {
+              "translation": "最长的",
+              "pos": "adj."
+            }
+          }
+        },
+        "day": {
+          "lemma": "day",
+          "translation": "天",
+          "pos": "n.",
+          "forms": "days",
+          "meanings": "天；白天；日子；时期",
+          "contexts": {
+            "The longest day of the month is the day after my younger brother T.": {
+              "translation": "天",
+              "pos": "n."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
+          "contexts": {
+            "The longest day of the month is the day after my younger brother T.": {
+              "translation": "……的（属于月份的）",
+              "pos": "prep."
+            },
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "……的（关于某事物的）",
+              "pos": "prep."
+            },
+            "But a constant stream of riddles can get annoying .": {
+              "translation": "……的（种类）",
+              "pos": "prep."
+            },
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "……的（部分，即一口食物）",
+              "pos": "prep."
+            },
+            "\"\nNita walks out of the room looking sad.": {
+              "translation": "……的（在房间外）",
+              "pos": "prep."
+            },
+            "The look on Nita's face reminds me of the look on T.": {
+              "translation": "……的（关于某事物的）",
+              "pos": "prep."
+            },
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "……的（在房间前部）",
+              "pos": "prep."
+            },
+            "\" I used one of your riddles tonight.": {
+              "translation": "……中的（其中之一）",
+              "pos": "prep."
+            }
+          }
+        },
+        "month": {
+          "lemma": "month",
+          "translation": "月",
+          "pos": "n.",
+          "forms": "months",
+          "meanings": "月；一个月的时间",
+          "contexts": {
+            "The longest day of the month is the day after my younger brother T.": {
+              "translation": "月",
+              "pos": "n."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于",
+          "contexts": {
+            "The longest day of the month is the day after my younger brother T.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "\"\nHe is suddenly quiet.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "after": {
+          "lemma": "after",
+          "translation": "在……之后",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之后；后来；跟随",
+          "contexts": {
+            "The longest day of the month is the day after my younger brother T.": {
+              "translation": "在……之后",
+              "pos": "prep."
+            },
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "在……之后",
+              "pos": "prep."
+            }
+          }
+        },
+        "my": {
+          "lemma": "my",
+          "translation": "我的",
+          "pos": "pron.",
+          "forms": "mine",
+          "meanings": "我的",
+          "contexts": {
+            "The longest day of the month is the day after my younger brother T.": {
+              "translation": "我的",
+              "pos": "pron."
+            },
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "我的",
+              "pos": "pron."
+            },
+            "\" I heard that from my brother, T.": {
+              "translation": "我的",
+              "pos": "pron."
+            }
+          }
+        },
+        "younger": {
+          "lemma": "young",
+          "translation": "更年轻的",
+          "pos": "adj.",
+          "forms": "younger, youngest",
+          "meanings": "更年轻的；年纪较小的",
+          "contexts": {
+            "The longest day of the month is the day after my younger brother T.": {
+              "translation": "更年轻的",
+              "pos": "adj."
+            }
+          }
+        },
+        "brother": {
+          "lemma": "brother",
+          "translation": "兄弟",
+          "pos": "n.",
+          "forms": "brothers",
+          "meanings": "兄弟；同事，同胞",
+          "contexts": {
+            "The longest day of the month is the day after my younger brother T.": {
+              "translation": "兄弟",
+              "pos": "n."
+            },
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "兄弟",
+              "pos": "n."
+            },
+            "\" I heard that from my brother, T.": {
+              "translation": "兄弟",
+              "pos": "n."
+            }
+          }
+        },
+        "t": {
+          "lemma": "t",
+          "translation": "T（人名首字母）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "字母T；名字缩写",
+          "contexts": {
+            "The longest day of the month is the day after my younger brother T.": {
+              "translation": "T（人名）",
+              "pos": "n."
+            },
+            "When the new issue arrives, T.": {
+              "translation": "T（人名）",
+              "pos": "n."
+            },
+            "\"\n  \"T.": {
+              "translation": "T（人名）",
+              "pos": "n."
+            },
+            "\"T.": {
+              "translation": "T（人名）",
+              "pos": "n."
+            },
+            "During dinner ,T.": {
+              "translation": "T（人名）",
+              "pos": "n."
+            },
+            "J doesn't say anything .": {
+              "translation": "T（人名）",
+              "pos": "n."
+            },
+            "The look on Nita's face reminds me of the look on T.": {
+              "translation": "T（人名）",
+              "pos": "n."
+            },
+            "Now I don't feel so good about T.": {
+              "translation": "T（人名）",
+              "pos": "n."
+            },
+            "\"I don't know.": {
+              "translation": "T（人名）",
+              "pos": "n."
+            },
+            "\" I heard that from my brother, T.": {
+              "translation": "T（人名）",
+              "pos": "n."
+            },
+            "When I get home, T.": {
+              "translation": "T（人名）",
+              "pos": "n."
+            },
+            "\" T.": {
+              "translation": "T（人名）",
+              "pos": "n."
+            }
+          }
+        },
+        "j": {
+          "lemma": "j",
+          "translation": "J（人名首字母）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "字母J；名字缩写",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "J（人名）",
+              "pos": "n."
+            },
+            "J tells me every riddle in it .": {
+              "translation": "J（人名）",
+              "pos": "n."
+            },
+            "J !": {
+              "translation": "J（人名）",
+              "pos": "n."
+            },
+            "J, honey, what did the hamburger name his daughter?": {
+              "translation": "J（人名）",
+              "pos": "n."
+            },
+            "J doesn't say anything .": {
+              "translation": "J（人名）",
+              "pos": "n."
+            },
+            "J's face earlier in the evening .": {
+              "translation": "J（人名）",
+              "pos": "n."
+            },
+            "J's silence at the dinner table.": {
+              "translation": "J（人名）",
+              "pos": "n."
+            },
+            "J,\" I say.": {
+              "translation": "J（人名）",
+              "pos": "n."
+            },
+            "J still looks unhappy.": {
+              "translation": "J（人名）",
+              "pos": "n."
+            },
+            "J, guess what ?": {
+              "translation": "J（人名）",
+              "pos": "n."
+            },
+            "J's eyes light up .": {
+              "translation": "J（人名）",
+              "pos": "n."
+            },
+            "J runs upstairs, and then comes back, smiling and carrying Just Joking.": {
+              "translation": "J（人名）",
+              "pos": "n."
+            }
+          }
+        },
+        "gets": {
+          "lemma": "get",
+          "translation": "获得",
+          "pos": "v.",
+          "forms": "gets, getting, got, gotten",
+          "meanings": "获得；变成；收到；到达",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "获得（收到）",
+              "pos": "v."
+            }
+          }
+        },
+        "his": {
+          "lemma": "he",
+          "translation": "他的",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他的；属于他的",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "What did he hamburger name his daughter ?": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "J, honey, what did the hamburger name his daughter?": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "Do you know what the hamburger named his daughter ?": {
+              "translation": "他的",
+              "pos": "pron."
+            }
+          }
+        },
+        "new": {
+          "lemma": "new",
+          "translation": "新的",
+          "pos": "adj.",
+          "forms": "newer, newest",
+          "meanings": "新的；刚出现的；新鲜的；新式的",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "新的",
+              "pos": "adj."
+            },
+            "When the new issue arrives, T.": {
+              "translation": "新的",
+              "pos": "adj."
+            }
+          }
+        },
+        "issue": {
+          "lemma": "issue",
+          "translation": "（期刊）期",
+          "pos": "n.",
+          "forms": "issues",
+          "meanings": "（期刊）期；问题；发行",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "（期刊）期",
+              "pos": "n."
+            },
+            "When the new issue arrives, T.": {
+              "translation": "（期刊）期",
+              "pos": "n."
+            }
+          }
+        },
+        "just": {
+          "lemma": "just",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；刚才；正好；公正地",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "恰好（用于标题）",
+              "pos": "adv."
+            },
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "恰好（用于标题）",
+              "pos": "adv."
+            },
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "仅仅",
+              "pos": "adv."
+            },
+            "J runs upstairs, and then comes back, smiling and carrying Just Joking.": {
+              "translation": "恰好（用于标题）",
+              "pos": "adv."
+            }
+          }
+        },
+        "joking": {
+          "lemma": "joke",
+          "translation": "开玩笑",
+          "pos": "v.",
+          "forms": "jokes, joking, joked",
+          "meanings": "开玩笑；戏谑",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "开玩笑（用于标题）",
+              "pos": "v."
+            },
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "开玩笑（用于标题）",
+              "pos": "v."
+            },
+            "J runs upstairs, and then comes back, smiling and carrying Just Joking.": {
+              "translation": "开玩笑（用于标题）",
+              "pos": "v."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "But a constant stream of riddles can get annoying .": {
+              "translation": "一种",
+              "pos": "art."
+            },
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "magazine": {
+          "lemma": "magazine",
+          "translation": "杂志",
+          "pos": "n.",
+          "forms": "magazines",
+          "meanings": "杂志；弹仓",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "杂志",
+              "pos": "n."
+            }
+          }
+        },
+        "filled": {
+          "lemma": "fill",
+          "translation": "充满",
+          "pos": "v.",
+          "forms": "fills, filled, filling",
+          "meanings": "充满；装满；填充；补缺",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "装满",
+              "pos": "v."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "有……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "与……一起；使用；带有；由于；关于",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "带有",
+              "pos": "prep."
+            },
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "随身携带",
+              "pos": "prep."
+            },
+            "\"Brad, can I help you with the project ?": {
+              "translation": "协助",
+              "pos": "prep."
+            },
+            "And maybe you can come along with me sometime.": {
+              "translation": "与……一起",
+              "pos": "prep."
+            }
+          }
+        },
+        "all": {
+          "lemma": "all",
+          "translation": "各种各样的",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "全部；所有；总共；整个",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "各种各样的",
+              "pos": "det."
+            }
+          }
+        },
+        "kinds": {
+          "lemma": "kind",
+          "translation": "种类",
+          "pos": "n.",
+          "forms": "kinds",
+          "meanings": "种类；性质；类型；亲切的",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "种类",
+              "pos": "n."
+            }
+          }
+        },
+        "jokes": {
+          "lemma": "joke",
+          "translation": "笑话",
+          "pos": "n.",
+          "forms": "jokes, joked, joking",
+          "meanings": "笑话；玩笑；开玩笑；戏谑",
+          "contexts": {
+            "J gets his new issue of Just Joking , a magazine filled with all kinds of jokes.": {
+              "translation": "笑话",
+              "pos": "n."
+            }
+          }
+        },
+        "when": {
+          "lemma": "when",
+          "translation": "当……时",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "当……时；在……时候；既然；考虑到",
+          "contexts": {
+            "When the new issue arrives, T.": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "When I get home, T.": {
+              "translation": "当……时",
+              "pos": "conj."
+            }
+          }
+        },
+        "arrives": {
+          "lemma": "arrive",
+          "translation": "到达",
+          "pos": "v.",
+          "forms": "arrives, arrived, arriving",
+          "meanings": "到达；送达；发生；达成",
+          "contexts": {
+            "When the new issue arrives, T.": {
+              "translation": "送达",
+              "pos": "v."
+            }
+          }
+        },
+        "tells": {
+          "lemma": "tell",
+          "translation": "讲（笑话/故事）",
+          "pos": "v.",
+          "forms": "tells, told, telling",
+          "meanings": "告诉；讲述；吩咐；辨别",
+          "contexts": {
+            "J tells me every riddle in it .": {
+              "translation": "讲述",
+              "pos": "v."
+            },
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "讲述",
+              "pos": "v."
+            }
+          }
+        },
+        "me": {
+          "lemma": "I",
+          "translation": "我",
+          "pos": "pron.",
+          "forms": "my, mine, me",
+          "meanings": "我（宾格）",
+          "contexts": {
+            "J tells me every riddle in it .": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "The look on Nita's face reminds me of the look on T.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "And maybe you can come along with me sometime.": {
+              "translation": "我",
+              "pos": "pron."
+            }
+          }
+        },
+        "every": {
+          "lemma": "every",
+          "translation": "每一个",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "每一个；所有；每隔",
+          "contexts": {
+            "J tells me every riddle in it .": {
+              "translation": "每一个",
+              "pos": "det."
+            }
+          }
+        },
+        "riddle": {
+          "lemma": "riddle",
+          "translation": "谜语",
+          "pos": "n.",
+          "forms": "riddles",
+          "meanings": "谜语；难解之谜；充满（问题）",
+          "contexts": {
+            "J tells me every riddle in it .": {
+              "translation": "谜语",
+              "pos": "n."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……里",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；使用（某种语言/材料）",
+          "contexts": {
+            "J tells me every riddle in it .": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "在……期间",
+              "pos": "prep."
+            },
+            "J's face earlier in the evening .": {
+              "translation": "在……时间段",
+              "pos": "prep."
+            },
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "在……位置",
+              "pos": "prep."
+            }
+          }
+        },
+        "it": {
+          "lemma": "it",
+          "translation": "它",
+          "pos": "pron.",
+          "forms": "its, itself",
+          "meanings": "它；这；那个；代指已提到的事物",
+          "contexts": {
+            "J tells me every riddle in it .": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "Brad's little sister thought it was really funny.": {
+              "translation": "它",
+              "pos": "pron."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "But a constant stream of riddles can get annoying .": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "constant": {
+          "lemma": "constant",
+          "translation": "不断的",
+          "pos": "adj.",
+          "forms": "constantly",
+          "meanings": "不断的；持续的；忠实的；常数",
+          "contexts": {
+            "But a constant stream of riddles can get annoying .": {
+              "translation": "不断的",
+              "pos": "adj."
+            }
+          }
+        },
+        "stream": {
+          "lemma": "stream",
+          "translation": "流；连续不断的系列",
+          "pos": "n.",
+          "forms": "streams",
+          "meanings": "溪流；一股；流出；连续不断",
+          "contexts": {
+            "But a constant stream of riddles can get annoying .": {
+              "translation": "连续不断的系列",
+              "pos": "n."
+            }
+          }
+        },
+        "riddles": {
+          "lemma": "riddle",
+          "translation": "谜语",
+          "pos": "n.",
+          "forms": "riddles",
+          "meanings": "谜语；难解之谜；充满（问题）",
+          "contexts": {
+            "But a constant stream of riddles can get annoying .": {
+              "translation": "谜语",
+              "pos": "n."
+            },
+            "\"Enough riddles !": {
+              "translation": "谜语",
+              "pos": "n."
+            },
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "谜语",
+              "pos": "n."
+            },
+            "\" I used one of your riddles tonight.": {
+              "translation": "谜语",
+              "pos": "n."
+            },
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "谜语",
+              "pos": "n."
+            }
+          }
+        },
+        "can": {
+          "lemma": "can",
+          "translation": "可能",
+          "pos": "modal v.",
+          "forms": "could",
+          "meanings": "能够；可以；可能；罐头",
+          "contexts": {
+            "But a constant stream of riddles can get annoying .": {
+              "translation": "可能",
+              "pos": "modal v."
+            },
+            "\"Brad, can I help you with the project ?": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "And maybe you can come along with me sometime.": {
+              "translation": "能够",
+              "pos": "modal v."
+            }
+          }
+        },
+        "get": {
+          "lemma": "get",
+          "translation": "变得",
+          "pos": "v.",
+          "forms": "gets, got, gotten, getting",
+          "meanings": "获得；变得；到达；理解；使得",
+          "contexts": {
+            "But a constant stream of riddles can get annoying .": {
+              "translation": "变得",
+              "pos": "v."
+            },
+            "When I get home, T.": {
+              "translation": "到达",
+              "pos": "v."
+            }
+          }
+        },
+        "annoying": {
+          "lemma": "annoy",
+          "translation": "恼人的",
+          "pos": "adj.",
+          "forms": "annoy, annoyed, annoying",
+          "meanings": "恼人的；烦人的；令人不快的",
+          "contexts": {
+            "But a constant stream of riddles can get annoying .": {
+              "translation": "恼人的",
+              "pos": "adj."
+            }
+          }
+        },
+        "hey": {
+          "lemma": "hey",
+          "translation": "嘿",
+          "pos": "interj.",
+          "forms": "无常见变形",
+          "meanings": "嘿（用于引起注意）；喂；哟",
+          "contexts": {
+            "\"Hey, Keith !": {
+              "translation": "嘿",
+              "pos": "interj."
+            },
+            "\"Hey, Nita!": {
+              "translation": "嘿",
+              "pos": "interj."
+            }
+          }
+        },
+        "keith": {
+          "lemma": "keith",
+          "translation": "基思（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "基思（人名）；Keith；凯斯",
+          "contexts": {
+            "\"Hey, Keith !": {
+              "translation": "基思",
+              "pos": "n."
+            },
+            "\"Keith , be nice ,\"Mom says.": {
+              "translation": "基思",
+              "pos": "n."
+            }
+          }
+        },
+        "what": {
+          "lemma": "what",
+          "translation": "什么",
+          "pos": "pronoun",
+          "forms": "无常见变形",
+          "meanings": "什么；……的事物；多么；究竟是什么",
+          "contexts": {
+            "What did he hamburger name his daughter ?": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "J, honey, what did the hamburger name his daughter?": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "Do you know what the hamburger named his daughter ?": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "What?": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "J, guess what ?": {
+              "translation": "什么",
+              "pos": "pron."
+            }
+          }
+        },
+        "did": {
+          "lemma": "do",
+          "translation": "做（助动词，构成疑问句）",
+          "pos": "v.",
+          "forms": "does, doing, done",
+          "meanings": "做；进行；（助动词）构成疑问或否定；实行",
+          "contexts": {
+            "What did he hamburger name his daughter ?": {
+              "translation": "（助动词，无实义）",
+              "pos": "v."
+            },
+            "J, honey, what did the hamburger name his daughter?": {
+              "translation": "（助动词，无实义）",
+              "pos": "v."
+            }
+          }
+        },
+        "he": {
+          "lemma": "he",
+          "translation": "他",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他；（指代男性）；某人",
+          "contexts": {
+            "What did he hamburger name his daughter ?": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "\"\nHe is suddenly quiet.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "\"\n\"Patty,\" he says.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "This evening, he does not .": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "\" He shouts at her .": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "\"He's very funny.": {
+              "translation": "他",
+              "pos": "pron."
+            }
+          }
+        },
+        "hamburger": {
+          "lemma": "hamburger",
+          "translation": "汉堡包",
+          "pos": "n.",
+          "forms": "hamburgers",
+          "meanings": "汉堡包；牛肉饼",
+          "contexts": {
+            "What did he hamburger name his daughter ?": {
+              "translation": "汉堡包",
+              "pos": "n."
+            },
+            "J, honey, what did the hamburger name his daughter?": {
+              "translation": "汉堡包",
+              "pos": "n."
+            },
+            "Do you know what the hamburger named his daughter ?": {
+              "translation": "汉堡包",
+              "pos": "n."
+            }
+          }
+        },
+        "name": {
+          "lemma": "name",
+          "translation": "给……命名",
+          "pos": "v.",
+          "forms": "naming, named, names",
+          "meanings": "给……命名；说出……的名字；提名；名字",
+          "contexts": {
+            "What did he hamburger name his daughter ?": {
+              "translation": "命名",
+              "pos": "v."
+            },
+            "J, honey, what did the hamburger name his daughter?": {
+              "translation": "命名",
+              "pos": "v."
+            }
+          }
+        },
+        "daughter": {
+          "lemma": "daughter",
+          "translation": "女儿",
+          "pos": "n.",
+          "forms": "daughters",
+          "meanings": "女儿；子代",
+          "contexts": {
+            "What did he hamburger name his daughter ?": {
+              "translation": "女儿",
+              "pos": "n."
+            },
+            "J, honey, what did the hamburger name his daughter?": {
+              "translation": "女儿",
+              "pos": "n."
+            },
+            "Do you know what the hamburger named his daughter ?": {
+              "translation": "女儿",
+              "pos": "n."
+            }
+          }
+        },
+        "i": {
+          "lemma": "I",
+          "translation": "我",
+          "pos": "pronoun",
+          "forms": "my, mine, me",
+          "meanings": "我",
+          "contexts": {
+            "\" I shout .": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I'm relieved .": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "\"Brad, can I help you with the project ?": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I feel bad for her.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "Now I don't feel so good about T.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "\" I ask.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "\"I don't know.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "\"\nNita laughs and I laugh too .": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "\" I heard that from my brother, T.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "J,\" I say.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "When I get home, T.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "\" I say.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "\" I used one of your riddles tonight.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "我",
+              "pos": "pron."
+            }
+          }
+        },
+        "shout": {
+          "lemma": "shout",
+          "translation": "大喊",
+          "pos": "v.",
+          "forms": "shouted, shouting, shouts",
+          "meanings": "大喊；高声说；大叫",
+          "contexts": {
+            "\" I shout .": {
+              "translation": "大喊",
+              "pos": "v."
+            }
+          }
+        },
+        "enough": {
+          "lemma": "enough",
+          "translation": "足够的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "足够的；充分的；足够地；（用作感叹）够了",
+          "contexts": {
+            "\"Enough riddles !": {
+              "translation": "够了",
+              "pos": "adj."
+            }
+          }
+        },
+        "suddenly": {
+          "lemma": "sudden",
+          "translation": "突然地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "突然地；出其不意地",
+          "contexts": {
+            "\"\nHe is suddenly quiet.": {
+              "translation": "突然地",
+              "pos": "adv."
+            }
+          }
+        },
+        "quiet": {
+          "lemma": "quiet",
+          "translation": "安静的",
+          "pos": "adj.",
+          "forms": "quieter, quietest, quietly",
+          "meanings": "安静的；宁静的；平静的；安静",
+          "contexts": {
+            "\"\nHe is suddenly quiet.": {
+              "translation": "安静的",
+              "pos": "adj."
+            },
+            "At last --- some peace and quiet.": {
+              "translation": "安静",
+              "pos": "n."
+            }
+          }
+        },
+        "be": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；表现为；处于……状态",
+          "contexts": {
+            "\"Keith , be nice ,\"Mom says.": {
+              "translation": "（祈使句中保持某种状态）",
+              "pos": "v."
+            },
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "（处于某种位置或状态）",
+              "pos": "v."
+            }
+          }
+        },
+        "nice": {
+          "lemma": "nice",
+          "translation": "好的",
+          "pos": "adj.",
+          "forms": "nicer, nicest",
+          "meanings": "好的；友好的；亲切的；令人愉快的",
+          "contexts": {
+            "\"Keith , be nice ,\"Mom says.": {
+              "translation": "好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "mom": {
+          "lemma": "mom",
+          "translation": "妈妈",
+          "pos": "n.",
+          "forms": "moms",
+          "meanings": "妈妈；母亲",
+          "contexts": {
+            "\"Keith , be nice ,\"Mom says.": {
+              "translation": "妈妈",
+              "pos": "n."
+            }
+          }
+        },
+        "says": {
+          "lemma": "say",
+          "translation": "说",
+          "pos": "v.",
+          "forms": "said, saying",
+          "meanings": "说；讲；陈述；写道",
+          "contexts": {
+            "\"Keith , be nice ,\"Mom says.": {
+              "translation": "说",
+              "pos": "v."
+            },
+            "\"\n\"Patty,\" he says.": {
+              "translation": "说",
+              "pos": "v."
+            },
+            "\" Nita says.": {
+              "translation": "说",
+              "pos": "v."
+            }
+          }
+        },
+        "honey": {
+          "lemma": "honey",
+          "translation": "亲爱的",
+          "pos": "n.",
+          "forms": "honeys",
+          "meanings": "亲爱的（称呼语）；蜂蜜",
+          "contexts": {
+            "J, honey, what did the hamburger name his daughter?": {
+              "translation": "亲爱的",
+              "pos": "n."
+            }
+          }
+        },
+        "patty": {
+          "lemma": "patty",
+          "translation": "帕蒂（人名）",
+          "pos": "n.",
+          "forms": "patties",
+          "meanings": "帕蒂（人名）；小肉饼",
+          "contexts": {
+            "\"\n\"Patty,\" he says.": {
+              "translation": "帕蒂",
+              "pos": "n."
+            },
+            "com\n\"Patty!": {
+              "translation": "帕蒂",
+              "pos": "n."
+            }
+          }
+        },
+        "during": {
+          "lemma": "during",
+          "translation": "在……期间",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……期间；在……过程中",
+          "contexts": {
+            "During dinner ,T.": {
+              "translation": "在……期间",
+              "pos": "prep."
+            }
+          }
+        },
+        "dinner": {
+          "lemma": "dinner",
+          "translation": "晚餐",
+          "pos": "n.",
+          "forms": "dinners",
+          "meanings": "晚餐；正餐；宴会；晚餐时间",
+          "contexts": {
+            "During dinner ,T.": {
+              "translation": "晚餐",
+              "pos": "n."
+            },
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "晚餐",
+              "pos": "n."
+            },
+            "J's silence at the dinner table.": {
+              "translation": "晚餐",
+              "pos": "n."
+            }
+          }
+        },
+        "doesn't": {
+          "lemma": "do",
+          "translation": "不",
+          "pos": "aux.",
+          "forms": "do, does, did, doing, done",
+          "meanings": "不；没（用于构成否定句）；（用于强调）；（构成疑问句）",
+          "contexts": {
+            "J doesn't say anything .": {
+              "translation": "不",
+              "pos": "aux."
+            }
+          }
+        },
+        "say": {
+          "lemma": "say",
+          "translation": "说",
+          "pos": "v.",
+          "forms": "says, said, saying",
+          "meanings": "说；讲；表达；（书面）记载",
+          "contexts": {
+            "J doesn't say anything .": {
+              "translation": "说",
+              "pos": "v."
+            },
+            "J,\" I say.": {
+              "translation": "说",
+              "pos": "v."
+            },
+            "\" I say.": {
+              "translation": "说",
+              "pos": "v."
+            }
+          }
+        },
+        "anything": {
+          "lemma": "anything",
+          "translation": "任何事物",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "任何事物；某事；（用于疑问或否定句）什么事",
+          "contexts": {
+            "J doesn't say anything .": {
+              "translation": "任何事物",
+              "pos": "pron."
+            }
+          }
+        },
+        "usually": {
+          "lemma": "usual",
+          "translation": "通常",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "通常；经常；平素",
+          "contexts": {
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "通常",
+              "pos": "adv."
+            }
+          }
+        },
+        "brings": {
+          "lemma": "bring",
+          "translation": "带来",
+          "pos": "v.",
+          "forms": "brought, bringing",
+          "meanings": "带来；拿来；导致；把...带给",
+          "contexts": {
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "带来",
+              "pos": "v."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "到",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "到；向；给；构成不定式",
+          "contexts": {
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "到",
+              "pos": "prep."
+            },
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "去（表示目的）",
+              "pos": "prep."
+            },
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            }
+          }
+        },
+        "table": {
+          "lemma": "table",
+          "translation": "餐桌",
+          "pos": "n.",
+          "forms": "tables",
+          "meanings": "餐桌；桌子；表；目录",
+          "contexts": {
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "餐桌",
+              "pos": "n."
+            },
+            "J's silence at the dinner table.": {
+              "translation": "餐桌",
+              "pos": "n."
+            }
+          }
+        },
+        "him": {
+          "lemma": "he",
+          "translation": "他",
+          "pos": "pron.",
+          "forms": "he, his, him",
+          "meanings": "他（宾格）；他（自己）",
+          "contexts": {
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "他",
+              "pos": "pron."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "并且",
+              "pos": "conj."
+            },
+            "At last --- some peace and quiet.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "\"\nNita laughs and I laugh too .": {
+              "translation": "并且",
+              "pos": "conj."
+            },
+            "And maybe you can come along with me sometime.": {
+              "translation": "而且",
+              "pos": "conj."
+            },
+            "J runs upstairs, and then comes back, smiling and carrying Just Joking.": {
+              "translation": "接着",
+              "pos": "conj."
+            }
+          }
+        },
+        "us": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "我们（宾格）",
+          "contexts": {
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "\"Leave us alone!": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "some": {
+          "lemma": "some",
+          "translation": "一些",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "一些；某几个；某些；相当数量",
+          "contexts": {
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "一些",
+              "pos": "adj."
+            },
+            "At last --- some peace and quiet.": {
+              "translation": "一些",
+              "pos": "adj."
+            }
+          }
+        },
+        "between": {
+          "lemma": "between",
+          "translation": "在...之间",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在...之间；介于...之间；在两者之间",
+          "contexts": {
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "在...之间",
+              "pos": "prep."
+            }
+          }
+        },
+        "bites": {
+          "lemma": "bite",
+          "translation": "一口",
+          "pos": "n.",
+          "forms": "bites, bit, bitten, biting",
+          "meanings": "一口（食物）；咬；刺痛；叮咬",
+          "contexts": {
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "一口",
+              "pos": "n."
+            }
+          }
+        },
+        "food": {
+          "lemma": "food",
+          "translation": "食物",
+          "pos": "n.",
+          "forms": "foods",
+          "meanings": "食物；食品；养料",
+          "contexts": {
+            "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .": {
+              "translation": "食物",
+              "pos": "n."
+            }
+          }
+        },
+        "this": {
+          "lemma": "this",
+          "translation": "这个",
+          "pos": "det.",
+          "forms": "these",
+          "meanings": "这个；这；这种；此",
+          "contexts": {
+            "This evening, he does not .": {
+              "translation": "这个",
+              "pos": "det."
+            }
+          }
+        },
+        "evening": {
+          "lemma": "evening",
+          "translation": "傍晚",
+          "pos": "n.",
+          "forms": "evenings",
+          "meanings": "傍晚；晚上；晚会",
+          "contexts": {
+            "This evening, he does not .": {
+              "translation": "晚上",
+              "pos": "n."
+            },
+            "J's face earlier in the evening .": {
+              "translation": "晚上",
+              "pos": "n."
+            }
+          }
+        },
+        "does": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "v.",
+          "forms": "do, does, did, doing, done",
+          "meanings": "做；进行；行动；表现",
+          "contexts": {
+            "This evening, he does not .": {
+              "translation": "做",
+              "pos": "v."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是",
+          "contexts": {
+            "This evening, he does not .": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "i'm": {
+          "lemma": "i",
+          "translation": "我是",
+          "pos": "pron. + v.",
+          "forms": "无常见变形",
+          "meanings": "我是",
+          "contexts": {
+            "I'm relieved .": {
+              "translation": "我是",
+              "pos": "pron. + v."
+            }
+          }
+        },
+        "comes": {
+          "lemma": "come",
+          "translation": "来到",
+          "pos": "v.",
+          "forms": "comes, came, coming",
+          "meanings": "来到；到达；出现；发生；开始",
+          "contexts": {
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "来到",
+              "pos": "v."
+            },
+            "J runs upstairs, and then comes back, smiling and carrying Just Joking.": {
+              "translation": "回来",
+              "pos": "v."
+            }
+          }
+        },
+        "into": {
+          "lemma": "into",
+          "translation": "进入",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "进入；进入到；处于（某状态）；变成",
+          "contexts": {
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "进入",
+              "pos": "prep."
+            }
+          }
+        },
+        "room": {
+          "lemma": "room",
+          "translation": "房间",
+          "pos": "n.",
+          "forms": "rooms",
+          "meanings": "房间；空间；余地；座位",
+          "contexts": {
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "房间",
+              "pos": "n."
+            },
+            "\"\nNita walks out of the room looking sad.": {
+              "translation": "房间",
+              "pos": "n."
+            },
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "房间",
+              "pos": "n."
+            }
+          }
+        },
+        "brad": {
+          "lemma": "brad",
+          "translation": "布拉德（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "布拉德（人名）",
+          "contexts": {
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "布拉德",
+              "pos": "n."
+            },
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "布拉德",
+              "pos": "n."
+            },
+            "\"Brad, can I help you with the project ?": {
+              "translation": "布拉德",
+              "pos": "n."
+            },
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "布拉德",
+              "pos": "n."
+            },
+            "Brad's little sister thought it was really funny.": {
+              "translation": "布拉德",
+              "pos": "n."
+            }
+          }
+        },
+        "help": {
+          "lemma": "help",
+          "translation": "帮助",
+          "pos": "v.",
+          "forms": "helps, helped, helping",
+          "meanings": "帮助；协助；救助；有助于",
+          "contexts": {
+            "\"Brad, can I help you with the project ?": {
+              "translation": "帮助",
+              "pos": "v."
+            }
+          }
+        },
+        "you": {
+          "lemma": "you",
+          "translation": "你",
+          "pos": "pronoun",
+          "forms": "your; yours; yourself",
+          "meanings": "你；你们；人们（泛指）",
+          "contexts": {
+            "\"Brad, can I help you with the project ?": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "Do you know what the hamburger named his daughter ?": {
+              "translation": "你",
+              "pos": "pronoun"
+            },
+            "And maybe you can come along with me sometime.": {
+              "translation": "你",
+              "pos": "pronoun"
+            }
+          }
+        },
+        "asks": {
+          "lemma": "ask",
+          "translation": "询问",
+          "pos": "v.",
+          "forms": "asks, asked, asking",
+          "meanings": "询问；请求；要求；邀请",
+          "contexts": {
+            "\" Nita asks.": {
+              "translation": "询问",
+              "pos": "v."
+            }
+          }
+        },
+        "shouts": {
+          "lemma": "shout",
+          "translation": "大喊",
+          "pos": "v.",
+          "forms": "shouts, shouted, shouting",
+          "meanings": "大喊；高呼；吵闹",
+          "contexts": {
+            "\" He shouts at her .": {
+              "translation": "大喊",
+              "pos": "v."
+            }
+          }
+        },
+        "her": {
+          "lemma": "she",
+          "translation": "她（宾格）",
+          "pos": "pron.",
+          "forms": "hers, herself",
+          "meanings": "她的；她（宾格）",
+          "contexts": {
+            "\" He shouts at her .": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "I feel bad for her.": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "她的",
+              "pos": "pron."
+            }
+          }
+        },
+        "leave": {
+          "lemma": "leave",
+          "translation": "离开",
+          "pos": "v.",
+          "forms": "leaves, left, leaving",
+          "meanings": "离开；丢下；让……处于某种状态；留下",
+          "contexts": {
+            "\"Leave us alone!": {
+              "translation": "离开",
+              "pos": "v."
+            }
+          }
+        },
+        "alone": {
+          "lemma": "alone",
+          "translation": "独自",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "独自；单独；只有；仅仅",
+          "contexts": {
+            "\"Leave us alone!": {
+              "translation": "独自",
+              "pos": "adv."
+            }
+          }
+        },
+        "walks": {
+          "lemma": "walk",
+          "translation": "走",
+          "pos": "v.",
+          "forms": "walks, walked, walking",
+          "meanings": "走；步行；散步",
+          "contexts": {
+            "\"\nNita walks out of the room looking sad.": {
+              "translation": "走",
+              "pos": "v."
+            }
+          }
+        },
+        "out": {
+          "lemma": "out",
+          "translation": "向外",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向外；出；在外；彻底地",
+          "contexts": {
+            "\"\nNita walks out of the room looking sad.": {
+              "translation": "向外",
+              "pos": "adv."
+            }
+          }
+        },
+        "looking": {
+          "lemma": "look",
+          "translation": "看起来",
+          "pos": "v.",
+          "forms": "looks, looked, looking",
+          "meanings": "看起来；注视；寻找；面容",
+          "contexts": {
+            "\"\nNita walks out of the room looking sad.": {
+              "translation": "看起来",
+              "pos": "v."
+            }
+          }
+        },
+        "sad": {
+          "lemma": "sad",
+          "translation": "悲伤的",
+          "pos": "adj.",
+          "forms": "sadder, saddest",
+          "meanings": "悲伤的；难过的；令人遗憾的",
+          "contexts": {
+            "\"\nNita walks out of the room looking sad.": {
+              "translation": "悲伤的",
+              "pos": "adj."
+            },
+            "She still looks sad.": {
+              "translation": "悲伤的",
+              "pos": "adj."
+            }
+          }
+        },
+        "feel": {
+          "lemma": "feel",
+          "translation": "感到",
+          "pos": "v.",
+          "forms": "feels, felt, feeling",
+          "meanings": "感到；触摸；认为；有……感觉",
+          "contexts": {
+            "I feel bad for her.": {
+              "translation": "感到",
+              "pos": "v."
+            },
+            "Now I don't feel so good about T.": {
+              "translation": "感到",
+              "pos": "v."
+            }
+          }
+        },
+        "bad": {
+          "lemma": "bad",
+          "translation": "坏的",
+          "pos": "adj.",
+          "forms": "worse, worst",
+          "meanings": "坏的；糟糕的；严重的；有害的",
+          "contexts": {
+            "I feel bad for her.": {
+              "translation": "糟糕的",
+              "pos": "adj."
+            }
+          }
+        },
+        "tell": {
+          "lemma": "tell",
+          "translation": "看出",
+          "pos": "v.",
+          "forms": "tells, told, telling",
+          "meanings": "看出；讲述；告诉；吩咐",
+          "contexts": {
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "看出",
+              "pos": "v."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "引导从句",
+          "pos": "conj.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；因为",
+          "contexts": {
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "\" I heard that from my brother, T.": {
+              "translation": "那",
+              "pos": "pron."
+            }
+          }
+        },
+        "she": {
+          "lemma": "she",
+          "translation": "她",
+          "pos": "pron.",
+          "forms": "her, hers, herself",
+          "meanings": "她",
+          "contexts": {
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "She still looks sad.": {
+              "translation": "她",
+              "pos": "pron."
+            }
+          }
+        },
+        "wants": {
+          "lemma": "want",
+          "translation": "想要",
+          "pos": "v.",
+          "forms": "wants, wanted, wanting",
+          "meanings": "想要；希望；需要；打算",
+          "contexts": {
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "想要",
+              "pos": "v."
+            }
+          }
+        },
+        "around": {
+          "lemma": "around",
+          "translation": "在……身边",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……身边；围绕；大约；到处",
+          "contexts": {
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "在……身边",
+              "pos": "prep."
+            }
+          }
+        },
+        "big": {
+          "lemma": "big",
+          "translation": "年长的",
+          "pos": "adj.",
+          "forms": "bigger, biggest",
+          "meanings": "年长的；大的；重大的；大受欢迎的",
+          "contexts": {
+            "I can tell that she just wants to be around her big brother.": {
+              "translation": "年长的",
+              "pos": "adj."
+            }
+          }
+        },
+        "look": {
+          "lemma": "look",
+          "translation": "表情",
+          "pos": "n.",
+          "forms": "looks, looked, looking",
+          "meanings": "表情；外表；看；注视",
+          "contexts": {
+            "The look on Nita's face reminds me of the look on T.": {
+              "translation": "表情",
+              "pos": "n."
+            }
+          }
+        },
+        "nita's": {
+          "lemma": "nita",
+          "translation": "尼塔的",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "尼塔的（人名所有格）",
+          "contexts": {
+            "The look on Nita's face reminds me of the look on T.": {
+              "translation": "尼塔的",
+              "pos": "n."
+            }
+          }
+        },
+        "face": {
+          "lemma": "face",
+          "translation": "脸",
+          "pos": "n.",
+          "forms": "faces, faced, facing",
+          "meanings": "脸；表情；正面；面临",
+          "contexts": {
+            "The look on Nita's face reminds me of the look on T.": {
+              "translation": "脸",
+              "pos": "n."
+            },
+            "J's face earlier in the evening .": {
+              "translation": "脸",
+              "pos": "n."
+            }
+          }
+        },
+        "reminds": {
+          "lemma": "remind",
+          "translation": "使想起",
+          "pos": "v.",
+          "forms": "reminds, reminded, reminding",
+          "meanings": "使想起；提醒",
+          "contexts": {
+            "The look on Nita's face reminds me of the look on T.": {
+              "translation": "使想起",
+              "pos": "v."
+            }
+          }
+        },
+        "j's": {
+          "lemma": "j",
+          "translation": "J的",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "J的（人名缩写所有格）",
+          "contexts": {
+            "J's face earlier in the evening .": {
+              "translation": "J的",
+              "pos": "n."
+            },
+            "J's silence at the dinner table.": {
+              "translation": "J的",
+              "pos": "n."
+            },
+            "J's eyes light up .": {
+              "translation": "J的",
+              "pos": "n."
+            }
+          }
+        },
+        "earlier": {
+          "lemma": "early",
+          "translation": "早些时候",
+          "pos": "adv.",
+          "forms": "earlier, earliest",
+          "meanings": "早些时候；较早地",
+          "contexts": {
+            "J's face earlier in the evening .": {
+              "translation": "早些时候",
+              "pos": "adv."
+            }
+          }
+        },
+        "now": {
+          "lemma": "now",
+          "translation": "现在",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "现在；目前；立刻；既然",
+          "contexts": {
+            "Now I don't feel so good about T.": {
+              "translation": "现在",
+              "pos": "adv."
+            }
+          }
+        },
+        "don't": {
+          "lemma": "do",
+          "translation": "不",
+          "pos": "aux.",
+          "forms": "无常见变形",
+          "meanings": "不（助动词否定形式）；不做",
+          "contexts": {
+            "Now I don't feel so good about T.": {
+              "translation": "不",
+              "pos": "aux."
+            },
+            "\"I don't know.": {
+              "translation": "不",
+              "pos": "aux."
+            }
+          }
+        },
+        "so": {
+          "lemma": "so",
+          "translation": "那么",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "那么；如此；因此；非常",
+          "contexts": {
+            "Now I don't feel so good about T.": {
+              "translation": "那么",
+              "pos": "adv."
+            },
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "因此",
+              "pos": "conj."
+            }
+          }
+        },
+        "good": {
+          "lemma": "good",
+          "translation": "好",
+          "pos": "adj.",
+          "forms": "better, best",
+          "meanings": "好；愉快的；优良的",
+          "contexts": {
+            "Now I don't feel so good about T.": {
+              "translation": "好",
+              "pos": "adj."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围",
+          "contexts": {
+            "Now I don't feel so good about T.": {
+              "translation": "关于",
+              "pos": "prep."
+            }
+          }
+        },
+        "silence": {
+          "lemma": "silence",
+          "translation": "沉默",
+          "pos": "n.",
+          "forms": "silences, silenced, silencing",
+          "meanings": "沉默；寂静；无声",
+          "contexts": {
+            "J's silence at the dinner table.": {
+              "translation": "沉默",
+              "pos": "n."
+            }
+          }
+        },
+        "finish": {
+          "lemma": "finish",
+          "translation": "完成",
+          "pos": "v.",
+          "forms": "finishes, finished, finishing",
+          "meanings": "完成；结束；做完",
+          "contexts": {
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "完成",
+              "pos": "v."
+            }
+          }
+        },
+        "working": {
+          "lemma": "work",
+          "translation": "工作",
+          "pos": "v.",
+          "forms": "works, worked, working",
+          "meanings": "工作；运作；致力于",
+          "contexts": {
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "工作",
+              "pos": "v."
+            }
+          }
+        },
+        "see": {
+          "lemma": "see",
+          "translation": "看见",
+          "pos": "v.",
+          "forms": "saw, seen, seeing",
+          "meanings": "看见；查看；理解；拜访",
+          "contexts": {
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "看见",
+              "pos": "v."
+            }
+          }
+        },
+        "front": {
+          "lemma": "front",
+          "translation": "前面",
+          "pos": "n.",
+          "forms": "fronts",
+          "meanings": "前面；前线；前部",
+          "contexts": {
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "前面",
+              "pos": "n."
+            }
+          }
+        },
+        "still": {
+          "lemma": "still",
+          "translation": "仍然",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仍然；更；静止的",
+          "contexts": {
+            "She still looks sad.": {
+              "translation": "仍然",
+              "pos": "adv."
+            },
+            "J still looks unhappy.": {
+              "translation": "仍然",
+              "pos": "adv."
+            }
+          }
+        },
+        "looks": {
+          "lemma": "look",
+          "translation": "看起来",
+          "pos": "v.",
+          "forms": "looks, looked, looking",
+          "meanings": "看起来；注视；朝向；寻找；外观",
+          "contexts": {
+            "She still looks sad.": {
+              "translation": "看起来",
+              "pos": "v."
+            },
+            "J still looks unhappy.": {
+              "translation": "看起来",
+              "pos": "v."
+            }
+          }
+        },
+        "do": {
+          "lemma": "do",
+          "translation": "（助动词，无实义）",
+          "pos": "aux.v.",
+          "forms": "did, done, doing, does",
+          "meanings": "做；干；进行；引起",
+          "contexts": {
+            "Do you know what the hamburger named his daughter ?": {
+              "translation": "（助动词，用于构成疑问句）",
+              "pos": "aux.v."
+            }
+          }
+        },
+        "know": {
+          "lemma": "know",
+          "translation": "知道",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉",
+          "contexts": {
+            "Do you know what the hamburger named his daughter ?": {
+              "translation": "知道",
+              "pos": "v."
+            },
+            "\"I don't know.": {
+              "translation": "知道",
+              "pos": "v."
+            }
+          }
+        },
+        "named": {
+          "lemma": "name",
+          "translation": "给……命名",
+          "pos": "v.",
+          "forms": "names, named, naming",
+          "meanings": "命名；给……取名；指出；选定",
+          "contexts": {
+            "Do you know what the hamburger named his daughter ?": {
+              "translation": "给……取名",
+              "pos": "v."
+            }
+          }
+        },
+        "ask": {
+          "lemma": "ask",
+          "translation": "询问",
+          "pos": "v.",
+          "forms": "asks, asked, asking",
+          "meanings": "询问；要求；请求；邀请",
+          "contexts": {
+            "\" I ask.": {
+              "translation": "询问",
+              "pos": "v."
+            }
+          }
+        },
+        "www": {
+          "lemma": "www",
+          "translation": "万维网",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "万维网",
+          "contexts": {
+            "www.": {
+              "translation": "万维网",
+              "pos": "n."
+            }
+          }
+        },
+        "ks": {
+          "lemma": "ks",
+          "translation": "考试（网络拼音缩写）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "考试；（网站名一部分）",
+          "contexts": {
+            "ks5u.": {
+              "translation": "考试（网站名一部分）",
+              "pos": "n."
+            }
+          }
+        },
+        "u": {
+          "lemma": "u",
+          "translation": "（you的缩写）你",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "你；（网络用语）",
+          "contexts": {
+            "ks5u.": {
+              "translation": "你（网络缩写）",
+              "pos": "pron."
+            }
+          }
+        },
+        "com": {
+          "lemma": "com",
+          "translation": "商业网站后缀",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "商业网站后缀",
+          "contexts": {
+            "com\n\"Patty!": {
+              "translation": "商业网站后缀",
+              "pos": "n."
+            }
+          }
+        },
+        "laughs": {
+          "lemma": "laugh",
+          "translation": "笑",
+          "pos": "v.",
+          "forms": "laughs, laughed, laughing",
+          "meanings": "笑；嘲笑；开怀大笑",
+          "contexts": {
+            "\"\nNita laughs and I laugh too .": {
+              "translation": "笑",
+              "pos": "v."
+            }
+          }
+        },
+        "laugh": {
+          "lemma": "laugh",
+          "translation": "笑",
+          "pos": "v.",
+          "forms": "laughs, laughed, laughing",
+          "meanings": "笑；嘲笑；开怀大笑",
+          "contexts": {
+            "\"\nNita laughs and I laugh too .": {
+              "translation": "笑",
+              "pos": "v."
+            }
+          }
+        },
+        "too": {
+          "lemma": "too",
+          "translation": "也",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "也；太；过于；很",
+          "contexts": {
+            "\"\nNita laughs and I laugh too .": {
+              "translation": "也",
+              "pos": "adv."
+            }
+          }
+        },
+        "heard": {
+          "lemma": "hear",
+          "translation": "听说",
+          "pos": "v.",
+          "forms": "hears, heard, hearing",
+          "meanings": "听到；听说；得知；听取",
+          "contexts": {
+            "\" I heard that from my brother, T.": {
+              "translation": "听说",
+              "pos": "v."
+            }
+          }
+        },
+        "from": {
+          "lemma": "from",
+          "translation": "从……得到",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "从；来自；因为；由于；起始",
+          "contexts": {
+            "\" I heard that from my brother, T.": {
+              "translation": "从",
+              "pos": "prep."
+            }
+          }
+        },
+        "he's": {
+          "lemma": "he's",
+          "translation": "他是",
+          "pos": "pron.+v.",
+          "forms": "无常见变形",
+          "meanings": "他是；他正",
+          "contexts": {
+            "\"He's very funny.": {
+              "translation": "他是",
+              "pos": "pron.+v."
+            }
+          }
+        },
+        "very": {
+          "lemma": "very",
+          "translation": "非常",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "非常；极；完全；正是",
+          "contexts": {
+            "\"He's very funny.": {
+              "translation": "非常",
+              "pos": "adv."
+            }
+          }
+        },
+        "funny": {
+          "lemma": "funny",
+          "translation": "有趣的",
+          "pos": "adj.",
+          "forms": "funnier, funniest",
+          "meanings": "有趣的；滑稽的；可笑的；奇怪的",
+          "contexts": {
+            "\"He's very funny.": {
+              "translation": "有趣的",
+              "pos": "adj."
+            },
+            "Brad's little sister thought it was really funny.": {
+              "translation": "滑稽的",
+              "pos": "adj."
+            }
+          }
+        },
+        "home": {
+          "lemma": "home",
+          "translation": "家",
+          "pos": "n.",
+          "forms": "homes",
+          "meanings": "家；住宅；故乡；在家里",
+          "contexts": {
+            "When I get home, T.": {
+              "translation": "家",
+              "pos": "n."
+            }
+          }
+        },
+        "unhappy": {
+          "lemma": "unhappy",
+          "translation": "不开心的",
+          "pos": "adj.",
+          "forms": "unhappier, unhappiest",
+          "meanings": "不开心的；难过的；不幸的",
+          "contexts": {
+            "J still looks unhappy.": {
+              "translation": "不开心的",
+              "pos": "adj."
+            }
+          }
+        },
+        "guess": {
+          "lemma": "guess",
+          "translation": "猜",
+          "pos": "v.",
+          "forms": "guesses, guessed, guessing",
+          "meanings": "猜；猜测；推测；认为",
+          "contexts": {
+            "J, guess what ?": {
+              "translation": "猜",
+              "pos": "v."
+            }
+          }
+        },
+        "used": {
+          "lemma": "use",
+          "translation": "使用",
+          "pos": "v.",
+          "forms": "using, used, uses",
+          "meanings": "使用；利用；习惯于；曾（过去常做某事）",
+          "contexts": {
+            "\" I used one of your riddles tonight.": {
+              "translation": "使用",
+              "pos": "v."
+            }
+          }
+        },
+        "one": {
+          "lemma": "one",
+          "translation": "一个",
+          "pos": "pron.",
+          "forms": "ones",
+          "meanings": "一个；某人；单一的；（指代前文提到的事物）",
+          "contexts": {
+            "\" I used one of your riddles tonight.": {
+              "translation": "一个",
+              "pos": "pron."
+            }
+          }
+        },
+        "your": {
+          "lemma": "your",
+          "translation": "你的",
+          "pos": "pronoun",
+          "forms": "yours",
+          "meanings": "你的；你们的",
+          "contexts": {
+            "\" I used one of your riddles tonight.": {
+              "translation": "你的",
+              "pos": "pronoun"
+            }
+          }
+        },
+        "tonight": {
+          "lemma": "tonight",
+          "translation": "今晚",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "今晚；在今晚",
+          "contexts": {
+            "\" I used one of your riddles tonight.": {
+              "translation": "今晚",
+              "pos": "adv."
+            }
+          }
+        },
+        "thought": {
+          "lemma": "think",
+          "translation": "认为",
+          "pos": "v.",
+          "forms": "thought, thinking, thinks",
+          "meanings": "认为；想；思考；打算",
+          "contexts": {
+            "Brad's little sister thought it was really funny.": {
+              "translation": "认为",
+              "pos": "v."
+            }
+          }
+        },
+        "was": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；在；存在；成为",
+          "contexts": {
+            "Brad's little sister thought it was really funny.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "really": {
+          "lemma": "really",
+          "translation": "真正地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "真正地；确实；非常；实际上",
+          "contexts": {
+            "Brad's little sister thought it was really funny.": {
+              "translation": "非常",
+              "pos": "adv."
+            },
+            "\"\n\"Really ?": {
+              "translation": "真的吗",
+              "pos": "adv."
+            }
+          }
+        },
+        "let's": {
+          "lemma": "let",
+          "translation": "让我们",
+          "pos": "v.",
+          "forms": "letting, let, lets",
+          "meanings": "允许；让；出租；使",
+          "contexts": {
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "让我们",
+              "pos": "v."
+            }
+          }
+        },
+        "find": {
+          "lemma": "find",
+          "translation": "寻找",
+          "pos": "v.",
+          "forms": "found, finding, finds",
+          "meanings": "发现；找到；认为；发觉",
+          "contexts": {
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "寻找",
+              "pos": "v."
+            }
+          }
+        },
+        "more": {
+          "lemma": "more",
+          "translation": "更多的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "更多；较大程度；额外；再",
+          "contexts": {
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "更多的",
+              "pos": "adj."
+            }
+          }
+        },
+        "next": {
+          "lemma": "next",
+          "translation": "接下来的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "接下来的；紧邻的；次要的；然后",
+          "contexts": {
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "接下来的",
+              "pos": "adj."
+            }
+          }
+        },
+        "time": {
+          "lemma": "time",
+          "translation": "次",
+          "pos": "n.",
+          "forms": "times",
+          "meanings": "时间；时代；次数；倍数",
+          "contexts": {
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "次",
+              "pos": "n."
+            }
+          }
+        },
+        "over": {
+          "lemma": "over",
+          "translation": "过去",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "遍及；超过；在……上方；结束；越过",
+          "contexts": {
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "过去",
+              "pos": "adv."
+            }
+          }
+        },
+        "there": {
+          "lemma": "there",
+          "translation": "那里",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在那里；到那里；（用于there be句型）",
+          "contexts": {
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "那里",
+              "pos": "adv."
+            }
+          }
+        },
+        "maybe": {
+          "lemma": "maybe",
+          "translation": "或许",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大概；或许；可能",
+          "contexts": {
+            "And maybe you can come along with me sometime.": {
+              "translation": "或许",
+              "pos": "adv."
+            }
+          }
+        },
+        "come": {
+          "lemma": "come",
+          "translation": "来",
+          "pos": "v.",
+          "forms": "came, coming, comes",
+          "meanings": "来；到达；出现；开始",
+          "contexts": {
+            "And maybe you can come along with me sometime.": {
+              "translation": "来",
+              "pos": "v."
+            }
+          }
+        },
+        "along": {
+          "lemma": "along",
+          "translation": "一起",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "一起；沿着；向前",
+          "contexts": {
+            "And maybe you can come along with me sometime.": {
+              "translation": "一起",
+              "pos": "adv."
+            }
+          }
+        },
+        "sometime": {
+          "lemma": "sometime",
+          "translation": "某时",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在某时；改天",
+          "contexts": {
+            "And maybe you can come along with me sometime.": {
+              "translation": "某时",
+              "pos": "adv."
+            }
+          }
+        },
+        "eyes": {
+          "lemma": "eye",
+          "translation": "眼睛",
+          "pos": "n.",
+          "forms": "eyes",
+          "meanings": "眼睛；视力；眼力",
+          "contexts": {
+            "J's eyes light up .": {
+              "translation": "眼睛",
+              "pos": "n."
+            }
+          }
+        },
+        "light": {
+          "lemma": "light",
+          "translation": "发亮",
+          "pos": "v.",
+          "forms": "lit/lighted, lighting, lights",
+          "meanings": "发亮；点燃；照亮",
+          "contexts": {
+            "J's eyes light up .": {
+              "translation": "发亮",
+              "pos": "v."
+            }
+          }
+        },
+        "up": {
+          "lemma": "up",
+          "translation": "（眼睛）发亮",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向上；完全；结束；出现",
+          "contexts": {
+            "J's eyes light up .": {
+              "translation": "（眼睛）发亮",
+              "pos": "adv."
+            }
+          }
+        },
+        "ok": {
+          "lemma": "ok",
+          "translation": "好",
+          "pos": "interj.",
+          "forms": "无常见变形",
+          "meanings": "好；对；行；同意",
+          "contexts": {
+            "\"OK!": {
+              "translation": "好",
+              "pos": "interj."
+            }
+          }
+        },
+        "runs": {
+          "lemma": "run",
+          "translation": "跑",
+          "pos": "v.",
+          "forms": "ran, running, runs",
+          "meanings": "跑；经营；运转；流淌",
+          "contexts": {
+            "J runs upstairs, and then comes back, smiling and carrying Just Joking.": {
+              "translation": "跑",
+              "pos": "v."
+            }
+          }
+        },
+        "upstairs": {
+          "lemma": "upstairs",
+          "translation": "往楼上",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "往楼上；在楼上",
+          "contexts": {
+            "J runs upstairs, and then comes back, smiling and carrying Just Joking.": {
+              "translation": "往楼上",
+              "pos": "adv."
+            }
+          }
+        },
+        "then": {
+          "lemma": "then",
+          "translation": "然后",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "然后；当时；那么；接着",
+          "contexts": {
+            "J runs upstairs, and then comes back, smiling and carrying Just Joking.": {
+              "translation": "然后",
+              "pos": "adv."
+            }
+          }
+        },
+        "back": {
+          "lemma": "back",
+          "translation": "回来",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "回来；向后；背部；后面",
+          "contexts": {
+            "J runs upstairs, and then comes back, smiling and carrying Just Joking.": {
+              "translation": "回来",
+              "pos": "adv."
+            }
+          }
+        },
+        "smiling": {
+          "lemma": "smile",
+          "translation": "微笑地",
+          "pos": "v.",
+          "forms": "smiled, smiling, smiles",
+          "meanings": "微笑；露出笑容",
+          "contexts": {
+            "J runs upstairs, and then comes back, smiling and carrying Just Joking.": {
+              "translation": "微笑地",
+              "pos": "v."
+            }
+          }
+        },
+        "carrying": {
+          "lemma": "carry",
+          "translation": "携带",
+          "pos": "v.",
+          "forms": "carried, carrying, carries",
+          "meanings": "携带；运送；支撑；负荷",
+          "contexts": {
+            "J runs upstairs, and then comes back, smiling and carrying Just Joking.": {
+              "translation": "携带",
+              "pos": "v."
+            }
+          }
+        },
+        "relieved": {
+          "lemma": "relieve",
+          "translation": "感到宽慰的",
+          "pos": "adj.",
+          "forms": "relieves, relieved, relieving",
+          "meanings": "感到宽慰的；解除的；缓解的；换岗的",
+          "contexts": {
+            "I'm relieved .": {
+              "translation": "感到宽慰的",
+              "pos": "adj."
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "在",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）；向；针对",
+          "contexts": {
+            "At last --- some peace and quiet.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "\" He shouts at her .": {
+              "translation": "向",
+              "pos": "prep."
+            },
+            "J's silence at the dinner table.": {
+              "translation": "在……时",
+              "pos": "prep."
+            }
+          }
+        },
+        "last": {
+          "lemma": "last",
+          "translation": "最后",
+          "pos": "adj.",
+          "forms": "lasts/lasted/lasting",
+          "meanings": "最后的；上一个；最终；持续；姓",
+          "contexts": {
+            "At last --- some peace and quiet.": {
+              "translation": "最后",
+              "pos": "adj."
+            }
+          }
+        },
+        "peace": {
+          "lemma": "peace",
+          "translation": "平静",
+          "pos": "n.",
+          "forms": "peaces",
+          "meanings": "平静；和平；安宁；和睦",
+          "contexts": {
+            "At last --- some peace and quiet.": {
+              "translation": "平静",
+              "pos": "n."
+            }
+          }
+        },
+        "go": {
+          "lemma": "go",
+          "translation": "去",
+          "pos": "v.",
+          "forms": "goes, went, gone, going",
+          "meanings": "去；走；开始进行；变得；运行",
+          "contexts": {
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "去",
+              "pos": "v."
+            },
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "去",
+              "pos": "v."
+            }
+          }
+        },
+        "friend": {
+          "lemma": "friend",
+          "translation": "朋友",
+          "pos": "n.",
+          "forms": "friends",
+          "meanings": "朋友；支持者；伙伴；友人",
+          "contexts": {
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "朋友",
+              "pos": "n."
+            }
+          }
+        },
+        "brad's": {
+          "lemma": "Brad",
+          "translation": "布拉德的",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "布拉德的（人名所有格）",
+          "contexts": {
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "布拉德的",
+              "pos": "n."
+            },
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "布拉德的",
+              "pos": "n."
+            },
+            "Brad's little sister thought it was really funny.": {
+              "translation": "布拉德的",
+              "pos": "n."
+            }
+          }
+        },
+        "house": {
+          "lemma": "house",
+          "translation": "家",
+          "pos": "n.",
+          "forms": "houses",
+          "meanings": "房子；家；住宅；机构",
+          "contexts": {
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "家",
+              "pos": "n."
+            }
+          }
+        },
+        "work": {
+          "lemma": "work",
+          "translation": "工作",
+          "pos": "v.",
+          "forms": "works, worked, working",
+          "meanings": "工作；致力于；运作；起作用",
+          "contexts": {
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "工作",
+              "pos": "v."
+            }
+          }
+        },
+        "on": {
+          "lemma": "on",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；在……之上；通过（媒介）；在（时间）",
+          "contexts": {
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "The look on Nita's face reminds me of the look on T.": {
+              "translation": "在……之上",
+              "pos": "prep."
+            },
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "关于",
+              "pos": "prep."
+            }
+          }
+        },
+        "project": {
+          "lemma": "project",
+          "translation": "项目",
+          "pos": "n.",
+          "forms": "projects, projected, projecting",
+          "meanings": "项目；课题；工程；计划",
+          "contexts": {
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "项目",
+              "pos": "n."
+            },
+            "\"Brad, can I help you with the project ?": {
+              "translation": "项目",
+              "pos": "n."
+            },
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "项目",
+              "pos": "n."
+            }
+          }
+        },
+        "for": {
+          "lemma": "for",
+          "translation": "为了",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "为了；对于；给；支持；因为",
+          "contexts": {
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "I feel bad for her.": {
+              "translation": "为（某人）感到",
+              "pos": "prep."
+            },
+            "So let's find more riddles for the next time I go over there.": {
+              "translation": "为了",
+              "pos": "prep."
+            }
+          }
+        },
+        "science": {
+          "lemma": "science",
+          "translation": "科学",
+          "pos": "n.",
+          "forms": "sciences",
+          "meanings": "科学；自然科学；理科；学科",
+          "contexts": {
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "科学",
+              "pos": "n."
+            }
+          }
+        },
+        "class": {
+          "lemma": "class",
+          "translation": "课程",
+          "pos": "n.",
+          "forms": "classes",
+          "meanings": "课程；班级；等级；阶级",
+          "contexts": {
+            "After dinner, I go to my friend Brad's house to work on a project for science class .": {
+              "translation": "课程",
+              "pos": "n."
+            }
+          }
+        },
+        "we're": {
+          "lemma": "we are",
+          "translation": "我们正在",
+          "pos": "pron.+v.",
+          "forms": "无常见变形",
+          "meanings": "我们正在",
+          "contexts": {
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "我们正在",
+              "pos": "pron.+v."
+            }
+          }
+        },
+        "painting": {
+          "lemma": "paint",
+          "translation": "绘画",
+          "pos": "v.",
+          "forms": "paints, painted, painting",
+          "meanings": "绘画；油漆；描述；涂抹",
+          "contexts": {
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "绘画",
+              "pos": "v."
+            }
+          }
+        },
+        "planets": {
+          "lemma": "planet",
+          "translation": "行星",
+          "pos": "n.",
+          "forms": "planets",
+          "meanings": "行星；星球；地球；（口语）天体",
+          "contexts": {
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "行星",
+              "pos": "n."
+            }
+          }
+        },
+        "little": {
+          "lemma": "little",
+          "translation": "幼小的",
+          "pos": "adj.",
+          "forms": "less, least",
+          "meanings": "幼小的；小的；少量的；短暂的",
+          "contexts": {
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "幼小的",
+              "pos": "adj."
+            },
+            "Brad's little sister thought it was really funny.": {
+              "translation": "幼小的",
+              "pos": "adj."
+            }
+          }
+        },
+        "sister": {
+          "lemma": "sister",
+          "translation": "姐妹",
+          "pos": "n.",
+          "forms": "sisters",
+          "meanings": "姐妹；修女；护士长；同行",
+          "contexts": {
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "姐妹",
+              "pos": "n."
+            },
+            "Brad's little sister thought it was really funny.": {
+              "translation": "姐妹",
+              "pos": "n."
+            }
+          }
+        },
+        "nita": {
+          "lemma": "Nita",
+          "translation": "妮塔（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "妮塔（人名）",
+          "contexts": {
+            "We're painting the planets when Brad's little sister, Nita, comes into the room.": {
+              "translation": "妮塔",
+              "pos": "n."
+            },
+            "\" Nita asks.": {
+              "translation": "妮塔",
+              "pos": "n."
+            },
+            "\"Nita !": {
+              "translation": "妮塔",
+              "pos": "n."
+            },
+            "\"\nNita walks out of the room looking sad.": {
+              "translation": "妮塔",
+              "pos": "n."
+            },
+            "The look on Nita's face reminds me of the look on T.": {
+              "translation": "妮塔",
+              "pos": "n."
+            },
+            "When Brad and I finish working on the project, I see Nita in the front of the room .": {
+              "translation": "妮塔",
+              "pos": "n."
+            },
+            "\"Hey, Nita!": {
+              "translation": "妮塔",
+              "pos": "n."
+            },
+            "\" Nita says.": {
+              "translation": "妮塔",
+              "pos": "n."
+            },
+            "\"\nNita laughs and I laugh too .": {
+              "translation": "妮塔",
+              "pos": "n."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Keith shouts at T.J.because   _  .",
+          "options": [
+            "he is a cruel boy",
+            "he doesn't like T.J",
+            "He is tired of the riddles told by T.J",
+            "He doesn't know the answer to the riddle"
+          ],
+          "answer": 2,
+          "explanation": "Keith对T.J大喊是因为他受够了T.J喋喋不休的谜语，感到厌烦。"
+        },
+        {
+          "prompt": "During dinner, Keith is relieved because T.J   _  .",
+          "options": [
+            "looks Norman",
+            "doesn't tell riddles",
+            "is not angry with him",
+            "is usually quiet during dinner"
+          ],
+          "answer": 1,
+          "explanation": "晚餐时Keith感到解脱是因为T.J不再像往常那样讲谜语，让他享受到了安静。"
+        },
+        {
+          "prompt": "Keith begins to feel ban for T.J when   _  .",
+          "options": [
+            "he has dinner",
+            "he shouts at T.J",
+            "Nita come into the room",
+            "Nita walks out of the room"
+          ],
+          "answer": 3,
+          "explanation": "当看到Brad粗鲁地对待妹妹Nita并让她伤心离开时，Keith联想到了自己对T.J的态度，从而开始为T.J感到难过。"
+        },
+        {
+          "prompt": "Why does Keith tell Nita the riddle about the hamburger and patty ?",
+          "options": [
+            "Because he wants to relax.",
+            "Because he wants to impress Nita",
+            "Because he wants her to be happy",
+            "Because he wants to know if she is smart"
+          ],
+          "answer": 2,
+          "explanation": "Keith给Nita讲谜语是为了让她开心起来，正如他后来告诉T.J的那样，他想让别人分享到T.J的幽默。"
+        }
+      ],
+      "generationUsage": {
+        "requests": 22,
+        "inputTokens": 33624,
+        "outputTokens": 23697,
+        "totalTokens": 57321,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 22,
+            "inputTokens": 33624,
+            "outputTokens": 23697,
+            "totalTokens": 57321,
             "estimatedCostUsd": null
           }
         }
