@@ -37,6 +37,10 @@ const generationRunId = process.env.GENERATION_RUN_ID
   || `local-${Date.now()}`;
 const generationStartedAt = new Date().toISOString();
 const execFileAsync = promisify(execFile);
+const translationConcurrency = Math.max(
+  1,
+  Number(process.env.TRANSLATION_CONCURRENCY || 3)
+);
 
 const ai = new AiClient();
 const search = new WebSearchClient();
@@ -205,19 +209,7 @@ ${page.text}`,
 async function enrichArticle(extracted, page) {
   const sentences = splitSentences(extracted.body)
     .map((sentence, index) => ({ id: `s${index}`, sentence }));
-  const sentenceTranslationsById = {};
-  for (const batch of chunkValues(sentences, 6)) {
-    const translated = await ai.json(
-      `Translate English sentences for a Chinese high-school student.
-Return exactly one JSON object keyed by every supplied sentence id:
-{"s0":"natural, accurate Chinese full-sentence translation","s1":"..."}
-Do not omit ids or return English source text, markdown, or commentary.`,
-      JSON.stringify(batch),
-      0
-    );
-    Object.assign(sentenceTranslationsById, translated);
-  }
-  const questionResult = await ai.json(
+  const questionPromise = ai.json(
     `Explain existing high-school English multiple-choice reading questions in Chinese.
 Return exactly one JSON object:
 {"questionExplanations":["brief Chinese explanation for question 1 grounded in the passage","..."]}
@@ -232,6 +224,22 @@ Return one explanation for every question, in order. Do not rewrite questions or
     }),
     0
   );
+  const sentenceTranslationsById = {};
+  const translationBatches = chunkValues(sentences, 6);
+  for (const group of chunkValues(translationBatches, translationConcurrency)) {
+    const translatedGroup = await Promise.all(group.map(batch => ai.json(
+      `Translate English sentences for a Chinese high-school student.
+Return exactly one JSON object keyed by every supplied sentence id:
+{"s0":"natural, accurate Chinese full-sentence translation","s1":"..."}
+Do not omit ids or return English source text, markdown, or commentary.`,
+      JSON.stringify(batch),
+      0
+    )));
+    for (const translated of translatedGroup) {
+      Object.assign(sentenceTranslationsById, translated);
+    }
+  }
+  const questionResult = await questionPromise;
   const sentenceTranslations = {};
   for (const { id, sentence } of sentences) {
     const translation = String(sentenceTranslationsById[id] || "").trim();
