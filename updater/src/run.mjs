@@ -210,10 +210,10 @@ async function enrichArticle(extracted, page) {
   const sentences = splitSentences(extracted.body)
     .map((sentence, index) => ({ id: `s${index}`, sentence }));
   const questionPromise = ai.json(
-    `Explain existing high-school English multiple-choice reading questions in Chinese.
+    `Review existing high-school English multiple-choice reading questions for a Chinese high-school student.
 Return exactly one JSON object:
-{"questionExplanations":["brief Chinese explanation for question 1 grounded in the passage","..."]}
-Return one explanation for every question, in order. Do not rewrite questions or return markdown or commentary.`,
+{"questionReviews":[{"explanation":"brief Chinese explanation grounded in the passage","evidenceSentence":"one exact complete sentence copied verbatim from the passage","optionExplanations":["why option A is correct or wrong in Chinese","why option B is correct or wrong in Chinese","why option C is correct or wrong in Chinese","why option D is correct or wrong in Chinese"]}]}
+Return one review for every question, in order, and one explanation for every option. Evidence sentences must be exact verbatim sentences from the passage. Do not rewrite questions or return markdown or commentary.`,
     JSON.stringify({
       body: extracted.body,
       questions: extracted.questions.map(question => ({
@@ -250,10 +250,18 @@ Do not omit ids or return English source text, markdown, or commentary.`,
     sourceUrl: page.url,
     sentenceTranslations,
     glossary: {},
-    questions: extracted.questions.map((question, index) => ({
-      ...question,
-      explanation: String(questionResult?.questionExplanations?.[index] || "").trim()
-    }))
+    questions: extracted.questions.map((question, index) => {
+      const review = questionResult?.questionReviews?.[index] || {};
+      const optionExplanations = Array.isArray(review.optionExplanations)
+        ? review.optionExplanations.slice(0, question.options.length).map(value => String(value || "").trim())
+        : [];
+      return {
+        ...question,
+        explanation: String(review.explanation || question.explanation || "").trim(),
+        evidenceSentence: String(review.evidenceSentence || "").trim(),
+        optionExplanations
+      };
+    })
   };
 }
 
