@@ -1,5 +1,10 @@
 import fs from "node:fs/promises";
 
+const GLOSSARY_CONCURRENCY = Math.max(
+  1,
+  Number(process.env.GLOSSARY_CONCURRENCY || 3)
+);
+
 const WORD_PATTERN = /[A-Za-z]+(?:['’][A-Za-z]+)*/g;
 const PLACEHOLDER_PATTERN = /(待.{0,8}(补充|处理)|未知|暂无|处理中|todo|unknown|pending)/i;
 
@@ -31,7 +36,7 @@ export async function repairArticleGlossary(article, minimax, wordBank) {
     console.log(`  glossary repair ${attempt}: ${missing.length} word(s)`);
 
     const batches = chunks(missing, 20);
-    for (const group of chunks(batches, 1)) {
+    for (const group of chunks(batches, GLOSSARY_CONCURRENCY)) {
       const completed = await Promise.all(group.map(async batch => {
         const requested = batch.map(word => {
           const sentences = findWordSentences(article.body, word);
