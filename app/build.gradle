@@ -28,7 +28,24 @@ android {
         buildConfig true
     }
 
+    signingConfigs {
+        stableRelease {
+            def releaseStoreFile = project.findProperty("RELEASE_STORE_FILE")
+            if (releaseStoreFile) {
+                storeFile file(releaseStoreFile)
+                storePassword project.findProperty("RELEASE_STORE_PASSWORD") ?: ""
+                keyAlias project.findProperty("RELEASE_KEY_ALIAS") ?: ""
+                keyPassword project.findProperty("RELEASE_KEY_PASSWORD") ?: ""
+            }
+        }
+    }
+
     buildTypes {
+        debug {
+            if (project.findProperty("RELEASE_STORE_FILE")) {
+                signingConfig signingConfigs.stableRelease
+            }
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
