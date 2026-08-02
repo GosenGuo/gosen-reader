@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T11:58:39.654Z",
+  "generatedAt": "2026-08-02T11:59:42.746Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -14854,6 +14854,2005 @@
             "inputTokens": 30689,
             "outputTokens": 20833,
             "totalTokens": 51522,
+            "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-91480225d160a6b6",
+      "title": "RACE 高中英语阅读 high1705",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "In the early 1990s,the word\" Internet\" was strange to most people. But today, Internet has become a useful tool for people all over the world. Maybe Internet has been the greatest invention in the field of communication in the history of mankind .\nCommunicating with others on the Internet is much faster. We can chat with a person who is sitting in the other part of the world. We can e-mail our friends and they can read the e-mails within a minute. Giving all kinds of information is probably the biggest advantage of the Internet. We can use search engines to find the information we need. Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.\nWe can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites. There are some games for free. We can meet new and interesting people in the chat now. We can also listen to music and see films.\nNow ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying. We can also do shopping and find nearly all kinds of goods. Sometimes we can find something that is quite good but very cheap.",
+      "wordCount": 216,
+      "sentenceTranslations": {
+        "In the early 1990s,the word\" Internet\" was strange to most people.": "在20世纪90年代初，“互联网”这个词对大多数人来说还很陌生。",
+        "But today, Internet has become a useful tool for people all over the world.": "但今天，互联网已成为全世界人民有用的工具。",
+        "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": "互联网或许是人类历史上通信领域最伟大的发明。",
+        "Communicating with others on the Internet is much faster.": "在互联网上与他人交流要快得多。",
+        "We can chat with a person who is sitting in the other part of the world.": "我们可以与远在世界另一端的人聊天。",
+        "We can e-mail our friends and they can read the e-mails within a minute.": "我们可以给朋友发电子邮件，他们在一分钟内就能收到。",
+        "Giving all kinds of information is probably the biggest advantage of the Internet.": "提供各类信息大概是互联网最大的优势。",
+        "We can use search engines to find the information we need.": "我们可以使用搜索引擎来查找所需的信息。",
+        "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": "只需输入一个或多个关键词，搜索引擎就会列出相关网站供我们查看。",
+        "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": "我们可以通过下载游戏、访问聊天室或浏览网站在互联网上获得很多乐趣。",
+        "There are some games for free.": "有些游戏是免费的。",
+        "We can meet new and interesting people in the chat now.": "我们现在可以在聊天室里结识有趣的新朋友。",
+        "We can also listen to music and see films.": "我们还可以听音乐和看电影。",
+        "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": "现在，互联网上有很多服务，例如网上银行、求职和购买车票。",
+        "We can also do shopping and find nearly all kinds of goods.": "我们也可以在网上购物，并找到几乎各种各样的商品。",
+        "Sometimes we can find something that is quite good but very cheap.": "有时候我们能发现一些既好又便宜的东西。"
+      },
+      "glossary": {
+        "in": {
+          "lemma": "in",
+          "translation": "在……之内",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；使用（某种语言/材料）",
+          "contexts": {
+            "In the early 1990s,the word\" Internet\" was strange to most people.": {
+              "translation": "在……期间",
+              "pos": "prep."
+            },
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "在……领域",
+              "pos": "prep."
+            },
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "输入（信息）",
+              "pos": "adv."
+            },
+            "We can meet new and interesting people in the chat now.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            }
+          }
+        },
+        "the": {
+          "lemma": "the",
+          "translation": "这，那",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这，那；特指；用于最高级前；专有名词前",
+          "contexts": {
+            "In the early 1990s,the word\" Internet\" was strange to most people.": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "用于最高级前",
+              "pos": "art."
+            },
+            "Communicating with others on the Internet is much faster.": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "Giving all kinds of information is probably the biggest advantage of the Internet.": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "We can use search engines to find the information we need.": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "We can meet new and interesting people in the chat now.": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "特指",
+              "pos": "art."
+            }
+          }
+        },
+        "early": {
+          "lemma": "early",
+          "translation": "早期的",
+          "pos": "adj.",
+          "forms": "earlier, earliest",
+          "meanings": "早期的；早的；提前的；早年",
+          "contexts": {
+            "In the early 1990s,the word\" Internet\" was strange to most people.": {
+              "translation": "早期的",
+              "pos": "adj."
+            }
+          }
+        },
+        "s": {
+          "lemma": "s",
+          "translation": "复数词尾",
+          "pos": "suffix",
+          "forms": "无常见变形",
+          "meanings": "复数词尾；所有格符号；表示缩写",
+          "contexts": {
+            "In the early 1990s,the word\" Internet\" was strange to most people.": {
+              "translation": "构成复数",
+              "pos": "suffix"
+            }
+          }
+        },
+        "word": {
+          "lemma": "word",
+          "translation": "词",
+          "pos": "n.",
+          "forms": "words",
+          "meanings": "词；话语；消息；诺言",
+          "contexts": {
+            "In the early 1990s,the word\" Internet\" was strange to most people.": {
+              "translation": "词",
+              "pos": "n."
+            }
+          }
+        },
+        "internet": {
+          "lemma": "internet",
+          "translation": "互联网",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "互联网；因特网；网络",
+          "contexts": {
+            "In the early 1990s,the word\" Internet\" was strange to most people.": {
+              "translation": "互联网",
+              "pos": "n."
+            },
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "互联网",
+              "pos": "n."
+            },
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "互联网",
+              "pos": "n."
+            },
+            "Communicating with others on the Internet is much faster.": {
+              "translation": "互联网",
+              "pos": "n."
+            },
+            "Giving all kinds of information is probably the biggest advantage of the Internet.": {
+              "translation": "互联网",
+              "pos": "n."
+            },
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "互联网",
+              "pos": "n."
+            },
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "互联网",
+              "pos": "n."
+            }
+          }
+        },
+        "was": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；在；存在；成为",
+          "contexts": {
+            "In the early 1990s,the word\" Internet\" was strange to most people.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "strange": {
+          "lemma": "strange",
+          "translation": "陌生的",
+          "pos": "adj.",
+          "forms": "stranger, strangest",
+          "meanings": "陌生的；奇怪的；奇异的；不熟悉的",
+          "contexts": {
+            "In the early 1990s,the word\" Internet\" was strange to most people.": {
+              "translation": "陌生的",
+              "pos": "adj."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "对……而言",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "对……而言；去；向；到；构成不定式",
+          "contexts": {
+            "In the early 1990s,the word\" Internet\" was strange to most people.": {
+              "translation": "对……而言",
+              "pos": "prep."
+            },
+            "We can use search engines to find the information we need.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "We can also listen to music and see films.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            }
+          }
+        },
+        "most": {
+          "lemma": "most",
+          "translation": "大多数",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "大多数；最；极度；绝大部分",
+          "contexts": {
+            "In the early 1990s,the word\" Internet\" was strange to most people.": {
+              "translation": "大多数",
+              "pos": "det."
+            }
+          }
+        },
+        "people": {
+          "lemma": "people",
+          "translation": "人们",
+          "pos": "n.",
+          "forms": "peoples",
+          "meanings": "人们；民族；人；国民",
+          "contexts": {
+            "In the early 1990s,the word\" Internet\" was strange to most people.": {
+              "translation": "人们",
+              "pos": "n."
+            },
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "人们",
+              "pos": "n."
+            },
+            "We can meet new and interesting people in the chat now.": {
+              "translation": "人",
+              "pos": "n."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "today": {
+          "lemma": "today",
+          "translation": "现今",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "现今；今天；当代",
+          "contexts": {
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "现今",
+              "pos": "adv."
+            }
+          }
+        },
+        "has": {
+          "lemma": "have",
+          "translation": "已经",
+          "pos": "v.",
+          "forms": "has, had, having",
+          "meanings": "已经；有；经历；使；吃",
+          "contexts": {
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "已经",
+              "pos": "v."
+            },
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "已经",
+              "pos": "v."
+            }
+          }
+        },
+        "become": {
+          "lemma": "become",
+          "translation": "成为",
+          "pos": "v.",
+          "forms": "became, become, becoming",
+          "meanings": "成为；变得；适应",
+          "contexts": {
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "成为",
+              "pos": "v."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何",
+          "contexts": {
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "useful": {
+          "lemma": "useful",
+          "translation": "有用的",
+          "pos": "adj.",
+          "forms": "more useful, most useful",
+          "meanings": "有用的；有益的；实用的",
+          "contexts": {
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "有用的",
+              "pos": "adj."
+            }
+          }
+        },
+        "tool": {
+          "lemma": "tool",
+          "translation": "工具",
+          "pos": "n.",
+          "forms": "tools",
+          "meanings": "工具；手段；仪表",
+          "contexts": {
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "工具",
+              "pos": "n."
+            }
+          }
+        },
+        "for": {
+          "lemma": "for",
+          "translation": "对于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "对于；为了；给；支持；因为",
+          "contexts": {
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "对于",
+              "pos": "prep."
+            },
+            "There are some games for free.": {
+              "translation": "免费",
+              "pos": "adj."
+            }
+          }
+        },
+        "all": {
+          "lemma": "all",
+          "translation": "全部",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "全部；所有；总共；整个",
+          "contexts": {
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "整个",
+              "pos": "det."
+            },
+            "Giving all kinds of information is probably the biggest advantage of the Internet.": {
+              "translation": "所有",
+              "pos": "det."
+            },
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "所有",
+              "pos": "det."
+            }
+          }
+        },
+        "chat": {
+          "lemma": "chat",
+          "translation": "聊天",
+          "pos": "v.",
+          "forms": "chatting, chatted",
+          "meanings": "聊天；闲谈；聊天室；网络交流",
+          "contexts": {
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "聊天",
+              "pos": "v."
+            },
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "聊天",
+              "pos": "v."
+            },
+            "We can meet new and interesting people in the chat now.": {
+              "translation": "聊天",
+              "pos": "n."
+            }
+          }
+        },
+        "person": {
+          "lemma": "person",
+          "translation": "人",
+          "pos": "n.",
+          "forms": "people (pl.), persons (pl.)",
+          "meanings": "人；个人；身体；角色",
+          "contexts": {
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "人",
+              "pos": "n."
+            }
+          }
+        },
+        "who": {
+          "lemma": "who",
+          "translation": "……的人",
+          "pos": "pron.",
+          "forms": "whom, whose",
+          "meanings": "谁；……的人；（引导定语从句）",
+          "contexts": {
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "……的人",
+              "pos": "pron."
+            }
+          }
+        },
+        "sitting": {
+          "lemma": "sit",
+          "translation": "坐着的",
+          "pos": "adj.",
+          "forms": "sat, sitting",
+          "meanings": "坐；坐着；使就座；处于（某种状态）",
+          "contexts": {
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "坐着的",
+              "pos": "adj."
+            }
+          }
+        },
+        "other": {
+          "lemma": "other",
+          "translation": "其他的",
+          "pos": "adj.",
+          "forms": "others",
+          "meanings": "其他的；另外的；另一方的；其余的",
+          "contexts": {
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "其他的",
+              "pos": "adj."
+            }
+          }
+        },
+        "part": {
+          "lemma": "part",
+          "translation": "部分",
+          "pos": "n.",
+          "forms": "parts",
+          "meanings": "部分；角色；零件；参与",
+          "contexts": {
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "部分",
+              "pos": "n."
+            }
+          }
+        },
+        "e": {
+          "lemma": "e",
+          "translation": "电子的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "电子的（缩写）",
+          "contexts": {
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "电子的",
+              "pos": "adj."
+            }
+          }
+        },
+        "mail": {
+          "lemma": "mail",
+          "translation": "邮寄",
+          "pos": "v.",
+          "forms": "mailing, mailed, mails",
+          "meanings": "邮寄；邮件；投递；公文",
+          "contexts": {
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "邮寄",
+              "pos": "v."
+            }
+          }
+        },
+        "our": {
+          "lemma": "our",
+          "translation": "我们的",
+          "pos": "pron.",
+          "forms": "ours",
+          "meanings": "我们的",
+          "contexts": {
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "我们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "friends": {
+          "lemma": "friend",
+          "translation": "朋友",
+          "pos": "n.",
+          "forms": "friends",
+          "meanings": "朋友；支持者；友方；赞同者",
+          "contexts": {
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "朋友",
+              "pos": "n."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "并且",
+              "pos": "conj."
+            },
+            "We can meet new and interesting people in the chat now.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "We can also listen to music and see films.": {
+              "translation": "并且",
+              "pos": "conj."
+            },
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "以及",
+              "pos": "conj."
+            },
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "并且",
+              "pos": "conj."
+            }
+          }
+        },
+        "they": {
+          "lemma": "they",
+          "translation": "他们",
+          "pos": "pron.",
+          "forms": "their/theirs/them/themselves",
+          "meanings": "他们；她们；它们",
+          "contexts": {
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "他们",
+              "pos": "pron."
+            }
+          }
+        },
+        "read": {
+          "lemma": "read",
+          "translation": "阅读",
+          "pos": "v.",
+          "forms": "read (past/participle), reading",
+          "meanings": "阅读；读到；读懂；显示",
+          "contexts": {
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "阅读",
+              "pos": "v."
+            }
+          }
+        },
+        "mails": {
+          "lemma": "mail",
+          "translation": "邮件",
+          "pos": "n.",
+          "forms": "mails",
+          "meanings": "邮件；邮递；邮政",
+          "contexts": {
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "邮件",
+              "pos": "n."
+            }
+          }
+        },
+        "within": {
+          "lemma": "within",
+          "translation": "在……之内",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在内部；不超过",
+          "contexts": {
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            }
+          }
+        },
+        "minute": {
+          "lemma": "minute",
+          "translation": "分钟",
+          "pos": "n.",
+          "forms": "minutes",
+          "meanings": "分钟；片刻；会议记录；备忘录",
+          "contexts": {
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "分钟",
+              "pos": "n."
+            }
+          }
+        },
+        "giving": {
+          "lemma": "give",
+          "translation": "提供",
+          "pos": "v.",
+          "forms": "gave, given, giving",
+          "meanings": "给；提供；发出；赠送",
+          "contexts": {
+            "Giving all kinds of information is probably the biggest advantage of the Internet.": {
+              "translation": "提供",
+              "pos": "v."
+            }
+          }
+        },
+        "kinds": {
+          "lemma": "kind",
+          "translation": "种类",
+          "pos": "n.",
+          "forms": "kinds",
+          "meanings": "种类；性质；类型；亲切的",
+          "contexts": {
+            "Giving all kinds of information is probably the biggest advantage of the Internet.": {
+              "translation": "种类",
+              "pos": "n."
+            },
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "种类",
+              "pos": "n."
+            }
+          }
+        },
+        "information": {
+          "lemma": "information",
+          "translation": "信息",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "信息；资料；消息；情报",
+          "contexts": {
+            "Giving all kinds of information is probably the biggest advantage of the Internet.": {
+              "translation": "信息",
+              "pos": "n."
+            },
+            "We can use search engines to find the information we need.": {
+              "translation": "信息",
+              "pos": "n."
+            }
+          }
+        },
+        "probably": {
+          "lemma": "probably",
+          "translation": "大概",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大概；很可能；或许",
+          "contexts": {
+            "Giving all kinds of information is probably the biggest advantage of the Internet.": {
+              "translation": "大概",
+              "pos": "adv."
+            }
+          }
+        },
+        "biggest": {
+          "lemma": "big",
+          "translation": "最大的",
+          "pos": "adj.",
+          "forms": "bigger, biggest",
+          "meanings": "最大的；最重要的；重大的；夸大的",
+          "contexts": {
+            "Giving all kinds of information is probably the biggest advantage of the Internet.": {
+              "translation": "最大的",
+              "pos": "adj."
+            }
+          }
+        },
+        "advantage": {
+          "lemma": "advantage",
+          "translation": "优势",
+          "pos": "n.",
+          "forms": "advantages",
+          "meanings": "优势；有利条件；益处；利用",
+          "contexts": {
+            "Giving all kinds of information is probably the biggest advantage of the Internet.": {
+              "translation": "优势",
+              "pos": "n."
+            }
+          }
+        },
+        "use": {
+          "lemma": "use",
+          "translation": "使用",
+          "pos": "v.",
+          "forms": "uses, used, using",
+          "meanings": "使用；利用；消耗；习惯于",
+          "contexts": {
+            "We can use search engines to find the information we need.": {
+              "translation": "使用",
+              "pos": "v."
+            }
+          }
+        },
+        "search": {
+          "lemma": "search",
+          "translation": "搜索",
+          "pos": "n.",
+          "forms": "searches, searched, searching",
+          "meanings": "搜索；搜寻；探究；搜查；调查",
+          "contexts": {
+            "We can use search engines to find the information we need.": {
+              "translation": "搜索",
+              "pos": "n."
+            },
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "搜索",
+              "pos": "n."
+            }
+          }
+        },
+        "engines": {
+          "lemma": "engine",
+          "translation": "引擎",
+          "pos": "n.",
+          "forms": "engines",
+          "meanings": "引擎；发动机；机车；工具",
+          "contexts": {
+            "We can use search engines to find the information we need.": {
+              "translation": "引擎",
+              "pos": "n."
+            }
+          }
+        },
+        "find": {
+          "lemma": "find",
+          "translation": "找到",
+          "pos": "v.",
+          "forms": "found, finding, finds",
+          "meanings": "发现；找到；认为；发觉",
+          "contexts": {
+            "We can use search engines to find the information we need.": {
+              "translation": "找到",
+              "pos": "v."
+            },
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "找到",
+              "pos": "v."
+            },
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "找到",
+              "pos": "v."
+            }
+          }
+        },
+        "need": {
+          "lemma": "need",
+          "translation": "需要",
+          "pos": "v.",
+          "forms": "needs, needed, needing",
+          "meanings": "需要；必须；有必要",
+          "contexts": {
+            "We can use search engines to find the information we need.": {
+              "translation": "需要",
+              "pos": "v."
+            }
+          }
+        },
+        "just": {
+          "lemma": "just",
+          "translation": "仅仅",
+          "pos": "adverb",
+          "forms": "无常见变形",
+          "meanings": "仅仅；刚才；正好；公正地",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "仅仅",
+              "pos": "adverb"
+            }
+          }
+        },
+        "type": {
+          "lemma": "type",
+          "translation": "输入",
+          "pos": "v.",
+          "forms": "types, typed, typing",
+          "meanings": "输入；打字；归类；类型",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "输入",
+              "pos": "v."
+            }
+          }
+        },
+        "keyword": {
+          "lemma": "keyword",
+          "translation": "关键词",
+          "pos": "n.",
+          "forms": "keywords",
+          "meanings": "关键词；核心词；密码",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "关键词",
+              "pos": "n."
+            }
+          }
+        },
+        "or": {
+          "lemma": "or",
+          "translation": "或者",
+          "pos": "conjunction",
+          "forms": "无常见变形",
+          "meanings": "或者；否则；也不",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "或者",
+              "pos": "conjunction"
+            },
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "或者",
+              "pos": "conjunction"
+            }
+          }
+        },
+        "keywords": {
+          "lemma": "keyword",
+          "translation": "关键词",
+          "pos": "n.",
+          "forms": "keywords",
+          "meanings": "关键词；核心词；密码",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "关键词",
+              "pos": "n."
+            }
+          }
+        },
+        "engine": {
+          "lemma": "engine",
+          "translation": "引擎",
+          "pos": "noun",
+          "forms": "engines",
+          "meanings": "引擎；发动机；机车；搜索工具",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "引擎",
+              "pos": "noun"
+            }
+          }
+        },
+        "will": {
+          "lemma": "will",
+          "translation": "将要",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将要；愿意；会；意志（名词）",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "将要",
+              "pos": "modal v."
+            }
+          }
+        },
+        "give": {
+          "lemma": "give",
+          "translation": "提供",
+          "pos": "v.",
+          "forms": "gave, given, giving",
+          "meanings": "给予；放弃；提供；举行",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "提供",
+              "pos": "v."
+            }
+          }
+        },
+        "us": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "我们（宾格）",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "list": {
+          "lemma": "list",
+          "translation": "列表",
+          "pos": "n.",
+          "forms": "lists, listed, listing",
+          "meanings": "列表；名单；清单；列出",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "列表",
+              "pos": "n."
+            }
+          }
+        },
+        "suitable": {
+          "lemma": "suitable",
+          "translation": "合适的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "合适的；适宜的；相称的",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "合适的",
+              "pos": "adj."
+            }
+          }
+        },
+        "websites": {
+          "lemma": "website",
+          "translation": "网站",
+          "pos": "n.",
+          "forms": "websites",
+          "meanings": "网站；网址",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "网站",
+              "pos": "n."
+            },
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "网站",
+              "pos": "n."
+            }
+          }
+        },
+        "look": {
+          "lemma": "look",
+          "translation": "看",
+          "pos": "v.",
+          "forms": "looks, looked, looking",
+          "meanings": "看；看起来；寻找；注视",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "看",
+              "pos": "v."
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "在",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）；向；针对",
+          "contexts": {
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "在",
+              "pos": "prep."
+            }
+          }
+        },
+        "enjoy": {
+          "lemma": "enjoy",
+          "translation": "享受",
+          "pos": "verb",
+          "forms": "enjoys, enjoyed, enjoying",
+          "meanings": "享受；喜爱；享有；欣赏",
+          "contexts": {
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "享受",
+              "pos": "verb"
+            }
+          }
+        },
+        "lot": {
+          "lemma": "lot",
+          "translation": "许多",
+          "pos": "noun",
+          "forms": "lots",
+          "meanings": "许多；大量；地皮；命运",
+          "contexts": {
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "很多",
+              "pos": "pronoun"
+            },
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "许多",
+              "pos": "noun"
+            }
+          }
+        },
+        "by": {
+          "lemma": "by",
+          "translation": "通过",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "通过；被；凭借；在……旁边",
+          "contexts": {
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "通过",
+              "pos": "prep."
+            }
+          }
+        },
+        "downloading": {
+          "lemma": "download",
+          "translation": "下载",
+          "pos": "verb",
+          "forms": "downloads, downloaded, downloading",
+          "meanings": "下载；把（数据）传给",
+          "contexts": {
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "下载",
+              "pos": "verb"
+            }
+          }
+        },
+        "games": {
+          "lemma": "game",
+          "translation": "游戏",
+          "pos": "noun",
+          "forms": "games",
+          "meanings": "游戏；比赛；运动会；猎物",
+          "contexts": {
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "游戏",
+              "pos": "noun"
+            },
+            "There are some games for free.": {
+              "translation": "游戏",
+              "pos": "noun"
+            }
+          }
+        },
+        "visiting": {
+          "lemma": "visit",
+          "translation": "访问",
+          "pos": "verb",
+          "forms": "visits, visited, visiting",
+          "meanings": "拜访；参观；探望；视察",
+          "contexts": {
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "访问",
+              "pos": "verb"
+            }
+          }
+        },
+        "rooms": {
+          "lemma": "room",
+          "translation": "房间",
+          "pos": "noun",
+          "forms": "rooms",
+          "meanings": "房间；空间；余地；居室",
+          "contexts": {
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "房间",
+              "pos": "noun"
+            }
+          }
+        },
+        "surfing": {
+          "lemma": "surf",
+          "translation": "冲浪",
+          "pos": "verb",
+          "forms": "surfs, surfed, surfing",
+          "meanings": "冲浪；浏览（互联网）；在频道间切换",
+          "contexts": {
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "浏览",
+              "pos": "verb"
+            }
+          }
+        },
+        "there": {
+          "lemma": "there",
+          "translation": "存在（引导词）",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在那里；到那里；（用于there be句型）",
+          "contexts": {
+            "There are some games for free.": {
+              "translation": "存在",
+              "pos": "adv."
+            },
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "存在",
+              "pos": "adv."
+            }
+          }
+        },
+        "are": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "verb",
+          "forms": "am, is, were, been, being",
+          "meanings": "是；在；存在",
+          "contexts": {
+            "There are some games for free.": {
+              "translation": "存在",
+              "pos": "verb"
+            }
+          }
+        },
+        "some": {
+          "lemma": "some",
+          "translation": "一些",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "一些；某个；一部分；大约",
+          "contexts": {
+            "There are some games for free.": {
+              "translation": "一些",
+              "pos": "adj."
+            }
+          }
+        },
+        "free": {
+          "lemma": "free",
+          "translation": "免费的",
+          "pos": "adj.",
+          "forms": "freer, freest",
+          "meanings": "免费的；自由的；空闲的；不受限制的",
+          "contexts": {
+            "There are some games for free.": {
+              "translation": "免费的",
+              "pos": "adj."
+            }
+          }
+        },
+        "meet": {
+          "lemma": "meet",
+          "translation": "遇见",
+          "pos": "verb",
+          "forms": "meets, met, meeting",
+          "meanings": "会面；迎接；遇见；满足；汇合",
+          "contexts": {
+            "We can meet new and interesting people in the chat now.": {
+              "translation": "遇见",
+              "pos": "verb"
+            }
+          }
+        },
+        "new": {
+          "lemma": "new",
+          "translation": "新的",
+          "pos": "adj.",
+          "forms": "newer, newest",
+          "meanings": "新的；刚出现的；新鲜的；新式的",
+          "contexts": {
+            "We can meet new and interesting people in the chat now.": {
+              "translation": "新的",
+              "pos": "adj."
+            }
+          }
+        },
+        "interesting": {
+          "lemma": "interesting",
+          "translation": "有趣的",
+          "pos": "adj.",
+          "forms": "more interesting, most interesting",
+          "meanings": "有趣的；引起兴趣的；令人关注的",
+          "contexts": {
+            "We can meet new and interesting people in the chat now.": {
+              "translation": "有趣的",
+              "pos": "adj."
+            }
+          }
+        },
+        "now": {
+          "lemma": "now",
+          "translation": "现在",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "现在；目前；立刻；既然",
+          "contexts": {
+            "We can meet new and interesting people in the chat now.": {
+              "translation": "现在",
+              "pos": "adv."
+            },
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "现在",
+              "pos": "adv."
+            }
+          }
+        },
+        "also": {
+          "lemma": "also",
+          "translation": "也",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "也；同样；并且",
+          "contexts": {
+            "We can also listen to music and see films.": {
+              "translation": "也",
+              "pos": "adv."
+            },
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "也",
+              "pos": "adv."
+            }
+          }
+        },
+        "listen": {
+          "lemma": "listen",
+          "translation": "听",
+          "pos": "verb",
+          "forms": "listens, listened, listening",
+          "meanings": "听；倾听；听从；留心",
+          "contexts": {
+            "We can also listen to music and see films.": {
+              "translation": "听",
+              "pos": "verb"
+            }
+          }
+        },
+        "music": {
+          "lemma": "music",
+          "translation": "音乐",
+          "pos": "noun",
+          "forms": "无常见变形",
+          "meanings": "音乐；乐曲；乐谱",
+          "contexts": {
+            "We can also listen to music and see films.": {
+              "translation": "音乐",
+              "pos": "noun"
+            }
+          }
+        },
+        "see": {
+          "lemma": "see",
+          "translation": "观看",
+          "pos": "v.",
+          "forms": "saw, seen, seeing",
+          "meanings": "看见；查看；理解；领会；拜访",
+          "contexts": {
+            "We can also listen to music and see films.": {
+              "translation": "观看",
+              "pos": "v."
+            }
+          }
+        },
+        "films": {
+          "lemma": "film",
+          "translation": "电影",
+          "pos": "n.",
+          "forms": "films",
+          "meanings": "电影；胶片；薄膜；拍电影",
+          "contexts": {
+            "We can also listen to music and see films.": {
+              "translation": "电影",
+              "pos": "n."
+            }
+          }
+        },
+        "service": {
+          "lemma": "service",
+          "translation": "服务",
+          "pos": "n.",
+          "forms": "services",
+          "meanings": "服务；服役；公共设施；维修",
+          "contexts": {
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "服务",
+              "pos": "n."
+            }
+          }
+        },
+        "such": {
+          "lemma": "such",
+          "translation": "例如",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "例如；这样的；如此的",
+          "contexts": {
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "例如",
+              "pos": "det."
+            }
+          }
+        },
+        "as": {
+          "lemma": "as",
+          "translation": "例如",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "像……一样；作为；当……时；因为",
+          "contexts": {
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "例如",
+              "pos": "prep."
+            }
+          }
+        },
+        "online": {
+          "lemma": "online",
+          "translation": "在线的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "在线的；联网的；网络上的",
+          "contexts": {
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "在线的",
+              "pos": "adj."
+            }
+          }
+        },
+        "banking": {
+          "lemma": "banking",
+          "translation": "银行业务",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "银行业务；银行业",
+          "contexts": {
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "银行业务",
+              "pos": "n."
+            }
+          }
+        },
+        "job": {
+          "lemma": "job",
+          "translation": "工作",
+          "pos": "n.",
+          "forms": "jobs",
+          "meanings": "工作；职位；活儿；职责",
+          "contexts": {
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "工作",
+              "pos": "n."
+            }
+          }
+        },
+        "finding": {
+          "lemma": "find",
+          "translation": "寻找",
+          "pos": "v.",
+          "forms": "finding, found, finds",
+          "meanings": "寻找；发现；查明；裁决",
+          "contexts": {
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "寻找",
+              "pos": "v."
+            }
+          }
+        },
+        "ticket": {
+          "lemma": "ticket",
+          "translation": "票",
+          "pos": "n.",
+          "forms": "tickets",
+          "meanings": "票；入场券；罚款单",
+          "contexts": {
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "票",
+              "pos": "n."
+            }
+          }
+        },
+        "buying": {
+          "lemma": "buy",
+          "translation": "购买",
+          "pos": "v.",
+          "forms": "buying, bought, buys",
+          "meanings": "购买；买下",
+          "contexts": {
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "购买",
+              "pos": "v."
+            }
+          }
+        },
+        "do": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "v.",
+          "forms": "did, done, doing, does",
+          "meanings": "做；干；进行；引起",
+          "contexts": {
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "做",
+              "pos": "v."
+            }
+          }
+        },
+        "shopping": {
+          "lemma": "shopping",
+          "translation": "购物",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "购物；买东西",
+          "contexts": {
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "购物",
+              "pos": "n."
+            }
+          }
+        },
+        "nearly": {
+          "lemma": "nearly",
+          "translation": "几乎",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "几乎；将近；密切地",
+          "contexts": {
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "几乎",
+              "pos": "adv."
+            }
+          }
+        },
+        "goods": {
+          "lemma": "good",
+          "translation": "商品",
+          "pos": "n.",
+          "forms": "goods",
+          "meanings": "商品；货物；财产",
+          "contexts": {
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "商品",
+              "pos": "n."
+            }
+          }
+        },
+        "sometimes": {
+          "lemma": "sometimes",
+          "translation": "有时",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "有时；偶尔",
+          "contexts": {
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "有时",
+              "pos": "adv."
+            }
+          }
+        },
+        "something": {
+          "lemma": "something",
+          "translation": "某物",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "某事；某物；重要的人或事",
+          "contexts": {
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "某物",
+              "pos": "pron."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "（引导从句）",
+          "pos": "conj.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；因为",
+          "contexts": {
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            }
+          }
+        },
+        "quite": {
+          "lemma": "quite",
+          "translation": "相当",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "相当；完全；十分",
+          "contexts": {
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "相当",
+              "pos": "adv."
+            }
+          }
+        },
+        "good": {
+          "lemma": "good",
+          "translation": "好的",
+          "pos": "adj.",
+          "forms": "better, best",
+          "meanings": "好的；优良的；愉快的",
+          "contexts": {
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "very": {
+          "lemma": "very",
+          "translation": "很",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "非常；极；完全；正是",
+          "contexts": {
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "很",
+              "pos": "adv."
+            }
+          }
+        },
+        "cheap": {
+          "lemma": "cheap",
+          "translation": "便宜的",
+          "pos": "adj.",
+          "forms": "cheaper, cheapest",
+          "meanings": "便宜的；廉价的；低级的；卑鄙的",
+          "contexts": {
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "便宜的",
+              "pos": "adj."
+            }
+          }
+        },
+        "over": {
+          "lemma": "over",
+          "translation": "遍及",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "遍及；超过；在……上方；结束；越过",
+          "contexts": {
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "遍及",
+              "pos": "prep."
+            }
+          }
+        },
+        "world": {
+          "lemma": "world",
+          "translation": "世界",
+          "pos": "n.",
+          "forms": "worlds",
+          "meanings": "世界；地球；领域；世间",
+          "contexts": {
+            "But today, Internet has become a useful tool for people all over the world.": {
+              "translation": "世界",
+              "pos": "n."
+            },
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "世界",
+              "pos": "n."
+            }
+          }
+        },
+        "maybe": {
+          "lemma": "maybe",
+          "translation": "大概",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大概；或许；可能",
+          "contexts": {
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "或许",
+              "pos": "adv."
+            }
+          }
+        },
+        "been": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, being, was, were",
+          "meanings": "是；成为；存在；发生",
+          "contexts": {
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "greatest": {
+          "lemma": "great",
+          "translation": "最伟大的",
+          "pos": "adj.",
+          "forms": "greater, greatest",
+          "meanings": "最伟大的；最重要的；程度最大的；最优秀的",
+          "contexts": {
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "最伟大的",
+              "pos": "adj."
+            }
+          }
+        },
+        "invention": {
+          "lemma": "invention",
+          "translation": "发明",
+          "pos": "n.",
+          "forms": "inventions",
+          "meanings": "发明；发明物；创造；捏造",
+          "contexts": {
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "发明",
+              "pos": "n."
+            }
+          }
+        },
+        "field": {
+          "lemma": "field",
+          "translation": "领域",
+          "pos": "n.",
+          "forms": "fields",
+          "meanings": "领域；田地；运动场地；野外",
+          "contexts": {
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "领域",
+              "pos": "n."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
+          "contexts": {
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Giving all kinds of information is probably the biggest advantage of the Internet.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "communication": {
+          "lemma": "communication",
+          "translation": "通讯",
+          "pos": "n.",
+          "forms": "communications",
+          "meanings": "通讯；交流；传达；通信系统",
+          "contexts": {
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "通讯",
+              "pos": "n."
+            }
+          }
+        },
+        "history": {
+          "lemma": "history",
+          "translation": "历史",
+          "pos": "n.",
+          "forms": "histories",
+          "meanings": "历史；历史学；来历；（某人的）经历",
+          "contexts": {
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "历史",
+              "pos": "n."
+            }
+          }
+        },
+        "mankind": {
+          "lemma": "mankind",
+          "translation": "人类",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "人类",
+          "contexts": {
+            "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .": {
+              "translation": "人类",
+              "pos": "n."
+            }
+          }
+        },
+        "communicating": {
+          "lemma": "communicate",
+          "translation": "交流",
+          "pos": "v.",
+          "forms": "communicates, communicated, communicating",
+          "meanings": "交流；通讯；传达；连接",
+          "contexts": {
+            "Communicating with others on the Internet is much faster.": {
+              "translation": "交流",
+              "pos": "v."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "与……一起",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "与……一起；使用；带有；由于；关于",
+          "contexts": {
+            "Communicating with others on the Internet is much faster.": {
+              "translation": "与……一起",
+              "pos": "prep."
+            },
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "与……一起",
+              "pos": "prep."
+            }
+          }
+        },
+        "others": {
+          "lemma": "other",
+          "translation": "其他人",
+          "pos": "pron.",
+          "forms": "others",
+          "meanings": "其他人；别的人；其余的人；另外的人",
+          "contexts": {
+            "Communicating with others on the Internet is much faster.": {
+              "translation": "其他人",
+              "pos": "pron."
+            }
+          }
+        },
+        "on": {
+          "lemma": "on",
+          "translation": "通过（媒介）",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "通过（媒介）；在……之上；关于；在（时间）",
+          "contexts": {
+            "Communicating with others on the Internet is much faster.": {
+              "translation": "通过（媒介）",
+              "pos": "prep."
+            },
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "通过（媒介）",
+              "pos": "prep."
+            },
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "通过（媒介）",
+              "pos": "prep."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于",
+          "contexts": {
+            "Communicating with others on the Internet is much faster.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Giving all kinds of information is probably the biggest advantage of the Internet.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "much": {
+          "lemma": "much",
+          "translation": "很",
+          "pos": "adv.",
+          "forms": "more, most",
+          "meanings": "很；非常；多",
+          "contexts": {
+            "Communicating with others on the Internet is much faster.": {
+              "translation": "很",
+              "pos": "adv."
+            }
+          }
+        },
+        "faster": {
+          "lemma": "fast",
+          "translation": "更快的",
+          "pos": "adj.",
+          "forms": "faster, fastest",
+          "meanings": "更快的；更迅速的",
+          "contexts": {
+            "Communicating with others on the Internet is much faster.": {
+              "translation": "更快的",
+              "pos": "adj."
+            }
+          }
+        },
+        "we": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "us, our, ours",
+          "meanings": "我们",
+          "contexts": {
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "We can use search engines to find the information we need.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "We can meet new and interesting people in the chat now.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "We can also listen to music and see films.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "can": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal v.",
+          "forms": "could",
+          "meanings": "能够；可以；可能；罐头",
+          "contexts": {
+            "We can chat with a person who is sitting in the other part of the world.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "We can e-mail our friends and they can read the e-mails within a minute.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "We can use search engines to find the information we need.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "We can meet new and interesting people in the chat now.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "We can also listen to music and see films.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "We can also do shopping and find nearly all kinds of goods.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "Sometimes we can find something that is quite good but very cheap.": {
+              "translation": "能够",
+              "pos": "modal v."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "How many main advantages of the Internet are talked about in the_passage?",
+          "options": [
+            "Three.",
+            "Four.",
+            "Five.",
+            "Six."
+          ],
+          "answer": 1,
+          "explanation": "文章分别从交流速度快、提供信息、娱乐功能以及在线服务四个方面阐述了互联网的优势，故总计四点。"
+        },
+        {
+          "prompt": "What fact doesn't the passage provide?",
+          "options": [
+            "We can find almost anything we want to know on the Internet.",
+            "Some games on the Internet are free.",
+            "We can buy most things we need on the Internet.",
+            "Goods on the Internet are more expensive than those in real shops."
+          ],
+          "answer": 3,
+          "explanation": "文中提到网上有时能买到便宜的商品，并未说网上商品比实体店更贵，因此该选项不符合事实。"
+        },
+        {
+          "prompt": "Which title best gives the main idea of the passage?",
+          "options": [
+            "Online Shopping",
+            "Exchanging Information on the Internet",
+            "The Advantages of the Internet",
+            "Surfing the Websites on the Internet"
+          ],
+          "answer": 2,
+          "explanation": "文章开头介绍了互联网的普及，随后分段列举了互联网在交流、信息检索、娱乐和服务方面的多项优势，因此第三个选项最能概括全篇主旨。"
+        }
+      ],
+      "generationUsage": {
+        "requests": 11,
+        "inputTokens": 24920,
+        "outputTokens": 13754,
+        "totalTokens": 38674,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 11,
+            "inputTokens": 24920,
+            "outputTokens": 13754,
+            "totalTokens": 38674,
             "estimatedCostUsd": null
           }
         }
