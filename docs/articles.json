@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T11:37:17.032Z",
+  "generatedAt": "2026-08-03T11:38:34.587Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -29948,6 +29948,3188 @@
             "inputTokens": 28422,
             "outputTokens": 14670,
             "totalTokens": 43092,
+            "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-83aed36829bb66d0",
+      "title": "RACE 高中英语阅读 high18023",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "California has a new program called the Digital Textbook Initiative. \"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online. He listed reasons why he thinks digital textbooks make sense.\nCalifornia approves traditional textbooks in six-year cycles. Digital ones can offer the latest information. They lighten the load of school bags. They save paper and trees, and make learning more fun and interactive. And above all, he said, they help schools with their finances.\nThe state has had to make severe cuts in school spending because of deep financial problems. More than six million students attend California public schools. \nEarlier this year, California invited content developers to offer digital math and science materials for high schools. These had to meet at least 90% of the state's learning requirements. Specially trained teachers examined 16 textbooks and approved ten of them. Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years. The foundation paid teachers and other education professionals to write and edit them. The money came from a group financed by the Khosla Family.\nCalifornia cannot require schools to use the digital textbooks. Individual school districts will have to decide for themselves. Susan Martimo, a California Department of Education official, says she does not expect widespread use right away. Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.\nSchool administrators point out that the texts may be free online, but students need a way to access them. Not everyone has a computer or electronic reader. Schools could print out copies, but that would not help the environment. Also, there is the cost to train teachers to use digital textbooks effectively.",
+      "wordCount": 341,
+      "sentenceTranslations": {
+        "California has a new program called the Digital Textbook Initiative.": "加利福尼亚州有一项名为“数字教科书计划”的新项目。",
+        "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": "“从今年秋季开始，我们将首先在高中数学和科学学科中，成为全国第一个为学校提供经州政府批准的数字教科书清单的州。”",
+        "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": "这是州长阿诺德·施瓦辛格在六月份发表的讲话，他在谈论自己为推动学校使用网上免费资源所做的努力。",
+        "He listed reasons why he thinks digital textbooks make sense.": "他列举了为什么他认为数字教科书合情合理的理由。",
+        "California approves traditional textbooks in six-year cycles.": "加利福尼亚州每六年进行一次传统教科书的审批。",
+        "Digital ones can offer the latest information.": "而数字教科书可以提供最新的信息。",
+        "They lighten the load of school bags.": "它们减轻了书包的重量。",
+        "They save paper and trees, and make learning more fun and interactive.": "它们既节省了纸张和树木，又让学习变得更加有趣和互动。",
+        "And above all, he said, they help schools with their finances.": "他说，最重要的是，它们能够帮助学校改善财务状况。",
+        "The state has had to make severe cuts in school spending because of deep financial problems.": "由于深陷财务危机，该州不得不大幅削减学校开支。",
+        "More than six million students attend California public schools.": "超过六百万名学生在加州的公立学校就读。",
+        "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": "今年早些时候，加州邀请内容开发商为高中提供数字化的数学和科学教材。",
+        "These had to meet at least 90% of the state's learning requirements.": "这些教材必须至少满足该州90%的学习要求。",
+        "Specially trained teachers examined 16 textbooks and approved ten of them.": "经过专门培训的教师审核了16本教科书，并批准了其中的10本。",
+        "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": "这10本教材中有6本由CK-12基金会出版，这是一个已经开发数字科学和数学教材约两年的非营利组织。",
+        "The foundation paid teachers and other education professionals to write and edit them.": "该基金会支付报酬聘请教师和其他教育专业人士来编写和编辑这些教材。",
+        "The money came from a group financed by the Khosla Family.": "这笔资金来自一个由科斯拉（Khosla）家族资助的团体。",
+        "California cannot require schools to use the digital textbooks.": "加利福尼亚州政府不能强制学校使用这些数字教科书。",
+        "Individual school districts will have to decide for themselves.": "各个学区必须自行决定。",
+        "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": "加利福尼亚州教育部官员苏珊·马蒂莫表示，她预计不会立即出现大范围的使用。",
+        "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": "她认为最可能的情况是，一些技术条件较好的学校会率先使用，但也只是作为传统课本的补充。",
+        "School administrators point out that the texts may be free online, but students need a way to access them.": "学校管理人员指出，这些教材在网上或许是免费的，但学生们还需要相应的设备来获取它们。",
+        "Not everyone has a computer or electronic reader.": "并非每个人都有电脑或电子阅读器。",
+        "Schools could print out copies, but that would not help the environment.": "学校可以把教材打印出来，但这不利于环境保护。",
+        "Also, there is the cost to train teachers to use digital textbooks effectively.": "此外，培训教师以有效地使用数字教科书也需要成本。"
+      },
+      "glossary": {
+        "california": {
+          "lemma": "california",
+          "translation": "加利福尼亚州",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "加利福尼亚州；美国加州",
+          "contexts": {
+            "California has a new program called the Digital Textbook Initiative.": {
+              "translation": "加利福尼亚州",
+              "pos": "n."
+            },
+            "California approves traditional textbooks in six-year cycles.": {
+              "translation": "加利福尼亚州",
+              "pos": "n."
+            },
+            "More than six million students attend California public schools.": {
+              "translation": "加利福尼亚州",
+              "pos": "n."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "加利福尼亚州",
+              "pos": "n."
+            },
+            "California cannot require schools to use the digital textbooks.": {
+              "translation": "加利福尼亚州",
+              "pos": "n."
+            },
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "加利福尼亚州",
+              "pos": "n."
+            }
+          }
+        },
+        "has": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "has, had, having",
+          "meanings": "已经；有；经历；使；吃",
+          "contexts": {
+            "California has a new program called the Digital Textbook Initiative.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "经历/遭遇",
+              "pos": "v."
+            },
+            "Not everyone has a computer or electronic reader.": {
+              "translation": "有",
+              "pos": "v."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何；一种",
+          "contexts": {
+            "California has a new program called the Digital Textbook Initiative.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "The money came from a group financed by the Khosla Family.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "一名",
+              "pos": "art."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "一种",
+              "pos": "art."
+            },
+            "Not everyone has a computer or electronic reader.": {
+              "translation": "一台",
+              "pos": "art."
+            }
+          }
+        },
+        "new": {
+          "lemma": "new",
+          "translation": "新的",
+          "pos": "adj.",
+          "forms": "newer, newest",
+          "meanings": "新的；刚出现的；新鲜的；新式的",
+          "contexts": {
+            "California has a new program called the Digital Textbook Initiative.": {
+              "translation": "新的",
+              "pos": "adj."
+            }
+          }
+        },
+        "program": {
+          "lemma": "program",
+          "translation": "计划",
+          "pos": "n.",
+          "forms": "programs, programming, programmed",
+          "meanings": "课程项目；程序；计划；节目",
+          "contexts": {
+            "California has a new program called the Digital Textbook Initiative.": {
+              "translation": "计划",
+              "pos": "n."
+            }
+          }
+        },
+        "called": {
+          "lemma": "call",
+          "translation": "名为",
+          "pos": "v.",
+          "forms": "calls, called, calling",
+          "meanings": "名为；叫；打电话；呼喊",
+          "contexts": {
+            "California has a new program called the Digital Textbook Initiative.": {
+              "translation": "名为",
+              "pos": "v."
+            }
+          }
+        },
+        "the": {
+          "lemma": "the",
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
+          "contexts": {
+            "California has a new program called the Digital Textbook Initiative.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Digital ones can offer the latest information.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "They lighten the load of school bags.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The money came from a group financed by the Khosla Family.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "California cannot require schools to use the digital textbooks.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            }
+          }
+        },
+        "digital": {
+          "lemma": "digital",
+          "translation": "数字的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "数字的；数码的",
+          "contexts": {
+            "California has a new program called the Digital Textbook Initiative.": {
+              "translation": "数字的",
+              "pos": "adj."
+            },
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "数字的",
+              "pos": "adj."
+            },
+            "He listed reasons why he thinks digital textbooks make sense.": {
+              "translation": "数字的",
+              "pos": "adj."
+            },
+            "Digital ones can offer the latest information.": {
+              "translation": "数字的",
+              "pos": "adj."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "数字的",
+              "pos": "adj."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "数字的",
+              "pos": "adj."
+            },
+            "California cannot require schools to use the digital textbooks.": {
+              "translation": "数字的",
+              "pos": "adj."
+            },
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "数字的",
+              "pos": "adj."
+            }
+          }
+        },
+        "textbook": {
+          "lemma": "textbook",
+          "translation": "教科书",
+          "pos": "n.",
+          "forms": "textbooks",
+          "meanings": "教科书；教材",
+          "contexts": {
+            "California has a new program called the Digital Textbook Initiative.": {
+              "translation": "教科书",
+              "pos": "n."
+            }
+          }
+        },
+        "initiative": {
+          "lemma": "initiative",
+          "translation": "计划",
+          "pos": "n.",
+          "forms": "initiatives",
+          "meanings": "计划；倡议；主动性；首创精神",
+          "contexts": {
+            "California has a new program called the Digital Textbook Initiative.": {
+              "translation": "计划",
+              "pos": "n."
+            }
+          }
+        },
+        "starting": {
+          "lemma": "start",
+          "translation": "开始",
+          "pos": "v.",
+          "forms": "starts, started, starting",
+          "meanings": "开始；启程；启动；创立",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "开始",
+              "pos": "v."
+            }
+          }
+        },
+        "this": {
+          "lemma": "this",
+          "translation": "这个",
+          "pos": "det.",
+          "forms": "these",
+          "meanings": "这个；这；这种；此",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "这个",
+              "pos": "det."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "今年（这一年）",
+              "pos": "det."
+            }
+          }
+        },
+        "fall": {
+          "lemma": "fall",
+          "translation": "秋季",
+          "pos": "n.",
+          "forms": "falls, falling, fell, fallen",
+          "meanings": "秋季；落下；跌倒；下降",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "秋季",
+              "pos": "n."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "使用",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "与……一起；使用；带有；由于；关于",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "使用",
+              "pos": "prep."
+            },
+            "And above all, he said, they help schools with their finances.": {
+              "translation": "为了/关于",
+              "pos": "prep."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "拥有",
+              "pos": "prep."
+            }
+          }
+        },
+        "high": {
+          "lemma": "high",
+          "translation": "高中的",
+          "pos": "adj.",
+          "forms": "higher, highest",
+          "meanings": "高中的；高的；高级的；强烈的",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "高中的",
+              "pos": "adj."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "高中的",
+              "pos": "adj."
+            }
+          }
+        },
+        "school": {
+          "lemma": "school",
+          "translation": "学校",
+          "pos": "n.",
+          "forms": "schools",
+          "meanings": "学校；学院；上学；学派",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "They lighten the load of school bags.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "Individual school districts will have to decide for themselves.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "学校",
+              "pos": "n."
+            }
+          }
+        },
+        "math": {
+          "lemma": "math",
+          "translation": "数学",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "数学",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "数学",
+              "pos": "n."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "数学",
+              "pos": "n."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "数学",
+              "pos": "n."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "They save paper and trees, and make learning more fun and interactive.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "And above all, he said, they help schools with their finances.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Specially trained teachers examined 16 textbooks and approved ten of them.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "和",
+              "pos": "conj."
+            }
+          }
+        },
+        "science": {
+          "lemma": "science",
+          "translation": "科学",
+          "pos": "n.",
+          "forms": "sciences",
+          "meanings": "科学；自然科学；理科；学科",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "科学",
+              "pos": "n."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "科学",
+              "pos": "n."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "科学",
+              "pos": "n."
+            }
+          }
+        },
+        "we": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "us, our, ours",
+          "meanings": "我们",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "大约",
+              "pos": "adv."
+            }
+          }
+        },
+        "his": {
+          "lemma": "he",
+          "translation": "他的",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他的；属于他的",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "他的",
+              "pos": "pron."
+            }
+          }
+        },
+        "effort": {
+          "lemma": "effort",
+          "translation": "努力",
+          "pos": "n.",
+          "forms": "efforts",
+          "meanings": "努力；艰难的尝试；成就；工作",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "努力",
+              "pos": "n."
+            }
+          }
+        },
+        "get": {
+          "lemma": "get",
+          "translation": "使",
+          "pos": "v.",
+          "forms": "gets, got, gotten, getting",
+          "meanings": "获得；变得；到达；理解；使得",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "使",
+              "pos": "v."
+            }
+          }
+        },
+        "use": {
+          "lemma": "use",
+          "translation": "使用",
+          "pos": "v.",
+          "forms": "uses, used, using",
+          "meanings": "使用；利用；消耗；习惯于",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "使用",
+              "pos": "v."
+            },
+            "California cannot require schools to use the digital textbooks.": {
+              "translation": "使用",
+              "pos": "v."
+            },
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "使用",
+              "pos": "n."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "使用",
+              "pos": "v."
+            },
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "使用",
+              "pos": "v."
+            }
+          }
+        },
+        "materials": {
+          "lemma": "material",
+          "translation": "材料",
+          "pos": "n.",
+          "forms": "materials",
+          "meanings": "材料；素材；资料；布料",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "材料",
+              "pos": "n."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "资料",
+              "pos": "n."
+            }
+          }
+        },
+        "available": {
+          "lemma": "available",
+          "translation": "可获得的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "可获得的；有空的；可利用的；可买到的",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "可获得的",
+              "pos": "adj."
+            }
+          }
+        },
+        "free": {
+          "lemma": "free",
+          "translation": "免费的",
+          "pos": "adj.",
+          "forms": "freer, freest",
+          "meanings": "免费的；自由的；空闲的；不受限制的",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "免费的",
+              "pos": "adj."
+            },
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "免费的",
+              "pos": "adj."
+            }
+          }
+        },
+        "online": {
+          "lemma": "online",
+          "translation": "在线的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "在线的；联网的；网络上的",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "在线的",
+              "pos": "adv."
+            },
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "在线的",
+              "pos": "adv."
+            }
+          }
+        },
+        "he": {
+          "lemma": "he",
+          "translation": "他",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他；（指代男性）；某人；那个人",
+          "contexts": {
+            "He listed reasons why he thinks digital textbooks make sense.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "And above all, he said, they help schools with their finances.": {
+              "translation": "他",
+              "pos": "pron."
+            }
+          }
+        },
+        "listed": {
+          "lemma": "list",
+          "translation": "列出",
+          "pos": "v.",
+          "forms": "lists, listed, listing",
+          "meanings": "列出；清单；列表；登记",
+          "contexts": {
+            "He listed reasons why he thinks digital textbooks make sense.": {
+              "translation": "列出",
+              "pos": "v."
+            }
+          }
+        },
+        "reasons": {
+          "lemma": "reason",
+          "translation": "理由",
+          "pos": "n.",
+          "forms": "reasons",
+          "meanings": "理由；原因；理性；理智",
+          "contexts": {
+            "He listed reasons why he thinks digital textbooks make sense.": {
+              "translation": "理由",
+              "pos": "n."
+            }
+          }
+        },
+        "why": {
+          "lemma": "why",
+          "translation": "为什么",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "为什么；……的原因",
+          "contexts": {
+            "He listed reasons why he thinks digital textbooks make sense.": {
+              "translation": "为什么",
+              "pos": "adv."
+            }
+          }
+        },
+        "thinks": {
+          "lemma": "think",
+          "translation": "认为",
+          "pos": "v.",
+          "forms": "thinks, thought, thinking",
+          "meanings": "认为；想；思考；考虑",
+          "contexts": {
+            "He listed reasons why he thinks digital textbooks make sense.": {
+              "translation": "认为",
+              "pos": "v."
+            }
+          }
+        },
+        "make": {
+          "lemma": "make",
+          "translation": "使",
+          "pos": "v.",
+          "forms": "made, making, makes",
+          "meanings": "使；制作；制造；准备；制定",
+          "contexts": {
+            "He listed reasons why he thinks digital textbooks make sense.": {
+              "translation": "构成（有意义）",
+              "pos": "v."
+            },
+            "They save paper and trees, and make learning more fun and interactive.": {
+              "translation": "使",
+              "pos": "v."
+            },
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "制定（做）",
+              "pos": "v."
+            }
+          }
+        },
+        "sense": {
+          "lemma": "sense",
+          "translation": "意义",
+          "pos": "n.",
+          "forms": "senses",
+          "meanings": "意义；感觉；判断力；感知",
+          "contexts": {
+            "He listed reasons why he thinks digital textbooks make sense.": {
+              "translation": "意义",
+              "pos": "n."
+            }
+          }
+        },
+        "approves": {
+          "lemma": "approve",
+          "translation": "批准",
+          "pos": "v.",
+          "forms": "approves, approved, approving",
+          "meanings": "批准；赞成；同意；认可",
+          "contexts": {
+            "California approves traditional textbooks in six-year cycles.": {
+              "translation": "批准",
+              "pos": "v."
+            }
+          }
+        },
+        "traditional": {
+          "lemma": "traditional",
+          "translation": "传统的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "传统的；习俗的；守旧的",
+          "contexts": {
+            "California approves traditional textbooks in six-year cycles.": {
+              "translation": "传统的",
+              "pos": "adj."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "传统的",
+              "pos": "adj."
+            }
+          }
+        },
+        "six": {
+          "lemma": "six",
+          "translation": "六",
+          "pos": "num.",
+          "forms": "无常见变形",
+          "meanings": "六；六个",
+          "contexts": {
+            "California approves traditional textbooks in six-year cycles.": {
+              "translation": "六",
+              "pos": "num."
+            },
+            "More than six million students attend California public schools.": {
+              "translation": "六",
+              "pos": "num."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "六",
+              "pos": "num."
+            }
+          }
+        },
+        "year": {
+          "lemma": "year",
+          "translation": "年",
+          "pos": "n.",
+          "forms": "years",
+          "meanings": "年；年份；年龄；年度",
+          "contexts": {
+            "California approves traditional textbooks in six-year cycles.": {
+              "translation": "年",
+              "pos": "n."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "年",
+              "pos": "n."
+            }
+          }
+        },
+        "cycles": {
+          "lemma": "cycle",
+          "translation": "周期",
+          "pos": "n.",
+          "forms": "cycles",
+          "meanings": "周期；循环；自行车；骑自行车",
+          "contexts": {
+            "California approves traditional textbooks in six-year cycles.": {
+              "translation": "周期",
+              "pos": "n."
+            }
+          }
+        },
+        "ones": {
+          "lemma": "one",
+          "translation": "（用于代替前文提到的人或物）那个，那些",
+          "pos": "pron.",
+          "forms": "ones",
+          "meanings": "（用于代替前文提到的人或物）那个，那些；一个人；任何人；一",
+          "contexts": {
+            "Digital ones can offer the latest information.": {
+              "translation": "（指代前文的教材）那些",
+              "pos": "pron."
+            }
+          }
+        },
+        "can": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal v.",
+          "forms": "could",
+          "meanings": "能够；可以；可能；罐头",
+          "contexts": {
+            "Digital ones can offer the latest information.": {
+              "translation": "能够",
+              "pos": "modal v."
+            }
+          }
+        },
+        "offer": {
+          "lemma": "offer",
+          "translation": "提供",
+          "pos": "v.",
+          "forms": "offers, offered, offering",
+          "meanings": "提供；主动提出；出价；提议",
+          "contexts": {
+            "Digital ones can offer the latest information.": {
+              "translation": "提供",
+              "pos": "v."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "提供",
+              "pos": "v."
+            }
+          }
+        },
+        "latest": {
+          "lemma": "latest",
+          "translation": "最新的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "最新的；最晚的；最近的",
+          "contexts": {
+            "Digital ones can offer the latest information.": {
+              "translation": "最新的",
+              "pos": "adj."
+            }
+          }
+        },
+        "information": {
+          "lemma": "information",
+          "translation": "信息",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "信息；资料；消息；情报",
+          "contexts": {
+            "Digital ones can offer the latest information.": {
+              "translation": "信息",
+              "pos": "n."
+            }
+          }
+        },
+        "they": {
+          "lemma": "they",
+          "translation": "它们",
+          "pos": "pron.",
+          "forms": "their/theirs/them/themselves",
+          "meanings": "他们；她们；它们",
+          "contexts": {
+            "They lighten the load of school bags.": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "They save paper and trees, and make learning more fun and interactive.": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "And above all, he said, they help schools with their finances.": {
+              "translation": "它们",
+              "pos": "pron."
+            }
+          }
+        },
+        "lighten": {
+          "lemma": "lighten",
+          "translation": "减轻",
+          "pos": "v.",
+          "forms": "lightens, lightened, lightening",
+          "meanings": "减轻；使明亮；使轻松；变轻",
+          "contexts": {
+            "They lighten the load of school bags.": {
+              "translation": "减轻",
+              "pos": "v."
+            }
+          }
+        },
+        "load": {
+          "lemma": "load",
+          "translation": "负荷",
+          "pos": "n.",
+          "forms": "loads",
+          "meanings": "负荷；重担；装载量；一堆",
+          "contexts": {
+            "They lighten the load of school bags.": {
+              "translation": "负担",
+              "pos": "n."
+            }
+          }
+        },
+        "bags": {
+          "lemma": "bag",
+          "translation": "书包",
+          "pos": "n.",
+          "forms": "bags",
+          "meanings": "书包；袋子；手提包",
+          "contexts": {
+            "They lighten the load of school bags.": {
+              "translation": "书包",
+              "pos": "n."
+            }
+          }
+        },
+        "save": {
+          "lemma": "save",
+          "translation": "节省",
+          "pos": "v.",
+          "forms": "saves, saved, saving",
+          "meanings": "节省；存钱；拯救；保存",
+          "contexts": {
+            "They save paper and trees, and make learning more fun and interactive.": {
+              "translation": "节省",
+              "pos": "v."
+            }
+          }
+        },
+        "paper": {
+          "lemma": "paper",
+          "translation": "纸",
+          "pos": "n.",
+          "forms": "papers",
+          "meanings": "纸；论文；报纸；文件",
+          "contexts": {
+            "They save paper and trees, and make learning more fun and interactive.": {
+              "translation": "纸",
+              "pos": "n."
+            }
+          }
+        },
+        "trees": {
+          "lemma": "tree",
+          "translation": "树木",
+          "pos": "n.",
+          "forms": "trees",
+          "meanings": "树木；树状物",
+          "contexts": {
+            "They save paper and trees, and make learning more fun and interactive.": {
+              "translation": "树木",
+              "pos": "n."
+            }
+          }
+        },
+        "learning": {
+          "lemma": "learn",
+          "translation": "学习",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "学习；学问；知识；得知",
+          "contexts": {
+            "They save paper and trees, and make learning more fun and interactive.": {
+              "translation": "学习",
+              "pos": "n."
+            },
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "学习",
+              "pos": "n."
+            }
+          }
+        },
+        "more": {
+          "lemma": "more",
+          "translation": "更",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "更多；较大程度；额外；再",
+          "contexts": {
+            "They save paper and trees, and make learning more fun and interactive.": {
+              "translation": "更",
+              "pos": "adv."
+            },
+            "More than six million students attend California public schools.": {
+              "translation": "超过",
+              "pos": "adv."
+            }
+          }
+        },
+        "fun": {
+          "lemma": "fun",
+          "translation": "乐趣",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "有趣的；快乐的；乐趣；玩笑",
+          "contexts": {
+            "They save paper and trees, and make learning more fun and interactive.": {
+              "translation": "有趣的",
+              "pos": "adj."
+            }
+          }
+        },
+        "interactive": {
+          "lemma": "interactive",
+          "translation": "交互式的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "交互式的；互动的",
+          "contexts": {
+            "They save paper and trees, and make learning more fun and interactive.": {
+              "translation": "交互式的",
+              "pos": "adj."
+            }
+          }
+        },
+        "above": {
+          "lemma": "above",
+          "translation": "最重要的是",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之上；上述的；超过；高出",
+          "contexts": {
+            "And above all, he said, they help schools with their finances.": {
+              "translation": "最重要的",
+              "pos": "prep."
+            }
+          }
+        },
+        "all": {
+          "lemma": "all",
+          "translation": "全部",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "全部；所有；总共；整个",
+          "contexts": {
+            "And above all, he said, they help schools with their finances.": {
+              "translation": "一切",
+              "pos": "pron."
+            }
+          }
+        },
+        "said": {
+          "lemma": "say",
+          "translation": "说",
+          "pos": "v.",
+          "forms": "says, saying, said",
+          "meanings": "说；讲；陈述；表达；声称",
+          "contexts": {
+            "And above all, he said, they help schools with their finances.": {
+              "translation": "说",
+              "pos": "v."
+            }
+          }
+        },
+        "help": {
+          "lemma": "help",
+          "translation": "帮助",
+          "pos": "v.",
+          "forms": "helps, helped, helping",
+          "meanings": "帮助；协助；救助；有助于",
+          "contexts": {
+            "And above all, he said, they help schools with their finances.": {
+              "translation": "帮助",
+              "pos": "v."
+            },
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "有助于",
+              "pos": "v."
+            }
+          }
+        },
+        "their": {
+          "lemma": "they",
+          "translation": "他们的",
+          "pos": "pron.",
+          "forms": "theirs",
+          "meanings": "他们的；她们的；它们的",
+          "contexts": {
+            "And above all, he said, they help schools with their finances.": {
+              "translation": "他们的",
+              "pos": "pron."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "他们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "finances": {
+          "lemma": "finance",
+          "translation": "财政状况",
+          "pos": "n.",
+          "forms": "finances",
+          "meanings": "财政；金融；财务状况；财源",
+          "contexts": {
+            "And above all, he said, they help schools with their finances.": {
+              "translation": "财政状况",
+              "pos": "n."
+            }
+          }
+        },
+        "had": {
+          "lemma": "have",
+          "translation": "必须",
+          "pos": "aux.",
+          "forms": "has, having, had",
+          "meanings": "必须；有；吃；经历",
+          "contexts": {
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "不得不",
+              "pos": "aux."
+            },
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "必须",
+              "pos": "aux."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "已经（过去完成时态构成）",
+              "pos": "aux."
+            }
+          }
+        },
+        "severe": {
+          "lemma": "severe",
+          "translation": "严重的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "严重的；严厉的；苛刻的；朴素的",
+          "contexts": {
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "严重的",
+              "pos": "adj."
+            }
+          }
+        },
+        "cuts": {
+          "lemma": "cut",
+          "translation": "削减",
+          "pos": "n.",
+          "forms": "cuts",
+          "meanings": "削减；切口；伤口；缩减",
+          "contexts": {
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "削减",
+              "pos": "n."
+            }
+          }
+        },
+        "because": {
+          "lemma": "because",
+          "translation": "因为",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "因为；由于",
+          "contexts": {
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "因为",
+              "pos": "conj."
+            }
+          }
+        },
+        "deep": {
+          "lemma": "deep",
+          "translation": "深重的",
+          "pos": "adj.",
+          "forms": "deeper, deepest",
+          "meanings": "深重的；深刻的；深奥的；极度的",
+          "contexts": {
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "深重的",
+              "pos": "adj."
+            }
+          }
+        },
+        "financial": {
+          "lemma": "financial",
+          "translation": "财政的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "财政的；金融的；财务的",
+          "contexts": {
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "财政的",
+              "pos": "adj."
+            }
+          }
+        },
+        "problems": {
+          "lemma": "problem",
+          "translation": "问题",
+          "pos": "n.",
+          "forms": "problems",
+          "meanings": "问题；难题；困境；习题",
+          "contexts": {
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "问题",
+              "pos": "n."
+            }
+          }
+        },
+        "than": {
+          "lemma": "than",
+          "translation": "比",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "比；除……之外；与之相比",
+          "contexts": {
+            "More than six million students attend California public schools.": {
+              "translation": "比",
+              "pos": "conj."
+            }
+          }
+        },
+        "million": {
+          "lemma": "million",
+          "translation": "百万",
+          "pos": "num.",
+          "forms": "millions",
+          "meanings": "百万；无数",
+          "contexts": {
+            "More than six million students attend California public schools.": {
+              "translation": "百万",
+              "pos": "num."
+            }
+          }
+        },
+        "students": {
+          "lemma": "student",
+          "translation": "学生",
+          "pos": "n.",
+          "forms": "students",
+          "meanings": "学生；学者；研究者",
+          "contexts": {
+            "More than six million students attend California public schools.": {
+              "translation": "学生",
+              "pos": "n."
+            },
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "学生",
+              "pos": "n."
+            }
+          }
+        },
+        "attend": {
+          "lemma": "attend",
+          "translation": "就读",
+          "pos": "v.",
+          "forms": "attends, attended, attending",
+          "meanings": "就读；出席；参加；照料",
+          "contexts": {
+            "More than six million students attend California public schools.": {
+              "translation": "就读",
+              "pos": "v."
+            }
+          }
+        },
+        "public": {
+          "lemma": "public",
+          "translation": "公立的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "公立的；公共的；公开的；大众的",
+          "contexts": {
+            "More than six million students attend California public schools.": {
+              "translation": "公立的",
+              "pos": "adj."
+            }
+          }
+        },
+        "earlier": {
+          "lemma": "early",
+          "translation": "早些时候",
+          "pos": "adv.",
+          "forms": "earlier, earliest",
+          "meanings": "早些时候；较早地；先前的",
+          "contexts": {
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "早些时候",
+              "pos": "adv."
+            }
+          }
+        },
+        "invited": {
+          "lemma": "invite",
+          "translation": "邀请",
+          "pos": "v.",
+          "forms": "invites, invited, inviting",
+          "meanings": "邀请；征求；招致；引起",
+          "contexts": {
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "邀请",
+              "pos": "v."
+            }
+          }
+        },
+        "content": {
+          "lemma": "content",
+          "translation": "内容",
+          "pos": "n.",
+          "forms": "contents",
+          "meanings": "内容；目录；含量；容量",
+          "contexts": {
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "内容",
+              "pos": "n."
+            }
+          }
+        },
+        "developers": {
+          "lemma": "developer",
+          "translation": "开发者",
+          "pos": "n.",
+          "forms": "developers",
+          "meanings": "开发者；研制者；开发商",
+          "contexts": {
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "开发者",
+              "pos": "n."
+            }
+          }
+        },
+        "for": {
+          "lemma": "for",
+          "translation": "供……使用",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "为了；支持；因为；给；对于",
+          "contexts": {
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "供……使用",
+              "pos": "prep."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "持续（一段时间）",
+              "pos": "prep."
+            },
+            "Individual school districts will have to decide for themselves.": {
+              "translation": "供……（做某事）",
+              "pos": "prep."
+            }
+          }
+        },
+        "these": {
+          "lemma": "these",
+          "translation": "这些",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "这些；这几位",
+          "contexts": {
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "这些",
+              "pos": "det."
+            }
+          }
+        },
+        "meet": {
+          "lemma": "meet",
+          "translation": "符合",
+          "pos": "verb",
+          "forms": "meets, met, meeting",
+          "meanings": "会面；迎接；遇见；满足；符合",
+          "contexts": {
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "符合",
+              "pos": "verb"
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "在（某种程度/数量）",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）；向；针对",
+          "contexts": {
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "在（某种程度/数量）",
+              "pos": "prep."
+            }
+          }
+        },
+        "least": {
+          "lemma": "least",
+          "translation": "最少",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "最少；最小；最不",
+          "contexts": {
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "最少",
+              "pos": "adv."
+            }
+          }
+        },
+        "state's": {
+          "lemma": "state",
+          "translation": "州的",
+          "pos": "n.",
+          "forms": "states",
+          "meanings": "国家；州；状况；陈述",
+          "contexts": {
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "州的",
+              "pos": "n."
+            }
+          }
+        },
+        "requirements": {
+          "lemma": "requirement",
+          "translation": "要求",
+          "pos": "noun",
+          "forms": "requirements",
+          "meanings": "要求；必要条件；需要；规定",
+          "contexts": {
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "要求",
+              "pos": "noun"
+            }
+          }
+        },
+        "specially": {
+          "lemma": "specially",
+          "translation": "专门地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "专门地；特别地；特意",
+          "contexts": {
+            "Specially trained teachers examined 16 textbooks and approved ten of them.": {
+              "translation": "专门地",
+              "pos": "adv."
+            }
+          }
+        },
+        "trained": {
+          "lemma": "train",
+          "translation": "受过训练的",
+          "pos": "adj.",
+          "forms": "training, trains, trained",
+          "meanings": "受过训练的；熟练的",
+          "contexts": {
+            "Specially trained teachers examined 16 textbooks and approved ten of them.": {
+              "translation": "受过训练的",
+              "pos": "adj."
+            }
+          }
+        },
+        "teachers": {
+          "lemma": "teacher",
+          "translation": "教师",
+          "pos": "noun",
+          "forms": "teachers",
+          "meanings": "教师；导师；教练",
+          "contexts": {
+            "Specially trained teachers examined 16 textbooks and approved ten of them.": {
+              "translation": "教师",
+              "pos": "noun"
+            },
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "教师",
+              "pos": "noun"
+            },
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "教师",
+              "pos": "noun"
+            }
+          }
+        },
+        "examined": {
+          "lemma": "examine",
+          "translation": "检查",
+          "pos": "verb",
+          "forms": "examines, examined, examining",
+          "meanings": "检查；审查；考查；审视",
+          "contexts": {
+            "Specially trained teachers examined 16 textbooks and approved ten of them.": {
+              "translation": "检查",
+              "pos": "verb"
+            }
+          }
+        },
+        "ten": {
+          "lemma": "ten",
+          "translation": "十",
+          "pos": "num.",
+          "forms": "无常见变形",
+          "meanings": "十；十个",
+          "contexts": {
+            "Specially trained teachers examined 16 textbooks and approved ten of them.": {
+              "translation": "十",
+              "pos": "num."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "十个",
+              "pos": "num."
+            }
+          }
+        },
+        "them": {
+          "lemma": "they",
+          "translation": "它们",
+          "pos": "pron.",
+          "forms": "they/their/theirs/themselves",
+          "meanings": "他们；她们；它们",
+          "contexts": {
+            "Specially trained teachers examined 16 textbooks and approved ten of them.": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "它们",
+              "pos": "pron."
+            }
+          }
+        },
+        "were": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；存在",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "是（被动语态助动词）",
+              "pos": "v."
+            }
+          }
+        },
+        "published": {
+          "lemma": "publish",
+          "translation": "出版",
+          "pos": "v.",
+          "forms": "publishes, published, publishing",
+          "meanings": "出版；发行；刊登；公布",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "出版",
+              "pos": "v."
+            }
+          }
+        },
+        "by": {
+          "lemma": "by",
+          "translation": "由（……出版）",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "通过；被；凭借；在……旁边",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "由（……出版）",
+              "pos": "prep."
+            },
+            "The money came from a group financed by the Khosla Family.": {
+              "translation": "被（……资助）",
+              "pos": "prep."
+            }
+          }
+        },
+        "ck": {
+          "lemma": "CK",
+          "translation": "CK（机构名称缩写）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "CK（机构名称缩写）",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "CK（机构名称缩写）",
+              "pos": "n."
+            }
+          }
+        },
+        "foundation": {
+          "lemma": "foundation",
+          "translation": "基金会",
+          "pos": "noun",
+          "forms": "foundations",
+          "meanings": "基金会；基础；地基",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "基金会",
+              "pos": "noun"
+            },
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "基金会",
+              "pos": "noun"
+            }
+          }
+        },
+        "nonprofit": {
+          "lemma": "nonprofit",
+          "translation": "非营利的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "非营利的；公益的",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "非营利的",
+              "pos": "adj."
+            }
+          }
+        },
+        "group": {
+          "lemma": "group",
+          "translation": "团体",
+          "pos": "noun",
+          "forms": "groups",
+          "meanings": "团体；群；组；阵营",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "团体",
+              "pos": "noun"
+            },
+            "The money came from a group financed by the Khosla Family.": {
+              "translation": "团体",
+              "pos": "noun"
+            }
+          }
+        },
+        "been": {
+          "lemma": "be",
+          "translation": "一直是",
+          "pos": "v.",
+          "forms": "am, is, are, being, was, were",
+          "meanings": "是；成为；存在；发生",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "一直是",
+              "pos": "v."
+            }
+          }
+        },
+        "developing": {
+          "lemma": "develop",
+          "translation": "开发",
+          "pos": "v.",
+          "forms": "develops, developed, developing",
+          "meanings": "发展；开发；研制；显影",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "开发",
+              "pos": "v."
+            }
+          }
+        },
+        "books": {
+          "lemma": "book",
+          "translation": "书籍",
+          "pos": "n.",
+          "forms": "books",
+          "meanings": "书籍；账簿；预订；登记",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "书籍",
+              "pos": "n."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "书籍",
+              "pos": "n."
+            }
+          }
+        },
+        "two": {
+          "lemma": "two",
+          "translation": "二",
+          "pos": "num.",
+          "forms": "无常见变形",
+          "meanings": "二；两个；两个一组",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "二",
+              "pos": "num."
+            }
+          }
+        },
+        "years": {
+          "lemma": "year",
+          "translation": "年",
+          "pos": "n.",
+          "forms": "years",
+          "meanings": "年；年份；岁数；一年的时间",
+          "contexts": {
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "年",
+              "pos": "n."
+            }
+          }
+        },
+        "paid": {
+          "lemma": "pay",
+          "translation": "支付",
+          "pos": "v.",
+          "forms": "pays, paid, paying",
+          "meanings": "支付；付钱；给予；报答",
+          "contexts": {
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "支付（报酬）",
+              "pos": "v."
+            }
+          }
+        },
+        "other": {
+          "lemma": "other",
+          "translation": "其他的",
+          "pos": "adj.",
+          "forms": "others",
+          "meanings": "其他的；另外的；另一方的；其余的",
+          "contexts": {
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "其他的",
+              "pos": "adj."
+            }
+          }
+        },
+        "education": {
+          "lemma": "education",
+          "translation": "教育",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "教育；培养；教学；教育学",
+          "contexts": {
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "教育",
+              "pos": "n."
+            },
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "教育",
+              "pos": "n."
+            }
+          }
+        },
+        "professionals": {
+          "lemma": "professional",
+          "translation": "专业人士",
+          "pos": "n.",
+          "forms": "professionals",
+          "meanings": "专业人士；职业选手；专家",
+          "contexts": {
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "专业人士",
+              "pos": "n."
+            }
+          }
+        },
+        "write": {
+          "lemma": "write",
+          "translation": "写",
+          "pos": "v.",
+          "forms": "writing, wrote, written, writes",
+          "meanings": "写；书写；创作；填写",
+          "contexts": {
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "写",
+              "pos": "v."
+            }
+          }
+        },
+        "edit": {
+          "lemma": "edit",
+          "translation": "编辑",
+          "pos": "v.",
+          "forms": "edits, edited, editing",
+          "meanings": "编辑；校订；剪辑",
+          "contexts": {
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "编辑",
+              "pos": "v."
+            }
+          }
+        },
+        "money": {
+          "lemma": "money",
+          "translation": "钱",
+          "pos": "n.",
+          "forms": "monies",
+          "meanings": "钱；资金；货币；财产",
+          "contexts": {
+            "The money came from a group financed by the Khosla Family.": {
+              "translation": "资金",
+              "pos": "n."
+            }
+          }
+        },
+        "came": {
+          "lemma": "come",
+          "translation": "来自",
+          "pos": "v.",
+          "forms": "comes, came, coming",
+          "meanings": "来；到达；出现；开始",
+          "contexts": {
+            "The money came from a group financed by the Khosla Family.": {
+              "translation": "来自",
+              "pos": "v."
+            }
+          }
+        },
+        "from": {
+          "lemma": "from",
+          "translation": "来自",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "从；来自；因为；由于；起始",
+          "contexts": {
+            "The money came from a group financed by the Khosla Family.": {
+              "translation": "来自",
+              "pos": "prep."
+            }
+          }
+        },
+        "financed": {
+          "lemma": "finance",
+          "translation": "资助",
+          "pos": "v.",
+          "forms": "finances, financed, financing",
+          "meanings": "资助；提供资金；筹措资金",
+          "contexts": {
+            "The money came from a group financed by the Khosla Family.": {
+              "translation": "资助",
+              "pos": "v."
+            }
+          }
+        },
+        "khosla": {
+          "lemma": "Khosla",
+          "translation": "科斯拉（家族名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "科斯拉；（姓氏，指代该家族）",
+          "contexts": {
+            "The money came from a group financed by the Khosla Family.": {
+              "translation": "科斯拉",
+              "pos": "n."
+            }
+          }
+        },
+        "family": {
+          "lemma": "family",
+          "translation": "家庭",
+          "pos": "n.",
+          "forms": "families",
+          "meanings": "家庭；家人；亲属；家族",
+          "contexts": {
+            "The money came from a group financed by the Khosla Family.": {
+              "translation": "家庭",
+              "pos": "n."
+            }
+          }
+        },
+        "cannot": {
+          "lemma": "cannot",
+          "translation": "不能",
+          "pos": "v.",
+          "forms": "无常见变形",
+          "meanings": "不能；不可以；不会",
+          "contexts": {
+            "California cannot require schools to use the digital textbooks.": {
+              "translation": "不能",
+              "pos": "modal v."
+            }
+          }
+        },
+        "require": {
+          "lemma": "require",
+          "translation": "要求",
+          "pos": "v.",
+          "forms": "requires, required, requiring",
+          "meanings": "要求；规定；需要；依靠",
+          "contexts": {
+            "California cannot require schools to use the digital textbooks.": {
+              "translation": "要求",
+              "pos": "v."
+            }
+          }
+        },
+        "individual": {
+          "lemma": "individual",
+          "translation": "个别的",
+          "pos": "adj.",
+          "forms": "individuals",
+          "meanings": "个别的；单独的；独特的；个人的",
+          "contexts": {
+            "Individual school districts will have to decide for themselves.": {
+              "translation": "个别的",
+              "pos": "adj."
+            }
+          }
+        },
+        "districts": {
+          "lemma": "district",
+          "translation": "区域",
+          "pos": "n.",
+          "forms": "districts",
+          "meanings": "地区；行政区；管辖区；区域",
+          "contexts": {
+            "Individual school districts will have to decide for themselves.": {
+              "translation": "学区",
+              "pos": "n."
+            }
+          }
+        },
+        "have": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "having, had, has",
+          "meanings": "有；经历；吃；使（某人做某事）；辅助动词（完成时态）",
+          "contexts": {
+            "Individual school districts will have to decide for themselves.": {
+              "translation": "必须（have to）",
+              "pos": "v."
+            }
+          }
+        },
+        "decide": {
+          "lemma": "decide",
+          "translation": "决定",
+          "pos": "v.",
+          "forms": "decides, decided, deciding",
+          "meanings": "决定；选定；解决；裁决",
+          "contexts": {
+            "Individual school districts will have to decide for themselves.": {
+              "translation": "决定",
+              "pos": "v."
+            }
+          }
+        },
+        "themselves": {
+          "lemma": "themselves",
+          "translation": "他们自己",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "他们自己；他们亲自",
+          "contexts": {
+            "Individual school districts will have to decide for themselves.": {
+              "translation": "他们自己",
+              "pos": "pron."
+            }
+          }
+        },
+        "susan": {
+          "lemma": "susan",
+          "translation": "苏珊（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "苏珊（人名）",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "苏珊",
+              "pos": "n."
+            }
+          }
+        },
+        "martimo": {
+          "lemma": "martimo",
+          "translation": "马蒂莫（姓氏）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "马蒂莫（姓氏）",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "马蒂莫",
+              "pos": "n."
+            }
+          }
+        },
+        "department": {
+          "lemma": "department",
+          "translation": "部门",
+          "pos": "n.",
+          "forms": "departments",
+          "meanings": "部门；系；科；局",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "部门",
+              "pos": "n."
+            }
+          }
+        },
+        "official": {
+          "lemma": "official",
+          "translation": "官员",
+          "pos": "n.",
+          "forms": "officials",
+          "meanings": "官员；高级职员；公务员",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "官员",
+              "pos": "n."
+            }
+          }
+        },
+        "says": {
+          "lemma": "say",
+          "translation": "说",
+          "pos": "v.",
+          "forms": "said, saying",
+          "meanings": "说；讲；陈述；写道",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "说",
+              "pos": "v."
+            }
+          }
+        },
+        "she": {
+          "lemma": "she",
+          "translation": "她",
+          "pos": "pron.",
+          "forms": "her, hers, herself",
+          "meanings": "她",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "她",
+              "pos": "pron."
+            }
+          }
+        },
+        "does": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "v.",
+          "forms": "do, does, did, doing, done",
+          "meanings": "做；进行；行动；表现",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "做（助动词）",
+              "pos": "v."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是；绝非",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "Not everyone has a computer or electronic reader.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "expect": {
+          "lemma": "expect",
+          "translation": "期望",
+          "pos": "v.",
+          "forms": "expects, expected, expecting",
+          "meanings": "期望；预期；指望；等待",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "期望",
+              "pos": "v."
+            }
+          }
+        },
+        "widespread": {
+          "lemma": "widespread",
+          "translation": "广泛的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "广泛的；普遍的；分布广的",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "广泛的",
+              "pos": "adj."
+            }
+          }
+        },
+        "right": {
+          "lemma": "right",
+          "translation": "恰当的",
+          "pos": "adv.",
+          "forms": "righter, rightest",
+          "meanings": "正确地；恰好；立刻；向右",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "立刻（与away连用）",
+              "pos": "adv."
+            }
+          }
+        },
+        "away": {
+          "lemma": "away",
+          "translation": "离去",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "离开；不在；向远处；一直",
+          "contexts": {
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "离开（与right连用表示立刻）",
+              "pos": "adv."
+            }
+          }
+        },
+        "her": {
+          "lemma": "she",
+          "translation": "她的",
+          "pos": "pron.",
+          "forms": "hers, herself",
+          "meanings": "她的；她（宾格）",
+          "contexts": {
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "她的",
+              "pos": "pron."
+            }
+          }
+        },
+        "best": {
+          "lemma": "best",
+          "translation": "最好的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "最好的；最优秀的；最合适的",
+          "contexts": {
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "最好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "guess": {
+          "lemma": "guess",
+          "translation": "猜测",
+          "pos": "n.",
+          "forms": "guesses, guessed, guessing",
+          "meanings": "猜测；推测；猜想；看法",
+          "contexts": {
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "猜测",
+              "pos": "n."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于；位于",
+          "contexts": {
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "存在",
+              "pos": "v."
+            }
+          }
+        },
+        "some": {
+          "lemma": "some",
+          "translation": "一些",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "一些；某几个；某些；相当数量",
+          "contexts": {
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "一些",
+              "pos": "adj."
+            }
+          }
+        },
+        "lot": {
+          "lemma": "lot",
+          "translation": "许多",
+          "pos": "noun",
+          "forms": "lots",
+          "meanings": "许多；大量；地皮；命运",
+          "contexts": {
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "许多",
+              "pos": "noun"
+            }
+          }
+        },
+        "technology": {
+          "lemma": "technology",
+          "translation": "科技",
+          "pos": "n.",
+          "forms": "technologies",
+          "meanings": "科技；技术；工艺；工程学",
+          "contexts": {
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "科技",
+              "pos": "n."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "only": {
+          "lemma": "only",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；只；才；唯一",
+          "contexts": {
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "仅仅",
+              "pos": "adv."
+            }
+          }
+        },
+        "addition": {
+          "lemma": "addition",
+          "translation": "增加",
+          "pos": "n.",
+          "forms": "additions",
+          "meanings": "增加；附加物；加法；此外",
+          "contexts": {
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "附加",
+              "pos": "n."
+            }
+          }
+        },
+        "administrators": {
+          "lemma": "administrator",
+          "translation": "管理者",
+          "pos": "n.",
+          "forms": "administrators",
+          "meanings": "行政人员；管理人；主管；行政官",
+          "contexts": {
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "行政人员",
+              "pos": "n."
+            }
+          }
+        },
+        "point": {
+          "lemma": "point",
+          "translation": "指出",
+          "pos": "v.",
+          "forms": "points; pointed; pointing",
+          "meanings": "指出；指向；点；意义；要点",
+          "contexts": {
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "指出",
+              "pos": "v."
+            }
+          }
+        },
+        "out": {
+          "lemma": "out",
+          "translation": "向外",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向外；彻底地；离开；（与动词连用表示完成或终结）",
+          "contexts": {
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "（与point连用）指出",
+              "pos": "adv."
+            },
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "（与print连用）打印出来",
+              "pos": "adv."
+            }
+          }
+        },
+        "texts": {
+          "lemma": "text",
+          "translation": "文本",
+          "pos": "n.",
+          "forms": "texts",
+          "meanings": "文本；课本；正文；发送短信",
+          "contexts": {
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "课本",
+              "pos": "n."
+            }
+          }
+        },
+        "may": {
+          "lemma": "may",
+          "translation": "可能",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "可能；可以；祝愿",
+          "contexts": {
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "可能",
+              "pos": "modal v."
+            }
+          }
+        },
+        "need": {
+          "lemma": "need",
+          "translation": "需要",
+          "pos": "v.",
+          "forms": "needs; needed; needing",
+          "meanings": "需要；必须；有必要",
+          "contexts": {
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "需要",
+              "pos": "v."
+            }
+          }
+        },
+        "way": {
+          "lemma": "way",
+          "translation": "方式",
+          "pos": "n.",
+          "forms": "ways",
+          "meanings": "方式；道路；方向；程度",
+          "contexts": {
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "方式",
+              "pos": "n."
+            }
+          }
+        },
+        "access": {
+          "lemma": "access",
+          "translation": "获取",
+          "pos": "v.",
+          "forms": "accesses; accessed; accessing",
+          "meanings": "获取；使用；进入；通道（名词）",
+          "contexts": {
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "获取",
+              "pos": "v."
+            }
+          }
+        },
+        "everyone": {
+          "lemma": "everyone",
+          "translation": "每个人",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "每个人；人人",
+          "contexts": {
+            "Not everyone has a computer or electronic reader.": {
+              "translation": "每个人",
+              "pos": "pron."
+            }
+          }
+        },
+        "computer": {
+          "lemma": "computer",
+          "translation": "计算机",
+          "pos": "n.",
+          "forms": "computers",
+          "meanings": "计算机；电脑",
+          "contexts": {
+            "Not everyone has a computer or electronic reader.": {
+              "translation": "计算机",
+              "pos": "n."
+            }
+          }
+        },
+        "or": {
+          "lemma": "or",
+          "translation": "或者",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "或者；否则；也不",
+          "contexts": {
+            "Not everyone has a computer or electronic reader.": {
+              "translation": "或者",
+              "pos": "conj."
+            }
+          }
+        },
+        "electronic": {
+          "lemma": "electronic",
+          "translation": "电子的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "电子的；电子设备的",
+          "contexts": {
+            "Not everyone has a computer or electronic reader.": {
+              "translation": "电子的",
+              "pos": "adj."
+            }
+          }
+        },
+        "reader": {
+          "lemma": "reader",
+          "translation": "阅读器",
+          "pos": "n.",
+          "forms": "readers",
+          "meanings": "阅读器；读者；读本",
+          "contexts": {
+            "Not everyone has a computer or electronic reader.": {
+              "translation": "阅读器",
+              "pos": "n."
+            }
+          }
+        },
+        "could": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "能够（can的过去式）；可能；可以（委婉语）",
+          "contexts": {
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "能够",
+              "pos": "modal v."
+            }
+          }
+        },
+        "print": {
+          "lemma": "print",
+          "translation": "打印",
+          "pos": "v.",
+          "forms": "prints, printed, printing",
+          "meanings": "打印；印刷；出版；刊登",
+          "contexts": {
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "打印",
+              "pos": "v."
+            }
+          }
+        },
+        "copies": {
+          "lemma": "copy",
+          "translation": "副本",
+          "pos": "n.",
+          "forms": "copy, copies",
+          "meanings": "副本；拷贝；（书、报纸等的）一本；抄写",
+          "contexts": {
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "副本",
+              "pos": "n."
+            }
+          }
+        },
+        "would": {
+          "lemma": "will",
+          "translation": "会",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将；会；愿意；总是",
+          "contexts": {
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "会",
+              "pos": "modal v."
+            }
+          }
+        },
+        "environment": {
+          "lemma": "environment",
+          "translation": "环境",
+          "pos": "n.",
+          "forms": "environments",
+          "meanings": "环境；自然环境；周围状况",
+          "contexts": {
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "环境",
+              "pos": "n."
+            }
+          }
+        },
+        "also": {
+          "lemma": "also",
+          "translation": "而且",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "也；同样；并且；而且",
+          "contexts": {
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "而且",
+              "pos": "adv."
+            }
+          }
+        },
+        "there": {
+          "lemma": "there",
+          "translation": "存在",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在那里；到那里；（用于there be句型）",
+          "contexts": {
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "存在",
+              "pos": "adv."
+            }
+          }
+        },
+        "cost": {
+          "lemma": "cost",
+          "translation": "成本",
+          "pos": "n.",
+          "forms": "costs, costing, cost",
+          "meanings": "成本；费用；代价；花费",
+          "contexts": {
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "成本",
+              "pos": "n."
+            }
+          }
+        },
+        "train": {
+          "lemma": "train",
+          "translation": "培训",
+          "pos": "v.",
+          "forms": "trains, trained, training",
+          "meanings": "训练；培养；受训；瞄准",
+          "contexts": {
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "培训",
+              "pos": "v."
+            }
+          }
+        },
+        "effectively": {
+          "lemma": "effective",
+          "translation": "有效地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "有效地；显著地；事实地",
+          "contexts": {
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "有效地",
+              "pos": "adv."
+            }
+          }
+        },
+        "will": {
+          "lemma": "will",
+          "translation": "将要",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将要；愿意；会；意志（名词）",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "将要",
+              "pos": "modal v."
+            },
+            "Individual school districts will have to decide for themselves.": {
+              "translation": "将要",
+              "pos": "modal v."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "会",
+              "pos": "modal v."
+            }
+          }
+        },
+        "be": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；表现为；处于……状态",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "first": {
+          "lemma": "first",
+          "translation": "第一",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "第一；首先；首要的；最初",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "第一",
+              "pos": "adj."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "第一",
+              "pos": "adj."
+            }
+          }
+        },
+        "state": {
+          "lemma": "state",
+          "translation": "州",
+          "pos": "n.",
+          "forms": "states",
+          "meanings": "州；国家；状态；陈述",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "州",
+              "pos": "n."
+            },
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "州",
+              "pos": "n."
+            },
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "州",
+              "pos": "n."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……之内",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；使用（某种语言/材料）",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "California approves traditional textbooks in six-year cycles.": {
+              "translation": "在……期间",
+              "pos": "prep."
+            },
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "在",
+              "pos": "prep."
+            }
+          }
+        },
+        "nation": {
+          "lemma": "nation",
+          "translation": "国家",
+          "pos": "n.",
+          "forms": "nations",
+          "meanings": "国家；民族；全国人民",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "国家",
+              "pos": "n."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "到",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "到；向；给；构成不定式",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "到",
+              "pos": "prep."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "到",
+              "pos": "prep."
+            },
+            "The foundation paid teachers and other education professionals to write and edit them.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "California cannot require schools to use the digital textbooks.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "Individual school districts will have to decide for themselves.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            }
+          }
+        },
+        "provide": {
+          "lemma": "provide",
+          "translation": "提供",
+          "pos": "v.",
+          "forms": "provides, providing, provided",
+          "meanings": "提供；供应；规定；供给",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "提供",
+              "pos": "v."
+            }
+          }
+        },
+        "schools": {
+          "lemma": "school",
+          "translation": "学校",
+          "pos": "n.",
+          "forms": "schools",
+          "meanings": "学校；学院；学派；教育",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "And above all, he said, they help schools with their finances.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "More than six million students attend California public schools.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "Earlier this year, California invited content developers to offer digital math and science materials for high schools.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "California cannot require schools to use the digital textbooks.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "学校",
+              "pos": "n."
+            }
+          }
+        },
+        "approved": {
+          "lemma": "approve",
+          "translation": "批准",
+          "pos": "v.",
+          "forms": "approves, approving, approved",
+          "meanings": "批准；赞成；认可",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "批准的",
+              "pos": "adj."
+            },
+            "Specially trained teachers examined 16 textbooks and approved ten of them.": {
+              "translation": "批准",
+              "pos": "v."
+            }
+          }
+        },
+        "list": {
+          "lemma": "list",
+          "translation": "列表",
+          "pos": "n.",
+          "forms": "lists, listed, listing",
+          "meanings": "列表；名单；清单；列出",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "列表",
+              "pos": "n."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "They lighten the load of school bags.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "These had to meet at least 90% of the state's learning requirements.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Specially trained teachers examined 16 textbooks and approved ten of them.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "textbooks": {
+          "lemma": "textbook",
+          "translation": "教科书",
+          "pos": "n.",
+          "forms": "textbooks",
+          "meanings": "教科书；课本",
+          "contexts": {
+            "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.": {
+              "translation": "教科书",
+              "pos": "n."
+            },
+            "He listed reasons why he thinks digital textbooks make sense.": {
+              "translation": "教科书",
+              "pos": "n."
+            },
+            "California approves traditional textbooks in six-year cycles.": {
+              "translation": "教科书",
+              "pos": "n."
+            },
+            "Specially trained teachers examined 16 textbooks and approved ten of them.": {
+              "translation": "教科书",
+              "pos": "n."
+            },
+            "California cannot require schools to use the digital textbooks.": {
+              "translation": "教科书",
+              "pos": "n."
+            },
+            "Also, there is the cost to train teachers to use digital textbooks effectively.": {
+              "translation": "教科书",
+              "pos": "n."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "引导从句",
+          "pos": "conj.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；因为",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "那个",
+              "pos": "pron."
+            },
+            "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.": {
+              "translation": "引导从句",
+              "pos": "pron."
+            },
+            "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "School administrators point out that the texts may be free online, but students need a way to access them.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "Schools could print out copies, but that would not help the environment.": {
+              "translation": "那",
+              "pos": "pron."
+            }
+          }
+        },
+        "was": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；在；存在；成为",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "governor": {
+          "lemma": "governor",
+          "translation": "州长",
+          "pos": "n.",
+          "forms": "governors",
+          "meanings": "州长；统治者；主管人员",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "州长",
+              "pos": "n."
+            }
+          }
+        },
+        "arnold": {
+          "lemma": "arnold",
+          "translation": "阿诺德（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "阿诺德（人名）",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "阿诺德",
+              "pos": "n."
+            }
+          }
+        },
+        "schwarzenegger": {
+          "lemma": "schwarzenegger",
+          "translation": "施瓦辛格（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "施瓦辛格（人名）",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "施瓦辛格",
+              "pos": "n."
+            }
+          }
+        },
+        "june": {
+          "lemma": "june",
+          "translation": "六月",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "六月",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "六月",
+              "pos": "n."
+            }
+          }
+        },
+        "talking": {
+          "lemma": "talk",
+          "translation": "谈话",
+          "pos": "v.",
+          "forms": "talks, talked, talking",
+          "meanings": "谈话；交谈；商讨；讲演",
+          "contexts": {
+            "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.": {
+              "translation": "谈话",
+              "pos": "v."
+            }
+          }
+        },
+        "spending": {
+          "lemma": "spend",
+          "translation": "开支",
+          "pos": "n.",
+          "forms": "spends, spent",
+          "meanings": "开支；支出；消费；花销",
+          "contexts": {
+            "The state has had to make severe cuts in school spending because of deep financial problems.": {
+              "translation": "开支",
+              "pos": "n."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "The Digital Textbook Initiative   _  .",
+          "options": [
+            "will probably take effect in six years",
+            "covers all the high school subjects",
+            "has been approved by all states",
+            "is advocated by California state governor"
+          ],
+          "answer": 3,
+          "explanation": "文章提到该项目由加州州长施瓦辛格提出，旨在推广数字化教材。",
+          "type": "细节理解",
+          "evidenceSentence": "That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.",
+          "optionExplanations": [
+            "文章提到周期是六年，但不是项目生效时间，偷换概念。",
+            "文章明确指出从高中数学和科学开始，而非所有科目，忽略范围。",
+            "文章提到加州是第一个这样做的州，其他州并未提及，推理过度。",
+            "州长明确倡导并推动了该项目，表述正确。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "忽略否定或范围",
+            "推理过度",
+            "正确"
+          ]
+        },
+        {
+          "prompt": "Digital textbooks are most meaningful in that they are to   _  .",
+          "options": [
+            "help save money",
+            "benefit the environment",
+            "provide interesting materials",
+            "reduce students' heavy burden"
+          ],
+          "answer": 0,
+          "explanation": "州长强调数字化教材最主要的意义在于缓解学校的财政困难。",
+          "type": "细节理解",
+          "evidenceSentence": "And above all, he said, they help schools with their finances.",
+          "optionExplanations": [
+            "这是州长认为最重要（above all）的优点，符合文意。",
+            "这是优点之一，但不是最主要的，把局部信息当成主旨。",
+            "这也是教材的优点，但不是最重要的，把局部信息当成主旨。",
+            "这是教材的优点，但属于次要方面，把局部信息当成主旨。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "把局部信息当成主旨",
+            "把局部信息当成主旨",
+            "把局部信息当成主旨"
+          ]
+        },
+        {
+          "prompt": "Which of the following is TRUE of the CK 12 Foundation?",
+          "options": [
+            "It publishes all the books for students free of charge",
+            "It provides money to write and edit all the textbooks in the USA",
+            "It is organized and supported by Khosla Family",
+            "It offers digital math and science materials for high schools"
+          ],
+          "answer": 3,
+          "explanation": "文中指出CK 12 Foundation为高中提供了数学和科学教材。",
+          "type": "细节理解",
+          "evidenceSentence": "Earlier this year, California invited content developers to offer digital math and science materials for high schools.",
+          "optionExplanations": [
+            "文中只提到其中六本由其出版，没有说所有书，推理过度。",
+            "其范围仅限加州相关项目，而非全美国，忽略否定或范围。",
+            "文中说是Khosla Family提供资金给一个组织，该组织资助CK 12，属于间接支持，描述不准确。",
+            "明确提到其为高中提供数学和科学教材，符合文意。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "忽略否定或范围",
+            "偷换概念",
+            "正确"
+          ]
+        },
+        {
+          "prompt": "According to Susan Martimo, digital textbooks will   _  .",
+          "options": [
+            "come into fashion from now on",
+            "soon replace traditional books",
+            "first be adopted by well-equipped schools",
+            "surely be approved by school districts"
+          ],
+          "answer": 2,
+          "explanation": "Susan Martimo预测，拥有充足技术设备的学校会最先采用这些教材。",
+          "type": "细节理解",
+          "evidenceSentence": "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.",
+          "optionExplanations": [
+            "文中并未提及成为潮流，推理过度。",
+            "文中明确提到仅作为传统教材的补充，而非取代，忽略否定或范围。",
+            "符合文中所述关于设备齐全学校先行先试的预测。",
+            "文中说各学区自行决定，并未提及肯定会被批准，推理过度。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "忽略否定或范围",
+            "正确",
+            "推理过度"
+          ]
+        }
+      ],
+      "generationUsage": {
+        "requests": 17,
+        "inputTokens": 41505,
+        "outputTokens": 20193,
+        "totalTokens": 61698,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 17,
+            "inputTokens": 41505,
+            "outputTokens": 20193,
+            "totalTokens": 61698,
             "estimatedCostUsd": null
           }
         }
