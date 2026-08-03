@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T11:56:28.043Z",
+  "generatedAt": "2026-08-03T12:14:28.212Z",
   "words": {
     "on": {
       "lemma": "on",
@@ -8,24 +8,6 @@
       "forms": "无常见变形",
       "meanings": "关于；在……之上；通过；在（时间）",
       "senses": [
-        {
-          "translation": "通过（媒介）",
-          "pos": "prep.",
-          "example": "Communicating with others on the Internet is much faster.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "通过（媒介）",
-          "pos": "prep.",
-          "example": "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "通过（媒介）",
-          "pos": "prep.",
-          "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
         {
           "translation": "关于",
           "pos": "prep.",
@@ -79,6 +61,24 @@
           "pos": "prep.",
           "example": "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "在……之上",
+          "pos": "prep.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "关于；涉及",
+          "pos": "prep.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "在……之上（指屏幕表面）",
+          "pos": "prep.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -91,10 +91,11 @@
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "web": {
       "lemma": "web",
@@ -179,76 +180,76 @@
       "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
       "senses": [
         {
-          "translation": "（用于特指）",
-          "pos": "art.",
-          "example": "School administrators point out that the texts may be free online, but students need a way to access them.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "（用于特指）",
-          "pos": "art.",
-          "example": "Schools could print out copies, but that would not help the environment.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "（用于特指）",
-          "pos": "art.",
-          "example": "Also, there is the cost to train teachers to use digital textbooks effectively.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "（特指公园）",
-          "pos": "art.",
-          "example": "We went for long walks, runs in the park and car rides.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "（特指阳光）",
-          "pos": "art.",
-          "example": "I took long naps in the sun waiting for you to come home at the end of the day.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "（特指人类婴儿）",
-          "pos": "art.",
-          "example": "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "（特指决定）",
-          "pos": "art.",
-          "example": "You've made the right decision for your \"family\", but there was a time when I was your only family.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "（特指乘车）",
-          "pos": "art.",
-          "example": "I was excited about the car ride until we arrived at the dog pound.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "（特指文件）",
-          "pos": "art.",
-          "example": "You filled out the paperwork and said, \"I know you will find a good home for her\".",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "（特指孩子们）",
-          "pos": "art.",
-          "example": "The children were in tears as they waved me goodbye.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "（特指想法）",
-          "pos": "art.",
-          "example": "\" were the only three words that swept over my mind.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
           "translation": "（特指围栏）",
           "pos": "art.",
           "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "这（名婴儿）",
+          "pos": "art.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "这张（卡片）",
+          "pos": "art.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "那（卡片）",
+          "pos": "art.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "那（前一张卡片）",
+          "pos": "art.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "这个（数字2）",
+          "pos": "art.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "相同的（实验）",
+          "pos": "art.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "那种（新奇感）",
+          "pos": "art.",
+          "example": "Perhaps it is just the newness?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "那些（物体）",
+          "pos": "art.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "那种（模式）",
+          "pos": "art.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "这种（影响）",
+          "pos": "art.",
+          "example": "The effect even crosses between senses.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "那些（研究人员）",
+          "pos": "art.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -264,10 +265,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "internet": {
       "lemma": "internet",
@@ -442,12 +444,6 @@
         {
           "translation": "能够",
           "pos": "modal v.",
-          "example": "We can also listen to music and see films.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal v.",
           "example": "We can also do shopping and find nearly all kinds of goods.",
           "sourceArticleId": "web-91480225d160a6b6"
         },
@@ -510,6 +506,12 @@
           "pos": "modal v.",
           "example": "Digital ones can offer the latest information.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal v.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -521,10 +523,11 @@
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "access": {
       "lemma": "access",
@@ -558,36 +561,6 @@
       "forms": "an",
       "meanings": "一个；每一；任何；一种",
       "senses": [
-        {
-          "translation": "一种",
-          "pos": "art.",
-          "example": "School administrators point out that the texts may be free online, but students need a way to access them.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "一台",
-          "pos": "art.",
-          "example": "Not everyone has a computer or electronic reader.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "When I was a baby, I entertained you and made you laugh.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "My housetraining was a long process, because you were terribly busy, but we worked on that together.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
         {
           "translation": "一个",
           "pos": "art.",
@@ -629,6 +602,36 @@
           "pos": "art.",
           "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -644,10 +647,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "variety": {
       "lemma": "variety",
@@ -674,18 +678,6 @@
       "forms": "无常见变形",
       "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
       "senses": [
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
         {
           "translation": "……的",
           "pos": "prep.",
@@ -745,6 +737,18 @@
           "pos": "prep.",
           "example": "My beloved master, I will think of you and wait for you forever.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -760,10 +764,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "information": {
       "lemma": "information",
@@ -1239,14 +1244,21 @@
           "pos": "n.",
           "example": "He was the only person among the 200 researchers Jack wrote to who showed interest in his project.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "兴趣",
+          "pos": "n.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "to": {
       "lemma": "to",
@@ -1254,36 +1266,6 @@
       "forms": "无常见变形",
       "meanings": "到；向；给；构成不定式",
       "senses": [
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "California cannot require schools to use the digital textbooks.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "Individual school districts will have to decide for themselves.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "School administrators point out that the texts may be free online, but students need a way to access them.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "Also, there is the cost to train teachers to use digital textbooks effectively.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
         {
           "translation": "构成不定式",
           "pos": "particle",
@@ -1325,6 +1307,36 @@
           "pos": "prep.",
           "example": "I hope you receive more faithfulness from your family than you showed to me.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "到",
+          "pos": "prep.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "对……相比",
+          "pos": "prep.",
+          "example": "Or do newborns simply prefer more to fewer?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "与……相对",
+          "pos": "prep.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "到",
+          "pos": "prep.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "到",
+          "pos": "prep.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -1340,10 +1352,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "be": {
       "lemma": "be",
@@ -1351,12 +1364,6 @@
       "forms": "am, is, are, was, were, being, been",
       "meanings": "是；位于；表现为；处于……状态",
       "senses": [
-        {
-          "translation": "是（ worth be... ）",
-          "pos": "verb",
-          "example": "Have you ever wondered what a Degree might be worth to you in your job or career?",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
         {
           "translation": "是",
           "pos": "verb",
@@ -1422,6 +1429,12 @@
           "pos": "v.",
           "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -1432,10 +1445,11 @@
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "aware": {
       "lemma": "aware",
@@ -1554,30 +1568,6 @@
         {
           "translation": "和",
           "pos": "conj.",
-          "example": "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "We went for long walks, runs in the park and car rides.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
           "example": "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
         },
@@ -1622,6 +1612,30 @@
           "pos": "conj.",
           "example": "My beloved master, I will think of you and wait for you forever.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "然后",
+          "pos": "conj.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "并且",
+          "pos": "conj.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -1637,10 +1651,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "take": {
       "lemma": "take",
@@ -1710,7 +1725,7 @@
       "lemma": "make",
       "pos": "v.",
       "forms": "made, making, makes",
-      "meanings": "使；制作；制造；准备；制定",
+      "meanings": "使；制作；制造；构成；制定",
       "senses": [
         {
           "translation": "使……成为",
@@ -1747,15 +1762,22 @@
           "pos": "v.",
           "example": "The state has had to make severe cuts in school spending because of deep financial problems.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "构成",
+          "pos": "v.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "it": {
       "lemma": "it",
@@ -1763,42 +1785,6 @@
       "forms": "its, itself",
       "meanings": "它；这；那个；代指已提到的事物",
       "senses": [
-        {
-          "translation": "它",
-          "pos": "pronoun",
-          "example": "He started to learn it after losing a close family friend to the disease.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "它",
-          "pos": "pronoun",
-          "example": "It also is 100 times more sensitive than other tests.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "它",
-          "pos": "pronoun",
-          "example": "\"It costs 3 cents per test, and then it takes only 5 minutes to run,\" he said.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "它",
-          "pos": "pron.",
-          "example": "J tells me every riddle in it .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "它",
-          "pos": "pron.",
-          "example": "Brad's little sister thought it was really funny.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "形式主语（无义）",
-          "pos": "pron.",
-          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
         {
           "translation": "这（指代前文的情况）",
           "pos": "pron.",
@@ -1834,6 +1820,42 @@
           "pos": "pron.",
           "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "它",
+          "pos": "pron.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "它",
+          "pos": "pron.",
+          "example": "She stares at it carefully.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "它",
+          "pos": "pron.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "它",
+          "pos": "pron.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "这（指代前文的情况）",
+          "pos": "pron.",
+          "example": "Perhaps it is just the newness?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "它（指代该模式）",
+          "pos": "pron.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -1846,10 +1868,11 @@
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "what": {
       "lemma": "what",
@@ -2098,18 +2121,6 @@
         {
           "translation": "或者",
           "pos": "conjunction",
-          "example": "Or call the number below 1-800-372-1589.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "或者",
-          "pos": "conjunction",
-          "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "或者",
-          "pos": "conjunction",
           "example": "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.",
           "sourceArticleId": "web-91480225d160a6b6"
         },
@@ -2166,6 +2177,18 @@
           "pos": "conj.",
           "example": "Is it better to live with hope or without hope?",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "Or do newborns simply prefer more to fewer?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -2175,10 +2198,11 @@
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "improving": {
       "lemma": "improve",
@@ -2205,36 +2229,6 @@
       "forms": "am, are, was, were, being, been",
       "meanings": "是；存在；等于；位于",
       "senses": [
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Your mind is more relaxed and you can learn more easily.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Cultural Understanding   Learning a language is not only about learning words.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Their language is closely associated with their culture.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "He says there is a reason why urban bike tiding is now becoming more popular.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Greg Billing is with the Washington Area Bicyclist Association.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -2276,6 +2270,36 @@
           "pos": "v.",
           "example": "Is it better to live with hope or without hope?",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "She is quiet but alert  .",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "被（呈现）",
+          "pos": "v.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Perhaps it is just the newness?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -2289,10 +2313,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "find": {
       "lemma": "find",
@@ -2791,12 +2816,6 @@
         {
           "translation": "被",
           "pos": "prep.",
-          "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "被",
-          "pos": "prep.",
           "example": "Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
         },
@@ -2859,6 +2878,12 @@
           "pos": "prep.",
           "example": "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "凭借（某种方式/工具替换）",
+          "pos": "prep.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -2871,10 +2896,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "typing": {
       "lemma": "type",
@@ -2977,6 +3003,12 @@
           "pos": "prep.",
           "example": "She, now your wife, is not a dog person, but I still welcomed her into our home.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "进入",
+          "pos": "prep.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -2984,10 +3016,11 @@
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
         "web-2e315a8a858c375d",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "several": {
       "lemma": "several",
@@ -3506,7 +3539,7 @@
     },
     "focus": {
       "lemma": "focus",
-      "pos": "v.",
+      "pos": "n.",
       "forms": "focuses, focused, focusing",
       "meanings": "集中；聚焦；焦点；中心",
       "senses": [
@@ -3515,13 +3548,20 @@
           "pos": "v.",
           "example": "Example:\n   Robin Counts\n   Focus your search.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "焦点",
+          "pos": "n.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "get": {
       "lemma": "get",
@@ -3738,7 +3778,7 @@
     },
     "so": {
       "lemma": "so",
-      "pos": "conj.",
+      "pos": "adv.",
       "forms": "无常见变形",
       "meanings": "因此；那么；如此；非常",
       "senses": [
@@ -3795,6 +3835,12 @@
           "pos": "conj.",
           "example": "There was a 90 percent federal match so the cities only had to put up 10%.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "如此",
+          "pos": "adv.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -3803,10 +3849,11 @@
         "web-6889075584252ffd",
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "that": {
       "lemma": "that",
@@ -3814,18 +3861,6 @@
       "forms": "those",
       "meanings": "引导从句；那个；那；因为",
       "senses": [
-        {
-          "translation": "引导从句",
-          "pos": "conj.",
-          "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "引导从句",
-          "pos": "conj.",
-          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "那个",
           "pos": "pron.",
@@ -3885,6 +3920,18 @@
           "pos": "conj.",
           "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "（引导从句）",
+          "pos": "conj.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "（引导定语从句）",
+          "pos": "pron.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -3898,10 +3945,11 @@
         "web-52737a111ab04db4",
         "web-eecaaca1e069e103",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "engine": {
       "lemma": "engine",
@@ -3952,20 +4000,8 @@
       "lemma": "as",
       "pos": "conj.",
       "forms": "无常见变形",
-      "meanings": "像……一样；作为；当……时；因为；正如",
+      "meanings": "当……时；正如；因为；像……一样；作为",
       "senses": [
-        {
-          "translation": "作为",
-          "pos": "preposition",
-          "example": "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "作为",
-          "pos": "prep.",
-          "example": "Teaching music is only a part of Peterson's instruction-it serves as a vehicle to other areas.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
         {
           "translation": "正如",
           "pos": "conj.",
@@ -4019,6 +4055,24 @@
           "pos": "conj.",
           "example": "The children were in tears as they waved me goodbye.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "像……一样",
+          "pos": "conj.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "正如",
+          "pos": "conj.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -4029,10 +4083,11 @@
         "web-eecaaca1e069e103",
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "phrase": {
       "lemma": "phrase",
@@ -4059,12 +4114,6 @@
       "forms": "无常见变形",
       "meanings": "不；没；不是；绝非",
       "senses": [
-        {
-          "translation": "不",
-          "pos": "adv.",
-          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "不",
           "pos": "adv.",
@@ -4130,6 +4179,12 @@
           "pos": "adv.",
           "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "没",
+          "pos": "adv.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -4141,16 +4196,17 @@
         "web-eecaaca1e069e103",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "two": {
       "lemma": "two",
       "pos": "num.",
       "forms": "无常见变形",
-      "meanings": "二；两个；两个一组",
+      "meanings": "二；两个；两个一组；二重奏",
       "senses": [
         {
           "translation": "二",
@@ -4181,6 +4237,42 @@
           "pos": "num.",
           "example": "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "二",
+          "pos": "num.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "二",
+          "pos": "num.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "二",
+          "pos": "num.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "二",
+          "pos": "num.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "二",
+          "pos": "num.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "二",
+          "pos": "num.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -4188,35 +4280,18 @@
         "web-a41ebe4e54718747",
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "more": {
       "lemma": "more",
-      "pos": "adv.",
+      "pos": "adj.",
       "forms": "无常见变形",
       "meanings": "更多；较大程度；额外；再",
       "senses": [
-        {
-          "translation": "更",
-          "pos": "adv.",
-          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "更",
-          "pos": "adv.",
-          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "更",
-          "pos": "adv.",
-          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "更",
           "pos": "adv.",
@@ -4270,6 +4345,24 @@
           "pos": "adj.",
           "example": "I hope you receive more faithfulness from your family than you showed to me.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "较多数量",
+          "pos": "adj.",
+          "example": "Or do newborns simply prefer more to fewer?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "更多",
+          "pos": "adv.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "更",
+          "pos": "adv.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -4282,10 +4375,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "unrelated": {
       "lemma": "unrelated",
@@ -4378,18 +4472,6 @@
       "senses": [
         {
           "translation": "仅仅",
-          "pos": "adverb",
-          "example": "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "仅仅",
-          "pos": "adv.",
-          "example": "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "仅仅",
           "pos": "adv.",
           "example": "Get a career diploma in just six months!",
           "sourceArticleId": "web-a41ebe4e54718747"
@@ -4435,6 +4517,30 @@
           "pos": "adv.",
           "example": "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "仅仅",
+          "pos": "adv.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "仅仅",
+          "pos": "adv.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "仅仅",
+          "pos": "adv.",
+          "example": "Perhaps it is just the newness?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "仅仅",
+          "pos": "adv.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -4443,10 +4549,11 @@
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "happen": {
       "lemma": "happen",
@@ -4683,16 +4790,10 @@
     },
     "have": {
       "lemma": "have",
-      "pos": "v.",
+      "pos": "aux.",
       "forms": "having, had, has",
       "meanings": "有；经历；吃；使（某人做某事）；辅助动词（完成时态）",
       "senses": [
-        {
-          "translation": "必须",
-          "pos": "v.",
-          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
         {
           "translation": "拥有",
           "pos": "v.",
@@ -4758,6 +4859,12 @@
           "pos": "v.",
           "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "已经",
+          "pos": "aux.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -4770,10 +4877,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "ever": {
       "lemma": "ever",
@@ -4850,7 +4958,7 @@
     },
     "different": {
       "lemma": "different",
-      "pos": "adjective",
+      "pos": "adj.",
       "forms": "无常见变形",
       "meanings": "不同的；各种各样的；异类的",
       "senses": [
@@ -4871,14 +4979,21 @@
           "pos": "adjective",
           "example": "Different nations have different cultures.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "不同的",
+          "pos": "adj.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "use": {
       "lemma": "use",
@@ -5480,7 +5595,7 @@
     },
     "other": {
       "lemma": "other",
-      "pos": "adj.",
+      "pos": "pron.",
       "forms": "others",
       "meanings": "其他的；另外的；另一方的；其余的",
       "senses": [
@@ -5543,6 +5658,12 @@
           "pos": "adj.",
           "example": "The foundation paid teachers and other education professionals to write and edit them.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "另一方",
+          "pos": "pron.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -5552,10 +5673,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-52737a111ab04db4",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "who": {
       "lemma": "who",
@@ -5610,6 +5732,12 @@
           "pos": "pron.",
           "example": "In fact,the number of commuters who use bicycles has doubled in the city since 2007.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "……的人",
+          "pos": "pron.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -5618,10 +5746,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-eecaaca1e069e103",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "share": {
       "lemma": "share",
@@ -5960,12 +6089,6 @@
       "meanings": "为了；支持；因为；给；对于",
       "senses": [
         {
-          "translation": "以……作为交换",
-          "pos": "prep.",
-          "example": "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
           "translation": "供……使用",
           "pos": "prep.",
           "example": "Earlier this year, California invited content developers to offer digital math and science materials for high schools.",
@@ -6030,6 +6153,12 @@
           "pos": "prep.",
           "example": "My beloved master, I will think of you and wait for you forever.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "持续（一段时间）",
+          "pos": "prep.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -6043,10 +6172,11 @@
         "web-eecaaca1e069e103",
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "city": {
       "lemma": "city",
@@ -6677,36 +6807,6 @@
       "meanings": "从；来自；因为；由于；起始",
       "senses": [
         {
-          "translation": "来自",
-          "pos": "prep.",
-          "example": "While there, you study in a language school with students from many different countries.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "从（起始时间/地点）",
-          "pos": "prep.",
-          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "从",
-          "pos": "prep.",
-          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "来自",
-          "pos": "prep.",
-          "example": "On a language holiday, students come from countries all over the world.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "摆脱；离开",
-          "pos": "prep.",
-          "example": "Freedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
           "translation": "从",
           "pos": "prep.",
           "example": "A growing number of Washingtonians are turning to bicycles to get to and from work.",
@@ -6747,6 +6847,36 @@
           "pos": "prep.",
           "example": "I hope you receive more faithfulness from your family than you showed to me.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "距离",
+          "pos": "prep.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "从",
+          "pos": "prep.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "与……不同",
+          "pos": "prep.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "与……分开",
+          "pos": "prep.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "从",
+          "pos": "prep.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -6760,10 +6890,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "time": {
       "lemma": "time",
@@ -6824,6 +6955,12 @@
           "pos": "n.",
           "example": "You've made the right decision for your \"family\", but there was a time when I was your only family.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "次",
+          "pos": "n.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -6833,10 +6970,11 @@
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
         "web-09421cfd6a2c44ad",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "they": {
       "lemma": "they",
@@ -6844,12 +6982,6 @@
       "forms": "their, theirs, them, themselves",
       "meanings": "他们；她们；它们",
       "senses": [
-        {
-          "translation": "他们",
-          "pos": "pron.",
-          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "他们",
           "pos": "pron.",
@@ -6915,6 +7047,12 @@
           "pos": "pron.",
           "example": "The children were in tears as they waved me goodbye.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -6926,10 +7064,11 @@
         "web-eecaaca1e069e103",
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "writing": {
       "lemma": "write",
@@ -7001,13 +7140,20 @@
           "pos": "n.",
           "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "图画",
+          "pos": "n.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "alert": {
       "lemma": "alert",
@@ -7020,13 +7166,20 @@
           "pos": "adj.",
           "example": "Be alert.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "警觉的",
+          "pos": "adj.",
+          "example": "She is quiet but alert  .",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "feature": {
       "lemma": "feature",
@@ -7449,6 +7602,12 @@
           "pos": "art.",
           "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -7458,10 +7617,11 @@
         "web-52737a111ab04db4",
         "web-eecaaca1e069e103",
         "web-1fac3b0d4f7569c5",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "outstanding": {
       "lemma": "outstanding",
@@ -7608,18 +7768,6 @@
       "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）；向；针对",
       "senses": [
         {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "At last --- some peace and quiet.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
           "translation": "向",
           "pos": "prep.",
           "example": "\" He shouts at her .",
@@ -7678,6 +7826,18 @@
           "pos": "prep.",
           "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "朝向",
+          "pos": "prep.",
+          "example": "She stares at it carefully.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "朝向",
+          "pos": "prep.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -7690,10 +7850,11 @@
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "young": {
       "lemma": "young",
@@ -7767,30 +7928,6 @@
       "meanings": "她",
       "senses": [
         {
-          "translation": "她解释说：“尽管孩子们经常以消极的方式看待世界，对未来没有希望，但我们努力激励他们设定目标，为成功做计划并永不放弃。”",
-          "pos": "pron.",
-          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "追随父母的榜样，她在九岁时爬了第一座山。",
-          "pos": "pron.",
-          "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "后来，她攀登了北美和南美、前苏联和新西兰的最高峰。",
-          "pos": "pron.",
-          "example": "Later,she climbed the highest  mountains in North and South America,the former  USSR and New Zealand.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "1996年，她承担了另一项挑战——撒哈拉沙漠。",
-          "pos": "pron.",
-          "example": "In 1996,she took on another challenge--the Sahara Desert.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
           "translation": "她和她的丈夫比尔步行了2400英里横穿了它。",
           "pos": "pron.",
           "example": "She and her husband,Bill,walked 2,400 miles across it.",
@@ -7837,6 +7974,30 @@
           "pos": "pron.",
           "example": "She, now your wife, is not a dog person, but I still welcomed her into our home.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "她",
+          "pos": "pron.",
+          "example": "She is quiet but alert  .",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "她",
+          "pos": "pron.",
+          "example": "She stares at it carefully.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "她",
+          "pos": "pron.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "她",
+          "pos": "pron.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -7844,10 +8005,11 @@
         "web-ffeb0429c5817c0f",
         "web-2e315a8a858c375d",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "wanted": {
       "lemma": "want",
@@ -8047,42 +8209,6 @@
       "meanings": "与……一起；使用；带有；由于；关于",
       "senses": [
         {
-          "translation": "与……一起",
-          "pos": "prep.",
-          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "关于；与……有关",
-          "pos": "prep.",
-          "example": "Their language is closely associated with their culture.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "与……相比",
-          "pos": "prep.",
-          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "与……相比",
-          "pos": "prep.",
-          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "与……相比",
-          "pos": "prep.",
-          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "具有；带有",
-          "pos": "prep.",
-          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
           "translation": "属于（某机构）",
           "pos": "prep.",
           "example": "Greg Billing is with the Washington Area Bicyclist Association.",
@@ -8117,6 +8243,42 @@
           "pos": "prep.",
           "example": "Is it better to live with hope or without hope?",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "带有",
+          "pos": "prep.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "带有",
+          "pos": "prep.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "带有",
+          "pos": "prep.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "带有",
+          "pos": "prep.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "带有",
+          "pos": "prep.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "带有",
+          "pos": "prep.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -8130,14 +8292,15 @@
         "web-eecaaca1e069e103",
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "this": {
       "lemma": "this",
-      "pos": "pron.",
+      "pos": "det.",
       "forms": "these",
       "meanings": "这；这个；这种情况；此",
       "senses": [
@@ -8206,6 +8369,12 @@
           "pos": "pron.",
           "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "这次",
+          "pos": "det.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -8216,10 +8385,11 @@
         "web-eecaaca1e069e103",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "mindset": {
       "lemma": "mindset",
@@ -8263,15 +8433,22 @@
           "pos": "v.",
           "example": "He started to learn it after losing a close family friend to the disease.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "开始",
+          "pos": "v.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "pursue": {
       "lemma": "pursue",
@@ -8469,24 +8646,6 @@
         {
           "translation": "她的",
           "pos": "pron.",
-          "example": "On the site,she shared her adventures in order to inspire students.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "她的",
-          "pos": "pron.",
-          "example": "Her parents  were athletes and mountain climbers.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "她的",
-          "pos": "pron.",
-          "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "她的",
-          "pos": "pron.",
           "example": "She and her husband,Bill,walked 2,400 miles across it.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
         },
@@ -8537,6 +8696,24 @@
           "pos": "pron.",
           "example": "You filled out the paperwork and said, \"I know you will find a good home for her\".",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -8544,10 +8721,11 @@
         "web-ffeb0429c5817c0f",
         "web-2e315a8a858c375d",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "brothers": {
       "lemma": "brother",
@@ -8574,18 +8752,6 @@
       "forms": "am, is, are, was, were, being, been",
       "meanings": "是；位于；存在；变为",
       "senses": [
-        {
-          "translation": "是（复数过去式）",
-          "pos": "v.",
-          "example": "Her parents  were athletes and mountain climbers.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -8645,6 +8811,18 @@
           "pos": "v.",
           "example": "\" were the only three words that swept over my mind.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "是（被动语态助动词）",
+          "pos": "v.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "是（被动语态助动词）",
+          "pos": "v.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -8653,10 +8831,11 @@
         "web-eecaaca1e069e103",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "away": {
       "lemma": "away",
@@ -9108,12 +9287,6 @@
       "meanings": "已经；有；经历；使；吃",
       "senses": [
         {
-          "translation": "已经",
-          "pos": "v.",
-          "example": "\" She has gone almost everywhere to do that.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
           "translation": "拥有/具有",
           "pos": "v.",
           "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
@@ -9178,6 +9351,12 @@
           "pos": "v.",
           "example": "Not everyone has a computer or electronic reader.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "已经",
+          "pos": "v.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -9186,10 +9365,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-1fac3b0d4f7569c5",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "revitalized": {
       "lemma": "revitalize",
@@ -10399,6 +10579,12 @@
           "pos": "pron.",
           "example": "But nevertheless, as they began to grow, I became their friend.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "他们的",
+          "pos": "pron.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -10408,10 +10594,11 @@
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "success": {
       "lemma": "success",
@@ -11322,18 +11509,6 @@
       "meanings": "一个；某人；单一的；（指代前文提到的事物）",
       "senses": [
         {
-          "translation": "海伦·泰尔是20世纪最伟大的探险家之一。",
-          "pos": "pron.",
-          "example": "Helen Thayer, one of the greatest explorers of the 20th century, loves challenges.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "她拉着自己装有160磅补给的雪橇，在旅行期间没有人带给她新鲜的补给。",
-          "pos": "pron.",
-          "example": "She pulled her own sled piled with 160 pounds of supplies,and during her trip no one brought her fresh supplies.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
           "translation": "事实上，当其中一只（熊）袭击她时，查理救了她的命。",
           "pos": "pron.",
           "example": "In fact,Charlie saved her life when one of  them attacked her.",
@@ -11392,6 +11567,18 @@
           "pos": "pron.",
           "example": "One of the most interesting features of the Oxford Dictionary is its word histories.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "一",
+          "pos": "num.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "一张（卡片）",
+          "pos": "pron.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -11402,10 +11589,11 @@
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
         "web-eecaaca1e069e103",
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "projects": {
       "lemma": "project",
@@ -11622,15 +11810,22 @@
           "pos": "det.",
           "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "另一张卡片",
+          "pos": "det.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "class": {
       "lemma": "class",
@@ -11947,6 +12142,12 @@
           "pos": "adv.",
           "example": "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "接着",
+          "pos": "adv.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -11954,10 +12155,11 @@
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
         "web-2e315a8a858c375d",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "perform": {
       "lemma": "perform",
@@ -13014,16 +13216,23 @@
           "pos": "aux.v.",
           "example": "Do you know what the hamburger named his daughter ?",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "（助动词）",
+          "pos": "aux.v.",
+          "example": "Or do newborns simply prefer more to fewer?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "became": {
       "lemma": "become",
@@ -13048,15 +13257,22 @@
           "pos": "v.",
           "example": "But nevertheless, as they began to grow, I became their friend.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "变得",
+          "pos": "v.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-1fac3b0d4f7569c5",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "woman": {
       "lemma": "woman",
@@ -13385,7 +13601,7 @@
     },
     "no": {
       "lemma": "no",
-      "pos": "det.",
+      "pos": "adv.",
       "forms": "无常见变形",
       "meanings": "没有；不；禁止；一点也不",
       "senses": [
@@ -13424,6 +13640,12 @@
           "pos": "det.",
           "example": "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "No again.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -13431,10 +13653,11 @@
         "web-a41ebe4e54718747",
         "web-52737a111ab04db4",
         "web-eecaaca1e069e103",
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "brought": {
       "lemma": "bring",
@@ -13750,24 +13973,6 @@
         {
           "translation": "当……时",
           "pos": "conj.",
-          "example": "In fact,Charlie saved her life when one of  them attacked her.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "当……时",
-          "pos": "conjunction",
-          "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "当……时",
-          "pos": "conj.",
-          "example": "When the new issue arrives, T.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "当……时",
-          "pos": "conj.",
           "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
           "sourceArticleId": "web-2e315a8a858c375d"
         },
@@ -13812,6 +14017,30 @@
           "pos": "conj.",
           "example": "You've made the right decision for your \"family\", but there was a time when I was your only family.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -13820,10 +14049,11 @@
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "attacked": {
       "lemma": "attack",
@@ -14181,16 +14411,23 @@
           "pos": "n.",
           "example": "I took long naps in the sun waiting for you to come home at the end of the day.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "天",
+          "pos": "n.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-2e315a8a858c375d",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "goes": {
       "lemma": "go",
@@ -14283,18 +14520,6 @@
         {
           "translation": "但是",
           "pos": "conj.",
-          "example": "But a constant stream of riddles can get annoying .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "但是",
-          "pos": "conj.",
-          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "但是",
-          "pos": "conj.",
           "example": "But today,many people believe they can save money by living in the city.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
         },
@@ -14351,6 +14576,18 @@
           "pos": "conj.",
           "example": "You've made the right decision for your \"family\", but there was a time when I was your only family.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "She is quiet but alert  .",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -14361,10 +14598,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "also": {
       "lemma": "also",
@@ -14443,14 +14681,21 @@
           "pos": "prep.",
           "example": "Even if you have no experience before, you can get valuable job skills in today's hottest fields!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "在...之前",
+          "pos": "prep.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "arctic": {
       "lemma": "arctic",
@@ -14818,6 +15063,12 @@
           "pos": "n.",
           "example": "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "世界",
+          "pos": "n.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -14825,10 +15076,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-52737a111ab04db4",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "negative": {
       "lemma": "negative",
@@ -16534,12 +16786,6 @@
         {
           "translation": "比",
           "pos": "conj.",
-          "example": "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "比",
-          "pos": "conj.",
           "example": "The career of your dreams is closer than you think!",
           "sourceArticleId": "web-a41ebe4e54718747"
         },
@@ -16602,6 +16848,12 @@
           "pos": "conj.",
           "example": "I hope you receive more faithfulness from your family than you showed to me.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "比",
+          "pos": "conj.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -16611,10 +16863,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "those": {
       "lemma": "those",
@@ -17510,13 +17763,20 @@
           "pos": "adv.",
           "example": "Prepare for promotions, pay raises, or even start a business of your own.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "甚至",
+          "pos": "adv.",
+          "example": "The effect even crosses between senses.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "professional": {
       "lemma": "professional",
@@ -18718,13 +18978,20 @@
           "pos": "adv.",
           "example": "Simply fill in your name and address on the coupon   above.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "仅仅",
+          "pos": "adv.",
+          "example": "Or do newborns simply prefer more to fewer?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "fill": {
       "lemma": "fill",
@@ -18870,14 +19137,39 @@
           "pos": "n.",
           "example": "In fact,the number of commuters who use bicycles has doubled in the city since 2007.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "数字",
+          "pos": "n.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "数量",
+          "pos": "n.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "数量",
+          "pos": "n.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "数量",
+          "pos": "n.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "you're": {
       "lemma": "you are",
@@ -19216,13 +19508,20 @@
           "pos": "n.",
           "example": "Call anytime, 24 hours a day, 7 days a week.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "小时",
+          "pos": "n.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "days": {
       "lemma": "day",
@@ -20016,15 +20315,22 @@
           "pos": "prep.",
           "example": "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "在……之后",
+          "pos": "prep.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
         "web-2e315a8a858c375d",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "losing": {
       "lemma": "lose",
@@ -21431,14 +21737,27 @@
           "pos": "n.",
           "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
           "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "研究人员",
+          "pos": "n.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "研究人员",
+          "pos": "n.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-eecaaca1e069e103"
+        "web-eecaaca1e069e103",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:04:45.834Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "wrote": {
       "lemma": "write",
@@ -21659,13 +21978,20 @@
           "pos": "adj.",
           "example": "\"I was very surprised that this was a 15-year-old who was writing this.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "……岁的",
+          "pos": "adj.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "meet": {
       "lemma": "meet",
@@ -22258,13 +22584,20 @@
           "pos": "adv.",
           "example": "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "再一次",
+          "pos": "adv.",
+          "example": "No again.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "next": {
       "lemma": "next",
@@ -24094,15 +24427,22 @@
           "pos": "v.",
           "example": "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "做（替代前面的动词）",
+          "pos": "v.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-2e315a8a858c375d",
         "web-eecaaca1e069e103",
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "hamburger": {
       "lemma": "hamburger",
@@ -24209,13 +24549,20 @@
           "pos": "n.",
           "example": "At last --- some peace and quiet.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "安静的",
+          "pos": "adj.",
+          "example": "She is quiet but alert  .",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "nice": {
       "lemma": "nice",
@@ -24466,14 +24813,21 @@
           "pos": "prep.",
           "example": "It approved a safe passing law and created areas on the road between cars and bikes.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "在…之间",
+          "pos": "prep.",
+          "example": "The effect even crosses between senses.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-2e315a8a858c375d",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "bites": {
       "lemma": "bite",
@@ -25149,13 +25503,20 @@
           "pos": "v.",
           "example": "I can tell that she just wants to be around her big brother.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "分辨",
+          "pos": "v.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "big": {
       "lemma": "big",
@@ -25212,13 +25573,20 @@
           "pos": "n.",
           "example": "J's face earlier in the evening .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "脸",
+          "pos": "n.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "reminds": {
       "lemma": "remind",
@@ -25428,13 +25796,20 @@
           "pos": "v.",
           "example": "J still looks unhappy.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "注视",
+          "pos": "v.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "know": {
       "lemma": "know",
@@ -25621,13 +25996,20 @@
           "pos": "v.",
           "example": "\" I heard that from my brother, T.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "听到",
+          "pos": "v.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "he's": {
       "lemma": "he's",
@@ -26524,14 +26906,51 @@
           "pos": "num.",
           "example": "\" were the only three words that swept over my mind.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "三",
+          "pos": "num.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "三",
+          "pos": "num.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "三",
+          "pos": "num.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "三",
+          "pos": "num.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "三",
+          "pos": "num.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "三",
+          "pos": "num.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-52737a111ab04db4",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "weeks": {
       "lemma": "week",
@@ -26816,15 +27235,22 @@
           "pos": "prep.",
           "example": "I was excited about the car ride until we arrived at the dog pound.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "直到……为止",
+          "pos": "prep.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-52737a111ab04db4",
         "web-09421cfd6a2c44ad",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "drink": {
       "lemma": "drink",
@@ -27283,20 +27709,27 @@
       "lemma": "differently",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "不同地；有差异地",
+      "meanings": "不同地；有差异地；以不同方式",
       "senses": [
         {
           "translation": "不同地",
           "pos": "adv.",
           "example": "People think and behave differently.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "不同地",
+          "pos": "adv.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "closely": {
       "lemma": "closely",
@@ -28125,7 +28558,7 @@
     },
     "had": {
       "lemma": "have",
-      "pos": "aux.",
+      "pos": "v.",
       "forms": "has, having, had",
       "meanings": "有；经历；吃；已经",
       "senses": [
@@ -28194,6 +28627,12 @@
           "pos": "aux.",
           "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
@@ -28201,10 +28640,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "experienced": {
       "lemma": "experience",
@@ -28449,13 +28889,20 @@
           "pos": "v.",
           "example": "Mr Hadley said, \"My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
           "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "显示",
+          "pos": "v.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-eecaaca1e069e103"
+        "web-eecaaca1e069e103",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:04:45.834Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "similar": {
       "lemma": "similar",
@@ -29515,13 +29962,20 @@
           "pos": "v.",
           "example": "\"\n\"Most cities took advantage of the money coming for the interstate highway system,from the federal government,starting in 1956.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "来到/出生",
+          "pos": "v.",
+          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "interstate": {
       "lemma": "interstate",
@@ -29692,20 +30146,27 @@
       "lemma": "move",
       "pos": "v.",
       "forms": "moves, moved, moving",
-      "meanings": "移动；搬家；感动；采取行动",
+      "meanings": "移动；搬家；感动；采取行动；转移",
       "senses": [
         {
           "translation": "搬家",
           "pos": "v.",
           "example": "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "转移到",
+          "pos": "v.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "suburban": {
       "lemma": "suburban",
@@ -30032,22 +30493,29 @@
     },
     "change": {
       "lemma": "change",
-      "pos": "n.",
-      "forms": "changes",
-      "meanings": "改变；零钱；更换",
+      "pos": "v.",
+      "forms": "changes, changed, changing",
+      "meanings": "改变；更换；零钱",
       "senses": [
         {
           "translation": "改变",
           "pos": "n.",
           "example": "\"When a person makes a change from 04 using a car to using a bike,they are saving anywhere between 8 or$9,000 a year.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "变化",
+          "pos": "v.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "car": {
       "lemma": "car",
@@ -31179,13 +31647,20 @@
           "pos": "v.",
           "example": "Each followed Cawdrey's lead and presented a few thousand hard words.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "展示",
+          "pos": "v.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "few": {
       "lemma": "few",
@@ -31481,14 +31956,21 @@
           "pos": "v.",
           "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "改变",
+          "pos": "v.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-09421cfd6a2c44ad",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "produced": {
       "lemma": "produce",
@@ -31824,13 +32306,20 @@
           "pos": "num.",
           "example": "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "二十",
+          "pos": "num.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "volume": {
       "lemma": "volume",
@@ -31887,13 +32376,20 @@
           "pos": "pron.",
           "example": "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "它的",
+          "pos": "pron.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "histories": {
       "lemma": "history",
@@ -33159,13 +33655,20 @@
           "pos": "v.",
           "example": "The foundation paid teachers and other education professionals to write and edit them.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "给予",
+          "pos": "v.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "professionals": {
       "lemma": "professional",
@@ -33368,20 +33871,27 @@
       "lemma": "themselves",
       "pos": "pron.",
       "forms": "无常见变形",
-      "meanings": "他们自己；他们亲自",
+      "meanings": "他们自己；它们自己；他们亲自；它们本身",
       "senses": [
         {
           "translation": "他们自己",
           "pos": "pron.",
           "example": "Individual school districts will have to decide for themselves.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "它们本身",
+          "pos": "pron.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "susan": {
       "lemma": "susan",
@@ -33697,14 +34207,21 @@
           "pos": "modal v.",
           "example": "And \"How could you?",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "可能",
+          "pos": "modal v.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "print": {
       "lemma": "print",
@@ -33812,13 +34329,20 @@
           "pos": "n.",
           "example": "When I was a baby, I entertained you and made you laugh.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "婴儿",
+          "pos": "n.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "entertained": {
       "lemma": "entertain",
@@ -34064,13 +34588,20 @@
           "pos": "adj.",
           "example": "I took long naps in the sun waiting for you to come home at the end of the day.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "长时间的",
+          "pos": "adj.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "process": {
       "lemma": "process",
@@ -34511,7 +35042,7 @@
     "babies": {
       "lemma": "baby",
       "pos": "n.",
-      "forms": "baby",
+      "forms": "babies",
       "meanings": "婴儿；幼崽；小孩气的人",
       "senses": [
         {
@@ -34519,13 +35050,32 @@
           "pos": "n.",
           "example": "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "婴儿",
+          "pos": "n.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "婴儿",
+          "pos": "n.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "婴儿",
+          "pos": "n.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "excitement": {
       "lemma": "excitement",
@@ -34715,13 +35265,20 @@
           "pos": "v.",
           "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "移动",
+          "pos": "v.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "apartment": {
       "lemma": "apartment",
@@ -34810,13 +35367,20 @@
           "pos": "adj.",
           "example": "I was excited about the car ride until we arrived at the dog pound.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "兴奋的",
+          "pos": "adj.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
         }
       ],
       "articleIds": [
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-a0a23c816fc997da"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     },
     "arrived": {
       "lemma": "arrive",
@@ -35254,6 +35818,1104 @@
       ],
       "articleCount": 1,
       "updatedAt": "2026-08-03T11:56:28.043Z"
+    },
+    "yet": {
+      "lemma": "yet",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "还；仍然；已经；可是；然而",
+      "senses": [
+        {
+          "translation": "还",
+          "pos": "adv.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "left": {
+      "lemma": "leave",
+      "pos": "v.",
+      "forms": "leaves, leaving, left",
+      "meanings": "离开；丢下；留下；遗留；出租",
+      "senses": [
+        {
+          "translation": "离开",
+          "pos": "v.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "hospital": {
+      "lemma": "hospital",
+      "pos": "n.",
+      "forms": "hospitals",
+      "meanings": "医院；诊所",
+      "senses": [
+        {
+          "translation": "医院",
+          "pos": "n.",
+          "example": "The baby is just one day old and has not yet left hospital.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "centimeters": {
+      "lemma": "centimeter",
+      "pos": "n.",
+      "forms": "centimeters",
+      "meanings": "厘米",
+      "senses": [
+        {
+          "translation": "厘米",
+          "pos": "n.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "placed": {
+      "lemma": "place",
+      "pos": "v.",
+      "forms": "places, placed, placing",
+      "meanings": "放置；安置；排列；寄予（希望等）",
+      "senses": [
+        {
+          "translation": "放置",
+          "pos": "v.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "white": {
+      "lemma": "white",
+      "pos": "adj.",
+      "forms": "whiter, whitest",
+      "meanings": "白色的；白人的；纯洁的；白种人",
+      "senses": [
+        {
+          "translation": "白色的",
+          "pos": "adj.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "card": {
+      "lemma": "card",
+      "pos": "n.",
+      "forms": "cards",
+      "meanings": "卡片；纸牌；名片；证件",
+      "senses": [
+        {
+          "translation": "卡片",
+          "pos": "n.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "卡片",
+          "pos": "n.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "卡片",
+          "pos": "n.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "black": {
+      "lemma": "black",
+      "pos": "adj.",
+      "forms": "blacker, blackest",
+      "meanings": "黑色的；黑暗的；黑人；（政党等）反动的",
+      "senses": [
+        {
+          "translation": "黑色的",
+          "pos": "adj.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "黑色的",
+          "pos": "adj.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "spots": {
+      "lemma": "spot",
+      "pos": "n.",
+      "forms": "spotted, spotting",
+      "meanings": "点；斑点；地点；污点；认出",
+      "senses": [
+        {
+          "translation": "点",
+          "pos": "n.",
+          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "点",
+          "pos": "n.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "点",
+          "pos": "n.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "点",
+          "pos": "n.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "点",
+          "pos": "n.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "stares": {
+      "lemma": "stare",
+      "pos": "v.",
+      "forms": "stared, staring",
+      "meanings": "凝视；盯着看；显眼；瞪眼",
+      "senses": [
+        {
+          "translation": "凝视",
+          "pos": "v.",
+          "example": "She stares at it carefully.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "carefully": {
+      "lemma": "careful",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "仔细地；小心地；谨慎地",
+      "senses": [
+        {
+          "translation": "仔细地",
+          "pos": "adv.",
+          "example": "She stares at it carefully.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "researcher": {
+      "lemma": "researcher",
+      "pos": "n.",
+      "forms": "researchers",
+      "meanings": "研究员；调查人员",
+      "senses": [
+        {
+          "translation": "研究员",
+          "pos": "n.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "removes": {
+      "lemma": "remove",
+      "pos": "v.",
+      "forms": "removed, removing",
+      "meanings": "移除；拿走；消除；免职",
+      "senses": [
+        {
+          "translation": "移除",
+          "pos": "v.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "replaces": {
+      "lemma": "replace",
+      "pos": "v.",
+      "forms": "replaced, replacing",
+      "meanings": "替换；代替；更换；放回原处",
+      "senses": [
+        {
+          "translation": "替换",
+          "pos": "v.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "spaced": {
+      "lemma": "space",
+      "pos": "adj.",
+      "forms": "spacing, spaces",
+      "meanings": "间隔的；有距离的；排开的",
+      "senses": [
+        {
+          "translation": "间隔分布的",
+          "pos": "adj.",
+          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "cards": {
+      "lemma": "card",
+      "pos": "n.",
+      "forms": "card",
+      "meanings": "卡片；名片；纸牌",
+      "senses": [
+        {
+          "translation": "卡片",
+          "pos": "n.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "卡片",
+          "pos": "n.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "gaze": {
+      "lemma": "gaze",
+      "pos": "n.",
+      "forms": "gazes, gazed, gazing",
+      "meanings": "凝视；注视；注视的目光",
+      "senses": [
+        {
+          "translation": "注视的目光",
+          "pos": "n.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "凝视",
+          "pos": "n.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "starts": {
+      "lemma": "start",
+      "pos": "v.",
+      "forms": "starting, started, starts",
+      "meanings": "开始；出发；启动；起始",
+      "senses": [
+        {
+          "translation": "开始",
+          "pos": "v.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "lose": {
+      "lemma": "lose",
+      "pos": "v.",
+      "forms": "losing, lost, loses",
+      "meanings": "失去；丢失；输掉；迷失",
+      "senses": [
+        {
+          "translation": "失去",
+          "pos": "v.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "third": {
+      "lemma": "third",
+      "pos": "num./n.",
+      "forms": "thirds",
+      "meanings": "第三；三分之一；第三个",
+      "senses": [
+        {
+          "translation": "第三个",
+          "pos": "n.",
+          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "returns": {
+      "lemma": "return",
+      "pos": "v.",
+      "forms": "returns, returned, returning",
+      "meanings": "返回；归还；回复；回报；恢复",
+      "senses": [
+        {
+          "translation": "回到（某状态或动作）",
+          "pos": "v.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "twice": {
+      "lemma": "twice",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "两次；两倍；双重",
+      "senses": [
+        {
+          "translation": "两倍",
+          "pos": "adv.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "previous": {
+      "lemma": "previous",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "先前的；以前的；上一个的",
+      "senses": [
+        {
+          "translation": "先前的",
+          "pos": "adj.",
+          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "newborns": {
+      "lemma": "newborn",
+      "pos": "n.",
+      "forms": "newborn",
+      "meanings": "新生儿；初生婴儿",
+      "senses": [
+        {
+          "translation": "新生儿",
+          "pos": "n.",
+          "example": "Or do newborns simply prefer more to fewer?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "prefer": {
+      "lemma": "prefer",
+      "pos": "v.",
+      "forms": "prefers, preferred, preferring",
+      "meanings": "更喜欢；宁愿；提出（建议等）",
+      "senses": [
+        {
+          "translation": "更喜欢",
+          "pos": "v.",
+          "example": "Or do newborns simply prefer more to fewer?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "fewer": {
+      "lemma": "few",
+      "pos": "adj.",
+      "forms": "few, fewer, fewest",
+      "meanings": "较少的；少数的；不多",
+      "senses": [
+        {
+          "translation": "较少数量",
+          "pos": "adj.",
+          "example": "Or do newborns simply prefer more to fewer?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "same": {
+      "lemma": "same",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "相同的；同一的；同样的事情",
+      "senses": [
+        {
+          "translation": "相同的",
+          "pos": "adj.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "experiment": {
+      "lemma": "experiment",
+      "pos": "n.",
+      "forms": "experiments",
+      "meanings": "实验；尝试；进行实验",
+      "senses": [
+        {
+          "translation": "实验",
+          "pos": "n.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "shown": {
+      "lemma": "show",
+      "pos": "v. (past participle)",
+      "forms": "shows, showed, shown, showing",
+      "meanings": "展示；显示；表明；给...看",
+      "senses": [
+        {
+          "translation": "被展示",
+          "pos": "v.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "被展示",
+          "pos": "v.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "被展示",
+          "pos": "v.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "return": {
+      "lemma": "return",
+      "pos": "n.",
+      "forms": "returns, returned, returning",
+      "meanings": "重现；返回；归还；回报",
+      "senses": [
+        {
+          "translation": "重现",
+          "pos": "n.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "changes": {
+      "lemma": "change",
+      "pos": "v.",
+      "forms": "changed, changing, changes",
+      "meanings": "改变；变化；找零；更换",
+      "senses": [
+        {
+          "translation": "改变",
+          "pos": "v.",
+          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "perhaps": {
+      "lemma": "perhaps",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "或许；可能；大概",
+      "senses": [
+        {
+          "translation": "或许",
+          "pos": "adv.",
+          "example": "Perhaps it is just the newness?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "newness": {
+      "lemma": "newness",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "新奇感；新鲜；新颖",
+      "senses": [
+        {
+          "translation": "新奇感",
+          "pos": "n.",
+          "example": "Perhaps it is just the newness?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "slightly": {
+      "lemma": "slightly",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "稍微；轻微地；瘦小地",
+      "senses": [
+        {
+          "translation": "稍微",
+          "pos": "adv.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "older": {
+      "lemma": "old",
+      "pos": "adj.",
+      "forms": "older, oldest",
+      "meanings": "年长的；旧的；以前的；老练的",
+      "senses": [
+        {
+          "translation": "年长的",
+          "pos": "adj.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "objects": {
+      "lemma": "object",
+      "pos": "n.",
+      "forms": "objects",
+      "meanings": "物体；目标；宾语；反对",
+      "senses": [
+        {
+          "translation": "物体",
+          "pos": "n.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "comb": {
+      "lemma": "comb",
+      "pos": "n.",
+      "forms": "combs, combing, combed",
+      "meanings": "梳子；梳理；搜寻",
+      "senses": [
+        {
+          "translation": "梳子",
+          "pos": "n.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "key": {
+      "lemma": "key",
+      "pos": "n.",
+      "forms": "keys",
+      "meanings": "钥匙；关键；答案；键",
+      "senses": [
+        {
+          "translation": "钥匙",
+          "pos": "n.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "orange": {
+      "lemma": "orange",
+      "pos": "n.",
+      "forms": "oranges",
+      "meanings": "橙子；橙色",
+      "senses": [
+        {
+          "translation": "橙子",
+          "pos": "n.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "changing": {
+      "lemma": "change",
+      "pos": "v.",
+      "forms": "changes, changed, changing",
+      "meanings": "改变；更换；找零；零钱",
+      "senses": [
+        {
+          "translation": "改变",
+          "pos": "v.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "effect": {
+      "lemma": "effect",
+      "pos": "n.",
+      "forms": "effects",
+      "meanings": "影响；效果；结果；效力",
+      "senses": [
+        {
+          "translation": "影响",
+          "pos": "n.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "效果",
+          "pos": "n.",
+          "example": "The effect even crosses between senses.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "separate": {
+      "lemma": "separate",
+      "pos": "adj.",
+      "forms": "separates, separated, separating",
+      "meanings": "分开的；单独的；不同的；不相关的",
+      "senses": [
+        {
+          "translation": "独特的",
+          "pos": "adj.",
+          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "pattern": {
+      "lemma": "pattern",
+      "pos": "n.",
+      "forms": "patterns",
+      "meanings": "模式；规律；花样；典范",
+      "senses": [
+        {
+          "translation": "模式",
+          "pos": "n.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "things": {
+      "lemma": "thing",
+      "pos": "n.",
+      "forms": "thing",
+      "meanings": "事物；事情；物品；状况",
+      "senses": [
+        {
+          "translation": "事物",
+          "pos": "n.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "opposed": {
+      "lemma": "oppose",
+      "pos": "prep.",
+      "forms": "opposed, opposing, opposes",
+      "meanings": "与……相对；与……对照；反对",
+      "senses": [
+        {
+          "translation": "与……相对",
+          "pos": "prep.",
+          "example": "Could it be the pattern that two things make, as opposed to three?",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "attention": {
+      "lemma": "attention",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "注意；专心；关注；照料",
+      "senses": [
+        {
+          "translation": "注意",
+          "pos": "n.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "squares": {
+      "lemma": "square",
+      "pos": "n.",
+      "forms": "squares",
+      "meanings": "正方形；广场；平方；方形物",
+      "senses": [
+        {
+          "translation": "正方形",
+          "pos": "n.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "randomly": {
+      "lemma": "random",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "随机地；任意地；无目的地",
+      "senses": [
+        {
+          "translation": "随机地",
+          "pos": "adv.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "screen": {
+      "lemma": "screen",
+      "pos": "n.",
+      "forms": "screens",
+      "meanings": "屏幕；屏风；纱窗；放映",
+      "senses": [
+        {
+          "translation": "屏幕",
+          "pos": "n.",
+          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "crosses": {
+      "lemma": "cross",
+      "pos": "v.",
+      "forms": "crosses, crossed, crossing",
+      "meanings": "跨越；穿过；交叉；反对",
+      "senses": [
+        {
+          "translation": "跨越",
+          "pos": "v.",
+          "example": "The effect even crosses between senses.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "senses": {
+      "lemma": "sense",
+      "pos": "n.",
+      "forms": "senses",
+      "meanings": "感官；感觉；意识；理智；意义",
+      "senses": [
+        {
+          "translation": "感官",
+          "pos": "n.",
+          "example": "The effect even crosses between senses.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "repeatedly": {
+      "lemma": "repeatedly",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "反复地；一再地；重复地",
+      "senses": [
+        {
+          "translation": "反复地",
+          "pos": "adv.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "drumbeats": {
+      "lemma": "drumbeat",
+      "pos": "n.",
+      "forms": "drumbeats",
+      "meanings": "鼓声；击鼓声",
+      "senses": [
+        {
+          "translation": "鼓声",
+          "pos": "n.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "likewise": {
+      "lemma": "likewise",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "同样地；也；照样地",
+      "senses": [
+        {
+          "translation": "同样地",
+          "pos": "adv.",
+          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
+          "sourceArticleId": "web-a0a23c816fc997da"
+        }
+      ],
+      "articleIds": [
+        "web-a0a23c816fc997da"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:14:28.212Z"
     }
   }
 }
