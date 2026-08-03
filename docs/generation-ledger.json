@@ -306,6 +306,71 @@
           }
         }
       ]
+    },
+    {
+      "runId": "30810565577",
+      "startedAt": "2026-08-03T11:42:17.269Z",
+      "generatedAt": "2026-08-03T11:56:28.047Z",
+      "requestedArticles": 27,
+      "acceptedArticles": 1,
+      "completed": false,
+      "usage": {
+        "requests": 31,
+        "inputTokens": 50207,
+        "outputTokens": 25502,
+        "totalTokens": 75709,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "deepseek-v4-flash": {
+            "requests": 8,
+            "inputTokens": 2969,
+            "outputTokens": 1901,
+            "totalTokens": 4870,
+            "estimatedCostUsd": null
+          },
+          "gemini-2.5-flash": {
+            "requests": 23,
+            "inputTokens": 47238,
+            "outputTokens": 23601,
+            "totalTokens": 70839,
+            "estimatedCostUsd": null
+          }
+        }
+      },
+      "articles": [
+        {
+          "articleId": "web-f328bfb9843d2dfa",
+          "title": "RACE 高中英语阅读 high4092",
+          "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+          "requests": 27,
+          "inputTokens": 48799,
+          "outputTokens": 24671,
+          "totalTokens": 73470,
+          "estimatedCostUsd": null,
+          "estimatedCostCny": null,
+          "reportedCosts": {},
+          "pricingComplete": false,
+          "models": {
+            "deepseek-v4-flash": {
+              "requests": 4,
+              "inputTokens": 1561,
+              "outputTokens": 1070,
+              "totalTokens": 2631,
+              "estimatedCostUsd": null
+            },
+            "gemini-2.5-flash": {
+              "requests": 23,
+              "inputTokens": 47238,
+              "outputTokens": 23601,
+              "totalTokens": 70839,
+              "estimatedCostUsd": null
+            }
+          }
+        }
+      ]
     }
   ]
 }

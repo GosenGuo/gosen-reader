@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T11:38:34.587Z",
+  "generatedAt": "2026-08-03T11:56:28.047Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -33130,6 +33130,3350 @@
             "inputTokens": 41505,
             "outputTokens": 20193,
             "totalTokens": 61698,
+            "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-f328bfb9843d2dfa",
+      "title": "RACE 高中英语阅读 high4092",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "When I was a baby, I entertained you and made you laugh.Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.\nMy housetraining was a long process, because you were terribly busy, but we worked on that together. We went for long walks, runs in the park and car rides. We stopped for ice cream. I took long naps in the sun waiting for you to come home at the end of the day.\nGradually, you began spending more time at work and on your career, and more time searching for a human mate.Eventually, you fell in love.She, now your wife, is not a dog person, but I still welcomed her into our home.I was happy because you were happy.Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.\nYour wife was afraid I would bite them.But nevertheless, as they began to grow, I became their friend.Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.You've made the right decision for your \"family\", but there was a time when I was your only family.\nI was excited about the car ride until we arrived at the dog pound.It smelled of dogs and cats, of fear, of hopelessness.You filled out the paperwork and said, \"I know you will find a good home for her\".They shrugged and gave you a pained look.The children were in tears as they waved me goodbye.And \"How could you?\" were the only three words that swept over my mind.\nIs it better to live with hope or without hope? At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.\nMy beloved master, I will think of you and wait for you forever.I hope you receive more faithfulness from your family than you showed to me.",
+      "wordCount": 382,
+      "sentenceTranslations": {
+        "When I was a baby, I entertained you and made you laugh.": "当我还是个小宝宝时，我逗你开心，让你笑个不停。",
+        "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": "每当我“不乖”时，你会对我摇着手指问：“你怎么能这样？”",
+        "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": "——但随后你又会放弃责备，把我翻过来挠肚子，那时我相信生活再完美不过了。",
+        "My housetraining was a long process, because you were terribly busy, but we worked on that together.": "我的如厕训练是个漫长的过程，因为你实在太忙了，但我们还是一起努力完成了。",
+        "We went for long walks, runs in the park and car rides.": "我们一起长途散步、在公园里奔跑、坐车兜风。",
+        "We stopped for ice cream.": "我们还会停下来吃冰淇淋。",
+        "I took long naps in the sun waiting for you to come home at the end of the day.": "我常在阳光下打盹，等你一天结束回家。",
+        "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": "渐渐地，你花更多时间在工作与事业上，也更多时间寻找人类伴侣。",
+        "Eventually, you fell in love.": "最终，你坠入了爱河。",
+        "She, now your wife, is not a dog person, but I still welcomed her into our home.": "她——如今你的妻子——并不喜欢狗，但我依然欢迎她进入我们的家。",
+        "I was happy because you were happy.": "我很快乐，因为你快乐。",
+        "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": "后来人类宝宝出生了，我分享着你的兴奋，被他们粉嫩的肤色和气味深深吸引，也想要像母亲一样照顾他们。",
+        "Your wife was afraid I would bite them.": "你妻子当时怕我会咬他们。",
+        "But nevertheless, as they began to grow, I became their friend.": "但尽管如此，随着他们慢慢长大，我还是成了他们的朋友。",
+        "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": "现在，你在另一个城市有了份新工作，你和他们要搬去的地方不允许养宠物。",
+        "You've made the right decision for your \"family\", but there was a time when I was your only family.": "你为你的“家人”做出了正确的决定，但曾经有一段时间，我是你唯一的家人。",
+        "I was excited about the car ride until we arrived at the dog pound.": "在到达收容所之前，我一直对坐车感到很兴奋。",
+        "It smelled of dogs and cats, of fear, of hopelessness.": "那里弥漫着猫狗的气味，还有恐惧和绝望的气息。",
+        "You filled out the paperwork and said, \"I know you will find a good home for her\".": "你填好了文件，说道：“我知道你会为她找到一个好归宿。”",
+        "They shrugged and gave you a pained look.": "他们耸耸肩，露出痛苦的表情。",
+        "The children were in tears as they waved me goodbye.": "孩子们含泪向我挥手告别。",
+        "And \"How could you?": "而“你怎么能这样？”",
+        "\" were the only three words that swept over my mind.": "是掠过我心头的仅有的三个字。",
+        "Is it better to live with hope or without hope?": "带着希望生活好，还是没有希望生活好呢？",
+        "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": "起初，每当有人经过我的围栏时，我都会冲到最前面，心怀希冀地想那是不是你，想你是不是回心转意了，而这一切不过是一场噩梦。",
+        "My beloved master, I will think of you and wait for you forever.": "我挚爱的主人，我会永远思念你，永远等待你。",
+        "I hope you receive more faithfulness from your family than you showed to me.": "我希望你的家人能给予你比你待我更多的忠诚。"
+      },
+      "glossary": {
+        "when": {
+          "lemma": "when",
+          "translation": "当……时",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "当……时；在……时候；既然；考虑到",
+          "contexts": {
+            "When I was a baby, I entertained you and made you laugh.": {
+              "translation": "当我还是个婴儿时",
+              "pos": "conj."
+            },
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "在……的时候",
+              "pos": "conj."
+            }
+          }
+        },
+        "i": {
+          "lemma": "I",
+          "translation": "我",
+          "pos": "pron.",
+          "forms": "my, mine, me",
+          "meanings": "我",
+          "contexts": {
+            "When I was a baby, I entertained you and made you laugh.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I was happy because you were happy.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "Your wife was afraid I would bite them.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "But nevertheless, as they began to grow, I became their friend.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "我",
+              "pos": "pron."
+            }
+          }
+        },
+        "was": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；在；存在；成为",
+          "contexts": {
+            "When I was a baby, I entertained you and made you laugh.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "I was happy because you were happy.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Your wife was afraid I would bite them.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何；一种",
+          "contexts": {
+            "When I was a baby, I entertained you and made you laugh.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "They shrugged and gave you a pained look.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "baby": {
+          "lemma": "baby",
+          "translation": "婴儿",
+          "pos": "n.",
+          "forms": "babies",
+          "meanings": "婴儿；幼崽；乖乖（昵称）",
+          "contexts": {
+            "When I was a baby, I entertained you and made you laugh.": {
+              "translation": "婴儿",
+              "pos": "n."
+            }
+          }
+        },
+        "entertained": {
+          "lemma": "entertain",
+          "translation": "娱乐",
+          "pos": "v.",
+          "forms": "entertains, entertained, entertaining",
+          "meanings": "娱乐；款待；怀有（思想、希望等）",
+          "contexts": {
+            "When I was a baby, I entertained you and made you laugh.": {
+              "translation": "娱乐",
+              "pos": "v."
+            }
+          }
+        },
+        "you": {
+          "lemma": "you",
+          "translation": "你",
+          "pos": "pron.",
+          "forms": "your; yours; yourself",
+          "meanings": "你；你们；人们（泛指）",
+          "contexts": {
+            "When I was a baby, I entertained you and made you laugh.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "Eventually, you fell in love.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "I was happy because you were happy.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "They shrugged and gave you a pained look.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "And \"How could you?": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "你",
+              "pos": "pron."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "When I was a baby, I entertained you and made you laugh.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "It smelled of dogs and cats, of fear, of hopelessness.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "They shrugged and gave you a pained look.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "And \"How could you?": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "和",
+              "pos": "conj."
+            }
+          }
+        },
+        "made": {
+          "lemma": "make",
+          "translation": "使",
+          "pos": "v.",
+          "forms": "making, made, makes",
+          "meanings": "制造；使；做出；赚取",
+          "contexts": {
+            "When I was a baby, I entertained you and made you laugh.": {
+              "translation": "使",
+              "pos": "v."
+            },
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "做出",
+              "pos": "v."
+            }
+          }
+        },
+        "laugh": {
+          "lemma": "laugh",
+          "translation": "笑",
+          "pos": "v.",
+          "forms": "laughs, laughed, laughing",
+          "meanings": "笑；嘲笑；开怀大笑",
+          "contexts": {
+            "When I was a baby, I entertained you and made you laugh.": {
+              "translation": "笑",
+              "pos": "v."
+            }
+          }
+        },
+        "whenever": {
+          "lemma": "whenever",
+          "translation": "每当",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "每当；无论何时；随时",
+          "contexts": {
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "每当",
+              "pos": "conj."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "每当",
+              "pos": "conj."
+            }
+          }
+        },
+        "bad": {
+          "lemma": "bad",
+          "translation": "表现不好的",
+          "pos": "adj.",
+          "forms": "worse, worst",
+          "meanings": "坏的；糟糕的；严重的；有害的",
+          "contexts": {
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "表现不好的",
+              "pos": "adj."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "糟糕的",
+              "pos": "adj."
+            }
+          }
+        },
+        "you'd": {
+          "lemma": "you would",
+          "translation": "你将会/你过去常会",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "你（曾）会；你（过去）常会；你将要",
+          "contexts": {
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "你过去常会",
+              "pos": "modal v."
+            },
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "你过去常会",
+              "pos": "modal v."
+            }
+          }
+        },
+        "shake": {
+          "lemma": "shake",
+          "translation": "摇动",
+          "pos": "v.",
+          "forms": "shook, shaken, shaking",
+          "meanings": "摇动；抖动；握手；震动",
+          "contexts": {
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "摇动",
+              "pos": "v."
+            }
+          }
+        },
+        "your": {
+          "lemma": "your",
+          "translation": "你的",
+          "pos": "pron.",
+          "forms": "yours",
+          "meanings": "你的；你们的",
+          "contexts": {
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "Your wife was afraid I would bite them.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "你的",
+              "pos": "pron."
+            }
+          }
+        },
+        "finger": {
+          "lemma": "finger",
+          "translation": "手指",
+          "pos": "n.",
+          "forms": "fingers",
+          "meanings": "手指；指状物；指状部分",
+          "contexts": {
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "手指",
+              "pos": "n."
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "对（某人）",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）；向；针对",
+          "contexts": {
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "针对",
+              "pos": "prep."
+            },
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "在……时",
+              "pos": "prep."
+            }
+          }
+        },
+        "me": {
+          "lemma": "I",
+          "translation": "我",
+          "pos": "pron.",
+          "forms": "my, mine, me",
+          "meanings": "我（宾格）",
+          "contexts": {
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "The children were in tears as they waved me goodbye.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "我",
+              "pos": "pron."
+            }
+          }
+        },
+        "ask": {
+          "lemma": "ask",
+          "translation": "询问",
+          "pos": "v.",
+          "forms": "asks, asked, asking",
+          "meanings": "询问；要求；请求；邀请",
+          "contexts": {
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "询问",
+              "pos": "v."
+            }
+          }
+        },
+        "how": {
+          "lemma": "how",
+          "translation": "怎么",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "如何；以何种方式；多么；状况",
+          "contexts": {
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "怎么",
+              "pos": "adv."
+            },
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "And \"How could you?": {
+              "translation": "怎么",
+              "pos": "adv."
+            }
+          }
+        },
+        "could": {
+          "lemma": "can",
+          "translation": "能够（表示过去的能力或委婉请求）",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "能够；可能；可以；用于疑问句表示惊讶或困惑",
+          "contexts": {
+            "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
+              "translation": "竟然，怎么（表示惊讶或责备）",
+              "pos": "modal v."
+            },
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "能够（表示过去的能力）",
+              "pos": "modal v."
+            },
+            "And \"How could you?": {
+              "translation": "竟然，怎么",
+              "pos": "modal v."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "But nevertheless, as they began to grow, I became their friend.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "then": {
+          "lemma": "then",
+          "translation": "然后",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "然后；当时；那么；接着",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "然后",
+              "pos": "adv."
+            },
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "接着；后来",
+              "pos": "adv."
+            }
+          }
+        },
+        "give": {
+          "lemma": "give",
+          "translation": "给予",
+          "pos": "v.",
+          "forms": "gave, given, giving",
+          "meanings": "给予；放弃；提供；举行",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "放弃（与up连用）",
+              "pos": "v."
+            }
+          }
+        },
+        "up": {
+          "lemma": "up",
+          "translation": "完成（与give连用）",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "完成；彻底；向上；出现",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "彻底（放弃）",
+              "pos": "adv."
+            }
+          }
+        },
+        "roll": {
+          "lemma": "roll",
+          "translation": "滚动，翻转",
+          "pos": "v.",
+          "forms": "rolls, rolled, rolling",
+          "meanings": "滚动；转动；翻滚；卷起",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "翻转",
+              "pos": "v."
+            }
+          }
+        },
+        "over": {
+          "lemma": "over",
+          "translation": "翻转……过来",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "遍及；超过；在……上方；结束；翻转",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "翻转（与roll连用，表示身体翻转）",
+              "pos": "adv."
+            },
+            "\" were the only three words that swept over my mind.": {
+              "translation": "覆盖；遍及",
+              "pos": "prep."
+            }
+          }
+        },
+        "for": {
+          "lemma": "for",
+          "translation": "为了",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "为了；支持；因为；给；对于",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "用于目的，为了（获得）",
+              "pos": "prep."
+            },
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "进行（某项活动）",
+              "pos": "prep."
+            },
+            "We stopped for ice cream.": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "等待（某人）",
+              "pos": "prep."
+            },
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "寻找（某人/某物）",
+              "pos": "prep."
+            },
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "给……找到（住所）",
+              "pos": "prep."
+            },
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "等待（某人）",
+              "pos": "prep."
+            }
+          }
+        },
+        "belly": {
+          "lemma": "belly",
+          "translation": "腹部，肚子",
+          "pos": "n.",
+          "forms": "bellies",
+          "meanings": "腹部；胃；肚子",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "腹部",
+              "pos": "n."
+            }
+          }
+        },
+        "scratch": {
+          "lemma": "scratch",
+          "translation": "抓挠",
+          "pos": "n.",
+          "forms": "scratches, scratched, scratching",
+          "meanings": "抓挠；擦伤；刮擦声；起跑线",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "抓挠",
+              "pos": "n."
+            }
+          }
+        },
+        "believed": {
+          "lemma": "believe",
+          "translation": "认为",
+          "pos": "v.",
+          "forms": "believes, believed, believing",
+          "meanings": "相信；认为；持有（某种观点）；确信",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "认为",
+              "pos": "v."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "引导从句",
+          "pos": "conj.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；因为",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "那",
+              "pos": "pron."
+            },
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "引导定语从句",
+              "pos": "pron."
+            },
+            "\" were the only three words that swept over my mind.": {
+              "translation": "引导从句",
+              "pos": "pron."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            }
+          }
+        },
+        "life": {
+          "lemma": "life",
+          "translation": "生活",
+          "pos": "n.",
+          "forms": "lives",
+          "meanings": "生命；生活；人生；生物",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "生活",
+              "pos": "n."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是；绝非",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "be": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；表现为；处于……状态",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "将要（表将来）",
+              "pos": "v."
+            }
+          }
+        },
+        "any": {
+          "lemma": "any",
+          "translation": "任何",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "任何；任一；一点（用于否定/疑问句）；一些",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "任何",
+              "pos": "det."
+            }
+          }
+        },
+        "more": {
+          "lemma": "more",
+          "translation": "更",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "更多；较大程度；额外；再",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "更",
+              "pos": "adv."
+            },
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "更多",
+              "pos": "adj."
+            },
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "更多",
+              "pos": "adj."
+            }
+          }
+        },
+        "perfect": {
+          "lemma": "perfect",
+          "translation": "完美的",
+          "pos": "adj.",
+          "forms": "perfecter, perfectest",
+          "meanings": "完美的；极好的；完全的；熟练的",
+          "contexts": {
+            "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
+              "translation": "完美的",
+              "pos": "adj."
+            }
+          }
+        },
+        "my": {
+          "lemma": "my",
+          "translation": "我的",
+          "pos": "pron.",
+          "forms": "mine",
+          "meanings": "我的",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "我的",
+              "pos": "pron."
+            },
+            "\" were the only three words that swept over my mind.": {
+              "translation": "我的",
+              "pos": "pron."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "我的",
+              "pos": "pron."
+            },
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "我的",
+              "pos": "pron."
+            }
+          }
+        },
+        "housetraining": {
+          "lemma": "housetraining",
+          "translation": "宠物居家训练",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "宠物居家训练（指训练宠物在指定地点便溺）；家务训练",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "宠物居家训练",
+              "pos": "n."
+            }
+          }
+        },
+        "long": {
+          "lemma": "long",
+          "translation": "漫长的",
+          "pos": "adj.",
+          "forms": "longer, longest",
+          "meanings": "漫长的；长期的；长度的；远久的",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "漫长的",
+              "pos": "adj."
+            },
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "长距离的",
+              "pos": "adj."
+            },
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "长时间的",
+              "pos": "adj."
+            }
+          }
+        },
+        "process": {
+          "lemma": "process",
+          "translation": "过程",
+          "pos": "n.",
+          "forms": "processes",
+          "meanings": "过程；程序；步骤；加工",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "过程",
+              "pos": "n."
+            }
+          }
+        },
+        "because": {
+          "lemma": "because",
+          "translation": "因为",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "因为；由于",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "因为",
+              "pos": "conj."
+            },
+            "I was happy because you were happy.": {
+              "translation": "因为",
+              "pos": "conj."
+            }
+          }
+        },
+        "were": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；存在；变为",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "I was happy because you were happy.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "The children were in tears as they waved me goodbye.": {
+              "translation": "处于（某种状态）",
+              "pos": "v."
+            },
+            "\" were the only three words that swept over my mind.": {
+              "translation": "（作为助动词或系动词）",
+              "pos": "v."
+            }
+          }
+        },
+        "terribly": {
+          "lemma": "terribly",
+          "translation": "非常",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "非常；糟糕地；极其",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "非常",
+              "pos": "adv."
+            }
+          }
+        },
+        "busy": {
+          "lemma": "busy",
+          "translation": "忙碌的",
+          "pos": "adj.",
+          "forms": "busier, busiest",
+          "meanings": "忙碌的；繁忙的；热闹的",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "忙碌的",
+              "pos": "adj."
+            }
+          }
+        },
+        "we": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "us, our, ours",
+          "meanings": "我们",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "We stopped for ice cream.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "worked": {
+          "lemma": "work",
+          "translation": "致力于",
+          "pos": "v.",
+          "forms": "works, worked, working",
+          "meanings": "工作；致力于；起作用；经营",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "致力于",
+              "pos": "v."
+            }
+          }
+        },
+        "on": {
+          "lemma": "on",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；在……之上；通过；在（时间）",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "关于（某事）",
+              "pos": "prep."
+            },
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "关于；在……方面",
+              "pos": "prep."
+            }
+          }
+        },
+        "together": {
+          "lemma": "together",
+          "translation": "一起",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "一起；共同；一致；同时",
+          "contexts": {
+            "My housetraining was a long process, because you were terribly busy, but we worked on that together.": {
+              "translation": "一起",
+              "pos": "adv."
+            }
+          }
+        },
+        "went": {
+          "lemma": "go",
+          "translation": "进行",
+          "pos": "verb",
+          "forms": "went, gone, going",
+          "meanings": "去；走；变得；进行；运行",
+          "contexts": {
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "我们去（进行）长距离散步、在公园跑步和乘车兜风。",
+              "pos": "verb"
+            }
+          }
+        },
+        "walks": {
+          "lemma": "walk",
+          "translation": "散步",
+          "pos": "noun",
+          "forms": "walks",
+          "meanings": "散步；步行；路程；人行道",
+          "contexts": {
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "我们去进行长距离散步。",
+              "pos": "noun"
+            }
+          }
+        },
+        "runs": {
+          "lemma": "run",
+          "translation": "跑步",
+          "pos": "noun",
+          "forms": "runs",
+          "meanings": "跑步；经营；赛跑；（车辆的）行程",
+          "contexts": {
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "我们在公园跑步。",
+              "pos": "noun"
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……里面",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）",
+          "contexts": {
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "在公园里",
+              "pos": "prep."
+            },
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "在阳光下",
+              "pos": "prep."
+            },
+            "Eventually, you fell in love.": {
+              "translation": "处于（某种状态）",
+              "pos": "prep."
+            },
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "在……里面",
+              "pos": "prep."
+            },
+            "The children were in tears as they waved me goodbye.": {
+              "translation": "处于（某种状态）",
+              "pos": "prep."
+            }
+          }
+        },
+        "the": {
+          "lemma": "the",
+          "translation": "这，那",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
+          "contexts": {
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "（特指公园）",
+              "pos": "art."
+            },
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "（特指阳光）",
+              "pos": "art."
+            },
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "（特指人类婴儿）",
+              "pos": "art."
+            },
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "（特指决定）",
+              "pos": "art."
+            },
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "（特指乘车）",
+              "pos": "art."
+            },
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "（特指文件）",
+              "pos": "art."
+            },
+            "The children were in tears as they waved me goodbye.": {
+              "translation": "（特指孩子们）",
+              "pos": "art."
+            },
+            "\" were the only three words that swept over my mind.": {
+              "translation": "（特指想法）",
+              "pos": "art."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "（特指围栏）",
+              "pos": "art."
+            }
+          }
+        },
+        "park": {
+          "lemma": "park",
+          "translation": "公园",
+          "pos": "noun",
+          "forms": "parks",
+          "meanings": "公园；停车场；园区",
+          "contexts": {
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "公园",
+              "pos": "noun"
+            }
+          }
+        },
+        "car": {
+          "lemma": "car",
+          "translation": "汽车",
+          "pos": "noun",
+          "forms": "cars",
+          "meanings": "汽车；轿车；车厢",
+          "contexts": {
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "汽车",
+              "pos": "noun"
+            },
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "汽车",
+              "pos": "noun"
+            }
+          }
+        },
+        "rides": {
+          "lemma": "ride",
+          "translation": "乘车",
+          "pos": "noun",
+          "forms": "rides",
+          "meanings": "乘车；搭便车；骑行；游乐设施",
+          "contexts": {
+            "We went for long walks, runs in the park and car rides.": {
+              "translation": "乘车兜风",
+              "pos": "noun"
+            }
+          }
+        },
+        "stopped": {
+          "lemma": "stop",
+          "translation": "停下",
+          "pos": "verb",
+          "forms": "stopped, stopping, stops",
+          "meanings": "停止；停下；阻止；堵塞",
+          "contexts": {
+            "We stopped for ice cream.": {
+              "translation": "我们停下来买冰淇淋。",
+              "pos": "verb"
+            }
+          }
+        },
+        "ice": {
+          "lemma": "ice",
+          "translation": "冰",
+          "pos": "noun",
+          "forms": "无常见变形",
+          "meanings": "冰；冰激凌；冷淡",
+          "contexts": {
+            "We stopped for ice cream.": {
+              "translation": "冰（与cream组成ice cream指冰激凌）",
+              "pos": "noun"
+            }
+          }
+        },
+        "cream": {
+          "lemma": "cream",
+          "translation": "奶油",
+          "pos": "n.",
+          "forms": "creams",
+          "meanings": "奶油；乳脂；精华；奶油色",
+          "contexts": {
+            "We stopped for ice cream.": {
+              "translation": "奶油",
+              "pos": "n."
+            }
+          }
+        },
+        "took": {
+          "lemma": "take",
+          "translation": "花费",
+          "pos": "v.",
+          "forms": "took, taken, taking",
+          "meanings": "承担；拿；取；花费；乘车",
+          "contexts": {
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "花费",
+              "pos": "v."
+            }
+          }
+        },
+        "naps": {
+          "lemma": "nap",
+          "translation": "小睡",
+          "pos": "n.",
+          "forms": "naps, napped, napping",
+          "meanings": "小睡；午睡；打盹；瞌睡",
+          "contexts": {
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "小睡",
+              "pos": "n."
+            }
+          }
+        },
+        "sun": {
+          "lemma": "sun",
+          "translation": "阳光",
+          "pos": "n.",
+          "forms": "suns",
+          "meanings": "太阳；阳光；恒星",
+          "contexts": {
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "阳光",
+              "pos": "n."
+            }
+          }
+        },
+        "waiting": {
+          "lemma": "wait",
+          "translation": "等候",
+          "pos": "v.",
+          "forms": "waits, waited, waiting",
+          "meanings": "等候；等待；推迟；服务",
+          "contexts": {
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "等候",
+              "pos": "v."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "构成不定式",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "到；向；给；构成不定式",
+          "contexts": {
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "But nevertheless, as they began to grow, I became their friend.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "Is it better to live with hope or without hope?": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "向",
+              "pos": "prep."
+            },
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "对",
+              "pos": "prep."
+            }
+          }
+        },
+        "come": {
+          "lemma": "come",
+          "translation": "来",
+          "pos": "v.",
+          "forms": "came, coming, comes",
+          "meanings": "来；到达；出现；开始",
+          "contexts": {
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "来",
+              "pos": "v."
+            }
+          }
+        },
+        "home": {
+          "lemma": "home",
+          "translation": "家",
+          "pos": "n.",
+          "forms": "homes",
+          "meanings": "家；住宅；故乡；在家里",
+          "contexts": {
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "家",
+              "pos": "n."
+            },
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "家",
+              "pos": "n."
+            },
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "住处",
+              "pos": "n."
+            }
+          }
+        },
+        "end": {
+          "lemma": "end",
+          "translation": "末尾",
+          "pos": "n.",
+          "forms": "ends, ended, ending",
+          "meanings": "末尾；结束；终点；目标",
+          "contexts": {
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "末尾",
+              "pos": "n."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
+          "contexts": {
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "It smelled of dogs and cats, of fear, of hopelessness.": {
+              "translation": "（表示特征）",
+              "pos": "prep."
+            },
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "关于",
+              "pos": "prep."
+            }
+          }
+        },
+        "day": {
+          "lemma": "day",
+          "translation": "一天",
+          "pos": "n.",
+          "forms": "days",
+          "meanings": "天；白天；日子；时期",
+          "contexts": {
+            "I took long naps in the sun waiting for you to come home at the end of the day.": {
+              "translation": "一天",
+              "pos": "n."
+            }
+          }
+        },
+        "gradually": {
+          "lemma": "gradual",
+          "translation": "逐渐地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "逐渐地；逐步地；迟缓地",
+          "contexts": {
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "逐渐地",
+              "pos": "adv."
+            }
+          }
+        },
+        "began": {
+          "lemma": "begin",
+          "translation": "开始",
+          "pos": "v.",
+          "forms": "begins, began, begun, beginning",
+          "meanings": "开始；着手；创办；起初",
+          "contexts": {
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "开始",
+              "pos": "v."
+            },
+            "But nevertheless, as they began to grow, I became their friend.": {
+              "translation": "开始",
+              "pos": "v."
+            }
+          }
+        },
+        "time": {
+          "lemma": "time",
+          "translation": "时间",
+          "pos": "n.",
+          "forms": "times",
+          "meanings": "时间；时代；次数；倍数",
+          "contexts": {
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "时间",
+              "pos": "n."
+            },
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "时期",
+              "pos": "n."
+            }
+          }
+        },
+        "work": {
+          "lemma": "work",
+          "translation": "工作",
+          "pos": "n.",
+          "forms": "works, worked, working",
+          "meanings": "工作；职业；研究；作品；工厂",
+          "contexts": {
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "工作",
+              "pos": "n."
+            }
+          }
+        },
+        "career": {
+          "lemma": "career",
+          "translation": "职业",
+          "pos": "n.",
+          "forms": "careers",
+          "meanings": "职业；事业；生涯；经历",
+          "contexts": {
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "职业",
+              "pos": "n."
+            }
+          }
+        },
+        "searching": {
+          "lemma": "search",
+          "translation": "寻找",
+          "pos": "v.",
+          "forms": "searches, searched, searching",
+          "meanings": "寻找；搜寻；查究；探求",
+          "contexts": {
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "寻找",
+              "pos": "v."
+            }
+          }
+        },
+        "human": {
+          "lemma": "human",
+          "translation": "人类的",
+          "pos": "adj.",
+          "forms": "humans",
+          "meanings": "人类的；人的；有人性的",
+          "contexts": {
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "人类的",
+              "pos": "adj."
+            },
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "人类的",
+              "pos": "adj."
+            }
+          }
+        },
+        "mate": {
+          "lemma": "mate",
+          "translation": "配偶",
+          "pos": "n.",
+          "forms": "mates",
+          "meanings": "配偶；同伴；同事；(动物的)配偶",
+          "contexts": {
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "配偶",
+              "pos": "n."
+            }
+          }
+        },
+        "eventually": {
+          "lemma": "eventually",
+          "translation": "最终",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "最终；最后；终于",
+          "contexts": {
+            "Eventually, you fell in love.": {
+              "translation": "最终，你坠入了爱河。",
+              "pos": "adv."
+            }
+          }
+        },
+        "fell": {
+          "lemma": "fall",
+          "translation": "进入（某种状态）",
+          "pos": "v.",
+          "forms": "falls, falling, fell, fallen",
+          "meanings": "落下；跌倒；下降；进入（状态）",
+          "contexts": {
+            "Eventually, you fell in love.": {
+              "translation": "最终，你坠入了爱河。",
+              "pos": "v."
+            }
+          }
+        },
+        "love": {
+          "lemma": "love",
+          "translation": "恋爱",
+          "pos": "n.",
+          "forms": "loves, loved, loving",
+          "meanings": "爱；恋爱；热爱；喜爱的东西",
+          "contexts": {
+            "Eventually, you fell in love.": {
+              "translation": "最终，你坠入了爱河。",
+              "pos": "n."
+            }
+          }
+        },
+        "she": {
+          "lemma": "she",
+          "translation": "她",
+          "pos": "pron.",
+          "forms": "her, hers, herself",
+          "meanings": "她",
+          "contexts": {
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "她，现在是你的妻子，并不是一个爱狗的人，但我仍然欢迎她进入我们的家。",
+              "pos": "pron."
+            }
+          }
+        },
+        "now": {
+          "lemma": "now",
+          "translation": "现在",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "现在；目前；立刻；既然",
+          "contexts": {
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "现在",
+              "pos": "adv."
+            },
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "现在，你在另一个城市有了新工作，你和他们将搬到一个不允许养宠物的公寓。",
+              "pos": "adv."
+            }
+          }
+        },
+        "wife": {
+          "lemma": "wife",
+          "translation": "妻子",
+          "pos": "n.",
+          "forms": "wives",
+          "meanings": "妻子；太太",
+          "contexts": {
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "妻子",
+              "pos": "n."
+            },
+            "Your wife was afraid I would bite them.": {
+              "translation": "你的妻子担心我会咬他们。",
+              "pos": "n."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于；位于",
+          "contexts": {
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Is it better to live with hope or without hope?": {
+              "translation": "（活着）是带着希望生活更好，还是没有希望生活更好？",
+              "pos": "v."
+            }
+          }
+        },
+        "dog": {
+          "lemma": "dog",
+          "translation": "狗",
+          "pos": "n.",
+          "forms": "dogs, dogged, dogging",
+          "meanings": "狗；卑鄙的人；（动词）困扰；跟踪",
+          "contexts": {
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "狗",
+              "pos": "n."
+            },
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "收容所",
+              "pos": "n."
+            }
+          }
+        },
+        "person": {
+          "lemma": "person",
+          "translation": "人",
+          "pos": "n.",
+          "forms": "people (pl.), persons (pl.)",
+          "meanings": "人；个人；身体；角色",
+          "contexts": {
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "人",
+              "pos": "n."
+            }
+          }
+        },
+        "still": {
+          "lemma": "still",
+          "translation": "仍然",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仍然；更；静止的",
+          "contexts": {
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "仍然",
+              "pos": "adv."
+            }
+          }
+        },
+        "welcomed": {
+          "lemma": "welcome",
+          "translation": "欢迎",
+          "pos": "v.",
+          "forms": "welcomes, welcomed, welcoming",
+          "meanings": "欢迎；迎接；乐意接受；欣然接受",
+          "contexts": {
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "欢迎",
+              "pos": "v."
+            }
+          }
+        },
+        "her": {
+          "lemma": "she",
+          "translation": "她",
+          "pos": "pron.",
+          "forms": "hers, herself",
+          "meanings": "她的；她（宾格）",
+          "contexts": {
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "她",
+              "pos": "pron."
+            }
+          }
+        },
+        "into": {
+          "lemma": "into",
+          "translation": "进入",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "进入；进入到；处于（某状态）；变成",
+          "contexts": {
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "进入",
+              "pos": "prep."
+            }
+          }
+        },
+        "our": {
+          "lemma": "our",
+          "translation": "我们的",
+          "pos": "pron.",
+          "forms": "ours",
+          "meanings": "我们的",
+          "contexts": {
+            "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "我们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "happy": {
+          "lemma": "happy",
+          "translation": "快乐的",
+          "pos": "adj.",
+          "forms": "happier, happiest",
+          "meanings": "快乐的；幸福的；满意的；幸运的",
+          "contexts": {
+            "I was happy because you were happy.": {
+              "translation": "快乐的",
+              "pos": "adj."
+            }
+          }
+        },
+        "babies": {
+          "lemma": "baby",
+          "translation": "婴儿",
+          "pos": "n.",
+          "forms": "baby",
+          "meanings": "婴儿；幼崽；小孩气的人",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "婴儿",
+              "pos": "n."
+            }
+          }
+        },
+        "came": {
+          "lemma": "come",
+          "translation": "来到",
+          "pos": "v.",
+          "forms": "comes, came, coming",
+          "meanings": "来；到达；出现；开始",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "来到",
+              "pos": "v."
+            }
+          }
+        },
+        "along": {
+          "lemma": "along",
+          "translation": "出现",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "一起；沿着；向前；进展",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "出现",
+              "pos": "adv."
+            }
+          }
+        },
+        "shared": {
+          "lemma": "share",
+          "translation": "分享",
+          "pos": "v.",
+          "forms": "shares, shared, sharing",
+          "meanings": "分享；共有；分配；分担",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "分享",
+              "pos": "v."
+            }
+          }
+        },
+        "excitement": {
+          "lemma": "excitement",
+          "translation": "兴奋",
+          "pos": "n.",
+          "forms": "excitements",
+          "meanings": "兴奋；激动；令人兴奋的事",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "兴奋",
+              "pos": "n."
+            }
+          }
+        },
+        "fascinated": {
+          "lemma": "fascinate",
+          "translation": "着迷的",
+          "pos": "adj.",
+          "forms": "fascinates, fascinated, fascinating",
+          "meanings": "着迷的；极感兴趣的；被深深吸引的",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "着迷",
+              "pos": "adj."
+            }
+          }
+        },
+        "by": {
+          "lemma": "by",
+          "translation": "被",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "通过；被；凭借；在……旁边",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "被",
+              "pos": "prep."
+            }
+          }
+        },
+        "their": {
+          "lemma": "they",
+          "translation": "他们的",
+          "pos": "pron.",
+          "forms": "theirs",
+          "meanings": "他们的；她们的；它们的",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "他们的",
+              "pos": "pron."
+            },
+            "But nevertheless, as they began to grow, I became their friend.": {
+              "translation": "他们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "pinkness": {
+          "lemma": "pinkness",
+          "translation": "粉红",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "粉红；粉红的颜色；(皮肤的)红润",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "粉红",
+              "pos": "n."
+            }
+          }
+        },
+        "they": {
+          "lemma": "they",
+          "translation": "他们",
+          "pos": "pron.",
+          "forms": "their, theirs, them, themselves",
+          "meanings": "他们；她们；它们",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "But nevertheless, as they began to grow, I became their friend.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "They shrugged and gave you a pained look.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "The children were in tears as they waved me goodbye.": {
+              "translation": "他们",
+              "pos": "pron."
+            }
+          }
+        },
+        "smelled": {
+          "lemma": "smell",
+          "translation": "闻起来",
+          "pos": "v.",
+          "forms": "smells, smelled, smelling",
+          "meanings": "闻起来；散发……气味；嗅；有……臭味",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "闻起来",
+              "pos": "v."
+            },
+            "It smelled of dogs and cats, of fear, of hopelessness.": {
+              "translation": "散发……气味",
+              "pos": "v."
+            }
+          }
+        },
+        "wanted": {
+          "lemma": "want",
+          "translation": "想要",
+          "pos": "v.",
+          "forms": "wants, wanted, wanting",
+          "meanings": "想要；希望；需要；打算",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "想要",
+              "pos": "v."
+            }
+          }
+        },
+        "mother": {
+          "lemma": "mother",
+          "translation": "像母亲一样照料",
+          "pos": "v.",
+          "forms": "mothers, mothered, mothering",
+          "meanings": "像母亲一样照料；悉心照顾；生下；培育",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "像母亲一样照料",
+              "pos": "v."
+            }
+          }
+        },
+        "them": {
+          "lemma": "they",
+          "translation": "他们",
+          "pos": "pron.",
+          "forms": "they, their, theirs, themselves",
+          "meanings": "他们；她们；它们",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "Your wife was afraid I would bite them.": {
+              "translation": "他们",
+              "pos": "pron."
+            }
+          }
+        },
+        "too": {
+          "lemma": "too",
+          "translation": "也",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "也；太；过于；很",
+          "contexts": {
+            "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "也",
+              "pos": "adv."
+            }
+          }
+        },
+        "afraid": {
+          "lemma": "afraid",
+          "translation": "担心",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "害怕的；担心的；不敢的；恐怕",
+          "contexts": {
+            "Your wife was afraid I would bite them.": {
+              "translation": "担心",
+              "pos": "adj."
+            }
+          }
+        },
+        "would": {
+          "lemma": "will",
+          "translation": "会",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将；会；愿意；总是",
+          "contexts": {
+            "Your wife was afraid I would bite them.": {
+              "translation": "会",
+              "pos": "modal v."
+            }
+          }
+        },
+        "bite": {
+          "lemma": "bite",
+          "translation": "咬",
+          "pos": "v.",
+          "forms": "bit, bitten, biting, bites",
+          "meanings": "咬；叮；刺痛；啃",
+          "contexts": {
+            "Your wife was afraid I would bite them.": {
+              "translation": "咬",
+              "pos": "v."
+            }
+          }
+        },
+        "nevertheless": {
+          "lemma": "nevertheless",
+          "translation": "尽管如此",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "尽管如此；然而；不过",
+          "contexts": {
+            "But nevertheless, as they began to grow, I became their friend.": {
+              "translation": "尽管如此",
+              "pos": "adv."
+            }
+          }
+        },
+        "as": {
+          "lemma": "as",
+          "translation": "当……时",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "像……一样；作为；当……时；因为；正如",
+          "contexts": {
+            "But nevertheless, as they began to grow, I became their friend.": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "The children were in tears as they waved me goodbye.": {
+              "translation": "当……时",
+              "pos": "conj."
+            }
+          }
+        },
+        "grow": {
+          "lemma": "grow",
+          "translation": "长大",
+          "pos": "v.",
+          "forms": "grew, grown, growing, grows",
+          "meanings": "生长；长大；逐渐变得；种植",
+          "contexts": {
+            "But nevertheless, as they began to grow, I became their friend.": {
+              "translation": "长大",
+              "pos": "v."
+            }
+          }
+        },
+        "became": {
+          "lemma": "become",
+          "translation": "成为",
+          "pos": "v.",
+          "forms": "became, become, becoming, becomes",
+          "meanings": "变成；变得；成为；适宜",
+          "contexts": {
+            "But nevertheless, as they began to grow, I became their friend.": {
+              "translation": "成为",
+              "pos": "v."
+            }
+          }
+        },
+        "friend": {
+          "lemma": "friend",
+          "translation": "朋友",
+          "pos": "n.",
+          "forms": "friends",
+          "meanings": "朋友；支持者；伙伴；友人",
+          "contexts": {
+            "But nevertheless, as they began to grow, I became their friend.": {
+              "translation": "朋友",
+              "pos": "n."
+            }
+          }
+        },
+        "have": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "having, had, has",
+          "meanings": "有；经历；吃；使（某人做某事）；辅助动词（完成时态）",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "有",
+              "pos": "v."
+            }
+          }
+        },
+        "new": {
+          "lemma": "new",
+          "translation": "新的",
+          "pos": "adj.",
+          "forms": "newer, newest",
+          "meanings": "新的；刚出现的；新鲜的；新式的",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "新的",
+              "pos": "adj."
+            }
+          }
+        },
+        "job": {
+          "lemma": "job",
+          "translation": "工作",
+          "pos": "n.",
+          "forms": "jobs",
+          "meanings": "工作；职位；活儿；职责",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "工作",
+              "pos": "n."
+            }
+          }
+        },
+        "another": {
+          "lemma": "another",
+          "translation": "另一",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "另一；又一；另一个",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "另一",
+              "pos": "det."
+            }
+          }
+        },
+        "city": {
+          "lemma": "city",
+          "translation": "城市",
+          "pos": "n.",
+          "forms": "cities",
+          "meanings": "城市；都市；全市居民",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "城市",
+              "pos": "n."
+            }
+          }
+        },
+        "will": {
+          "lemma": "will",
+          "translation": "将要",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将要；会；愿意；意志（名词）",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "将要",
+              "pos": "modal v."
+            },
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "将会",
+              "pos": "modal v."
+            },
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "将会",
+              "pos": "modal v."
+            }
+          }
+        },
+        "moving": {
+          "lemma": "move",
+          "translation": "搬家",
+          "pos": "v.",
+          "forms": "moves, moved, moving",
+          "meanings": "搬家；移动；感动；采取行动",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "搬家",
+              "pos": "v."
+            }
+          }
+        },
+        "an": {
+          "lemma": "an",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "一个；任何；每一",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "apartment": {
+          "lemma": "apartment",
+          "translation": "公寓",
+          "pos": "n.",
+          "forms": "apartments",
+          "meanings": "公寓；一套房间",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "公寓",
+              "pos": "n."
+            }
+          }
+        },
+        "does": {
+          "lemma": "do",
+          "translation": "做（助动词用于构成否定句）",
+          "pos": "v.",
+          "forms": "do, does, did, doing, done",
+          "meanings": "做；进行；行动；表现",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "做（助动词）",
+              "pos": "v."
+            }
+          }
+        },
+        "allow": {
+          "lemma": "allow",
+          "translation": "允许",
+          "pos": "v.",
+          "forms": "allows, allowed, allowing",
+          "meanings": "允许；准许；承认；给予",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "允许",
+              "pos": "v."
+            }
+          }
+        },
+        "pets": {
+          "lemma": "pet",
+          "translation": "宠物",
+          "pos": "n.",
+          "forms": "pets",
+          "meanings": "宠物；宠儿；受宠的人",
+          "contexts": {
+            "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "宠物",
+              "pos": "n."
+            }
+          }
+        },
+        "you've": {
+          "lemma": "you have",
+          "translation": "你已经",
+          "pos": "pron. + v.",
+          "forms": "无常见变形",
+          "meanings": "你已经",
+          "contexts": {
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "你已经",
+              "pos": "pron. + v."
+            }
+          }
+        },
+        "right": {
+          "lemma": "right",
+          "translation": "正确的",
+          "pos": "adj.",
+          "forms": "righter, rightest",
+          "meanings": "正确的；恰当的；右边的；合适的",
+          "contexts": {
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "正确的",
+              "pos": "adj."
+            }
+          }
+        },
+        "decision": {
+          "lemma": "decision",
+          "translation": "决定",
+          "pos": "n.",
+          "forms": "decisions",
+          "meanings": "决定；抉择；判断；决心",
+          "contexts": {
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "决定",
+              "pos": "n."
+            }
+          }
+        },
+        "family": {
+          "lemma": "family",
+          "translation": "家庭",
+          "pos": "n.",
+          "forms": "families",
+          "meanings": "家庭；家人；亲属；家族",
+          "contexts": {
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "家庭",
+              "pos": "n."
+            },
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "家人",
+              "pos": "n."
+            }
+          }
+        },
+        "there": {
+          "lemma": "there",
+          "translation": "存在",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "存在（用于there be句型）；在那里；向那里；到那里",
+          "contexts": {
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "存在",
+              "pos": "adv."
+            }
+          }
+        },
+        "only": {
+          "lemma": "only",
+          "translation": "唯一的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "唯一的；仅仅；只；才",
+          "contexts": {
+            "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
+              "translation": "唯一的",
+              "pos": "adj."
+            },
+            "\" were the only three words that swept over my mind.": {
+              "translation": "仅有的",
+              "pos": "adj."
+            }
+          }
+        },
+        "excited": {
+          "lemma": "excite",
+          "translation": "激动的",
+          "pos": "adj.",
+          "forms": "exciting, excitement",
+          "meanings": "激动的；兴奋的；活跃的",
+          "contexts": {
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "激动的",
+              "pos": "adj."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围；忙于",
+          "contexts": {
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "关于",
+              "pos": "prep."
+            }
+          }
+        },
+        "ride": {
+          "lemma": "ride",
+          "translation": "乘车",
+          "pos": "n.",
+          "forms": "rides, riding, rode, ridden",
+          "meanings": "乘车；旅程；骑行；搭乘",
+          "contexts": {
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "乘车",
+              "pos": "n."
+            }
+          }
+        },
+        "until": {
+          "lemma": "until",
+          "translation": "直到",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "直到……为止；在……之前",
+          "contexts": {
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "直到",
+              "pos": "prep."
+            }
+          }
+        },
+        "arrived": {
+          "lemma": "arrive",
+          "translation": "到达",
+          "pos": "v.",
+          "forms": "arrives, arrived, arriving",
+          "meanings": "到达；抵达；达成（协议）；成功",
+          "contexts": {
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "到达",
+              "pos": "v."
+            }
+          }
+        },
+        "pound": {
+          "lemma": "pound",
+          "translation": "（流浪动物）收容所",
+          "pos": "n.",
+          "forms": "pounds",
+          "meanings": "（流浪动物）收容所；英镑；磅；猛击",
+          "contexts": {
+            "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "（流浪动物）收容所",
+              "pos": "n."
+            }
+          }
+        },
+        "it": {
+          "lemma": "it",
+          "translation": "它",
+          "pos": "pron.",
+          "forms": "its, itself",
+          "meanings": "它；这；那个；代指已提到的事物",
+          "contexts": {
+            "It smelled of dogs and cats, of fear, of hopelessness.": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "Is it better to live with hope or without hope?": {
+              "translation": "（形式主语）",
+              "pos": "pron."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "它（指代之前提到的某人或某物）",
+              "pos": "pron."
+            }
+          }
+        },
+        "dogs": {
+          "lemma": "dog",
+          "translation": "狗",
+          "pos": "n.",
+          "forms": "dogs",
+          "meanings": "狗；卑鄙的人；（动词）困扰，折磨",
+          "contexts": {
+            "It smelled of dogs and cats, of fear, of hopelessness.": {
+              "translation": "狗",
+              "pos": "n."
+            }
+          }
+        },
+        "cats": {
+          "lemma": "cat",
+          "translation": "猫",
+          "pos": "n.",
+          "forms": "cats",
+          "meanings": "猫；猫科动物；狠毒的女人",
+          "contexts": {
+            "It smelled of dogs and cats, of fear, of hopelessness.": {
+              "translation": "猫",
+              "pos": "n."
+            }
+          }
+        },
+        "fear": {
+          "lemma": "fear",
+          "translation": "恐惧",
+          "pos": "n.",
+          "forms": "fears, feared, fearing",
+          "meanings": "恐惧；害怕；担忧；敬畏",
+          "contexts": {
+            "It smelled of dogs and cats, of fear, of hopelessness.": {
+              "translation": "恐惧",
+              "pos": "n."
+            }
+          }
+        },
+        "hopelessness": {
+          "lemma": "hopelessness",
+          "translation": "绝望",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "绝望；无望；无可救药",
+          "contexts": {
+            "It smelled of dogs and cats, of fear, of hopelessness.": {
+              "translation": "绝望",
+              "pos": "n."
+            }
+          }
+        },
+        "filled": {
+          "lemma": "fill",
+          "translation": "填写",
+          "pos": "v.",
+          "forms": "fills, filled, filling",
+          "meanings": "充满；装满；填写；补缺",
+          "contexts": {
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "填写（表格等）",
+              "pos": "v."
+            }
+          }
+        },
+        "out": {
+          "lemma": "out",
+          "translation": "（与fill连用）填写完整",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向外；彻底地；离开；（与动词连用表示完成或终结）",
+          "contexts": {
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "（与fill连用表示完成填写）",
+              "pos": "adv."
+            }
+          }
+        },
+        "paperwork": {
+          "lemma": "paperwork",
+          "translation": "文书工作",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "文书工作；书面文件；公文",
+          "contexts": {
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "文书工作",
+              "pos": "n."
+            }
+          }
+        },
+        "said": {
+          "lemma": "say",
+          "translation": "说",
+          "pos": "v.",
+          "forms": "says, saying, said",
+          "meanings": "说；讲；陈述；表达；声称",
+          "contexts": {
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "说",
+              "pos": "v."
+            }
+          }
+        },
+        "know": {
+          "lemma": "know",
+          "translation": "知道",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉",
+          "contexts": {
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "知道",
+              "pos": "v."
+            }
+          }
+        },
+        "find": {
+          "lemma": "find",
+          "translation": "找到",
+          "pos": "v.",
+          "forms": "found, finding, finds",
+          "meanings": "发现；找到；认为；发觉",
+          "contexts": {
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "找到",
+              "pos": "v."
+            }
+          }
+        },
+        "good": {
+          "lemma": "good",
+          "translation": "好的",
+          "pos": "adj.",
+          "forms": "better, best",
+          "meanings": "好；愉快的；优良的；有效的",
+          "contexts": {
+            "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
+              "translation": "好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "shrugged": {
+          "lemma": "shrug",
+          "translation": "耸肩",
+          "pos": "v.",
+          "forms": "shrugs, shrugged, shrugging",
+          "meanings": "耸肩（表示怀疑、无知或不感兴趣）",
+          "contexts": {
+            "They shrugged and gave you a pained look.": {
+              "translation": "耸肩",
+              "pos": "v."
+            }
+          }
+        },
+        "gave": {
+          "lemma": "give",
+          "translation": "给予",
+          "pos": "v.",
+          "forms": "gives, gave, given, giving",
+          "meanings": "给；提供；交给；举办；产生",
+          "contexts": {
+            "They shrugged and gave you a pained look.": {
+              "translation": "给予",
+              "pos": "v."
+            }
+          }
+        },
+        "pained": {
+          "lemma": "pained",
+          "translation": "痛苦的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "痛苦的；苦恼的；带有痛楚的",
+          "contexts": {
+            "They shrugged and gave you a pained look.": {
+              "translation": "痛苦的",
+              "pos": "adj."
+            }
+          }
+        },
+        "look": {
+          "lemma": "look",
+          "translation": "表情",
+          "pos": "n.",
+          "forms": "looks",
+          "meanings": "表情；外表；看；注视",
+          "contexts": {
+            "They shrugged and gave you a pained look.": {
+              "translation": "表情",
+              "pos": "n."
+            }
+          }
+        },
+        "children": {
+          "lemma": "child",
+          "translation": "儿童",
+          "pos": "n.",
+          "forms": "child (单数)",
+          "meanings": "儿童；孩子；子女；产物",
+          "contexts": {
+            "The children were in tears as they waved me goodbye.": {
+              "translation": "儿童",
+              "pos": "n."
+            }
+          }
+        },
+        "tears": {
+          "lemma": "tear",
+          "translation": "眼泪",
+          "pos": "n.",
+          "forms": "tears",
+          "meanings": "眼泪；泪水",
+          "contexts": {
+            "The children were in tears as they waved me goodbye.": {
+              "translation": "眼泪",
+              "pos": "n."
+            }
+          }
+        },
+        "waved": {
+          "lemma": "wave",
+          "translation": "挥手",
+          "pos": "v.",
+          "forms": "waves, waved, waving",
+          "meanings": "挥手；摆动；起伏；波浪",
+          "contexts": {
+            "The children were in tears as they waved me goodbye.": {
+              "translation": "挥手",
+              "pos": "v."
+            }
+          }
+        },
+        "goodbye": {
+          "lemma": "goodbye",
+          "translation": "再见",
+          "pos": "int./n.",
+          "forms": "goodbyes",
+          "meanings": "再见；告别；离别",
+          "contexts": {
+            "The children were in tears as they waved me goodbye.": {
+              "translation": "再见",
+              "pos": "int."
+            }
+          }
+        },
+        "three": {
+          "lemma": "three",
+          "translation": "三",
+          "pos": "num.",
+          "forms": "无常见变形",
+          "meanings": "三；三个；第三",
+          "contexts": {
+            "\" were the only three words that swept over my mind.": {
+              "translation": "三",
+              "pos": "num."
+            }
+          }
+        },
+        "words": {
+          "lemma": "word",
+          "translation": "单词",
+          "pos": "n.",
+          "forms": "words",
+          "meanings": "单词；词；话语；消息",
+          "contexts": {
+            "\" were the only three words that swept over my mind.": {
+              "translation": "单词",
+              "pos": "n."
+            }
+          }
+        },
+        "swept": {
+          "lemma": "sweep",
+          "translation": "掠过",
+          "pos": "v.",
+          "forms": "sweeps, swept, sweeping",
+          "meanings": "掠过；扫除；席卷；打扫",
+          "contexts": {
+            "\" were the only three words that swept over my mind.": {
+              "translation": "掠过",
+              "pos": "v."
+            }
+          }
+        },
+        "mind": {
+          "lemma": "mind",
+          "translation": "思想",
+          "pos": "n.",
+          "forms": "minds",
+          "meanings": "头脑；思想；理智；在意",
+          "contexts": {
+            "\" were the only three words that swept over my mind.": {
+              "translation": "头脑",
+              "pos": "n."
+            },
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "主意",
+              "pos": "n."
+            }
+          }
+        },
+        "better": {
+          "lemma": "good",
+          "translation": "更好的",
+          "pos": "adj.",
+          "forms": "best (superlative)",
+          "meanings": "更好的；更优秀的；改善；胜过；更好地",
+          "contexts": {
+            "Is it better to live with hope or without hope?": {
+              "translation": "更好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "live": {
+          "lemma": "live",
+          "translation": "生活",
+          "pos": "v.",
+          "forms": "lives, living, lived",
+          "meanings": "居住；生存；生活；现场的",
+          "contexts": {
+            "Is it better to live with hope or without hope?": {
+              "translation": "生活",
+              "pos": "v."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "具有",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "与……一起；使用；带有；由于；关于",
+          "contexts": {
+            "Is it better to live with hope or without hope?": {
+              "translation": "具有",
+              "pos": "prep."
+            }
+          }
+        },
+        "hope": {
+          "lemma": "hope",
+          "translation": "希望",
+          "pos": "n./v.",
+          "forms": "hopes, hoped, hoping",
+          "meanings": "希望；期望；盼望",
+          "contexts": {
+            "Is it better to live with hope or without hope?": {
+              "translation": "希望",
+              "pos": "n."
+            },
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "希望",
+              "pos": "v."
+            }
+          }
+        },
+        "or": {
+          "lemma": "or",
+          "translation": "或者",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "或者；否则；也不；即",
+          "contexts": {
+            "Is it better to live with hope or without hope?": {
+              "translation": "或者",
+              "pos": "conj."
+            }
+          }
+        },
+        "without": {
+          "lemma": "without",
+          "translation": "没有",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "没有；不；缺乏；免除",
+          "contexts": {
+            "Is it better to live with hope or without hope?": {
+              "translation": "没有",
+              "pos": "prep."
+            }
+          }
+        },
+        "first": {
+          "lemma": "first",
+          "translation": "起初",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "第一；首先；首要的；最初",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "起初",
+              "pos": "adv."
+            }
+          }
+        },
+        "anyone": {
+          "lemma": "anyone",
+          "translation": "任何人",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "任何人；无论谁",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "任何人",
+              "pos": "pron."
+            }
+          }
+        },
+        "passed": {
+          "lemma": "pass",
+          "translation": "经过",
+          "pos": "v.",
+          "forms": "passes, passing, passed",
+          "meanings": "经过；传递；通过；度过",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "经过",
+              "pos": "v."
+            }
+          }
+        },
+        "pen": {
+          "lemma": "pen",
+          "translation": "笔",
+          "pos": "n.",
+          "forms": "pens",
+          "meanings": "笔；钢笔；围栏；写作",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "笔",
+              "pos": "n."
+            }
+          }
+        },
+        "rushed": {
+          "lemma": "rush",
+          "translation": "冲",
+          "pos": "v.",
+          "forms": "rushes, rushing, rushed",
+          "meanings": "冲；赶快；奔走；催促",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "冲",
+              "pos": "v."
+            }
+          }
+        },
+        "front": {
+          "lemma": "front",
+          "translation": "前面",
+          "pos": "n.",
+          "forms": "fronts",
+          "meanings": "前面；前线；前部；门面",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "前面",
+              "pos": "n."
+            }
+          }
+        },
+        "hoping": {
+          "lemma": "hope",
+          "translation": "希望",
+          "pos": "v.",
+          "forms": "hopes, hoping, hoped",
+          "meanings": "希望；盼望；期待；想",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "希望",
+              "pos": "v."
+            }
+          }
+        },
+        "had": {
+          "lemma": "have",
+          "translation": "已经",
+          "pos": "aux.",
+          "forms": "has, having, had",
+          "meanings": "有；经历；吃；已经",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "已经",
+              "pos": "aux."
+            }
+          }
+        },
+        "changed": {
+          "lemma": "change",
+          "translation": "改变",
+          "pos": "v.",
+          "forms": "changes, changed, changing",
+          "meanings": "改变；变化；兑换；更换",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "改变了",
+              "pos": "v."
+            }
+          }
+        },
+        "this": {
+          "lemma": "this",
+          "translation": "这",
+          "pos": "pron.",
+          "forms": "these",
+          "meanings": "这；这个；这种情况；此",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "这（指代前文所述的情况）",
+              "pos": "pron."
+            }
+          }
+        },
+        "all": {
+          "lemma": "all",
+          "translation": "全部",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "全部；所有；总共；整个",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "全部",
+              "pos": "pron."
+            }
+          }
+        },
+        "dream": {
+          "lemma": "dream",
+          "translation": "梦",
+          "pos": "n.",
+          "forms": "dreams, dreamed/dreamt, dreaming",
+          "meanings": "梦；梦想；幻想；理想",
+          "contexts": {
+            "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
+              "translation": "梦",
+              "pos": "n."
+            }
+          }
+        },
+        "beloved": {
+          "lemma": "beloved",
+          "translation": "深爱的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "深爱的；挚爱的；心爱的",
+          "contexts": {
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "深爱的",
+              "pos": "adj."
+            }
+          }
+        },
+        "master": {
+          "lemma": "master",
+          "translation": "主人",
+          "pos": "n.",
+          "forms": "masters",
+          "meanings": "主人；大师；精通；控制",
+          "contexts": {
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "主人",
+              "pos": "n."
+            }
+          }
+        },
+        "think": {
+          "lemma": "think",
+          "translation": "想",
+          "pos": "v.",
+          "forms": "thinks, thought, thinking",
+          "meanings": "想；认为；思考；考虑",
+          "contexts": {
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "想念",
+              "pos": "v."
+            }
+          }
+        },
+        "wait": {
+          "lemma": "wait",
+          "translation": "等待",
+          "pos": "v.",
+          "forms": "waits, waited, waiting",
+          "meanings": "等待；等候；耽搁",
+          "contexts": {
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "等待",
+              "pos": "v."
+            }
+          }
+        },
+        "forever": {
+          "lemma": "forever",
+          "translation": "永远",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "永远；长久地；没完没了地",
+          "contexts": {
+            "My beloved master, I will think of you and wait for you forever.": {
+              "translation": "永远",
+              "pos": "adv."
+            }
+          }
+        },
+        "receive": {
+          "lemma": "receive",
+          "translation": "收到",
+          "pos": "v.",
+          "forms": "received, receiving, receives",
+          "meanings": "收到；接到；受到；接待",
+          "contexts": {
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "得到",
+              "pos": "v."
+            }
+          }
+        },
+        "faithfulness": {
+          "lemma": "faithfulness",
+          "translation": "忠诚",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "忠诚；忠实；可靠；准确性",
+          "contexts": {
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "忠诚",
+              "pos": "n."
+            }
+          }
+        },
+        "from": {
+          "lemma": "from",
+          "translation": "从",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "从；来自；因为；由于；起始",
+          "contexts": {
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "从",
+              "pos": "prep."
+            }
+          }
+        },
+        "than": {
+          "lemma": "than",
+          "translation": "比",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "比；除……之外；与之相比",
+          "contexts": {
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "比",
+              "pos": "conj."
+            }
+          }
+        },
+        "showed": {
+          "lemma": "show",
+          "translation": "表现出",
+          "pos": "v.",
+          "forms": "shows, showing, showed, shown/showed",
+          "meanings": "显示；表现出；展示；引路",
+          "contexts": {
+            "I hope you receive more faithfulness from your family than you showed to me.": {
+              "translation": "表现出",
+              "pos": "v."
+            }
+          }
+        },
+        "spending": {
+          "lemma": "spend",
+          "translation": "花费",
+          "pos": "v. (gerund)",
+          "forms": "spends, spent",
+          "meanings": "开支；支出；消费；花销",
+          "contexts": {
+            "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
+              "translation": "花费（时间、精力等）",
+              "pos": "v. (gerund)"
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Who tells this story?",
+          "options": [
+            "A dog.",
+            "A child.",
+            "A dog's owner.",
+            "A dog trainer."
+          ],
+          "answer": 0,
+          "explanation": "故事以第一人称“我”叙述，描述了作为婴儿时的陪伴、被挠肚子、训练、散步等经历，这些行为符合狗的特征，因此叙述者是一只狗。",
+          "type": "推理判断",
+          "evidenceSentence": "When I was a baby, I entertained you and made you laugh.",
+          "optionExplanations": [
+            "A选项正确，因为故事以狗的视角叙述，描述了狗的经历和感受。",
+            "B选项错误，故事中“human babies”是后来出现的，叙述者不是孩子。",
+            "C选项错误，叙述者是狗，不是狗的主人。",
+            "D选项错误，故事中没有提到狗训练师，叙述者是狗本身。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "偷换概念",
+            "偷换概念",
+            "偷换概念"
+          ]
+        },
+        {
+          "prompt": "Why did the dog's owner take his dog to the pound?",
+          "options": [
+            "He had a newborn baby.",
+            "His wife did not like the dog.",
+            "He was moving into a new building.",
+            "He thought the dog too troublesome."
+          ],
+          "answer": 2,
+          "explanation": "文中明确提到主人搬到了不允许养宠物的公寓，因此将狗送到收容所。",
+          "type": "细节理解",
+          "evidenceSentence": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
+          "optionExplanations": [
+            "A选项错误，虽然主人有新生儿，但直接原因是新公寓不允许养宠物。",
+            "B选项错误，妻子虽然害怕狗，但文中未说这是送走狗的原因。",
+            "C选项正确，因为新公寓不允许养宠物。",
+            "D选项错误，文中未说主人认为狗麻烦。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "推理过度",
+            "正确",
+            "没有定位证据句"
+          ]
+        },
+        {
+          "prompt": "Which is true about the dog when it lived at the pound?",
+          "options": [
+            "It hoped to be adopted by another family",
+            "It continued to love its former owner.",
+            "It did not trust humans any more.",
+            "It was excited about the pound."
+          ],
+          "answer": 1,
+          "explanation": "狗在收容所时，仍然希望主人回来，并说“我会永远想念你并等你”，表明它仍然爱着前主人。",
+          "type": "细节理解",
+          "evidenceSentence": "My beloved master, I will think of you and wait for you forever.",
+          "optionExplanations": [
+            "A选项错误，狗希望的是主人回来，而不是被其他家庭收养。",
+            "B选项正确，狗仍然爱着前主人，并等待他。",
+            "C选项错误，狗仍然信任主人，没有不信任人类。",
+            "D选项错误，狗对收容所感到恐惧和绝望，并非兴奋。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "正确",
+            "推理过度",
+            "忽略否定或范围"
+          ]
+        },
+        {
+          "prompt": "What is the theme of the story?",
+          "options": [
+            "Be ready for changes.",
+            "Never expect too much.",
+            "Never complain about your life.",
+            "Be faithful to those who love you"
+          ],
+          "answer": 3,
+          "explanation": "故事通过狗对主人的忠诚和等待，以及主人对狗的不忠，强调了要对爱自己的人忠诚。",
+          "type": "主旨大意",
+          "evidenceSentence": "I hope you receive more faithfulness from your family than you showed to me.",
+          "optionExplanations": [
+            "A选项错误，故事主题不是为变化做准备，而是关于忠诚。",
+            "B选项错误，故事不是关于期望太多，而是关于忠诚。",
+            "C选项错误，故事不是关于不抱怨生活，而是关于忠诚。",
+            "D选项正确，故事主题是对爱你的人保持忠诚。"
+          ],
+          "optionErrorTypes": [
+            "把局部信息当成主旨",
+            "把局部信息当成主旨",
+            "把局部信息当成主旨",
+            "正确"
+          ]
+        }
+      ],
+      "generationUsage": {
+        "requests": 27,
+        "inputTokens": 48799,
+        "outputTokens": 24671,
+        "totalTokens": 73470,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "deepseek-v4-flash": {
+            "requests": 4,
+            "inputTokens": 1561,
+            "outputTokens": 1070,
+            "totalTokens": 2631,
+            "estimatedCostUsd": null
+          },
+          "gemini-2.5-flash": {
+            "requests": 23,
+            "inputTokens": 47238,
+            "outputTokens": 23601,
+            "totalTokens": 70839,
             "estimatedCostUsd": null
           }
         }
