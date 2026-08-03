@@ -37,6 +37,7 @@ public final class AppUpdateManager {
     private static final String KEY_FILE_NAME = "file_name";
     private static final String KEY_SHA256 = "sha256";
     private static final String KEY_VERIFIED = "verified";
+    private static final String KEY_VERSION_CODE = "version_code";
 
     private final Activity activity;
     private final SharedPreferences preferences;
@@ -95,6 +96,13 @@ public final class AppUpdateManager {
             return;
         }
         File file = updateFile(fileName);
+        int pendingVersionCode = preferences.getInt(
+                KEY_VERSION_CODE, versionCodeFromFileName(fileName));
+        if (pendingVersionCode > 0 && pendingVersionCode <= BuildConfig.VERSION_CODE) {
+            if (file.isFile()) file.delete();
+            clearPendingDownload();
+            return;
+        }
         if (file.isFile() && preferences.getBoolean(KEY_VERIFIED, false)
                 && canInstallPackages()) {
             launchInstaller(file);
@@ -206,6 +214,7 @@ public final class AppUpdateManager {
                 .putLong(KEY_DOWNLOAD_ID, id)
                 .putString(KEY_FILE_NAME, fileName)
                 .putString(KEY_SHA256, info.sha256)
+                .putInt(KEY_VERSION_CODE, info.versionCode)
                 .putBoolean(KEY_VERIFIED, false)
                 .apply();
         Toast.makeText(activity, "已开始下载，完成后会打开安装界面", Toast.LENGTH_LONG).show();
@@ -277,7 +286,24 @@ public final class AppUpdateManager {
                 .setDataAndType(uri, "application/vnd.android.package-archive")
                 .addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        // The system installer now owns this attempt. Keeping it pending causes
+        // every Activity resume, including a successful upgrade, to reopen the
+        // same APK forever. A cancelled install will be offered again by the
+        // normal update check on the next app launch.
+        clearPendingDownload();
         activity.startActivity(install);
+    }
+
+    private int versionCodeFromFileName(String fileName) {
+        try {
+            String prefix = "GosenReader-";
+            String suffix = ".apk";
+            if (!fileName.startsWith(prefix) || !fileName.endsWith(suffix)) return -1;
+            return Integer.parseInt(fileName.substring(
+                    prefix.length(), fileName.length() - suffix.length()));
+        } catch (Exception ignored) {
+            return -1;
+        }
     }
 
     private File updateFile(String fileName) {
@@ -311,6 +337,7 @@ public final class AppUpdateManager {
                 .remove(KEY_DOWNLOAD_ID)
                 .remove(KEY_FILE_NAME)
                 .remove(KEY_SHA256)
+                .remove(KEY_VERSION_CODE)
                 .remove(KEY_VERIFIED)
                 .apply();
     }
