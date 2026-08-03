@@ -310,15 +310,15 @@
     {
       "runId": "30810565577",
       "startedAt": "2026-08-03T11:42:17.269Z",
-      "generatedAt": "2026-08-03T16:23:58.437Z",
+      "generatedAt": "2026-08-03T17:00:02.567Z",
       "requestedArticles": 27,
       "acceptedArticles": 20,
-      "completed": false,
+      "completed": true,
       "usage": {
-        "requests": 651,
-        "inputTokens": 1170709,
-        "outputTokens": 526680,
-        "totalTokens": 1697389,
+        "requests": 719,
+        "inputTokens": 1289808,
+        "outputTokens": 573999,
+        "totalTokens": 1863807,
         "estimatedCostUsd": null,
         "estimatedCostCny": null,
         "reportedCosts": {},
@@ -332,10 +332,10 @@
             "estimatedCostUsd": null
           },
           "gemini-2.5-flash": {
-            "requests": 643,
-            "inputTokens": 1167740,
-            "outputTokens": 524779,
-            "totalTokens": 1692519,
+            "requests": 711,
+            "inputTokens": 1286839,
+            "outputTokens": 572098,
+            "totalTokens": 1858937,
             "estimatedCostUsd": null
           }
         }
