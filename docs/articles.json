@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T12:14:28.214Z",
+  "generatedAt": "2026-08-03T12:25:35.078Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -38838,6 +38838,2781 @@
             "inputTokens": 36039,
             "outputTokens": 16581,
             "totalTokens": 52620,
+            "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-f335b4849447798b",
+      "title": "RACE 高中英语阅读 high4099",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.\nZones\nThe library is divided into different zones. The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer. The reading places consist mostly of tables and chairs. The ground floor is the zone where you can talk. Here you can find sofas and armchairs for group work.\nComputers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office. They are situated in the area known as the Experimental Field on the ground floor.\nGroup-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor. Some study rooms are for 2-3 people and others can hold up to 6-8 people. All rooms are marked on the library maps.\nThere are 40 group-study rooms that must be booked via the website. To book, you need an active University account and a valid University card. You can use a room three hours per day, nine hours at most per week.\nStorage of study material\nThe library has lockers for students to store course literature. When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.\nRules to be followed\nMobile phone conversations are not permitted anywhere in the library. Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.\nPlease note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+      "wordCount": 313,
+      "sentenceTranslations": {
+        "Guide to Stockholm University Library Our library offers different types of studying places and provides a good studying environment.": "斯德哥尔摩大学图书馆指南：我们的图书馆提供多种学习场所，并拥有良好的学习环境。",
+        "Zones The library is divided into different zones.": "区域划分：图书馆被划分为不同的区域。",
+        "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": "楼上是安静区，拥有超过一千个安静阅读的座位，以及供你携带个人电脑学习的座位。",
+        "The reading places consist mostly of tables and chairs.": "阅读区大部分由桌椅组成。",
+        "The ground floor is the zone where you can talk.": "底层是允许交谈的区域。",
+        "Here you can find sofas and armchairs for group work.": "在这里，你可以找到供小组讨论使用的沙发和扶手椅。",
+        "Computers You can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": "电脑：你可以使用自己的电脑连接专为笔记本电脑准备的无线网络；你也可以使用图书馆的电脑，里面安装了微软Office等最常用的应用程序。",
+        "They are situated in the area known as the Experimental Field on the ground floor.": "它们位于一楼被称为“实验区”的地方。",
+        "Group-study Places If you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": "小组学习场所：如果你想自由讨论而不打扰他人，可以预订一间学习室，或者坐在图书馆一楼的桌子旁。",
+        "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": "有些学习室可供2-3人使用，另一些则最多可容纳6-8人。",
+        "All rooms are marked on the library maps.": "所有房间都在图书馆地图上标示了出来。",
+        "There are 40 group-study rooms that must be booked via the website.": "共有40间小组学习室，必须通过网站进行预订。",
+        "To book, you need an active University account and a valid University card.": "如需预订，你需要一个处于激活状态的大学账户以及一张有效的大学证件。",
+        "You can use a room three hours per day, nine hours at most per week.": "你每天最多可以使用房间3小时，每周最多使用9小时。",
+        "Storage of study material The library has lockers for students to store course literature.": "学习资料存放：图书馆设有储物柜供学生存放课程资料。",
+        "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": "当你获得至少40个学分后，可以租用一个储物柜，租期一年的费用为400瑞典克朗。",
+        "Rules to be followed Mobile phone conversations are not permitted anywhere in the library.": "须遵守的规则：图书馆内任何区域均禁止通电话。",
+        "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": "请将手机调至静音，就像在参加讲座一样；如有电话需要接听，请离开图书馆。",
+        "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": "请注意，图书馆内禁止携带食物和水果，但可以携带饮料和糖果。"
+      },
+      "glossary": {
+        "guide": {
+          "lemma": "guide",
+          "translation": "指南",
+          "pos": "n.",
+          "forms": "guides, guided, guiding",
+          "meanings": "指南；向导；指导；引导；导游",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "指南",
+              "pos": "n."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "至",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "到；向；给；构成不定式",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "至",
+              "pos": "prep."
+            },
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "去（连接词）",
+              "pos": "prep."
+            },
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "为了（不定式）",
+              "pos": "prep."
+            },
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "达到",
+              "pos": "prep."
+            },
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "为了（不定式）",
+              "pos": "prep."
+            },
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "为了（不定式）",
+              "pos": "prep."
+            },
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "被（动词不定式被动语态）",
+              "pos": "prep."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "为了（不定式）",
+              "pos": "prep."
+            },
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "与……相连（固定搭配）",
+              "pos": "prep."
+            }
+          }
+        },
+        "stockholm": {
+          "lemma": "stockholm",
+          "translation": "斯德哥尔摩",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "斯德哥尔摩（瑞典首都）",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "斯德哥尔摩",
+              "pos": "n."
+            }
+          }
+        },
+        "university": {
+          "lemma": "university",
+          "translation": "大学",
+          "pos": "n.",
+          "forms": "universities",
+          "meanings": "大学；高等学府；综合性大学",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "大学",
+              "pos": "n."
+            },
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "大学的",
+              "pos": "adj."
+            }
+          }
+        },
+        "library": {
+          "lemma": "library",
+          "translation": "图书馆",
+          "pos": "n.",
+          "forms": "libraries",
+          "meanings": "图书馆；藏书室；文库；数据库",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "图书馆",
+              "pos": "n."
+            },
+            "Zones\nThe library is divided into different zones.": {
+              "translation": "图书馆",
+              "pos": "n."
+            },
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "图书馆的",
+              "pos": "adj."
+            },
+            "All rooms are marked on the library maps.": {
+              "translation": "图书馆的",
+              "pos": "adj."
+            },
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "图书馆",
+              "pos": "n."
+            },
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "图书馆",
+              "pos": "n."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "图书馆",
+              "pos": "n."
+            },
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "图书馆",
+              "pos": "n."
+            }
+          }
+        },
+        "our": {
+          "lemma": "our",
+          "translation": "我们的",
+          "pos": "pron.",
+          "forms": "ours",
+          "meanings": "我们的",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "我们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "offers": {
+          "lemma": "offer",
+          "translation": "提供",
+          "pos": "v.",
+          "forms": "offers, offered, offering",
+          "meanings": "提供；出价；提议；贡献",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "提供",
+              "pos": "v."
+            }
+          }
+        },
+        "different": {
+          "lemma": "different",
+          "translation": "不同的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "不同的；各种各样的；异类的",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "不同的",
+              "pos": "adj."
+            },
+            "Zones\nThe library is divided into different zones.": {
+              "translation": "不同的",
+              "pos": "adj."
+            }
+          }
+        },
+        "types": {
+          "lemma": "type",
+          "translation": "类型",
+          "pos": "n.",
+          "forms": "types, typed, typing",
+          "meanings": "类型；种类；典型；打字",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "类型",
+              "pos": "n."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "The reading places consist mostly of tables and chairs.": {
+              "translation": "由……组成",
+              "pos": "prep."
+            },
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "studying": {
+          "lemma": "study",
+          "translation": "学习",
+          "pos": "v.",
+          "forms": "studies, studied, studying",
+          "meanings": "学习；研读；研究；审视",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "学习",
+              "pos": "v."
+            }
+          }
+        },
+        "places": {
+          "lemma": "place",
+          "translation": "地点",
+          "pos": "n.",
+          "forms": "places, placed, placing",
+          "meanings": "地点；地方；位置；放置；座位",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "地点",
+              "pos": "n."
+            },
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "座位",
+              "pos": "n."
+            },
+            "The reading places consist mostly of tables and chairs.": {
+              "translation": "地点",
+              "pos": "n."
+            },
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "空间",
+              "pos": "n."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "并且",
+              "pos": "conj."
+            },
+            "The reading places consist mostly of tables and chairs.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Here you can find sofas and armchairs for group work.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "和",
+              "pos": "conj."
+            }
+          }
+        },
+        "provides": {
+          "lemma": "provide",
+          "translation": "提供",
+          "pos": "v.",
+          "forms": "provides, provided, providing",
+          "meanings": "提供；供应；规定；供给",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "提供",
+              "pos": "v."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何；一种",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "good": {
+          "lemma": "good",
+          "translation": "好的",
+          "pos": "adj.",
+          "forms": "better, best",
+          "meanings": "好；愉快的；优良的；有效的",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "environment": {
+          "lemma": "environment",
+          "translation": "环境",
+          "pos": "n.",
+          "forms": "environments",
+          "meanings": "环境；自然环境；周围状况",
+          "contexts": {
+            "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.": {
+              "translation": "环境",
+              "pos": "n."
+            }
+          }
+        },
+        "zones": {
+          "lemma": "zone",
+          "translation": "区域",
+          "pos": "n.",
+          "forms": "zones, zoned, zoning",
+          "meanings": "区域；地带；地区",
+          "contexts": {
+            "Zones\nThe library is divided into different zones.": {
+              "translation": "区域",
+              "pos": "n."
+            }
+          }
+        },
+        "the": {
+          "lemma": "the",
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
+          "contexts": {
+            "Zones\nThe library is divided into different zones.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The reading places consist mostly of tables and chairs.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The ground floor is the zone where you can talk.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "All rooms are marked on the library maps.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于；位于",
+          "contexts": {
+            "Zones\nThe library is divided into different zones.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "The ground floor is the zone where you can talk.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "divided": {
+          "lemma": "divide",
+          "translation": "划分",
+          "pos": "v.",
+          "forms": "divides, divided, dividing",
+          "meanings": "划分；分开；分配；除以；分歧",
+          "contexts": {
+            "Zones\nThe library is divided into different zones.": {
+              "translation": "被划分",
+              "pos": "v."
+            }
+          }
+        },
+        "into": {
+          "lemma": "into",
+          "translation": "进入到",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "进入；进入到；处于（某状态）；变成",
+          "contexts": {
+            "Zones\nThe library is divided into different zones.": {
+              "translation": "进入到",
+              "pos": "prep."
+            }
+          }
+        },
+        "upper": {
+          "lemma": "upper",
+          "translation": "上面的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "上面的；较高的；上层的；上级的",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "上面的",
+              "pos": "adj."
+            }
+          }
+        },
+        "floor": {
+          "lemma": "floor",
+          "translation": "楼层",
+          "pos": "n.",
+          "forms": "floors",
+          "meanings": "楼层；地面；底部；发言权",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "楼层",
+              "pos": "n."
+            },
+            "The ground floor is the zone where you can talk.": {
+              "translation": "楼层",
+              "pos": "n."
+            },
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "楼层",
+              "pos": "n."
+            },
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "楼层",
+              "pos": "n."
+            }
+          }
+        },
+        "quiet": {
+          "lemma": "quiet",
+          "translation": "安静的",
+          "pos": "adj.",
+          "forms": "quieter, quietest, quietly",
+          "meanings": "安静的；宁静的；平静的；安静",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "安静的",
+              "pos": "adj."
+            }
+          }
+        },
+        "zone": {
+          "lemma": "zone",
+          "translation": "区域",
+          "pos": "n.",
+          "forms": "zones",
+          "meanings": "区域；地带；地区；范围",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "区域",
+              "pos": "n."
+            },
+            "The ground floor is the zone where you can talk.": {
+              "translation": "区域",
+              "pos": "n."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "具有",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "与……一起；使用；带有；由于；关于",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "具有",
+              "pos": "prep."
+            },
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "随身携带",
+              "pos": "prep."
+            }
+          }
+        },
+        "over": {
+          "lemma": "over",
+          "translation": "超过",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "遍及；超过；在……上方；结束；翻转",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "超过",
+              "pos": "prep."
+            }
+          }
+        },
+        "thousand": {
+          "lemma": "thousand",
+          "translation": "一千",
+          "pos": "num.",
+          "forms": "thousands",
+          "meanings": "一千；成千上万",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "一千",
+              "pos": "num."
+            }
+          }
+        },
+        "for": {
+          "lemma": "for",
+          "translation": "用于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "为了；支持；因为；给；对于",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "用于",
+              "pos": "prep."
+            },
+            "Here you can find sofas and armchairs for group work.": {
+              "translation": "供……使用",
+              "pos": "prep."
+            },
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "为……准备",
+              "pos": "prep."
+            },
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "供……使用",
+              "pos": "prep."
+            },
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "供……（做某事）",
+              "pos": "prep."
+            },
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "支付（费用）",
+              "pos": "prep."
+            }
+          }
+        },
+        "silent": {
+          "lemma": "silent",
+          "translation": "安静的",
+          "pos": "adj.",
+          "forms": "silently",
+          "meanings": "安静的；寂静的；无声的；沉默的",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "安静的",
+              "pos": "adj."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "静音模式",
+              "pos": "n."
+            }
+          }
+        },
+        "reading": {
+          "lemma": "read",
+          "translation": "阅读",
+          "pos": "v./n.",
+          "forms": "reads, read, reading",
+          "meanings": "阅读；读书；读物；阅读材料",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "阅读",
+              "pos": "n."
+            },
+            "The reading places consist mostly of tables and chairs.": {
+              "translation": "阅读",
+              "pos": "adj."
+            }
+          }
+        },
+        "where": {
+          "lemma": "where",
+          "translation": "在……的地方",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在何处；去哪里；在……的地方；情况是",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "在……的地方",
+              "pos": "adv."
+            },
+            "The ground floor is the zone where you can talk.": {
+              "translation": "在……的地方",
+              "pos": "adv."
+            }
+          }
+        },
+        "you": {
+          "lemma": "you",
+          "translation": "你",
+          "pos": "pron.",
+          "forms": "your; yours; yourself",
+          "meanings": "你；你们；人们（泛指）",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "The ground floor is the zone where you can talk.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "Here you can find sofas and armchairs for group work.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "你",
+              "pos": "pron."
+            }
+          }
+        },
+        "can": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal v.",
+          "forms": "could",
+          "meanings": "能够；可以；可能；罐头",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "The ground floor is the zone where you can talk.": {
+              "translation": "可以",
+              "pos": "modal v."
+            },
+            "Here you can find sofas and armchairs for group work.": {
+              "translation": "可以",
+              "pos": "modal v."
+            },
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "可以",
+              "pos": "modal v."
+            },
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "可以",
+              "pos": "modal v."
+            },
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "可以",
+              "pos": "modal v."
+            }
+          }
+        },
+        "sit": {
+          "lemma": "sit",
+          "translation": "坐",
+          "pos": "v.",
+          "forms": "sits, sat, sitting",
+          "meanings": "坐；使就座；位于；参加考试",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "坐",
+              "pos": "v."
+            },
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "坐",
+              "pos": "v."
+            }
+          }
+        },
+        "work": {
+          "lemma": "work",
+          "translation": "工作",
+          "pos": "n.",
+          "forms": "works, worked, working",
+          "meanings": "工作；职业；研究；作品；工厂",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "工作",
+              "pos": "v."
+            },
+            "Here you can find sofas and armchairs for group work.": {
+              "translation": "工作",
+              "pos": "n."
+            }
+          }
+        },
+        "your": {
+          "lemma": "your",
+          "translation": "你的",
+          "pos": "pron.",
+          "forms": "yours",
+          "meanings": "你的；你们的",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "你的",
+              "pos": "pron."
+            }
+          }
+        },
+        "own": {
+          "lemma": "own",
+          "translation": "自己的",
+          "pos": "adj.",
+          "forms": "owns, owned, owning",
+          "meanings": "自己的；拥有；承认；本人",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "自己的",
+              "pos": "adj."
+            },
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "自己的",
+              "pos": "adj."
+            }
+          }
+        },
+        "computer": {
+          "lemma": "computer",
+          "translation": "计算机",
+          "pos": "n.",
+          "forms": "computers",
+          "meanings": "计算机；电脑",
+          "contexts": {
+            "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.": {
+              "translation": "计算机",
+              "pos": "n."
+            },
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "计算机",
+              "pos": "n."
+            }
+          }
+        },
+        "consist": {
+          "lemma": "consist",
+          "translation": "由...组成",
+          "pos": "v.",
+          "forms": "consists, consisted, consisting",
+          "meanings": "由...组成；在于；构成",
+          "contexts": {
+            "The reading places consist mostly of tables and chairs.": {
+              "translation": "由...组成",
+              "pos": "v."
+            }
+          }
+        },
+        "mostly": {
+          "lemma": "mostly",
+          "translation": "主要地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "主要地；大体上；多半",
+          "contexts": {
+            "The reading places consist mostly of tables and chairs.": {
+              "translation": "主要地",
+              "pos": "adv."
+            }
+          }
+        },
+        "tables": {
+          "lemma": "table",
+          "translation": "桌子",
+          "pos": "n.",
+          "forms": "tables",
+          "meanings": "桌子；表格；餐桌；目录",
+          "contexts": {
+            "The reading places consist mostly of tables and chairs.": {
+              "translation": "桌子",
+              "pos": "n."
+            }
+          }
+        },
+        "chairs": {
+          "lemma": "chair",
+          "translation": "椅子",
+          "pos": "n.",
+          "forms": "chairs",
+          "meanings": "椅子；主席；教授职位",
+          "contexts": {
+            "The reading places consist mostly of tables and chairs.": {
+              "translation": "椅子",
+              "pos": "n."
+            }
+          }
+        },
+        "ground": {
+          "lemma": "ground",
+          "translation": "底层的",
+          "pos": "adj.",
+          "forms": "grounds, grounded, grounding",
+          "meanings": "底层的；地面；土地；根据；磨碎",
+          "contexts": {
+            "The ground floor is the zone where you can talk.": {
+              "translation": "底层的",
+              "pos": "adj."
+            },
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "底层",
+              "pos": "n."
+            },
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "底层",
+              "pos": "n."
+            }
+          }
+        },
+        "talk": {
+          "lemma": "talk",
+          "translation": "交谈",
+          "pos": "v.",
+          "forms": "talks, talked, talking",
+          "meanings": "交谈；谈论；演讲；闲聊",
+          "contexts": {
+            "The ground floor is the zone where you can talk.": {
+              "translation": "交谈",
+              "pos": "v."
+            }
+          }
+        },
+        "here": {
+          "lemma": "here",
+          "translation": "在这里",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在这里；在这一点上；向这里",
+          "contexts": {
+            "Here you can find sofas and armchairs for group work.": {
+              "translation": "在这里",
+              "pos": "adv."
+            }
+          }
+        },
+        "find": {
+          "lemma": "find",
+          "translation": "找到",
+          "pos": "v.",
+          "forms": "found, finding, finds",
+          "meanings": "找到；发现；认为；发觉",
+          "contexts": {
+            "Here you can find sofas and armchairs for group work.": {
+              "translation": "找到",
+              "pos": "v."
+            }
+          }
+        },
+        "sofas": {
+          "lemma": "sofa",
+          "translation": "沙发",
+          "pos": "n.",
+          "forms": "sofas",
+          "meanings": "沙发；长椅",
+          "contexts": {
+            "Here you can find sofas and armchairs for group work.": {
+              "translation": "沙发",
+              "pos": "n."
+            }
+          }
+        },
+        "armchairs": {
+          "lemma": "armchair",
+          "translation": "扶手椅",
+          "pos": "n.",
+          "forms": "armchairs",
+          "meanings": "扶手椅；空谈的",
+          "contexts": {
+            "Here you can find sofas and armchairs for group work.": {
+              "translation": "扶手椅",
+              "pos": "n."
+            }
+          }
+        },
+        "group": {
+          "lemma": "group",
+          "translation": "团体",
+          "pos": "noun",
+          "forms": "groups",
+          "meanings": "团体；群；组；阵营",
+          "contexts": {
+            "Here you can find sofas and armchairs for group work.": {
+              "translation": "团体",
+              "pos": "noun"
+            },
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "小组",
+              "pos": "noun"
+            },
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "小组",
+              "pos": "noun"
+            }
+          }
+        },
+        "computers": {
+          "lemma": "computer",
+          "translation": "计算机",
+          "pos": "noun",
+          "forms": "computers",
+          "meanings": "计算机；电脑；计算者",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "计算机",
+              "pos": "noun"
+            }
+          }
+        },
+        "use": {
+          "lemma": "use",
+          "translation": "使用",
+          "pos": "verb",
+          "forms": "uses, used, using",
+          "meanings": "使用；利用；消耗；习惯于",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "使用",
+              "pos": "verb"
+            },
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "使用",
+              "pos": "verb"
+            }
+          }
+        },
+        "connect": {
+          "lemma": "connect",
+          "translation": "连接",
+          "pos": "verb",
+          "forms": "connects, connected, connecting",
+          "meanings": "连接；建立联系；接通电话；关联",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "连接",
+              "pos": "verb"
+            }
+          }
+        },
+        "wi": {
+          "lemma": "wi",
+          "translation": "无线网络的一部分",
+          "pos": "noun",
+          "forms": "无常见变形",
+          "meanings": "无线网络（常与fi连用）；无线；通信标识",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "无线网络的一部分",
+              "pos": "noun"
+            }
+          }
+        },
+        "fi": {
+          "lemma": "fi",
+          "translation": "无线网络的一部分",
+          "pos": "noun",
+          "forms": "无常见变形",
+          "meanings": "无线网络（常与wi连用）；高保真；通信标识",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "无线网络的一部分",
+              "pos": "noun"
+            }
+          }
+        },
+        "specially": {
+          "lemma": "specially",
+          "translation": "专门地",
+          "pos": "adverb",
+          "forms": "无常见变形",
+          "meanings": "专门地；特别地；特意",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "专门地",
+              "pos": "adverb"
+            }
+          }
+        },
+        "prepared": {
+          "lemma": "prepare",
+          "translation": "准备好的",
+          "pos": "adjective",
+          "forms": "prepares, prepared, preparing",
+          "meanings": "准备；筹备；预备；调制",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "准备好的",
+              "pos": "adjective"
+            }
+          }
+        },
+        "notebook": {
+          "lemma": "notebook",
+          "translation": "笔记本电脑",
+          "pos": "noun",
+          "forms": "notebooks",
+          "meanings": "笔记本电脑；笔记本；笔记簿",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "笔记本电脑",
+              "pos": "noun"
+            }
+          }
+        },
+        "also": {
+          "lemma": "also",
+          "translation": "也",
+          "pos": "adverb",
+          "forms": "无常见变形",
+          "meanings": "也；同样；并且；而且",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "也",
+              "pos": "adverb"
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "（引导定语从句）……的那个",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "（引导定语从句，指代前面的电脑）……的那个",
+              "pos": "pron."
+            }
+          }
+        },
+        "contain": {
+          "lemma": "contain",
+          "translation": "包含",
+          "pos": "v.",
+          "forms": "contains, contained, containing",
+          "meanings": "包含；容纳；克制（情绪）；装有",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "包含",
+              "pos": "v."
+            }
+          }
+        },
+        "most": {
+          "lemma": "most",
+          "translation": "大多数",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "大多数；最；极度；绝大部分",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "最",
+              "pos": "adv."
+            },
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "最多",
+              "pos": "adv."
+            }
+          }
+        },
+        "commonly": {
+          "lemma": "common",
+          "translation": "普遍地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "普遍地；通常地；一般地",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "普遍地",
+              "pos": "adv."
+            }
+          }
+        },
+        "used": {
+          "lemma": "use",
+          "translation": "使用",
+          "pos": "v.",
+          "forms": "using, used, uses",
+          "meanings": "使用；利用；习惯于；曾（过去常做某事）",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "使用的",
+              "pos": "adj."
+            }
+          }
+        },
+        "applications": {
+          "lemma": "application",
+          "translation": "应用程序",
+          "pos": "n.",
+          "forms": "application, applications",
+          "meanings": "应用程序；申请；应用；请求",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "应用程序",
+              "pos": "n."
+            }
+          }
+        },
+        "such": {
+          "lemma": "such",
+          "translation": "例如",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "例如；这样的；如此的",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "例如",
+              "pos": "det."
+            }
+          }
+        },
+        "as": {
+          "lemma": "as",
+          "translation": "例如",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "当……时；正如；因为；像……一样；作为",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "例如",
+              "pos": "prep."
+            },
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "作为",
+              "pos": "prep."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "正如",
+              "pos": "conj."
+            }
+          }
+        },
+        "microsoft": {
+          "lemma": "microsoft",
+          "translation": "微软",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "微软（公司名）",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "微软",
+              "pos": "n."
+            }
+          }
+        },
+        "office": {
+          "lemma": "office",
+          "translation": "办公软件",
+          "pos": "n.",
+          "forms": "offices",
+          "meanings": "办公室；办公软件；职务；部门",
+          "contexts": {
+            "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.": {
+              "translation": "办公软件",
+              "pos": "n."
+            }
+          }
+        },
+        "they": {
+          "lemma": "they",
+          "translation": "它们",
+          "pos": "pron.",
+          "forms": "their, theirs, them, themselves",
+          "meanings": "他们；她们；它们；人；大家",
+          "contexts": {
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "它们",
+              "pos": "pron."
+            }
+          }
+        },
+        "are": {
+          "lemma": "be",
+          "translation": "位于",
+          "pos": "v.",
+          "forms": "am, is, were, been, being",
+          "meanings": "是；在；存在；等于；位于",
+          "contexts": {
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "位于",
+              "pos": "v."
+            },
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "All rooms are marked on the library maps.": {
+              "translation": "被",
+              "pos": "v."
+            },
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "被",
+              "pos": "v."
+            },
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "situated": {
+          "lemma": "situate",
+          "translation": "位于",
+          "pos": "v.",
+          "forms": "situates, situating, situated",
+          "meanings": "使位于；坐落于；处境；安置",
+          "contexts": {
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "位于",
+              "pos": "v."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……里面",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）",
+          "contexts": {
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "在……里面",
+              "pos": "prep."
+            },
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "处于（某种状态）",
+              "pos": "prep."
+            },
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            }
+          }
+        },
+        "area": {
+          "lemma": "area",
+          "translation": "区域",
+          "pos": "n.",
+          "forms": "areas",
+          "meanings": "地区；领域；面积；区域",
+          "contexts": {
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "区域",
+              "pos": "n."
+            }
+          }
+        },
+        "known": {
+          "lemma": "know",
+          "translation": "被称为",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "被知晓的；出名的；已知的；被认识的",
+          "contexts": {
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "被称为",
+              "pos": "v."
+            }
+          }
+        },
+        "experimental": {
+          "lemma": "experimental",
+          "translation": "实验的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "实验的；试验性的；根据实验的",
+          "contexts": {
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "实验的",
+              "pos": "adj."
+            }
+          }
+        },
+        "field": {
+          "lemma": "field",
+          "translation": "领域",
+          "pos": "n.",
+          "forms": "fields",
+          "meanings": "领域；田地；运动场地；野外",
+          "contexts": {
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "领域",
+              "pos": "n."
+            }
+          }
+        },
+        "on": {
+          "lemma": "on",
+          "translation": "在……上",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；在……之上；通过；在（时间）；在……位置",
+          "contexts": {
+            "They are situated in the area known as the Experimental Field on the ground floor.": {
+              "translation": "在……上",
+              "pos": "prep."
+            },
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "在……上",
+              "pos": "prep."
+            },
+            "All rooms are marked on the library maps.": {
+              "translation": "在……上",
+              "pos": "prep."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "处于（某种状态）",
+              "pos": "prep."
+            }
+          }
+        },
+        "study": {
+          "lemma": "study",
+          "translation": "学习",
+          "pos": "v.",
+          "forms": "studies, studying, studied",
+          "meanings": "学习；研究；细看；书房；自习",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "学习",
+              "pos": "v."
+            },
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "学习",
+              "pos": "v."
+            },
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "学习",
+              "pos": "v."
+            },
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "学习",
+              "pos": "v."
+            }
+          }
+        },
+        "if": {
+          "lemma": "if",
+          "translation": "如果",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "如果；是否；即使；设若",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "如果",
+              "pos": "conj."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "仿佛",
+              "pos": "conj."
+            }
+          }
+        },
+        "want": {
+          "lemma": "want",
+          "translation": "想要",
+          "pos": "v.",
+          "forms": "wanted, wanting, wants",
+          "meanings": "想要；希望；需要；缺乏",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "想要",
+              "pos": "v."
+            }
+          }
+        },
+        "discuss": {
+          "lemma": "discuss",
+          "translation": "讨论",
+          "pos": "v.",
+          "forms": "discussed, discussing, discusses",
+          "meanings": "讨论；探讨；论述；商量",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "讨论",
+              "pos": "v."
+            }
+          }
+        },
+        "freely": {
+          "lemma": "freely",
+          "translation": "自由地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "自由地；不受限制地；坦率地；大量地",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "自由地",
+              "pos": "adv."
+            }
+          }
+        },
+        "without": {
+          "lemma": "without",
+          "translation": "没有",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "没有；不；缺乏；免除",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "没有",
+              "pos": "prep."
+            }
+          }
+        },
+        "disturbing": {
+          "lemma": "disturb",
+          "translation": "打扰",
+          "pos": "v.",
+          "forms": "disturbed, disturbing, disturbs",
+          "meanings": "打扰；妨碍；使不安；扰乱",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "打扰",
+              "pos": "v."
+            }
+          }
+        },
+        "others": {
+          "lemma": "other",
+          "translation": "其他人",
+          "pos": "pron.",
+          "forms": "others",
+          "meanings": "其他人；别的人；其余的人；另外的人",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "其他人",
+              "pos": "pron."
+            },
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "其他（房间）",
+              "pos": "pron."
+            }
+          }
+        },
+        "book": {
+          "lemma": "book",
+          "translation": "预订",
+          "pos": "v.",
+          "forms": "booked, booking, books",
+          "meanings": "预订；书；书册；名册",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "预订",
+              "pos": "v."
+            },
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "预订",
+              "pos": "v."
+            }
+          }
+        },
+        "room": {
+          "lemma": "room",
+          "translation": "房间",
+          "pos": "n.",
+          "forms": "rooms",
+          "meanings": "房间；空间；余地；座位",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "房间",
+              "pos": "n."
+            },
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "房间",
+              "pos": "n."
+            }
+          }
+        },
+        "or": {
+          "lemma": "or",
+          "translation": "或者",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "或者；否则；也不；即",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "或者",
+              "pos": "conj."
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "在",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）；向；针对",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "在……至少",
+              "pos": "prep."
+            }
+          }
+        },
+        "table": {
+          "lemma": "table",
+          "translation": "桌子",
+          "pos": "n.",
+          "forms": "tables",
+          "meanings": "餐桌；桌子；表；目录",
+          "contexts": {
+            "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.": {
+              "translation": "桌子",
+              "pos": "n."
+            }
+          }
+        },
+        "some": {
+          "lemma": "some",
+          "translation": "一些",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "一些；某几个；某些；相当数量",
+          "contexts": {
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "一些",
+              "pos": "adj."
+            }
+          }
+        },
+        "rooms": {
+          "lemma": "room",
+          "translation": "房间",
+          "pos": "n.",
+          "forms": "rooms",
+          "meanings": "房间；空间；余地；居室",
+          "contexts": {
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "房间",
+              "pos": "n."
+            },
+            "All rooms are marked on the library maps.": {
+              "translation": "房间",
+              "pos": "n."
+            },
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "房间",
+              "pos": "n."
+            }
+          }
+        },
+        "people": {
+          "lemma": "people",
+          "translation": "人",
+          "pos": "n.",
+          "forms": "peoples",
+          "meanings": "人们；民族；人；国民",
+          "contexts": {
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "人",
+              "pos": "n."
+            }
+          }
+        },
+        "hold": {
+          "lemma": "hold",
+          "translation": "容纳",
+          "pos": "v.",
+          "forms": "holds, holding, held",
+          "meanings": "容纳；握住；举行；保持",
+          "contexts": {
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "容纳",
+              "pos": "v."
+            }
+          }
+        },
+        "up": {
+          "lemma": "up",
+          "translation": "到",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "到（up to）；完成；彻底；向上；出现",
+          "contexts": {
+            "Some study rooms are for 2-3 people and others can hold up to 6-8 people.": {
+              "translation": "到",
+              "pos": "adv."
+            }
+          }
+        },
+        "all": {
+          "lemma": "all",
+          "translation": "所有",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "全部；所有；总共；整个",
+          "contexts": {
+            "All rooms are marked on the library maps.": {
+              "translation": "所有",
+              "pos": "adj."
+            }
+          }
+        },
+        "marked": {
+          "lemma": "mark",
+          "translation": "标示",
+          "pos": "v.",
+          "forms": "marks, marking, marked",
+          "meanings": "标示；做记号；打分；注意到",
+          "contexts": {
+            "All rooms are marked on the library maps.": {
+              "translation": "标示",
+              "pos": "v."
+            }
+          }
+        },
+        "maps": {
+          "lemma": "map",
+          "translation": "地图",
+          "pos": "n.",
+          "forms": "maps",
+          "meanings": "地图；示意图；计划；映射",
+          "contexts": {
+            "All rooms are marked on the library maps.": {
+              "translation": "地图",
+              "pos": "n."
+            }
+          }
+        },
+        "there": {
+          "lemma": "there",
+          "translation": "存在",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "存在（用于there be句型）；在那里；向那里；到那里",
+          "contexts": {
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "存在",
+              "pos": "adv."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "引导定语从句",
+          "pos": "pron.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；因为",
+          "contexts": {
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "引导定语从句",
+              "pos": "pron."
+            },
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "引导宾语从句",
+              "pos": "conj."
+            }
+          }
+        },
+        "must": {
+          "lemma": "must",
+          "translation": "必须",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "必须；应当；准是；极其重要的事",
+          "contexts": {
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "必须",
+              "pos": "modal v."
+            }
+          }
+        },
+        "be": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；表现为；处于……状态",
+          "contexts": {
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "被（用于被动语态）",
+              "pos": "v."
+            },
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "应当",
+              "pos": "v."
+            }
+          }
+        },
+        "booked": {
+          "lemma": "book",
+          "translation": "预订",
+          "pos": "v.",
+          "forms": "books; booked; booking",
+          "meanings": "预订；登记；（警察）记录在案",
+          "contexts": {
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "预订",
+              "pos": "v."
+            }
+          }
+        },
+        "via": {
+          "lemma": "via",
+          "translation": "通过",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "通过；经由；凭借",
+          "contexts": {
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "通过",
+              "pos": "prep."
+            }
+          }
+        },
+        "website": {
+          "lemma": "website",
+          "translation": "网站",
+          "pos": "n.",
+          "forms": "websites",
+          "meanings": "网站；网址",
+          "contexts": {
+            "There are 40 group-study rooms that must be booked via the website.": {
+              "translation": "网站",
+              "pos": "n."
+            }
+          }
+        },
+        "need": {
+          "lemma": "need",
+          "translation": "需要",
+          "pos": "v.",
+          "forms": "needs; needed; needing",
+          "meanings": "需要；必须；有必要",
+          "contexts": {
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "需要",
+              "pos": "v."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "需要",
+              "pos": "v."
+            }
+          }
+        },
+        "an": {
+          "lemma": "an",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "一个；任何；每一",
+          "contexts": {
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "active": {
+          "lemma": "active",
+          "translation": "有效的",
+          "pos": "adj.",
+          "forms": "actively; activeness",
+          "meanings": "有效的；活跃的；积极的；主动的",
+          "contexts": {
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "有效的",
+              "pos": "adj."
+            }
+          }
+        },
+        "account": {
+          "lemma": "account",
+          "translation": "账户",
+          "pos": "n.",
+          "forms": "accounts",
+          "meanings": "账户；说明；账目；重要性",
+          "contexts": {
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "账户",
+              "pos": "n."
+            }
+          }
+        },
+        "valid": {
+          "lemma": "valid",
+          "translation": "有效的",
+          "pos": "adj.",
+          "forms": "invalid (antonym)",
+          "meanings": "有效的；有法律效力的；正当的；合理的",
+          "contexts": {
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "有效的",
+              "pos": "adj."
+            }
+          }
+        },
+        "card": {
+          "lemma": "card",
+          "translation": "证件",
+          "pos": "n.",
+          "forms": "cards",
+          "meanings": "卡片；纸牌；名片；证件",
+          "contexts": {
+            "To book, you need an active University account and a valid University card.": {
+              "translation": "证件",
+              "pos": "n."
+            }
+          }
+        },
+        "three": {
+          "lemma": "three",
+          "translation": "三",
+          "pos": "num.",
+          "forms": "无常见变形",
+          "meanings": "三；三个；第三",
+          "contexts": {
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "三",
+              "pos": "num."
+            }
+          }
+        },
+        "hours": {
+          "lemma": "hour",
+          "translation": "小时",
+          "pos": "n.",
+          "forms": "hour",
+          "meanings": "小时；时间；时刻",
+          "contexts": {
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "小时",
+              "pos": "n."
+            }
+          }
+        },
+        "per": {
+          "lemma": "per",
+          "translation": "每",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "每；每一",
+          "contexts": {
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "每",
+              "pos": "prep."
+            }
+          }
+        },
+        "day": {
+          "lemma": "day",
+          "translation": "天",
+          "pos": "n.",
+          "forms": "days",
+          "meanings": "天；白天；日子；时期",
+          "contexts": {
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "天",
+              "pos": "n."
+            }
+          }
+        },
+        "nine": {
+          "lemma": "nine",
+          "translation": "九",
+          "pos": "num.",
+          "forms": "ninth (ordinal)",
+          "meanings": "九；九岁",
+          "contexts": {
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "九",
+              "pos": "num."
+            }
+          }
+        },
+        "week": {
+          "lemma": "week",
+          "translation": "周",
+          "pos": "n.",
+          "forms": "weeks",
+          "meanings": "周；星期",
+          "contexts": {
+            "You can use a room three hours per day, nine hours at most per week.": {
+              "translation": "周",
+              "pos": "n."
+            }
+          }
+        },
+        "storage": {
+          "lemma": "storage",
+          "translation": "存储",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "存储；保管；仓库；储藏量",
+          "contexts": {
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "存储",
+              "pos": "n."
+            }
+          }
+        },
+        "material": {
+          "lemma": "material",
+          "translation": "材料",
+          "pos": "n.",
+          "forms": "materials",
+          "meanings": "材料；素材；原料；布料",
+          "contexts": {
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "学习资料",
+              "pos": "n."
+            }
+          }
+        },
+        "has": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "has, had, having",
+          "meanings": "有；经历；吃；使；辅助动词构成完成时",
+          "contexts": {
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "有",
+              "pos": "v."
+            }
+          }
+        },
+        "lockers": {
+          "lemma": "locker",
+          "translation": "储物柜",
+          "pos": "n.",
+          "forms": "lockers",
+          "meanings": "储物柜；衣物柜",
+          "contexts": {
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "储物柜",
+              "pos": "n."
+            }
+          }
+        },
+        "students": {
+          "lemma": "student",
+          "translation": "学生",
+          "pos": "n.",
+          "forms": "students",
+          "meanings": "学生；研究者；学习者",
+          "contexts": {
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "学生",
+              "pos": "n."
+            }
+          }
+        },
+        "store": {
+          "lemma": "store",
+          "translation": "储存",
+          "pos": "v.",
+          "forms": "stores, stored, storing",
+          "meanings": "储存；收纳；商店；记忆",
+          "contexts": {
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "存放",
+              "pos": "v."
+            }
+          }
+        },
+        "course": {
+          "lemma": "course",
+          "translation": "课程",
+          "pos": "n.",
+          "forms": "courses",
+          "meanings": "课程；过程；航向；一道菜",
+          "contexts": {
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "课程",
+              "pos": "n."
+            }
+          }
+        },
+        "literature": {
+          "lemma": "literature",
+          "translation": "文献",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "文献；文学；文选",
+          "contexts": {
+            "Storage of study material\nThe library has lockers for students to store course literature.": {
+              "translation": "课程文献",
+              "pos": "n."
+            }
+          }
+        },
+        "when": {
+          "lemma": "when",
+          "translation": "当……时",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "当……时；在……时候；既然；考虑到",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "当……时",
+              "pos": "conj."
+            }
+          }
+        },
+        "have": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "has, had, having",
+          "meanings": "有；经历；吃；使（某人做某事）；辅助动词（完成时态）",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "已经（完成时助动词）",
+              "pos": "aux."
+            },
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "携带/持有",
+              "pos": "v."
+            }
+          }
+        },
+        "obtained": {
+          "lemma": "obtain",
+          "translation": "获得",
+          "pos": "v.",
+          "forms": "obtains, obtained, obtaining",
+          "meanings": "获得；得到；达到",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "获得",
+              "pos": "v."
+            }
+          }
+        },
+        "least": {
+          "lemma": "least",
+          "translation": "最少",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "最少；最小；最不",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "最少",
+              "pos": "adv."
+            }
+          }
+        },
+        "credits": {
+          "lemma": "credit",
+          "translation": "学分",
+          "pos": "n.",
+          "forms": "credit",
+          "meanings": "学分；信用；赞扬；存款",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "学分",
+              "pos": "n."
+            }
+          }
+        },
+        "may": {
+          "lemma": "may",
+          "translation": "可以",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "可能；可以；祝愿",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "可以",
+              "pos": "modal v."
+            }
+          }
+        },
+        "rent": {
+          "lemma": "rent",
+          "translation": "租用",
+          "pos": "v.",
+          "forms": "rents, rented, renting",
+          "meanings": "租用；出租；租金",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "租用",
+              "pos": "v."
+            }
+          }
+        },
+        "locker": {
+          "lemma": "locker",
+          "translation": "储物柜",
+          "pos": "n.",
+          "forms": "lockers",
+          "meanings": "储物柜；衣柜",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "储物柜",
+              "pos": "n."
+            }
+          }
+        },
+        "pay": {
+          "lemma": "pay",
+          "translation": "支付",
+          "pos": "v.",
+          "forms": "paying, paid, pays",
+          "meanings": "支付；偿还；给予；划算",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "支付",
+              "pos": "v."
+            }
+          }
+        },
+        "sek": {
+          "lemma": "SEK",
+          "translation": "瑞典克朗",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "瑞典克朗",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "瑞典克朗",
+              "pos": "n."
+            }
+          }
+        },
+        "year's": {
+          "lemma": "year",
+          "translation": "一年的",
+          "pos": "n.",
+          "forms": "years",
+          "meanings": "年份；一年；年度",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "一年的",
+              "pos": "n."
+            }
+          }
+        },
+        "rental": {
+          "lemma": "rental",
+          "translation": "租赁",
+          "pos": "adj.",
+          "forms": "rentals",
+          "meanings": "租赁的；租金；租赁物",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "租赁的",
+              "pos": "adj."
+            }
+          }
+        },
+        "period": {
+          "lemma": "period",
+          "translation": "期间",
+          "pos": "n.",
+          "forms": "periods",
+          "meanings": "期间；阶段；课时；句号",
+          "contexts": {
+            "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.": {
+              "translation": "期间",
+              "pos": "n."
+            }
+          }
+        },
+        "lecture": {
+          "lemma": "lecture",
+          "translation": "讲座",
+          "pos": "n.",
+          "forms": "lectures, lectured, lecturing",
+          "meanings": "讲座；演讲；讲课；教训",
+          "contexts": {
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "讲座",
+              "pos": "n."
+            }
+          }
+        },
+        "exit": {
+          "lemma": "exit",
+          "translation": "离开",
+          "pos": "v.",
+          "forms": "exited, exiting, exits",
+          "meanings": "离开；退场；出口；通道",
+          "contexts": {
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "离开",
+              "pos": "v."
+            }
+          }
+        },
+        "receive": {
+          "lemma": "receive",
+          "translation": "接听",
+          "pos": "v.",
+          "forms": "received, receiving, receives",
+          "meanings": "收到；接到；受到；接待",
+          "contexts": {
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "接听",
+              "pos": "v."
+            }
+          }
+        },
+        "calls": {
+          "lemma": "call",
+          "translation": "电话",
+          "pos": "n.",
+          "forms": "calls, called, calling",
+          "meanings": "电话；喊叫；访问；要求",
+          "contexts": {
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "电话",
+              "pos": "n."
+            }
+          }
+        },
+        "please": {
+          "lemma": "please",
+          "translation": "请",
+          "pos": "adv.",
+          "forms": "pleased, pleasing, pleases",
+          "meanings": "请；使高兴；使满意；喜欢",
+          "contexts": {
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "请",
+              "pos": "adv."
+            }
+          }
+        },
+        "note": {
+          "lemma": "note",
+          "translation": "注意",
+          "pos": "v.",
+          "forms": "notes, noted, noting",
+          "meanings": "注意；记录；笔记；纸币",
+          "contexts": {
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "注意",
+              "pos": "v."
+            }
+          }
+        },
+        "food": {
+          "lemma": "food",
+          "translation": "食物",
+          "pos": "n.",
+          "forms": "foods",
+          "meanings": "食物；食品；养料",
+          "contexts": {
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "食物",
+              "pos": "n."
+            }
+          }
+        },
+        "fruit": {
+          "lemma": "fruit",
+          "translation": "水果",
+          "pos": "n.",
+          "forms": "fruits",
+          "meanings": "水果；成果；收益；结果",
+          "contexts": {
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "水果",
+              "pos": "n."
+            }
+          }
+        },
+        "forbidden": {
+          "lemma": "forbid",
+          "translation": "被禁止的",
+          "pos": "adj.",
+          "forms": "forbade, forbidden, forbidding, forbids",
+          "meanings": "被禁止的；严禁的；妨碍的",
+          "contexts": {
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "被禁止的",
+              "pos": "adj."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "allowed": {
+          "lemma": "allow",
+          "translation": "被允许",
+          "pos": "v.",
+          "forms": "allows, allowed, allowing",
+          "meanings": "允许；准许；给予；使能够",
+          "contexts": {
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "被允许",
+              "pos": "v."
+            }
+          }
+        },
+        "drinks": {
+          "lemma": "drink",
+          "translation": "饮料",
+          "pos": "n.",
+          "forms": "drink, drinks, drank, drunk, drinking",
+          "meanings": "饮料；酒；喝酒；喝",
+          "contexts": {
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "饮料",
+              "pos": "n."
+            }
+          }
+        },
+        "sweets": {
+          "lemma": "sweet",
+          "translation": "糖果",
+          "pos": "n.",
+          "forms": "sweet, sweets",
+          "meanings": "糖果；甜点；亲爱的；甜的",
+          "contexts": {
+            "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.": {
+              "translation": "糖果",
+              "pos": "n."
+            }
+          }
+        },
+        "rules": {
+          "lemma": "rule",
+          "translation": "规则",
+          "pos": "n.",
+          "forms": "rules, ruled, ruling",
+          "meanings": "规则；章程；规定；统治；支配",
+          "contexts": {
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "规则",
+              "pos": "n."
+            }
+          }
+        },
+        "followed": {
+          "lemma": "follow",
+          "translation": "遵守",
+          "pos": "v.",
+          "forms": "follows, followed, following",
+          "meanings": "跟随；追随；遵循；听从",
+          "contexts": {
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "遵守",
+              "pos": "v."
+            }
+          }
+        },
+        "mobile": {
+          "lemma": "mobile",
+          "translation": "移动的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "移动的；机动的；易变的；流动的",
+          "contexts": {
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "移动（通信）的",
+              "pos": "adj."
+            }
+          }
+        },
+        "phone": {
+          "lemma": "phone",
+          "translation": "电话",
+          "pos": "n.",
+          "forms": "phones, phoned, phoning",
+          "meanings": "电话；手机；给……打电话",
+          "contexts": {
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "手机",
+              "pos": "n."
+            },
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "手机",
+              "pos": "n."
+            }
+          }
+        },
+        "conversations": {
+          "lemma": "conversation",
+          "translation": "交谈",
+          "pos": "n.",
+          "forms": "conversations",
+          "meanings": "交谈；谈话；会话",
+          "contexts": {
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "交谈",
+              "pos": "n."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是；绝非",
+          "contexts": {
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "permitted": {
+          "lemma": "permit",
+          "translation": "允许",
+          "pos": "v.",
+          "forms": "permits, permitted, permitting",
+          "meanings": "允许；准许；许可证；执照",
+          "contexts": {
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "允许",
+              "pos": "v."
+            }
+          }
+        },
+        "anywhere": {
+          "lemma": "anywhere",
+          "translation": "任何地方",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "任何地方；无论哪里；（用于数字前）大约",
+          "contexts": {
+            "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.": {
+              "translation": "任何地方",
+              "pos": "adv."
+            }
+          }
+        },
+        "keep": {
+          "lemma": "keep",
+          "translation": "保持",
+          "pos": "v.",
+          "forms": "keeps, kept, keeping",
+          "meanings": "保持；维持；继续；保存",
+          "contexts": {
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "保持",
+              "pos": "v."
+            }
+          }
+        },
+        "were": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；存在；变为",
+          "contexts": {
+            "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.": {
+              "translation": "处于（某种状态）",
+              "pos": "v."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "The library's upper floor is mainly for students to   _  .",
+          "options": [
+            "read in a quiet place",
+            "have group discussions",
+            "take comfortable seats",
+            "get their computers fixed"
+          ],
+          "answer": 0,
+          "explanation": "文章指出图书馆楼上是安静区域，主要用于安静阅读。",
+          "type": "细节理解",
+          "evidenceSentence": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "optionExplanations": [
+            "正确，对应文中silent reading。",
+            "错误，讨论在底层进行。",
+            "错误，底层才有扶手椅，且并非主要目的。",
+            "错误，文中未提及维修电脑服务。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "偷换概念",
+            "偷换概念",
+            "没有定位证据句"
+          ]
+        },
+        {
+          "prompt": "Library computers on the ground floor   _  .",
+          "options": [
+            "help students with their field experiments",
+            "contain software essential for schoolwork",
+            "are for those who want to access the wi-fi",
+            "are mostly used for filling out application forms"
+          ],
+          "answer": 1,
+          "explanation": "文章提到底层电脑包含常用的办公应用软件。",
+          "type": "细节理解",
+          "evidenceSentence": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "optionExplanations": [
+            "错误，这是对Experimental Field名称的误解。",
+            "正确，Microsoft Office属于常用的办公应用软件。",
+            "错误，文中说明使用自己的电脑连接Wi-Fi。",
+            "错误，文中未提及此用途。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "正确",
+            "偷换概念",
+            "没有定位证据句"
+          ]
+        },
+        {
+          "prompt": "What condition should be met to book a group-study room?",
+          "options": [
+            "A group must consist of 8 people.",
+            "Three-hour use per day is the minimum.",
+            "One should first register at the university.",
+            "Applications must mark the room on the map."
+          ],
+          "answer": 2,
+          "explanation": "预约房间需要具备大学账号。",
+          "type": "细节理解",
+          "evidenceSentence": "To book, you need an active University account and a valid University card.",
+          "optionExplanations": [
+            "错误，房间容量是上限，而非强制要求。",
+            "错误，文中规定的是限额，而非最低要求。",
+            "正确，大学账号即注册于大学的证明。",
+            "错误，标记地图是图书馆的功能，不是预约的先决条件。"
+          ],
+          "optionErrorTypes": [
+            "忽略否定或范围",
+            "忽略否定或范围",
+            "正确",
+            "偷换概念"
+          ]
+        },
+        {
+          "prompt": "A student can rent a locker in the library if he   _  .",
+          "options": [
+            "can afford the rental fee",
+            "attends certain courses",
+            "has nowhere to put his books.",
+            "has earned the required credits"
+          ],
+          "answer": 3,
+          "explanation": "租用储物柜的先决条件是至少获得40个学分。",
+          "type": "细节理解",
+          "evidenceSentence": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "optionExplanations": [
+            "错误，有钱还需满足学分条件。",
+            "错误，文中未提及课程要求。",
+            "错误，这只是主观需求，不是硬性条件。",
+            "正确，这是文中明确规定的必要条件。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "没有定位证据句",
+            "推理过度",
+            "正确"
+          ]
+        },
+        {
+          "prompt": "What should NOT be brought into the library?",
+          "options": [
+            "Mobile phones",
+            "Orange juice",
+            "Candy",
+            "Sandwiches"
+          ],
+          "answer": 3,
+          "explanation": "文中明确规定食物（food）是被禁止带入的，三明治属于食物。",
+          "type": "细节理解",
+          "evidenceSentence": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "optionExplanations": [
+            "错误，手机可以带入，但不能在馆内通话。",
+            "错误，文中允许携带饮料（drinks）。",
+            "错误，文中明确允许携带糖果（sweets）。",
+            "正确，三明治属于食物（food），属于禁止携带类。"
+          ],
+          "optionErrorTypes": [
+            "忽略否定或范围",
+            "忽略否定或范围",
+            "忽略否定或范围",
+            "正确"
+          ]
+        }
+      ],
+      "generationUsage": {
+        "requests": 22,
+        "inputTokens": 37936,
+        "outputTokens": 19983,
+        "totalTokens": 57919,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 22,
+            "inputTokens": 37936,
+            "outputTokens": 19983,
+            "totalTokens": 57919,
             "estimatedCostUsd": null
           }
         }

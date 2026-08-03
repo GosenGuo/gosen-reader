@@ -1,37 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T12:14:28.212Z",
+  "generatedAt": "2026-08-03T12:25:35.076Z",
   "words": {
     "on": {
       "lemma": "on",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "关于；在……之上；通过；在（时间）",
+      "meanings": "关于；在……之上；通过；在（时间）；在……位置",
       "senses": [
-        {
-          "translation": "关于",
-          "pos": "prep.",
-          "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "在……之上",
-          "pos": "prep.",
-          "example": "The look on Nita's face reminds me of the look on T.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "关于",
-          "pos": "prep.",
-          "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "在……之上",
-          "pos": "prep.",
-          "example": "On a language holiday, students come from countries all over the world.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
         {
           "translation": "在……情况中",
           "pos": "prep.",
@@ -79,6 +55,30 @@
           "pos": "prep.",
           "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "在……上",
+          "pos": "prep.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "在……上",
+          "pos": "prep.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "在……上",
+          "pos": "prep.",
+          "example": "All rooms are marked on the library maps.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "处于（某种状态）",
+          "pos": "prep.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -92,10 +92,11 @@
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "web": {
       "lemma": "web",
@@ -180,76 +181,76 @@
       "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
       "senses": [
         {
-          "translation": "（特指围栏）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
         },
         {
-          "translation": "这（名婴儿）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "The baby is just one day old and has not yet left hospital.",
-          "sourceArticleId": "web-a0a23c816fc997da"
+          "example": "The reading places consist mostly of tables and chairs.",
+          "sourceArticleId": "web-f335b4849447798b"
         },
         {
-          "translation": "这张（卡片）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
-          "sourceArticleId": "web-a0a23c816fc997da"
+          "example": "The ground floor is the zone where you can talk.",
+          "sourceArticleId": "web-f335b4849447798b"
         },
         {
-          "translation": "那（卡片）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
-          "sourceArticleId": "web-a0a23c816fc997da"
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
         },
         {
-          "translation": "那（前一张卡片）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
-          "sourceArticleId": "web-a0a23c816fc997da"
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
         },
         {
-          "translation": "这个（数字2）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
-          "sourceArticleId": "web-a0a23c816fc997da"
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
         },
         {
-          "translation": "相同的（实验）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
-          "sourceArticleId": "web-a0a23c816fc997da"
+          "example": "All rooms are marked on the library maps.",
+          "sourceArticleId": "web-f335b4849447798b"
         },
         {
-          "translation": "那种（新奇感）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "Perhaps it is just the newness?",
-          "sourceArticleId": "web-a0a23c816fc997da"
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
         },
         {
-          "translation": "那些（物体）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
-          "sourceArticleId": "web-a0a23c816fc997da"
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
         },
         {
-          "translation": "那种（模式）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "Could it be the pattern that two things make, as opposed to three?",
-          "sourceArticleId": "web-a0a23c816fc997da"
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
         },
         {
-          "translation": "这种（影响）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "The effect even crosses between senses.",
-          "sourceArticleId": "web-a0a23c816fc997da"
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
         },
         {
-          "translation": "那些（研究人员）",
+          "translation": "（用于特指）",
           "pos": "art.",
-          "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
-          "sourceArticleId": "web-a0a23c816fc997da"
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -266,10 +267,11 @@
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "internet": {
       "lemma": "internet",
@@ -355,12 +357,6 @@
         {
           "translation": "人们",
           "pos": "n.",
-          "example": "On Web sites across the Internet, people can access a variety of information about you.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "人们",
-          "pos": "n.",
           "example": "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
         },
@@ -423,6 +419,12 @@
           "pos": "n.",
           "example": "\"\n Ralph Buehler says governments save money when people use bicycles.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "人",
+          "pos": "n.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -430,10 +432,11 @@
         "web-91480225d160a6b6",
         "web-52737a111ab04db4",
         "web-eecaaca1e069e103",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "can": {
       "lemma": "can",
@@ -441,48 +444,6 @@
       "forms": "could",
       "meanings": "能够；可以；可能；罐头",
       "senses": [
-        {
-          "translation": "能够",
-          "pos": "modal v.",
-          "example": "We can also do shopping and find nearly all kinds of goods.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal v.",
-          "example": "Sometimes we can find something that is quite good but very cheap.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "可能",
-          "pos": "modal v.",
-          "example": "But a constant stream of riddles can get annoying .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal v.",
-          "example": "\"Brad, can I help you with the project ?",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal v.",
-          "example": "I can tell that she just wants to be around her big brother.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal v.",
-          "example": "And maybe you can come along with me sometime.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "可以",
-          "pos": "modal v.",
-          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
         {
           "translation": "能够",
           "pos": "modal v.",
@@ -512,6 +473,48 @@
           "pos": "modal v.",
           "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal v.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "可以",
+          "pos": "modal v.",
+          "example": "The ground floor is the zone where you can talk.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "可以",
+          "pos": "modal v.",
+          "example": "Here you can find sofas and armchairs for group work.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "可以",
+          "pos": "modal v.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "可以",
+          "pos": "modal v.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal v.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "可以",
+          "pos": "modal v.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -524,10 +527,11 @@
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "access": {
       "lemma": "access",
@@ -564,48 +568,6 @@
         {
           "translation": "一个",
           "pos": "art.",
-          "example": "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "She, now your wife, is not a dog person, but I still welcomed her into our home.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "You've made the right decision for your \"family\", but there was a time when I was your only family.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "You filled out the paperwork and said, \"I know you will find a good home for her\".",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "They shrugged and gave you a pained look.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
           "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
           "sourceArticleId": "web-a0a23c816fc997da"
         },
@@ -632,6 +594,48 @@
           "pos": "art.",
           "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -648,10 +652,11 @@
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "variety": {
       "lemma": "variety",
@@ -678,24 +683,6 @@
       "forms": "无常见变形",
       "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
       "senses": [
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "They lighten the load of school bags.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "关于",
-          "pos": "prep.",
-          "example": "The state has had to make severe cuts in school spending because of deep financial problems.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "These had to meet at least 90% of the state's learning requirements.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
         {
           "translation": "……的",
           "pos": "prep.",
@@ -749,6 +736,24 @@
           "pos": "prep.",
           "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "由……组成",
+          "pos": "prep.",
+          "example": "The reading places consist mostly of tables and chairs.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -765,10 +770,11 @@
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "information": {
       "lemma": "information",
@@ -942,66 +948,6 @@
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "I took long naps in the sun waiting for you to come home at the end of the day.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "Eventually, you fell in love.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "I was happy because you were happy.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "You've made the right decision for your \"family\", but there was a time when I was your only family.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "You filled out the paperwork and said, \"I know you will find a good home for her\".",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "They shrugged and gave you a pained look.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "And \"How could you?",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
           "example": "My beloved master, I will think of you and wait for you forever.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
         },
@@ -1010,6 +956,66 @@
           "pos": "pron.",
           "example": "I hope you receive more faithfulness from your family than you showed to me.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "The ground floor is the zone where you can talk.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "Here you can find sofas and armchairs for group work.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -1017,10 +1023,11 @@
         "web-a41ebe4e54718747",
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "it's": {
       "lemma": "it is",
@@ -1047,30 +1054,6 @@
       "forms": "无常见变形",
       "meanings": "在……之内；在……方面；在……期间；处于（某种状态）",
       "senses": [
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "The 1800's saw the greatest improvement in the quality of dictionaries.",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
         {
           "translation": "在……期间",
           "pos": "prep.",
@@ -1118,6 +1101,30 @@
           "pos": "prep.",
           "example": "The children were in tears as they waved me goodbye.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "在……里面",
+          "pos": "prep.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "处于（某种状态）",
+          "pos": "prep.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -1133,10 +1140,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "your": {
       "lemma": "your",
@@ -1144,24 +1152,6 @@
       "forms": "yours",
       "meanings": "你的；你们的",
       "senses": [
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "This is how you learn your own language - constant exposure.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
         {
           "translation": "你的",
           "pos": "pron.",
@@ -1215,6 +1205,24 @@
           "pos": "pron.",
           "example": "I hope you receive more faithfulness from your family than you showed to me.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -1222,10 +1230,11 @@
         "web-a41ebe4e54718747",
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "interest": {
       "lemma": "interest",
@@ -1267,60 +1276,6 @@
       "meanings": "到；向；给；构成不定式",
       "senses": [
         {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "I took long naps in the sun waiting for you to come home at the end of the day.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "But nevertheless, as they began to grow, I became their friend.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "Is it better to live with hope or without hope?",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "向",
-          "pos": "prep.",
-          "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "对",
-          "pos": "prep.",
-          "example": "I hope you receive more faithfulness from your family than you showed to me.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "到",
-          "pos": "prep.",
-          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "对……相比",
-          "pos": "prep.",
-          "example": "Or do newborns simply prefer more to fewer?",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
           "translation": "与……相对",
           "pos": "prep.",
           "example": "Could it be the pattern that two things make, as opposed to three?",
@@ -1337,6 +1292,60 @@
           "pos": "prep.",
           "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "至",
+          "pos": "prep.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "去（连接词）",
+          "pos": "prep.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "为了（不定式）",
+          "pos": "prep.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "达到",
+          "pos": "prep.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "为了（不定式）",
+          "pos": "prep.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "为了（不定式）",
+          "pos": "prep.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "被（动词不定式被动语态）",
+          "pos": "prep.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "为了（不定式）",
+          "pos": "prep.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "与……相连（固定搭配）",
+          "pos": "prep.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -1353,10 +1362,11 @@
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "be": {
       "lemma": "be",
@@ -1364,18 +1374,6 @@
       "forms": "am, is, are, was, were, being, been",
       "meanings": "是；位于；表现为；处于……状态",
       "senses": [
-        {
-          "translation": "是",
-          "pos": "verb",
-          "example": "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "We should be able to do something.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -1435,6 +1433,18 @@
           "pos": "v.",
           "example": "Could it be the pattern that two things make, as opposed to three?",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "被（用于被动语态）",
+          "pos": "v.",
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "应当",
+          "pos": "v.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -1446,10 +1456,11 @@
         "web-52737a111ab04db4",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "aware": {
       "lemma": "aware",
@@ -1566,60 +1577,6 @@
       "meanings": "和；而且；然后；接着",
       "senses": [
         {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "It smelled of dogs and cats, of fear, of hopelessness.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "You filled out the paperwork and said, \"I know you will find a good home for her\".",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "They shrugged and gave you a pained look.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "And \"How could you?",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "My beloved master, I will think of you and wait for you forever.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "The baby is just one day old and has not yet left hospital.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
           "translation": "然后",
           "pos": "conj.",
           "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
@@ -1636,6 +1593,60 @@
           "pos": "conj.",
           "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "并且",
+          "pos": "conj.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "The reading places consist mostly of tables and chairs.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Here you can find sofas and armchairs for group work.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -1652,10 +1663,11 @@
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "take": {
       "lemma": "take",
@@ -1987,14 +1999,21 @@
           "pos": "v.",
           "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
           "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "想要",
+          "pos": "v.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-eecaaca1e069e103"
+        "web-eecaaca1e069e103",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:04:45.834Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "first": {
       "lemma": "first",
@@ -2120,12 +2139,6 @@
       "senses": [
         {
           "translation": "或者",
-          "pos": "conjunction",
-          "example": "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "或者",
           "pos": "conj.",
           "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
           "sourceArticleId": "web-52737a111ab04db4"
@@ -2189,6 +2202,12 @@
           "pos": "conj.",
           "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -2199,10 +2218,11 @@
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "improving": {
       "lemma": "improve",
@@ -2229,24 +2249,6 @@
       "forms": "am, are, was, were, being, been",
       "meanings": "是；存在；等于；位于",
       "senses": [
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "The only city on the East Coast with more bike commuters is New York.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "One of the most interesting features of the Oxford Dictionary is its word histories.",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -2300,6 +2302,24 @@
           "pos": "v.",
           "example": "Perhaps it is just the newness?",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Zones\nThe library is divided into different zones.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "The ground floor is the zone where you can talk.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -2314,16 +2334,17 @@
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 12,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 13,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "find": {
       "lemma": "find",
       "pos": "v.",
       "forms": "found, finding, finds",
-      "meanings": "发现；找到；认为；发觉",
+      "meanings": "找到；发现；认为；发觉",
       "senses": [
         {
           "translation": "找到",
@@ -2366,6 +2387,12 @@
           "pos": "v.",
           "example": "You filled out the paperwork and said, \"I know you will find a good home for her\".",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "找到",
+          "pos": "v.",
+          "example": "Here you can find sofas and armchairs for group work.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -2373,10 +2400,11 @@
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "out": {
       "lemma": "out",
@@ -3009,6 +3037,12 @@
           "pos": "prep.",
           "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "进入到",
+          "pos": "prep.",
+          "example": "Zones\nThe library is divided into different zones.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -3017,10 +3051,11 @@
         "web-6889075584252ffd",
         "web-2e315a8a858c375d",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "several": {
       "lemma": "several",
@@ -3251,63 +3286,40 @@
       "lemma": "where",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "在何处；去哪里；在……的地方",
+      "meanings": "在何处；去哪里；在……的地方；情况是",
       "senses": [
         {
           "translation": "在何处",
           "pos": "adv.",
           "example": "Begin by typing your first and last name into several popular search engines to see where you are mentioned and in what context.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "在……的地方",
+          "pos": "adv.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "在……的地方",
+          "pos": "adv.",
+          "example": "The ground floor is the zone where you can talk.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "are": {
       "lemma": "be",
       "pos": "v.",
       "forms": "am, is, were, been, being",
-      "meanings": "是；在；存在；等于",
+      "meanings": "是；在；存在；等于；位于",
       "senses": [
-        {
-          "translation": "存在",
-          "pos": "verb",
-          "example": "There are some games for free.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "What are the Benefits of a Language Holiday?",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -3343,6 +3355,42 @@
           "pos": "v.",
           "example": "\"When a person makes a change from 04 using a car to using a bike,they are saving anywhere between 8 or$9,000 a year.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "位于",
+          "pos": "v.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "被",
+          "pos": "v.",
+          "example": "All rooms are marked on the library maps.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "被",
+          "pos": "v.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -3351,10 +3399,11 @@
         "web-91480225d160a6b6",
         "web-52737a111ab04db4",
         "web-eecaaca1e069e103",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "mentioned": {
       "lemma": "mention",
@@ -3857,22 +3906,10 @@
     },
     "that": {
       "lemma": "that",
-      "pos": "conj.",
+      "pos": "pron.",
       "forms": "those",
       "meanings": "引导从句；那个；那；因为",
       "senses": [
-        {
-          "translation": "那个",
-          "pos": "pron.",
-          "example": "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "引导从句",
-          "pos": "pron.",
-          "example": "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
         {
           "translation": "引导从句",
           "pos": "conj.",
@@ -3932,6 +3969,18 @@
           "pos": "pron.",
           "example": "Could it be the pattern that two things make, as opposed to three?",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "引导定语从句",
+          "pos": "pron.",
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "引导宾语从句",
+          "pos": "conj.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -3946,10 +3995,11 @@
         "web-eecaaca1e069e103",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 12,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 13,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "engine": {
       "lemma": "engine",
@@ -3998,28 +4048,10 @@
     },
     "as": {
       "lemma": "as",
-      "pos": "conj.",
+      "pos": "prep.",
       "forms": "无常见变形",
       "meanings": "当……时；正如；因为；像……一样；作为",
       "senses": [
-        {
-          "translation": "正如",
-          "pos": "conj.",
-          "example": "\" With this philosophy,Peterson introduced a crosscurriculum program,wherein she takes lessons taught in other classes,such as English and math,and expands upon them in an eightweek unit.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "像……一样",
-          "pos": "adv.",
-          "example": "Earn your degree in as little as two years!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "例如",
-          "pos": "prep.",
-          "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
         {
           "translation": "像……一样",
           "pos": "prep.",
@@ -4073,6 +4105,24 @@
           "pos": "conj.",
           "example": "Could it be the pattern that two things make, as opposed to three?",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "例如",
+          "pos": "prep.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "作为",
+          "pos": "prep.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "正如",
+          "pos": "conj.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -4084,10 +4134,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "phrase": {
       "lemma": "phrase",
@@ -4114,12 +4165,6 @@
       "forms": "无常见变形",
       "meanings": "不；没；不是；绝非",
       "senses": [
-        {
-          "translation": "不",
-          "pos": "adv.",
-          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "不",
           "pos": "adv.",
@@ -4185,6 +4230,12 @@
           "pos": "adv.",
           "example": "The baby is just one day old and has not yet left hospital.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -4197,10 +4248,11 @@
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "two": {
       "lemma": "two",
@@ -4614,16 +4666,10 @@
     },
     "all": {
       "lemma": "all",
-      "pos": "pron.",
+      "pos": "adj.",
       "forms": "无常见变形",
       "meanings": "全部；所有；总共；整个",
       "senses": [
-        {
-          "translation": "整个",
-          "pos": "det.",
-          "example": "But today, Internet has become a useful tool for people all over the world.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
         {
           "translation": "所有",
           "pos": "det.",
@@ -4689,6 +4735,12 @@
           "pos": "pron.",
           "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "所有",
+          "pos": "adj.",
+          "example": "All rooms are marked on the library maps.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -4700,10 +4752,11 @@
         "web-eecaaca1e069e103",
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "names": {
       "lemma": "name",
@@ -4777,35 +4830,36 @@
           "pos": "conj.",
           "example": "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "如果",
+          "pos": "conj.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "仿佛",
+          "pos": "conj.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
         "web-eecaaca1e069e103",
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "have": {
       "lemma": "have",
-      "pos": "aux.",
-      "forms": "having, had, has",
+      "pos": "v.",
+      "forms": "has, had, having",
       "meanings": "有；经历；吃；使（某人做某事）；辅助动词（完成时态）",
       "senses": [
-        {
-          "translation": "拥有",
-          "pos": "v.",
-          "example": "Different nations have different cultures.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "有",
-          "pos": "v.",
-          "example": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "有",
           "pos": "v.",
@@ -4865,6 +4919,18 @@
           "pos": "aux.",
           "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "已经（完成时助动词）",
+          "pos": "aux.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "携带/持有",
+          "pos": "v.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -4878,10 +4944,11 @@
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "ever": {
       "lemma": "ever",
@@ -4945,16 +5012,23 @@
           "pos": "v.",
           "example": "He also gave good sentences to show how each word was actually used in speech and in writing.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "使用的",
+          "pos": "adj.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
         "web-2e315a8a858c375d",
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "different": {
       "lemma": "different",
@@ -4985,34 +5059,35 @@
           "pos": "adj.",
           "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "不同的",
+          "pos": "adj.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "不同的",
+          "pos": "adj.",
+          "example": "Zones\nThe library is divided into different zones.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-52737a111ab04db4",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "use": {
       "lemma": "use",
-      "pos": "v.",
+      "pos": "verb",
       "forms": "uses, used, using",
       "meanings": "使用；利用；消耗；习惯于",
       "senses": [
-        {
-          "translation": "利用",
-          "pos": "v.",
-          "example": "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "利用",
-          "pos": "v.",
-          "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
         {
           "translation": "使用",
           "pos": "v.",
@@ -5072,6 +5147,18 @@
           "pos": "v.",
           "example": "Also, there is the cost to train teachers to use digital textbooks effectively.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "使用",
+          "pos": "verb",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "使用",
+          "pos": "verb",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -5081,10 +5168,11 @@
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "middle": {
       "lemma": "middle",
@@ -5510,7 +5598,7 @@
       "lemma": "up",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "完成；彻底；向上；出现",
+      "meanings": "到（up to）；完成；彻底；向上；出现",
       "senses": [
         {
           "translation": "向上（与turn构成短语显露）",
@@ -5577,6 +5665,12 @@
           "pos": "adv.",
           "example": "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "到",
+          "pos": "adv.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -5588,10 +5682,11 @@
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "other": {
       "lemma": "other",
@@ -6089,42 +6184,6 @@
       "meanings": "为了；支持；因为；给；对于",
       "senses": [
         {
-          "translation": "供……使用",
-          "pos": "prep.",
-          "example": "Earlier this year, California invited content developers to offer digital math and science materials for high schools.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "持续（一段时间）",
-          "pos": "prep.",
-          "example": "Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "供……（做某事）",
-          "pos": "prep.",
-          "example": "Individual school districts will have to decide for themselves.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "用于目的，为了（获得）",
-          "pos": "prep.",
-          "example": "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "进行（某项活动）",
-          "pos": "prep.",
-          "example": "We went for long walks, runs in the park and car rides.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "为了",
-          "pos": "prep.",
-          "example": "We stopped for ice cream.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
           "translation": "等待（某人）",
           "pos": "prep.",
           "example": "I took long naps in the sun waiting for you to come home at the end of the day.",
@@ -6159,6 +6218,42 @@
           "pos": "prep.",
           "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "用于",
+          "pos": "prep.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "供……使用",
+          "pos": "prep.",
+          "example": "Here you can find sofas and armchairs for group work.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "为……准备",
+          "pos": "prep.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "供……使用",
+          "pos": "prep.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "供……（做某事）",
+          "pos": "prep.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "支付（费用）",
+          "pos": "prep.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -6173,10 +6268,11 @@
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 12,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 13,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "city": {
       "lemma": "city",
@@ -6980,14 +7076,8 @@
       "lemma": "they",
       "pos": "pron.",
       "forms": "their, theirs, them, themselves",
-      "meanings": "他们；她们；它们",
+      "meanings": "他们；她们；它们；人；大家",
       "senses": [
-        {
-          "translation": "他们",
-          "pos": "pron.",
-          "example": "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
         {
           "translation": "他们",
           "pos": "pron.",
@@ -7053,6 +7143,12 @@
           "pos": "pron.",
           "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "它们",
+          "pos": "pron.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -7065,10 +7161,11 @@
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "writing": {
       "lemma": "write",
@@ -7260,16 +7357,23 @@
           "pos": "adj.",
           "example": "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "一些",
+          "pos": "adj.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "enables": {
       "lemma": "enable",
@@ -7307,14 +7411,21 @@
           "pos": "v.",
           "example": "I hope you receive more faithfulness from your family than you showed to me.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "接听",
+          "pos": "v.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "automatic": {
       "lemma": "automatic",
@@ -7608,6 +7719,12 @@
           "pos": "art.",
           "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -7618,10 +7735,11 @@
         "web-eecaaca1e069e103",
         "web-1fac3b0d4f7569c5",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "outstanding": {
       "lemma": "outstanding",
@@ -7768,24 +7886,6 @@
       "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）；向；针对",
       "senses": [
         {
-          "translation": "向",
-          "pos": "prep.",
-          "example": "\" He shouts at her .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "在……时",
-          "pos": "prep.",
-          "example": "J's silence at the dinner table.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "You'll find schools offering language holidays at EnglishClub.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
           "translation": "在",
           "pos": "prep.",
           "example": "Ralph Buehler teaches urban planning at the Virginia Polytechnic Institute and State University,popularly known as Virginia Tech.",
@@ -7838,6 +7938,24 @@
           "pos": "prep.",
           "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "在",
+          "pos": "prep.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "在",
+          "pos": "prep.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "在……至少",
+          "pos": "prep.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -7851,10 +7969,11 @@
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "young": {
       "lemma": "young",
@@ -8099,15 +8218,28 @@
           "pos": "pron.",
           "example": "Communicating with others on the Internet is much faster.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "其他人",
+          "pos": "pron.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "其他（房间）",
+          "pos": "pron.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-a41ebe4e54718747",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "was": {
       "lemma": "be",
@@ -8209,18 +8341,6 @@
       "meanings": "与……一起；使用；带有；由于；关于",
       "senses": [
         {
-          "translation": "属于（某机构）",
-          "pos": "prep.",
-          "example": "Greg Billing is with the Washington Area Bicyclist Association.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "具有",
-          "pos": "prep.",
-          "example": "The only city on the East Coast with more bike commuters is New York.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
           "translation": "使用",
           "pos": "prep.",
           "example": "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.",
@@ -8279,6 +8399,18 @@
           "pos": "prep.",
           "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "具有",
+          "pos": "prep.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "随身携带",
+          "pos": "prep.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -8293,10 +8425,11 @@
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 12,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 13,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "this": {
       "lemma": "this",
@@ -8755,12 +8888,6 @@
         {
           "translation": "是",
           "pos": "v.",
-          "example": "Men were more likely to mention cultural, societal and family pressures than women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
           "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
           "sourceArticleId": "web-eecaaca1e069e103"
         },
@@ -8823,6 +8950,12 @@
           "pos": "v.",
           "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "处于（某种状态）",
+          "pos": "v.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -8832,10 +8965,11 @@
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "away": {
       "lemma": "away",
@@ -8914,13 +9048,20 @@
           "pos": "v.",
           "example": "However,while visiting her brothers who were away at college studying music education,she realized that she was drawn to teach music,too.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "music": {
       "lemma": "music",
@@ -9284,14 +9425,8 @@
       "lemma": "have",
       "pos": "v.",
       "forms": "has, had, having",
-      "meanings": "已经；有；经历；使；吃",
+      "meanings": "有；经历；吃；使；辅助动词构成完成时",
       "senses": [
-        {
-          "translation": "拥有/具有",
-          "pos": "v.",
-          "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
         {
           "translation": "已经（完成时辅助词）",
           "pos": "v.",
@@ -9357,6 +9492,12 @@
           "pos": "v.",
           "example": "The baby is just one day old and has not yet left hospital.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -9366,10 +9507,11 @@
         "web-91480225d160a6b6",
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "revitalized": {
       "lemma": "revitalize",
@@ -9867,14 +10009,8 @@
       "lemma": "student",
       "pos": "n.",
       "forms": "students",
-      "meanings": "学生；学者；研究者",
+      "meanings": "学生；研究者；学习者",
       "senses": [
-        {
-          "translation": "学生",
-          "pos": "n.",
-          "example": "The growth of the music program in Granite Falls School District has encouraged students to participate in country,state and national music competitions,and won numerous prizes for the district.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
         {
           "translation": "学生",
           "pos": "n.",
@@ -9940,6 +10076,12 @@
           "pos": "n.",
           "example": "School administrators point out that the texts may be free online, but students need a way to access them.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "学生",
+          "pos": "n.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -9947,10 +10089,11 @@
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
         "web-52737a111ab04db4",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "participate": {
       "lemma": "participate",
@@ -10463,6 +10606,18 @@
           "pos": "adv.",
           "example": "One of the most interesting features of the Oxford Dictionary is its word histories.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "最",
+          "pos": "adv.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "最多",
+          "pos": "adv.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -10471,10 +10626,11 @@
         "web-91480225d160a6b6",
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "visible": {
       "lemma": "visible",
@@ -11316,14 +11472,21 @@
           "pos": "det.",
           "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "例如",
+          "pos": "det.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "english": {
       "lemma": "English",
@@ -11931,6 +12094,18 @@
           "pos": "n.",
           "example": "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "工作",
+          "pos": "v.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "工作",
+          "pos": "n.",
+          "example": "Here you can find sofas and armchairs for group work.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -11941,10 +12116,11 @@
         "web-eecaaca1e069e103",
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "together": {
       "lemma": "together",
@@ -13443,15 +13619,28 @@
           "pos": "adj.",
           "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "自己的",
+          "pos": "adj.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "自己的",
+          "pos": "adj.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "sled": {
       "lemma": "sled",
@@ -13973,12 +14162,6 @@
         {
           "translation": "当……时",
           "pos": "conj.",
-          "example": "We're painting the planets when Brad's little sister, Nita, comes into the room.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "当……时",
-          "pos": "conj.",
           "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
           "sourceArticleId": "web-2e315a8a858c375d"
         },
@@ -14041,6 +14224,12 @@
           "pos": "conj.",
           "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -14050,10 +14239,11 @@
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "attacked": {
       "lemma": "attack",
@@ -14225,15 +14415,22 @@
           "pos": "n.",
           "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "周",
+          "pos": "n.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "handful": {
       "lemma": "handful",
@@ -14417,6 +14614,12 @@
           "pos": "n.",
           "example": "The baby is just one day old and has not yet left hospital.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "天",
+          "pos": "n.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -14424,10 +14627,11 @@
         "web-a41ebe4e54718747",
         "web-2e315a8a858c375d",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "goes": {
       "lemma": "go",
@@ -14471,20 +14675,45 @@
       "lemma": "place",
       "pos": "n.",
       "forms": "places, placed, placing",
-      "meanings": "地点；地方；位置；放置",
+      "meanings": "地点；地方；位置；放置；座位",
       "senses": [
         {
           "translation": "地点",
           "pos": "n.",
           "example": "Helen goes to challenging places not only for  adventures,but also for education.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "地点",
+          "pos": "n.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "座位",
+          "pos": "n.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "地点",
+          "pos": "n.",
+          "example": "The reading places consist mostly of tables and chairs.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "空间",
+          "pos": "n.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "adventures": {
       "lemma": "adventure",
@@ -14517,12 +14746,6 @@
       "forms": "无常见变形",
       "meanings": "但是；可是；除了；只不过",
       "senses": [
-        {
-          "translation": "但是",
-          "pos": "conj.",
-          "example": "But today,many people believe they can save money by living in the city.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
         {
           "translation": "但是",
           "pos": "conj.",
@@ -14588,6 +14811,12 @@
           "pos": "conj.",
           "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -14599,14 +14828,15 @@
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "also": {
       "lemma": "also",
-      "pos": "adv.",
+      "pos": "adverb",
       "forms": "无常见变形",
       "meanings": "也；同样；并且；而且",
       "senses": [
@@ -14651,6 +14881,12 @@
           "pos": "adv.",
           "example": "Also, there is the cost to train teachers to use digital textbooks effectively.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "也",
+          "pos": "adverb",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -14659,10 +14895,11 @@
         "web-91480225d160a6b6",
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "before": {
       "lemma": "before",
@@ -14752,13 +14989,20 @@
           "pos": "n.",
           "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "网站",
+          "pos": "n.",
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "called": {
       "lemma": "call",
@@ -15163,16 +15407,23 @@
           "pos": "prep.",
           "example": "Is it better to live with hope or without hope?",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "没有",
+          "pos": "prep.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "hope": {
       "lemma": "hope",
@@ -15623,13 +15874,20 @@
           "pos": "num.",
           "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "九",
+          "pos": "num.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "later": {
       "lemma": "later",
@@ -16143,7 +16401,7 @@
       "lemma": "study",
       "pos": "v.",
       "forms": "studies, studying, studied",
-      "meanings": "学习；研究；细看；书房",
+      "meanings": "学习；研究；细看；书房；自习",
       "senses": [
         {
           "translation": "研究",
@@ -16174,15 +16432,40 @@
           "pos": "v.",
           "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "pandas": {
       "lemma": "panda",
@@ -17055,13 +17338,20 @@
           "pos": "v.",
           "example": "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "提供",
+          "pos": "v.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "specialized": {
       "lemma": "specialize",
@@ -17502,14 +17792,27 @@
           "pos": "n.",
           "example": "Not everyone has a computer or electronic reader.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "计算机",
+          "pos": "n.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "计算机",
+          "pos": "n.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "science": {
       "lemma": "science",
@@ -17711,15 +18014,28 @@
           "pos": "v.",
           "example": "School administrators point out that the texts may be free online, but students need a way to access them.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "需要",
+          "pos": "v.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "需要",
+          "pos": "v.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
         "web-91480225d160a6b6",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "aids": {
       "lemma": "aid",
@@ -18025,13 +18341,20 @@
           "pos": "n.",
           "example": "Prepare for promotions, pay raises, or even start a business of your own.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "支付",
+          "pos": "v.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "nationally": {
       "lemma": "nationally",
@@ -18291,15 +18614,22 @@
           "pos": "pron.",
           "example": "She, now your wife, is not a dog person, but I still welcomed her into our home.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "我们的",
+          "pos": "pron.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
         "web-91480225d160a6b6",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "employees": {
       "lemma": "employee",
@@ -18388,7 +18718,7 @@
       "lemma": "area",
       "pos": "n.",
       "forms": "areas",
-      "meanings": "地区；领域；面积",
+      "meanings": "地区；领域；面积；区域",
       "senses": [
         {
           "translation": "地区",
@@ -18401,14 +18731,21 @@
           "pos": "n.",
           "example": "Greg Billing is with the Washington Area Bicyclist Association.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "区域",
+          "pos": "n.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "will": {
       "lemma": "will",
@@ -19354,14 +19691,21 @@
           "pos": "n.",
           "example": "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "领域",
+          "pos": "n.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "you've": {
       "lemma": "you have",
@@ -19514,14 +19858,21 @@
           "pos": "n.",
           "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "小时",
+          "pos": "n.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "days": {
       "lemma": "day",
@@ -20954,15 +21305,28 @@
           "pos": "n.",
           "example": "Ralph Buehler teaches urban planning at the Virginia Polytechnic Institute and State University,popularly known as Virginia Tech.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "大学",
+          "pos": "n.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "大学的",
+          "pos": "adj.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
         "web-eecaaca1e069e103",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "baltimore": {
       "lemma": "Baltimore",
@@ -20994,13 +21358,20 @@
           "pos": "v.",
           "example": "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "被允许",
+          "pos": "v.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "there": {
       "lemma": "there",
@@ -21067,6 +21438,12 @@
           "pos": "adv.",
           "example": "You've made the right decision for your \"family\", but there was a time when I was your only family.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "存在",
+          "pos": "adv.",
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -21077,10 +21454,11 @@
         "web-eecaaca1e069e103",
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "developed": {
       "lemma": "develop",
@@ -21163,13 +21541,20 @@
           "pos": "pron.",
           "example": "There he developed a simple paper test, which can recognize the disease in a single drop of blood.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "（引导定语从句，指代前面的电脑）……的那个",
+          "pos": "pron.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "single": {
       "lemma": "single",
@@ -21455,13 +21840,20 @@
           "pos": "prep.",
           "example": "\"It costs 3 cents per test, and then it takes only 5 minutes to run,\" he said.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "每",
+          "pos": "prep.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "minutes": {
       "lemma": "minute",
@@ -22082,13 +22474,20 @@
           "pos": "v.",
           "example": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "交谈",
+          "pos": "v.",
+          "example": "The ground floor is the zone where you can talk.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "him": {
       "lemma": "he",
@@ -22118,7 +22517,7 @@
     },
     "over": {
       "lemma": "over",
-      "pos": "adv.",
+      "pos": "prep.",
       "forms": "无常见变形",
       "meanings": "遍及；超过；在……上方；结束；翻转",
       "senses": [
@@ -22169,6 +22568,12 @@
           "pos": "prep.",
           "example": "\" were the only three words that swept over my mind.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "超过",
+          "pos": "prep.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
@@ -22177,10 +22582,11 @@
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "interview": {
       "lemma": "interview",
@@ -23437,7 +23843,7 @@
     },
     "rooms": {
       "lemma": "room",
-      "pos": "noun",
+      "pos": "n.",
       "forms": "rooms",
       "meanings": "房间；空间；余地；居室",
       "senses": [
@@ -23446,13 +23852,32 @@
           "pos": "noun",
           "example": "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "房间",
+          "pos": "n.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "房间",
+          "pos": "n.",
+          "example": "All rooms are marked on the library maps.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "房间",
+          "pos": "n.",
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "surfing": {
       "lemma": "surf",
@@ -23743,16 +24168,23 @@
           "pos": "adj.",
           "example": "You filled out the paperwork and said, \"I know you will find a good home for her\".",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "好的",
+          "pos": "adj.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-91480225d160a6b6",
         "web-2e315a8a858c375d",
         "web-09421cfd6a2c44ad",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "cheap": {
       "lemma": "cheap",
@@ -24555,14 +24987,21 @@
           "pos": "adj.",
           "example": "She is quiet but alert  .",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "安静的",
+          "pos": "adj.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-2e315a8a858c375d",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "nice": {
       "lemma": "nice",
@@ -24782,13 +25221,20 @@
           "pos": "n.",
           "example": "J's silence at the dinner table.",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "桌子",
+          "pos": "n.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "between": {
       "lemma": "between",
@@ -24859,13 +25305,20 @@
           "pos": "n.",
           "example": "Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "食物",
+          "pos": "n.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "evening": {
       "lemma": "evening",
@@ -25236,13 +25689,26 @@
           "pos": "n.",
           "example": "When Brad and I finish working on the project, I see Nita in the front of the room .",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "房间",
+          "pos": "n.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "房间",
+          "pos": "n.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "brad": {
       "lemma": "brad",
@@ -26942,15 +27408,22 @@
           "pos": "num.",
           "example": "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "三",
+          "pos": "num.",
+          "example": "You can use a room three hours per day, nine hours at most per week.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
         "web-52737a111ab04db4",
         "web-f328bfb9843d2dfa",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "weeks": {
       "lemma": "week",
@@ -29646,13 +30119,20 @@
           "pos": "v.",
           "example": "Ralph Buehler teaches urban planning at the Virginia Polytechnic Institute and State University,popularly known as Virginia Tech.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "被称为",
+          "pos": "v.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "tech": {
       "lemma": "tech",
@@ -29694,22 +30174,35 @@
     },
     "book": {
       "lemma": "book",
-      "pos": "n.",
-      "forms": "books",
-      "meanings": "书；书籍；名册；预订",
+      "pos": "v.",
+      "forms": "booked, booking, books",
+      "meanings": "预订；书；书册；名册",
       "senses": [
         {
           "translation": "书",
           "pos": "n.",
           "example": "He has written a book about urban biking,called \"City Cycling\".",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "预订",
+          "pos": "v.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "预订",
+          "pos": "v.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "biking": {
       "lemma": "bike",
@@ -30579,13 +31072,20 @@
           "pos": "adv.",
           "example": "\"When a person makes a change from 04 using a car to using a bike,they are saving anywhere between 8 or$9,000 a year.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "任何地方",
+          "pos": "adv.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "governments": {
       "lemma": "government",
@@ -31330,13 +31830,20 @@
           "pos": "v.",
           "example": "By the end of the 1700's most dictionary makers had followed Johnson's example.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "遵守",
+          "pos": "v.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "definition": {
       "lemma": "definition",
@@ -31692,13 +32199,20 @@
           "pos": "num.",
           "example": "Each followed Cawdrey's lead and presented a few thousand hard words.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "一千",
+          "pos": "num.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "hard": {
       "lemma": "hard",
@@ -32253,22 +32767,29 @@
     },
     "prepared": {
       "lemma": "prepare",
-      "pos": "v.",
-      "forms": "prepared, preparing, prepares",
-      "meanings": "筹备；准备；预备；调制",
+      "pos": "adjective",
+      "forms": "prepares, prepared, preparing",
+      "meanings": "准备；筹备；预备；调制",
       "senses": [
         {
           "translation": "筹备",
           "pos": "v.",
           "example": "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "准备好的",
+          "pos": "adjective",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "oxford": {
       "lemma": "oxford",
@@ -33422,13 +33943,20 @@
           "pos": "adv.",
           "example": "These had to meet at least 90% of the state's learning requirements.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "最少",
+          "pos": "adv.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "state's": {
       "lemma": "state",
@@ -33470,7 +33998,7 @@
     },
     "specially": {
       "lemma": "specially",
-      "pos": "adv.",
+      "pos": "adverb",
       "forms": "无常见变形",
       "meanings": "专门地；特别地；特意",
       "senses": [
@@ -33479,13 +34007,20 @@
           "pos": "adv.",
           "example": "Specially trained teachers examined 16 textbooks and approved ten of them.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "专门地",
+          "pos": "adverb",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "trained": {
       "lemma": "train",
@@ -33636,13 +34171,32 @@
           "pos": "noun",
           "example": "The money came from a group financed by the Khosla Family.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "团体",
+          "pos": "noun",
+          "example": "Here you can find sofas and armchairs for group work.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "小组",
+          "pos": "noun",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "小组",
+          "pos": "noun",
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "paid": {
       "lemma": "pay",
@@ -34113,13 +34667,20 @@
           "pos": "modal v.",
           "example": "School administrators point out that the texts may be free online, but students need a way to access them.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "可以",
+          "pos": "modal v.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "everyone": {
       "lemma": "everyone",
@@ -34272,13 +34833,20 @@
           "pos": "n.",
           "example": "Schools could print out copies, but that would not help the environment.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "环境",
+          "pos": "n.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "cost": {
       "lemma": "cost",
@@ -35956,13 +36524,20 @@
           "pos": "n.",
           "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "证件",
+          "pos": "n.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
         }
       ],
       "articleIds": [
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-f335b4849447798b"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     },
     "black": {
       "lemma": "black",
@@ -36916,6 +37491,1514 @@
       ],
       "articleCount": 1,
       "updatedAt": "2026-08-03T12:14:28.212Z"
+    },
+    "guide": {
+      "lemma": "guide",
+      "pos": "n.",
+      "forms": "guides, guided, guiding",
+      "meanings": "指南；向导；指导；引导；导游",
+      "senses": [
+        {
+          "translation": "指南",
+          "pos": "n.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "stockholm": {
+      "lemma": "stockholm",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "斯德哥尔摩（瑞典首都）",
+      "senses": [
+        {
+          "translation": "斯德哥尔摩",
+          "pos": "n.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "library": {
+      "lemma": "library",
+      "pos": "n.",
+      "forms": "libraries",
+      "meanings": "图书馆；藏书室；文库；数据库",
+      "senses": [
+        {
+          "translation": "图书馆",
+          "pos": "n.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "图书馆",
+          "pos": "n.",
+          "example": "Zones\nThe library is divided into different zones.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "图书馆的",
+          "pos": "adj.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "图书馆的",
+          "pos": "adj.",
+          "example": "All rooms are marked on the library maps.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "图书馆",
+          "pos": "n.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "图书馆",
+          "pos": "n.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "图书馆",
+          "pos": "n.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "图书馆",
+          "pos": "n.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "types": {
+      "lemma": "type",
+      "pos": "n.",
+      "forms": "types, typed, typing",
+      "meanings": "类型；种类；典型；打字",
+      "senses": [
+        {
+          "translation": "类型",
+          "pos": "n.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "provides": {
+      "lemma": "provide",
+      "pos": "v.",
+      "forms": "provides, provided, providing",
+      "meanings": "提供；供应；规定；供给",
+      "senses": [
+        {
+          "translation": "提供",
+          "pos": "v.",
+          "example": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "zones": {
+      "lemma": "zone",
+      "pos": "n.",
+      "forms": "zones, zoned, zoning",
+      "meanings": "区域；地带；地区",
+      "senses": [
+        {
+          "translation": "区域",
+          "pos": "n.",
+          "example": "Zones\nThe library is divided into different zones.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "divided": {
+      "lemma": "divide",
+      "pos": "v.",
+      "forms": "divides, divided, dividing",
+      "meanings": "划分；分开；分配；除以；分歧",
+      "senses": [
+        {
+          "translation": "被划分",
+          "pos": "v.",
+          "example": "Zones\nThe library is divided into different zones.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "upper": {
+      "lemma": "upper",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "上面的；较高的；上层的；上级的",
+      "senses": [
+        {
+          "translation": "上面的",
+          "pos": "adj.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "floor": {
+      "lemma": "floor",
+      "pos": "n.",
+      "forms": "floors",
+      "meanings": "楼层；地面；底部；发言权",
+      "senses": [
+        {
+          "translation": "楼层",
+          "pos": "n.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "楼层",
+          "pos": "n.",
+          "example": "The ground floor is the zone where you can talk.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "楼层",
+          "pos": "n.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "楼层",
+          "pos": "n.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "zone": {
+      "lemma": "zone",
+      "pos": "n.",
+      "forms": "zones",
+      "meanings": "区域；地带；地区；范围",
+      "senses": [
+        {
+          "translation": "区域",
+          "pos": "n.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "区域",
+          "pos": "n.",
+          "example": "The ground floor is the zone where you can talk.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "silent": {
+      "lemma": "silent",
+      "pos": "adj.",
+      "forms": "silently",
+      "meanings": "安静的；寂静的；无声的；沉默的",
+      "senses": [
+        {
+          "translation": "安静的",
+          "pos": "adj.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "静音模式",
+          "pos": "n.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "reading": {
+      "lemma": "read",
+      "pos": "v./n.",
+      "forms": "reads, read, reading",
+      "meanings": "阅读；读书；读物；阅读材料",
+      "senses": [
+        {
+          "translation": "阅读",
+          "pos": "n.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "阅读",
+          "pos": "adj.",
+          "example": "The reading places consist mostly of tables and chairs.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "sit": {
+      "lemma": "sit",
+      "pos": "v.",
+      "forms": "sits, sat, sitting",
+      "meanings": "坐；使就座；位于；参加考试",
+      "senses": [
+        {
+          "translation": "坐",
+          "pos": "v.",
+          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "坐",
+          "pos": "v.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "consist": {
+      "lemma": "consist",
+      "pos": "v.",
+      "forms": "consists, consisted, consisting",
+      "meanings": "由...组成；在于；构成",
+      "senses": [
+        {
+          "translation": "由...组成",
+          "pos": "v.",
+          "example": "The reading places consist mostly of tables and chairs.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "mostly": {
+      "lemma": "mostly",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "主要地；大体上；多半",
+      "senses": [
+        {
+          "translation": "主要地",
+          "pos": "adv.",
+          "example": "The reading places consist mostly of tables and chairs.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "tables": {
+      "lemma": "table",
+      "pos": "n.",
+      "forms": "tables",
+      "meanings": "桌子；表格；餐桌；目录",
+      "senses": [
+        {
+          "translation": "桌子",
+          "pos": "n.",
+          "example": "The reading places consist mostly of tables and chairs.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "chairs": {
+      "lemma": "chair",
+      "pos": "n.",
+      "forms": "chairs",
+      "meanings": "椅子；主席；教授职位",
+      "senses": [
+        {
+          "translation": "椅子",
+          "pos": "n.",
+          "example": "The reading places consist mostly of tables and chairs.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "ground": {
+      "lemma": "ground",
+      "pos": "adj.",
+      "forms": "grounds, grounded, grounding",
+      "meanings": "底层的；地面；土地；根据；磨碎",
+      "senses": [
+        {
+          "translation": "底层的",
+          "pos": "adj.",
+          "example": "The ground floor is the zone where you can talk.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "底层",
+          "pos": "n.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "底层",
+          "pos": "n.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "here": {
+      "lemma": "here",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "在这里；在这一点上；向这里",
+      "senses": [
+        {
+          "translation": "在这里",
+          "pos": "adv.",
+          "example": "Here you can find sofas and armchairs for group work.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "sofas": {
+      "lemma": "sofa",
+      "pos": "n.",
+      "forms": "sofas",
+      "meanings": "沙发；长椅",
+      "senses": [
+        {
+          "translation": "沙发",
+          "pos": "n.",
+          "example": "Here you can find sofas and armchairs for group work.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "armchairs": {
+      "lemma": "armchair",
+      "pos": "n.",
+      "forms": "armchairs",
+      "meanings": "扶手椅；空谈的",
+      "senses": [
+        {
+          "translation": "扶手椅",
+          "pos": "n.",
+          "example": "Here you can find sofas and armchairs for group work.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "computers": {
+      "lemma": "computer",
+      "pos": "noun",
+      "forms": "computers",
+      "meanings": "计算机；电脑；计算者",
+      "senses": [
+        {
+          "translation": "计算机",
+          "pos": "noun",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "connect": {
+      "lemma": "connect",
+      "pos": "verb",
+      "forms": "connects, connected, connecting",
+      "meanings": "连接；建立联系；接通电话；关联",
+      "senses": [
+        {
+          "translation": "连接",
+          "pos": "verb",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "wi": {
+      "lemma": "wi",
+      "pos": "noun",
+      "forms": "无常见变形",
+      "meanings": "无线网络（常与fi连用）；无线；通信标识",
+      "senses": [
+        {
+          "translation": "无线网络的一部分",
+          "pos": "noun",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "fi": {
+      "lemma": "fi",
+      "pos": "noun",
+      "forms": "无常见变形",
+      "meanings": "无线网络（常与wi连用）；高保真；通信标识",
+      "senses": [
+        {
+          "translation": "无线网络的一部分",
+          "pos": "noun",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "notebook": {
+      "lemma": "notebook",
+      "pos": "noun",
+      "forms": "notebooks",
+      "meanings": "笔记本电脑；笔记本；笔记簿",
+      "senses": [
+        {
+          "translation": "笔记本电脑",
+          "pos": "noun",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "contain": {
+      "lemma": "contain",
+      "pos": "v.",
+      "forms": "contains, contained, containing",
+      "meanings": "包含；容纳；克制（情绪）；装有",
+      "senses": [
+        {
+          "translation": "包含",
+          "pos": "v.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "commonly": {
+      "lemma": "common",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "普遍地；通常地；一般地",
+      "senses": [
+        {
+          "translation": "普遍地",
+          "pos": "adv.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "applications": {
+      "lemma": "application",
+      "pos": "n.",
+      "forms": "application, applications",
+      "meanings": "应用程序；申请；应用；请求",
+      "senses": [
+        {
+          "translation": "应用程序",
+          "pos": "n.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "microsoft": {
+      "lemma": "microsoft",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "微软（公司名）",
+      "senses": [
+        {
+          "translation": "微软",
+          "pos": "n.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "office": {
+      "lemma": "office",
+      "pos": "n.",
+      "forms": "offices",
+      "meanings": "办公室；办公软件；职务；部门",
+      "senses": [
+        {
+          "translation": "办公软件",
+          "pos": "n.",
+          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "situated": {
+      "lemma": "situate",
+      "pos": "v.",
+      "forms": "situates, situating, situated",
+      "meanings": "使位于；坐落于；处境；安置",
+      "senses": [
+        {
+          "translation": "位于",
+          "pos": "v.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "experimental": {
+      "lemma": "experimental",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "实验的；试验性的；根据实验的",
+      "senses": [
+        {
+          "translation": "实验的",
+          "pos": "adj.",
+          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "discuss": {
+      "lemma": "discuss",
+      "pos": "v.",
+      "forms": "discussed, discussing, discusses",
+      "meanings": "讨论；探讨；论述；商量",
+      "senses": [
+        {
+          "translation": "讨论",
+          "pos": "v.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "freely": {
+      "lemma": "freely",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "自由地；不受限制地；坦率地；大量地",
+      "senses": [
+        {
+          "translation": "自由地",
+          "pos": "adv.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "disturbing": {
+      "lemma": "disturb",
+      "pos": "v.",
+      "forms": "disturbed, disturbing, disturbs",
+      "meanings": "打扰；妨碍；使不安；扰乱",
+      "senses": [
+        {
+          "translation": "打扰",
+          "pos": "v.",
+          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "hold": {
+      "lemma": "hold",
+      "pos": "v.",
+      "forms": "holds, holding, held",
+      "meanings": "容纳；握住；举行；保持",
+      "senses": [
+        {
+          "translation": "容纳",
+          "pos": "v.",
+          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "marked": {
+      "lemma": "mark",
+      "pos": "v.",
+      "forms": "marks, marking, marked",
+      "meanings": "标示；做记号；打分；注意到",
+      "senses": [
+        {
+          "translation": "标示",
+          "pos": "v.",
+          "example": "All rooms are marked on the library maps.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "maps": {
+      "lemma": "map",
+      "pos": "n.",
+      "forms": "maps",
+      "meanings": "地图；示意图；计划；映射",
+      "senses": [
+        {
+          "translation": "地图",
+          "pos": "n.",
+          "example": "All rooms are marked on the library maps.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "must": {
+      "lemma": "must",
+      "pos": "modal v.",
+      "forms": "无常见变形",
+      "meanings": "必须；应当；准是；极其重要的事",
+      "senses": [
+        {
+          "translation": "必须",
+          "pos": "modal v.",
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "booked": {
+      "lemma": "book",
+      "pos": "v.",
+      "forms": "books; booked; booking",
+      "meanings": "预订；登记；（警察）记录在案",
+      "senses": [
+        {
+          "translation": "预订",
+          "pos": "v.",
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "via": {
+      "lemma": "via",
+      "pos": "prep.",
+      "forms": "无常见变形",
+      "meanings": "通过；经由；凭借",
+      "senses": [
+        {
+          "translation": "通过",
+          "pos": "prep.",
+          "example": "There are 40 group-study rooms that must be booked via the website.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "active": {
+      "lemma": "active",
+      "pos": "adj.",
+      "forms": "actively; activeness",
+      "meanings": "有效的；活跃的；积极的；主动的",
+      "senses": [
+        {
+          "translation": "有效的",
+          "pos": "adj.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "account": {
+      "lemma": "account",
+      "pos": "n.",
+      "forms": "accounts",
+      "meanings": "账户；说明；账目；重要性",
+      "senses": [
+        {
+          "translation": "账户",
+          "pos": "n.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "valid": {
+      "lemma": "valid",
+      "pos": "adj.",
+      "forms": "invalid (antonym)",
+      "meanings": "有效的；有法律效力的；正当的；合理的",
+      "senses": [
+        {
+          "translation": "有效的",
+          "pos": "adj.",
+          "example": "To book, you need an active University account and a valid University card.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "storage": {
+      "lemma": "storage",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "存储；保管；仓库；储藏量",
+      "senses": [
+        {
+          "translation": "存储",
+          "pos": "n.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "material": {
+      "lemma": "material",
+      "pos": "n.",
+      "forms": "materials",
+      "meanings": "材料；素材；原料；布料",
+      "senses": [
+        {
+          "translation": "学习资料",
+          "pos": "n.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "lockers": {
+      "lemma": "locker",
+      "pos": "n.",
+      "forms": "lockers",
+      "meanings": "储物柜；衣物柜",
+      "senses": [
+        {
+          "translation": "储物柜",
+          "pos": "n.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "store": {
+      "lemma": "store",
+      "pos": "v.",
+      "forms": "stores, stored, storing",
+      "meanings": "储存；收纳；商店；记忆",
+      "senses": [
+        {
+          "translation": "存放",
+          "pos": "v.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "course": {
+      "lemma": "course",
+      "pos": "n.",
+      "forms": "courses",
+      "meanings": "课程；过程；航向；一道菜",
+      "senses": [
+        {
+          "translation": "课程",
+          "pos": "n.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "literature": {
+      "lemma": "literature",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "文献；文学；文选",
+      "senses": [
+        {
+          "translation": "课程文献",
+          "pos": "n.",
+          "example": "Storage of study material\nThe library has lockers for students to store course literature.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "obtained": {
+      "lemma": "obtain",
+      "pos": "v.",
+      "forms": "obtains, obtained, obtaining",
+      "meanings": "获得；得到；达到",
+      "senses": [
+        {
+          "translation": "获得",
+          "pos": "v.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "credits": {
+      "lemma": "credit",
+      "pos": "n.",
+      "forms": "credit",
+      "meanings": "学分；信用；赞扬；存款",
+      "senses": [
+        {
+          "translation": "学分",
+          "pos": "n.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "rent": {
+      "lemma": "rent",
+      "pos": "v.",
+      "forms": "rents, rented, renting",
+      "meanings": "租用；出租；租金",
+      "senses": [
+        {
+          "translation": "租用",
+          "pos": "v.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "locker": {
+      "lemma": "locker",
+      "pos": "n.",
+      "forms": "lockers",
+      "meanings": "储物柜；衣柜",
+      "senses": [
+        {
+          "translation": "储物柜",
+          "pos": "n.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "sek": {
+      "lemma": "SEK",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "瑞典克朗",
+      "senses": [
+        {
+          "translation": "瑞典克朗",
+          "pos": "n.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "year's": {
+      "lemma": "year",
+      "pos": "n.",
+      "forms": "years",
+      "meanings": "年份；一年；年度",
+      "senses": [
+        {
+          "translation": "一年的",
+          "pos": "n.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "rental": {
+      "lemma": "rental",
+      "pos": "adj.",
+      "forms": "rentals",
+      "meanings": "租赁的；租金；租赁物",
+      "senses": [
+        {
+          "translation": "租赁的",
+          "pos": "adj.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "period": {
+      "lemma": "period",
+      "pos": "n.",
+      "forms": "periods",
+      "meanings": "期间；阶段；课时；句号",
+      "senses": [
+        {
+          "translation": "期间",
+          "pos": "n.",
+          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "rules": {
+      "lemma": "rule",
+      "pos": "n.",
+      "forms": "rules, ruled, ruling",
+      "meanings": "规则；章程；规定；统治；支配",
+      "senses": [
+        {
+          "translation": "规则",
+          "pos": "n.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "mobile": {
+      "lemma": "mobile",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "移动的；机动的；易变的；流动的",
+      "senses": [
+        {
+          "translation": "移动（通信）的",
+          "pos": "adj.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "phone": {
+      "lemma": "phone",
+      "pos": "n.",
+      "forms": "phones, phoned, phoning",
+      "meanings": "电话；手机；给……打电话",
+      "senses": [
+        {
+          "translation": "手机",
+          "pos": "n.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "手机",
+          "pos": "n.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "conversations": {
+      "lemma": "conversation",
+      "pos": "n.",
+      "forms": "conversations",
+      "meanings": "交谈；谈话；会话",
+      "senses": [
+        {
+          "translation": "交谈",
+          "pos": "n.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "permitted": {
+      "lemma": "permit",
+      "pos": "v.",
+      "forms": "permits, permitted, permitting",
+      "meanings": "允许；准许；许可证；执照",
+      "senses": [
+        {
+          "translation": "允许",
+          "pos": "v.",
+          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "keep": {
+      "lemma": "keep",
+      "pos": "v.",
+      "forms": "keeps, kept, keeping",
+      "meanings": "保持；维持；继续；保存",
+      "senses": [
+        {
+          "translation": "保持",
+          "pos": "v.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "lecture": {
+      "lemma": "lecture",
+      "pos": "n.",
+      "forms": "lectures, lectured, lecturing",
+      "meanings": "讲座；演讲；讲课；教训",
+      "senses": [
+        {
+          "translation": "讲座",
+          "pos": "n.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "exit": {
+      "lemma": "exit",
+      "pos": "v.",
+      "forms": "exited, exiting, exits",
+      "meanings": "离开；退场；出口；通道",
+      "senses": [
+        {
+          "translation": "离开",
+          "pos": "v.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "calls": {
+      "lemma": "call",
+      "pos": "n.",
+      "forms": "calls, called, calling",
+      "meanings": "电话；喊叫；访问；要求",
+      "senses": [
+        {
+          "translation": "电话",
+          "pos": "n.",
+          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "please": {
+      "lemma": "please",
+      "pos": "adv.",
+      "forms": "pleased, pleasing, pleases",
+      "meanings": "请；使高兴；使满意；喜欢",
+      "senses": [
+        {
+          "translation": "请",
+          "pos": "adv.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "note": {
+      "lemma": "note",
+      "pos": "v.",
+      "forms": "notes, noted, noting",
+      "meanings": "注意；记录；笔记；纸币",
+      "senses": [
+        {
+          "translation": "注意",
+          "pos": "v.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "fruit": {
+      "lemma": "fruit",
+      "pos": "n.",
+      "forms": "fruits",
+      "meanings": "水果；成果；收益；结果",
+      "senses": [
+        {
+          "translation": "水果",
+          "pos": "n.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "forbidden": {
+      "lemma": "forbid",
+      "pos": "adj.",
+      "forms": "forbade, forbidden, forbidding, forbids",
+      "meanings": "被禁止的；严禁的；妨碍的",
+      "senses": [
+        {
+          "translation": "被禁止的",
+          "pos": "adj.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "drinks": {
+      "lemma": "drink",
+      "pos": "n.",
+      "forms": "drink, drinks, drank, drunk, drinking",
+      "meanings": "饮料；酒；喝酒；喝",
+      "senses": [
+        {
+          "translation": "饮料",
+          "pos": "n.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
+    },
+    "sweets": {
+      "lemma": "sweet",
+      "pos": "n.",
+      "forms": "sweet, sweets",
+      "meanings": "糖果；甜点；亲爱的；甜的",
+      "senses": [
+        {
+          "translation": "糖果",
+          "pos": "n.",
+          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
+          "sourceArticleId": "web-f335b4849447798b"
+        }
+      ],
+      "articleIds": [
+        "web-f335b4849447798b"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T12:25:35.076Z"
     }
   }
 }
