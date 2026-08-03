@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T14:12:20.998Z",
+  "generatedAt": "2026-08-03T14:19:45.954Z",
   "words": {
     "on": {
       "lemma": "on",
@@ -8,24 +8,6 @@
       "forms": "无常见变形",
       "meanings": "关于；在……之上；在（某一天）；继续；在（时间）",
       "senses": [
-        {
-          "translation": "在……上",
-          "pos": "prep.",
-          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "在……上",
-          "pos": "prep.",
-          "example": "All rooms are marked on the library maps.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "处于（某种状态）",
-          "pos": "prep.",
-          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
         {
           "translation": "关于（与call连用构成固定短语）",
           "pos": "prep.",
@@ -79,6 +61,24 @@
           "pos": "prep.",
           "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "专注于",
+          "pos": "prep.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "基于",
+          "pos": "prep.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "在……地点",
+          "pos": "prep.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -99,10 +99,11 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 18,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 19,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "web": {
       "lemma": "web",
@@ -185,14 +186,21 @@
           "pos": "prep.",
           "example": "She and her husband,Bill,walked 2,400 miles across it.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "遍及",
+          "pos": "prep.",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "the": {
       "lemma": "the",
@@ -200,66 +208,6 @@
       "forms": "无常见变形",
       "meanings": "这；那；（用于特指）；（用于最高级前）",
       "senses": [
-        {
-          "translation": "那个",
-          "pos": "art.",
-          "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "那",
-          "pos": "art.",
-          "example": "During the past week two things happened.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "那",
-          "pos": "art.",
-          "example": "The second thing that reminded me to look at perspective was reading a book.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "（专有名词前）",
-          "pos": "art.",
-          "example": "The Mitford Series is so good if you are looking for books to read.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "那",
-          "pos": "art.",
-          "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "那些",
-          "pos": "art.",
-          "example": "But seriously, who in their right mind says thanks for the financial problems I have?",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "这",
-          "pos": "art.",
-          "example": "The very first step you need to complete is to have a product or service idea.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "那",
-          "pos": "art.",
-          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "这",
-          "pos": "art.",
-          "example": "The site itself doesn't have to be anything special.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "那",
-          "pos": "art.",
-          "example": "The final step for starting your business online is to have a way to make money.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
         {
           "translation": "那",
           "pos": "art.",
@@ -271,6 +219,66 @@
           "pos": "art.",
           "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "（特指）",
+          "pos": "art",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "（特指）",
+          "pos": "art",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "（特指）",
+          "pos": "art",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "（特指）",
+          "pos": "art",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "（特指）",
+          "pos": "art",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "（特指）",
+          "pos": "art",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "（特指）",
+          "pos": "art",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "（特指）",
+          "pos": "art",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "（特指）",
+          "pos": "art",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "（特指）",
+          "pos": "art",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -295,10 +303,11 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 22,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 23,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "internet": {
       "lemma": "internet",
@@ -391,12 +400,6 @@
         {
           "translation": "人们",
           "pos": "n.",
-          "example": "But today,many people believe they can save money by living in the city.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "人们",
-          "pos": "n.",
           "example": "\"\n Ralph Buehler says governments save money when people use bicycles.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
         },
@@ -459,6 +462,12 @@
           "pos": "n.",
           "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "人们",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -472,10 +481,11 @@
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "can": {
       "lemma": "can",
@@ -609,42 +619,6 @@
       "meanings": "一个；每一；任何；一种；同一",
       "senses": [
         {
-          "translation": "一种",
-          "pos": "art.",
-          "example": "He stated that when we take our eyes off ourselves and realize God's greatness, our circumstances will be seen through a new perspective.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "一本",
-          "pos": "art.",
-          "example": "The second thing that reminded me to look at perspective was reading a book.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "一位",
-          "pos": "art.",
-          "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "一次",
-          "pos": "art.",
-          "example": "It is easy to give thanks when we receive a blessing.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "In order to start a business online now, there are a few steps you need to complete.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "The very first step you need to complete is to have a product or service idea.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
           "translation": "一个",
           "pos": "art.",
           "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
@@ -679,6 +653,42 @@
           "pos": "art.",
           "example": "That's how easy it is to start a business online now.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "一场",
+          "pos": "art.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "一部",
+          "pos": "art.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "一部",
+          "pos": "art.",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "一位",
+          "pos": "art.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "一名",
+          "pos": "art.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -703,10 +713,11 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 22,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 23,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "variety": {
       "lemma": "variety",
@@ -733,24 +744,6 @@
       "forms": "无常见变形",
       "meanings": "……的；关于；属于；由……组成；（表示数量或部分）",
       "senses": [
-        {
-          "translation": "关于，含有……内容的",
-          "pos": "prep.",
-          "example": "What if my father had played videos of athletes for my brother to watch and imitate?",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "He stirred Maggie's anger, however, so that she often said to her husband, \"It's mercy that brother of yours doesn't come oftener.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
         {
           "translation": "……的",
           "pos": "prep.",
@@ -804,6 +797,24 @@
           "pos": "prep.",
           "example": "Your merchant account should accept as many forms of payment as possible.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -828,10 +839,11 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 22,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 23,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "information": {
       "lemma": "information",
@@ -912,12 +924,6 @@
         {
           "translation": "关于",
           "pos": "prep.",
-          "example": "Now I don't feel so good about T.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "关于",
-          "pos": "prep.",
           "example": "Cultural Understanding   Learning a language is not only about learning words.",
           "sourceArticleId": "web-52737a111ab04db4"
         },
@@ -980,6 +986,12 @@
           "pos": "prep.",
           "example": "They could not forget that he had, in their mother's words, \"lost two wives and taken a third, \" They wondered about those two unfortunate lost ladies.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "关于",
+          "pos": "prep.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -994,10 +1006,11 @@
         "web-f328bfb9843d2dfa",
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 12,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 13,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "you": {
       "lemma": "you",
@@ -1139,12 +1152,6 @@
       "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
       "senses": [
         {
-          "translation": "在……（时间点）",
-          "pos": "prep.",
-          "example": "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
           "translation": "用（方式）",
           "pos": "prep.",
           "example": "Maggie paid him back in her own way.",
@@ -1209,6 +1216,12 @@
           "pos": "prep.",
           "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -1232,10 +1245,11 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 21,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 22,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "your": {
       "lemma": "your",
@@ -1363,34 +1377,10 @@
     },
     "to": {
       "lemma": "to",
-      "pos": "particle",
+      "pos": "prep.",
       "forms": "无常见变形",
       "meanings": "向；给；到；构成不定式；对于",
       "senses": [
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "In order to start a business online now, there are a few steps you need to complete.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "The very first step you need to complete is to have a product or service idea.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
         {
           "translation": "构成不定式",
           "pos": "particle",
@@ -1438,6 +1428,30 @@
           "pos": "particle",
           "example": "That's how easy it is to start a business online now.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "到",
+          "pos": "prep.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "到",
+          "pos": "prep.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "给",
+          "pos": "prep.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -1462,10 +1476,11 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 22,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 23,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "be": {
       "lemma": "be",
@@ -1473,18 +1488,6 @@
       "forms": "am, is, are, was, were, being, been",
       "meanings": "是；位于；成为；（构成进行时或被动语态）",
       "senses": [
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Bob today could be the fittest 58-year-old on the planet.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "成为",
-          "pos": "v.",
-          "example": "He sometimes jokes he could be mayor of his building, and it's true.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
         {
           "translation": "被（构成被动语态）",
           "pos": "v.",
@@ -1544,6 +1547,18 @@
           "pos": "v.",
           "example": "Very soon you will be making money online.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "被（构成被动语态）",
+          "pos": "v.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "位于",
+          "pos": "v.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -1562,10 +1577,11 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 16,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 17,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "aware": {
       "lemma": "aware",
@@ -1722,42 +1738,6 @@
         {
           "translation": "和",
           "pos": "conj.",
-          "example": "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "然后",
-          "pos": "conj.",
-          "example": "He stated that when we take our eyes off ourselves and realize God's greatness, our circumstances will be seen through a new perspective.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
           "example": "You will need to buy a domain name   and host  it with a company on the Web.",
           "sourceArticleId": "web-7504f64bec4e74a7"
         },
@@ -1790,6 +1770,42 @@
           "pos": "conj.",
           "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "和",
+          "pos": "conj",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "和",
+          "pos": "conj",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "和",
+          "pos": "conj",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "和",
+          "pos": "conj",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "和",
+          "pos": "conj",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "和",
+          "pos": "conj",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -1814,10 +1830,11 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 22,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 23,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "take": {
       "lemma": "take",
@@ -2245,12 +2262,6 @@
         {
           "translation": "第一",
           "pos": "adj.",
-          "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
-          "sourceArticleId": "web-ffeb0429c5817c0f"
-        },
-        {
-          "translation": "第一",
-          "pos": "adj.",
           "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
         },
@@ -2313,6 +2324,12 @@
           "pos": "adj.",
           "example": "The very first step you need to complete is to have a product or service idea.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "第一",
+          "pos": "adj.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -2324,10 +2341,11 @@
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
         "web-14515232ae2b45c0",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "step": {
       "lemma": "step",
@@ -2511,12 +2529,6 @@
         {
           "translation": "是",
           "pos": "v.",
-          "example": "How is it that Jeremy Lin's immigrant father in particular, Gie-Ming Lin, encouraged his son to follow such an untraditional path?",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
           "example": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
         },
@@ -2579,6 +2591,12 @@
           "pos": "v.",
           "example": "That's how easy it is to start a business online now.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -2599,10 +2617,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 18,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 19,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "find": {
       "lemma": "find",
@@ -2996,9 +3015,9 @@
     },
     "play": {
       "lemma": "play",
-      "pos": "n.",
+      "pos": "v.",
       "forms": "plays, playing, played",
-      "meanings": "戏剧；游戏；演奏；播放",
+      "meanings": "玩耍；参加（比赛）；演奏（乐器）；戏剧；播放",
       "senses": [
         {
           "translation": "进行",
@@ -3017,14 +3036,27 @@
           "pos": "n.",
           "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "玩耍",
+          "pos": "v.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "戏剧",
+          "pos": "n.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "name": {
       "lemma": "name",
@@ -3167,24 +3199,6 @@
       "meanings": "通过；被；凭借；在……旁边；逐……地",
       "senses": [
         {
-          "translation": "通过",
-          "pos": "prep.",
-          "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "通过",
-          "pos": "prep.",
-          "example": "But today,many people believe they can save money by living in the city.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "通过",
-          "pos": "prep.",
-          "example": "The United States Census Bureau says 4%of the city's workers ride to work by bike.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
           "translation": "被",
           "pos": "prep.",
           "example": "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.",
@@ -3237,6 +3251,24 @@
           "pos": "prep.",
           "example": "He always went home by the last train, just after two o'clock.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "由……创作",
+          "pos": "prep.",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "被",
+          "pos": "prep.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "在……之前",
+          "pos": "prep.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -3253,10 +3285,11 @@
         "web-a0a23c816fc997da",
         "web-59b629f92c1e91fb",
         "web-0ada4954aa4da897",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "typing": {
       "lemma": "type",
@@ -3723,18 +3756,6 @@
       "meanings": "有；是；在；等于；位于",
       "senses": [
         {
-          "translation": "有",
-          "pos": "v.",
-          "example": "There are 40 group-study rooms that must be booked via the website.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "被",
-          "pos": "v.",
-          "example": "Rules to be followed\nMobile phone conversations are not permitted anywhere in the library.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
           "translation": "是",
           "pos": "v.",
           "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
@@ -3793,6 +3814,18 @@
           "pos": "v.",
           "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "被",
+          "pos": "v.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -3806,10 +3839,11 @@
         "web-59b629f92c1e91fb",
         "web-9164814709a91049",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "mentioned": {
       "lemma": "mention",
@@ -4539,16 +4573,10 @@
     },
     "as": {
       "lemma": "as",
-      "pos": "adv./conj.",
+      "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "像……一样；作为；当……时；正如；因为",
+      "meanings": "像……一样；作为；当……时；正如；因为；例如",
       "senses": [
-        {
-          "translation": "作为",
-          "pos": "prep.",
-          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
         {
           "translation": "正如",
           "pos": "conj.",
@@ -4614,6 +4642,12 @@
           "pos": "adv.",
           "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "例如",
+          "pos": "prep.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -4630,10 +4664,11 @@
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
         "web-14515232ae2b45c0",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "phrase": {
       "lemma": "phrase",
@@ -5423,12 +5458,6 @@
       "meanings": "有；经历；吃；（完成时态助动词）",
       "senses": [
         {
-          "translation": "携带/持有",
-          "pos": "v.",
-          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
           "translation": "已经（构成完成时态）",
           "pos": "aux.",
           "example": "\"\nAstronomers--scientists who study stars and planets--have been complaining about this problem for decades.",
@@ -5493,6 +5522,12 @@
           "pos": "v.",
           "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "（完成时态助动词）",
+          "pos": "aux.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -5511,10 +5546,11 @@
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 16,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 17,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "ever": {
       "lemma": "ever",
@@ -6418,12 +6454,6 @@
         {
           "translation": "……的人",
           "pos": "pron.",
-          "example": "He was the only person among the 200 researchers Jack wrote to who showed interest in his project.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "……的人",
-          "pos": "pron.",
           "example": "\"I was very surprised that this was a 15-year-old who was writing this.",
           "sourceArticleId": "web-6889075584252ffd"
         },
@@ -6486,6 +6516,12 @@
           "pos": "pron.",
           "example": "But seriously, who in their right mind says thanks for the financial problems I have?",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "……的人",
+          "pos": "pron.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -6498,10 +6534,11 @@
         "web-a0a23c816fc997da",
         "web-59b629f92c1e91fb",
         "web-0ada4954aa4da897",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "share": {
       "lemma": "share",
@@ -6897,18 +6934,6 @@
       "meanings": "为了；支持；因为；给；持续（一段时间）",
       "senses": [
         {
-          "translation": "供",
-          "pos": "prep.",
-          "example": "What if my father had played videos of athletes for my brother to watch and imitate?",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "持续（一段时间）",
-          "pos": "prep.",
-          "example": "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
           "translation": "为了",
           "pos": "prep.",
           "example": "He took no notice of them, as if he was unable to see children, at least until the time came for him to go.",
@@ -6967,6 +6992,18 @@
           "pos": "prep.",
           "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "为了",
+          "pos": "prep.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "对于；关于",
+          "pos": "prep.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -6989,10 +7026,11 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 20,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 21,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "city": {
       "lemma": "city",
@@ -7739,12 +7777,6 @@
       "meanings": "从；来自；因为；由于；起始",
       "senses": [
         {
-          "translation": "从",
-          "pos": "prep.",
-          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
           "translation": "与……不同",
           "pos": "prep.",
           "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
@@ -7809,6 +7841,12 @@
           "pos": "prep.",
           "example": "But last week I opened an email from UBC that contained the words \"regrets\", no interview.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "从",
+          "pos": "prep.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -7827,10 +7865,11 @@
         "web-59b629f92c1e91fb",
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 16,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 17,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "time": {
       "lemma": "time",
@@ -7838,12 +7877,6 @@
       "forms": "times",
       "meanings": "时间；时代；次数；倍数；一段时间",
       "senses": [
-        {
-          "translation": "时间",
-          "pos": "n.",
-          "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
         {
           "translation": "时间",
           "pos": "n.",
@@ -7909,6 +7942,12 @@
           "pos": "n.",
           "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "时间",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -7921,10 +7960,11 @@
         "web-f328bfb9843d2dfa",
         "web-a0a23c816fc997da",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "they": {
       "lemma": "they",
@@ -7932,12 +7972,6 @@
       "forms": "their, theirs, them, themselves",
       "meanings": "他们；她们；它们；人；大家",
       "senses": [
-        {
-          "translation": "他们",
-          "pos": "pron.",
-          "example": "What they found instead was a sky so brightened by the city's lights that it darkened the light of the meteors passing overhead.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
         {
           "translation": "他们",
           "pos": "pron.",
@@ -8003,6 +8037,12 @@
           "pos": "pron.",
           "example": "They asked each other what their fate had been, and if neither could ever be found again.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -8020,16 +8060,17 @@
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 15,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 16,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "writing": {
       "lemma": "write",
       "pos": "n.",
       "forms": "writes, wrote, written, writing",
-      "meanings": "书面语；写作；文章；字迹",
+      "meanings": "写作；书面语；文章；字迹",
       "senses": [
         {
           "translation": "写",
@@ -8054,16 +8095,23 @@
           "pos": "n.",
           "example": "He also gave good sentences to show how each word was actually used in speech and in writing.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "写作",
+          "pos": "n.",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "posting": {
       "lemma": "post",
@@ -8172,13 +8220,20 @@
           "pos": "v.",
           "example": "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "被提供",
+          "pos": "v.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "some": {
       "lemma": "some",
@@ -8814,18 +8869,6 @@
         {
           "translation": "在",
           "pos": "prep.",
-          "example": "You can use a room three hours per day, nine hours at most per week.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "在……至少",
-          "pos": "prep.",
-          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
           "example": "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.",
           "sourceArticleId": "web-59b629f92c1e91fb"
         },
@@ -8882,6 +8925,18 @@
           "pos": "prep.",
           "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "在",
+          "pos": "prep.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "以",
+          "pos": "prep.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -8901,10 +8956,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 17,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 18,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "young": {
       "lemma": "young",
@@ -9319,12 +9375,6 @@
       "meanings": "与……一起；使用；带有；由于；关于",
       "senses": [
         {
-          "translation": "带有",
-          "pos": "prep.",
-          "example": "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
           "translation": "和……一起",
           "pos": "prep.",
           "example": "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.",
@@ -9389,6 +9439,12 @@
           "pos": "prep.",
           "example": "You will need to buy a domain name   and host  it with a company on the Web.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "带有",
+          "pos": "prep.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -9410,23 +9466,18 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 19,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 20,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "this": {
       "lemma": "this",
       "pos": "det.",
       "forms": "these",
-      "meanings": "这；这个；这种情况；此；现在",
+      "meanings": "这；这个；这种情况；此",
       "senses": [
-        {
-          "translation": "这（指代前文所述的严重问题）",
-          "pos": "pron.",
-          "example": "\"\nAstronomers--scientists who study stars and planets--have been complaining about this problem for decades.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
         {
           "translation": "这个",
           "pos": "det.",
@@ -9492,6 +9543,12 @@
           "pos": "det.",
           "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "这（门课程）",
+          "pos": "det.",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -9508,10 +9565,11 @@
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "mindset": {
       "lemma": "mindset",
@@ -10718,26 +10776,8 @@
       "lemma": "school",
       "pos": "n.",
       "forms": "schools",
-      "meanings": "学校；学院；上学；学派",
+      "meanings": "学校；学院；上学；学派；教育",
       "senses": [
-        {
-          "translation": "学校",
-          "pos": "n.",
-          "example": "Parents,staff and community members continue to be in awe of what she is able to bring forth from the children,\"said Debra Rose Howell,a colleague of Peterson's at Monte Crisco Elementary School.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "学校",
-          "pos": "n.",
-          "example": "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "学校",
-          "pos": "n.",
-          "example": "It is the largest high school science competition in the world.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
         {
           "translation": "学校",
           "pos": "n.",
@@ -10791,6 +10831,24 @@
           "pos": "n.",
           "example": "I didn't get an interview to medical school, thus will not be entering school for September 2009.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "学校",
+          "pos": "n.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "学校",
+          "pos": "n.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "学校",
+          "pos": "adj.",
+          "example": "*Free school bus service available",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -10800,10 +10858,11 @@
         "web-52737a111ab04db4",
         "web-83aed36829bb66d0",
         "web-0ada4954aa4da897",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "levels": {
       "lemma": "level",
@@ -11089,24 +11148,6 @@
         {
           "translation": "学生",
           "pos": "n.",
-          "example": "\"Music is an amazing tool to unlock students' potential.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "学生",
-          "pos": "n.",
-          "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "学生",
-          "pos": "n.",
-          "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "学生",
-          "pos": "n.",
           "example": "On the site,she shared her adventures in order to inspire students.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
         },
@@ -11157,6 +11198,24 @@
           "pos": "n.",
           "example": "Storage of study material\nThe library has lockers for students to store course literature.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "学生",
+          "pos": "n.",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "学生",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "学生",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -11165,10 +11224,11 @@
         "web-6889075584252ffd",
         "web-52737a111ab04db4",
         "web-83aed36829bb66d0",
-        "web-f335b4849447798b"
+        "web-f335b4849447798b",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "participate": {
       "lemma": "participate",
@@ -11398,13 +11458,20 @@
           "pos": "n.",
           "example": "It is truly exciting to see how my music teaching can transfer to other classrooms.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "教学",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "part": {
       "lemma": "part",
@@ -11789,12 +11856,6 @@
         {
           "translation": "他们的",
           "pos": "pron.",
-          "example": "But nevertheless, as they began to grow, I became their friend.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "他们的",
-          "pos": "pron.",
           "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
           "sourceArticleId": "web-a0a23c816fc997da"
         },
@@ -11857,6 +11918,12 @@
           "pos": "pron.",
           "example": "But seriously, who in their right mind says thanks for the financial problems I have?",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "他们的",
+          "pos": "pron.",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -11871,10 +11938,11 @@
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 12,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 13,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "success": {
       "lemma": "success",
@@ -12626,13 +12694,20 @@
           "pos": "v.",
           "example": "\" With this philosophy,Peterson introduced a crosscurriculum program,wherein she takes lessons taught in other classes,such as English and math,and expands upon them in an eightweek unit.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "讲授",
+          "pos": "v.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "classes": {
       "lemma": "class",
@@ -12657,14 +12732,21 @@
           "pos": "n.",
           "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "课堂",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "such": {
       "lemma": "such",
@@ -12707,6 +12789,12 @@
           "pos": "det.",
           "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "例如",
+          "pos": "det.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -12715,16 +12803,17 @@
         "web-f335b4849447798b",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "english": {
-      "lemma": "English",
+      "lemma": "english",
       "pos": "n.",
       "forms": "无常见变形",
-      "meanings": "英语；英国人",
+      "meanings": "英语；英国人；英语学科",
       "senses": [
         {
           "translation": "英语",
@@ -12773,15 +12862,34 @@
           "pos": "n.",
           "example": "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "英语",
+          "pos": "n",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "英语",
+          "pos": "n",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "英语",
+          "pos": "n",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-52737a111ab04db4",
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "math": {
       "lemma": "math",
@@ -13217,15 +13325,22 @@
           "pos": "v.",
           "example": "The Mitford Series is so good if you are looking for books to read.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "阅读",
+          "pos": "v.",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-91480225d160a6b6",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "another": {
       "lemma": "another",
@@ -13278,7 +13393,7 @@
       "lemma": "class",
       "pos": "n.",
       "forms": "classes",
-      "meanings": "课程；班级；等级；阶级",
+      "meanings": "班级；课程；阶级；种类",
       "senses": [
         {
           "translation": "班级",
@@ -13303,15 +13418,34 @@
           "pos": "n.",
           "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "班级规模",
+          "pos": "n.",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "班级规模",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "班级规模",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-2e315a8a858c375d",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "work": {
       "lemma": "work",
@@ -13482,14 +13616,21 @@
           "pos": "adj.",
           "example": "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "最好的",
+          "pos": "adj.",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "fits": {
       "lemma": "fit",
@@ -13667,13 +13808,20 @@
           "pos": "v.",
           "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "表演",
+          "pos": "v.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "greater": {
       "lemma": "great",
@@ -13767,6 +13915,18 @@
           "pos": "prep.",
           "example": "He stated that when we take our eyes off ourselves and realize God's greatness, our circumstances will be seen through a new perspective.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "通过",
+          "pos": "prep",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "通过",
+          "pos": "prep",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -13774,10 +13934,11 @@
         "web-ffeb0429c5817c0f",
         "web-59b629f92c1e91fb",
         "web-0ada4954aa4da897",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "andrea's": {
       "lemma": "Andrea",
@@ -14142,56 +14303,8 @@
       "lemma": "child",
       "pos": "n.",
       "forms": "children, child's, children's",
-      "meanings": "孩子；子女；儿童；产物",
+      "meanings": "孩子；儿童；子女；产物",
       "senses": [
-        {
-          "translation": "孩子",
-          "pos": "n.",
-          "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "孩子",
-          "pos": "n.",
-          "example": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "儿童",
-          "pos": "n.",
-          "example": "The children were in tears as they waved me goodbye.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "孩子",
-          "pos": "n.",
-          "example": "We were going to raise our children, travel the world, and grow old together.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "孩子",
-          "pos": "n.",
-          "example": "I don't know if I can do all this alone--two children, no father.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "孩子",
-          "pos": "n.",
-          "example": "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "孩子们",
-          "pos": "n.",
-          "example": "So far as the children were concerned, they had a mystery about him that stirred their imagination.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "孩子们",
-          "pos": "n.",
-          "example": "His arrival was a signal to the children that their bedtime would be delayed.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
         {
           "translation": "孩子们",
           "pos": "n.",
@@ -14215,6 +14328,54 @@
           "pos": "n.",
           "example": "The children decided that he must be so frightened of losing her that he never allowed her outside the door.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "儿童",
+          "pos": "n",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "儿童",
+          "pos": "n",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "儿童",
+          "pos": "n",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "儿童",
+          "pos": "n",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "儿童",
+          "pos": "n",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "儿童",
+          "pos": "n",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "儿童",
+          "pos": "n",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "儿童",
+          "pos": "n",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -14222,10 +14383,11 @@
         "web-eecaaca1e069e103",
         "web-f328bfb9843d2dfa",
         "web-f39e7f5b1b236779",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "debra": {
       "lemma": "Debra",
@@ -14867,6 +15029,12 @@
           "pos": "v.",
           "example": "You can either do this yourself or you can pay someone else to do this.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "做",
+          "pos": "v.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -14877,10 +15045,11 @@
         "web-a0a23c816fc997da",
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "became": {
       "lemma": "become",
@@ -15317,12 +15486,6 @@
         {
           "translation": "没有",
           "pos": "det.",
-          "example": "You have little or no opportunity to escape the English language.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "没有",
-          "pos": "det.",
           "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
           "sourceArticleId": "web-eecaaca1e069e103"
         },
@@ -15385,6 +15548,12 @@
           "pos": "det.",
           "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "没有",
+          "pos": "det.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -15397,10 +15566,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "brought": {
       "lemma": "bring",
@@ -15911,15 +16081,22 @@
           "pos": "n.",
           "example": "I took long naps in the sun waiting for you to come home at the end of the day.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "末尾",
+          "pos": "n.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-09421cfd6a2c44ad",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "forceful": {
       "lemma": "forceful",
@@ -16044,6 +16221,30 @@
           "pos": "n.",
           "example": "During the past week two things happened.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "周",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "周",
+          "pos": "n.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "周",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "周",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -16051,10 +16252,11 @@
         "web-a41ebe4e54718747",
         "web-52737a111ab04db4",
         "web-f335b4849447798b",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "handful": {
       "lemma": "handful",
@@ -16258,6 +16460,12 @@
           "pos": "n.",
           "example": "You can use a room three hours per day, nine hours at most per week.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "天",
+          "pos": "n.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -16266,10 +16474,11 @@
         "web-2e315a8a858c375d",
         "web-f328bfb9843d2dfa",
         "web-a0a23c816fc997da",
-        "web-f335b4849447798b"
+        "web-f335b4849447798b",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "goes": {
       "lemma": "go",
@@ -16769,8 +16978,8 @@
     "site": {
       "lemma": "site",
       "pos": "n.",
-      "forms": "sites",
-      "meanings": "网站；地点；场所；遗址",
+      "forms": "sites, siting, sited",
+      "meanings": "地点；现场；场所；遗址；网站",
       "senses": [
         {
           "translation": "网站",
@@ -16795,14 +17004,21 @@
           "pos": "n.",
           "example": "Once your site is up and running, you can begin advertising the site.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "现场",
+          "pos": "n.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "shared": {
       "lemma": "share",
@@ -17043,6 +17259,12 @@
           "pos": "n.",
           "example": "My dream in life is to become a doctor, one who changes the world.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "世界",
+          "pos": "n.",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -17054,10 +17276,11 @@
         "web-a0a23c816fc997da",
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "negative": {
       "lemma": "negative",
@@ -18298,9 +18521,9 @@
     },
     "study": {
       "lemma": "study",
-      "pos": "v.",
+      "pos": "n.",
       "forms": "studies, studying, studied",
-      "meanings": "研究；学习；细看；书房；自习",
+      "meanings": "学习；研究；细看；书房；自习",
       "senses": [
         {
           "translation": "研究",
@@ -18361,6 +18584,12 @@
           "pos": "v.",
           "example": "\"\nAstronomers--scientists who study stars and planets--have been complaining about this problem for decades.",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "学习",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -18368,10 +18597,11 @@
         "web-a41ebe4e54718747",
         "web-52737a111ab04db4",
         "web-f335b4849447798b",
-        "web-59b629f92c1e91fb"
+        "web-59b629f92c1e91fb",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "pandas": {
       "lemma": "panda",
@@ -20395,13 +20625,32 @@
           "pos": "n.",
           "example": "Books, lessons, learning aids---even professional-quality tools and equipment --- everything you need to master your training and move ahead to a new career is included in the low tuition   price you pay.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "价格",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "价格",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "价格",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "pay": {
       "lemma": "pay",
@@ -20940,42 +21189,6 @@
         {
           "translation": "将要",
           "pos": "modal v.",
-          "example": "Individual school districts will have to decide for themselves.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "会",
-          "pos": "modal v.",
-          "example": "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "将要",
-          "pos": "modal v.",
-          "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "将会",
-          "pos": "modal v.",
-          "example": "You filled out the paperwork and said, \"I know you will find a good home for her\".",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "将会",
-          "pos": "modal v.",
-          "example": "My beloved master, I will think of you and wait for you forever.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "将要",
-          "pos": "modal v.",
-          "example": "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "将要",
-          "pos": "modal v.",
           "example": "I didn't get an interview to medical school, thus will not be entering school for September 2009.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
         },
@@ -21008,6 +21221,42 @@
           "pos": "modal v.",
           "example": "Very soon you will be making money online.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "将要",
+          "pos": "modal v.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "将要",
+          "pos": "modal v.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "将要",
+          "pos": "modal v.",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "将要",
+          "pos": "modal v.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "将要",
+          "pos": "modal v.",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "将要",
+          "pos": "modal v.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -21019,10 +21268,11 @@
         "web-f328bfb9843d2dfa",
         "web-f39e7f5b1b236779",
         "web-b08fa6a6e65a8840",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "earn": {
       "lemma": "earn",
@@ -21276,13 +21526,26 @@
           "pos": "n.",
           "example": "Even if you have no experience before, you can get valuable job skills in today's hottest fields!",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "技能",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "技能",
+          "pos": "n.",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "hottest": {
       "lemma": "hot",
@@ -21568,15 +21831,22 @@
           "pos": "adj.",
           "example": "School administrators point out that the texts may be free online, but students need a way to access them.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "免费的",
+          "pos": "adj.",
+          "example": "*Free school bus service available",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
         "web-91480225d160a6b6",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "simply": {
       "lemma": "simply",
@@ -21724,14 +21994,21 @@
           "pos": "v.",
           "example": "The foundation paid teachers and other education professionals to write and edit them.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "创作",
+          "pos": "v.",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "number": {
       "lemma": "number",
@@ -22506,7 +22783,7 @@
       "lemma": "international",
       "pos": "adj.",
       "forms": "无常见变形",
-      "meanings": "国际的；跨国的；国际性的",
+      "meanings": "国际的；跨国的；国际性的；国际组织",
       "senses": [
         {
           "translation": "国际的",
@@ -22519,14 +22796,21 @@
           "pos": "adj.",
           "example": "According to the International Dark-Sky Association, \"100 million birds a year throughout North America die in crashes with lighted buildings and towers.",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "国际的",
+          "pos": "adj.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-59b629f92c1e91fb"
+        "web-59b629f92c1e91fb",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "fair": {
       "lemma": "fair",
@@ -22997,14 +23281,27 @@
           "pos": "v.",
           "example": "By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "了解",
+          "pos": "v.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "学习",
+          "pos": "v.",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "after": {
       "lemma": "after",
@@ -24939,6 +25236,12 @@
           "pos": "adv.",
           "example": "Very soon you will be making money online.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "非常",
+          "pos": "adv.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -24949,10 +25252,11 @@
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
         "web-14515232ae2b45c0",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "surprised": {
       "lemma": "surprise",
@@ -24979,12 +25283,6 @@
       "forms": "years",
       "meanings": "年；年份；年龄；年度",
       "senses": [
-        {
-          "translation": "年",
-          "pos": "n.",
-          "example": "\"I was very surprised that this was a 15-year-old who was writing this.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
         {
           "translation": "年",
           "pos": "n.",
@@ -25038,6 +25336,24 @@
           "pos": "n.",
           "example": "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "岁",
+          "pos": "n.",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "岁",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "岁",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
@@ -25048,10 +25364,11 @@
         "web-59b629f92c1e91fb",
         "web-9164814709a91049",
         "web-0ada4954aa4da897",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "old": {
       "lemma": "old",
@@ -26828,14 +27145,27 @@
           "pos": "n.",
           "example": "And yet my family never watched his lacrosse games.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "游戏",
+          "pos": "n.",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "游戏",
+          "pos": "n.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-91480225d160a6b6",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "rooms": {
       "lemma": "room",
@@ -26961,7 +27291,7 @@
     "service": {
       "lemma": "service",
       "pos": "n.",
-      "forms": "services",
+      "forms": "services, servicing, serviced",
       "meanings": "服务；服役；公共设施；维修",
       "senses": [
         {
@@ -26975,14 +27305,21 @@
           "pos": "n.",
           "example": "The very first step you need to complete is to have a product or service idea.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "服务",
+          "pos": "n.",
+          "example": "*Free school bus service available",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-91480225d160a6b6",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "banking": {
       "lemma": "banking",
@@ -27764,14 +28101,27 @@
           "pos": "det.",
           "example": "He could never sit still when he was in second grade; he had to get up every now and then and run around the room.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "每一",
+          "pos": "det.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "每一",
+          "pos": "det.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-2e315a8a858c375d",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "riddle": {
       "lemma": "riddle",
@@ -28534,14 +28884,21 @@
           "pos": "n.",
           "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "食物",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-2e315a8a858c375d",
-        "web-f335b4849447798b"
+        "web-f335b4849447798b",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "evening": {
       "lemma": "evening",
@@ -30360,12 +30717,6 @@
         {
           "translation": "语言",
           "pos": "n.",
-          "example": "What are the Benefits of a Language Holiday?",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "语言",
-          "pos": "n.",
           "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
           "sourceArticleId": "web-52737a111ab04db4"
         },
@@ -30428,13 +30779,20 @@
           "pos": "n.",
           "example": "You'll find schools offering language holidays at EnglishClub.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "语言",
+          "pos": "n",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "holiday": {
       "lemma": "holiday",
@@ -30649,13 +31007,20 @@
           "pos": "adj.",
           "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "讲（某种语言）的",
+          "pos": "adj.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "england": {
       "lemma": "england",
@@ -30928,7 +31293,7 @@
     },
     "weeks": {
       "lemma": "week",
-      "pos": "noun",
+      "pos": "n.",
       "forms": "week",
       "meanings": "周；星期",
       "senses": [
@@ -30937,13 +31302,32 @@
           "pos": "noun",
           "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "周",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "周",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "周",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "benefits": {
       "lemma": "benefit",
@@ -31855,14 +32239,21 @@
           "pos": "n.",
           "example": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "文化",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-52737a111ab04db4",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "living": {
       "lemma": "live",
@@ -32761,9 +33152,9 @@
     },
     "experienced": {
       "lemma": "experience",
-      "pos": "v.",
+      "pos": "adj.",
       "forms": "experiences, experienced, experiencing",
-      "meanings": "经历；体验；感受；遭遇",
+      "meanings": "有经验的；熟练的；经历过的；体验过的",
       "senses": [
         {
           "translation": "经历",
@@ -32788,13 +33179,20 @@
           "pos": "v.",
           "example": "However, no men had experienced guilt   because they did not have any children although 16 percent of women had.",
           "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "有经验的",
+          "pos": "adj.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-eecaaca1e069e103"
+        "web-eecaaca1e069e103",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:04:45.834Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "loneliness": {
       "lemma": "loneliness",
@@ -33689,20 +34087,27 @@
       "lemma": "teach",
       "pos": "v.",
       "forms": "teaches, taught, teaching",
-      "meanings": "教；教授；教育",
+      "meanings": "教；教授；教育；指点",
       "senses": [
         {
           "translation": "教授",
           "pos": "v.",
           "example": "Ralph Buehler teaches urban planning at the Virginia Polytechnic Institute and State University,popularly known as Virginia Tech.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "教",
+          "pos": "v",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "urban": {
       "lemma": "urban",
@@ -35853,16 +36258,29 @@
           "pos": "v.",
           "example": "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "制作",
+          "pos": "v.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "进行（支付）",
+          "pos": "v.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-09421cfd6a2c44ad",
         "web-f328bfb9843d2dfa",
         "web-59b629f92c1e91fb",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "attempt": {
       "lemma": "attempt",
@@ -37325,13 +37743,26 @@
           "pos": "n.",
           "example": "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "六月",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "六月",
+          "pos": "n.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "effort": {
       "lemma": "effort",
@@ -37388,13 +37819,20 @@
           "pos": "adj.",
           "example": "\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "可利用的",
+          "pos": "adj.",
+          "example": "*Free school bus service available",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "listed": {
       "lemma": "list",
@@ -38067,7 +38505,7 @@
     },
     "teachers": {
       "lemma": "teacher",
-      "pos": "noun",
+      "pos": "n.",
       "forms": "teachers",
       "meanings": "教师；导师；教练",
       "senses": [
@@ -38088,13 +38526,20 @@
           "pos": "noun",
           "example": "Also, there is the cost to train teachers to use digital textbooks effectively.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "教师",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "examined": {
       "lemma": "examine",
@@ -38502,14 +38947,21 @@
           "pos": "pron.",
           "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "他们自己",
+          "pos": "pron.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-83aed36829bb66d0",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "susan": {
       "lemma": "susan",
@@ -38976,13 +39428,20 @@
           "pos": "n.",
           "example": "Also, there is the cost to train teachers to use digital textbooks effectively.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "费用",
+          "pos": "n.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "effectively": {
       "lemma": "effective",
@@ -41504,22 +41963,29 @@
     },
     "key": {
       "lemma": "key",
-      "pos": "n.",
-      "forms": "keys",
-      "meanings": "钥匙；关键；答案；键",
+      "pos": "adj.",
+      "forms": "keys, keyed, keying",
+      "meanings": "关键的；核心的；钥匙；答案；键盘按键",
       "senses": [
         {
           "translation": "钥匙",
           "pos": "n.",
           "example": "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "关键的",
+          "pos": "adj.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "orange": {
       "lemma": "orange",
@@ -42974,7 +43440,7 @@
     },
     "course": {
       "lemma": "course",
-      "pos": "adv.",
+      "pos": "n.",
       "forms": "courses",
       "meanings": "课程；过程；航向；一道菜；当然",
       "senses": [
@@ -42989,33 +43455,83 @@
           "pos": "adv.",
           "example": "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "课程详情",
+          "pos": "n.",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "课程概要",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "在整个课程期间",
+          "pos": "n.",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "课程概要",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "这门课程",
+          "pos": "n.",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "课程的第一天",
+          "pos": "n.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "在整个课程期间",
+          "pos": "n.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-f335b4849447798b",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "literature": {
       "lemma": "literature",
       "pos": "n.",
       "forms": "无常见变形",
-      "meanings": "文献；文学；文选",
+      "meanings": "文学；文献；文选",
       "senses": [
         {
           "translation": "课程文献",
           "pos": "n.",
           "example": "Storage of study material\nThe library has lockers for students to store course literature.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "文学",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-f335b4849447798b"
+        "web-f335b4849447798b",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "obtained": {
       "lemma": "obtain",
@@ -44968,13 +45484,26 @@
           "pos": "prep.",
           "example": "According to the International Dark-Sky Association, \"100 million birds a year throughout North America die in crashes with lighted buildings and towers.",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "贯穿",
+          "pos": "prep.",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "自始至终",
+          "pos": "prep.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-59b629f92c1e91fb"
+        "web-59b629f92c1e91fb",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "die": {
       "lemma": "die",
@@ -45614,7 +46143,7 @@
     "creatures": {
       "lemma": "creature",
       "pos": "n.",
-      "forms": "creature, creatures",
+      "forms": "creatures",
       "meanings": "生物；动物；创造物；家伙",
       "senses": [
         {
@@ -45622,13 +46151,20 @@
           "pos": "n.",
           "example": "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "生物（课程名的一部分）",
+          "pos": "n.",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-59b629f92c1e91fb"
+        "web-59b629f92c1e91fb",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "night": {
       "lemma": "night",
@@ -45950,7 +46486,7 @@
     },
     "chinese": {
       "lemma": "Chinese",
-      "pos": "n.",
+      "pos": "adj.",
       "forms": "无常见变形",
       "meanings": "中国的；中国人的；中文；中国人",
       "senses": [
@@ -45971,14 +46507,27 @@
           "pos": "n.",
           "example": "Amy Chua, the tiger mother, recalls her immigrant father beating the kids whenever they mispronounced a Chinese word.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "中国的",
+          "pos": "adj.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "中国的",
+          "pos": "adj.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
         "web-9164814709a91049",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "lady": {
       "lemma": "lady",
@@ -47567,13 +48116,20 @@
           "pos": "n.",
           "example": "The entertainment industry representatives include Beyonce Knowles, actress Anngelina Jolie and Lady Gaga.",
           "sourceArticleId": "web-9164814709a91049"
+        },
+        {
+          "translation": "娱乐",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-9164814709a91049"
+        "web-9164814709a91049",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:46:42.837Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "industry": {
       "lemma": "industry",
@@ -48401,13 +48957,20 @@
           "pos": "adj.",
           "example": "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "著名的",
+          "pos": "adj.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-f39e7f5b1b236779"
+        "web-f39e7f5b1b236779",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T13:24:31.869Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "can't": {
       "lemma": "can",
@@ -50058,13 +50621,26 @@
           "pos": "n.",
           "example": "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "课",
+          "pos": "n.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "课",
+          "pos": "n.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "blackboard": {
       "lemma": "blackboard",
@@ -52612,13 +53188,20 @@
           "pos": "n.",
           "example": "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "申请",
+          "pos": "n.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "being": {
       "lemma": "be",
@@ -53592,13 +54175,20 @@
           "pos": "n.",
           "example": "Your merchant account should accept as many forms of payment as possible.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "支付",
+          "pos": "n.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
         }
       ],
       "articleIds": [
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-4a99bc1fb2af7921"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     },
     "running": {
       "lemma": "run",
@@ -53808,6 +54398,1273 @@
       ],
       "articleCount": 1,
       "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "details": {
+      "lemma": "detail",
+      "pos": "n.",
+      "forms": "details",
+      "meanings": "详情；细节；细微之处；琐事",
+      "senses": [
+        {
+          "translation": "课程详情",
+          "pos": "n.",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "crazy": {
+      "lemma": "crazy",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "疯狂的；古怪的；着迷的；极好的",
+      "senses": [
+        {
+          "translation": "疯狂的生物（课程名）",
+          "pos": "adj.",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "olds": {
+      "lemma": "old",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "……岁的人；旧物；老者",
+      "senses": [
+        {
+          "translation": "岁",
+          "pos": "n.",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "岁",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "岁",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "size": {
+      "lemma": "size",
+      "pos": "n.",
+      "forms": "sizes",
+      "meanings": "大小；尺寸；规模；体型",
+      "senses": [
+        {
+          "translation": "规模",
+          "pos": "n.",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "规模",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "规模",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "summary": {
+      "lemma": "summary",
+      "pos": "n.",
+      "forms": "summaries",
+      "meanings": "概要；总结；摘要；一览",
+      "senses": [
+        {
+          "translation": "课程概要",
+          "pos": "n.",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "课程概要",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "课程概要",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "songs": {
+      "lemma": "song",
+      "pos": "n.",
+      "forms": "songs",
+      "meanings": "歌曲；歌；乐曲",
+      "senses": [
+        {
+          "translation": "歌曲",
+          "pos": "n",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "歌曲",
+          "pos": "n",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "歌曲",
+          "pos": "n",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "arts": {
+      "lemma": "art",
+      "pos": "n.",
+      "forms": "arts",
+      "meanings": "艺术；美术；技艺；人文科学",
+      "senses": [
+        {
+          "translation": "艺术",
+          "pos": "n",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "艺术",
+          "pos": "n",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "craft": {
+      "lemma": "craft",
+      "pos": "n.",
+      "forms": "crafts",
+      "meanings": "手工；工艺；技巧；飞行器",
+      "senses": [
+        {
+          "translation": "手工",
+          "pos": "n",
+          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "手工",
+          "pos": "n",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "focuses": {
+      "lemma": "focus",
+      "pos": "v.",
+      "forms": "focused, focusing, focuses",
+      "meanings": "聚焦；集中；调焦；集中注意力于",
+      "senses": [
+        {
+          "translation": "专注于",
+          "pos": "v.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "children's": {
+      "lemma": "child",
+      "pos": "n.",
+      "forms": "children's",
+      "meanings": "儿童的；孩子们的",
+      "senses": [
+        {
+          "translation": "儿童的",
+          "pos": "n.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "儿童的",
+          "pos": "n.",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "story": {
+      "lemma": "story",
+      "pos": "n.",
+      "forms": "stories",
+      "meanings": "故事；传说；报道；楼层",
+      "senses": [
+        {
+          "translation": "故事",
+          "pos": "n.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "故事",
+          "pos": "n.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "hungry": {
+      "lemma": "hungry",
+      "pos": "adj.",
+      "forms": "hungrier, hungriest",
+      "meanings": "饥饿的；渴望的；引起饥饿的",
+      "senses": [
+        {
+          "translation": "饥饿的",
+          "pos": "adj.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "caterpillar": {
+      "lemma": "caterpillar",
+      "pos": "n.",
+      "forms": "caterpillars",
+      "meanings": "毛毛虫；履带车",
+      "senses": [
+        {
+          "translation": "毛毛虫",
+          "pos": "n.",
+          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "introduces": {
+      "lemma": "introduce",
+      "pos": "v.",
+      "forms": "introduced, introducing, introduction",
+      "meanings": "介绍；引进；推行；作为……的入门",
+      "senses": [
+        {
+          "translation": "介绍",
+          "pos": "v.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "vocabulary": {
+      "lemma": "vocabulary",
+      "pos": "n.",
+      "forms": "vocabularies",
+      "meanings": "词汇；词汇量；词汇表",
+      "senses": [
+        {
+          "translation": "词汇",
+          "pos": "n.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "sing": {
+      "lemma": "sing",
+      "pos": "v.",
+      "forms": "sings, sang, sung, singing",
+      "meanings": "唱歌；吟唱；鸣叫",
+      "senses": [
+        {
+          "translation": "唱歌",
+          "pos": "v.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "activities": {
+      "lemma": "activity",
+      "pos": "n.",
+      "forms": "activity",
+      "meanings": "活动；活跃；行动；消遣",
+      "senses": [
+        {
+          "translation": "活动",
+          "pos": "n.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "based": {
+      "lemma": "base",
+      "pos": "v.",
+      "forms": "bases, based, basing",
+      "meanings": "以……为基础；建立在；根据；总部设在",
+      "senses": [
+        {
+          "translation": "以……为基础",
+          "pos": "v.",
+          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "rmb": {
+      "lemma": "rmb",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "人民币",
+      "senses": [
+        {
+          "translation": "人民币",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "人民币",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "人民币",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "ancient": {
+      "lemma": "ancient",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "古代的；古老的；旧时的",
+      "senses": [
+        {
+          "translation": "古代的",
+          "pos": "adj.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "civilizations": {
+      "lemma": "civilization",
+      "pos": "n.",
+      "forms": "civilizations",
+      "meanings": "文明；文明社会；文化",
+      "senses": [
+        {
+          "translation": "文明",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "clothes": {
+      "lemma": "clothe",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "衣服；服装；衣着",
+      "senses": [
+        {
+          "translation": "衣服",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "衣服",
+          "pos": "n.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "lived": {
+      "lemma": "live",
+      "pos": "v.",
+      "forms": "lives, living, lived",
+      "meanings": "居住；生存；生活；经历",
+      "senses": [
+        {
+          "translation": "生活",
+          "pos": "v.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "greek": {
+      "lemma": "Greek",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "希腊的；希腊人的；希腊语；希腊人",
+      "senses": [
+        {
+          "translation": "希腊的",
+          "pos": "adj.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "mayan": {
+      "lemma": "Mayan",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "玛雅的；玛雅人的；玛雅语",
+      "senses": [
+        {
+          "translation": "玛雅的",
+          "pos": "adj.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "aztec": {
+      "lemma": "Aztec",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "阿兹特克的；阿兹特克人的；阿兹特克文明的",
+      "senses": [
+        {
+          "translation": "阿兹特克的",
+          "pos": "adj.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "egypt": {
+      "lemma": "Egypt",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "埃及；埃及文明",
+      "senses": [
+        {
+          "translation": "埃及",
+          "pos": "n.",
+          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "short": {
+      "lemma": "short",
+      "pos": "adj.",
+      "forms": "shorter, shortest",
+      "meanings": "短的；简短的；不足的；矮的",
+      "senses": [
+        {
+          "translation": "简短的",
+          "pos": "adj.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "短篇的",
+          "pos": "adj.",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "wearing": {
+      "lemma": "wear",
+      "pos": "v.",
+      "forms": "wears, wore, worn",
+      "meanings": "穿；戴；留（发、须等）；磨损",
+      "senses": [
+        {
+          "translation": "穿着",
+          "pos": "v.",
+          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "stories": {
+      "lemma": "story",
+      "pos": "n.",
+      "forms": "story",
+      "meanings": "故事；小说；报道；楼层",
+      "senses": [
+        {
+          "translation": "故事",
+          "pos": "n.",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "poems": {
+      "lemma": "poem",
+      "pos": "n.",
+      "forms": "poems",
+      "meanings": "诗；诗歌；韵文",
+      "senses": [
+        {
+          "translation": "诗歌",
+          "pos": "n.",
+          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "practice": {
+      "lemma": "practice",
+      "pos": "v.",
+      "forms": "practices, practicing, practiced",
+      "meanings": "练习；实践；实行；开业",
+      "senses": [
+        {
+          "translation": "练习",
+          "pos": "v.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "required": {
+      "lemma": "require",
+      "pos": "adj.",
+      "forms": "requires, requiring, required",
+      "meanings": "必需的；规定的；必要的",
+      "senses": [
+        {
+          "translation": "必需的",
+          "pos": "adj.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "gcse": {
+      "lemma": "gcse",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "英国普通中等教育证书；普通中等教育证书考试",
+      "senses": [
+        {
+          "translation": "英国普通中等教育证书",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "exam": {
+      "lemma": "exam",
+      "pos": "n.",
+      "forms": "exams",
+      "meanings": "考试；检查；测验",
+      "senses": [
+        {
+          "translation": "考试",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "analyzing": {
+      "lemma": "analyze",
+      "pos": "v.",
+      "forms": "analyzes, analyzing, analyzed",
+      "meanings": "分析；解析；细察",
+      "senses": [
+        {
+          "translation": "分析",
+          "pos": "v.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "novel": {
+      "lemma": "novel",
+      "pos": "n.",
+      "forms": "novels",
+      "meanings": "长篇小说；新奇的；异常的；新颖的",
+      "senses": [
+        {
+          "translation": "长篇小说",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "长篇小说",
+          "pos": "n.",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "holes": {
+      "lemma": "hole",
+      "pos": "n.",
+      "forms": "holes",
+      "meanings": "洞；孔；坑；漏洞",
+      "senses": [
+        {
+          "translation": "书名《洞》",
+          "pos": "n.",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "louis": {
+      "lemma": "louis",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "路易斯（人名）；路易金币",
+      "senses": [
+        {
+          "translation": "路易斯",
+          "pos": "n.",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "sachar": {
+      "lemma": "sachar",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "萨查尔（姓氏）",
+      "senses": [
+        {
+          "translation": "萨查尔",
+          "pos": "n.",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "seller": {
+      "lemma": "seller",
+      "pos": "n.",
+      "forms": "sellers",
+      "meanings": "销售者；卖方；畅销商品",
+      "senses": [
+        {
+          "translation": "畅销品（best-seller）",
+          "pos": "n.",
+          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "develop": {
+      "lemma": "develop",
+      "pos": "v.",
+      "forms": "develops, developed, developing",
+      "meanings": "培养；发展；开发；研制；患（病）",
+      "senses": [
+        {
+          "translation": "培养",
+          "pos": "v.",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "ability": {
+      "lemma": "ability",
+      "pos": "n.",
+      "forms": "abilities",
+      "meanings": "能力；才能；本领",
+      "senses": [
+        {
+          "translation": "能力",
+          "pos": "n.",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "answer": {
+      "lemma": "answer",
+      "pos": "v.",
+      "forms": "answers, answered, answering",
+      "meanings": "回答；接（电话）；应门；符合",
+      "senses": [
+        {
+          "translation": "回答",
+          "pos": "v.",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "questions": {
+      "lemma": "question",
+      "pos": "n.",
+      "forms": "questions, questioned, questioning",
+      "meanings": "问题；疑问；质疑；难题",
+      "senses": [
+        {
+          "translation": "问题",
+          "pos": "n.",
+          "example": "This course will develop children's writing skills and their ability to answer questions.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "dates": {
+      "lemma": "date",
+      "pos": "n.",
+      "forms": "dates, dated, dating",
+      "meanings": "日期；日子；会面；约会；枣",
+      "senses": [
+        {
+          "translation": "日期",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "july": {
+      "lemma": "july",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "七月",
+      "senses": [
+        {
+          "translation": "七月",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "august": {
+      "lemma": "august",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "八月；威严的；宏伟的",
+      "senses": [
+        {
+          "translation": "八月",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "am": {
+      "lemma": "am",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "上午；是(be的动词形式)",
+      "senses": [
+        {
+          "translation": "上午",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "pm": {
+      "lemma": "pm",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "下午；午后",
+      "senses": [
+        {
+          "translation": "下午",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "monday": {
+      "lemma": "monday",
+      "pos": "n.",
+      "forms": "mondays",
+      "meanings": "周一；星期一",
+      "senses": [
+        {
+          "translation": "周一",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "friday": {
+      "lemma": "friday",
+      "pos": "n.",
+      "forms": "fridays",
+      "meanings": "周五；星期五",
+      "senses": [
+        {
+          "translation": "周五",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "星期五",
+          "pos": "n.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "native": {
+      "lemma": "native",
+      "pos": "adj.",
+      "forms": "natives",
+      "meanings": "本国的；本地的；天生的；母语的",
+      "senses": [
+        {
+          "translation": "本国的",
+          "pos": "adj.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "assistant": {
+      "lemma": "assistant",
+      "pos": "n.",
+      "forms": "assistants",
+      "meanings": "助手；助理；售货员",
+      "senses": [
+        {
+          "translation": "助手",
+          "pos": "n.",
+          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "dateline": {
+      "lemma": "deadline",
+      "pos": "n.",
+      "forms": "deadlines",
+      "meanings": "最后期限；截止日期",
+      "senses": [
+        {
+          "translation": "最后期限",
+          "pos": "n.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "harrow": {
+      "lemma": "harrow",
+      "pos": "n.",
+      "forms": "harrows",
+      "meanings": "哈罗（名）；耙（农具）；使痛苦；折磨",
+      "senses": [
+        {
+          "translation": "哈罗（学校名）",
+          "pos": "n.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "beijing": {
+      "lemma": "beijing",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "北京",
+      "senses": [
+        {
+          "translation": "北京",
+          "pos": "n.",
+          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "snacks": {
+      "lemma": "snack",
+      "pos": "n.",
+      "forms": "snacks",
+      "meanings": "点心；小吃；零食；快餐",
+      "senses": [
+        {
+          "translation": "点心",
+          "pos": "n.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "lunch": {
+      "lemma": "lunch",
+      "pos": "n.",
+      "forms": "lunches",
+      "meanings": "午餐；午饭",
+      "senses": [
+        {
+          "translation": "午餐",
+          "pos": "n.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "nurse": {
+      "lemma": "nurse",
+      "pos": "n.",
+      "forms": "nurses, nursing, nursed",
+      "meanings": "护士；保育员；护理；照料",
+      "senses": [
+        {
+          "translation": "护士",
+          "pos": "n.",
+          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
+    },
+    "bus": {
+      "lemma": "bus",
+      "pos": "n.",
+      "forms": "buses, buses/busses, busing/bussing, bused/bussed",
+      "meanings": "公共汽车；巴士；总线",
+      "senses": [
+        {
+          "translation": "公共汽车",
+          "pos": "n.",
+          "example": "*Free school bus service available",
+          "sourceArticleId": "web-4a99bc1fb2af7921"
+        }
+      ],
+      "articleIds": [
+        "web-4a99bc1fb2af7921"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:19:45.954Z"
     }
   }
 }
