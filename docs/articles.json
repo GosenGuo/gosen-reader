@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T12:46:42.840Z",
+  "generatedAt": "2026-08-03T13:24:31.871Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -47745,6 +47745,3084 @@
             "inputTokens": 40757,
             "outputTokens": 22069,
             "totalTokens": 62826,
+            "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-f39e7f5b1b236779",
+      "title": "RACE 高中英语阅读 high4116",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "The church seems cold this morning, even after all the people, friends and family, fill the benches. I sit here in silence, in shock and denial. This was not supposed to happen. What about our dreams, or our plans? We were going to raise our children, travel the world, and grow old together. I'm only 37, a typical housewife. I don't know if I can do all this alone--two children, no father. What do I do or say?\nThe faces of so many people confuse me as they come to pay their last respects. Some have real sorrow; I can see it in their eyes. The others seem to just say, \"I told you so.\" Those famous last words: I-told-you-so. How I can't stand them. And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see. I want to scream and wake up but I can't do anything but sit there. How can they be so blind? I fell in love with a man. Love knows no boundaries .\nHe was a good man, hardworking, caring and kind. He was retired from the Navy and a gentleman. He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears. I remember our first child was a big surprise to both of us. I remember when I told him the news. He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.\nA man, thirty years older than I, lies in a coffin. Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was. And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.",
+      "wordCount": 345,
+      "sentenceTranslations": {
+        "The church seems cold this morning, even after all the people, friends and family, fill the benches.": "今天早上，教堂里显得冷冰冰的，即使亲朋好友坐满了长椅，也感觉不到一丝暖意。",
+        "I sit here in silence, in shock and denial.": "我静静地坐在那里，陷入了震惊和否认之中。",
+        "This was not supposed to happen.": "这一切本不该发生的。",
+        "What about our dreams, or our plans?": "那我们的梦想呢，我们的计划又该怎么办？",
+        "We were going to raise our children, travel the world, and grow old together.": "我们本打算一起抚养孩子，环游世界，慢慢变老。",
+        "I'm only 37, a typical housewife.": "我才37岁，只是个普通的家庭主妇。",
+        "I don't know if I can do all this alone--two children, no father.": "我不知道自己一个人能否应付这一切——两个孩子，而且没有父亲。",
+        "What do I do or say?": "我该做些什么、说些什么呢？",
+        "The faces of so many people confuse me as they come to pay their last respects.": "当那么多人前来致以最后的敬意时，他们脸上的表情让我感到困惑。",
+        "Some have real sorrow; I can see it in their eyes.": "有些人怀着真切的悲伤；我能从他们的眼神中看出来。",
+        "The others seem to just say, \"I told you so.": "而其他人似乎只是在说：“我早就告诉过你了。”",
+        "\" Those famous last words: I-told-you-so.": "那些著名的遗言：“我早就告诉过你了。”",
+        "How I can't stand them.": "我简直受不了他们。",
+        "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": "那些所谓的亲人和所谓的朋友用手指着我，把我从人群中揪出来展示给别人看。",
+        "I want to scream and wake up but I can't do anything but sit there.": "我想尖叫着醒来，却只能坐在那里，什么也做不了。",
+        "How can they be so blind?": "他们怎么能如此盲目？",
+        "I fell in love with a man.": "我爱上了一个男人。",
+        "Love knows no boundaries .": "爱是不分界限的。",
+        "He was a good man, hardworking, caring and kind.": "他是个好人，勤劳、体贴且善良。",
+        "He was retired from the Navy and a gentleman.": "他从海军退役，是一位风度翩翩的绅士。",
+        "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": "他对他人的需求十分敏感，总能知道该做什么或说什么，懂得如何化解任何尴尬局面，并平复每个人的担忧。",
+        "I remember our first child was a big surprise to both of us.": "我记得我们的第一个孩子对我们两人来说都是一个巨大的惊喜。",
+        "I remember when I told him the news.": "我记得我把这个消息告诉他时的情景。",
+        "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": "他从椅子上跌了下来，难以置信地一遍又一遍地说：“可我都快六十岁了。”",
+        "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": "几个月后，他开始筹划我们的下一次出行，每当谈起这个想法时，他还会跳起他那标志性的小舞步。",
+        "A man, thirty years older than I, lies in a coffin.": "一个比我年长三十岁的男人，静静地躺在棺材里。",
+        "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": "鲜花、美国国旗以及他退伍军人协会的战友们簇拥在他身旁，向这位真实的男人致以敬意。",
+        "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": "我独自带着我们的两个孩子坐在这里，陷入沉默，祈祷着教堂这个清冷的早晨只是一场噩梦，祈祷我能再次在怀抱中醒来，回到他那充满爱意的臂弯里。"
+      },
+      "glossary": {
+        "the": {
+          "lemma": "the",
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这；那；（用于特指）；（用于最高级前）；（专有名词前）",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The others seem to just say, \"I told you so.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "He was retired from the Navy and a gentleman.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "I remember when I told him the news.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            }
+          }
+        },
+        "church": {
+          "lemma": "church",
+          "translation": "教堂",
+          "pos": "n.",
+          "forms": "churches",
+          "meanings": "教堂；礼拜；教会；宗教仪式",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "教堂",
+              "pos": "n."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "教堂",
+              "pos": "n."
+            }
+          }
+        },
+        "seems": {
+          "lemma": "seem",
+          "translation": "似乎",
+          "pos": "v.",
+          "forms": "seemed, seeming, seems",
+          "meanings": "似乎；好象；看起来",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "似乎",
+              "pos": "v."
+            }
+          }
+        },
+        "cold": {
+          "lemma": "cold",
+          "translation": "寒冷的",
+          "pos": "adj.",
+          "forms": "colder, coldest",
+          "meanings": "寒冷的；冷淡的；感冒；低温",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "寒冷的",
+              "pos": "adj."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "寒冷的",
+              "pos": "adj."
+            }
+          }
+        },
+        "this": {
+          "lemma": "this",
+          "translation": "这个",
+          "pos": "det.",
+          "forms": "these",
+          "meanings": "这；这个；这种情况；此；现在",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "这个",
+              "pos": "det."
+            },
+            "This was not supposed to happen.": {
+              "translation": "这",
+              "pos": "pron."
+            },
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "这",
+              "pos": "pron."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "这个",
+              "pos": "det."
+            }
+          }
+        },
+        "morning": {
+          "lemma": "morning",
+          "translation": "早晨",
+          "pos": "n.",
+          "forms": "mornings",
+          "meanings": "早晨；上午；开端",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "早晨",
+              "pos": "n."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "早晨",
+              "pos": "n."
+            }
+          }
+        },
+        "even": {
+          "lemma": "even",
+          "translation": "甚至",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "甚至；即使；平坦的；偶数的",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "甚至",
+              "pos": "adv."
+            },
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "甚至",
+              "pos": "adv."
+            }
+          }
+        },
+        "after": {
+          "lemma": "after",
+          "translation": "在……之后",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之后；后来；跟随",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "在……之后",
+              "pos": "prep."
+            },
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "在……之后",
+              "pos": "prep."
+            }
+          }
+        },
+        "all": {
+          "lemma": "all",
+          "translation": "全部",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "全部；所有；总共；整个",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "全部",
+              "pos": "det."
+            },
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "全部",
+              "pos": "det."
+            }
+          }
+        },
+        "people": {
+          "lemma": "people",
+          "translation": "人们",
+          "pos": "n.",
+          "forms": "peoples",
+          "meanings": "人们；民族；人；国民",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "人们",
+              "pos": "n."
+            },
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "人们",
+              "pos": "n."
+            }
+          }
+        },
+        "friends": {
+          "lemma": "friend",
+          "translation": "朋友",
+          "pos": "n.",
+          "forms": "friends",
+          "meanings": "朋友；支持者；友方；赞同者",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "朋友",
+              "pos": "n."
+            },
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "朋友",
+              "pos": "n."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "I sit here in silence, in shock and denial.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "而且",
+              "pos": "conj."
+            },
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "He was a good man, hardworking, caring and kind.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "He was retired from the Navy and a gentleman.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "而且",
+              "pos": "conj."
+            }
+          }
+        },
+        "family": {
+          "lemma": "family",
+          "translation": "家庭",
+          "pos": "n.",
+          "forms": "families",
+          "meanings": "家庭；家人；亲属；家族",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "家庭",
+              "pos": "n."
+            },
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "家人",
+              "pos": "n."
+            }
+          }
+        },
+        "fill": {
+          "lemma": "fill",
+          "translation": "填满",
+          "pos": "v.",
+          "forms": "filling, filled, fills",
+          "meanings": "装满；充满；占据；填写",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "填满",
+              "pos": "v."
+            }
+          }
+        },
+        "benches": {
+          "lemma": "bench",
+          "translation": "长凳",
+          "pos": "n.",
+          "forms": "bench",
+          "meanings": "长凳；工作台；法官席；替补席",
+          "contexts": {
+            "The church seems cold this morning, even after all the people, friends and family, fill the benches.": {
+              "translation": "长凳",
+              "pos": "n."
+            }
+          }
+        },
+        "i": {
+          "lemma": "I",
+          "translation": "我",
+          "pos": "pron.",
+          "forms": "my, mine, me",
+          "meanings": "我",
+          "contexts": {
+            "I sit here in silence, in shock and denial.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I'm only 37, a typical housewife.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "What do I do or say?": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "The others seem to just say, \"I told you so.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "\" Those famous last words: I-told-you-so.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "How I can't stand them.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I fell in love with a man.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "I remember when I told him the news.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "A man, thirty years older than I, lies in a coffin.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "我",
+              "pos": "pron."
+            }
+          }
+        },
+        "sit": {
+          "lemma": "sit",
+          "translation": "坐",
+          "pos": "v.",
+          "forms": "sits, sat, sitting",
+          "meanings": "坐；使就座；位于；参加考试",
+          "contexts": {
+            "I sit here in silence, in shock and denial.": {
+              "translation": "坐",
+              "pos": "v."
+            },
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "坐",
+              "pos": "v."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "坐",
+              "pos": "v."
+            }
+          }
+        },
+        "here": {
+          "lemma": "here",
+          "translation": "在这里",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在这里；在这一点上；向这里",
+          "contexts": {
+            "I sit here in silence, in shock and denial.": {
+              "translation": "在这里",
+              "pos": "adv."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "在这里",
+              "pos": "adv."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……之中",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）",
+          "contexts": {
+            "I sit here in silence, in shock and denial.": {
+              "translation": "在……之中",
+              "pos": "prep."
+            },
+            "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "在……之中",
+              "pos": "prep."
+            },
+            "I fell in love with a man.": {
+              "translation": "陷入",
+              "pos": "prep."
+            },
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "处于……状态",
+              "pos": "prep."
+            },
+            "A man, thirty years older than I, lies in a coffin.": {
+              "translation": "在……里",
+              "pos": "prep."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "在……里",
+              "pos": "prep."
+            }
+          }
+        },
+        "silence": {
+          "lemma": "silence",
+          "translation": "沉默",
+          "pos": "n.",
+          "forms": "silences, silenced, silencing",
+          "meanings": "沉默；寂静；无声；使安静",
+          "contexts": {
+            "I sit here in silence, in shock and denial.": {
+              "translation": "沉默",
+              "pos": "n."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "寂静",
+              "pos": "n."
+            }
+          }
+        },
+        "shock": {
+          "lemma": "shock",
+          "translation": "震惊",
+          "pos": "n.",
+          "forms": "shocks, shocked, shocking",
+          "meanings": "震惊；休克；打击；震动",
+          "contexts": {
+            "I sit here in silence, in shock and denial.": {
+              "translation": "震惊",
+              "pos": "n."
+            }
+          }
+        },
+        "denial": {
+          "lemma": "denial",
+          "translation": "否认",
+          "pos": "n.",
+          "forms": "denials",
+          "meanings": "否认；拒绝；否定；克制",
+          "contexts": {
+            "I sit here in silence, in shock and denial.": {
+              "translation": "否认（事实/现实）",
+              "pos": "n."
+            }
+          }
+        },
+        "was": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；在；存在；成为",
+          "contexts": {
+            "This was not supposed to happen.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "He was a good man, hardworking, caring and kind.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "He was retired from the Navy and a gentleman.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是；绝非",
+          "contexts": {
+            "This was not supposed to happen.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "supposed": {
+          "lemma": "suppose",
+          "translation": "理应",
+          "pos": "v.",
+          "forms": "supposing, supposed, supposes",
+          "meanings": "理应；认为；假定；期望",
+          "contexts": {
+            "This was not supposed to happen.": {
+              "translation": "本应；理应",
+              "pos": "v."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "构成不定式",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "向；给；到；构成不定式；对于",
+          "contexts": {
+            "This was not supposed to happen.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "去（某处/做某事）",
+              "pos": "prep."
+            },
+            "The others seem to just say, \"I told you so.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "对于",
+              "pos": "prep."
+            },
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "对……而言",
+              "pos": "prep."
+            },
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "作为",
+              "pos": "prep."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            }
+          }
+        },
+        "happen": {
+          "lemma": "happen",
+          "translation": "发生",
+          "pos": "v.",
+          "forms": "happening, happened, happens",
+          "meanings": "发生；碰巧；遭遇；出现",
+          "contexts": {
+            "This was not supposed to happen.": {
+              "translation": "发生",
+              "pos": "v."
+            }
+          }
+        },
+        "what": {
+          "lemma": "what",
+          "translation": "什么",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "什么；……的事物；多么；究竟是什么",
+          "contexts": {
+            "What about our dreams, or our plans?": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "What do I do or say?": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "……的事物",
+              "pos": "pron."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围；忙于",
+          "contexts": {
+            "What about our dreams, or our plans?": {
+              "translation": "关于",
+              "pos": "prep."
+            }
+          }
+        },
+        "our": {
+          "lemma": "our",
+          "translation": "我们的",
+          "pos": "pron.",
+          "forms": "ours",
+          "meanings": "我们的",
+          "contexts": {
+            "What about our dreams, or our plans?": {
+              "translation": "我们的",
+              "pos": "pron."
+            },
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "我们的",
+              "pos": "pron."
+            },
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "我们的",
+              "pos": "pron."
+            },
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "我们的",
+              "pos": "pron."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "我们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "dreams": {
+          "lemma": "dream",
+          "translation": "梦想",
+          "pos": "n.",
+          "forms": "dreams, dreamed/dreamt, dreaming",
+          "meanings": "梦想；做梦；幻想；愿望",
+          "contexts": {
+            "What about our dreams, or our plans?": {
+              "translation": "梦想",
+              "pos": "n."
+            }
+          }
+        },
+        "or": {
+          "lemma": "or",
+          "translation": "或者",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "或者；否则；也不；即",
+          "contexts": {
+            "What about our dreams, or our plans?": {
+              "translation": "或者",
+              "pos": "conj."
+            },
+            "What do I do or say?": {
+              "translation": "或者",
+              "pos": "conj."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "或者",
+              "pos": "conj."
+            }
+          }
+        },
+        "plans": {
+          "lemma": "plan",
+          "translation": "计划",
+          "pos": "n.",
+          "forms": "plans, planning, planned",
+          "meanings": "计划；打算；设计；方案",
+          "contexts": {
+            "What about our dreams, or our plans?": {
+              "translation": "计划",
+              "pos": "n."
+            }
+          }
+        },
+        "we": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "us, our, ours",
+          "meanings": "我们；大家；本人；咱们",
+          "contexts": {
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "were": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；存在；变为",
+          "contexts": {
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "曾经（助动词，表示过去进行时）",
+              "pos": "v."
+            }
+          }
+        },
+        "going": {
+          "lemma": "go",
+          "translation": "打算",
+          "pos": "v.",
+          "forms": "goes, going, went, gone",
+          "meanings": "打算；进行；走；去",
+          "contexts": {
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "打算（be going to 结构）",
+              "pos": "v."
+            }
+          }
+        },
+        "raise": {
+          "lemma": "raise",
+          "translation": "抚养",
+          "pos": "v.",
+          "forms": "raises, raising, raised",
+          "meanings": "抚养；举起；提升；筹集",
+          "contexts": {
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "抚养",
+              "pos": "v."
+            }
+          }
+        },
+        "children": {
+          "lemma": "child",
+          "translation": "孩子",
+          "pos": "n.",
+          "forms": "children, child's, children's",
+          "meanings": "孩子；子女；儿童；产物",
+          "contexts": {
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "孩子",
+              "pos": "n."
+            },
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "孩子",
+              "pos": "n."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "孩子",
+              "pos": "n."
+            }
+          }
+        },
+        "travel": {
+          "lemma": "travel",
+          "translation": "旅行",
+          "pos": "v.",
+          "forms": "traveled/travelled, traveling/travelling, travels",
+          "meanings": "旅行；游历；行走；行进",
+          "contexts": {
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "旅行",
+              "pos": "v."
+            }
+          }
+        },
+        "world": {
+          "lemma": "world",
+          "translation": "世界",
+          "pos": "n.",
+          "forms": "worlds",
+          "meanings": "世界；地球；领域；世间",
+          "contexts": {
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "世界",
+              "pos": "n."
+            }
+          }
+        },
+        "grow": {
+          "lemma": "grow",
+          "translation": "变得",
+          "pos": "v.",
+          "forms": "grew, grown, growing, grows",
+          "meanings": "生长；长大；逐渐变得；种植",
+          "contexts": {
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "变得",
+              "pos": "v."
+            }
+          }
+        },
+        "old": {
+          "lemma": "old",
+          "translation": "年老的",
+          "pos": "adj.",
+          "forms": "older, oldest",
+          "meanings": "年老的；陈旧的；……岁的；古老的",
+          "contexts": {
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "年老的",
+              "pos": "adj."
+            }
+          }
+        },
+        "together": {
+          "lemma": "together",
+          "translation": "一起",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "一起；共同；一致；同时",
+          "contexts": {
+            "We were going to raise our children, travel the world, and grow old together.": {
+              "translation": "一起",
+              "pos": "adv."
+            }
+          }
+        },
+        "i'm": {
+          "lemma": "i",
+          "translation": "我是",
+          "pos": "pron. + v.",
+          "forms": "无常见变形",
+          "meanings": "我是",
+          "contexts": {
+            "I'm only 37, a typical housewife.": {
+              "translation": "我是",
+              "pos": "pron. + v."
+            },
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "我是",
+              "pos": "pron. + v."
+            }
+          }
+        },
+        "only": {
+          "lemma": "only",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；只；才；唯一的",
+          "contexts": {
+            "I'm only 37, a typical housewife.": {
+              "translation": "仅仅",
+              "pos": "adv."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "仅仅",
+              "pos": "adv."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何；一种",
+          "contexts": {
+            "I'm only 37, a typical housewife.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "I fell in love with a man.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "He was a good man, hardworking, caring and kind.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "He was retired from the Navy and a gentleman.": {
+              "translation": "一位",
+              "pos": "art."
+            },
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "A man, thirty years older than I, lies in a coffin.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "typical": {
+          "lemma": "typical",
+          "translation": "典型的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "典型的；具有代表性的；一向如此的",
+          "contexts": {
+            "I'm only 37, a typical housewife.": {
+              "translation": "典型的",
+              "pos": "adj."
+            }
+          }
+        },
+        "housewife": {
+          "lemma": "housewife",
+          "translation": "家庭主妇",
+          "pos": "n.",
+          "forms": "housewives",
+          "meanings": "家庭主妇",
+          "contexts": {
+            "I'm only 37, a typical housewife.": {
+              "translation": "家庭主妇",
+              "pos": "n."
+            }
+          }
+        },
+        "don't": {
+          "lemma": "do",
+          "translation": "不",
+          "pos": "aux.",
+          "forms": "无常见变形",
+          "meanings": "不（助动词否定形式）；不做；进行；表现",
+          "contexts": {
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "不",
+              "pos": "aux."
+            }
+          }
+        },
+        "know": {
+          "lemma": "know",
+          "translation": "知道",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉",
+          "contexts": {
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "知道",
+              "pos": "v."
+            }
+          }
+        },
+        "if": {
+          "lemma": "if",
+          "translation": "是否",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "如果；是否；即使；设若",
+          "contexts": {
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "是否",
+              "pos": "conj."
+            }
+          }
+        },
+        "can": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal verb",
+          "forms": "could",
+          "meanings": "能够；可以；可能；罐头",
+          "contexts": {
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "How I can't stand them.": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "How can they be so blind?": {
+              "translation": "能够",
+              "pos": "modal verb"
+            }
+          }
+        },
+        "do": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "v.",
+          "forms": "did, done, doing, does",
+          "meanings": "做；干；进行；引起",
+          "contexts": {
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "做",
+              "pos": "v."
+            },
+            "What do I do or say?": {
+              "translation": "做",
+              "pos": "v."
+            },
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "做",
+              "pos": "v."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "做",
+              "pos": "v."
+            }
+          }
+        },
+        "alone": {
+          "lemma": "alone",
+          "translation": "独自",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "独自；单独；只有；仅仅",
+          "contexts": {
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "独自",
+              "pos": "adv."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "独自",
+              "pos": "adv."
+            }
+          }
+        },
+        "two": {
+          "lemma": "two",
+          "translation": "二",
+          "pos": "num.",
+          "forms": "无常见变形",
+          "meanings": "二；两个；两个一组；二重奏",
+          "contexts": {
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "两个",
+              "pos": "num."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "两个",
+              "pos": "num."
+            }
+          }
+        },
+        "no": {
+          "lemma": "no",
+          "translation": "没有",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "没有；不；禁止；一点也不",
+          "contexts": {
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "没有",
+              "pos": "det."
+            },
+            "Love knows no boundaries .": {
+              "translation": "没有",
+              "pos": "det."
+            }
+          }
+        },
+        "father": {
+          "lemma": "father",
+          "translation": "父亲",
+          "pos": "n.",
+          "forms": "fathers",
+          "meanings": "父亲；神父；创始者；前辈",
+          "contexts": {
+            "I don't know if I can do all this alone--two children, no father.": {
+              "translation": "父亲",
+              "pos": "n."
+            }
+          }
+        },
+        "say": {
+          "lemma": "say",
+          "translation": "说",
+          "pos": "v.",
+          "forms": "says, said, saying",
+          "meanings": "说；讲；表达；记载",
+          "contexts": {
+            "What do I do or say?": {
+              "translation": "说",
+              "pos": "v."
+            },
+            "The others seem to just say, \"I told you so.": {
+              "translation": "说",
+              "pos": "v."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "说",
+              "pos": "v."
+            }
+          }
+        },
+        "faces": {
+          "lemma": "face",
+          "translation": "脸",
+          "pos": "n.",
+          "forms": "face, faced, facing",
+          "meanings": "脸；面部表情；外观；面子",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "脸部",
+              "pos": "n."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；属于；由……组成；（表示数量或部分）",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "so": {
+          "lemma": "so",
+          "translation": "如此",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "因此；那么；如此；非常",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "如此多的",
+              "pos": "adv."
+            },
+            "The others seem to just say, \"I told you so.": {
+              "translation": "如此",
+              "pos": "adv."
+            },
+            "\" Those famous last words: I-told-you-so.": {
+              "translation": "那样",
+              "pos": "adv."
+            },
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "所谓的",
+              "pos": "adv."
+            },
+            "How can they be so blind?": {
+              "translation": "如此",
+              "pos": "adv."
+            }
+          }
+        },
+        "many": {
+          "lemma": "many",
+          "translation": "许多",
+          "pos": "adj.",
+          "forms": "more, most",
+          "meanings": "许多；大量；许多人",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "许多",
+              "pos": "adj."
+            }
+          }
+        },
+        "confuse": {
+          "lemma": "confuse",
+          "translation": "使困惑",
+          "pos": "v.",
+          "forms": "confuses, confused, confusing",
+          "meanings": "使困惑；混淆；使混乱",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "使困惑",
+              "pos": "v."
+            }
+          }
+        },
+        "me": {
+          "lemma": "I",
+          "translation": "我",
+          "pos": "pron.",
+          "forms": "my, mine, me",
+          "meanings": "我（宾格）",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "我",
+              "pos": "pron."
+            },
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "我",
+              "pos": "pron."
+            }
+          }
+        },
+        "as": {
+          "lemma": "as",
+          "translation": "当……时",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "当……时；正如；因为；像……一样；作为",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "作为",
+              "pos": "prep."
+            }
+          }
+        },
+        "they": {
+          "lemma": "they",
+          "translation": "他们",
+          "pos": "pron.",
+          "forms": "their, theirs, them, themselves",
+          "meanings": "他们；她们；它们；人；大家",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "他们",
+              "pos": "pron."
+            },
+            "How can they be so blind?": {
+              "translation": "他们",
+              "pos": "pron."
+            }
+          }
+        },
+        "come": {
+          "lemma": "come",
+          "translation": "来",
+          "pos": "v.",
+          "forms": "came, coming, comes",
+          "meanings": "来；到达；出现；开始",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "来",
+              "pos": "v."
+            }
+          }
+        },
+        "pay": {
+          "lemma": "pay",
+          "translation": "给予",
+          "pos": "v.",
+          "forms": "paying, paid, pays",
+          "meanings": "支付；偿还；给予；划算",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "给予（敬意）",
+              "pos": "v."
+            }
+          }
+        },
+        "their": {
+          "lemma": "they",
+          "translation": "他们的",
+          "pos": "pron.",
+          "forms": "theirs",
+          "meanings": "他们的；她们的；它们的",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "他们的",
+              "pos": "pron."
+            },
+            "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "他们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "last": {
+          "lemma": "last",
+          "translation": "最后的",
+          "pos": "adj.",
+          "forms": "lasts, lasted, lasting",
+          "meanings": "最后的；上一个；最终；持续；姓",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "最后的",
+              "pos": "adj."
+            },
+            "\" Those famous last words: I-told-you-so.": {
+              "translation": "最后的",
+              "pos": "adj."
+            }
+          }
+        },
+        "respects": {
+          "lemma": "respect",
+          "translation": "敬意",
+          "pos": "n.",
+          "forms": "respects, respected, respecting",
+          "meanings": "尊敬；敬意；方面；关系；问候",
+          "contexts": {
+            "The faces of so many people confuse me as they come to pay their last respects.": {
+              "translation": "（为死者）表示最后的敬意",
+              "pos": "n."
+            }
+          }
+        },
+        "some": {
+          "lemma": "some",
+          "translation": "一些",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "一些；某些；若干；相当数量",
+          "contexts": {
+            "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "一些人",
+              "pos": "adj."
+            }
+          }
+        },
+        "have": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "has, had, having",
+          "meanings": "有；经历；吃；（完成时态助动词）",
+          "contexts": {
+            "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "拥有/怀有",
+              "pos": "v."
+            }
+          }
+        },
+        "real": {
+          "lemma": "real",
+          "translation": "真正的",
+          "pos": "adj.",
+          "forms": "really",
+          "meanings": "真实的；真正的；实实在在的；确实的",
+          "contexts": {
+            "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "真正的",
+              "pos": "adj."
+            }
+          }
+        },
+        "sorrow": {
+          "lemma": "sorrow",
+          "translation": "悲伤",
+          "pos": "n.",
+          "forms": "sorrows",
+          "meanings": "悲伤；悲痛；伤心事；不幸",
+          "contexts": {
+            "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "悲伤",
+              "pos": "n."
+            }
+          }
+        },
+        "see": {
+          "lemma": "see",
+          "translation": "看见",
+          "pos": "v.",
+          "forms": "saw, seen, seeing",
+          "meanings": "看见；查看；理解；拜访",
+          "contexts": {
+            "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "看出",
+              "pos": "v."
+            },
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "看见",
+              "pos": "v."
+            }
+          }
+        },
+        "it": {
+          "lemma": "it",
+          "translation": "它",
+          "pos": "pron.",
+          "forms": "its, itself",
+          "meanings": "它；这；那个；代指已提到的事物",
+          "contexts": {
+            "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "它（指代前文的悲伤）",
+              "pos": "pron."
+            }
+          }
+        },
+        "eyes": {
+          "lemma": "eye",
+          "translation": "眼睛",
+          "pos": "n.",
+          "forms": "eyes",
+          "meanings": "眼睛；视力；眼力",
+          "contexts": {
+            "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "眼睛",
+              "pos": "n."
+            }
+          }
+        },
+        "others": {
+          "lemma": "other",
+          "translation": "其他人",
+          "pos": "pron.",
+          "forms": "others",
+          "meanings": "其他人；别的人；其余的人；另外的人",
+          "contexts": {
+            "The others seem to just say, \"I told you so.": {
+              "translation": "其他人",
+              "pos": "pron."
+            },
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "其他人",
+              "pos": "pron."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "他人",
+              "pos": "pron."
+            }
+          }
+        },
+        "seem": {
+          "lemma": "seem",
+          "translation": "似乎",
+          "pos": "v.",
+          "forms": "seems, seemed, seeming",
+          "meanings": "似乎；好像；看起来",
+          "contexts": {
+            "The others seem to just say, \"I told you so.": {
+              "translation": "似乎",
+              "pos": "v."
+            }
+          }
+        },
+        "just": {
+          "lemma": "just",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；刚才；正好；公正地；恰好",
+          "contexts": {
+            "The others seem to just say, \"I told you so.": {
+              "translation": "仅仅",
+              "pos": "adv."
+            }
+          }
+        },
+        "told": {
+          "lemma": "tell",
+          "translation": "告诉",
+          "pos": "v.",
+          "forms": "tell; telling; told",
+          "meanings": "告诉；讲述；告知；分辨；吩咐",
+          "contexts": {
+            "The others seem to just say, \"I told you so.": {
+              "translation": "告诉",
+              "pos": "v."
+            },
+            "\" Those famous last words: I-told-you-so.": {
+              "translation": "告诉",
+              "pos": "v."
+            },
+            "I remember when I told him the news.": {
+              "translation": "告诉",
+              "pos": "v."
+            }
+          }
+        },
+        "you": {
+          "lemma": "you",
+          "translation": "你",
+          "pos": "pron.",
+          "forms": "your; yours; yourself",
+          "meanings": "你；你们；人们（泛指）",
+          "contexts": {
+            "The others seem to just say, \"I told you so.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "\" Those famous last words: I-told-you-so.": {
+              "translation": "你",
+              "pos": "pron."
+            }
+          }
+        },
+        "those": {
+          "lemma": "those",
+          "translation": "那些",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "那些；（特指）那部分人",
+          "contexts": {
+            "\" Those famous last words: I-told-you-so.": {
+              "translation": "那些",
+              "pos": "pron."
+            }
+          }
+        },
+        "famous": {
+          "lemma": "famous",
+          "translation": "著名的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "著名的；出名的；极好的",
+          "contexts": {
+            "\" Those famous last words: I-told-you-so.": {
+              "translation": "著名的",
+              "pos": "adj."
+            },
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "标志性的；著名的",
+              "pos": "adj."
+            }
+          }
+        },
+        "words": {
+          "lemma": "word",
+          "translation": "话语",
+          "pos": "n.",
+          "forms": "words",
+          "meanings": "单词；词；话语；消息；诺言",
+          "contexts": {
+            "\" Those famous last words: I-told-you-so.": {
+              "translation": "话语",
+              "pos": "n."
+            }
+          }
+        },
+        "how": {
+          "lemma": "how",
+          "translation": "如何",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "如何；以何种方式；多么；状况",
+          "contexts": {
+            "How I can't stand them.": {
+              "translation": "多么（用于感叹）",
+              "pos": "adv."
+            },
+            "How can they be so blind?": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "如何",
+              "pos": "adv."
+            }
+          }
+        },
+        "can't": {
+          "lemma": "can",
+          "translation": "不能",
+          "pos": "v. modal",
+          "forms": "cannot",
+          "meanings": "不能；不可以；无法；不可能",
+          "contexts": {
+            "How I can't stand them.": {
+              "translation": "不能",
+              "pos": "v. modal"
+            },
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "不能",
+              "pos": "v. modal"
+            }
+          }
+        },
+        "stand": {
+          "lemma": "stand",
+          "translation": "忍受",
+          "pos": "v.",
+          "forms": "stands; standing; stood",
+          "meanings": "忍受；站立；位于；起立；立场",
+          "contexts": {
+            "How I can't stand them.": {
+              "translation": "忍受",
+              "pos": "v."
+            }
+          }
+        },
+        "them": {
+          "lemma": "they",
+          "translation": "他们",
+          "pos": "pron.",
+          "forms": "they; their; theirs; themselves",
+          "meanings": "他们；她们；它们",
+          "contexts": {
+            "How I can't stand them.": {
+              "translation": "他们",
+              "pos": "pron."
+            }
+          }
+        },
+        "pointing": {
+          "lemma": "point",
+          "translation": "指出的",
+          "pos": "adj.",
+          "forms": "points, pointed, pointing",
+          "meanings": "指出的；指着（某方向）的；指向的",
+          "contexts": {
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "指出的",
+              "pos": "adj."
+            }
+          }
+        },
+        "fingers": {
+          "lemma": "finger",
+          "translation": "手指",
+          "pos": "n.",
+          "forms": "fingers",
+          "meanings": "手指；指状物；（手套的）指套",
+          "contexts": {
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "手指",
+              "pos": "n."
+            }
+          }
+        },
+        "called": {
+          "lemma": "call",
+          "translation": "所谓的",
+          "pos": "adj.",
+          "forms": "calls, called, calling",
+          "meanings": "名为；叫；打电话；呼喊",
+          "contexts": {
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "所谓的",
+              "pos": "adj."
+            }
+          }
+        },
+        "pick": {
+          "lemma": "pick",
+          "translation": "挑选",
+          "pos": "v.",
+          "forms": "picks, picked, picking",
+          "meanings": "挑选；采摘；挖；拨动",
+          "contexts": {
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "挑选",
+              "pos": "v."
+            }
+          }
+        },
+        "out": {
+          "lemma": "out",
+          "translation": "（与pick连用构成短语）挑选出来",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向外；彻底地；离开；（与动词连用表示完成或终结）",
+          "contexts": {
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "（与pick连用构成短语）挑选出来",
+              "pos": "adv."
+            }
+          }
+        },
+        "crowd": {
+          "lemma": "crowd",
+          "translation": "人群",
+          "pos": "n.",
+          "forms": "crowds, crowded, crowding",
+          "meanings": "人群；群众；一伙人；挤满",
+          "contexts": {
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "人群",
+              "pos": "n."
+            }
+          }
+        },
+        "for": {
+          "lemma": "for",
+          "translation": "为了",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "为了；支持；因为；给；持续（一段时间）",
+          "contexts": {
+            "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
+              "translation": "为了",
+              "pos": "prep."
+            }
+          }
+        },
+        "want": {
+          "lemma": "want",
+          "translation": "想要",
+          "pos": "v.",
+          "forms": "wanted, wanting, wants",
+          "meanings": "想要；希望；需要；缺乏",
+          "contexts": {
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "想要",
+              "pos": "v."
+            }
+          }
+        },
+        "scream": {
+          "lemma": "scream",
+          "translation": "尖叫",
+          "pos": "v.",
+          "forms": "screams, screamed, screaming",
+          "meanings": "尖叫；呼喊；尖锐的声音",
+          "contexts": {
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "尖叫",
+              "pos": "v."
+            }
+          }
+        },
+        "wake": {
+          "lemma": "wake",
+          "translation": "醒来",
+          "pos": "v.",
+          "forms": "wakes, woke, woken, waking",
+          "meanings": "醒来；叫醒；唤起",
+          "contexts": {
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "醒来",
+              "pos": "v."
+            }
+          }
+        },
+        "up": {
+          "lemma": "up",
+          "translation": "起床",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "起床；完成；彻底；向上；到（某一点）",
+          "contexts": {
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "起床",
+              "pos": "adv."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "anything": {
+          "lemma": "anything",
+          "translation": "任何事",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "任何事物；某事；（用于疑问或否定句）什么事",
+          "contexts": {
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "任何事",
+              "pos": "pron."
+            }
+          }
+        },
+        "there": {
+          "lemma": "there",
+          "translation": "在那里",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在那里；向那里；存在（用于there be句型）；到那里",
+          "contexts": {
+            "I want to scream and wake up but I can't do anything but sit there.": {
+              "translation": "在那里",
+              "pos": "adv."
+            }
+          }
+        },
+        "be": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；成为；（构成进行时或被动语态）",
+          "contexts": {
+            "How can they be so blind?": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "blind": {
+          "lemma": "blind",
+          "translation": "视而不见的",
+          "pos": "adj.",
+          "forms": "blinder, blindest",
+          "meanings": "视而不见的；盲目的；失明的；未察觉的",
+          "contexts": {
+            "How can they be so blind?": {
+              "translation": "视而不见的",
+              "pos": "adj."
+            }
+          }
+        },
+        "fell": {
+          "lemma": "fall",
+          "translation": "坠入",
+          "pos": "v.",
+          "forms": "falls, falling, fell, fallen",
+          "meanings": "坠入；落下；跌倒；下降",
+          "contexts": {
+            "I fell in love with a man.": {
+              "translation": "坠入",
+              "pos": "v."
+            },
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "跌倒",
+              "pos": "v."
+            }
+          }
+        },
+        "love": {
+          "lemma": "love",
+          "translation": "爱",
+          "pos": "n.",
+          "forms": "loves, loved, loving",
+          "meanings": "爱；恋爱；热爱；喜爱的东西",
+          "contexts": {
+            "I fell in love with a man.": {
+              "translation": "爱",
+              "pos": "n."
+            },
+            "Love knows no boundaries .": {
+              "translation": "爱",
+              "pos": "n."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "与……一起",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "与……一起；使用；带有；由于；关于",
+          "contexts": {
+            "I fell in love with a man.": {
+              "translation": "与……一起",
+              "pos": "prep."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "带有",
+              "pos": "prep."
+            }
+          }
+        },
+        "man": {
+          "lemma": "man",
+          "translation": "男人",
+          "pos": "n.",
+          "forms": "men",
+          "meanings": "男人；男子；人类；人",
+          "contexts": {
+            "I fell in love with a man.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "He was a good man, hardworking, caring and kind.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "A man, thirty years older than I, lies in a coffin.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "男人",
+              "pos": "n."
+            }
+          }
+        },
+        "knows": {
+          "lemma": "know",
+          "translation": "懂得；了解",
+          "pos": "v.",
+          "forms": "knew, known, knowing, knows",
+          "meanings": "知道；了解；懂得；认识；熟悉",
+          "contexts": {
+            "Love knows no boundaries .": {
+              "translation": "懂得",
+              "pos": "v."
+            }
+          }
+        },
+        "boundaries": {
+          "lemma": "boundary",
+          "translation": "界限",
+          "pos": "n.",
+          "forms": "boundaries",
+          "meanings": "界限；边界；分界线；范围",
+          "contexts": {
+            "Love knows no boundaries .": {
+              "translation": "界限",
+              "pos": "n."
+            }
+          }
+        },
+        "he": {
+          "lemma": "he",
+          "translation": "他",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他；（指代男性）；某人；那个人",
+          "contexts": {
+            "He was a good man, hardworking, caring and kind.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He was retired from the Navy and a gentleman.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "他",
+              "pos": "pron."
+            }
+          }
+        },
+        "good": {
+          "lemma": "good",
+          "translation": "好的",
+          "pos": "adj.",
+          "forms": "better, best",
+          "meanings": "好；愉快的；优良的；有效的",
+          "contexts": {
+            "He was a good man, hardworking, caring and kind.": {
+              "translation": "好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "hardworking": {
+          "lemma": "hardworking",
+          "translation": "勤奋的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "勤奋的；努力工作的",
+          "contexts": {
+            "He was a good man, hardworking, caring and kind.": {
+              "translation": "勤奋的",
+              "pos": "adj."
+            }
+          }
+        },
+        "caring": {
+          "lemma": "caring",
+          "translation": "有爱心的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "有爱心的；关怀他人的；体贴的",
+          "contexts": {
+            "He was a good man, hardworking, caring and kind.": {
+              "translation": "有爱心的",
+              "pos": "adj."
+            }
+          }
+        },
+        "kind": {
+          "lemma": "kind",
+          "translation": "仁慈的",
+          "pos": "adj.",
+          "forms": "kinder, kindest",
+          "meanings": "仁慈的；亲切的；种类；类型",
+          "contexts": {
+            "He was a good man, hardworking, caring and kind.": {
+              "translation": "仁慈的",
+              "pos": "adj."
+            },
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "类型",
+              "pos": "n."
+            }
+          }
+        },
+        "retired": {
+          "lemma": "retire",
+          "translation": "退休的",
+          "pos": "adj.",
+          "forms": "retires, retired, retiring",
+          "meanings": "退休的；退役的；隐退的",
+          "contexts": {
+            "He was retired from the Navy and a gentleman.": {
+              "translation": "退休的",
+              "pos": "adj."
+            }
+          }
+        },
+        "from": {
+          "lemma": "from",
+          "translation": "从",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "从；来自；因为；由于；起始",
+          "contexts": {
+            "He was retired from the Navy and a gentleman.": {
+              "translation": "从",
+              "pos": "prep."
+            }
+          }
+        },
+        "navy": {
+          "lemma": "navy",
+          "translation": "海军",
+          "pos": "n.",
+          "forms": "navies",
+          "meanings": "海军；深蓝色",
+          "contexts": {
+            "He was retired from the Navy and a gentleman.": {
+              "translation": "海军",
+              "pos": "n."
+            }
+          }
+        },
+        "gentleman": {
+          "lemma": "gentleman",
+          "translation": "绅士",
+          "pos": "n.",
+          "forms": "gentlemen",
+          "meanings": "绅士；有教养的人；先生；男士",
+          "contexts": {
+            "He was retired from the Navy and a gentleman.": {
+              "translation": "绅士",
+              "pos": "n."
+            }
+          }
+        },
+        "sensitive": {
+          "lemma": "sensitive",
+          "translation": "体贴的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "灵敏的；敏感的；易受伤害的；体贴的",
+          "contexts": {
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "体贴的",
+              "pos": "adj."
+            }
+          }
+        },
+        "needs": {
+          "lemma": "need",
+          "translation": "需要",
+          "pos": "n.",
+          "forms": "need, needs",
+          "meanings": "需要；需求；贫困；责任",
+          "contexts": {
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "需要",
+              "pos": "n."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "引导定语从句",
+          "pos": "pron.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；因为",
+          "contexts": {
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "引导定语从句",
+              "pos": "pron."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "引导宾语从句",
+              "pos": "conj."
+            }
+          }
+        },
+        "knew": {
+          "lemma": "know",
+          "translation": "知道",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉",
+          "contexts": {
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "知道",
+              "pos": "v."
+            }
+          }
+        },
+        "humor": {
+          "lemma": "humor",
+          "translation": "迁就",
+          "pos": "v.",
+          "forms": "humors, humored, humoring",
+          "meanings": "迁就；顺应；幽默；情绪",
+          "contexts": {
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "迁就",
+              "pos": "v."
+            }
+          }
+        },
+        "any": {
+          "lemma": "any",
+          "translation": "任何",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "任何；任一；一点；一些",
+          "contexts": {
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "任何",
+              "pos": "det."
+            }
+          }
+        },
+        "situation": {
+          "lemma": "situation",
+          "translation": "局面",
+          "pos": "n.",
+          "forms": "situations",
+          "meanings": "局面；情况；处境；位置",
+          "contexts": {
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "局面",
+              "pos": "n."
+            }
+          }
+        },
+        "calm": {
+          "lemma": "calm",
+          "translation": "平息",
+          "pos": "v.",
+          "forms": "calms, calmed, calming",
+          "meanings": "平息；使平静；镇静的；安静的",
+          "contexts": {
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "平息",
+              "pos": "v."
+            }
+          }
+        },
+        "everyone's": {
+          "lemma": "everyone",
+          "translation": "每一个人的",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "每一个人的；大家的人；众人的",
+          "contexts": {
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "每一个人的",
+              "pos": "pron."
+            }
+          }
+        },
+        "fears": {
+          "lemma": "fear",
+          "translation": "恐惧",
+          "pos": "n.",
+          "forms": "fears, feared, fearing",
+          "meanings": "恐惧；害怕；担心；畏惧",
+          "contexts": {
+            "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
+              "translation": "恐惧",
+              "pos": "n."
+            }
+          }
+        },
+        "remember": {
+          "lemma": "remember",
+          "translation": "记得",
+          "pos": "v.",
+          "forms": "remembers, remembered, remembering",
+          "meanings": "记得；想起；记住；回想",
+          "contexts": {
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "记得",
+              "pos": "v."
+            },
+            "I remember when I told him the news.": {
+              "translation": "记得",
+              "pos": "v."
+            }
+          }
+        },
+        "first": {
+          "lemma": "first",
+          "translation": "第一",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "第一；首先；首要的；最初",
+          "contexts": {
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "第一",
+              "pos": "adj."
+            }
+          }
+        },
+        "child": {
+          "lemma": "child",
+          "translation": "孩子",
+          "pos": "n.",
+          "forms": "children",
+          "meanings": "孩子；儿童；子女",
+          "contexts": {
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "孩子",
+              "pos": "n."
+            }
+          }
+        },
+        "big": {
+          "lemma": "big",
+          "translation": "巨大的",
+          "pos": "adj.",
+          "forms": "bigger, biggest",
+          "meanings": "年长的；大的；重大的；大受欢迎的",
+          "contexts": {
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "巨大的",
+              "pos": "adj."
+            }
+          }
+        },
+        "surprise": {
+          "lemma": "surprise",
+          "translation": "惊喜",
+          "pos": "n.",
+          "forms": "surprises, surprised, surprising",
+          "meanings": "惊喜；惊奇；意外的事；使惊奇",
+          "contexts": {
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "惊喜",
+              "pos": "n."
+            }
+          }
+        },
+        "both": {
+          "lemma": "both",
+          "translation": "两者都",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "两者都；双方；既…又…",
+          "contexts": {
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "两者都",
+              "pos": "det."
+            }
+          }
+        },
+        "us": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "我们（宾格）",
+          "contexts": {
+            "I remember our first child was a big surprise to both of us.": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "when": {
+          "lemma": "when",
+          "translation": "当……时",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "当……时；在……时候；既然；考虑到",
+          "contexts": {
+            "I remember when I told him the news.": {
+              "translation": "当……时",
+              "pos": "conj."
+            }
+          }
+        },
+        "him": {
+          "lemma": "he",
+          "translation": "他",
+          "pos": "pron.",
+          "forms": "he, his, him",
+          "meanings": "他（宾格）；他（自己）",
+          "contexts": {
+            "I remember when I told him the news.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "他",
+              "pos": "pron."
+            }
+          }
+        },
+        "news": {
+          "lemma": "news",
+          "translation": "新闻",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "新闻；消息；报道；新事物",
+          "contexts": {
+            "I remember when I told him the news.": {
+              "translation": "消息",
+              "pos": "n."
+            }
+          }
+        },
+        "off": {
+          "lemma": "off",
+          "translation": "离开",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关掉；离开；脱落；休假",
+          "contexts": {
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "离开（某物）",
+              "pos": "prep."
+            }
+          }
+        },
+        "his": {
+          "lemma": "he",
+          "translation": "他的",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他的；属于他的",
+          "contexts": {
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "他的",
+              "pos": "pron."
+            }
+          }
+        },
+        "chair": {
+          "lemma": "chair",
+          "translation": "椅子",
+          "pos": "n.",
+          "forms": "chairs",
+          "meanings": "椅子；主席；职位；负责",
+          "contexts": {
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "椅子",
+              "pos": "n."
+            }
+          }
+        },
+        "saying": {
+          "lemma": "say",
+          "translation": "说着",
+          "pos": "v.",
+          "forms": "says, said, saying",
+          "meanings": "说；讲；表明；谚语",
+          "contexts": {
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "说着",
+              "pos": "v."
+            }
+          }
+        },
+        "over": {
+          "lemma": "over",
+          "translation": "反复地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "遍及；超过；在……上方；结束；翻转",
+          "contexts": {
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "反复地",
+              "pos": "adv."
+            }
+          }
+        },
+        "disbelief": {
+          "lemma": "disbelief",
+          "translation": "不信",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "不信；怀疑；疑惑",
+          "contexts": {
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "怀疑",
+              "pos": "n."
+            }
+          }
+        },
+        "almost": {
+          "lemma": "almost",
+          "translation": "几乎",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "几乎；差不多",
+          "contexts": {
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "几乎",
+              "pos": "adv."
+            }
+          }
+        },
+        "sixty": {
+          "lemma": "sixty",
+          "translation": "六十",
+          "pos": "num.",
+          "forms": "sixties",
+          "meanings": "六十；六十年代",
+          "contexts": {
+            "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.": {
+              "translation": "六十",
+              "pos": "num."
+            }
+          }
+        },
+        "few": {
+          "lemma": "few",
+          "translation": "一些",
+          "pos": "adj.",
+          "forms": "fewer, fewest",
+          "meanings": "少数；不多；一些",
+          "contexts": {
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "一些",
+              "pos": "adj."
+            }
+          }
+        },
+        "months": {
+          "lemma": "month",
+          "translation": "月",
+          "pos": "n.",
+          "forms": "months",
+          "meanings": "月；一个月的时间；月份",
+          "contexts": {
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "月",
+              "pos": "n."
+            }
+          }
+        },
+        "started": {
+          "lemma": "start",
+          "translation": "开始",
+          "pos": "v.",
+          "forms": "starts, started, starting",
+          "meanings": "开始；出发；创办；起动",
+          "contexts": {
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "开始",
+              "pos": "v."
+            }
+          }
+        },
+        "planning": {
+          "lemma": "plan",
+          "translation": "计划",
+          "pos": "v.",
+          "forms": "plans, planned, planning",
+          "meanings": "计划；规划；打算；设计",
+          "contexts": {
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "计划",
+              "pos": "v."
+            }
+          }
+        },
+        "next": {
+          "lemma": "next",
+          "translation": "接下来的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "接下来的；紧邻的；次要的；然后",
+          "contexts": {
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "接下来的",
+              "pos": "adj."
+            }
+          }
+        },
+        "doing": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "v.",
+          "forms": "does, did, done, doing",
+          "meanings": "做；干；从事；表现",
+          "contexts": {
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "做",
+              "pos": "v."
+            }
+          }
+        },
+        "little": {
+          "lemma": "little",
+          "translation": "小的",
+          "pos": "adj.",
+          "forms": "less, least",
+          "meanings": "幼小的；小的；少量的；短暂的",
+          "contexts": {
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "小的",
+              "pos": "adj."
+            }
+          }
+        },
+        "dance": {
+          "lemma": "dance",
+          "translation": "舞蹈",
+          "pos": "n.",
+          "forms": "dances, danced, dancing",
+          "meanings": "舞蹈；舞会；跳舞；摇晃",
+          "contexts": {
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "舞蹈",
+              "pos": "n."
+            }
+          }
+        },
+        "whenever": {
+          "lemma": "whenever",
+          "translation": "每当",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "每当；无论何时；随时",
+          "contexts": {
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "每当",
+              "pos": "conj."
+            }
+          }
+        },
+        "discussed": {
+          "lemma": "discuss",
+          "translation": "讨论",
+          "pos": "v.",
+          "forms": "discusses, discussed, discussing",
+          "meanings": "讨论；商讨；详述；论述",
+          "contexts": {
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "讨论",
+              "pos": "v."
+            }
+          }
+        },
+        "idea": {
+          "lemma": "idea",
+          "translation": "想法",
+          "pos": "n.",
+          "forms": "ideas",
+          "meanings": "观点；想法；念头；概念",
+          "contexts": {
+            "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.": {
+              "translation": "想法",
+              "pos": "n."
+            }
+          }
+        },
+        "thirty": {
+          "lemma": "thirty",
+          "translation": "三十",
+          "pos": "num.",
+          "forms": "thirties",
+          "meanings": "三十；三十个；第三十",
+          "contexts": {
+            "A man, thirty years older than I, lies in a coffin.": {
+              "translation": "三十",
+              "pos": "num."
+            }
+          }
+        },
+        "years": {
+          "lemma": "year",
+          "translation": "年",
+          "pos": "n.",
+          "forms": "years",
+          "meanings": "年；年份；岁数；一年的时间；年度",
+          "contexts": {
+            "A man, thirty years older than I, lies in a coffin.": {
+              "translation": "年（岁）",
+              "pos": "n."
+            }
+          }
+        },
+        "older": {
+          "lemma": "old",
+          "translation": "年长的",
+          "pos": "adj.",
+          "forms": "older, oldest",
+          "meanings": "年长的；旧的；以前的；老练的",
+          "contexts": {
+            "A man, thirty years older than I, lies in a coffin.": {
+              "translation": "年长的",
+              "pos": "adj."
+            }
+          }
+        },
+        "than": {
+          "lemma": "than",
+          "translation": "比",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "比；除……之外；与之相比；宁可",
+          "contexts": {
+            "A man, thirty years older than I, lies in a coffin.": {
+              "translation": "比",
+              "pos": "conj."
+            }
+          }
+        },
+        "lies": {
+          "lemma": "lie",
+          "translation": "躺",
+          "pos": "v.",
+          "forms": "lying, lay, lain, lies",
+          "meanings": "躺；平放；位于；处于……状态",
+          "contexts": {
+            "A man, thirty years older than I, lies in a coffin.": {
+              "translation": "躺着",
+              "pos": "v."
+            }
+          }
+        },
+        "coffin": {
+          "lemma": "coffin",
+          "translation": "棺材",
+          "pos": "n.",
+          "forms": "coffins",
+          "meanings": "棺材；灵柩；深埋地下的矿道",
+          "contexts": {
+            "A man, thirty years older than I, lies in a coffin.": {
+              "translation": "棺材",
+              "pos": "n."
+            }
+          }
+        },
+        "flowers": {
+          "lemma": "flower",
+          "translation": "花",
+          "pos": "n.",
+          "forms": "flowers",
+          "meanings": "花；开花植物；盛开期；精华",
+          "contexts": {
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "花",
+              "pos": "n."
+            }
+          }
+        },
+        "american": {
+          "lemma": "american",
+          "translation": "美国的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "美国的；美国人的；美式英语的",
+          "contexts": {
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "美国的",
+              "pos": "adj."
+            }
+          }
+        },
+        "flag": {
+          "lemma": "flag",
+          "translation": "旗帜",
+          "pos": "n.",
+          "forms": "flags",
+          "meanings": "旗帜；标记；衰退；没精打采",
+          "contexts": {
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "旗帜",
+              "pos": "n."
+            }
+          }
+        },
+        "vfw": {
+          "lemma": "vfw",
+          "translation": "海外战争退伍军人协会",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "海外战争退伍军人协会（Veterans of Foreign Wars的缩写）",
+          "contexts": {
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "海外战争退伍军人协会",
+              "pos": "n."
+            }
+          }
+        },
+        "comrades": {
+          "lemma": "comrade",
+          "translation": "战友",
+          "pos": "n.",
+          "forms": "comrades",
+          "meanings": "战友；同事；伙伴；同志",
+          "contexts": {
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "战友",
+              "pos": "n."
+            }
+          }
+        },
+        "surround": {
+          "lemma": "surround",
+          "translation": "环绕",
+          "pos": "v.",
+          "forms": "surrounds, surrounded, surrounding",
+          "meanings": "环绕；围绕；包围；与……紧密相关",
+          "contexts": {
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "环绕",
+              "pos": "v."
+            }
+          }
+        },
+        "paying": {
+          "lemma": "pay",
+          "translation": "给予（关注、敬意等）",
+          "pos": "v.",
+          "forms": "pays, paid, paying",
+          "meanings": "支付；给予；缴纳；划算",
+          "contexts": {
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "给予（敬意）",
+              "pos": "v."
+            }
+          }
+        },
+        "tribute": {
+          "lemma": "tribute",
+          "translation": "致敬",
+          "pos": "n.",
+          "forms": "tributes",
+          "meanings": "致敬；称赞；贡品；体现",
+          "contexts": {
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "致敬",
+              "pos": "n."
+            }
+          }
+        },
+        "really": {
+          "lemma": "really",
+          "translation": "真正地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "真正地；确实；非常；实际上",
+          "contexts": {
+            "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "真正地",
+              "pos": "adv."
+            }
+          }
+        },
+        "praying": {
+          "lemma": "pray",
+          "translation": "祈祷",
+          "pos": "v.",
+          "forms": "prays, prayed, praying",
+          "meanings": "祈祷；恳求；祈求",
+          "contexts": {
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "祈祷",
+              "pos": "v."
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "在",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/地点）；以（某种程度）；向；针对",
+          "contexts": {
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "在",
+              "pos": "prep."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于；位于",
+          "contexts": {
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "nightmare": {
+          "lemma": "nightmare",
+          "translation": "噩梦",
+          "pos": "n.",
+          "forms": "nightmares",
+          "meanings": "噩梦；梦魇；极痛苦的经历；麻烦的事",
+          "contexts": {
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "噩梦",
+              "pos": "n."
+            }
+          }
+        },
+        "will": {
+          "lemma": "will",
+          "translation": "将要",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将要；会；愿意；意志（名词）",
+          "contexts": {
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "将要",
+              "pos": "modal v."
+            }
+          }
+        },
+        "awake": {
+          "lemma": "awake",
+          "translation": "醒来",
+          "pos": "v.",
+          "forms": "awoke, awoken, awaking",
+          "meanings": "醒来；唤醒；觉醒；意识到",
+          "contexts": {
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "醒来",
+              "pos": "v."
+            }
+          }
+        },
+        "loving": {
+          "lemma": "love",
+          "translation": "充满爱意的",
+          "pos": "adj.",
+          "forms": "loved, loves, loving",
+          "meanings": "充满爱意的；深情的；慈爱的；挚爱的",
+          "contexts": {
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "充满爱意的",
+              "pos": "adj."
+            }
+          }
+        },
+        "arms": {
+          "lemma": "arm",
+          "translation": "怀抱",
+          "pos": "n.",
+          "forms": "arms, armed, arming",
+          "meanings": "怀抱；手臂；武器；装备",
+          "contexts": {
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "怀抱",
+              "pos": "n."
+            }
+          }
+        },
+        "again": {
+          "lemma": "again",
+          "translation": "再一次",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "再一次；又一次；此外；另一方面",
+          "contexts": {
+            "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "再一次",
+              "pos": "adv."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "What can we know from the passage about the writer?",
+          "options": [
+            "She married a man much older than she.",
+            "She is going to give birth to their second child.",
+            "She lost her husband, who was as old as she.",
+            "She lost her father, whom she loved deeply."
+          ],
+          "answer": 0,
+          "explanation": "文章提到作者37岁，而丈夫在得知第一个孩子时说自己快60岁了，且明确提到“A man, thirty years older than I, lies in a coffin”，说明丈夫比作者大很多。",
+          "type": "细节理解",
+          "evidenceSentence": "A man, thirty years older than I, lies in a coffin.",
+          "optionExplanations": [
+            "正确。文中提到丈夫比作者大30岁，符合事实。",
+            "错误。文中提到他们已经有两个孩子，而不是即将生第二个孩子。",
+            "错误。文中明确指出丈夫比作者大30岁，并非同龄。",
+            "错误。文中描述的是丈夫（husband）去世，而不是父亲。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "偷换概念",
+            "偷换概念",
+            "偷换概念"
+          ]
+        },
+        {
+          "prompt": "Which of the following can't be used to describe the writer's feelings for the man?",
+          "options": [
+            "Sad.",
+            "Loving.",
+            "Inseparable",
+            "Complaining."
+          ],
+          "answer": 3,
+          "explanation": "作者表达了对丈夫深切的爱、对现实的悲痛以及对他人的反感，但全文并未表现出对丈夫的抱怨，相反，她认为丈夫是一个好人。",
+          "type": "推理判断",
+          "evidenceSentence": "He was a good man, hardworking, caring and kind.",
+          "optionExplanations": [
+            "错误。作者在葬礼上感到悲伤，这是一个合理的描述。",
+            "错误。作者描述了对丈夫深沉的爱和思念，是一个合理的描述。",
+            "错误。作者在文中表达了希望能与丈夫共同变老的愿望，体现了不可分割的情感。",
+            "正确。作者文中赞美丈夫，对旁人有不满，但并没有抱怨丈夫的行为或品格。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "推理过度",
+            "推理过度",
+            "正确"
+          ]
+        }
+      ],
+      "generationUsage": {
+        "requests": 25,
+        "inputTokens": 49277,
+        "outputTokens": 22271,
+        "totalTokens": 71548,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 25,
+            "inputTokens": 49277,
+            "outputTokens": 22271,
+            "totalTokens": 71548,
             "estimatedCostUsd": null
           }
         }
