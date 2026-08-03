@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T14:55:34.404Z",
+  "generatedAt": "2026-08-03T15:02:38.324Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -69531,6 +69531,2628 @@
             "inputTokens": 46560,
             "outputTokens": 18966,
             "totalTokens": 65526,
+            "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-f2b1ff9fd84cfda6",
+      "title": "RACE 高中英语阅读 high4141",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty. It is famous for being a symbol, not only of a city, but a whole country and condition too.\nIts creator, Danish architect Jorn Utzon , turned 85 last Wednesday. And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6. But Utzon has never seen his Opera House.\nThe story began in 1957 when Utzon won an international competition to design an opera house in Sydney.\nBut not everyone was enthusiastic ( ) . Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design. It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.\n\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.\nAlthough the Sydney Opera House was Utzon's masterpiece, it damaged his career. Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.\nUtzon said he once saw posters of the Opera House. The interiors were different from his design. But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year. It is recognized as one of the great symbolic buildings of the 20th century.",
+      "wordCount": 280,
+      "sentenceTranslations": {
+        "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": "悉尼歌剧院那独一无二的壳状屋顶，使其成为了永恒之美的象征。",
+        "It is famous for being a symbol, not only of a city, but a whole country and condition too.": "它之所以闻名遐迩，不仅因为它是这座城市的标志，更因为它象征着整个国家及其精神风貌。",
+        "Its creator, Danish architect Jorn Utzon , turned 85 last Wednesday.": "它的设计者、丹麦建筑师约恩·乌松上周三满85岁了。",
+        "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": "4月6日，他被授予了有“建筑界诺贝尔奖”之称的普利兹克奖。",
+        "But Utzon has never seen his Opera House.": "但乌松从未亲眼见过他设计的这座歌剧院。",
+        "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": "故事始于1957年，当时乌松在一项为悉尼设计歌剧院的国际竞赛中胜出。",
+        "But not everyone was enthusiastic ( ) .": "但并非所有人都对此感到热心。",
+        "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": "1966年，伍重因与当地政府发生争执，加之公众对该建筑设计的猛烈抨击，最终退出了他的歌剧院项目。",
+        "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": "直到七年后，歌剧院才最终完工，而伍重此后再未回到澳大利亚亲眼看看他的作品成果。",
+        "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": "普利兹克建筑奖评委弗兰克·盖里评价道：“伍重设计的这座建筑远远领先于他的时代，他顶住压力，坚持建造了一座改变了整个国家形象的建筑。”",
+        "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": "尽管悉尼歌剧院是伍重的杰作，但它却损害了他的职业生涯。",
+        "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": "回到丹麦后，他发现很难找到工作，于是便去夏威夷的一所大学担任了一名教师。",
+        "Utzon said he once saw posters of the Opera House.": "伍重说他曾经见过歌剧院的海报。",
+        "The interiors were different from his design.": "内部装修和他原本的设计不同。",
+        "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": "但他表示：“我没有什么遗憾，因为它给了我在澳大利亚一段美妙的经历，对此我心中只有热爱与感激。”",
+        "\" Britain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": "英国女王伊丽莎白于1973年为歌剧院揭幕，如今这里每年举办约3000场活动。",
+        "It is recognized as one of the great symbolic buildings of the 20th century.": "它被公认为20世纪最伟大的标志性建筑之一。"
+      },
+      "glossary": {
+        "while": {
+          "lemma": "while",
+          "translation": "虽然",
+          "pos": "conj.",
+          "forms": "whiles",
+          "meanings": "当……时候；然而；虽然；在……期间",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "虽然",
+              "pos": "conj."
+            }
+          }
+        },
+        "shell": {
+          "lemma": "shell",
+          "translation": "壳",
+          "pos": "n.",
+          "forms": "shells",
+          "meanings": "壳；贝壳；外壳；炮弹；给……去壳",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "壳",
+              "pos": "n."
+            }
+          }
+        },
+        "like": {
+          "lemma": "like",
+          "translation": "像",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "像；如同；例如；喜欢",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "像",
+              "pos": "prep."
+            }
+          }
+        },
+        "roofs": {
+          "lemma": "roof",
+          "translation": "屋顶",
+          "pos": "n.",
+          "forms": "roofs",
+          "meanings": "屋顶；顶部；掩盖；覆盖",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "屋顶",
+              "pos": "n."
+            }
+          }
+        },
+        "unlike": {
+          "lemma": "unlike",
+          "translation": "不像",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "不像；与……不同；不同的",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "不像",
+              "pos": "prep."
+            }
+          }
+        },
+        "anything": {
+          "lemma": "anything",
+          "translation": "任何事物",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "任何事物；某事；（用于疑问或否定句）什么事",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "任何事物",
+              "pos": "pron."
+            }
+          }
+        },
+        "else": {
+          "lemma": "else",
+          "translation": "其他",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "其他；另外；别的；此外",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "其他",
+              "pos": "adj."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……之内",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "在……期间",
+              "pos": "prep."
+            },
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            }
+          }
+        },
+        "the": {
+          "lemma": "the",
+          "translation": "这",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这；那；（用于特指）；（用于最高级前）",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "Utzon said he once saw posters of the Opera House.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "The interiors were different from his design.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "这",
+              "pos": "art."
+            }
+          }
+        },
+        "world": {
+          "lemma": "world",
+          "translation": "世界",
+          "pos": "n.",
+          "forms": "worlds",
+          "meanings": "世界；地球；领域；世间",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "世界",
+              "pos": "n."
+            }
+          }
+        },
+        "make": {
+          "lemma": "make",
+          "translation": "使……成为",
+          "pos": "v.",
+          "forms": "made, making, makes",
+          "meanings": "使；制作；制造；构成；制定",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "使……成为",
+              "pos": "v."
+            }
+          }
+        },
+        "sydney": {
+          "lemma": "sydney",
+          "translation": "悉尼",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "悉尼（澳大利亚城市名）",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "悉尼",
+              "pos": "n."
+            },
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "悉尼",
+              "pos": "n."
+            },
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "悉尼",
+              "pos": "n."
+            }
+          }
+        },
+        "opera": {
+          "lemma": "opera",
+          "translation": "歌剧",
+          "pos": "n.",
+          "forms": "operas",
+          "meanings": "歌剧；歌剧院；歌剧艺术",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "歌剧",
+              "pos": "n."
+            },
+            "But Utzon has never seen his Opera House.": {
+              "translation": "歌剧",
+              "pos": "n."
+            },
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "歌剧",
+              "pos": "n."
+            },
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "歌剧",
+              "pos": "n."
+            },
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "歌剧",
+              "pos": "n."
+            },
+            "Utzon said he once saw posters of the Opera House.": {
+              "translation": "歌剧",
+              "pos": "n."
+            },
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "歌剧",
+              "pos": "n."
+            }
+          }
+        },
+        "house": {
+          "lemma": "house",
+          "translation": "（大型公共）建筑",
+          "pos": "n.",
+          "forms": "houses",
+          "meanings": "房子；家；住宅；机构；（大型公共）建筑",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "建筑",
+              "pos": "n."
+            },
+            "But Utzon has never seen his Opera House.": {
+              "translation": "建筑",
+              "pos": "n."
+            },
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "建筑",
+              "pos": "n."
+            },
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "建筑",
+              "pos": "n."
+            },
+            "Utzon said he once saw posters of the Opera House.": {
+              "translation": "建筑",
+              "pos": "n."
+            },
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "建筑",
+              "pos": "n."
+            }
+          }
+        },
+        "an": {
+          "lemma": "an",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "一个；每一；任何",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "image": {
+          "lemma": "image",
+          "translation": "形象",
+          "pos": "n.",
+          "forms": "images",
+          "meanings": "形象；印象；影像；图象；化身",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "形象",
+              "pos": "n."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "形象",
+              "pos": "n."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；属于；由……组成；（表示数量或部分）",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Utzon said he once saw posters of the Opera House.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "timeless": {
+          "lemma": "timeless",
+          "translation": "永恒的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "永恒的；不受时间影响的；与时间无关的",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "永恒的",
+              "pos": "adj."
+            }
+          }
+        },
+        "beauty": {
+          "lemma": "beauty",
+          "translation": "美",
+          "pos": "n.",
+          "forms": "beauties",
+          "meanings": "美；美丽；美人；优美；极好的事物",
+          "contexts": {
+            "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.": {
+              "translation": "美",
+              "pos": "n."
+            }
+          }
+        },
+        "it": {
+          "lemma": "it",
+          "translation": "它",
+          "pos": "pron.",
+          "forms": "its, itself",
+          "meanings": "它；这；（引导形式主语）",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "它",
+              "pos": "pron."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于；位于",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "存在",
+              "pos": "v."
+            },
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "famous": {
+          "lemma": "famous",
+          "translation": "著名的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "著名的；出名的；极好的",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "著名的",
+              "pos": "adj."
+            }
+          }
+        },
+        "for": {
+          "lemma": "for",
+          "translation": "因为",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "为了；支持；因为；给；长达",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "因为",
+              "pos": "prep."
+            },
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "因为",
+              "pos": "conj."
+            }
+          }
+        },
+        "being": {
+          "lemma": "be",
+          "translation": "成为",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, been, being",
+          "meanings": "存在；处于某种状态；表现；成为",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "成为",
+              "pos": "v."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何；一种；同一",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "一名",
+              "pos": "art."
+            },
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "一种",
+              "pos": "art."
+            }
+          }
+        },
+        "symbol": {
+          "lemma": "symbol",
+          "translation": "象征",
+          "pos": "n.",
+          "forms": "symbols",
+          "meanings": "象征；符号；标志；记号",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "象征",
+              "pos": "n."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是；绝非",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "But not everyone was enthusiastic ( ) .": {
+              "translation": "并非",
+              "pos": "adv."
+            },
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "没有",
+              "pos": "adv."
+            }
+          }
+        },
+        "only": {
+          "lemma": "only",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；只；才；唯一的",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "仅仅",
+              "pos": "adv."
+            },
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "仅仅",
+              "pos": "adv."
+            }
+          }
+        },
+        "city": {
+          "lemma": "city",
+          "translation": "城市",
+          "pos": "n.",
+          "forms": "cities",
+          "meanings": "城市；都市；全市居民",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "城市",
+              "pos": "n."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "But Utzon has never seen his Opera House.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "But not everyone was enthusiastic ( ) .": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "whole": {
+          "lemma": "whole",
+          "translation": "整个的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "整个的；完整的；全部的；全体的",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "整个的",
+              "pos": "adj."
+            }
+          }
+        },
+        "country": {
+          "lemma": "country",
+          "translation": "国家",
+          "pos": "n.",
+          "forms": "countries",
+          "meanings": "国家；国土；农村；乡下",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "国家",
+              "pos": "n."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "国家",
+              "pos": "n."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "而且",
+              "pos": "conj."
+            },
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "并且",
+              "pos": "conj."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "并且",
+              "pos": "conj."
+            },
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "并且",
+              "pos": "conj."
+            },
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "并且",
+              "pos": "conj."
+            }
+          }
+        },
+        "condition": {
+          "lemma": "condition",
+          "translation": "社会状况",
+          "pos": "n.",
+          "forms": "conditions",
+          "meanings": "社会状况；条件；环境；身体健康状况",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "社会状况",
+              "pos": "n."
+            }
+          }
+        },
+        "too": {
+          "lemma": "too",
+          "translation": "也",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "也；太；过于；很",
+          "contexts": {
+            "It is famous for being a symbol, not only of a city, but a whole country and condition too.": {
+              "translation": "也",
+              "pos": "adv."
+            }
+          }
+        },
+        "its": {
+          "lemma": "it",
+          "translation": "它的",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "它的；属于它的",
+          "contexts": {
+            "Its creator, Danish architect Jorn Utzon , turned 85 last Wednesday.": {
+              "translation": "它的",
+              "pos": "pron."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "它的",
+              "pos": "pron."
+            }
+          }
+        },
+        "creator": {
+          "lemma": "creator",
+          "translation": "创建者",
+          "pos": "n.",
+          "forms": "creators",
+          "meanings": "创建者；创作者；造物主",
+          "contexts": {
+            "Its creator, Danish architect Jorn Utzon , turned 85 last Wednesday.": {
+              "translation": "创建者",
+              "pos": "n."
+            }
+          }
+        },
+        "danish": {
+          "lemma": "Danish",
+          "translation": "丹麦的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "丹麦的；丹麦人的；丹麦语的",
+          "contexts": {
+            "Its creator, Danish architect Jorn Utzon , turned 85 last Wednesday.": {
+              "translation": "丹麦的",
+              "pos": "adj."
+            }
+          }
+        },
+        "architect": {
+          "lemma": "architect",
+          "translation": "建筑师",
+          "pos": "n.",
+          "forms": "architects",
+          "meanings": "建筑师；设计师；创造者",
+          "contexts": {
+            "Its creator, Danish architect Jorn Utzon , turned 85 last Wednesday.": {
+              "translation": "建筑师",
+              "pos": "n."
+            }
+          }
+        },
+        "jorn": {
+          "lemma": "Jorn",
+          "translation": "约恩（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "约恩（人名）",
+          "contexts": {
+            "Its creator, Danish architect Jorn Utzon , turned 85 last Wednesday.": {
+              "translation": "约恩",
+              "pos": "n."
+            }
+          }
+        },
+        "utzon": {
+          "lemma": "utzon",
+          "translation": "乌松（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "丹麦著名建筑师；悉尼歌剧院的设计者；人名；姓氏",
+          "contexts": {
+            "Its creator, Danish architect Jorn Utzon , turned 85 last Wednesday.": {
+              "translation": "乌松",
+              "pos": "n."
+            },
+            "But Utzon has never seen his Opera House.": {
+              "translation": "乌松",
+              "pos": "n."
+            },
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "乌松",
+              "pos": "n."
+            },
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "乌松",
+              "pos": "n."
+            },
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "乌松",
+              "pos": "n."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "乌松",
+              "pos": "n."
+            },
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "乌松",
+              "pos": "n."
+            },
+            "Utzon said he once saw posters of the Opera House.": {
+              "translation": "乌松",
+              "pos": "n."
+            }
+          }
+        },
+        "turned": {
+          "lemma": "turn",
+          "translation": "（年龄）达到",
+          "pos": "v.",
+          "forms": "turns, turned, turning",
+          "meanings": "达到（某年龄）；转向；变成；转动；旋转",
+          "contexts": {
+            "Its creator, Danish architect Jorn Utzon , turned 85 last Wednesday.": {
+              "translation": "达到（85岁）",
+              "pos": "v."
+            }
+          }
+        },
+        "last": {
+          "lemma": "last",
+          "translation": "上一个",
+          "pos": "adj.",
+          "forms": "lasts, lasted, lasting",
+          "meanings": "上一个；最后的；持续；维持；最末的",
+          "contexts": {
+            "Its creator, Danish architect Jorn Utzon , turned 85 last Wednesday.": {
+              "translation": "上一个",
+              "pos": "adj."
+            }
+          }
+        },
+        "wednesday": {
+          "lemma": "wednesday",
+          "translation": "周三",
+          "pos": "n.",
+          "forms": "wednesdays",
+          "meanings": "星期三；周三",
+          "contexts": {
+            "Its creator, Danish architect Jorn Utzon , turned 85 last Wednesday.": {
+              "translation": "周三",
+              "pos": "n."
+            }
+          }
+        },
+        "he": {
+          "lemma": "he",
+          "translation": "他",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他；（指代男性）；那个人",
+          "contexts": {
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "Utzon said he once saw posters of the Opera House.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "他",
+              "pos": "pron."
+            }
+          }
+        },
+        "was": {
+          "lemma": "be",
+          "translation": "是（过去式）",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；处于；在；存在；成为",
+          "contexts": {
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "是（被动语态助词）",
+              "pos": "v."
+            },
+            "But not everyone was enthusiastic ( ) .": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "awarded": {
+          "lemma": "award",
+          "translation": "授予",
+          "pos": "v.",
+          "forms": "awards, awarded, awarding",
+          "meanings": "授予；奖给；裁定；判定",
+          "contexts": {
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "被授予",
+              "pos": "v."
+            }
+          }
+        },
+        "prizker": {
+          "lemma": "prizker",
+          "translation": "普利兹克（建筑奖名称的一部分）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "普利兹克；普利兹克奖（名字）",
+          "contexts": {
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "普利兹克",
+              "pos": "n."
+            }
+          }
+        },
+        "prize": {
+          "lemma": "prize",
+          "translation": "奖项",
+          "pos": "n.",
+          "forms": "prizes",
+          "meanings": "奖项；奖金；奖品；珍视",
+          "contexts": {
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "奖项",
+              "pos": "n."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "奖",
+              "pos": "n."
+            }
+          }
+        },
+        "known": {
+          "lemma": "know",
+          "translation": "被称为",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "被称为；众所周知的；已知的；被认识的",
+          "contexts": {
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "被称为",
+              "pos": "v."
+            }
+          }
+        },
+        "as": {
+          "lemma": "as",
+          "translation": "作为",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "因为；像……一样；作为；当……时；正如",
+          "contexts": {
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "作为",
+              "pos": "prep."
+            },
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "被看作",
+              "pos": "prep."
+            }
+          }
+        },
+        "nobel": {
+          "lemma": "nobel",
+          "translation": "诺贝尔",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "诺贝尔的；诺贝尔奖的",
+          "contexts": {
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "诺贝尔",
+              "pos": "adj."
+            }
+          }
+        },
+        "architecture": {
+          "lemma": "architecture",
+          "translation": "建筑学",
+          "pos": "n.",
+          "forms": "architectures",
+          "meanings": "建筑学；建筑风格；建筑设计；系统结构",
+          "contexts": {
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "建筑学",
+              "pos": "n."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "建筑",
+              "pos": "n."
+            }
+          }
+        },
+        "on": {
+          "lemma": "on",
+          "translation": "在……日期",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……日期；关于；在……之上；专注于；继续",
+          "contexts": {
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "在……日期",
+              "pos": "prep."
+            }
+          }
+        },
+        "april": {
+          "lemma": "april",
+          "translation": "四月",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "四月",
+          "contexts": {
+            "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.": {
+              "translation": "四月",
+              "pos": "n."
+            }
+          }
+        },
+        "has": {
+          "lemma": "have",
+          "translation": "已经",
+          "pos": "v.",
+          "forms": "has, had, having",
+          "meanings": "已经；有；经历；吃；使",
+          "contexts": {
+            "But Utzon has never seen his Opera House.": {
+              "translation": "已经",
+              "pos": "aux."
+            },
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "已经",
+              "pos": "aux."
+            }
+          }
+        },
+        "never": {
+          "lemma": "never",
+          "translation": "从不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "从不；绝不；决非",
+          "contexts": {
+            "But Utzon has never seen his Opera House.": {
+              "translation": "从不",
+              "pos": "adv."
+            },
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "从不",
+              "pos": "adv."
+            }
+          }
+        },
+        "seen": {
+          "lemma": "see",
+          "translation": "看见",
+          "pos": "v.",
+          "forms": "saw, seen, seeing, sees",
+          "meanings": "看见；领会；理解；被看待",
+          "contexts": {
+            "But Utzon has never seen his Opera House.": {
+              "translation": "看见",
+              "pos": "v."
+            }
+          }
+        },
+        "his": {
+          "lemma": "he",
+          "translation": "他的",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他的；属于他的",
+          "contexts": {
+            "But Utzon has never seen his Opera House.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "The interiors were different from his design.": {
+              "translation": "他的",
+              "pos": "pron."
+            }
+          }
+        },
+        "story": {
+          "lemma": "story",
+          "translation": "故事",
+          "pos": "n.",
+          "forms": "stories",
+          "meanings": "故事；传说；报道；楼层",
+          "contexts": {
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "故事",
+              "pos": "n."
+            }
+          }
+        },
+        "began": {
+          "lemma": "begin",
+          "translation": "开始",
+          "pos": "v.",
+          "forms": "begins, began, begun, beginning",
+          "meanings": "开始；着手；创办；起初",
+          "contexts": {
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "开始",
+              "pos": "v."
+            }
+          }
+        },
+        "when": {
+          "lemma": "when",
+          "translation": "当……时",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "当……时；在……时候；既然；考虑到",
+          "contexts": {
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "当……时",
+              "pos": "conj."
+            }
+          }
+        },
+        "won": {
+          "lemma": "win",
+          "translation": "赢得",
+          "pos": "v.",
+          "forms": "wins, winning, won",
+          "meanings": "赢得；获胜；争取；获得",
+          "contexts": {
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "赢得了",
+              "pos": "v."
+            }
+          }
+        },
+        "international": {
+          "lemma": "international",
+          "translation": "国际的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "国际的；跨国的；国际性的；国际组织",
+          "contexts": {
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "国际的",
+              "pos": "adj."
+            }
+          }
+        },
+        "competition": {
+          "lemma": "competition",
+          "translation": "竞赛",
+          "pos": "n.",
+          "forms": "competitions",
+          "meanings": "竞赛；竞争；比赛；角逐",
+          "contexts": {
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "竞赛",
+              "pos": "n."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "用于构成不定式",
+          "pos": "particle",
+          "forms": "无常见变形",
+          "meanings": "构成不定式；向；给；到；对于",
+          "contexts": {
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "到",
+              "pos": "prep."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "到",
+              "pos": "prep."
+            }
+          }
+        },
+        "design": {
+          "lemma": "design",
+          "translation": "设计",
+          "pos": "n.",
+          "forms": "designs, designed, designing",
+          "meanings": "设计；图案；企图",
+          "contexts": {
+            "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.": {
+              "translation": "设计",
+              "pos": "v."
+            },
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "设计",
+              "pos": "n."
+            },
+            "The interiors were different from his design.": {
+              "translation": "设计",
+              "pos": "n."
+            }
+          }
+        },
+        "everyone": {
+          "lemma": "everyone",
+          "translation": "每个人",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "每个人；人人",
+          "contexts": {
+            "But not everyone was enthusiastic ( ) .": {
+              "translation": "每个人",
+              "pos": "pron."
+            }
+          }
+        },
+        "enthusiastic": {
+          "lemma": "enthusiastic",
+          "translation": "热情的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "热情的；热心的；极感兴趣的",
+          "contexts": {
+            "But not everyone was enthusiastic ( ) .": {
+              "translation": "热情的",
+              "pos": "adj."
+            }
+          }
+        },
+        "left": {
+          "lemma": "leave",
+          "translation": "离开",
+          "pos": "v.",
+          "forms": "leaves, leaving, left",
+          "meanings": "离开；丢下；留下；遗留；使处于某种状态",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "离开",
+              "pos": "v."
+            }
+          }
+        },
+        "project": {
+          "lemma": "project",
+          "translation": "项目",
+          "pos": "n.",
+          "forms": "projects, projected, projecting",
+          "meanings": "项目；课题；工程；计划",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "项目",
+              "pos": "n."
+            }
+          }
+        },
+        "after": {
+          "lemma": "after",
+          "translation": "在……之后",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之后；后来；跟随；依照",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "在……之后",
+              "pos": "prep."
+            }
+          }
+        },
+        "argument": {
+          "lemma": "argument",
+          "translation": "争论",
+          "pos": "n.",
+          "forms": "arguments",
+          "meanings": "争论；辩论；论据；论点",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "争论",
+              "pos": "n."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "与……一起",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "与……一起；使用；带有；由于；关于",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "与",
+              "pos": "prep."
+            }
+          }
+        },
+        "local": {
+          "lemma": "local",
+          "translation": "当地的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "当地的；本地的；局部的",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "当地的",
+              "pos": "adj."
+            }
+          }
+        },
+        "government": {
+          "lemma": "government",
+          "translation": "政府",
+          "pos": "n.",
+          "forms": "governments",
+          "meanings": "政府；政体；管辖；治理",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "政府",
+              "pos": "n."
+            }
+          }
+        },
+        "storm": {
+          "lemma": "storm",
+          "translation": "一阵（强烈的）",
+          "pos": "n.",
+          "forms": "storms",
+          "meanings": "风暴；一场（喧闹/抗议）；暴风雨",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "一阵（激烈的）",
+              "pos": "n."
+            }
+          }
+        },
+        "public": {
+          "lemma": "public",
+          "translation": "公众的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "公立的；公共的；公开的；大众的",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "公众的",
+              "pos": "adj."
+            }
+          }
+        },
+        "criticism": {
+          "lemma": "criticism",
+          "translation": "批评",
+          "pos": "n.",
+          "forms": "criticisms",
+          "meanings": "批评；指责；评论；批判",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "批评",
+              "pos": "n."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "批评",
+              "pos": "n."
+            }
+          }
+        },
+        "over": {
+          "lemma": "over",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；超过；在……上方；遍及；结束",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "关于",
+              "pos": "prep."
+            }
+          }
+        },
+        "building's": {
+          "lemma": "building",
+          "translation": "建筑物的",
+          "pos": "n.",
+          "forms": "buildings",
+          "meanings": "建筑物；房屋；大楼；建筑业",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "建筑物的",
+              "pos": "n."
+            }
+          }
+        },
+        "completed": {
+          "lemma": "complete",
+          "translation": "完成",
+          "pos": "v.",
+          "forms": "completes, completing, completed",
+          "meanings": "完成；结束；使完整；填写",
+          "contexts": {
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "完成",
+              "pos": "v."
+            }
+          }
+        },
+        "until": {
+          "lemma": "until",
+          "translation": "直到……为止",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "直到……为止；在……之前；到……时；直到……才",
+          "contexts": {
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "直到……为止",
+              "pos": "prep."
+            }
+          }
+        },
+        "seven": {
+          "lemma": "seven",
+          "translation": "七",
+          "pos": "num.",
+          "forms": "无常见变形",
+          "meanings": "七；七个；七岁",
+          "contexts": {
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "七",
+              "pos": "num."
+            }
+          }
+        },
+        "years": {
+          "lemma": "year",
+          "translation": "年",
+          "pos": "n.",
+          "forms": "years",
+          "meanings": "年；年份；岁数；一年的时间；年度",
+          "contexts": {
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "年",
+              "pos": "n."
+            }
+          }
+        },
+        "later": {
+          "lemma": "later",
+          "translation": "后来",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "后来；稍后；以后",
+          "contexts": {
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "后来",
+              "pos": "adv."
+            }
+          }
+        },
+        "returned": {
+          "lemma": "return",
+          "translation": "返回",
+          "pos": "v.",
+          "forms": "returns, returning, returned",
+          "meanings": "返回；归还；回复；回报",
+          "contexts": {
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "返回",
+              "pos": "v."
+            }
+          }
+        },
+        "australia": {
+          "lemma": "australia",
+          "translation": "澳大利亚",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "澳大利亚",
+          "contexts": {
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "澳大利亚",
+              "pos": "n."
+            },
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "澳大利亚",
+              "pos": "n."
+            }
+          }
+        },
+        "see": {
+          "lemma": "see",
+          "translation": "看见",
+          "pos": "v.",
+          "forms": "saw, seen, seeing",
+          "meanings": "看见；查看；理解；拜访；观看",
+          "contexts": {
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "看见",
+              "pos": "v."
+            }
+          }
+        },
+        "result": {
+          "lemma": "result",
+          "translation": "结果",
+          "pos": "n.",
+          "forms": "results, resulted, resulting",
+          "meanings": "结果；后果；导致；起因于；产生",
+          "contexts": {
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "结果",
+              "pos": "n."
+            }
+          }
+        },
+        "work": {
+          "lemma": "work",
+          "translation": "工作",
+          "pos": "n.",
+          "forms": "works, worked, working",
+          "meanings": "工作；作品；著作；劳动；运作",
+          "contexts": {
+            "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.": {
+              "translation": "作品",
+              "pos": "n."
+            },
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "工作",
+              "pos": "n."
+            }
+          }
+        },
+        "made": {
+          "lemma": "make",
+          "translation": "创造",
+          "pos": "v.",
+          "forms": "making, made, makes",
+          "meanings": "制造；使；做出；赚取；创作",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "创作",
+              "pos": "v."
+            }
+          }
+        },
+        "building": {
+          "lemma": "building",
+          "translation": "建筑物",
+          "pos": "n.",
+          "forms": "buildings",
+          "meanings": "建筑物；楼房；建筑业；建造",
+          "contexts": {
+            "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.": {
+              "translation": "建筑物",
+              "pos": "n."
+            },
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "建筑物",
+              "pos": "n."
+            }
+          }
+        },
+        "well": {
+          "lemma": "well",
+          "translation": "很",
+          "pos": "adv.",
+          "forms": "better, best",
+          "meanings": "很；相当；完全；很好地；适当地",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "很",
+              "pos": "adv."
+            }
+          }
+        },
+        "ahead": {
+          "lemma": "ahead",
+          "translation": "领先",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向前；领先；提前；预先",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "领先",
+              "pos": "adv."
+            }
+          }
+        },
+        "time": {
+          "lemma": "time",
+          "translation": "时代",
+          "pos": "n.",
+          "forms": "times",
+          "meanings": "时间；时代；次数；倍数；时刻",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "时代",
+              "pos": "n."
+            }
+          }
+        },
+        "persevered": {
+          "lemma": "persevere",
+          "translation": "坚持不懈",
+          "pos": "v.",
+          "forms": "perseveres, persevered, persevering",
+          "meanings": "坚持；不屈不挠；锲而不舍",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "坚持不懈",
+              "pos": "v."
+            }
+          }
+        },
+        "through": {
+          "lemma": "through",
+          "translation": "经历",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "通过；经历；经受住；穿过；自始至终",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "经历",
+              "pos": "prep."
+            }
+          }
+        },
+        "build": {
+          "lemma": "build",
+          "translation": "建造",
+          "pos": "v.",
+          "forms": "builds, built, building",
+          "meanings": "建造；建立；开发；增强",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "建造",
+              "pos": "v."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "引导定语从句",
+          "pos": "pron./conj.",
+          "forms": "those",
+          "meanings": "那个；那；引导从句；如此",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "引导定语从句",
+              "pos": "pron."
+            }
+          }
+        },
+        "changed": {
+          "lemma": "change",
+          "translation": "改变了",
+          "pos": "v.",
+          "forms": "changes, changed, changing",
+          "meanings": "改变；变化；兑换；更换",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "改变了",
+              "pos": "v."
+            }
+          }
+        },
+        "entire": {
+          "lemma": "entire",
+          "translation": "整个的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "整个的；全部的；完全的",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "整个的",
+              "pos": "adj."
+            }
+          }
+        },
+        "said": {
+          "lemma": "say",
+          "translation": "说",
+          "pos": "v.",
+          "forms": "says, saying, said",
+          "meanings": "说；讲；陈述；表达；声称",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "说",
+              "pos": "v."
+            },
+            "Utzon said he once saw posters of the Opera House.": {
+              "translation": "说",
+              "pos": "v."
+            },
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "说",
+              "pos": "v."
+            }
+          }
+        },
+        "frank": {
+          "lemma": "frank",
+          "translation": "弗兰克（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "坦率的；直率的；弗兰克（人名）",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "弗兰克",
+              "pos": "n."
+            }
+          }
+        },
+        "gehry": {
+          "lemma": "gehry",
+          "translation": "盖里（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "盖里（人名，著名建筑师）",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "盖里",
+              "pos": "n."
+            }
+          }
+        },
+        "pritzer": {
+          "lemma": "pritzer",
+          "translation": "普利兹克（建筑奖名，此处为拼写变体/特指）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "普利兹克（专有名词）",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "普利兹克",
+              "pos": "n."
+            }
+          }
+        },
+        "judge": {
+          "lemma": "judge",
+          "translation": "评委",
+          "pos": "n.",
+          "forms": "judges, judged, judging",
+          "meanings": "评判；判断；法官；评委；断定",
+          "contexts": {
+            "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.": {
+              "translation": "评委",
+              "pos": "n."
+            }
+          }
+        },
+        "although": {
+          "lemma": "although",
+          "translation": "尽管",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "尽管；虽然；然而",
+          "contexts": {
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "尽管",
+              "pos": "conj."
+            }
+          }
+        },
+        "utzon's": {
+          "lemma": "utzon",
+          "translation": "伍重（人名）的",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "伍重（丹麦建筑师约恩·伍重）",
+          "contexts": {
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "伍重的",
+              "pos": "n."
+            }
+          }
+        },
+        "masterpiece": {
+          "lemma": "masterpiece",
+          "translation": "杰作",
+          "pos": "n.",
+          "forms": "masterpieces",
+          "meanings": "杰作；名著；代表作",
+          "contexts": {
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "杰作",
+              "pos": "n."
+            }
+          }
+        },
+        "damaged": {
+          "lemma": "damage",
+          "translation": "损害",
+          "pos": "v.",
+          "forms": "damages, damaged, damaging",
+          "meanings": "损害；破坏；损伤；损坏",
+          "contexts": {
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "损害",
+              "pos": "v."
+            }
+          }
+        },
+        "career": {
+          "lemma": "career",
+          "translation": "职业生涯",
+          "pos": "n.",
+          "forms": "careers",
+          "meanings": "职业；事业；生涯；经历",
+          "contexts": {
+            "Although the Sydney Opera House was Utzon's masterpiece, it damaged his career.": {
+              "translation": "职业生涯",
+              "pos": "n."
+            }
+          }
+        },
+        "upon": {
+          "lemma": "upon",
+          "translation": "在……之后",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之后；关于；在……之上；当……之时",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "在……之后",
+              "pos": "prep."
+            }
+          }
+        },
+        "return": {
+          "lemma": "return",
+          "translation": "返回",
+          "pos": "n.",
+          "forms": "returns, returned, returning",
+          "meanings": "返回；归还；重现；回报",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "返回",
+              "pos": "n."
+            }
+          }
+        },
+        "denmark": {
+          "lemma": "denmark",
+          "translation": "丹麦",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "丹麦（国家名）",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "丹麦",
+              "pos": "n."
+            }
+          }
+        },
+        "found": {
+          "lemma": "find",
+          "translation": "发现",
+          "pos": "v.",
+          "forms": "found, finding",
+          "meanings": "发现；查明；觉得；获得",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "发现",
+              "pos": "v."
+            }
+          }
+        },
+        "hard": {
+          "lemma": "hard",
+          "translation": "困难的",
+          "pos": "adj.",
+          "forms": "harder, hardest",
+          "meanings": "困难的；努力的；硬的；艰难的",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "困难的",
+              "pos": "adj."
+            }
+          }
+        },
+        "come": {
+          "lemma": "come",
+          "translation": "出现/到来",
+          "pos": "v.",
+          "forms": "came, coming, comes",
+          "meanings": "到来；出现；到达；来",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "出现/被得到",
+              "pos": "v."
+            }
+          }
+        },
+        "by": {
+          "lemma": "by",
+          "translation": "经由",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "通过；凭借；被；在……旁边；在……之前",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "经由/凭借",
+              "pos": "prep."
+            }
+          }
+        },
+        "so": {
+          "lemma": "so",
+          "translation": "因此",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "因此；那么；如此；非常",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "因此",
+              "pos": "conj."
+            }
+          }
+        },
+        "become": {
+          "lemma": "become",
+          "translation": "成为",
+          "pos": "v.",
+          "forms": "became, become, becoming",
+          "meanings": "变得；成为；适应；合适",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "成为",
+              "pos": "v."
+            }
+          }
+        },
+        "teacher": {
+          "lemma": "teacher",
+          "translation": "教师",
+          "pos": "n.",
+          "forms": "teachers",
+          "meanings": "教师；导师；教练；教员",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "教师",
+              "pos": "n."
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "在",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/地点）；以（某种程度）；向；针对",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "在",
+              "pos": "prep."
+            }
+          }
+        },
+        "university": {
+          "lemma": "university",
+          "translation": "大学",
+          "pos": "n.",
+          "forms": "universities",
+          "meanings": "大学；高等学府；综合性大学",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "大学",
+              "pos": "n."
+            }
+          }
+        },
+        "hawaii": {
+          "lemma": "hawaii",
+          "translation": "夏威夷",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "夏威夷；夏威夷州",
+          "contexts": {
+            "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.": {
+              "translation": "夏威夷",
+              "pos": "n."
+            }
+          }
+        },
+        "once": {
+          "lemma": "once",
+          "translation": "曾经",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "一次；曾经；一旦",
+          "contexts": {
+            "Utzon said he once saw posters of the Opera House.": {
+              "translation": "曾经",
+              "pos": "adv."
+            }
+          }
+        },
+        "saw": {
+          "lemma": "see",
+          "translation": "看见",
+          "pos": "v.",
+          "forms": "saw, seen, seeing",
+          "meanings": "看见；见证；明白；考虑；领会",
+          "contexts": {
+            "Utzon said he once saw posters of the Opera House.": {
+              "translation": "看见",
+              "pos": "v."
+            }
+          }
+        },
+        "posters": {
+          "lemma": "poster",
+          "translation": "海报",
+          "pos": "n.",
+          "forms": "posters",
+          "meanings": "海报；广告画；招贴",
+          "contexts": {
+            "Utzon said he once saw posters of the Opera House.": {
+              "translation": "海报",
+              "pos": "n."
+            }
+          }
+        },
+        "interiors": {
+          "lemma": "interior",
+          "translation": "内部",
+          "pos": "n.",
+          "forms": "interiors",
+          "meanings": "内部；内饰；内景",
+          "contexts": {
+            "The interiors were different from his design.": {
+              "translation": "内部",
+              "pos": "n."
+            }
+          }
+        },
+        "were": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；存在；变为",
+          "contexts": {
+            "The interiors were different from his design.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "different": {
+          "lemma": "different",
+          "translation": "不同的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "不同的；各种各样的；异类的",
+          "contexts": {
+            "The interiors were different from his design.": {
+              "translation": "不同的",
+              "pos": "adj."
+            }
+          }
+        },
+        "from": {
+          "lemma": "from",
+          "translation": "与……不同",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "从；来自；因为；与……不同；起始",
+          "contexts": {
+            "The interiors were different from his design.": {
+              "translation": "与……不同",
+              "pos": "prep."
+            }
+          }
+        },
+        "there": {
+          "lemma": "there",
+          "translation": "有（引导there be句型）",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "有（引导there be句型）；在那里；向那里；到那里",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "有（引导there be句型）",
+              "pos": "adv."
+            }
+          }
+        },
+        "no": {
+          "lemma": "no",
+          "translation": "没有",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "没有；不；禁止；一点也不",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "没有",
+              "pos": "det."
+            }
+          }
+        },
+        "regret": {
+          "lemma": "regret",
+          "translation": "后悔",
+          "pos": "n.",
+          "forms": "regrets, regretted, regretting",
+          "meanings": "后悔；遗憾；懊悔；惋惜",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "后悔",
+              "pos": "n."
+            }
+          }
+        },
+        "gave": {
+          "lemma": "give",
+          "translation": "给予",
+          "pos": "v.",
+          "forms": "gives, gave, given, giving",
+          "meanings": "给予；提供；交给；举办；产生",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "给予",
+              "pos": "v."
+            }
+          }
+        },
+        "me": {
+          "lemma": "I",
+          "translation": "我",
+          "pos": "pron.",
+          "forms": "my, mine, me",
+          "meanings": "我（宾格）",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "我",
+              "pos": "pron."
+            }
+          }
+        },
+        "such": {
+          "lemma": "such",
+          "translation": "如此的",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "这样的；如此的；例如；十分的",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "如此的",
+              "pos": "det."
+            }
+          }
+        },
+        "wonderful": {
+          "lemma": "wonderful",
+          "translation": "极好的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "极好的；精彩的；美妙的；奇妙的",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "极好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "experience": {
+          "lemma": "experience",
+          "translation": "经历",
+          "pos": "n.",
+          "forms": "experiences, experienced, experiencing",
+          "meanings": "经历；体验；感受；经验",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "经历",
+              "pos": "n."
+            }
+          }
+        },
+        "towards": {
+          "lemma": "towards",
+          "translation": "对于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "朝；向；对于；为了；接近",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "对于（那段经历）",
+              "pos": "prep."
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "（引导定语从句）",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "（引导定语从句，指代前面的那段经历）",
+              "pos": "pron."
+            }
+          }
+        },
+        "i": {
+          "lemma": "I",
+          "translation": "我",
+          "pos": "pron.",
+          "forms": "my, mine, me",
+          "meanings": "我",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "我",
+              "pos": "pron."
+            }
+          }
+        },
+        "have": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "has, had, having",
+          "meanings": "有；经历；吃；（完成时态助动词）",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "有；怀有",
+              "pos": "v."
+            }
+          }
+        },
+        "love": {
+          "lemma": "love",
+          "translation": "热爱",
+          "pos": "n.",
+          "forms": "loves, loved, loving",
+          "meanings": "爱；热爱；喜欢；极其喜爱",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "热爱",
+              "pos": "n."
+            }
+          }
+        },
+        "appreciation": {
+          "lemma": "appreciation",
+          "translation": "欣赏",
+          "pos": "n.",
+          "forms": "appreciations",
+          "meanings": "欣赏；感激；鉴赏；增值",
+          "contexts": {
+            "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .": {
+              "translation": "感激",
+              "pos": "n."
+            }
+          }
+        },
+        "britain's": {
+          "lemma": "Britain",
+          "translation": "英国的",
+          "pos": "n.possessive",
+          "forms": "无常见变形",
+          "meanings": "英国的",
+          "contexts": {
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "英国的",
+              "pos": "n."
+            }
+          }
+        },
+        "queen": {
+          "lemma": "queen",
+          "translation": "女王",
+          "pos": "n.",
+          "forms": "queens",
+          "meanings": "女王；王后；（纸牌中的）皇后",
+          "contexts": {
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "女王",
+              "pos": "n."
+            }
+          }
+        },
+        "elizabeth": {
+          "lemma": "Elizabeth",
+          "translation": "伊丽莎白（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "伊丽莎白",
+          "contexts": {
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "伊丽莎白",
+              "pos": "n."
+            }
+          }
+        },
+        "opened": {
+          "lemma": "open",
+          "translation": "开启",
+          "pos": "v.",
+          "forms": "opened, opening, opens",
+          "meanings": "打开；开启；开业；摊开",
+          "contexts": {
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "开启（正式揭幕）",
+              "pos": "v."
+            }
+          }
+        },
+        "now": {
+          "lemma": "now",
+          "translation": "现在",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "现在；目前；立刻；既然；这时",
+          "contexts": {
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "现在",
+              "pos": "adv."
+            }
+          }
+        },
+        "holds": {
+          "lemma": "hold",
+          "translation": "举办",
+          "pos": "v.",
+          "forms": "holding, held, holds",
+          "meanings": "举办；容纳；握住；保持；持有",
+          "contexts": {
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "举办",
+              "pos": "v."
+            }
+          }
+        },
+        "around": {
+          "lemma": "around",
+          "translation": "大约",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大约；在……周围；到处；在附近",
+          "contexts": {
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "大约",
+              "pos": "adv."
+            }
+          }
+        },
+        "events": {
+          "lemma": "event",
+          "translation": "活动",
+          "pos": "n.",
+          "forms": "events",
+          "meanings": "活动；大事；比赛项目；事件",
+          "contexts": {
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "活动",
+              "pos": "n."
+            }
+          }
+        },
+        "every": {
+          "lemma": "every",
+          "translation": "每一",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "每一个；所有；每隔",
+          "contexts": {
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "每一",
+              "pos": "det."
+            }
+          }
+        },
+        "year": {
+          "lemma": "year",
+          "translation": "年",
+          "pos": "n.",
+          "forms": "years",
+          "meanings": "年；年份；年龄；年度",
+          "contexts": {
+            "\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.": {
+              "translation": "年",
+              "pos": "n."
+            }
+          }
+        },
+        "recognized": {
+          "lemma": "recognize",
+          "translation": "公认的",
+          "pos": "adj.",
+          "forms": "recognizing, recognized, recognizes",
+          "meanings": "公认的；认可的；识别出的；赏识的",
+          "contexts": {
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "公认的",
+              "pos": "adj."
+            }
+          }
+        },
+        "one": {
+          "lemma": "one",
+          "translation": "其中之一",
+          "pos": "pron.",
+          "forms": "ones",
+          "meanings": "一个；某人；单一的；其中之一",
+          "contexts": {
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "其中之一",
+              "pos": "pron."
+            }
+          }
+        },
+        "great": {
+          "lemma": "great",
+          "translation": "伟大的",
+          "pos": "adj.",
+          "forms": "greater, greatest",
+          "meanings": "巨大的；极好的；伟大的；非常",
+          "contexts": {
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "伟大的",
+              "pos": "adj."
+            }
+          }
+        },
+        "symbolic": {
+          "lemma": "symbolic",
+          "translation": "象征性的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "象征性的；代表性的；符号的",
+          "contexts": {
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "象征性的",
+              "pos": "adj."
+            }
+          }
+        },
+        "buildings": {
+          "lemma": "building",
+          "translation": "建筑物",
+          "pos": "n.",
+          "forms": "building",
+          "meanings": "建筑物；大楼；房屋；建筑业",
+          "contexts": {
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "建筑物",
+              "pos": "n."
+            }
+          }
+        },
+        "th": {
+          "lemma": "th",
+          "translation": "（构成序数词的后缀）",
+          "pos": "suff.",
+          "forms": "无常见变形",
+          "meanings": "（表示序数词的后缀，如20th/twentieth）",
+          "contexts": {
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "（表示序数词的后缀，如20th/twentieth）",
+              "pos": "suff."
+            }
+          }
+        },
+        "century": {
+          "lemma": "century",
+          "translation": "世纪",
+          "pos": "n.",
+          "forms": "centuries",
+          "meanings": "世纪；一百年",
+          "contexts": {
+            "It is recognized as one of the great symbolic buildings of the 20th century.": {
+              "translation": "世纪",
+              "pos": "n."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "The Sydney Opera House was completed  _  .",
+          "options": [
+            "in 1957",
+            "in 1906",
+            "in 1973",
+            "in 1980"
+          ],
+          "answer": 2,
+          "explanation": "文章结尾处明确指出悉尼歌剧院是由英国女王伊丽莎白在1973年揭幕开放的，即完工时间。",
+          "type": "细节理解",
+          "evidenceSentence": "Britain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year.",
+          "optionExplanations": [
+            "1957年是Utzon赢得设计竞赛的时间，而非完工时间。",
+            "文章中未提及1906年相关信息。",
+            "文章明确指出该建筑于1973年启用，为正确答案。",
+            "文中未提及1980年相关信息。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "没有定位证据句",
+            "正确",
+            "没有定位证据句"
+          ]
+        },
+        {
+          "prompt": "Utzon has never seen his Opera House because   _  .",
+          "options": [
+            "it has white shell-like roofs, unlike anything else in the world",
+            "its creator is Danish architect, who returned to Denmark",
+            "he was not awarded the Pritzker Prize, known as the Nobel Prize of Architecture",
+            "he argued with the local government and was criticized over his design"
+          ],
+          "answer": 3,
+          "explanation": "文中指出Utzon因与当地政府争吵以及公众批评而于1966年离开项目，之后从未回到澳大利亚。",
+          "type": "推理判断",
+          "evidenceSentence": "Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design.",
+          "optionExplanations": [
+            "这是对歌剧院外观的描述，与他未曾去过澳洲没有直接因果关系。",
+            "他回到丹麦是离开项目后的结果，而非他没看过歌剧院的原因。",
+            "他实际上获得了该奖项，且这与他是否见过歌剧院无关。",
+            "正是因为设计争议导致他离开项目并从未重返，才导致他没能亲眼见到完工后的歌剧院。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "偷换概念",
+            "单词或语境理解错误",
+            "正确"
+          ]
+        }
+      ],
+      "generationUsage": {
+        "requests": 21,
+        "inputTokens": 47215,
+        "outputTokens": 19376,
+        "totalTokens": 66591,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 21,
+            "inputTokens": 47215,
+            "outputTokens": 19376,
+            "totalTokens": 66591,
             "estimatedCostUsd": null
           }
         }
