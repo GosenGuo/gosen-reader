@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T11:33:18.957Z",
+  "generatedAt": "2026-08-03T11:37:17.032Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -27717,6 +27717,2237 @@
             "inputTokens": 37911,
             "outputTokens": 21399,
             "totalTokens": 59310,
+            "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-09421cfd6a2c44ad",
+      "title": "RACE 高中英语阅读 high18021",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "The first English dictionary was published in 1604. The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.\nThe author, Robert Cawdrey, made no attempt to include everyday words in his dictionary. No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word. During the 1600's more dictionaries were published. Each followed Cawdrey's lead and presented a few thousand hard words. Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words. But until the 1750's all the dictionaries were rather crude and not very valuable.\nA man named Dr Samuel Johnson changed all this. In 1755 Dr Johnson produced the first modern dictionary. He included in his dictionary all important words, both easy and hard, and he gave good meanings. He also gave good sentences to show how each word was actually used in speech and in writing. By the end of the 1700's most dictionary makers had followed Johnson's example. Dictionaries were getting better and better.\nThe 1800's saw the greatest improvement in the quality of dictionaries. In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work. One of the most interesting features of the Oxford Dictionary is its word histories. It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.",
+      "wordCount": 244,
+      "sentenceTranslations": {
+        "The first English dictionary was published in 1604.": "第一本英语词典出版于1604年。",
+        "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": "这本词典实际上只不过是一份包含大约3000个生僻词的清单，每个词后面都跟有一个单词的解释。",
+        "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": "作者罗伯特·考德里（Robert Cawdrey）并没有尝试将日常用语收录进他的词典中。",
+        "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": "他认为，如果一个人已经知道某个词的意思，他就根本不需要去查字典。",
+        "During the 1600's more dictionaries were published.": "在17世纪期间，更多的词典出版了。",
+        "Each followed Cawdrey's lead and presented a few thousand hard words.": "每一本都沿袭了考德里的做法，只收录了几千个生僻词。",
+        "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": "大约在1700年，一位词典编纂者约翰·科西（John Kersey）确实既定义了简单词汇，也定义了生僻词汇。",
+        "But until the 1750's all the dictionaries were rather crude and not very valuable.": "但直到18世纪50年代，所有的词典都相当粗糙，并没有太大的参考价值。",
+        "A man named Dr Samuel Johnson changed all this.": "一位名叫塞缪尔·约翰逊博士（Dr Samuel Johnson）的人改变了这一切。",
+        "In 1755 Dr Johnson produced the first modern dictionary.": "1755年，约翰逊博士编纂了第一部现代词典。",
+        "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": "他在词典中收录了所有重要词汇，无论是简单的还是生僻的，并给出了准确的释义。",
+        "He also gave good sentences to show how each word was actually used in speech and in writing.": "他还提供了优秀的例句，以展示每个词在口语和书面语中是如何实际运用的。",
+        "By the end of the 1700's most dictionary makers had followed Johnson's example.": "到18世纪末，大多数词典编纂者都效仿了约翰逊的做法。",
+        "Dictionaries were getting better and better.": "词典变得越来越完善了。",
+        "The 1800's saw the greatest improvement in the quality of dictionaries.": "19世纪见证了词典质量的最大提升。",
+        "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": "在英国，学者们规划并编写了二十卷本的《牛津英语词典》。",
+        "One of the most interesting features of the Oxford Dictionary is its word histories.": "《牛津词典》最有趣的特征之一就是它的词源记录。",
+        "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": "它追溯了每个词从最早有记录的使用到词典出版这段时间的演变历史。"
+      },
+      "glossary": {
+        "the": {
+          "lemma": "the",
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
+          "contexts": {
+            "The first English dictionary was published in 1604.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "During the 1600's more dictionaries were published.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "In 1755 Dr Johnson produced the first modern dictionary.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The 1800's saw the greatest improvement in the quality of dictionaries.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            }
+          }
+        },
+        "first": {
+          "lemma": "first",
+          "translation": "第一",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "第一；首先；首要的；最初",
+          "contexts": {
+            "The first English dictionary was published in 1604.": {
+              "translation": "第一",
+              "pos": "adj."
+            },
+            "In 1755 Dr Johnson produced the first modern dictionary.": {
+              "translation": "第一",
+              "pos": "adj."
+            }
+          }
+        },
+        "english": {
+          "lemma": "English",
+          "translation": "英语",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "英语；英国人",
+          "contexts": {
+            "The first English dictionary was published in 1604.": {
+              "translation": "英语",
+              "pos": "n."
+            },
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "英语",
+              "pos": "n."
+            }
+          }
+        },
+        "dictionary": {
+          "lemma": "dictionary",
+          "translation": "词典",
+          "pos": "n.",
+          "forms": "dictionaries",
+          "meanings": "词典；字典；工具书",
+          "contexts": {
+            "The first English dictionary was published in 1604.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "In 1755 Dr Johnson produced the first modern dictionary.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "词典",
+              "pos": "n."
+            }
+          }
+        },
+        "was": {
+          "lemma": "be",
+          "translation": "是（过去式）",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；在；存在；成为",
+          "contexts": {
+            "The first English dictionary was published in 1604.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "published": {
+          "lemma": "publish",
+          "translation": "出版",
+          "pos": "v.",
+          "forms": "publishes, published, publishing",
+          "meanings": "出版；发行；刊登；公布",
+          "contexts": {
+            "The first English dictionary was published in 1604.": {
+              "translation": "出版",
+              "pos": "v."
+            },
+            "During the 1600's more dictionaries were published.": {
+              "translation": "出版",
+              "pos": "v."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……之内",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；使用（某种语言/材料）",
+          "contexts": {
+            "The first English dictionary was published in 1604.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "In 1755 Dr Johnson produced the first modern dictionary.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "The 1800's saw the greatest improvement in the quality of dictionaries.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "在",
+              "pos": "prep."
+            }
+          }
+        },
+        "actually": {
+          "lemma": "actually",
+          "translation": "事实上",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "事实上；实际上；居然；果真",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "实际上",
+              "pos": "adv."
+            },
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "实际上",
+              "pos": "adv."
+            }
+          }
+        },
+        "nothing": {
+          "lemma": "nothing",
+          "translation": "没有什么",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "没有什么；无事；不重要的事",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "没有什么",
+              "pos": "pron."
+            }
+          }
+        },
+        "more": {
+          "lemma": "more",
+          "translation": "更多",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "更多；较大程度；额外；再",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "更多",
+              "pos": "adv."
+            },
+            "During the 1600's more dictionaries were published.": {
+              "translation": "更多",
+              "pos": "adv."
+            }
+          }
+        },
+        "than": {
+          "lemma": "than",
+          "translation": "比",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "比；除……之外；与之相比",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "比",
+              "pos": "conj."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何；一种",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "A man named Dr Samuel Johnson changed all this.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "list": {
+          "lemma": "list",
+          "translation": "列表",
+          "pos": "n.",
+          "forms": "lists, listed, listing",
+          "meanings": "列表；名单；清单；列出",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "列表",
+              "pos": "n."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "The 1800's saw the greatest improvement in the quality of dictionaries.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "大约",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "大约",
+              "pos": "prep."
+            }
+          }
+        },
+        "difficult": {
+          "lemma": "difficult",
+          "translation": "困难的",
+          "pos": "adj.",
+          "forms": "more difficult, most difficult",
+          "meanings": "困难的；艰难的；难对付的",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "困难的",
+              "pos": "adj."
+            }
+          }
+        },
+        "words": {
+          "lemma": "word",
+          "translation": "单词",
+          "pos": "n.",
+          "forms": "words",
+          "meanings": "单词；词；话语；消息",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "单词",
+              "pos": "n."
+            },
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "单词",
+              "pos": "n."
+            },
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "单词",
+              "pos": "n."
+            },
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "单词",
+              "pos": "n."
+            },
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "单词",
+              "pos": "n."
+            }
+          }
+        },
+        "each": {
+          "lemma": "each",
+          "translation": "每个",
+          "pos": "adj./det.",
+          "forms": "无常见变形",
+          "meanings": "每个；各自的；每人",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "每个",
+              "pos": "adj./det."
+            },
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "每个",
+              "pos": "adj./det."
+            },
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "每个",
+              "pos": "adj./det."
+            },
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "每个",
+              "pos": "adj./det."
+            }
+          }
+        },
+        "followed": {
+          "lemma": "follow",
+          "translation": "跟随",
+          "pos": "v.",
+          "forms": "follows, followed, following",
+          "meanings": "跟随；追随；遵循；听从",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "跟随",
+              "pos": "v."
+            },
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "遵循",
+              "pos": "v."
+            },
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "效仿",
+              "pos": "v."
+            }
+          }
+        },
+        "by": {
+          "lemma": "by",
+          "translation": "被",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "通过；被；凭借；在……旁边",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "被",
+              "pos": "prep."
+            },
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "在……之前",
+              "pos": "prep."
+            }
+          }
+        },
+        "one": {
+          "lemma": "one",
+          "translation": "一个",
+          "pos": "num.",
+          "forms": "ones",
+          "meanings": "一个；某人；单一的；（指代前文提到的事物）",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "一个",
+              "pos": "num."
+            },
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "没有人",
+              "pos": "pron."
+            },
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "一位",
+              "pos": "num."
+            },
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "其中之一",
+              "pos": "pron."
+            }
+          }
+        },
+        "word": {
+          "lemma": "word",
+          "translation": "词",
+          "pos": "n.",
+          "forms": "words",
+          "meanings": "词；话语；消息；诺言",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "词",
+              "pos": "n."
+            },
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "词",
+              "pos": "n."
+            },
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "单词",
+              "pos": "n."
+            },
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "词",
+              "pos": "n."
+            },
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "词",
+              "pos": "n."
+            }
+          }
+        },
+        "definition": {
+          "lemma": "definition",
+          "translation": "定义",
+          "pos": "n.",
+          "forms": "definitions",
+          "meanings": "定义；释义；清晰度；解释",
+          "contexts": {
+            "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.": {
+              "translation": "定义",
+              "pos": "n."
+            }
+          }
+        },
+        "author": {
+          "lemma": "author",
+          "translation": "作者",
+          "pos": "n.",
+          "forms": "authors",
+          "meanings": "作者；创始人；发起人",
+          "contexts": {
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "作者",
+              "pos": "n."
+            }
+          }
+        },
+        "robert": {
+          "lemma": "robert",
+          "translation": "罗伯特",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "罗伯特（人名）",
+          "contexts": {
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "罗伯特",
+              "pos": "n."
+            }
+          }
+        },
+        "cawdrey": {
+          "lemma": "cawdrey",
+          "translation": "考德雷",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "考德雷（人名）",
+          "contexts": {
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "考德雷",
+              "pos": "n."
+            },
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "考德雷",
+              "pos": "n."
+            }
+          }
+        },
+        "made": {
+          "lemma": "make",
+          "translation": "做出",
+          "pos": "v.",
+          "forms": "making, made, makes",
+          "meanings": "制造；使；做出；赚取",
+          "contexts": {
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "做出",
+              "pos": "v."
+            }
+          }
+        },
+        "no": {
+          "lemma": "no",
+          "translation": "没有",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "没有；不；禁止；一点也不",
+          "contexts": {
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "没有",
+              "pos": "det."
+            },
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "没有",
+              "pos": "det."
+            }
+          }
+        },
+        "attempt": {
+          "lemma": "attempt",
+          "translation": "尝试",
+          "pos": "n.",
+          "forms": "attempts, attempted, attempting",
+          "meanings": "尝试；试图；企图",
+          "contexts": {
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "尝试",
+              "pos": "n."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "到",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "到；向；给；构成不定式",
+          "contexts": {
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "到",
+              "pos": "prep."
+            }
+          }
+        },
+        "include": {
+          "lemma": "include",
+          "translation": "包括",
+          "pos": "v.",
+          "forms": "includes, included, including",
+          "meanings": "包括；包含；算入",
+          "contexts": {
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "包括",
+              "pos": "v."
+            }
+          }
+        },
+        "everyday": {
+          "lemma": "everyday",
+          "translation": "日常的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "日常的；平常的；平凡的",
+          "contexts": {
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "日常的",
+              "pos": "adj."
+            }
+          }
+        },
+        "his": {
+          "lemma": "he",
+          "translation": "他的",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他的；属于他的",
+          "contexts": {
+            "The author, Robert Cawdrey, made no attempt to include everyday words in his dictionary.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "他的",
+              "pos": "pron."
+            }
+          }
+        },
+        "he": {
+          "lemma": "he",
+          "translation": "他",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他；（指代男性）；某人；那个人",
+          "contexts": {
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "他",
+              "pos": "pron."
+            }
+          }
+        },
+        "reasoned": {
+          "lemma": "reason",
+          "translation": "推论",
+          "pos": "v.",
+          "forms": "reasons, reasoned, reasoning",
+          "meanings": "推论；推理；论证",
+          "contexts": {
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "推论",
+              "pos": "v."
+            }
+          }
+        },
+        "would": {
+          "lemma": "will",
+          "translation": "将要",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将；会；愿意；总是",
+          "contexts": {
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "将会",
+              "pos": "modal v."
+            }
+          }
+        },
+        "ever": {
+          "lemma": "ever",
+          "translation": "曾经",
+          "pos": "adverb",
+          "forms": "无常见变形",
+          "meanings": "曾经；永远；在任何时候；究竟",
+          "contexts": {
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "曾经",
+              "pos": "adverb"
+            }
+          }
+        },
+        "have": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "having, had, has",
+          "meanings": "有；经历；吃；使（某人做某事）；辅助动词（完成时态）",
+          "contexts": {
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "必须（have to）",
+              "pos": "v."
+            }
+          }
+        },
+        "look": {
+          "lemma": "look",
+          "translation": "查阅",
+          "pos": "v.",
+          "forms": "looks, looked, looking",
+          "meanings": "表情；外表；看；注视",
+          "contexts": {
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "查阅（look up）",
+              "pos": "v."
+            }
+          }
+        },
+        "up": {
+          "lemma": "up",
+          "translation": "完成",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "完成；彻底；向上；出现",
+          "contexts": {
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "完成",
+              "pos": "adv."
+            },
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "到（up to）",
+              "pos": "adv."
+            }
+          }
+        },
+        "if": {
+          "lemma": "if",
+          "translation": "如果",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "如果；是否；即使；设若",
+          "contexts": {
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "如果",
+              "pos": "conj."
+            }
+          }
+        },
+        "already": {
+          "lemma": "already",
+          "translation": "已经",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "已经；早已；先前",
+          "contexts": {
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "已经",
+              "pos": "adv."
+            }
+          }
+        },
+        "knew": {
+          "lemma": "know",
+          "translation": "知道",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉",
+          "contexts": {
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "知道",
+              "pos": "v."
+            }
+          }
+        },
+        "meaning": {
+          "lemma": "meaning",
+          "translation": "含义",
+          "pos": "n.",
+          "forms": "meanings",
+          "meanings": "含义；意义；意图；意思",
+          "contexts": {
+            "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.": {
+              "translation": "含义",
+              "pos": "n."
+            }
+          }
+        },
+        "during": {
+          "lemma": "during",
+          "translation": "在……期间",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……期间；在……过程中",
+          "contexts": {
+            "During the 1600's more dictionaries were published.": {
+              "translation": "在……期间",
+              "pos": "prep."
+            }
+          }
+        },
+        "s": {
+          "lemma": "s",
+          "translation": "复数词尾",
+          "pos": "suffix",
+          "forms": "无常见变形",
+          "meanings": "复数词尾；所有格符号；表示缩写",
+          "contexts": {
+            "During the 1600's more dictionaries were published.": {
+              "translation": "复数词尾",
+              "pos": "suffix"
+            },
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "所有格符号",
+              "pos": "suffix"
+            },
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "复数词尾",
+              "pos": "suffix"
+            },
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "复数词尾",
+              "pos": "suffix"
+            },
+            "The 1800's saw the greatest improvement in the quality of dictionaries.": {
+              "translation": "复数词尾",
+              "pos": "suffix"
+            }
+          }
+        },
+        "dictionaries": {
+          "lemma": "dictionary",
+          "translation": "词典",
+          "pos": "n.",
+          "forms": "dictionaries",
+          "meanings": "词典；字典",
+          "contexts": {
+            "During the 1600's more dictionaries were published.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "Dictionaries were getting better and better.": {
+              "translation": "词典",
+              "pos": "n."
+            },
+            "The 1800's saw the greatest improvement in the quality of dictionaries.": {
+              "translation": "词典",
+              "pos": "n."
+            }
+          }
+        },
+        "were": {
+          "lemma": "be",
+          "translation": "是（are的过去式）",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；存在",
+          "contexts": {
+            "During the 1600's more dictionaries were published.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Dictionaries were getting better and better.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "cawdrey's": {
+          "lemma": "Cawdrey",
+          "translation": "考德里（姓氏）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "考德里；考德里的",
+          "contexts": {
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "考德里的",
+              "pos": "n."
+            }
+          }
+        },
+        "lead": {
+          "lemma": "lead",
+          "translation": "典范",
+          "pos": "n.",
+          "forms": "leads, leading, led",
+          "meanings": "典范；带头；领导；导线",
+          "contexts": {
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "典范",
+              "pos": "n."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Dictionaries were getting better and better.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "和",
+              "pos": "conj."
+            }
+          }
+        },
+        "presented": {
+          "lemma": "present",
+          "translation": "展示",
+          "pos": "v.",
+          "forms": "presents, presented, presenting, presentation",
+          "meanings": "展示；提出；赠送；描述",
+          "contexts": {
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "展示",
+              "pos": "v."
+            }
+          }
+        },
+        "few": {
+          "lemma": "few",
+          "translation": "少数",
+          "pos": "adj.",
+          "forms": "fewer, fewest",
+          "meanings": "少数；不多；一些",
+          "contexts": {
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "少数",
+              "pos": "adj."
+            }
+          }
+        },
+        "thousand": {
+          "lemma": "thousand",
+          "translation": "一千",
+          "pos": "num.",
+          "forms": "thousands",
+          "meanings": "一千；成千上万",
+          "contexts": {
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "一千",
+              "pos": "num."
+            }
+          }
+        },
+        "hard": {
+          "lemma": "hard",
+          "translation": "困难的",
+          "pos": "adj.",
+          "forms": "harder, hardest",
+          "meanings": "困难的；努力的；硬的；艰难的",
+          "contexts": {
+            "Each followed Cawdrey's lead and presented a few thousand hard words.": {
+              "translation": "困难的",
+              "pos": "adj."
+            },
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "困难的",
+              "pos": "adj."
+            },
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "困难的",
+              "pos": "adj."
+            }
+          }
+        },
+        "around": {
+          "lemma": "around",
+          "translation": "大约",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大约；在……周围；到处；在附近",
+          "contexts": {
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "大约",
+              "pos": "adv."
+            }
+          }
+        },
+        "maker": {
+          "lemma": "maker",
+          "translation": "制作人",
+          "pos": "n.",
+          "forms": "makers",
+          "meanings": "制作人；制造商；制造者",
+          "contexts": {
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "制作人",
+              "pos": "n."
+            }
+          }
+        },
+        "john": {
+          "lemma": "John",
+          "translation": "约翰（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "约翰",
+          "contexts": {
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "约翰",
+              "pos": "n."
+            }
+          }
+        },
+        "kersey": {
+          "lemma": "Kersey",
+          "translation": "克西（姓氏）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "克西",
+          "contexts": {
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "克西",
+              "pos": "n."
+            }
+          }
+        },
+        "did": {
+          "lemma": "do",
+          "translation": "做（do的过去式）",
+          "pos": "v.",
+          "forms": "does, did, done, doing",
+          "meanings": "做；进行；行动；强调谓语",
+          "contexts": {
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "做（强调谓语）",
+              "pos": "v."
+            }
+          }
+        },
+        "define": {
+          "lemma": "define",
+          "translation": "下定义",
+          "pos": "v.",
+          "forms": "defines, defined, defining",
+          "meanings": "下定义；解释（词义）；限定；使明确",
+          "contexts": {
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "下定义",
+              "pos": "v."
+            }
+          }
+        },
+        "easy": {
+          "lemma": "easy",
+          "translation": "容易的",
+          "pos": "adj.",
+          "forms": "easier, easiest",
+          "meanings": "容易的；舒适的；从容的；安逸的",
+          "contexts": {
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "容易的",
+              "pos": "adj."
+            },
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "容易的",
+              "pos": "adj."
+            }
+          }
+        },
+        "as": {
+          "lemma": "as",
+          "translation": "以及",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "像……一样；作为；当……时；因为；正如",
+          "contexts": {
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "以及",
+              "pos": "conj."
+            }
+          }
+        },
+        "well": {
+          "lemma": "well",
+          "translation": "同样地",
+          "pos": "adv.",
+          "forms": "better, best",
+          "meanings": "很好地；完全地；适当地；同样地",
+          "contexts": {
+            "Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words.": {
+              "translation": "同样地",
+              "pos": "adv."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "until": {
+          "lemma": "until",
+          "translation": "直到",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "直到……为止；在……之前",
+          "contexts": {
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "直到",
+              "pos": "prep."
+            }
+          }
+        },
+        "all": {
+          "lemma": "all",
+          "translation": "所有的",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "全部；所有；总共；整个",
+          "contexts": {
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "所有的",
+              "pos": "det."
+            },
+            "A man named Dr Samuel Johnson changed all this.": {
+              "translation": "全部",
+              "pos": "pron."
+            },
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "所有",
+              "pos": "det."
+            }
+          }
+        },
+        "rather": {
+          "lemma": "rather",
+          "translation": "相当地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "相当地；在某种程度上；宁愿；反而",
+          "contexts": {
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "相当地",
+              "pos": "adv."
+            }
+          }
+        },
+        "crude": {
+          "lemma": "crude",
+          "translation": "粗糙的",
+          "pos": "adj.",
+          "forms": "cruder, crudest",
+          "meanings": "粗糙的；简陋的；未加工的；粗鲁的",
+          "contexts": {
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "粗糙的",
+              "pos": "adj."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是；绝非",
+          "contexts": {
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "very": {
+          "lemma": "very",
+          "translation": "很",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "非常；极；完全；正是",
+          "contexts": {
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "很",
+              "pos": "adv."
+            }
+          }
+        },
+        "valuable": {
+          "lemma": "valuable",
+          "translation": "有价值的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "有价值的；贵重的；宝贵的",
+          "contexts": {
+            "But until the 1750's all the dictionaries were rather crude and not very valuable.": {
+              "translation": "有价值的",
+              "pos": "adj."
+            }
+          }
+        },
+        "man": {
+          "lemma": "man",
+          "translation": "男人",
+          "pos": "n.",
+          "forms": "men",
+          "meanings": "男人；男子；人类；人",
+          "contexts": {
+            "A man named Dr Samuel Johnson changed all this.": {
+              "translation": "男人",
+              "pos": "n."
+            }
+          }
+        },
+        "named": {
+          "lemma": "name",
+          "translation": "名叫",
+          "pos": "v.",
+          "forms": "names, named, naming",
+          "meanings": "命名；给……取名；指出；选定",
+          "contexts": {
+            "A man named Dr Samuel Johnson changed all this.": {
+              "translation": "名叫",
+              "pos": "v."
+            }
+          }
+        },
+        "dr": {
+          "lemma": "doctor",
+          "translation": "博士",
+          "pos": "n.",
+          "forms": "drs",
+          "meanings": "博士；医生；大夫",
+          "contexts": {
+            "A man named Dr Samuel Johnson changed all this.": {
+              "translation": "博士",
+              "pos": "n."
+            },
+            "In 1755 Dr Johnson produced the first modern dictionary.": {
+              "translation": "博士",
+              "pos": "n."
+            }
+          }
+        },
+        "samuel": {
+          "lemma": "Samuel",
+          "translation": "塞缪尔（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "塞缪尔（男子名）",
+          "contexts": {
+            "A man named Dr Samuel Johnson changed all this.": {
+              "translation": "塞缪尔",
+              "pos": "n."
+            }
+          }
+        },
+        "johnson": {
+          "lemma": "Johnson",
+          "translation": "约翰逊（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "约翰逊（姓氏）",
+          "contexts": {
+            "A man named Dr Samuel Johnson changed all this.": {
+              "translation": "约翰逊",
+              "pos": "n."
+            },
+            "In 1755 Dr Johnson produced the first modern dictionary.": {
+              "translation": "约翰逊",
+              "pos": "n."
+            },
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "约翰逊",
+              "pos": "n."
+            }
+          }
+        },
+        "changed": {
+          "lemma": "change",
+          "translation": "改变",
+          "pos": "v.",
+          "forms": "changes, changed, changing",
+          "meanings": "改变；变化；兑换；更换",
+          "contexts": {
+            "A man named Dr Samuel Johnson changed all this.": {
+              "translation": "改变",
+              "pos": "v."
+            }
+          }
+        },
+        "this": {
+          "lemma": "this",
+          "translation": "这一切",
+          "pos": "pron.",
+          "forms": "these",
+          "meanings": "这个；这；这种；此",
+          "contexts": {
+            "A man named Dr Samuel Johnson changed all this.": {
+              "translation": "这一切",
+              "pos": "pron."
+            }
+          }
+        },
+        "produced": {
+          "lemma": "produce",
+          "translation": "制作",
+          "pos": "v.",
+          "forms": "produces, produced, producing",
+          "meanings": "生产；制作；引起；出示",
+          "contexts": {
+            "In 1755 Dr Johnson produced the first modern dictionary.": {
+              "translation": "制作",
+              "pos": "v."
+            }
+          }
+        },
+        "modern": {
+          "lemma": "modern",
+          "translation": "现代的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "现代的；近代的；当代的；时髦的",
+          "contexts": {
+            "In 1755 Dr Johnson produced the first modern dictionary.": {
+              "translation": "现代的",
+              "pos": "adj."
+            }
+          }
+        },
+        "included": {
+          "lemma": "include",
+          "translation": "包括",
+          "pos": "v.",
+          "forms": "includes, including, included",
+          "meanings": "包含；包括；计入；把…列为一部分",
+          "contexts": {
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "包括",
+              "pos": "v."
+            }
+          }
+        },
+        "important": {
+          "lemma": "important",
+          "translation": "重要的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "重要的；有影响力的；重大的；尊贵的",
+          "contexts": {
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "重要的",
+              "pos": "adj."
+            }
+          }
+        },
+        "both": {
+          "lemma": "both",
+          "translation": "两者都",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "两者都；双方；既…又…",
+          "contexts": {
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "两者都",
+              "pos": "det."
+            }
+          }
+        },
+        "gave": {
+          "lemma": "give",
+          "translation": "提供",
+          "pos": "v.",
+          "forms": "gives, gave, given, giving",
+          "meanings": "给；提供；交给；举办；产生",
+          "contexts": {
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "提供",
+              "pos": "v."
+            },
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "提供",
+              "pos": "v."
+            }
+          }
+        },
+        "good": {
+          "lemma": "good",
+          "translation": "好的",
+          "pos": "adj.",
+          "forms": "better, best",
+          "meanings": "好；愉快的；优良的；有效的",
+          "contexts": {
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "好的",
+              "pos": "adj."
+            },
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "meanings": {
+          "lemma": "meaning",
+          "translation": "意义",
+          "pos": "n.",
+          "forms": "meanings",
+          "meanings": "意义；意思；含义；意图",
+          "contexts": {
+            "He included in his dictionary all important words, both easy and hard, and he gave good meanings.": {
+              "translation": "意义",
+              "pos": "n."
+            }
+          }
+        },
+        "also": {
+          "lemma": "also",
+          "translation": "也",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "也；同样；并且；而且",
+          "contexts": {
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "也",
+              "pos": "adv."
+            }
+          }
+        },
+        "sentences": {
+          "lemma": "sentence",
+          "translation": "句子",
+          "pos": "n.",
+          "forms": "sentences, sentenced, sentencing",
+          "meanings": "句子；判决；宣判",
+          "contexts": {
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "句子",
+              "pos": "n."
+            }
+          }
+        },
+        "show": {
+          "lemma": "show",
+          "translation": "展示",
+          "pos": "v.",
+          "forms": "shows, showed, shown/showed, showing",
+          "meanings": "展示；显示；说明；带领",
+          "contexts": {
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "展示",
+              "pos": "v."
+            }
+          }
+        },
+        "how": {
+          "lemma": "how",
+          "translation": "如何",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "如何；以何种方式；多么；状况",
+          "contexts": {
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "如何",
+              "pos": "adv."
+            }
+          }
+        },
+        "used": {
+          "lemma": "use",
+          "translation": "使用",
+          "pos": "v.",
+          "forms": "using, used, uses",
+          "meanings": "使用；利用；习惯于；曾（过去常做某事）",
+          "contexts": {
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "使用",
+              "pos": "v."
+            }
+          }
+        },
+        "speech": {
+          "lemma": "speech",
+          "translation": "口语",
+          "pos": "n.",
+          "forms": "speeches",
+          "meanings": "口语；演说；说话；语言能力",
+          "contexts": {
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "口语",
+              "pos": "n."
+            }
+          }
+        },
+        "writing": {
+          "lemma": "write",
+          "translation": "书面语",
+          "pos": "n.",
+          "forms": "writes, wrote, written, writing",
+          "meanings": "书面语；写作；文章；字迹",
+          "contexts": {
+            "He also gave good sentences to show how each word was actually used in speech and in writing.": {
+              "translation": "书面语",
+              "pos": "n."
+            }
+          }
+        },
+        "end": {
+          "lemma": "end",
+          "translation": "末尾",
+          "pos": "n.",
+          "forms": "ends, ended, ending",
+          "meanings": "末尾；结束；终点；目标",
+          "contexts": {
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "末尾",
+              "pos": "n."
+            }
+          }
+        },
+        "most": {
+          "lemma": "most",
+          "translation": "大多数",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "大多数；最；极度；绝大部分",
+          "contexts": {
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "大多数",
+              "pos": "det."
+            },
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "最",
+              "pos": "adv."
+            }
+          }
+        },
+        "makers": {
+          "lemma": "maker",
+          "translation": "制作者",
+          "pos": "n.",
+          "forms": "makers",
+          "meanings": "制作者；制造者；厂商",
+          "contexts": {
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "制作者",
+              "pos": "n."
+            }
+          }
+        },
+        "had": {
+          "lemma": "have",
+          "translation": "已经（过去完成时态助动词）",
+          "pos": "aux.",
+          "forms": "has, having, had",
+          "meanings": "必须；有；吃；经历",
+          "contexts": {
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "已经",
+              "pos": "aux."
+            }
+          }
+        },
+        "johnson's": {
+          "lemma": "Johnson",
+          "translation": "约翰逊的",
+          "pos": "prop.n.",
+          "forms": "无常见变形",
+          "meanings": "约翰逊的（姓氏所有格）",
+          "contexts": {
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "约翰逊的",
+              "pos": "prop.n."
+            }
+          }
+        },
+        "example": {
+          "lemma": "example",
+          "translation": "榜样",
+          "pos": "n.",
+          "forms": "examples",
+          "meanings": "榜样；例子；范例；标本",
+          "contexts": {
+            "By the end of the 1700's most dictionary makers had followed Johnson's example.": {
+              "translation": "榜样",
+              "pos": "n."
+            }
+          }
+        },
+        "getting": {
+          "lemma": "get",
+          "translation": "变得",
+          "pos": "v.",
+          "forms": "getting, got, gotten/got",
+          "meanings": "变得；获得；到达；理解；使得",
+          "contexts": {
+            "Dictionaries were getting better and better.": {
+              "translation": "变得",
+              "pos": "v."
+            }
+          }
+        },
+        "better": {
+          "lemma": "good",
+          "translation": "更好的",
+          "pos": "adj.",
+          "forms": "best (superlative)",
+          "meanings": "更好的；更优秀的；改善；胜过；更好地",
+          "contexts": {
+            "Dictionaries were getting better and better.": {
+              "translation": "更好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "saw": {
+          "lemma": "see",
+          "translation": "见证",
+          "pos": "v.",
+          "forms": "saw, seen, seeing",
+          "meanings": "见证；看见；明白；考虑；领会",
+          "contexts": {
+            "The 1800's saw the greatest improvement in the quality of dictionaries.": {
+              "translation": "见证",
+              "pos": "v."
+            }
+          }
+        },
+        "greatest": {
+          "lemma": "great",
+          "translation": "最伟大的",
+          "pos": "adj.",
+          "forms": "greater, greatest",
+          "meanings": "最伟大的；最重要的；程度最大的；最优秀的",
+          "contexts": {
+            "The 1800's saw the greatest improvement in the quality of dictionaries.": {
+              "translation": "最伟大的",
+              "pos": "adj."
+            }
+          }
+        },
+        "improvement": {
+          "lemma": "improvement",
+          "translation": "改善",
+          "pos": "n.",
+          "forms": "improvements",
+          "meanings": "改善；改进；提高；增进；提升",
+          "contexts": {
+            "The 1800's saw the greatest improvement in the quality of dictionaries.": {
+              "translation": "改善",
+              "pos": "n."
+            }
+          }
+        },
+        "quality": {
+          "lemma": "quality",
+          "translation": "质量",
+          "pos": "n.",
+          "forms": "qualities",
+          "meanings": "质量；品质；特性；品德；素质",
+          "contexts": {
+            "The 1800's saw the greatest improvement in the quality of dictionaries.": {
+              "translation": "质量",
+              "pos": "n."
+            }
+          }
+        },
+        "england": {
+          "lemma": "england",
+          "translation": "英国",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "英国；英格兰",
+          "contexts": {
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "英国",
+              "pos": "n."
+            }
+          }
+        },
+        "scholars": {
+          "lemma": "scholar",
+          "translation": "学者",
+          "pos": "n.",
+          "forms": "scholars",
+          "meanings": "学者；奖学金获得者",
+          "contexts": {
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "学者",
+              "pos": "n."
+            }
+          }
+        },
+        "planned": {
+          "lemma": "plan",
+          "translation": "计划",
+          "pos": "v.",
+          "forms": "planned, planning, plans",
+          "meanings": "计划；打算；规划；设计",
+          "contexts": {
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "计划",
+              "pos": "v."
+            }
+          }
+        },
+        "prepared": {
+          "lemma": "prepare",
+          "translation": "筹备",
+          "pos": "v.",
+          "forms": "prepared, preparing, prepares",
+          "meanings": "筹备；准备；预备；调制",
+          "contexts": {
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "筹备",
+              "pos": "v."
+            }
+          }
+        },
+        "oxford": {
+          "lemma": "oxford",
+          "translation": "牛津",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "牛津（地名）；牛津大学",
+          "contexts": {
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "牛津",
+              "pos": "n."
+            },
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "牛津",
+              "pos": "n."
+            }
+          }
+        },
+        "twenty": {
+          "lemma": "twenty",
+          "translation": "二十",
+          "pos": "num.",
+          "forms": "twenties",
+          "meanings": "二十；二十个",
+          "contexts": {
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "二十",
+              "pos": "num."
+            }
+          }
+        },
+        "volume": {
+          "lemma": "volume",
+          "translation": "卷",
+          "pos": "n.",
+          "forms": "volumes",
+          "meanings": "卷；体积；音量；容量",
+          "contexts": {
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "卷",
+              "pos": "n."
+            }
+          }
+        },
+        "work": {
+          "lemma": "work",
+          "translation": "作品",
+          "pos": "n.",
+          "forms": "works, worked, working",
+          "meanings": "作品；工作；研究；职业；工厂",
+          "contexts": {
+            "In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work.": {
+              "translation": "作品",
+              "pos": "n."
+            }
+          }
+        },
+        "interesting": {
+          "lemma": "interesting",
+          "translation": "有趣的",
+          "pos": "adj.",
+          "forms": "more interesting, most interesting",
+          "meanings": "有趣的；引起兴趣的；令人关注的",
+          "contexts": {
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "有趣的",
+              "pos": "adj."
+            }
+          }
+        },
+        "features": {
+          "lemma": "feature",
+          "translation": "特色",
+          "pos": "n.",
+          "forms": "features",
+          "meanings": "特色；特征；专题节目；容貌",
+          "contexts": {
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "特色",
+              "pos": "n."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于；位于",
+          "contexts": {
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "its": {
+          "lemma": "it",
+          "translation": "它的",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "它的；属于它的",
+          "contexts": {
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "它的",
+              "pos": "pron."
+            },
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "它的",
+              "pos": "pron."
+            }
+          }
+        },
+        "histories": {
+          "lemma": "history",
+          "translation": "历史",
+          "pos": "n.",
+          "forms": "histories",
+          "meanings": "历史；来历；履历；史学",
+          "contexts": {
+            "One of the most interesting features of the Oxford Dictionary is its word histories.": {
+              "translation": "历史",
+              "pos": "n."
+            }
+          }
+        },
+        "it": {
+          "lemma": "it",
+          "translation": "它",
+          "pos": "pron.",
+          "forms": "its, itself",
+          "meanings": "它；这；那个；代指已提到的事物",
+          "contexts": {
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "它",
+              "pos": "pron."
+            }
+          }
+        },
+        "traces": {
+          "lemma": "trace",
+          "translation": "追踪",
+          "pos": "v.",
+          "forms": "traces, traced, tracing",
+          "meanings": "追踪；追溯；勾勒；微量；痕迹",
+          "contexts": {
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "追溯",
+              "pos": "v."
+            }
+          }
+        },
+        "history": {
+          "lemma": "history",
+          "translation": "历史",
+          "pos": "n.",
+          "forms": "histories",
+          "meanings": "历史；历史学；来历；（某人的）经历",
+          "contexts": {
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "历史",
+              "pos": "n."
+            }
+          }
+        },
+        "from": {
+          "lemma": "from",
+          "translation": "从",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "从；来自；因为；由于；起始",
+          "contexts": {
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "从",
+              "pos": "prep."
+            }
+          }
+        },
+        "earliest": {
+          "lemma": "early",
+          "translation": "最早的",
+          "pos": "adj.",
+          "forms": "earlier, earliest",
+          "meanings": "最早的；早期的；初步的",
+          "contexts": {
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "最早的",
+              "pos": "adj."
+            }
+          }
+        },
+        "recorded": {
+          "lemma": "record",
+          "translation": "记录的",
+          "pos": "adj.",
+          "forms": "records, recorded, recording",
+          "meanings": "记录的；记载的；已录制的",
+          "contexts": {
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "记录的",
+              "pos": "adj."
+            }
+          }
+        },
+        "use": {
+          "lemma": "use",
+          "translation": "使用",
+          "pos": "n.",
+          "forms": "uses, used, using",
+          "meanings": "使用；利用；消耗；习惯于",
+          "contexts": {
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "使用",
+              "pos": "n."
+            }
+          }
+        },
+        "time": {
+          "lemma": "time",
+          "translation": "时间",
+          "pos": "n.",
+          "forms": "times",
+          "meanings": "时间；时代；次数；倍数",
+          "contexts": {
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "时间",
+              "pos": "n."
+            }
+          }
+        },
+        "printing": {
+          "lemma": "print",
+          "translation": "印刷",
+          "pos": "n.",
+          "forms": "prints, printed, printing",
+          "meanings": "印刷；出版；字体；打印",
+          "contexts": {
+            "It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.": {
+              "translation": "印刷",
+              "pos": "n."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "The first English dictionary   _  .",
+          "options": [
+            "defined easy words as well as hard ones",
+            "was just a list of difficult words with one-word definitions",
+            "included a number of everyday words",
+            "was considered to be a very valuable one"
+          ],
+          "answer": 1,
+          "explanation": "文章明确指出第一本字典仅包含约3000个生词，且定义非常简短，并未涵盖日常词汇。",
+          "type": "细节理解",
+          "evidenceSentence": "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.",
+          "optionExplanations": [
+            "原文未提及包含简单词汇，仅提到生词，错误。",
+            "原文明确提到该字典仅是一系列生词及简短定义，正确。",
+            "文章说作者没有尝试收录日常词汇，错误。",
+            "文章提到1750年前的字典不怎么有价值，错误。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "正确",
+            "忽略否定或范围",
+            "单词或语境理解错误"
+          ]
+        },
+        {
+          "prompt": "According to the passage, before 1755 all English dictionaries   _  .",
+          "options": [
+            "were of no value",
+            "only defined hard words",
+            "defined both easy words as well as hard words",
+            "were far from being perfect"
+          ],
+          "answer": 3,
+          "explanation": "文中提到1755年前的字典较为粗糙且价值不高，而非一无是处，符合“不够完美”的描述。",
+          "type": "细节理解",
+          "evidenceSentence": "But until the 1750's all the dictionaries were rather crude and not very valuable.",
+          "optionExplanations": [
+            "文中说价值不高，不代表完全没价值，错误。",
+            "John Kersey在1700年左右已经开始定义简单词汇了，错误。",
+            "不是所有字典都定义简单词汇，错误。",
+            "字典不够完善，价值有限，正确。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "忽略否定或范围",
+            "偷换概念",
+            "正确"
+          ]
+        },
+        {
+          "prompt": "Which of the following statements is not true about Dr Johnson's dictionary?",
+          "options": [
+            "It was not very valuable.",
+            "It was the first modern English dictionary.",
+            "It included easy words as well as hard ones.",
+            "It gave sentences to show the usage of words."
+          ],
+          "answer": 0,
+          "explanation": "Dr Johnson的字典被视为第一本现代字典，非常有价值，选项A说它没有价值与原文事实相反。",
+          "type": "细节理解",
+          "evidenceSentence": "In 1755 Dr Johnson produced the first modern dictionary.",
+          "optionExplanations": [
+            "原文称赞了他的字典，该说法不实，正确。",
+            "原文明确提到，事实相符。",
+            "原文提到他收录了所有重要词汇，事实相符。",
+            "原文提到他给出了例句，事实相符。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "没有定位证据句",
+            "没有定位证据句",
+            "没有定位证据句"
+          ]
+        },
+        {
+          "prompt": "The most interesting feature of the Oxford Dictionary was that   _  .",
+          "options": [
+            "it had a complete list of difficult words",
+            "it gave sentences showing how each word was actually used",
+            "it was a 20-volume work",
+            "it showed the history of each word"
+          ],
+          "answer": 3,
+          "explanation": "文中明确指出牛津字典最有趣的特征之一是记录词汇的历史。",
+          "type": "细节理解",
+          "evidenceSentence": "One of the most interesting features of the Oxford Dictionary is its word histories.",
+          "optionExplanations": [
+            "并非牛津字典的特征，错误。",
+            "这是Dr Johnson字典的特征，非牛津字典的独特之处，错误。",
+            "这是事实，但文中未将其称为最有趣的特征，错误。",
+            "原文明确指出这是最有趣的特征之一，正确。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "偷换概念",
+            "把局部信息当成主旨",
+            "正确"
+          ]
+        },
+        {
+          "prompt": "This passage is mainly about   _  .",
+          "options": [
+            "the difference of English dictionaries",
+            "the origin of English dictionaries",
+            "the development of English dictionaries",
+            "the features of English dictionaries"
+          ],
+          "answer": 2,
+          "explanation": "文章按时间顺序介绍了从1604年第一本字典到1800年代牛津字典的发展过程。",
+          "type": "主旨大意",
+          "evidenceSentence": "Dictionaries were getting better and better.",
+          "optionExplanations": [
+            "文章侧重过程而非单纯对比，错误。",
+            "文章涵盖了长期的演变过程，而非仅仅描述起源，错误。",
+            "文章以时间为线索叙述了字典从简单到成熟的演变，正确。",
+            "文中虽提及特征，但其目的是为了展示字典如何不断改进，错误。"
+          ],
+          "optionErrorTypes": [
+            "把局部信息当成主旨",
+            "把局部信息当成主旨",
+            "正确",
+            "把局部信息当成主旨"
+          ]
+        }
+      ],
+      "generationUsage": {
+        "requests": 11,
+        "inputTokens": 28422,
+        "outputTokens": 14670,
+        "totalTokens": 43092,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 11,
+            "inputTokens": 28422,
+            "outputTokens": 14670,
+            "totalTokens": 43092,
             "estimatedCostUsd": null
           }
         }
