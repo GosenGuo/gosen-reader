@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
@@ -45,12 +46,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MainActivity extends Activity {
-    private static final int GREEN = Color.rgb(47, 107, 79);
-    private static final int GREEN_LIGHT = Color.rgb(229, 239, 232);
-    private static final int CREAM = Color.rgb(250, 248, 242);
-    private static final int INK = Color.rgb(39, 43, 40);
-    private static final int MUTED = Color.rgb(102, 107, 103);
-    private static final int GOLD = Color.rgb(233, 180, 76);
     private static final Pattern WORD_PATTERN =
             Pattern.compile("[A-Za-z]+(?:['’][A-Za-z]+)*");
     private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ISO_LOCAL_DATE;
@@ -66,23 +61,42 @@ public class MainActivity extends Activity {
     private LearningStore learningStore;
     private long readingStartedAt;
     private int activeArticleClicks;
+    private boolean darkMode;
+    private int GREEN;
+    private int PRIMARY;
+    private int GREEN_LIGHT;
+    private int CREAM;
+    private int SURFACE;
+    private int INK;
+    private int MUTED;
+    private int GOLD;
+    private int DANGER;
+    private final ArrayList<Button> navButtons = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        prefs = getSharedPreferences("reader", Context.MODE_PRIVATE);
+        boolean systemDark = (getResources().getConfiguration().uiMode
+                & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
+        darkMode = prefs.contains("darkMode")
+                ? prefs.getBoolean("darkMode", false) : systemDark;
+        applyPalette();
+        setTheme(darkMode ? R.style.AppTheme_Dark : R.style.AppTheme);
         getWindow().setStatusBarColor(CREAM);
+        getWindow().setNavigationBarColor(SURFACE);
+        int lightBars = darkMode ? 0 : View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+                | View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR;
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             getWindow().setDecorFitsSystemWindows(false);
-            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+            getWindow().getDecorView().setSystemUiVisibility(lightBars);
         } else {
             getWindow().getDecorView().setSystemUiVisibility(
-                    View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
-                            | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                    lightBars | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                             | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                             | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
         }
 
-        prefs = getSharedPreferences("reader", Context.MODE_PRIVATE);
         repository = new ContentRepository(this);
         refillManager = new ContentRefillManager(this);
         learningStore = new LearningStore(prefs);
@@ -94,6 +108,30 @@ public class MainActivity extends Activity {
         });
         updateManager = new AppUpdateManager(this);
         updateManager.checkForUpdates();
+    }
+
+    private void applyPalette() {
+        if (darkMode) {
+            GREEN = Color.rgb(111, 210, 158);
+            PRIMARY = Color.rgb(38, 112, 77);
+            GREEN_LIGHT = Color.rgb(29, 53, 42);
+            CREAM = Color.rgb(16, 20, 18);
+            SURFACE = Color.rgb(27, 33, 30);
+            INK = Color.rgb(235, 240, 236);
+            MUTED = Color.rgb(164, 176, 168);
+            GOLD = Color.rgb(238, 188, 87);
+            DANGER = Color.rgb(242, 139, 126);
+        } else {
+            GREEN = Color.rgb(47, 107, 79);
+            PRIMARY = GREEN;
+            GREEN_LIGHT = Color.rgb(229, 239, 232);
+            CREAM = Color.rgb(250, 248, 242);
+            SURFACE = Color.WHITE;
+            INK = Color.rgb(39, 43, 40);
+            MUTED = Color.rgb(102, 107, 103);
+            GOLD = Color.rgb(233, 180, 76);
+            DANGER = Color.rgb(176, 76, 65);
+        }
     }
 
     @Override
@@ -128,6 +166,7 @@ public class MainActivity extends Activity {
     }
 
     private void buildShell() {
+        navButtons.clear();
         LinearLayout root = new LinearLayout(this);
         root.setOrientation(LinearLayout.VERTICAL);
         root.setBackgroundColor(CREAM);
@@ -139,7 +178,7 @@ public class MainActivity extends Activity {
         nav = new LinearLayout(this);
         nav.setGravity(Gravity.CENTER);
         nav.setPadding(dp(12), dp(6), dp(12), dp(8));
-        nav.setBackgroundColor(Color.WHITE);
+        nav.setBackgroundColor(SURFACE);
         addNavButton("首页", this::showHome);
         addNavButton("题库", this::showLibrary);
         addNavButton("复习", this::showReview);
@@ -174,10 +213,25 @@ public class MainActivity extends Activity {
         button.setTextSize(14);
         button.setTextColor(GREEN);
         button.setAllCaps(false);
-        button.setBackgroundColor(Color.TRANSPARENT);
-        button.setOnClickListener(view -> action.run());
+        button.setTag(label);
+        button.setBackground(rounded(Color.TRANSPARENT, 12));
+        button.setOnClickListener(view -> {
+            selectNav(label);
+            action.run();
+        });
+        navButtons.add(button);
         nav.addView(button, new LinearLayout.LayoutParams(0,
                 ViewGroup.LayoutParams.MATCH_PARENT, 1));
+    }
+
+    private void selectNav(String label) {
+        for (Button button : navButtons) {
+            boolean selected = label.equals(button.getTag());
+            button.setTextColor(selected ? GREEN : MUTED);
+            button.setTypeface(Typeface.DEFAULT,
+                    selected ? Typeface.BOLD : Typeface.NORMAL);
+            button.setBackground(rounded(selected ? GREEN_LIGHT : Color.TRANSPARENT, 12));
+        }
     }
 
     private void setScreen(View view, boolean showNav) {
@@ -189,16 +243,32 @@ public class MainActivity extends Activity {
 
     private void showHome() {
         onHomeScreen = true;
+        selectNav("首页");
         ScrollView scroll = screenScroll();
         LinearLayout page = page();
         scroll.addView(page);
 
+        LinearLayout header = new LinearLayout(this);
+        header.setOrientation(LinearLayout.HORIZONTAL);
+        header.setGravity(Gravity.CENTER_VERTICAL);
         TextView greeting = label("你好，Gosen", 28, INK, true);
-        page.addView(greeting);
+        header.addView(greeting, new LinearLayout.LayoutParams(0,
+                ViewGroup.LayoutParams.WRAP_CONTENT, 1));
+        Button theme = secondaryButton(darkMode ? "浅色" : "深色");
+        theme.setTextSize(13);
+        theme.setMinHeight(dp(40));
+        theme.setPadding(dp(12), 0, dp(12), 0);
+        theme.setOnClickListener(view -> {
+            prefs.edit().putBoolean("darkMode", !darkMode).apply();
+            recreate();
+        });
+        header.addView(theme, new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT, dp(40)));
+        page.addView(header);
         page.addView(label("每天读一篇，让阅读变成习惯。", 15, MUTED, false));
         page.addView(space(24));
 
-        LinearLayout streakCard = card(GREEN);
+        LinearLayout streakCard = card(PRIMARY);
         streakCard.addView(label("连续阅读", 14, Color.WHITE, false));
         TextView streak = label(prefs.getInt("streak", 0) + " 天", 38,
                 Color.WHITE, true);
@@ -224,7 +294,7 @@ public class MainActivity extends Activity {
         page.addView(label("今日阅读", 20, INK, true));
         page.addView(space(10));
         if (repository.size() == 0) {
-            LinearLayout empty = card(Color.WHITE);
+            LinearLayout empty = card(SURFACE);
             empty.addView(label("题库暂时无法读取", 17, INK, true));
             empty.addView(label("请检查内置 articles.json 数据。", 14, MUTED, false));
             page.addView(empty);
@@ -237,7 +307,7 @@ public class MainActivity extends Activity {
         page.addView(space(20));
         page.addView(label("本月进度", 20, INK, true));
         page.addView(space(10));
-        LinearLayout progress = card(Color.WHITE);
+        LinearLayout progress = card(SURFACE);
         progress.addView(label("已完成 " + completedDaysThisMonth() + " 天", 18, INK, true));
         progress.addView(space(8));
         TextView hint = label("目标：每天一篇 · 正确率不影响打卡", 14, MUTED, false);
@@ -285,7 +355,7 @@ public class MainActivity extends Activity {
     }
 
     private LinearLayout articleCard(JSONObject article, boolean prominent) {
-        LinearLayout box = card(Color.WHITE);
+        LinearLayout box = card(SURFACE);
         TextView tag = label(article.optString("difficulty", "高中") + "  ·  "
                 + article.optInt("wordCount", 0) + " 词", 13, GREEN, true);
         box.addView(tag);
@@ -303,6 +373,7 @@ public class MainActivity extends Activity {
 
     private void showLibrary() {
         onHomeScreen = false;
+        selectNav("题库");
         ScrollView scroll = screenScroll();
         LinearLayout page = page();
         scroll.addView(page);
@@ -338,6 +409,7 @@ public class MainActivity extends Activity {
 
     private void showReview() {
         onHomeScreen = false;
+        selectNav("复习");
         ScrollView scroll = screenScroll();
         LinearLayout page = page();
         scroll.addView(page);
@@ -367,7 +439,7 @@ public class MainActivity extends Activity {
             masked = sentence.replaceAll("(?i)\\b" + Pattern.quote(lemma) + "\\b", "______");
         }
 
-        LinearLayout box = card(Color.WHITE);
+        LinearLayout box = card(SURFACE);
         box.addView(label("先回忆这个词在句中的含义", 14, MUTED, true));
         box.addView(space(10));
         box.addView(label(masked, 19, INK, false));
@@ -421,6 +493,7 @@ public class MainActivity extends Activity {
 
     private void showStats() {
         onHomeScreen = false;
+        selectNav("统计");
         ScrollView scroll = screenScroll();
         LinearLayout page = page();
         scroll.addView(page);
@@ -448,7 +521,7 @@ public class MainActivity extends Activity {
         page.addView(grid2);
         page.addView(space(20));
 
-        LinearLayout clicks = card(Color.WHITE);
+        LinearLayout clicks = card(SURFACE);
         clicks.addView(label("单词点击", 18, INK, true));
         clicks.addView(space(6));
         clicks.addView(label("累计点击 " + prefs.getInt("totalClicks", 0)
@@ -456,7 +529,7 @@ public class MainActivity extends Activity {
         page.addView(clicks);
         page.addView(space(12));
 
-        LinearLayout learning = card(Color.WHITE);
+        LinearLayout learning = card(SURFACE);
         learning.addView(label("学习状态", 18, INK, true));
         learning.addView(space(6));
         learning.addView(label("生词本 " + learningStore.totalCount() + " 个 · 今日待复习 "
@@ -474,7 +547,7 @@ public class MainActivity extends Activity {
     }
 
     private LinearLayout statCard(String title, String value) {
-        LinearLayout box = card(Color.WHITE);
+        LinearLayout box = card(SURFACE);
         box.addView(label(title, 13, MUTED, false));
         box.addView(space(8));
         box.addView(label(value, 24, GREEN, true));
@@ -574,7 +647,7 @@ public class MainActivity extends Activity {
         LinearLayout sheet = new LinearLayout(this);
         sheet.setOrientation(LinearLayout.VERTICAL);
         sheet.setPadding(dp(22), dp(20), dp(22), dp(24));
-        sheet.setBackground(rounded(Color.WHITE, 22));
+        sheet.setBackground(rounded(SURFACE, 22));
 
         TextView word = label(displayedWord, 30, INK, true);
         sheet.addView(word);
@@ -707,7 +780,7 @@ public class MainActivity extends Activity {
         ArrayList<RadioGroup> groups = new ArrayList<>();
         for (int i = 0; i < questions.length(); i++) {
             JSONObject question = questions.optJSONObject(i);
-            LinearLayout box = card(Color.WHITE);
+            LinearLayout box = card(SURFACE);
             box.addView(label((i + 1) + ". " + question.optString("prompt"),
                     17, INK, true));
             box.addView(space(10));
@@ -769,10 +842,10 @@ public class MainActivity extends Activity {
             JSONObject q = questions.optJSONObject(i);
             int answer = q.optInt("answer");
             JSONArray options = q.optJSONArray("options");
-            LinearLayout box = card(Color.WHITE);
+            LinearLayout box = card(SURFACE);
             boolean right = selected[i] == answer;
             box.addView(label((i + 1) + ". " + (right ? "回答正确" : "需要复盘"),
-                    17, right ? GREEN : Color.rgb(176, 76, 65), true));
+                    17, right ? GREEN : DANGER, true));
             box.addView(space(6));
             box.addView(label("你的答案：" + (char) ('A' + selected[i]) + "  ·  正确答案："
                     + (char) ('A' + answer), 14, INK, false));
@@ -989,7 +1062,7 @@ public class MainActivity extends Activity {
         button.setTextColor(Color.WHITE);
         button.setTypeface(Typeface.DEFAULT, Typeface.BOLD);
         button.setAllCaps(false);
-        button.setBackground(rounded(GREEN, 14));
+        button.setBackground(rounded(PRIMARY, 14));
         button.setMinHeight(dp(52));
         return button;
     }

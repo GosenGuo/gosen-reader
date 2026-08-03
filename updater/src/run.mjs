@@ -209,6 +209,9 @@ ${page.text}`,
 async function enrichArticle(extracted, page) {
   const sentences = splitSentences(extracted.body)
     .map((sentence, index) => ({ id: `s${index}`, sentence }));
+  // Attach a rejection handler immediately. Without this wrapper, the parallel
+  // question request can time out while sentence translation is still running;
+  // Node then treats it as an unhandled rejection and kills the whole refill.
   const questionPromise = ai.json(
     `Review existing high-school English multiple-choice reading questions for a Chinese high-school student.
 Return exactly one JSON object:
@@ -223,6 +226,9 @@ Return one review for every question, in order, and one explanation for every op
       }))
     }),
     0
+  ).then(
+    value => ({ value, error: null }),
+    error => ({ value: null, error })
   );
   const sentenceTranslationsById = {};
   const translationBatches = chunkValues(sentences, 6);
@@ -239,7 +245,9 @@ Do not omit ids or return English source text, markdown, or commentary.`,
       Object.assign(sentenceTranslationsById, translated);
     }
   }
-  const questionResult = await questionPromise;
+  const questionOutcome = await questionPromise;
+  if (questionOutcome.error) throw questionOutcome.error;
+  const questionResult = questionOutcome.value;
   const sentenceTranslations = {};
   for (const { id, sentence } of sentences) {
     const translation = String(sentenceTranslationsById[id] || "").trim();
