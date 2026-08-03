@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T14:28:40.660Z",
+  "generatedAt": "2026-08-03T14:55:34.404Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -66921,6 +66921,2616 @@
             "inputTokens": 41602,
             "outputTokens": 17048,
             "totalTokens": 58650,
+            "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-489568c736b8b700",
+      "title": "RACE 高中英语阅读 high4138",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "There are quite a few advantages of wearing school uniforms. The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.\nTeachers love school uniforms because it helps provide an orderly learning environment. Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner. It gives students the opportunity to learn how to dress like young ladies and gentleman. And they can focus their attention on academics rather than style.\nPurchasing school uniforms is easy and needs less hesitation  and consideration. No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ . A few wardrobe items can last a long time. Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.\nStudents wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly. Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly. Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.\nUniforms today are also becoming trendier and can be seen in many areas of pop culture. Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.",
+      "wordCount": 270,
+      "sentenceTranslations": {
+        "There are quite a few advantages of wearing school uniforms.": "穿校服有不少好处。",
+        "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": "起初你可能会觉得这个想法令人反感，但考虑到穿校服带来的所有积极影响，你很可能会喜欢上它们。",
+        "Teachers love school uniforms because it helps provide an orderly learning environment.": "老师们喜欢校服，因为它有助于提供一个有序的学习环境。",
+        "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": "让学生穿校服可以教会他们如何以整洁、专业的方式展现自己。",
+        "It gives students the opportunity to learn how to dress like young ladies and gentleman.": "这为学生提供了学习如何像淑女和绅士一样着装的机会。",
+        "And they can focus their attention on academics rather than style.": "而且他们可以将注意力集中在学业上，而不是穿衣打扮上。",
+        "Purchasing school uniforms is easy and needs less hesitation  and consideration.": "购买校服既方便又无需过多的犹豫和考虑。",
+        "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": "无论学校的政策如何，衣橱里只需要几件必备的单品就够了，所以_ 。",
+        "A few wardrobe items can last a long time.": "几件衣物就能穿很久。",
+        "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": "家长们也能享受轻松的早晨，因为帮孩子挑选上学的衣服会更省时。",
+        "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": "当同学们都穿着同样的校服时，学生们对于该穿什么或不该穿什么会有较小的心理压力。",
+        "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": "当学生们的选择受到限制时，上学前的穿衣就不再是一件苦差事，因此在挑选当天装束和快速准备方面应该不会有任何麻烦。",
+        "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": "有些学生可能不喜欢校服所带来的千篇一律，但一些学校的着装规定或许能为他们提供展现独特风格的机会。",
+        "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": "如今，校服也变得越来越时尚，在许多流行文化领域都能见到它们的身影。",
+        "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": "名人和时装设计师正将校服作为新造型的灵感来源，这也吸引了学生们的目光。"
+      },
+      "glossary": {
+        "there": {
+          "lemma": "there",
+          "translation": "有",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "有（引导there be句型）；在那里；向那里；到那里",
+          "contexts": {
+            "There are quite a few advantages of wearing school uniforms.": {
+              "translation": "有",
+              "pos": "adv."
+            },
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "有",
+              "pos": "adv."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "有",
+              "pos": "adv."
+            }
+          }
+        },
+        "are": {
+          "lemma": "be",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "am, is, were, been, being",
+          "meanings": "是；有；在；位于；成为",
+          "contexts": {
+            "There are quite a few advantages of wearing school uniforms.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "正在",
+              "pos": "v."
+            }
+          }
+        },
+        "quite": {
+          "lemma": "quite",
+          "translation": "相当",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "相当；完全；十分；很",
+          "contexts": {
+            "There are quite a few advantages of wearing school uniforms.": {
+              "translation": "相当",
+              "pos": "adv."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一些",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何；一种；同一",
+          "contexts": {
+            "There are quite a few advantages of wearing school uniforms.": {
+              "translation": "一些",
+              "pos": "art."
+            },
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "一种",
+              "pos": "art."
+            },
+            "A few wardrobe items can last a long time.": {
+              "translation": "一些",
+              "pos": "art."
+            },
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "few": {
+          "lemma": "few",
+          "translation": "一些",
+          "pos": "adj.",
+          "forms": "fewer, fewest",
+          "meanings": "少数；不多；一些；很少",
+          "contexts": {
+            "There are quite a few advantages of wearing school uniforms.": {
+              "translation": "一些",
+              "pos": "adj."
+            },
+            "A few wardrobe items can last a long time.": {
+              "translation": "少数",
+              "pos": "adj."
+            }
+          }
+        },
+        "advantages": {
+          "lemma": "advantage",
+          "translation": "优势",
+          "pos": "n.",
+          "forms": "advantages",
+          "meanings": "优势；长处；有利条件；益处",
+          "contexts": {
+            "There are quite a few advantages of wearing school uniforms.": {
+              "translation": "优势",
+              "pos": "n."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；属于；由……组成；（表示数量或部分）",
+          "contexts": {
+            "There are quite a few advantages of wearing school uniforms.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "wearing": {
+          "lemma": "wear",
+          "translation": "穿",
+          "pos": "v.",
+          "forms": "wears, wore, worn",
+          "meanings": "穿；戴；留（发、须等）；磨损",
+          "contexts": {
+            "There are quite a few advantages of wearing school uniforms.": {
+              "translation": "穿",
+              "pos": "v."
+            },
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "穿",
+              "pos": "v."
+            },
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "穿着",
+              "pos": "v."
+            }
+          }
+        },
+        "school": {
+          "lemma": "school",
+          "translation": "学校",
+          "pos": "n.",
+          "forms": "schools",
+          "meanings": "学校；学院；上学；学派；教育",
+          "contexts": {
+            "There are quite a few advantages of wearing school uniforms.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "Purchasing school uniforms is easy and needs less hesitation  and consideration.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "学校",
+              "pos": "n."
+            }
+          }
+        },
+        "uniforms": {
+          "lemma": "uniform",
+          "translation": "制服",
+          "pos": "n.",
+          "forms": "uniforms",
+          "meanings": "制服；校服；统一的；始终如一的",
+          "contexts": {
+            "There are quite a few advantages of wearing school uniforms.": {
+              "translation": "制服",
+              "pos": "n."
+            },
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "制服",
+              "pos": "n."
+            },
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "制服",
+              "pos": "n."
+            },
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "制服",
+              "pos": "n."
+            },
+            "Purchasing school uniforms is easy and needs less hesitation  and consideration.": {
+              "translation": "制服",
+              "pos": "n."
+            },
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "制服",
+              "pos": "n."
+            },
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "制服",
+              "pos": "n."
+            },
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "制服",
+              "pos": "n."
+            }
+          }
+        },
+        "the": {
+          "lemma": "the",
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这；那；（用于特指）；（用于最高级前）",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "这（想法）",
+              "pos": "art."
+            },
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "这（机会）",
+              "pos": "art."
+            },
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "这（政策）",
+              "pos": "art."
+            },
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "这（早晨）",
+              "pos": "art."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "这（琐事）",
+              "pos": "art."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "这（统一性）",
+              "pos": "art."
+            }
+          }
+        },
+        "idea": {
+          "lemma": "idea",
+          "translation": "想法",
+          "pos": "n.",
+          "forms": "ideas",
+          "meanings": "观点；想法；念头；概念",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "想法",
+              "pos": "n."
+            }
+          }
+        },
+        "may": {
+          "lemma": "may",
+          "translation": "可能",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "可能；可以；五月；祝愿",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "可能",
+              "pos": "modal v."
+            },
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "可以",
+              "pos": "modal v."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "可能",
+              "pos": "modal v."
+            }
+          }
+        },
+        "seem": {
+          "lemma": "seem",
+          "translation": "似乎",
+          "pos": "v.",
+          "forms": "seems, seemed, seeming",
+          "meanings": "似乎；好像；看起来",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "似乎",
+              "pos": "v."
+            }
+          }
+        },
+        "disagreeable": {
+          "lemma": "disagreeable",
+          "translation": "令人不快的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "令人不快的；难相处的；不合意的；不友好的",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "令人不快的",
+              "pos": "adj."
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "在（某时间）",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/地点）；以（某种程度）；向；针对",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "在（起初）",
+              "pos": "prep."
+            }
+          }
+        },
+        "first": {
+          "lemma": "first",
+          "translation": "最初",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "第一；首要的；最初；首先",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "最初",
+              "pos": "adv."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "considering": {
+          "lemma": "consider",
+          "translation": "考虑到",
+          "pos": "prep.",
+          "forms": "considered, considers, considering",
+          "meanings": "考虑到；鉴于；顾及；就……而言",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "考虑到",
+              "pos": "prep."
+            }
+          }
+        },
+        "all": {
+          "lemma": "all",
+          "translation": "所有",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "全部；所有；总共；整个",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "所有",
+              "pos": "det."
+            }
+          }
+        },
+        "positive": {
+          "lemma": "positive",
+          "translation": "积极的",
+          "pos": "adj.",
+          "forms": "positives",
+          "meanings": "积极的；肯定的；实际的；有益的；确信的",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "积极的",
+              "pos": "adj."
+            }
+          }
+        },
+        "effective": {
+          "lemma": "effective",
+          "translation": "有效的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "有效的；生效的；实际的；显著的",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "有效的",
+              "pos": "adj."
+            }
+          }
+        },
+        "coming": {
+          "lemma": "come",
+          "translation": "产生的",
+          "pos": "v.",
+          "forms": "comes, came, come",
+          "meanings": "来；到达；出现；发生；产生",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "产生的",
+              "pos": "v."
+            }
+          }
+        },
+        "from": {
+          "lemma": "from",
+          "translation": "来自",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "从；来自；因为；由于；起始",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "来自",
+              "pos": "prep."
+            }
+          }
+        },
+        "you": {
+          "lemma": "you",
+          "translation": "你",
+          "pos": "pron.",
+          "forms": "your; yours; yourself",
+          "meanings": "你；你们；人们（泛指）；本人",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "你",
+              "pos": "pron."
+            }
+          }
+        },
+        "would": {
+          "lemma": "will",
+          "translation": "将会",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将；会；愿意；总是",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "将会",
+              "pos": "modal v."
+            }
+          }
+        },
+        "be": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；成为；（构成进行时或被动语态）",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "被",
+              "pos": "v."
+            }
+          }
+        },
+        "more": {
+          "lemma": "more",
+          "translation": "更",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "更多的；较大程度地；更；额外；附加的",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "更",
+              "pos": "adv."
+            }
+          }
+        },
+        "likely": {
+          "lemma": "likely",
+          "translation": "可能的",
+          "pos": "adj.",
+          "forms": "likelier, likeliest",
+          "meanings": "很可能的；有希望的；预料中的",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "可能的",
+              "pos": "adj."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "用于构成不定式",
+          "pos": "particle",
+          "forms": "无常见变形",
+          "meanings": "构成不定式；向；给；到；对于",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "对于",
+              "pos": "prep."
+            },
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            }
+          }
+        },
+        "enjoy": {
+          "lemma": "enjoy",
+          "translation": "享受",
+          "pos": "verb",
+          "forms": "enjoys, enjoyed, enjoying",
+          "meanings": "享受；喜爱；享有；欣赏",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "喜欢，乐于接受",
+              "pos": "verb"
+            },
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "享受",
+              "pos": "verb"
+            }
+          }
+        },
+        "them": {
+          "lemma": "they",
+          "translation": "它们",
+          "pos": "pron.",
+          "forms": "they, their, theirs, themselves",
+          "meanings": "它们；他们；她们",
+          "contexts": {
+            "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.": {
+              "translation": "它们（指代制服）",
+              "pos": "pron."
+            },
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "他们（指代学生）",
+              "pos": "pron."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "他们（指代学生）",
+              "pos": "pron."
+            }
+          }
+        },
+        "teachers": {
+          "lemma": "teacher",
+          "translation": "教师",
+          "pos": "noun",
+          "forms": "teachers",
+          "meanings": "教师；导师；教练",
+          "contexts": {
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "教师",
+              "pos": "noun"
+            }
+          }
+        },
+        "love": {
+          "lemma": "love",
+          "translation": "热爱",
+          "pos": "verb",
+          "forms": "loves, loved, loving",
+          "meanings": "爱；热爱；喜欢；极其喜爱",
+          "contexts": {
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "热爱，非常喜欢",
+              "pos": "verb"
+            }
+          }
+        },
+        "because": {
+          "lemma": "because",
+          "translation": "因为",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "因为；由于",
+          "contexts": {
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "因为",
+              "pos": "conj."
+            }
+          }
+        },
+        "it": {
+          "lemma": "it",
+          "translation": "它",
+          "pos": "pron.",
+          "forms": "its, itself",
+          "meanings": "它；这；（引导形式主语）",
+          "contexts": {
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "它（指代穿校服这件事）",
+              "pos": "pron."
+            },
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "它（指代穿校服）",
+              "pos": "pron."
+            },
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "它（形式主语，指代选择衣服）",
+              "pos": "pron."
+            }
+          }
+        },
+        "helps": {
+          "lemma": "help",
+          "translation": "帮助",
+          "pos": "verb",
+          "forms": "helps, helped, helping",
+          "meanings": "帮助；有助于；促进；改善",
+          "contexts": {
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "有助于",
+              "pos": "verb"
+            }
+          }
+        },
+        "provide": {
+          "lemma": "provide",
+          "translation": "提供",
+          "pos": "verb",
+          "forms": "provides, providing, provided",
+          "meanings": "提供；供应；规定；供给",
+          "contexts": {
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "提供",
+              "pos": "verb"
+            }
+          }
+        },
+        "an": {
+          "lemma": "an",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "一个；每一；任何",
+          "contexts": {
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "orderly": {
+          "lemma": "orderly",
+          "translation": "有秩序的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "有秩序的；整洁的；守纪律的",
+          "contexts": {
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "有秩序的",
+              "pos": "adj."
+            }
+          }
+        },
+        "learning": {
+          "lemma": "learn",
+          "translation": "学习",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "学习；学问；知识；得知",
+          "contexts": {
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "学习",
+              "pos": "n."
+            }
+          }
+        },
+        "environment": {
+          "lemma": "environment",
+          "translation": "环境",
+          "pos": "n.",
+          "forms": "environments",
+          "meanings": "环境；自然环境；周围状况",
+          "contexts": {
+            "Teachers love school uniforms because it helps provide an orderly learning environment.": {
+              "translation": "环境",
+              "pos": "n."
+            }
+          }
+        },
+        "having": {
+          "lemma": "have",
+          "translation": "使得",
+          "pos": "v.",
+          "forms": "has, had, having",
+          "meanings": "有；经历；从事；吃喝；使得",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "使得",
+              "pos": "v."
+            }
+          }
+        },
+        "students": {
+          "lemma": "student",
+          "translation": "学生",
+          "pos": "n.",
+          "forms": "students",
+          "meanings": "学生；研究者；学习者",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "学生",
+              "pos": "n."
+            },
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "学生",
+              "pos": "n."
+            },
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "学生",
+              "pos": "n."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "学生",
+              "pos": "n."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "学生",
+              "pos": "n."
+            },
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "学生",
+              "pos": "n."
+            }
+          }
+        },
+        "dressed": {
+          "lemma": "dress",
+          "translation": "穿衣",
+          "pos": "v.",
+          "forms": "dresses, dressed, dressing",
+          "meanings": "穿衣服；打扮；给……穿衣",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "穿衣",
+              "pos": "v."
+            },
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "穿衣",
+              "pos": "v."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "穿衣",
+              "pos": "v."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "处于……状态",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "处于……状态",
+              "pos": "prep."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            }
+          }
+        },
+        "teach": {
+          "lemma": "teach",
+          "translation": "教导",
+          "pos": "v.",
+          "forms": "teaches, taught, teaching",
+          "meanings": "教；教授；教导；教育",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "教导",
+              "pos": "v."
+            }
+          }
+        },
+        "how": {
+          "lemma": "how",
+          "translation": "如何",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "如何；多少；多么；状况",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "如何",
+              "pos": "adv."
+            }
+          }
+        },
+        "present": {
+          "lemma": "present",
+          "translation": "展现",
+          "pos": "v.",
+          "forms": "presents, presented, presenting",
+          "meanings": "展现；提出；呈现；赠送",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "展现",
+              "pos": "v."
+            }
+          }
+        },
+        "themselves": {
+          "lemma": "themselves",
+          "translation": "他们自己",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "他们自己；它们自己；他们亲自；它们本身",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "他们自己",
+              "pos": "pron."
+            }
+          }
+        },
+        "neat": {
+          "lemma": "neat",
+          "translation": "整洁的",
+          "pos": "adj.",
+          "forms": "neater, neatest",
+          "meanings": "整洁的；利落的；有序的；极好的",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "整洁的",
+              "pos": "adj."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "And they can focus their attention on academics rather than style.": {
+              "translation": "而且",
+              "pos": "conj."
+            },
+            "Purchasing school uniforms is easy and needs less hesitation  and consideration.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "而且",
+              "pos": "conj."
+            },
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "和",
+              "pos": "conj."
+            }
+          }
+        },
+        "professional": {
+          "lemma": "professional",
+          "translation": "职业的",
+          "pos": "adj.",
+          "forms": "professionals",
+          "meanings": "职业的；专业的；内行的；专业人员",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "职业的",
+              "pos": "adj."
+            }
+          }
+        },
+        "manner": {
+          "lemma": "manner",
+          "translation": "方式",
+          "pos": "n.",
+          "forms": "manners",
+          "meanings": "方式；态度；举止；礼貌",
+          "contexts": {
+            "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.": {
+              "translation": "方式",
+              "pos": "n."
+            }
+          }
+        },
+        "gives": {
+          "lemma": "give",
+          "translation": "提供",
+          "pos": "v.",
+          "forms": "gave, given, giving, gives",
+          "meanings": "提供；给予；赠送；产生",
+          "contexts": {
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "提供",
+              "pos": "v."
+            }
+          }
+        },
+        "opportunity": {
+          "lemma": "opportunity",
+          "translation": "机会",
+          "pos": "n.",
+          "forms": "opportunities",
+          "meanings": "机会；时机",
+          "contexts": {
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "机会",
+              "pos": "n."
+            }
+          }
+        },
+        "learn": {
+          "lemma": "learn",
+          "translation": "学习",
+          "pos": "v.",
+          "forms": "learnt/learned, learning",
+          "meanings": "学习；得知；获悉；认识到；学会",
+          "contexts": {
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "学习",
+              "pos": "v."
+            }
+          }
+        },
+        "dress": {
+          "lemma": "dress",
+          "translation": "穿衣",
+          "pos": "v.",
+          "forms": "dressed, dresses, dressing",
+          "meanings": "穿衣；打扮；给……穿衣；服装",
+          "contexts": {
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "穿衣",
+              "pos": "v."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "服装",
+              "pos": "n."
+            }
+          }
+        },
+        "like": {
+          "lemma": "like",
+          "translation": "像",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "像；如同；例如；喜欢",
+          "contexts": {
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "像",
+              "pos": "prep."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "喜欢",
+              "pos": "v."
+            }
+          }
+        },
+        "young": {
+          "lemma": "young",
+          "translation": "年轻的",
+          "pos": "adj.",
+          "forms": "younger, youngest",
+          "meanings": "年轻的；年幼的",
+          "contexts": {
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "年轻的",
+              "pos": "adj."
+            }
+          }
+        },
+        "ladies": {
+          "lemma": "lady",
+          "translation": "女士",
+          "pos": "n.",
+          "forms": "lady, ladies",
+          "meanings": "女士；夫人；小姐；贵妇人",
+          "contexts": {
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "女士",
+              "pos": "n."
+            }
+          }
+        },
+        "gentleman": {
+          "lemma": "gentleman",
+          "translation": "绅士",
+          "pos": "n.",
+          "forms": "gentlemen",
+          "meanings": "绅士；有教养的人；先生；男士",
+          "contexts": {
+            "It gives students the opportunity to learn how to dress like young ladies and gentleman.": {
+              "translation": "绅士",
+              "pos": "n."
+            }
+          }
+        },
+        "they": {
+          "lemma": "they",
+          "translation": "他们",
+          "pos": "pron.",
+          "forms": "their, theirs, them, themselves",
+          "meanings": "他们；她们；它们；人；大家",
+          "contexts": {
+            "And they can focus their attention on academics rather than style.": {
+              "translation": "他们",
+              "pos": "pron."
+            }
+          }
+        },
+        "can": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal verb",
+          "forms": "could",
+          "meanings": "能够；可以；可能；罐头",
+          "contexts": {
+            "And they can focus their attention on academics rather than style.": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "A few wardrobe items can last a long time.": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "可以",
+              "pos": "modal verb"
+            }
+          }
+        },
+        "focus": {
+          "lemma": "focus",
+          "translation": "集中",
+          "pos": "v.",
+          "forms": "focuses, focused, focusing",
+          "meanings": "集中；聚焦；焦点；中心",
+          "contexts": {
+            "And they can focus their attention on academics rather than style.": {
+              "translation": "集中",
+              "pos": "v."
+            }
+          }
+        },
+        "their": {
+          "lemma": "they",
+          "translation": "他们的",
+          "pos": "pron.",
+          "forms": "theirs",
+          "meanings": "他们的；她们的；它们的",
+          "contexts": {
+            "And they can focus their attention on academics rather than style.": {
+              "translation": "他们的",
+              "pos": "pron."
+            },
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "他们的",
+              "pos": "pron."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "他们的",
+              "pos": "pron."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "他们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "attention": {
+          "lemma": "attention",
+          "translation": "注意",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "注意；专心；关注；照料",
+          "contexts": {
+            "And they can focus their attention on academics rather than style.": {
+              "translation": "注意",
+              "pos": "n."
+            }
+          }
+        },
+        "on": {
+          "lemma": "on",
+          "translation": "专注于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "专注于；在……之上；关于；在……时候；继续",
+          "contexts": {
+            "And they can focus their attention on academics rather than style.": {
+              "translation": "专注于",
+              "pos": "prep."
+            }
+          }
+        },
+        "academics": {
+          "lemma": "academic",
+          "translation": "学业",
+          "pos": "n.",
+          "forms": "academic, academics",
+          "meanings": "学业；学术界；大学教师；学习成绩",
+          "contexts": {
+            "And they can focus their attention on academics rather than style.": {
+              "translation": "学业",
+              "pos": "n."
+            }
+          }
+        },
+        "rather": {
+          "lemma": "rather",
+          "translation": "而不是",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "而不是；相当地；在某种程度上；宁愿",
+          "contexts": {
+            "And they can focus their attention on academics rather than style.": {
+              "translation": "而不是",
+              "pos": "adv."
+            }
+          }
+        },
+        "than": {
+          "lemma": "than",
+          "translation": "与其……相比",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "比；除……之外；与之相比；宁可",
+          "contexts": {
+            "And they can focus their attention on academics rather than style.": {
+              "translation": "与其……相比",
+              "pos": "conj."
+            }
+          }
+        },
+        "style": {
+          "lemma": "style",
+          "translation": "时尚",
+          "pos": "n.",
+          "forms": "styles, styled, styling",
+          "meanings": "时尚；风格；类型；方式",
+          "contexts": {
+            "And they can focus their attention on academics rather than style.": {
+              "translation": "时尚",
+              "pos": "n."
+            }
+          }
+        },
+        "purchasing": {
+          "lemma": "purchase",
+          "translation": "购买",
+          "pos": "v.",
+          "forms": "purchases, purchased, purchaser",
+          "meanings": "购买；采购；赢得",
+          "contexts": {
+            "Purchasing school uniforms is easy and needs less hesitation  and consideration.": {
+              "translation": "购买",
+              "pos": "v."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于；位于",
+          "contexts": {
+            "Purchasing school uniforms is easy and needs less hesitation  and consideration.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "easy": {
+          "lemma": "easy",
+          "translation": "容易的",
+          "pos": "adj.",
+          "forms": "easier, easiest",
+          "meanings": "容易的；舒适的；从容的；安逸的",
+          "contexts": {
+            "Purchasing school uniforms is easy and needs less hesitation  and consideration.": {
+              "translation": "容易的",
+              "pos": "adj."
+            },
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "轻松的",
+              "pos": "adj."
+            }
+          }
+        },
+        "needs": {
+          "lemma": "need",
+          "translation": "需要",
+          "pos": "v.",
+          "forms": "needing, needed, needs",
+          "meanings": "需要；必须；有必要；缺乏",
+          "contexts": {
+            "Purchasing school uniforms is easy and needs less hesitation  and consideration.": {
+              "translation": "需要",
+              "pos": "v."
+            }
+          }
+        },
+        "less": {
+          "lemma": "less",
+          "translation": "较少的",
+          "pos": "adj.",
+          "forms": "little, less, least",
+          "meanings": "较少的；更少的；较小程度的",
+          "contexts": {
+            "Purchasing school uniforms is easy and needs less hesitation  and consideration.": {
+              "translation": "较少的",
+              "pos": "adj."
+            },
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "较少的",
+              "pos": "adj."
+            },
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "较少的",
+              "pos": "adj."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "较少的",
+              "pos": "adj."
+            }
+          }
+        },
+        "hesitation": {
+          "lemma": "hesitation",
+          "translation": "犹豫",
+          "pos": "n.",
+          "forms": "hesitations",
+          "meanings": "犹豫；迟疑；踌躇",
+          "contexts": {
+            "Purchasing school uniforms is easy and needs less hesitation  and consideration.": {
+              "translation": "犹豫",
+              "pos": "n."
+            }
+          }
+        },
+        "consideration": {
+          "lemma": "consideration",
+          "translation": "考虑",
+          "pos": "n.",
+          "forms": "considerations",
+          "meanings": "考虑；体贴；报酬；研究",
+          "contexts": {
+            "Purchasing school uniforms is easy and needs less hesitation  and consideration.": {
+              "translation": "考虑",
+              "pos": "n."
+            }
+          }
+        },
+        "no": {
+          "lemma": "no",
+          "translation": "无论",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "没有；不；禁止；一点也不",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "无论",
+              "pos": "det."
+            }
+          }
+        },
+        "matter": {
+          "lemma": "matter",
+          "translation": "要紧，有关系",
+          "pos": "v.",
+          "forms": "matters, mattered, mattering",
+          "meanings": "要紧；有关系；物质；事件；问题",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "无论……怎样（与no连用）",
+              "pos": "v."
+            }
+          }
+        },
+        "what": {
+          "lemma": "what",
+          "translation": "什么",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "什么；……的事物；多么；究竟是什么",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "无论什么",
+              "pos": "pron."
+            },
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "什么（引导从句）",
+              "pos": "pron."
+            }
+          }
+        },
+        "s": {
+          "lemma": "s",
+          "translation": "所有格符号",
+          "pos": "suffix",
+          "forms": "无常见变形",
+          "meanings": "复数词尾；所有格符号；表示缩写",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "所有格符号",
+              "pos": "suffix"
+            }
+          }
+        },
+        "policy": {
+          "lemma": "policy",
+          "translation": "政策",
+          "pos": "n.",
+          "forms": "policies",
+          "meanings": "政策；方针；保险单；策略",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "政策",
+              "pos": "n."
+            }
+          }
+        },
+        "only": {
+          "lemma": "only",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；只；才；唯一的",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "仅仅",
+              "pos": "adv."
+            }
+          }
+        },
+        "specific": {
+          "lemma": "specific",
+          "translation": "具体的",
+          "pos": "adj.",
+          "forms": "specifically",
+          "meanings": "具体的；特有的；明确的；特定的",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "具体的",
+              "pos": "adj."
+            }
+          }
+        },
+        "essential": {
+          "lemma": "essential",
+          "translation": "必不可少的",
+          "pos": "adj.",
+          "forms": "essentially",
+          "meanings": "必不可少的；本质的；最重要的",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "必不可少的",
+              "pos": "adj."
+            }
+          }
+        },
+        "pieces": {
+          "lemma": "piece",
+          "translation": "件",
+          "pos": "n.",
+          "forms": "pieces",
+          "meanings": "件；块；片；零件",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "件（衣物）",
+              "pos": "n."
+            }
+          }
+        },
+        "wardrobe": {
+          "lemma": "wardrobe",
+          "translation": "衣橱",
+          "pos": "n.",
+          "forms": "wardrobes",
+          "meanings": "衣橱；全部行头；服装部",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "全部行头",
+              "pos": "n."
+            },
+            "A few wardrobe items can last a long time.": {
+              "translation": "服装",
+              "pos": "n."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "引导定语从句",
+          "pos": "conj.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；因为",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "引导定语从句（修饰pieces）",
+              "pos": "conj."
+            }
+          }
+        },
+        "necessary": {
+          "lemma": "necessary",
+          "translation": "必要的",
+          "pos": "adj.",
+          "forms": "necessaries",
+          "meanings": "必要的；必须的；必然的；必需品",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "必要的",
+              "pos": "adj."
+            }
+          }
+        },
+        "so": {
+          "lemma": "so",
+          "translation": "因此",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "因此；那么；如此；非常",
+          "contexts": {
+            "No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ .": {
+              "translation": "因此",
+              "pos": "conj."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "因此",
+              "pos": "conj."
+            }
+          }
+        },
+        "items": {
+          "lemma": "item",
+          "translation": "物件",
+          "pos": "n.",
+          "forms": "items",
+          "meanings": "项目；一件物品；条款；新闻报道",
+          "contexts": {
+            "A few wardrobe items can last a long time.": {
+              "translation": "物件",
+              "pos": "n."
+            }
+          }
+        },
+        "last": {
+          "lemma": "last",
+          "translation": "持续",
+          "pos": "v.",
+          "forms": "lasts, lasted, lasting",
+          "meanings": "持续；足以维持；最后的；上一个",
+          "contexts": {
+            "A few wardrobe items can last a long time.": {
+              "translation": "持续",
+              "pos": "v."
+            }
+          }
+        },
+        "long": {
+          "lemma": "long",
+          "translation": "长期的",
+          "pos": "adj.",
+          "forms": "longer, longest",
+          "meanings": "漫长的；长期的；长度的；远久的",
+          "contexts": {
+            "A few wardrobe items can last a long time.": {
+              "translation": "漫长的",
+              "pos": "adj."
+            }
+          }
+        },
+        "time": {
+          "lemma": "time",
+          "translation": "一段时间",
+          "pos": "n.",
+          "forms": "times",
+          "meanings": "时间；时代；次数；倍数；一段时间",
+          "contexts": {
+            "A few wardrobe items can last a long time.": {
+              "translation": "一段时间",
+              "pos": "n."
+            },
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "时间",
+              "pos": "n."
+            }
+          }
+        },
+        "parents": {
+          "lemma": "parent",
+          "translation": "父母",
+          "pos": "n.",
+          "forms": "parents",
+          "meanings": "父母；父亲或母亲；亲本；根源",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "父母",
+              "pos": "n."
+            }
+          }
+        },
+        "could": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "能够；可能；可以；用于疑问句表示惊讶或困惑",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "能够",
+              "pos": "modal v."
+            }
+          }
+        },
+        "also": {
+          "lemma": "also",
+          "translation": "也",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "也；同样；并且；而且",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "也",
+              "pos": "adv."
+            },
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "也",
+              "pos": "adv."
+            },
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "也",
+              "pos": "adv."
+            }
+          }
+        },
+        "morning": {
+          "lemma": "morning",
+          "translation": "早晨",
+          "pos": "n.",
+          "forms": "mornings",
+          "meanings": "早晨；上午；开端",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "早晨",
+              "pos": "n."
+            }
+          }
+        },
+        "as": {
+          "lemma": "as",
+          "translation": "因为",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "因为；像……一样；作为；当……时；正如",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "因为",
+              "pos": "conj."
+            },
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "作为",
+              "pos": "prep."
+            }
+          }
+        },
+        "will": {
+          "lemma": "will",
+          "translation": "将要",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将要；会；愿意；意志（名词）",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "将要",
+              "pos": "modal v."
+            },
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "将要",
+              "pos": "modal v."
+            }
+          }
+        },
+        "take": {
+          "lemma": "take",
+          "translation": "花费",
+          "pos": "v.",
+          "forms": "took, taken, taking, takes",
+          "meanings": "花费；采取；拿；移开；乘坐",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "花费",
+              "pos": "v."
+            }
+          }
+        },
+        "choose": {
+          "lemma": "choose",
+          "translation": "选择",
+          "pos": "v.",
+          "forms": "chooses, chose, chosen, choosing",
+          "meanings": "选择；决定；挑选；选定",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "选择",
+              "pos": "v."
+            }
+          }
+        },
+        "set": {
+          "lemma": "set",
+          "translation": "一套",
+          "pos": "n.",
+          "forms": "sets",
+          "meanings": "一套；设定；放置；安置；摆放",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "一套",
+              "pos": "n."
+            }
+          }
+        },
+        "clothes": {
+          "lemma": "clothe",
+          "translation": "衣服",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "衣服；服装；衣着；衣物",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "衣服",
+              "pos": "n."
+            }
+          }
+        },
+        "for": {
+          "lemma": "for",
+          "translation": "为",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "为了；支持；因为；给；长达",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "用于",
+              "pos": "prep."
+            },
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "作为",
+              "pos": "prep."
+            }
+          }
+        },
+        "day": {
+          "lemma": "day",
+          "translation": "天",
+          "pos": "n.",
+          "forms": "days",
+          "meanings": "天；白天；日子；时期；一日",
+          "contexts": {
+            "Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.": {
+              "translation": "天",
+              "pos": "n."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "一天",
+              "pos": "n."
+            }
+          }
+        },
+        "feel": {
+          "lemma": "feel",
+          "translation": "感到",
+          "pos": "v.",
+          "forms": "feels, felt, feeling",
+          "meanings": "感到；触摸；认为；有……感觉",
+          "contexts": {
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "感到",
+              "pos": "v."
+            }
+          }
+        },
+        "pressure": {
+          "lemma": "pressure",
+          "translation": "压力",
+          "pos": "n.",
+          "forms": "pressures",
+          "meanings": "压力；压迫；气压；紧迫",
+          "contexts": {
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "压力",
+              "pos": "n."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围；正要",
+          "contexts": {
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "关于",
+              "pos": "prep."
+            }
+          }
+        },
+        "wear": {
+          "lemma": "wear",
+          "translation": "穿，戴",
+          "pos": "v.",
+          "forms": "wearing, wore, worn",
+          "meanings": "穿；戴；磨损；留（发、须等）",
+          "contexts": {
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "穿",
+              "pos": "v."
+            }
+          }
+        },
+        "or": {
+          "lemma": "or",
+          "translation": "或者",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "或者；否则；也不；即",
+          "contexts": {
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "或者",
+              "pos": "conj."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是；绝非",
+          "contexts": {
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "when": {
+          "lemma": "when",
+          "translation": "当……时",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "当……时；在……时候；既然；考虑到",
+          "contexts": {
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "当……时",
+              "pos": "conj."
+            }
+          }
+        },
+        "classmates": {
+          "lemma": "classmate",
+          "translation": "同班同学",
+          "pos": "n.",
+          "forms": "classmate",
+          "meanings": "同班同学；同学",
+          "contexts": {
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "同班同学",
+              "pos": "n."
+            }
+          }
+        },
+        "similarly": {
+          "lemma": "similar",
+          "translation": "相似地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "相似地；同样地",
+          "contexts": {
+            "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.": {
+              "translation": "相似地",
+              "pos": "adv."
+            }
+          }
+        },
+        "getting": {
+          "lemma": "get",
+          "translation": "变得",
+          "pos": "v.",
+          "forms": "getting, got, gotten/got",
+          "meanings": "变得；获得；到达；理解；着手做",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "变得",
+              "pos": "v."
+            }
+          }
+        },
+        "before": {
+          "lemma": "before",
+          "translation": "在……之前",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之前；以前；在……前面",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "在……之前",
+              "pos": "prep."
+            }
+          }
+        },
+        "becomes": {
+          "lemma": "become",
+          "translation": "变得",
+          "pos": "v.",
+          "forms": "becoming, became, become",
+          "meanings": "变得；变成；适宜；使协调",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "变得",
+              "pos": "v."
+            }
+          }
+        },
+        "chore": {
+          "lemma": "chore",
+          "translation": "琐事",
+          "pos": "n.",
+          "forms": "chores",
+          "meanings": "琐事；杂活；乏味的工作；家务事",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "琐事",
+              "pos": "n."
+            }
+          }
+        },
+        "limited": {
+          "lemma": "limited",
+          "translation": "受限制的",
+          "pos": "adj.",
+          "forms": "limit, limiting",
+          "meanings": "有限公司的；有限的；受到限制的；不多的",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "受限制的",
+              "pos": "adj."
+            }
+          }
+        },
+        "choices": {
+          "lemma": "choice",
+          "translation": "选择",
+          "pos": "n.",
+          "forms": "choice, choices",
+          "meanings": "选择；抉择；选项；精选品",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "选择",
+              "pos": "n."
+            }
+          }
+        },
+        "shouldn't": {
+          "lemma": "should not",
+          "translation": "不应该",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "不应该；不必；不太可能",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "不应该",
+              "pos": "modal v."
+            }
+          }
+        },
+        "any": {
+          "lemma": "any",
+          "translation": "任何",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "任何；任一；一点；一些",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "任何",
+              "pos": "det."
+            }
+          }
+        },
+        "trouble": {
+          "lemma": "trouble",
+          "translation": "麻烦",
+          "pos": "n.",
+          "forms": "troubles, troubled, troubling",
+          "meanings": "麻烦；烦恼；问题；故障",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "麻烦",
+              "pos": "n."
+            }
+          }
+        },
+        "choosing": {
+          "lemma": "choose",
+          "translation": "选择",
+          "pos": "v.",
+          "forms": "choose, chose, chosen, choosing",
+          "meanings": "选择；挑选；决定；选定",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "选择",
+              "pos": "v."
+            }
+          }
+        },
+        "outfit": {
+          "lemma": "outfit",
+          "translation": "全套服装",
+          "pos": "n.",
+          "forms": "outfits",
+          "meanings": "全套服装；装备；用具；机构",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "全套服装",
+              "pos": "n."
+            }
+          }
+        },
+        "ready": {
+          "lemma": "ready",
+          "translation": "准备好的",
+          "pos": "adj.",
+          "forms": "readier, readiest",
+          "meanings": "准备好的；现成的；敏捷的；乐意的",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "准备好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "quickly": {
+          "lemma": "quickly",
+          "translation": "快速地",
+          "pos": "adv.",
+          "forms": "quick, quicker, quickest",
+          "meanings": "快速地；不久；敏捷地；立即",
+          "contexts": {
+            "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.": {
+              "translation": "快速地",
+              "pos": "adv."
+            }
+          }
+        },
+        "some": {
+          "lemma": "some",
+          "translation": "一些",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "一些；某些；若干；相当数量",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "一些",
+              "pos": "adj."
+            }
+          }
+        },
+        "lack": {
+          "lemma": "lack",
+          "translation": "缺乏",
+          "pos": "n.",
+          "forms": "lacks, lacked, lacking",
+          "meanings": "缺乏；缺少；不足；没有",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "缺乏",
+              "pos": "n."
+            }
+          }
+        },
+        "individuality": {
+          "lemma": "individuality",
+          "translation": "个性",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "个性；独特性；个人特征",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "个性",
+              "pos": "n."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "带有",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "与……一起；使用；带有；由于；关于",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "带有",
+              "pos": "prep."
+            }
+          }
+        },
+        "uniform": {
+          "lemma": "uniform",
+          "translation": "校服",
+          "pos": "n.",
+          "forms": "uniforms",
+          "meanings": "制服；校服；一致的；统一的",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "校服",
+              "pos": "n."
+            }
+          }
+        },
+        "code": {
+          "lemma": "code",
+          "translation": "准则",
+          "pos": "n.",
+          "forms": "codes",
+          "meanings": "准则；规范；代码；密码",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "准则",
+              "pos": "n."
+            }
+          }
+        },
+        "policies": {
+          "lemma": "policy",
+          "translation": "政策",
+          "pos": "n.",
+          "forms": "policies",
+          "meanings": "政策；方针；原则；保险单",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "政策",
+              "pos": "n."
+            }
+          }
+        },
+        "offer": {
+          "lemma": "offer",
+          "translation": "提供",
+          "pos": "v.",
+          "forms": "offers, offered, offering",
+          "meanings": "提供；主动提出；出价；提议",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "提供",
+              "pos": "v."
+            }
+          }
+        },
+        "opportunities": {
+          "lemma": "opportunity",
+          "translation": "机会",
+          "pos": "n.",
+          "forms": "opportunities",
+          "meanings": "机会；时机",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "机会",
+              "pos": "n."
+            }
+          }
+        },
+        "show": {
+          "lemma": "show",
+          "translation": "展示",
+          "pos": "v.",
+          "forms": "shows, showed, shown/showed, showing",
+          "meanings": "展示；显示；说明；带领",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "展示",
+              "pos": "v."
+            }
+          }
+        },
+        "unique": {
+          "lemma": "unique",
+          "translation": "独特的",
+          "pos": "adj.",
+          "forms": "uniquely",
+          "meanings": "独特的；唯一的；罕见的；独一无二的",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "独特的",
+              "pos": "adj."
+            }
+          }
+        },
+        "styles": {
+          "lemma": "style",
+          "translation": "风格",
+          "pos": "n.",
+          "forms": "styles",
+          "meanings": "风格；样式；时尚；文体",
+          "contexts": {
+            "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.": {
+              "translation": "风格",
+              "pos": "n."
+            }
+          }
+        },
+        "today": {
+          "lemma": "today",
+          "translation": "现今",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "现今；今天；当代",
+          "contexts": {
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "现今",
+              "pos": "adv."
+            }
+          }
+        },
+        "becoming": {
+          "lemma": "become",
+          "translation": "变得",
+          "pos": "v.",
+          "forms": "becomes, became, become",
+          "meanings": "变得；变成；适宜；符合",
+          "contexts": {
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "变得",
+              "pos": "v."
+            }
+          }
+        },
+        "trendier": {
+          "lemma": "trendy",
+          "translation": "更时髦的",
+          "pos": "adj.",
+          "forms": "trendiest",
+          "meanings": "更时髦的；更流行的",
+          "contexts": {
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "更时髦的",
+              "pos": "adj."
+            }
+          }
+        },
+        "seen": {
+          "lemma": "see",
+          "translation": "被看待",
+          "pos": "v.",
+          "forms": "saw, seen, seeing, sees",
+          "meanings": "看见；领会；理解；被看待",
+          "contexts": {
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "被看见",
+              "pos": "v."
+            }
+          }
+        },
+        "many": {
+          "lemma": "many",
+          "translation": "许多",
+          "pos": "adj.",
+          "forms": "more, most",
+          "meanings": "许多；大量；许多人",
+          "contexts": {
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "许多",
+              "pos": "adj."
+            }
+          }
+        },
+        "areas": {
+          "lemma": "area",
+          "translation": "领域",
+          "pos": "n.",
+          "forms": "areas",
+          "meanings": "领域；地区；面积；范围",
+          "contexts": {
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "领域",
+              "pos": "n."
+            }
+          }
+        },
+        "pop": {
+          "lemma": "pop",
+          "translation": "流行的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "流行的；通俗的；突然的",
+          "contexts": {
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "流行的",
+              "pos": "adj."
+            }
+          }
+        },
+        "culture": {
+          "lemma": "culture",
+          "translation": "文化",
+          "pos": "n.",
+          "forms": "cultures",
+          "meanings": "文化；文明；教养；栽培",
+          "contexts": {
+            "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.": {
+              "translation": "文化",
+              "pos": "n."
+            }
+          }
+        },
+        "celebrities": {
+          "lemma": "celebrity",
+          "translation": "名人",
+          "pos": "n.",
+          "forms": "celebrities",
+          "meanings": "名人；名流；名声；知名度",
+          "contexts": {
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "名人",
+              "pos": "n."
+            }
+          }
+        },
+        "fashion": {
+          "lemma": "fashion",
+          "translation": "时尚",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "时尚；时装；样子；方式",
+          "contexts": {
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "时尚",
+              "pos": "n."
+            }
+          }
+        },
+        "designers": {
+          "lemma": "designer",
+          "translation": "设计师",
+          "pos": "n.",
+          "forms": "designers",
+          "meanings": "设计师；设计者；构思者",
+          "contexts": {
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "设计师",
+              "pos": "n."
+            }
+          }
+        },
+        "using": {
+          "lemma": "use",
+          "translation": "使用",
+          "pos": "v.",
+          "forms": "uses, used, using",
+          "meanings": "使用；利用；运用；消耗",
+          "contexts": {
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "使用",
+              "pos": "v."
+            }
+          }
+        },
+        "inspiration": {
+          "lemma": "inspiration",
+          "translation": "灵感",
+          "pos": "n.",
+          "forms": "inspirations",
+          "meanings": "灵感；鼓舞人心的人/事物；启示",
+          "contexts": {
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "灵感",
+              "pos": "n."
+            }
+          }
+        },
+        "new": {
+          "lemma": "new",
+          "translation": "新的",
+          "pos": "adj.",
+          "forms": "newer, newest",
+          "meanings": "新的；刚出现的；新鲜的；新式的",
+          "contexts": {
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "新的",
+              "pos": "adj."
+            }
+          }
+        },
+        "looks": {
+          "lemma": "look",
+          "translation": "外观",
+          "pos": "n.",
+          "forms": "looks",
+          "meanings": "外观；造型；神情；注视；看起来",
+          "contexts": {
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "造型",
+              "pos": "n."
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "……的那个",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
+          "contexts": {
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "（引导定语从句，指代前面的造型）……的那个",
+              "pos": "pron."
+            }
+          }
+        },
+        "appeal": {
+          "lemma": "appeal",
+          "translation": "吸引",
+          "pos": "v.",
+          "forms": "appeals, appealed, appealing",
+          "meanings": "吸引；呼吁；上诉；恳求",
+          "contexts": {
+            "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.": {
+              "translation": "吸引",
+              "pos": "v."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "What would be the best title for the text?",
+          "options": [
+            "How to dress properly.",
+            "The history of school uniforms.",
+            "The advantages of school uniforms.",
+            "How to deal with pressure in school."
+          ],
+          "answer": 2,
+          "explanation": "文章主要论述了穿校服带来的各种好处，包括对学生学习、家长省心以及减少学生压力等方面的积极影响。",
+          "type": "主旨大意",
+          "evidenceSentence": "There are quite a few advantages of wearing school uniforms.",
+          "optionExplanations": [
+            "文章并非教学如何穿衣，错误。",
+            "文章未涉及校服历史，错误。",
+            "文章全面论述了校服的多种优点，正确。",
+            "文中仅提及压力的一部分，非文章主旨，错误。"
+          ],
+          "optionErrorTypes": [
+            "把局部信息当成主旨",
+            "把局部信息当成主旨",
+            "正确",
+            "把局部信息当成主旨"
+          ]
+        },
+        {
+          "prompt": "Teachers think that wearing school uniforms   _  .",
+          "options": [
+            "is just a tradition that students should follow",
+            "makes students feel less pressure in study",
+            "helps students put more effort into their studies",
+            "makes students lose their independence and identity"
+          ],
+          "answer": 2,
+          "explanation": "老师认为校服有助于创造有序环境，让学生关注学业而非服饰。",
+          "type": "细节理解",
+          "evidenceSentence": "And they can focus their attention on academics rather than style.",
+          "optionExplanations": [
+            "文中未提及是传统，错误。",
+            "文中指的是减少穿衣压力，而非学习压力，属于概念混淆，错误。",
+            "文中提到学生可以专注学术，即投入更多精力，正确。",
+            "文中未提及老师认为校服会丧失独立性，错误。"
+          ],
+          "optionErrorTypes": [
+            "没有定位证据句",
+            "偷换概念",
+            "正确",
+            "推理过度"
+          ]
+        },
+        {
+          "prompt": "We can infer from the text that school uniforms   _  .",
+          "options": [
+            "are not popular with fashion designers",
+            "were not accepted by parents in the past",
+            "will be designed by students themselves",
+            "will be more fashionable in the future"
+          ],
+          "answer": 3,
+          "explanation": "文章最后一段提到校服正变得越来越时尚，且被设计师用作灵感，暗示其趋势。",
+          "type": "推理判断",
+          "evidenceSentence": "Uniforms today are also becoming trendier and can be seen in many areas of pop culture.",
+          "optionExplanations": [
+            "与原文提到时尚界使用校服作为灵感矛盾，错误。",
+            "文中未提及过去家长的态度，错误。",
+            "文中提到设计师使用校服为灵感，而非学生自己设计，错误。",
+            "根据校服正变得越来越时髦的趋势，可以推断未来会更时尚，正确。"
+          ],
+          "optionErrorTypes": [
+            "忽略否定或范围",
+            "没有定位证据句",
+            "偷换概念",
+            "正确"
+          ]
+        },
+        {
+          "prompt": "The author's attitude towards students' wearing school uniforms is   _  .",
+          "options": [
+            "negative",
+            "supportive",
+            "doubtful",
+            "unclear"
+          ],
+          "answer": 1,
+          "explanation": "作者在开头明确表示校服有很多优点，并从多个维度进行支持，态度明确肯定。",
+          "type": "作者态度",
+          "evidenceSentence": "There are quite a few advantages of wearing school uniforms.",
+          "optionExplanations": [
+            "作者支持校服，非否定，错误。",
+            "作者明确列举了诸多益处，态度积极，正确。",
+            "作者观点明确，非怀疑，错误。",
+            "作者态度明确，错误。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "正确",
+            "推理过度",
+            "推理过度"
+          ]
+        }
+      ],
+      "generationUsage": {
+        "requests": 20,
+        "inputTokens": 46560,
+        "outputTokens": 18966,
+        "totalTokens": 65526,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": null,
+        "reportedCosts": {},
+        "pricingComplete": false,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 20,
+            "inputTokens": 46560,
+            "outputTokens": 18966,
+            "totalTokens": 65526,
             "estimatedCostUsd": null
           }
         }
