@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T14:07:34.715Z",
+  "generatedAt": "2026-08-03T14:12:20.998Z",
   "words": {
     "on": {
       "lemma": "on",
@@ -8,18 +8,6 @@
       "forms": "无常见变形",
       "meanings": "关于；在……之上；在（某一天）；继续；在（时间）",
       "senses": [
-        {
-          "translation": "在……之上（指屏幕表面）",
-          "pos": "prep.",
-          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "在……上",
-          "pos": "prep.",
-          "example": "They are situated in the area known as the Experimental Field on the ground floor.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
         {
           "translation": "在……上",
           "pos": "prep.",
@@ -79,6 +67,18 @@
           "pos": "prep.",
           "example": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "在（万维网上）",
+          "pos": "prep.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "在（互联网上）",
+          "pos": "prep.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -98,10 +98,11 @@
         "web-9164814709a91049",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 17,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 18,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "web": {
       "lemma": "web",
@@ -120,13 +121,20 @@
           "pos": "n.",
           "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "网络",
+          "pos": "n.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "sites": {
       "lemma": "site",
@@ -145,13 +153,20 @@
           "pos": "n.",
           "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "网站",
+          "pos": "n.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "across": {
       "lemma": "across",
@@ -183,44 +198,8 @@
       "lemma": "the",
       "pos": "art.",
       "forms": "无常见变形",
-      "meanings": "这；那；（用于特指）；（用于最高级前）；（专有名词前）",
+      "meanings": "这；那；（用于特指）；（用于最高级前）",
       "senses": [
-        {
-          "translation": "（特指孩子们）",
-          "pos": "art.",
-          "example": "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "（特指末班车）",
-          "pos": "art.",
-          "example": "He always went home by the last train, just after two o'clock.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "（特指大门）",
-          "pos": "art.",
-          "example": "The children decided that he must be so frightened of losing her that he never allowed her outside the door.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "这（个）",
-          "pos": "art.",
-          "example": "My dream in life is to become a doctor, one who changes the world.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "那",
-          "pos": "art.",
-          "example": "But last week I opened an email from UBC that contained the words \"regrets\", no interview.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "那",
-          "pos": "art.",
-          "example": "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
         {
           "translation": "那个",
           "pos": "art.",
@@ -256,6 +235,42 @@
           "pos": "art.",
           "example": "But seriously, who in their right mind says thanks for the financial problems I have?",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "这",
+          "pos": "art.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "那",
+          "pos": "art.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "这",
+          "pos": "art.",
+          "example": "The site itself doesn't have to be anything special.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "那",
+          "pos": "art.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "那",
+          "pos": "art.",
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "那",
+          "pos": "art.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -279,10 +294,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 21,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 22,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "internet": {
       "lemma": "internet",
@@ -349,15 +365,22 @@
           "pos": "n.",
           "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "互联网",
+          "pos": "n.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "people": {
       "lemma": "people",
@@ -365,12 +388,6 @@
       "forms": "peoples",
       "meanings": "人们；民族；人；国民",
       "senses": [
-        {
-          "translation": "人们",
-          "pos": "n.",
-          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "人们",
           "pos": "n.",
@@ -436,6 +453,12 @@
           "pos": "n.",
           "example": "Most people watching Jeremy Lin these past two months saw Jeremy Lin, New York Knicks star; but I, watching him, saw someone else.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "人",
+          "pos": "n.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -448,10 +471,11 @@
         "web-59b629f92c1e91fb",
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "can": {
       "lemma": "can",
@@ -459,30 +483,6 @@
       "forms": "could",
       "meanings": "能够；可以；可能；罐头",
       "senses": [
-        {
-          "translation": "可以",
-          "pos": "modal v.",
-          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal v.",
-          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "可以",
-          "pos": "modal v.",
-          "example": "You can use a room three hours per day, nine hours at most per week.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "可能",
-          "pos": "modal verb",
-          "example": "But some scientists think it can be harmful for humans, too.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
         {
           "translation": "能够",
           "pos": "modal verb",
@@ -530,6 +530,30 @@
           "pos": "modal verb",
           "example": "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal verb",
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal verb",
+          "example": "You can either do this yourself or you can pay someone else to do this.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal verb",
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal verb",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -546,10 +570,11 @@
         "web-f335b4849447798b",
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "access": {
       "lemma": "access",
@@ -581,56 +606,8 @@
       "lemma": "a",
       "pos": "art.",
       "forms": "an",
-      "meanings": "一个；每一；任何；一种",
+      "meanings": "一个；每一；任何；一种；同一",
       "senses": [
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "They could not forget that he had, in their mother's words, \"lost two wives and taken a third, \" They wondered about those two unfortunate lost ladies.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "一种",
-          "pos": "art.",
-          "example": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "My dream in life is to become a doctor, one who changes the world.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "一次",
-          "pos": "art.",
-          "example": "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "一段时间",
-          "pos": "art.",
-          "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "一部分",
-          "pos": "art.",
-          "example": "At church our pastor mentioned perspective in a section of his sermon  .",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
         {
           "translation": "一种",
           "pos": "art.",
@@ -654,6 +631,54 @@
           "pos": "art.",
           "example": "It is easy to give thanks when we receive a blessing.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "一种",
+          "pos": "art.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -677,10 +702,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 21,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 22,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "variety": {
       "lemma": "variety",
@@ -707,12 +733,6 @@
       "forms": "无常见变形",
       "meanings": "……的；关于；属于；由……组成；（表示数量或部分）",
       "senses": [
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "He sometimes jokes he could be mayor of his building, and it's true.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
         {
           "translation": "关于，含有……内容的",
           "pos": "prep.",
@@ -778,6 +798,12 @@
           "pos": "prep.",
           "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Your merchant account should accept as many forms of payment as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -801,10 +827,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 21,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 22,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "information": {
       "lemma": "information",
@@ -981,74 +1008,74 @@
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "Here you can find sofas and armchairs for group work.",
-          "sourceArticleId": "web-f335b4849447798b"
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
-          "sourceArticleId": "web-f335b4849447798b"
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
-          "sourceArticleId": "web-f335b4849447798b"
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "To book, you need an active University account and a valid University card.",
-          "sourceArticleId": "web-f335b4849447798b"
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "You can use a room three hours per day, nine hours at most per week.",
-          "sourceArticleId": "web-f335b4849447798b"
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
-          "sourceArticleId": "web-f335b4849447798b"
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
-          "sourceArticleId": "web-f335b4849447798b"
+          "example": "You can either do this yourself or you can pay someone else to do this.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
-          "sourceArticleId": "web-f335b4849447798b"
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "If you want to know more, click chinadaily.",
-          "sourceArticleId": "web-9164814709a91049"
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "The others seem to just say, \"I told you so.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "\" Those famous last words: I-told-you-so.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "The Mitford Series is so good if you are looking for books to read.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
+          "example": "Very soon you will be making money online.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -1060,10 +1087,11 @@
         "web-f335b4849447798b",
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "it's": {
       "lemma": "it is",
@@ -1110,18 +1138,6 @@
       "forms": "无常见变形",
       "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
       "senses": [
-        {
-          "translation": "在……里",
-          "pos": "prep.",
-          "example": "His doctor estimates his biological age at 35; he's still climbing big mountains in the Himalayas.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "在……之中",
-          "pos": "prep.",
-          "example": "How is it that Jeremy Lin's immigrant father in particular, Gie-Ming Lin, encouraged his son to follow such an untraditional path?",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
         {
           "translation": "在……（时间点）",
           "pos": "prep.",
@@ -1181,6 +1197,18 @@
           "pos": "prep.",
           "example": "But seriously, who in their right mind says thanks for the financial problems I have?",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "在……方面",
+          "pos": "prep.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -1203,10 +1231,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 20,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 21,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "your": {
       "lemma": "your",
@@ -1214,48 +1243,6 @@
       "forms": "yours",
       "meanings": "你的；你们的",
       "senses": [
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Your mind is more relaxed and you can learn more easily.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "She, now your wife, is not a dog person, but I still welcomed her into our home.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Your wife was afraid I would bite them.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "You've made the right decision for your \"family\", but there was a time when I was your only family.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
         {
           "translation": "你的",
           "pos": "pron.",
@@ -1285,6 +1272,48 @@
           "pos": "pron.",
           "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": ") your products.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Your merchant account should accept as many forms of payment as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -1293,10 +1322,11 @@
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
         "web-f328bfb9843d2dfa",
-        "web-f335b4849447798b"
+        "web-f335b4849447798b",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "interest": {
       "lemma": "interest",
@@ -1338,76 +1368,76 @@
       "meanings": "向；给；到；构成不定式；对于",
       "senses": [
         {
-          "translation": "（构成不定式）去……",
+          "translation": "构成不定式",
           "pos": "particle",
-          "example": "Very late, they dropped off to sleep in their chairs.",
-          "sourceArticleId": "web-14515232ae2b45c0"
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
-          "translation": "（构成不定式）去……",
+          "translation": "构成不定式",
           "pos": "particle",
-          "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
-          "sourceArticleId": "web-14515232ae2b45c0"
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
-          "translation": "（构成不定式）去……",
+          "translation": "构成不定式",
           "pos": "particle",
-          "example": "This past week I have been greatly challenged to change my perspective and here is why.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
-          "translation": "（构成不定式）去……",
+          "translation": "构成不定式",
           "pos": "particle",
-          "example": "My dream in life is to become a doctor, one who changes the world.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
-          "translation": "向/去",
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "对于",
           "pos": "prep.",
-          "example": "I didn't get an interview to medical school, thus will not be entering school for September 2009.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
-          "translation": "（构成不定式）去……",
+          "translation": "构成不定式",
           "pos": "particle",
-          "example": "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
+          "example": "You can either do this yourself or you can pay someone else to do this.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
-          "translation": "（构成不定式）去……",
+          "translation": "构成不定式",
           "pos": "particle",
-          "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
+          "example": "The site itself doesn't have to be anything special.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
-          "translation": "（构成不定式）去……",
+          "translation": "构成不定式",
           "pos": "particle",
-          "example": "The second thing that reminded me to look at perspective was reading a book.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
-          "translation": "（构成不定式）去……",
+          "translation": "构成不定式",
           "pos": "particle",
-          "example": "The Mitford Series is so good if you are looking for books to read.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
-          "translation": "（构成不定式）去……",
+          "translation": "构成不定式",
           "pos": "particle",
-          "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         },
         {
-          "translation": "（构成不定式）去……",
+          "translation": "构成不定式",
           "pos": "particle",
-          "example": "\" It is easy to give thanks when we feel successful in life.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "（构成不定式）去……",
-          "pos": "particle",
-          "example": "It is easy to give thanks when we receive a blessing.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -1431,10 +1461,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 21,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 22,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "be": {
       "lemma": "be",
@@ -1442,30 +1473,6 @@
       "forms": "am, is, are, was, were, being, been",
       "meanings": "是；位于；成为；（构成进行时或被动语态）",
       "senses": [
-        {
-          "translation": "成为，变成",
-          "pos": "v.",
-          "example": "\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "But some scientists think it can be harmful for humans, too.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "How can they be so blind?",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "成为",
-          "pos": "v.",
-          "example": "And sure enough, he grew up to be a starting player for an N.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -1513,6 +1520,30 @@
           "pos": "v.",
           "example": "He stated that when we take our eyes off ourselves and realize God's greatness, our circumstances will be seen through a new perspective.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "成为",
+          "pos": "v.",
+          "example": "The site itself doesn't have to be anything special.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "进行（构成进行时）",
+          "pos": "v.",
+          "example": "Very soon you will be making money online.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -1530,10 +1561,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 15,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 16,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "aware": {
       "lemma": "aware",
@@ -1565,7 +1597,7 @@
       "lemma": "online",
       "pos": "adj.",
       "forms": "无常见变形",
-      "meanings": "在线的；联网的；网络上的",
+      "meanings": "在线的；联网的；网络上的；联机的",
       "senses": [
         {
           "translation": "在线的",
@@ -1608,16 +1640,47 @@
           "pos": "adv.",
           "example": "School administrators point out that the texts may be free online, but students need a way to access them.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "在线的",
+          "pos": "adj.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "在线的",
+          "pos": "adj.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "在线的",
+          "pos": "adj.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "在线的",
+          "pos": "adj.",
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "在线的",
+          "pos": "adv.",
+          "example": "Very soon you will be making money online.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-91480225d160a6b6",
         "web-eecaaca1e069e103",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "reputation": {
       "lemma": "reputation",
@@ -1657,54 +1720,6 @@
       "meanings": "和；而且；然后；接着",
       "senses": [
         {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "And how did Jeremy Lin's parents manage to do these remarkable things?",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "而且",
-          "pos": "conj.",
-          "example": "They could not forget that he had, in their mother's words, \"lost two wives and taken a third, \" They wondered about those two unfortunate lost ladies.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "而且",
-          "pos": "conj.",
-          "example": "They asked each other what their fate had been, and if neither could ever be found again.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "This past week I have been greatly challenged to change my perspective and here is why.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
           "translation": "和",
           "pos": "conj.",
           "example": "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.",
@@ -1727,6 +1742,54 @@
           "pos": "conj.",
           "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "并且",
+          "pos": "conj.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "并且",
+          "pos": "conj.",
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "然后",
+          "pos": "conj.",
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "并且",
+          "pos": "conj.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "并且",
+          "pos": "conj.",
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "然后",
+          "pos": "conj.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -1750,10 +1813,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 21,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 22,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "take": {
       "lemma": "take",
@@ -1893,6 +1957,24 @@
           "pos": "v.",
           "example": "\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "赚取",
+          "pos": "v.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "赚取",
+          "pos": "v.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "赚取",
+          "pos": "v.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -1900,10 +1982,11 @@
         "web-a41ebe4e54718747",
         "web-83aed36829bb66d0",
         "web-a0a23c816fc997da",
-        "web-59b629f92c1e91fb"
+        "web-59b629f92c1e91fb",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "it": {
       "lemma": "it",
@@ -1911,30 +1994,6 @@
       "forms": "its, itself",
       "meanings": "它；这；（引导形式主语）",
       "senses": [
-        {
-          "translation": "它",
-          "pos": "pron.",
-          "example": "What they found instead was a sky so brightened by the city's lights that it darkened the light of the meteors passing overhead.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "它",
-          "pos": "pron.",
-          "example": "\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "它",
-          "pos": "pron.",
-          "example": "They call on people and the government to take measures to fight against it.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "它",
-          "pos": "pron.",
-          "example": "But some scientists think it can be harmful for humans, too.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
         {
           "translation": "它（指代前文的悲伤）",
           "pos": "pron.",
@@ -1982,6 +2041,30 @@
           "pos": "pron.",
           "example": "It is easy to give thanks when we receive a blessing.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "它（指代网站域名）",
+          "pos": "pron.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "它（指代域名）",
+          "pos": "pron.",
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "它（指代内容）",
+          "pos": "pron.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "（形式主语，指代在线创业）",
+          "pos": "pron.",
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -1999,10 +2082,11 @@
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 15,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 16,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "what": {
       "lemma": "what",
@@ -2156,14 +2240,8 @@
       "lemma": "first",
       "pos": "adj.",
       "forms": "无常见变形",
-      "meanings": "第一；首先；首要的；最初",
+      "meanings": "第一；首要的；最初；首先",
       "senses": [
-        {
-          "translation": "名字（名）",
-          "pos": "n.",
-          "example": "Begin by typing your first and last name into several popular search engines to see where you are mentioned and in what context.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
         {
           "translation": "第一",
           "pos": "adj.",
@@ -2229,6 +2307,12 @@
           "pos": "adj.",
           "example": "Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "第一",
+          "pos": "adj.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -2239,10 +2323,11 @@
         "web-f328bfb9843d2dfa",
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "step": {
       "lemma": "step",
@@ -2261,14 +2346,27 @@
           "pos": "n.",
           "example": "Step-by-step lessons make learning easy.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "步骤",
+          "pos": "n.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "步骤",
+          "pos": "n.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "protecting": {
       "lemma": "protect",
@@ -2295,18 +2393,6 @@
       "forms": "无常见变形",
       "meanings": "或者；否则；也不；即",
       "senses": [
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "\"When a person makes a change from 04 using a car to using a bike,they are saving anywhere between 8 or$9,000 a year.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
         {
           "translation": "或者",
           "pos": "conj.",
@@ -2366,6 +2452,18 @@
           "pos": "conj.",
           "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "You can either do this yourself or you can pay someone else to do this.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -2379,10 +2477,11 @@
         "web-a0a23c816fc997da",
         "web-f335b4849447798b",
         "web-f39e7f5b1b236779",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "improving": {
       "lemma": "improve",
@@ -2409,30 +2508,6 @@
       "forms": "am, are, was, were, being, been",
       "meanings": "是；存在；等于；位于",
       "senses": [
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "That was my elder brother, Bob, who is athletic and energetic.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "To know him is to cheer for him.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -2480,6 +2555,30 @@
           "pos": "v.",
           "example": "It is easy to give thanks when we receive a blessing.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -2499,10 +2598,11 @@
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 17,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 18,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "find": {
       "lemma": "find",
@@ -2928,16 +3028,10 @@
     },
     "name": {
       "lemma": "name",
-      "pos": "v.",
+      "pos": "n.",
       "forms": "naming, named, names",
       "meanings": "给……命名；说出……的名字；提名；名字",
       "senses": [
-        {
-          "translation": "名字",
-          "pos": "n.",
-          "example": "Follow these tips to monitor and evaluate your online reputation:\n   Play the name game.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
         {
           "translation": "名字",
           "pos": "n.",
@@ -2997,16 +3091,29 @@
           "pos": "v.",
           "example": "J, honey, what did the hamburger name his daughter?",
           "sourceArticleId": "web-2e315a8a858c375d"
+        },
+        {
+          "translation": "名字",
+          "pos": "n.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "名字",
+          "pos": "n.",
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
         "web-6889075584252ffd",
-        "web-2e315a8a858c375d"
+        "web-2e315a8a858c375d",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-02T12:01:48.380Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "game": {
       "lemma": "game",
@@ -3038,13 +3145,20 @@
           "pos": "v.",
           "example": "Begin by typing your first and last name into several popular search engines to see where you are mentioned and in what context.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "开始",
+          "pos": "v.",
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "by": {
       "lemma": "by",
@@ -3609,18 +3723,6 @@
       "meanings": "有；是；在；等于；位于",
       "senses": [
         {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Some study rooms are for 2-3 people and others can hold up to 6-8 people.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "被",
-          "pos": "v.",
-          "example": "All rooms are marked on the library maps.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
           "translation": "有",
           "pos": "v.",
           "example": "There are 40 group-study rooms that must be booked via the website.",
@@ -3679,6 +3781,18 @@
           "pos": "v.",
           "example": "The Mitford Series is so good if you are looking for books to read.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -3691,10 +3805,11 @@
         "web-f335b4849447798b",
         "web-59b629f92c1e91fb",
         "web-9164814709a91049",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "mentioned": {
       "lemma": "mention",
@@ -3989,6 +4104,18 @@
           "pos": "v.",
           "example": "I didn't get an interview to medical school, thus will not be entering school for September 2009.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "获得",
+          "pos": "v.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "获得",
+          "pos": "v.",
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -3998,10 +4125,11 @@
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
         "web-0ada4954aa4da897",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "moreprecise": {
       "lemma": "precise",
@@ -4167,16 +4295,10 @@
     },
     "so": {
       "lemma": "so",
-      "pos": "adv.",
+      "pos": "conj.",
       "forms": "无常见变形",
       "meanings": "因此；那么；如此；非常",
       "senses": [
-        {
-          "translation": "因此",
-          "pos": "conj.",
-          "example": "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
         {
           "translation": "如此多的",
           "pos": "adv.",
@@ -4242,6 +4364,12 @@
           "pos": "conj.",
           "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "因此",
+          "pos": "conj.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -4255,10 +4383,11 @@
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "that": {
       "lemma": "that",
@@ -4266,30 +4395,6 @@
       "forms": "those",
       "meanings": "引导从句；那个；那；因为",
       "senses": [
-        {
-          "translation": "引导定语从句",
-          "pos": "pron.",
-          "example": "So far as the children were concerned, they had a mystery about him that stirred their imagination.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "以至于（引导结果状语从句）",
-          "pos": "conj.",
-          "example": "He stirred Maggie's anger, however, so that she often said to her husband, \"It's mercy that brother of yours doesn't come oftener.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "引导宾语从句",
-          "pos": "conj.",
-          "example": "His arrival was a signal to the children that their bedtime would be delayed.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "并非（Not that...）",
-          "pos": "conj.",
-          "example": "Not that he ever spoke to them or played with them.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
         {
           "translation": "那个（指示代词）",
           "pos": "pron.",
@@ -4337,6 +4442,30 @@
           "pos": "pron.",
           "example": "The second thing that reminded me to look at perspective was reading a book.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "引导定语从句",
+          "pos": "pron.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "引导定语从句",
+          "pos": "pron.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "以便",
+          "pos": "conj.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "那",
+          "pos": "pron.",
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -4357,10 +4486,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 18,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 19,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "engine": {
       "lemma": "engine",
@@ -4409,34 +4539,10 @@
     },
     "as": {
       "lemma": "as",
-      "pos": "conj.",
+      "pos": "adv./conj.",
       "forms": "无常见变形",
-      "meanings": "当……时；正如；因为；像……一样；作为",
+      "meanings": "像……一样；作为；当……时；正如；因为",
       "senses": [
-        {
-          "translation": "当……时",
-          "pos": "conj.",
-          "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "像……一样",
-          "pos": "conj.",
-          "example": "Her gaze returns; she looks at it for twice as long as she did at the previous card.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "正如",
-          "pos": "conj.",
-          "example": "Could it be the pattern that two things make, as opposed to three?",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "例如",
-          "pos": "prep.",
-          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
         {
           "translation": "作为",
           "pos": "prep.",
@@ -4484,6 +4590,30 @@
           "pos": "conj.",
           "example": "He took no notice of them, as if he was unable to see children, at least until the time came for him to go.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "像……一样",
+          "pos": "adv.",
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "像……一样",
+          "pos": "adv.",
+          "example": "Your merchant account should accept as many forms of payment as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "例如（作为……）",
+          "pos": "prep.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "像……一样",
+          "pos": "adv.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -4499,10 +4629,11 @@
         "web-f335b4849447798b",
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "phrase": {
       "lemma": "phrase",
@@ -4529,12 +4660,6 @@
       "forms": "无常见变形",
       "meanings": "不；没；不是；绝非",
       "senses": [
-        {
-          "translation": "不",
-          "pos": "adv.",
-          "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
         {
           "translation": "没",
           "pos": "adv.",
@@ -4600,6 +4725,12 @@
           "pos": "adv.",
           "example": "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -4618,10 +4749,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 16,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 17,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "two": {
       "lemma": "two",
@@ -5291,36 +5423,6 @@
       "meanings": "有；经历；吃；（完成时态助动词）",
       "senses": [
         {
-          "translation": "必须（have to）",
-          "pos": "v.",
-          "example": "No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word.",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
-        {
-          "translation": "必须（have to）",
-          "pos": "v.",
-          "example": "Individual school districts will have to decide for themselves.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "有",
-          "pos": "v.",
-          "example": "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "已经",
-          "pos": "aux.",
-          "example": "Twenty centimeters from her face researchers have placed a white card with two black spots on it.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "已经（完成时助动词）",
-          "pos": "aux.",
-          "example": "When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
           "translation": "携带/持有",
           "pos": "v.",
           "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
@@ -5361,6 +5463,36 @@
           "pos": "v.",
           "example": "But seriously, who in their right mind says thanks for the financial problems I have?",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "拥有",
+          "pos": "v.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "拥有",
+          "pos": "v.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "The site itself doesn't have to be anything special.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "拥有",
+          "pos": "v.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -5378,10 +5510,11 @@
         "web-f335b4849447798b",
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 15,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 16,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "ever": {
       "lemma": "ever",
@@ -5889,15 +6022,22 @@
           "pos": "pron.",
           "example": "I want to scream and wake up but I can't do anything but sit there.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "任何事物",
+          "pos": "pron.",
+          "example": "The site itself doesn't have to be anything special.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-2e315a8a858c375d",
-        "web-f39e7f5b1b236779"
+        "web-f39e7f5b1b236779",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T13:24:31.869Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "important": {
       "lemma": "important",
@@ -6079,20 +6219,8 @@
       "lemma": "up",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "未睡；起床；完成；彻底；向上",
+      "meanings": "完成；起床；未睡；向上；彻底",
       "senses": [
-        {
-          "translation": "起来（指起床）",
-          "pos": "adv.",
-          "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "彻底（用于put up表示支付/筹集）",
-          "pos": "adv.",
-          "example": "There was a 90 percent federal match so the cities only had to put up 10%.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
         {
           "translation": "完成",
           "pos": "adv.",
@@ -6152,6 +6280,18 @@
           "pos": "adv.",
           "example": "His sermon ended up saying \"In everything we give thanks.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "完成",
+          "pos": "adv.",
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "运转",
+          "pos": "adv.",
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -6168,10 +6308,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "other": {
       "lemma": "other",
@@ -6179,12 +6320,6 @@
       "forms": "others",
       "meanings": "其他的；另外的；另一方的；其余的",
       "senses": [
-        {
-          "translation": "其他的",
-          "pos": "adj.",
-          "example": "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
         {
           "translation": "其他的",
           "pos": "adj.",
@@ -6250,6 +6385,12 @@
           "pos": "pron.",
           "example": "They asked each other what their fate had been, and if neither could ever be found again.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "其他的",
+          "pos": "adj.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -6262,10 +6403,11 @@
         "web-83aed36829bb66d0",
         "web-a0a23c816fc997da",
         "web-59b629f92c1e91fb",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "who": {
       "lemma": "who",
@@ -6415,12 +6557,6 @@
         {
           "translation": "许多",
           "pos": "adj.",
-          "example": "If your search turns up information about other people who share your name, you caneliminate  many false hits by using keywords.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "许多",
-          "pos": "adj.",
           "example": "Nearly 2,000 American companies --- including General Electric, IBM, Mobil, General Motors, Ford, and many others --- have used our training for their employees.",
           "sourceArticleId": "web-a41ebe4e54718747"
         },
@@ -6471,6 +6607,24 @@
           "pos": "adj.",
           "example": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "许多",
+          "pos": "adj.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "许多",
+          "pos": "adj.",
+          "example": "Your merchant account should accept as many forms of payment as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "许多",
+          "pos": "adj.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -6480,10 +6634,11 @@
         "web-1fac3b0d4f7569c5",
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "false": {
       "lemma": "false",
@@ -6742,18 +6897,6 @@
       "meanings": "为了；支持；因为；给；持续（一段时间）",
       "senses": [
         {
-          "translation": "支持",
-          "pos": "prep.",
-          "example": "To know him is to cheer for him.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "支持",
-          "pos": "prep.",
-          "example": "And yet my parents did not cheer for him.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
           "translation": "供",
           "pos": "prep.",
           "example": "What if my father had played videos of athletes for my brother to watch and imitate?",
@@ -6812,6 +6955,18 @@
           "pos": "prep.",
           "example": "But seriously, who in their right mind says thanks for the financial problems I have?",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "为了",
+          "pos": "prep.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "对于",
+          "pos": "prep.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -6833,10 +6988,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 19,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 20,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "city": {
       "lemma": "city",
@@ -7050,16 +7206,29 @@
           "pos": "v.",
           "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "开始进行",
+          "pos": "v.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "开始进行",
+          "pos": "v.",
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-c46072fb88fa1c7b",
         "web-a41ebe4e54718747",
         "web-2e315a8a858c375d",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "blogging": {
       "lemma": "blog",
@@ -7409,13 +7578,20 @@
           "pos": "adj.",
           "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "社交的",
+          "pos": "adj.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "networking": {
       "lemma": "networking",
@@ -7428,13 +7604,20 @@
           "pos": "n.",
           "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "建立人脉关系",
+          "pos": "n.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "check": {
       "lemma": "check",
@@ -8389,12 +8572,6 @@
         {
           "translation": "一个",
           "pos": "art.",
-          "example": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
           "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
           "sourceArticleId": "web-52737a111ab04db4"
         },
@@ -8457,6 +8634,12 @@
           "pos": "art.",
           "example": "I didn't get an interview to medical school, thus will not be entering school for September 2009.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -8471,10 +8654,11 @@
         "web-f335b4849447798b",
         "web-59b629f92c1e91fb",
         "web-0ada4954aa4da897",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 12,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 13,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "outstanding": {
       "lemma": "outstanding",
@@ -9010,6 +9194,12 @@
           "pos": "pron.",
           "example": "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "其他人",
+          "pos": "pron.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -9017,10 +9207,11 @@
         "web-a41ebe4e54718747",
         "web-91480225d160a6b6",
         "web-f335b4849447798b",
-        "web-f39e7f5b1b236779"
+        "web-f39e7f5b1b236779",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T13:24:31.869Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "was": {
       "lemma": "be",
@@ -9128,12 +9319,6 @@
       "meanings": "与……一起；使用；带有；由于；关于",
       "senses": [
         {
-          "translation": "与……一起",
-          "pos": "prep.",
-          "example": "I fell in love with a man.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
           "translation": "带有",
           "pos": "prep.",
           "example": "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.",
@@ -9198,6 +9383,12 @@
           "pos": "prep.",
           "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "使用（某家公司）",
+          "pos": "prep.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -9218,10 +9409,11 @@
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 18,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 19,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "this": {
       "lemma": "this",
@@ -9229,24 +9421,6 @@
       "forms": "these",
       "meanings": "这；这个；这种情况；此；现在",
       "senses": [
-        {
-          "translation": "这（指代前文所述的情况）",
-          "pos": "pron.",
-          "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "这次",
-          "pos": "det.",
-          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "这次（旅行）",
-          "pos": "det.",
-          "example": "\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
         {
           "translation": "这（指代前文所述的严重问题）",
           "pos": "pron.",
@@ -9300,6 +9474,24 @@
           "pos": "det.",
           "example": "This past week I have been greatly challenged to change my perspective and here is why.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "这",
+          "pos": "det.",
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "这",
+          "pos": "pron.",
+          "example": "You can either do this yourself or you can pay someone else to do this.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "这",
+          "pos": "det.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -9315,10 +9507,11 @@
         "web-59b629f92c1e91fb",
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "mindset": {
       "lemma": "mindset",
@@ -11426,22 +11619,29 @@
     },
     "potential": {
       "lemma": "potential",
-      "pos": "n.",
+      "pos": "adj.",
       "forms": "potentials",
-      "meanings": "潜能；可能性；潜在的",
+      "meanings": "潜能；可能性；潜在的；有希望的",
       "senses": [
         {
           "translation": "潜能",
           "pos": "n.",
           "example": "\"Music is an amazing tool to unlock students' potential.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "潜在的",
+          "pos": "adj.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:52:32.913Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "most": {
       "lemma": "most",
@@ -12069,12 +12269,6 @@
         {
           "translation": "如何",
           "pos": "adv.",
-          "example": "It is truly exciting to see how my music teaching can transfer to other classrooms.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "如何",
-          "pos": "adv.",
           "example": "We'll rush your free information about how you can take advantage of the opportunities.",
           "sourceArticleId": "web-a41ebe4e54718747"
         },
@@ -12137,6 +12331,12 @@
           "pos": "adv.",
           "example": "How is it that Jeremy Lin's immigrant father in particular, Gie-Ming Lin, encouraged his son to follow such an untraditional path?",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "……的样子（表示程度）",
+          "pos": "adv.",
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -12146,10 +12346,11 @@
         "web-09421cfd6a2c44ad",
         "web-f328bfb9843d2dfa",
         "web-f39e7f5b1b236779",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "my": {
       "lemma": "my",
@@ -12500,6 +12701,12 @@
           "pos": "det.",
           "example": "\" Such was his regard for her.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "例如",
+          "pos": "det.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -12507,10 +12714,11 @@
         "web-91480225d160a6b6",
         "web-f335b4849447798b",
         "web-0ada4954aa4da897",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "english": {
       "lemma": "English",
@@ -12916,15 +13124,22 @@
           "pos": "v.",
           "example": "The list of women from 26 countries, there are 153000000 of them in Twitter \"fans\", 16 of them own Create Company.",
           "sourceArticleId": "web-9164814709a91049"
+        },
+        {
+          "translation": "创建",
+          "pos": "v.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-ffeb0429c5817c0f",
-        "web-9164814709a91049"
+        "web-9164814709a91049",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T12:46:42.837Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "books": {
       "lemma": "book",
@@ -13419,6 +13634,12 @@
           "pos": "adv.",
           "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "然后",
+          "pos": "adv.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -13429,10 +13650,11 @@
         "web-f328bfb9843d2dfa",
         "web-a0a23c816fc997da",
         "web-0ada4954aa4da897",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "perform": {
       "lemma": "perform",
@@ -14639,6 +14861,12 @@
           "pos": "v.",
           "example": "And how did Jeremy Lin's parents manage to do these remarkable things?",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "做",
+          "pos": "v.",
+          "example": "You can either do this yourself or you can pay someone else to do this.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -14648,10 +14876,11 @@
         "web-2e315a8a858c375d",
         "web-a0a23c816fc997da",
         "web-f39e7f5b1b236779",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "became": {
       "lemma": "become",
@@ -16424,14 +16653,21 @@
           "pos": "n.",
           "example": "There are 40 group-study rooms that must be booked via the website.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "网站",
+          "pos": "n.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-f335b4849447798b"
+        "web-f335b4849447798b",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "called": {
       "lemma": "call",
@@ -16534,20 +16770,39 @@
       "lemma": "site",
       "pos": "n.",
       "forms": "sites",
-      "meanings": "地点；网站；场所；遗址",
+      "meanings": "网站；地点；场所；遗址",
       "senses": [
         {
           "translation": "网站",
           "pos": "n.",
           "example": "On the site,she shared her adventures in order to inspire students.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "网站",
+          "pos": "n.",
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "网站",
+          "pos": "n.",
+          "example": "The site itself doesn't have to be anything special.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "网站",
+          "pos": "n.",
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "shared": {
       "lemma": "share",
@@ -16579,7 +16834,7 @@
       "lemma": "order",
       "pos": "n.",
       "forms": "orders, ordered, ordering",
-      "meanings": "顺序；命令；秩序；目的",
+      "meanings": "顺序；命令；秩序；目的；订购",
       "senses": [
         {
           "translation": "为了（in order to）",
@@ -16592,14 +16847,21 @@
           "pos": "n.",
           "example": "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "为了（in order to）",
+          "pos": "prep.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-59b629f92c1e91fb"
+        "web-59b629f92c1e91fb",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "inspire": {
       "lemma": "inspire",
@@ -16852,16 +17114,23 @@
           "pos": "n.",
           "example": "Maggie paid him back in her own way.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "方式",
+          "pos": "n.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
         "web-a41ebe4e54718747",
         "web-83aed36829bb66d0",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "without": {
       "lemma": "without",
@@ -19346,7 +19615,7 @@
       "lemma": "business",
       "pos": "n.",
       "forms": "businesses",
-      "meanings": "商业；生意；事务；公事",
+      "meanings": "商业；生意；事务；公事；职业",
       "senses": [
         {
           "translation": "商业",
@@ -19371,15 +19640,40 @@
           "pos": "n.",
           "example": "\"Forbes\" magazine said, this year the list of people are political, business, media, the humanitarian field, entertainment and technology industry elite , but also some women were selected because of the huge wealth, including funds, media exposure and influence.",
           "sourceArticleId": "web-9164814709a91049"
+        },
+        {
+          "translation": "商业",
+          "pos": "n.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "生意",
+          "pos": "n.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "生意",
+          "pos": "n.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "商业",
+          "pos": "n.",
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
         "web-52737a111ab04db4",
-        "web-9164814709a91049"
+        "web-9164814709a91049",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T12:46:42.837Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "management": {
       "lemma": "management",
@@ -19697,7 +19991,7 @@
       "lemma": "need",
       "pos": "v.",
       "forms": "needs; needed; needing",
-      "meanings": "需要；必须；有必要",
+      "meanings": "需要；必须；有必要；缺乏",
       "senses": [
         {
           "translation": "需要",
@@ -19734,16 +20028,53 @@
           "pos": "v.",
           "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "需要",
+          "pos": "v.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "需要",
+          "pos": "v.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "需要",
+          "pos": "v.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "需要",
+          "pos": "v.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "需要",
+          "pos": "v.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "需要",
+          "pos": "v.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
         "web-91480225d160a6b6",
         "web-83aed36829bb66d0",
-        "web-f335b4849447798b"
+        "web-f335b4849447798b",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "aids": {
       "lemma": "aid",
@@ -19968,13 +20299,26 @@
           "pos": "adv.",
           "example": "Books, lessons, learning aids---even professional-quality tools and equipment --- everything you need to master your training and move ahead to a new career is included in the low tuition   price you pay.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "向前",
+          "pos": "adv.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "向前",
+          "pos": "adv.",
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "included": {
       "lemma": "include",
@@ -20088,15 +20432,22 @@
           "pos": "v.",
           "example": "The faces of so many people confuse me as they come to pay their last respects.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "支付",
+          "pos": "v.",
+          "example": "You can either do this yourself or you can pay someone else to do this.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
         "web-f335b4849447798b",
-        "web-f39e7f5b1b236779"
+        "web-f39e7f5b1b236779",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T13:24:31.869Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "nationally": {
       "lemma": "nationally",
@@ -20589,30 +20940,6 @@
         {
           "translation": "将要",
           "pos": "modal v.",
-          "example": "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "将要",
-          "pos": "modal v.",
-          "example": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
-          "translation": "将要",
-          "pos": "modal v.",
-          "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "将要",
-          "pos": "modal v.",
-          "example": "\"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "将要",
-          "pos": "modal v.",
           "example": "Individual school districts will have to decide for themselves.",
           "sourceArticleId": "web-83aed36829bb66d0"
         },
@@ -20657,6 +20984,30 @@
           "pos": "modal v.",
           "example": "He stated that when we take our eyes off ourselves and realize God's greatness, our circumstances will be seen through a new perspective.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "将要",
+          "pos": "modal v.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "将要",
+          "pos": "modal v.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "将会",
+          "pos": "modal v.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "将会",
+          "pos": "modal v.",
+          "example": "Very soon you will be making money online.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -20667,10 +21018,11 @@
         "web-83aed36829bb66d0",
         "web-f328bfb9843d2dfa",
         "web-f39e7f5b1b236779",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "earn": {
       "lemma": "earn",
@@ -20986,15 +21338,22 @@
           "pos": "adj.",
           "example": "It is easy to give thanks when we receive a blessing.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "容易的",
+          "pos": "adj.",
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
         "web-09421cfd6a2c44ad",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "prepare": {
       "lemma": "prepare",
@@ -21057,20 +21416,33 @@
       "lemma": "start",
       "pos": "v.",
       "forms": "starts, started, starting",
-      "meanings": "开始；出发；启动；创办",
+      "meanings": "开始；出发；启动；创办；起跑",
       "senses": [
         {
           "translation": "开始",
           "pos": "v.",
           "example": "Prepare for promotions, pay raises, or even start a business of your own.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "开始",
+          "pos": "v.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "开始",
+          "pos": "v.",
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "send": {
       "lemma": "send",
@@ -21447,20 +21819,27 @@
       "lemma": "interested",
       "pos": "adj.",
       "forms": "无常见变形",
-      "meanings": "感兴趣的；有利益关系的",
+      "meanings": "感兴趣的；有利益关系的；关心的",
       "senses": [
         {
           "translation": "感兴趣的",
           "pos": "adj.",
           "example": "Then, write in the name and number of the program you're most interested in, and mail it today.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "感兴趣的",
+          "pos": "adj.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:57:25.789Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "mail": {
       "lemma": "mail",
@@ -22631,7 +23010,7 @@
       "lemma": "after",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "在……之后；后来；跟随",
+      "meanings": "在……之后；后来；跟随；依照",
       "senses": [
         {
           "translation": "在……之后",
@@ -22686,6 +23065,12 @@
           "pos": "prep.",
           "example": "He always went home by the last train, just after two o'clock.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "在……之后",
+          "pos": "prep.",
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -22694,10 +23079,11 @@
         "web-1fac3b0d4f7569c5",
         "web-a0a23c816fc997da",
         "web-f39e7f5b1b236779",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "losing": {
       "lemma": "lose",
@@ -22956,7 +23342,7 @@
       "lemma": "someone",
       "pos": "pron.",
       "forms": "无常见变形",
-      "meanings": "某人；有人",
+      "meanings": "某人；有人；重要人物",
       "senses": [
         {
           "translation": "某人",
@@ -22975,14 +23361,21 @@
           "pos": "pron.",
           "example": "It wasn't until my younger sister came along that someone in the family finally wore a white coat.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "某人",
+          "pos": "pron.",
+          "example": "You can either do this yourself or you can pay someone else to do this.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "less": {
       "lemma": "less",
@@ -23071,20 +23464,27 @@
       "lemma": "that is",
       "pos": "pron. + v.",
       "forms": "无常见变形",
-      "meanings": "那是；即；也就是说",
+      "meanings": "那是；即；也就是说；这就是",
       "senses": [
         {
           "translation": "那是",
           "pos": "pron. + v.",
           "example": "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "那就是",
+          "pos": "pron. + v.",
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "right": {
       "lemma": "right",
@@ -23137,13 +23537,32 @@
           "pos": "modal v.",
           "example": "We should be able to do something.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "应该",
+          "pos": "modal v.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "应该",
+          "pos": "modal v.",
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "应该",
+          "pos": "modal v.",
+          "example": "Your merchant account should accept as many forms of payment as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "something": {
       "lemma": "something",
@@ -23488,12 +23907,6 @@
         {
           "translation": "存在",
           "pos": "adv.",
-          "example": "He says there is a reason why urban bike tiding is now becoming more popular.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "存在",
-          "pos": "adv.",
           "example": "There was a 90 percent federal match so the cities only had to put up 10%.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
         },
@@ -23556,6 +23969,12 @@
           "pos": "adv.",
           "example": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "存在（引导there be句型）",
+          "pos": "adv.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -23572,10 +23991,11 @@
         "web-9164814709a91049",
         "web-f39e7f5b1b236779",
         "web-0ada4954aa4da897",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "developed": {
       "lemma": "develop",
@@ -23613,13 +24033,20 @@
           "pos": "adj.",
           "example": "He is now talking with companies about developing the test into a simple product.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "简单的",
+          "pos": "adj.",
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "paper": {
       "lemma": "paper",
@@ -24176,14 +24603,33 @@
           "pos": "adj.",
           "example": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "可能的",
+          "pos": "adj.",
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "可能的",
+          "pos": "adj.",
+          "example": "Your merchant account should accept as many forms of payment as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "可能的",
+          "pos": "adj.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "anirban": {
       "lemma": "anirban",
@@ -24432,7 +24878,7 @@
       "lemma": "very",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "非常；极；完全；正是",
+      "meanings": "正是；非常；极；完全",
       "senses": [
         {
           "translation": "非常",
@@ -24481,6 +24927,18 @@
           "pos": "adv.",
           "example": "Very late, they dropped off to sleep in their chairs.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "正是",
+          "pos": "adv.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "非常",
+          "pos": "adv.",
+          "example": "Very soon you will be making money online.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -24490,10 +24948,11 @@
         "web-52737a111ab04db4",
         "web-1fac3b0d4f7569c5",
         "web-09421cfd6a2c44ad",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "surprised": {
       "lemma": "surprise",
@@ -25183,6 +25642,18 @@
           "pos": "adv.",
           "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "现在",
+          "pos": "adv.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "现在",
+          "pos": "adv.",
+          "example": "That's how easy it is to start a business online now.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -25192,10 +25663,11 @@
         "web-1fac3b0d4f7569c5",
         "web-f328bfb9843d2dfa",
         "web-0ada4954aa4da897",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "talking": {
       "lemma": "talk",
@@ -25260,13 +25732,20 @@
           "pos": "n.",
           "example": "He is now talking with companies about developing the test into a simple product.",
           "sourceArticleId": "web-6889075584252ffd"
+        },
+        {
+          "translation": "产品",
+          "pos": "n.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-6889075584252ffd"
+        "web-6889075584252ffd",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:58:39.651Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "whatever": {
       "lemma": "whatever",
@@ -26490,13 +26969,20 @@
           "pos": "n.",
           "example": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "服务",
+          "pos": "n.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "banking": {
       "lemma": "banking",
@@ -26730,6 +27216,12 @@
           "pos": "adj.",
           "example": "The Mitford Series is so good if you are looking for books to read.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "好的",
+          "pos": "adj.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
@@ -26739,10 +27231,11 @@
         "web-f328bfb9843d2dfa",
         "web-f335b4849447798b",
         "web-f39e7f5b1b236779",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "cheap": {
       "lemma": "cheap",
@@ -27803,7 +28296,7 @@
       "lemma": "do",
       "pos": "aux.",
       "forms": "do, does, did, doing, done",
-      "meanings": "不；没（用于构成否定句）；（用于强调）；（构成疑问句）",
+      "meanings": "不；没（用于构成否定句）；（用于强调）",
       "senses": [
         {
           "translation": "不",
@@ -27816,14 +28309,21 @@
           "pos": "aux.",
           "example": "He stirred Maggie's anger, however, so that she often said to her husband, \"It's mercy that brother of yours doesn't come oftener.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "不",
+          "pos": "aux.",
+          "example": "The site itself doesn't have to be anything special.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-2e315a8a858c375d",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "say": {
       "lemma": "say",
@@ -30300,9 +30800,9 @@
     },
     "host": {
       "lemma": "host",
-      "pos": "noun",
-      "forms": "hosts",
-      "meanings": "东道主；房东；主持人；主办方",
+      "pos": "v.",
+      "forms": "hosts, hosting, hosted",
+      "meanings": "托管（网站）；主办；接待；东道主",
       "senses": [
         {
           "translation": "东道主",
@@ -30315,13 +30815,20 @@
           "pos": "noun",
           "example": "Language holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub.",
           "sourceArticleId": "web-52737a111ab04db4"
+        },
+        {
+          "translation": "托管",
+          "pos": "v.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-52737a111ab04db4"
+        "web-52737a111ab04db4",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T12:02:12.297Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "length": {
       "lemma": "length",
@@ -32714,14 +33221,27 @@
           "pos": "n.",
           "example": "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "想法",
+          "pos": "n.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "想法",
+          "pos": "n.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-eecaaca1e069e103",
-        "web-f39e7f5b1b236779"
+        "web-f39e7f5b1b236779",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:24:31.869Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "always": {
       "lemma": "always",
@@ -33665,14 +34185,39 @@
           "pos": "n.",
           "example": "The money came from a group financed by the Khosla Family.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "钱",
+          "pos": "n.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "钱",
+          "pos": "n.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "钱",
+          "pos": "n.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "钱",
+          "pos": "n.",
+          "example": "Very soon you will be making money online.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-1fac3b0d4f7569c5",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "coming": {
       "lemma": "come",
@@ -33784,9 +34329,9 @@
     },
     "starting": {
       "lemma": "start",
-      "pos": "adj.",
+      "pos": "v.",
       "forms": "starts, started, starting",
-      "meanings": "开始的；首发的；启动的",
+      "meanings": "开始；起动；出发；开办",
       "senses": [
         {
           "translation": "开始",
@@ -33805,15 +34350,22 @@
           "pos": "adj.",
           "example": "And sure enough, he grew up to be a starting player for an N.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "开始",
+          "pos": "v.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "match": {
       "lemma": "match",
@@ -34561,13 +35113,20 @@
           "pos": "n.",
           "example": "\"\nWashington,DC has also taken steps to protect bike riders.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "步骤",
+          "pos": "n.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "protect": {
       "lemma": "protect",
@@ -35533,7 +36092,7 @@
       "lemma": "few",
       "pos": "adj.",
       "forms": "fewer, fewest",
-      "meanings": "少数；不多；一些",
+      "meanings": "少数；不多；一些；很少",
       "senses": [
         {
           "translation": "少数",
@@ -35546,14 +36105,21 @@
           "pos": "adj.",
           "example": "\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "少数",
+          "pos": "adj.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-09421cfd6a2c44ad",
-        "web-f39e7f5b1b236779"
+        "web-f39e7f5b1b236779",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:24:31.869Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "thousand": {
       "lemma": "thousand",
@@ -41079,15 +41645,22 @@
           "pos": "n.",
           "example": "During the past week two things happened.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "物品",
+          "pos": "n.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-a0a23c816fc997da",
         "web-0ada4954aa4da897",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "opposed": {
       "lemma": "oppose",
@@ -42283,13 +42856,26 @@
           "pos": "n.",
           "example": "To book, you need an active University account and a valid University card.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "账户",
+          "pos": "n.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "账户",
+          "pos": "n.",
+          "example": "Your merchant account should accept as many forms of payment as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-f335b4849447798b"
+        "web-f335b4849447798b",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "valid": {
       "lemma": "valid",
@@ -44224,13 +44810,20 @@
           "pos": "adv.",
           "example": "This population consists of birds, bats, frogs, snakes, etc.",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "等等",
+          "pos": "adv.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-59b629f92c1e91fb"
+        "web-59b629f92c1e91fb",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "outdoor": {
       "lemma": "outdoor",
@@ -46346,7 +46939,7 @@
       "lemma": "company",
       "pos": "n.",
       "forms": "companies",
-      "meanings": "陪伴；同伴；公司；剧团",
+      "meanings": "公司；陪伴；同伴；剧团",
       "senses": [
         {
           "translation": "公司",
@@ -46365,14 +46958,21 @@
           "pos": "n.",
           "example": "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "公司",
+          "pos": "n.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
         "web-9164814709a91049",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "wu": {
       "lemma": "wu",
@@ -48876,13 +49476,20 @@
           "pos": "adj.",
           "example": "Most people watching Jeremy Lin these past two months saw Jeremy Lin, New York Knicks star; but I, watching him, saw someone else.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "其他",
+          "pos": "adj.",
+          "example": "You can either do this yourself or you can pay someone else to do this.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "elder": {
       "lemma": "elder",
@@ -50642,7 +51249,7 @@
     },
     "once": {
       "lemma": "once",
-      "pos": "adv.",
+      "pos": "conj.",
       "forms": "无常见变形",
       "meanings": "一次；曾经；一旦",
       "senses": [
@@ -50651,13 +51258,26 @@
           "pos": "adv.",
           "example": "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "一旦",
+          "pos": "conj.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "一旦",
+          "pos": "conj.",
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "unexpectedly": {
       "lemma": "unexpectedly",
@@ -50939,22 +51559,29 @@
     },
     "either": {
       "lemma": "either",
-      "pos": "adv.",
+      "pos": "conj./adv.",
       "forms": "无常见变形",
-      "meanings": "也（用于否定句）；任一的；两者之一；也一样",
+      "meanings": "两者之一；也（用于否定句）；任一的；也一样",
       "senses": [
         {
           "translation": "也（用于否定句句末）",
           "pos": "adv.",
           "example": "Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "两者之一",
+          "pos": "conj.",
+          "example": "You can either do this yourself or you can pay someone else to do this.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "except": {
       "lemma": "except",
@@ -52466,13 +53093,20 @@
           "pos": "v.",
           "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "试图",
+          "pos": "v.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
         }
       ],
       "articleIds": [
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-7504f64bec4e74a7"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     },
     "figure": {
       "lemma": "figure",
@@ -52605,6 +53239,575 @@
       ],
       "articleCount": 1,
       "updatedAt": "2026-08-03T14:07:34.715Z"
+    },
+    "complete": {
+      "lemma": "complete",
+      "pos": "v.",
+      "forms": "completes, completed, completing",
+      "meanings": "完成；结束；填写；使完整",
+      "senses": [
+        {
+          "translation": "完成",
+          "pos": "v.",
+          "example": "In order to start a business online now, there are a few steps you need to complete.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "完成",
+          "pos": "v.",
+          "example": "The very first step you need to complete is to have a product or service idea.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "excites": {
+      "lemma": "excite",
+      "pos": "v.",
+      "forms": "excited, exciting, excitement",
+      "meanings": "使兴奋；使激动；激发；刺激",
+      "senses": [
+        {
+          "translation": "使兴奋",
+          "pos": "v.",
+          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "ready": {
+      "lemma": "ready",
+      "pos": "adj.",
+      "forms": "readier, readiest",
+      "meanings": "准备好的；现成的；敏捷的；乐意的",
+      "senses": [
+        {
+          "translation": "准备好的",
+          "pos": "adj.",
+          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "buy": {
+      "lemma": "buy",
+      "pos": "v.",
+      "forms": "buys, bought, buying",
+      "meanings": "购买；买下；收买",
+      "senses": [
+        {
+          "translation": "购买",
+          "pos": "v.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "domain": {
+      "lemma": "domain",
+      "pos": "n.",
+      "forms": "domains",
+      "meanings": "域名；领域；范围；领土",
+      "senses": [
+        {
+          "translation": "域名",
+          "pos": "n.",
+          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "域名",
+          "pos": "n.",
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "related": {
+      "lemma": "relate",
+      "pos": "adj.",
+      "forms": "relate (v.), relation (n.), relationship (n.)",
+      "meanings": "有关联的；叙述的；有亲属关系的",
+      "senses": [
+        {
+          "translation": "有关联的",
+          "pos": "adj.",
+          "example": "Your domain name should be as simple as possible and it should be related to(.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "products": {
+      "lemma": "product",
+      "pos": "n.",
+      "forms": "product (sing.)",
+      "meanings": "产品；产物；作品；成果",
+      "senses": [
+        {
+          "translation": "产品",
+          "pos": "n.",
+          "example": ") your products.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "built": {
+      "lemma": "build",
+      "pos": "v.",
+      "forms": "builds, building, built",
+      "meanings": "建造；建立；开发；体格",
+      "senses": [
+        {
+          "translation": "建造",
+          "pos": "v.",
+          "example": "After this you can go ahead and get your site built up.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "yourself": {
+      "lemma": "yourself",
+      "pos": "pron.",
+      "forms": "yourselves",
+      "meanings": "你自己；你亲自；你本人",
+      "senses": [
+        {
+          "translation": "你自己",
+          "pos": "pron.",
+          "example": "You can either do this yourself or you can pay someone else to do this.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "itself": {
+      "lemma": "itself",
+      "pos": "pron.",
+      "forms": "无常见变形",
+      "meanings": "其本身；它自己；自身",
+      "senses": [
+        {
+          "translation": "其本身",
+          "pos": "pron.",
+          "example": "The site itself doesn't have to be anything special.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "special": {
+      "lemma": "special",
+      "pos": "adj.",
+      "forms": "specially",
+      "meanings": "特别的；特殊的；专门的；额外的",
+      "senses": [
+        {
+          "translation": "特别的",
+          "pos": "adj.",
+          "example": "The site itself doesn't have to be anything special.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "final": {
+      "lemma": "final",
+      "pos": "adj.",
+      "forms": "finally",
+      "meanings": "最后的；最终的；决定性的",
+      "senses": [
+        {
+          "translation": "最后的",
+          "pos": "adj.",
+          "example": "The final step for starting your business online is to have a way to make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "merchant": {
+      "lemma": "merchant",
+      "pos": "adj.",
+      "forms": "merchants",
+      "meanings": "商人的；商业的；贸易的",
+      "senses": [
+        {
+          "translation": "商人的",
+          "pos": "adj.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "商业的",
+          "pos": "adj.",
+          "example": "Your merchant account should accept as many forms of payment as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "let": {
+      "lemma": "let",
+      "pos": "v.",
+      "forms": "lets, letting, let",
+      "meanings": "允许；让；出租；使",
+      "senses": [
+        {
+          "translation": "允许",
+          "pos": "v.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "sell": {
+      "lemma": "sell",
+      "pos": "v.",
+      "forms": "sells, sold, selling",
+      "meanings": "销售；出售；出卖；推销",
+      "senses": [
+        {
+          "translation": "销售",
+          "pos": "v.",
+          "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "accept": {
+      "lemma": "accept",
+      "pos": "v.",
+      "forms": "accepts, accepted, accepting",
+      "meanings": "接受；承认；收受；同意",
+      "senses": [
+        {
+          "translation": "接受",
+          "pos": "v.",
+          "example": "Your merchant account should accept as many forms of payment as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "forms": {
+      "lemma": "form",
+      "pos": "n.",
+      "forms": "forms",
+      "meanings": "形式；种类；表格；形状",
+      "senses": [
+        {
+          "translation": "形式",
+          "pos": "n.",
+          "example": "Your merchant account should accept as many forms of payment as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "payment": {
+      "lemma": "payment",
+      "pos": "n.",
+      "forms": "payments",
+      "meanings": "支付；付款；报酬；偿还",
+      "senses": [
+        {
+          "translation": "支付",
+          "pos": "n.",
+          "example": "Your merchant account should accept as many forms of payment as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "running": {
+      "lemma": "run",
+      "pos": "v.",
+      "forms": "runs, running, ran, run",
+      "meanings": "运转；经营；奔跑；管理",
+      "senses": [
+        {
+          "translation": "运转",
+          "pos": "v.",
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "advertising": {
+      "lemma": "advertise",
+      "pos": "v.",
+      "forms": "advertises, advertised, advertising",
+      "meanings": "为……做广告；宣传；征聘；公布",
+      "senses": [
+        {
+          "translation": "为……做广告",
+          "pos": "v.",
+          "example": "Once your site is up and running, you can begin advertising the site.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "contents": {
+      "lemma": "content",
+      "pos": "n.",
+      "forms": "contents",
+      "meanings": "内容；目录；所含之物；含量",
+      "senses": [
+        {
+          "translation": "内容",
+          "pos": "n.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "articles": {
+      "lemma": "article",
+      "pos": "n.",
+      "forms": "articles",
+      "meanings": "文章；物品；条款；冠词",
+      "senses": [
+        {
+          "translation": "文章",
+          "pos": "n.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "blog": {
+      "lemma": "blog",
+      "pos": "n.",
+      "forms": "blogs",
+      "meanings": "博客；日志；网志",
+      "senses": [
+        {
+          "translation": "博客",
+          "pos": "n.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "entries": {
+      "lemma": "entry",
+      "pos": "n.",
+      "forms": "entry",
+      "meanings": "条目；进入；登记；参赛作品",
+      "senses": [
+        {
+          "translation": "条目",
+          "pos": "n.",
+          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "post": {
+      "lemma": "post",
+      "pos": "v.",
+      "forms": "posts, posted, posting",
+      "meanings": "发布；邮寄；张贴；公告",
+      "senses": [
+        {
+          "translation": "发布",
+          "pos": "v.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "attract": {
+      "lemma": "attract",
+      "pos": "v.",
+      "forms": "attracts, attracted, attracting",
+      "meanings": "吸引；引起；招引",
+      "senses": [
+        {
+          "translation": "吸引",
+          "pos": "v.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "customers": {
+      "lemma": "customer",
+      "pos": "n.",
+      "forms": "customers",
+      "meanings": "顾客；客户；主顾；买主",
+      "senses": [
+        {
+          "translation": "顾客",
+          "pos": "n.",
+          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "soon": {
+      "lemma": "soon",
+      "pos": "adv.",
+      "forms": "sooner, soonest",
+      "meanings": "不久；很快；立刻；早",
+      "senses": [
+        {
+          "translation": "很快",
+          "pos": "adv.",
+          "example": "Very soon you will be making money online.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
+    },
+    "making": {
+      "lemma": "make",
+      "pos": "v.",
+      "forms": "makes, made, making",
+      "meanings": "赚取；做；制造；使得",
+      "senses": [
+        {
+          "translation": "赚取",
+          "pos": "v.",
+          "example": "Very soon you will be making money online.",
+          "sourceArticleId": "web-7504f64bec4e74a7"
+        }
+      ],
+      "articleIds": [
+        "web-7504f64bec4e74a7"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T14:12:20.998Z"
     }
   }
 }
