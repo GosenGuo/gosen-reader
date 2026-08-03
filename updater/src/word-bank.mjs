@@ -4,6 +4,10 @@ const GLOSSARY_CONCURRENCY = Math.max(
   1,
   Number(process.env.GLOSSARY_CONCURRENCY || 3)
 );
+const GLOSSARY_BATCH_SIZE = Math.max(
+  1,
+  Number(process.env.GLOSSARY_BATCH_SIZE || 10)
+);
 
 const WORD_PATTERN = /[A-Za-z]+(?:['’][A-Za-z]+)*/g;
 const PLACEHOLDER_PATTERN = /(待.{0,8}(补充|处理)|未知|暂无|处理中|todo|unknown|pending)/i;
@@ -35,7 +39,7 @@ export async function repairArticleGlossary(article, minimax, wordBank) {
     if (missing.length === 0) return;
     console.log(`  glossary repair ${attempt}: ${missing.length} word(s)`);
 
-    const batches = chunks(missing, 20);
+    const batches = chunks(missing, GLOSSARY_BATCH_SIZE);
     for (const group of chunks(batches, GLOSSARY_CONCURRENCY)) {
       const completed = await Promise.all(group.map(async batch => {
         const requested = batch.map(word => {

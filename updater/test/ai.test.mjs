@@ -187,3 +187,39 @@ test("falls back to the next model after repeated temporary failures", async () 
     globalThis.fetch = originalFetch;
   }
 });
+
+test("retries the primary model after the fallback cooldown", async () => {
+  const originalFetch = globalThis.fetch;
+  const requestedModels = [];
+  let primaryCalls = 0;
+  globalThis.fetch = async (_url, options) => {
+    const body = JSON.parse(options.body);
+    requestedModels.push(body.model);
+    if (body.model === "deepseek-v4-flash" && primaryCalls++ === 0) {
+      return new Response("temporarily overloaded", { status: 503 });
+    }
+    return Response.json({
+      choices: [{ message: { content: "{\"ok\":true}" } }]
+    });
+  };
+  try {
+    const client = new AiClient({
+      AI_API_KEY: "test-key",
+      AI_MODEL: "deepseek-v4-flash",
+      AI_FALLBACK_MODELS: "gemini-2.5-flash",
+      AI_MAX_ATTEMPTS_PER_MODEL: "1",
+      AI_PRIMARY_RETRY_COOLDOWN_MS: "0",
+      AI_RETRY_DELAY_MS: "0"
+    });
+    assert.deepEqual(await client.json("system", "first"), { ok: true });
+    assert.deepEqual(await client.json("system", "second"), { ok: true });
+    assert.deepEqual(requestedModels, [
+      "deepseek-v4-flash",
+      "gemini-2.5-flash",
+      "deepseek-v4-flash"
+    ]);
+    assert.equal(client.model, "deepseek-v4-flash");
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});

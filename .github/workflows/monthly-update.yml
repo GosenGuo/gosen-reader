@@ -24,10 +24,11 @@ jobs:
       AI_API_KEY: ${{ secrets.AI_API_KEY }}
       AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://xcode.best/v1' }}
       AI_MODEL: deepseek-v4-flash
-      AI_FALLBACK_MODELS: kimi-k2.6,gemini-2.5-flash
-      AI_MAX_ATTEMPTS_PER_MODEL: "1"
-      AI_REQUEST_TIMEOUT_MS: "45000"
-      AI_RETRY_DELAY_MS: "2000"
+      AI_FALLBACK_MODELS: gemini-2.5-flash
+      AI_MAX_ATTEMPTS_PER_MODEL: "2"
+      AI_REQUEST_TIMEOUT_MS: "120000"
+      AI_RETRY_DELAY_MS: "5000"
+      AI_PRIMARY_RETRY_COOLDOWN_MS: "300000"
       AI_MODEL_PRICING_JSON: ${{ vars.AI_MODEL_PRICING_JSON }}
       AI_REPORTED_COST_CURRENCY: ${{ vars.AI_REPORTED_COST_CURRENCY }}
       USD_CNY_RATE: ${{ vars.USD_CNY_RATE }}
@@ -44,8 +45,9 @@ jobs:
       GENERATION_LEDGER_PATH: ../docs/generation-ledger.json
       GENERATION_RUN_ID: ${{ github.run_id }}
       CHECKPOINT_EACH_ARTICLE: "true"
-      TRANSLATION_CONCURRENCY: "3"
-      GLOSSARY_CONCURRENCY: "3"
+      TRANSLATION_CONCURRENCY: "2"
+      GLOSSARY_CONCURRENCY: "2"
+      GLOSSARY_BATCH_SIZE: "10"
 
     steps:
       - uses: actions/checkout@v4

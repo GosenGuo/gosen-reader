@@ -19,6 +19,11 @@ export class AiClient {
       1,
       Number(env.AI_MAX_ATTEMPTS_PER_MODEL ?? 2)
     );
+    this.primaryRetryCooldownMs = Math.max(
+      0,
+      Number(env.AI_PRIMARY_RETRY_COOLDOWN_MS ?? 300_000)
+    );
+    this.primaryRetryAt = 0;
     this.pricing = parsePricing(env.AI_MODEL_PRICING_JSON);
     this.usdCnyRate = positiveNumber(env.USD_CNY_RATE);
     this.reportedCostCurrency =
@@ -37,8 +42,12 @@ export class AiClient {
 
   async json(system, user, temperature = 0.1) {
     let lastError;
+    const startModelIndex = this.activeModelIndex > 0
+      && Date.now() < this.primaryRetryAt
+      ? this.activeModelIndex
+      : 0;
     for (
-      let modelIndex = this.activeModelIndex;
+      let modelIndex = startModelIndex;
       modelIndex < this.models.length;
       modelIndex += 1
     ) {
@@ -47,12 +56,15 @@ export class AiClient {
         const result = await this.jsonWithModel(model, system, user, temperature);
         this.activeModelIndex = modelIndex;
         this.model = model;
+        this.primaryRetryAt = modelIndex === 0
+          ? 0
+          : Date.now() + this.primaryRetryCooldownMs;
         return result;
       } catch (error) {
         lastError = error;
         const fallback = this.models[modelIndex + 1];
         if (!error.retryable || !fallback) throw error;
-        console.warn(`AI model ${model} is temporarily unavailable; falling back to ${fallback}`);
+        console.warn(`${error.message}; falling back to ${fallback}`);
       }
     }
     throw lastError || new Error("AI model fallback loop ended unexpectedly");
