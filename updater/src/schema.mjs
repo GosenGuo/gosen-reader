@@ -28,7 +28,15 @@ export function normalizeArticle(raw, source) {
         ? question.options.map(value => String(value).trim())
         : [],
       answer: Number(question.answer),
-      explanation: String(question.explanation || "").trim()
+      explanation: String(question.explanation || "").trim(),
+      type: String(question.type || "").trim(),
+      evidenceSentence: String(question.evidenceSentence || "").trim(),
+      optionExplanations: Array.isArray(question.optionExplanations)
+        ? question.optionExplanations.map(value => String(value || "").trim())
+        : [],
+      optionErrorTypes: Array.isArray(question.optionErrorTypes)
+        ? question.optionErrorTypes.map(value => String(value || "").trim())
+        : []
     })) : []
   };
 }
@@ -41,12 +49,40 @@ export function validateArticle(article) {
     errors.push("fewer than two questions");
   }
   for (const [index, question] of article.questions.entries()) {
+    const optionExplanations = Array.isArray(question.optionExplanations)
+      ? question.optionExplanations : [];
+    const optionErrorTypes = Array.isArray(question.optionErrorTypes)
+      ? question.optionErrorTypes : [];
     if (!question.prompt) errors.push(`question ${index + 1} has no prompt`);
     if (question.options.length !== 4) errors.push(`question ${index + 1} does not have four options`);
     if (!Number.isInteger(question.answer) || question.answer < 0 || question.answer > 3) {
       errors.push(`question ${index + 1} answer is invalid`);
     }
     if (!question.explanation) errors.push(`question ${index + 1} has no explanation`);
+    const hasLearningMetadata = Boolean(
+      question.type
+      || question.evidenceSentence
+      || optionExplanations.length
+      || optionErrorTypes.length
+    );
+    if (hasLearningMetadata) {
+      if (!question.type) errors.push(`question ${index + 1} has no type`);
+      if (!question.evidenceSentence || !article.body.includes(question.evidenceSentence)) {
+        errors.push(`question ${index + 1} evidence is not an exact passage sentence`);
+      }
+      if (optionExplanations.length !== 4
+          || optionExplanations.some(value => !value)) {
+        errors.push(`question ${index + 1} option explanations are incomplete`);
+      }
+      if (optionErrorTypes.length !== 4
+          || optionErrorTypes.some(value => !value)) {
+        errors.push(`question ${index + 1} option error types are incomplete`);
+      } else if (optionErrorTypes[question.answer] !== "正确"
+          || optionErrorTypes.some((value, optionIndex) =>
+            optionIndex !== question.answer && value === "正确")) {
+        errors.push(`question ${index + 1} option error types do not match the answer`);
+      }
+    }
   }
   const sentences = splitSentences(article.body);
   const translated = sentences.filter(sentence => article.sentenceTranslations[sentence]).length;

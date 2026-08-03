@@ -22,6 +22,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowInsets;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
@@ -36,6 +37,7 @@ import org.json.JSONObject;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.WeekFields;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -60,6 +62,7 @@ public class MainActivity extends Activity {
     private ContentRefillManager refillManager;
     private LearningStore learningStore;
     private long readingStartedAt;
+    private long activeReadingSeconds;
     private int activeArticleClicks;
     private boolean darkMode;
     private int GREEN;
@@ -274,13 +277,14 @@ public class MainActivity extends Activity {
                 Color.WHITE, true);
         streak.setPadding(0, dp(4), 0, dp(4));
         streakCard.addView(streak);
-        String doneText = isTodayDone() ? "今日已完成 ✓" : "今天完成 1 篇即可打卡";
+        String doneText = isTodayDone() ? "今日学习闭环已完成 ✓"
+                : "复习 → 阅读 → 答题 → 复盘";
         streakCard.addView(label(doneText, 14, Color.WHITE, false));
         page.addView(streakCard);
         page.addView(space(18));
 
         LinearLayout reviewCard = card(GREEN_LIGHT);
-        int due = learningStore.dueCount();
+        int due = Math.min(remainingDailyReviews(), learningStore.dueCount());
         reviewCard.addView(label("生词复习", 18, GREEN, true));
         reviewCard.addView(label(due > 0 ? "今天有 " + due + " 个词待复习"
                 : "今天的生词已复习完", 14, MUTED, false));
@@ -323,14 +327,20 @@ public class MainActivity extends Activity {
     private JSONObject todayArticle() {
         float target = prefs.getFloat("abilityScore", 1f);
         JSONObject best = null;
-        float bestDistance = Float.MAX_VALUE;
+        float bestScore = -1f;
+        String lastSource = prefs.getString("lastArticleSource", "");
         for (int i = 0; i < repository.size(); i++) {
             JSONObject candidate = repository.get(i);
             if (candidate == null || isCompleted(candidate.optString("id"))) continue;
-            float distance = Math.abs(articleLevel(candidate) - target);
-            if (distance < bestDistance) {
+            float difficultyFit = 1f - Math.min(1f,
+                    Math.abs(articleLevel(candidate) - target) / 2f);
+            int learningWords = learningStore.learningWordCount(candidate);
+            float vocabularyFit = Math.min(1f, learningWords / 10f);
+            float variety = lastSource.equals(candidate.optString("source")) ? 0f : 1f;
+            float score = difficultyFit * 40f + vocabularyFit * 35f + variety * 15f + 10f;
+            if (score > bestScore) {
                 best = candidate;
-                bestDistance = distance;
+                bestScore = score;
             }
         }
         if (best != null) return best;
@@ -363,6 +373,12 @@ public class MainActivity extends Activity {
         box.addView(label(article.optString("title"), prominent ? 23 : 18, INK, true));
         box.addView(space(6));
         box.addView(label(article.optString("source", "英语阅读"), 13, MUTED, false));
+        int learningWords = learningStore.learningWordCount(article);
+        if (learningWords > 0) {
+            box.addView(space(6));
+            box.addView(label("包含 " + learningWords + " 个你正在巩固的词",
+                    13, GREEN, true));
+        }
         box.addView(space(16));
         Button read = primaryButton(isCompleted(article.optString("id"))
                 ? "再次阅读" : "开始阅读");
@@ -414,23 +430,27 @@ public class MainActivity extends Activity {
         LinearLayout page = page();
         scroll.addView(page);
         page.addView(label("生词复习", 28, INK, true));
-        page.addView(label("点过的生词会按 1、3、7、14、30 天间隔出现。",
+        page.addView(label("每天最多 12 个；系统会根据“忘记、模糊、记得”动态安排。",
                 14, MUTED, false));
         page.addView(space(18));
 
-        ArrayList<JSONObject> dueWords = new ArrayList<>(learningStore.dueWords(1));
+        int remaining = remainingDailyReviews();
+        ArrayList<JSONObject> dueWords = remaining == 0
+                ? new ArrayList<>() : new ArrayList<>(learningStore.dueWords(1));
         if (dueWords.isEmpty()) {
             LinearLayout done = card(GREEN_LIGHT);
-            done.addView(label("今天复习完成 ✓", 21, GREEN, true));
+            done.addView(label(remaining == 0 ? "今日 12 个复习已完成 ✓"
+                    : "今天的到期生词已复习 ✓", 21, GREEN, true));
             done.addView(space(6));
-            done.addView(label("生词本共有 " + learningStore.totalCount()
-                    + " 个词，到期后会自动出现。", 14, MUTED, false));
+            done.addView(label("生词本 " + learningStore.totalCount() + " 个词义 · 已掌握 "
+                    + learningStore.statusCount("mastered") + " 个", 14, MUTED, false));
             page.addView(done);
             setScreen(scroll, true);
             return;
         }
 
         JSONObject item = dueWords.get(0);
+        String senseKey = item.optString("senseKey", item.optString("lemma"));
         String lemma = item.optString("lemma");
         String displayWord = item.optString("displayWord", lemma);
         String sentence = item.optString("sentence");
@@ -454,6 +474,9 @@ public class MainActivity extends Activity {
         answer.addView(label(displayWord + "  ·  " + item.optString("pos", "—"),
                 22, INK, true));
         answer.addView(label(item.optString("translation"), 23, GREEN, true));
+        answer.addView(label(learningStore.statusLabel(item) + "  ·  已在 "
+                + item.optInt("contextCount", 1) + " 个语境中遇见",
+                13, MUTED, true));
         answer.addView(space(8));
         answer.addView(label(sentence, 15, INK, false));
         answer.addView(label(item.optString("sentenceTranslation"), 15, MUTED, false));
@@ -465,12 +488,20 @@ public class MainActivity extends Activity {
         LinearLayout actions = new LinearLayout(this);
         actions.setOrientation(LinearLayout.HORIZONTAL);
         Button forgot = secondaryButton("没想起来");
-        Button remembered = primaryButton("想起来了");
+        Button vague = secondaryButton("有点模糊");
+        Button remembered = primaryButton("完全记得");
+        forgot.setTextSize(12);
+        vague.setTextSize(12);
+        remembered.setTextSize(12);
         actions.addView(forgot, new LinearLayout.LayoutParams(0,
                 ViewGroup.LayoutParams.WRAP_CONTENT, 1));
+        LinearLayout.LayoutParams vagueParams = new LinearLayout.LayoutParams(0,
+                ViewGroup.LayoutParams.WRAP_CONTENT, 1);
+        vagueParams.leftMargin = dp(6);
+        actions.addView(vague, vagueParams);
         LinearLayout.LayoutParams rememberedParams = new LinearLayout.LayoutParams(0,
                 ViewGroup.LayoutParams.WRAP_CONTENT, 1);
-        rememberedParams.leftMargin = dp(10);
+        rememberedParams.leftMargin = dp(6);
         actions.addView(remembered, rememberedParams);
         answer.addView(actions);
         box.addView(answer);
@@ -480,11 +511,18 @@ public class MainActivity extends Activity {
             answer.setVisibility(View.VISIBLE);
         });
         forgot.setOnClickListener(view -> {
-            learningStore.answer(lemma, false);
+            learningStore.answer(senseKey, LearningStore.FORGOT);
+            recordReviewToday();
+            showReview();
+        });
+        vague.setOnClickListener(view -> {
+            learningStore.answer(senseKey, LearningStore.VAGUE);
+            recordReviewToday();
             showReview();
         });
         remembered.setOnClickListener(view -> {
-            learningStore.answer(lemma, true);
+            learningStore.answer(senseKey, LearningStore.REMEMBERED);
+            recordReviewToday();
             showReview();
         });
         page.addView(box);
@@ -534,10 +572,49 @@ public class MainActivity extends Activity {
         learning.addView(space(6));
         learning.addView(label("生词本 " + learningStore.totalCount() + " 个 · 今日待复习 "
                 + learningStore.dueCount() + " 个", 14, MUTED, false));
+        learning.addView(label("新词 " + learningStore.statusCount("new")
+                + " · 学习中 " + learningStore.statusCount("learning")
+                + " · 巩固中 " + learningStore.statusCount("consolidating")
+                + " · 已掌握 " + learningStore.statusCount("mastered"),
+                13, MUTED, false));
         learning.addView(label("当前阅读等级：" + abilityLabel(prefs.getFloat("abilityScore", 1f))
                 + " · 离线缓存 " + repository.size() + " 篇", 14, MUTED, false));
         page.addView(learning);
+        page.addView(space(12));
+        page.addView(weeklyReportCard());
         setScreen(scroll, true);
+    }
+
+    private LinearLayout weeklyReportCard() {
+        String week = weekKey();
+        int articles = prefs.getInt(week + ":articles", 0);
+        int words = prefs.getInt(week + ":words", 0);
+        int questions = prefs.getInt(week + ":questions", 0);
+        int correct = prefs.getInt(week + ":correct", 0);
+        int clicks = prefs.getInt(week + ":clicks", 0);
+        long seconds = prefs.getLong(week + ":seconds", 0L);
+        String weakness = topWeeklyWeakness(week);
+        LinearLayout box = card(SURFACE);
+        box.addView(label("本周学习报告", 18, INK, true));
+        box.addView(space(8));
+        box.addView(label("阅读 " + articles + " 篇 · " + words + " 词 · 查词 "
+                + clicks + " 次", 14, MUTED, false));
+        if (words > 0) {
+            int clickRate = Math.round(clicks * 100f / words);
+            int speed = seconds <= 0 ? 0 : Math.round(words * 60f / seconds);
+            box.addView(label("每百词查词 " + clickRate + " 次"
+                    + (speed > 0 ? " · 约 " + speed + " 词/分钟" : ""),
+                    14, MUTED, false));
+        }
+        String accuracy = questions == 0 ? "暂无答题数据"
+                : "答题正确率 " + Math.round(correct * 100f / questions) + "%";
+        box.addView(label(accuracy, 14, MUTED, false));
+        box.addView(space(10));
+        box.addView(label("下周唯一重点", 13, GREEN, true));
+        box.addView(label(weakness.isEmpty()
+                ? "继续完成阅读闭环，累积至少 10 道题后生成诊断。"
+                : trainingAdvice(weakness), 15, INK, true));
+        return box;
     }
 
     private String abilityLabel(float score) {
@@ -558,6 +635,7 @@ public class MainActivity extends Activity {
         onHomeScreen = false;
         activeArticle = article;
         readingStartedAt = System.currentTimeMillis();
+        activeReadingSeconds = 0L;
         activeArticleClicks = 0;
         ScrollView scroll = screenScroll();
         LinearLayout page = page();
@@ -586,10 +664,56 @@ public class MainActivity extends Activity {
         page.addView(body);
         page.addView(space(28));
 
-        Button finish = primaryButton("完成阅读，开始答题");
-        finish.setOnClickListener(view -> showQuiz(article));
+        Button finish = primaryButton("完成阅读，先回忆主旨");
+        finish.setOnClickListener(view -> showRecall(article));
         page.addView(finish);
         page.addView(space(24));
+        setScreen(scroll, false);
+    }
+
+    private void showRecall(JSONObject article) {
+        onHomeScreen = false;
+        if (activeReadingSeconds == 0L) {
+            activeReadingSeconds = Math.max(1,
+                    (System.currentTimeMillis() - readingStartedAt) / 1000L);
+        }
+        ScrollView scroll = screenScroll();
+        LinearLayout page = page();
+        scroll.addView(page);
+        page.addView(backRow("返回文章", () -> showReader(article)));
+        page.addView(space(14));
+        page.addView(label("60 秒主动回忆", 28, INK, true));
+        page.addView(label("先不看原文，用一句话说出这篇文章主要讲了什么。",
+                16, MUTED, false));
+        page.addView(space(18));
+
+        LinearLayout recallCard = card(SURFACE);
+        EditText recall = new EditText(this);
+        recall.setHint("可以输入一句概括，也可以只在脑中回忆");
+        recall.setHintTextColor(MUTED);
+        recall.setTextColor(INK);
+        recall.setTextSize(16);
+        recall.setMinLines(3);
+        recall.setGravity(Gravity.TOP);
+        recall.setBackground(rounded(GREEN_LIGHT, 12));
+        recall.setPadding(dp(14), dp(12), dp(14), dp(12));
+        recallCard.addView(recall, new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        recallCard.addView(space(14));
+        Button complete = primaryButton("我已回忆，开始答题");
+        complete.setOnClickListener(view -> {
+            String key = "recall:" + article.optString("id") + ":"
+                    + LocalDate.now().format(DATE_FORMAT);
+            prefs.edit().putBoolean(key, true)
+                    .putString(key + ":text", recall.getText().toString().trim()).apply();
+            showQuiz(article);
+        });
+        recallCard.addView(complete);
+        recallCard.addView(space(10));
+        Button forgot = secondaryButton("完全想不起来，返回文章");
+        forgot.setOnClickListener(view -> showReader(article));
+        recallCard.addView(forgot);
+        page.addView(recallCard);
         setScreen(scroll, false);
     }
 
@@ -846,6 +970,10 @@ public class MainActivity extends Activity {
             boolean right = selected[i] == answer;
             box.addView(label((i + 1) + ". " + (right ? "回答正确" : "需要复盘"),
                     17, right ? GREEN : DANGER, true));
+            if (!right) {
+                String diagnosis = diagnoseError(q, selected[i]);
+                box.addView(label("本题错因：" + diagnosis, 14, DANGER, true));
+            }
             box.addView(space(6));
             box.addView(label("你的答案：" + (char) ('A' + selected[i]) + "  ·  正确答案："
                     + (char) ('A' + answer), 14, INK, false));
@@ -920,8 +1048,110 @@ public class MainActivity extends Activity {
         return best;
     }
 
+    private String diagnoseError(JSONObject question, int selected) {
+        JSONArray errorTypes = question.optJSONArray("optionErrorTypes");
+        String tagged = errorTypes == null ? "" : errorTypes.optString(selected).trim();
+        if (!tagged.isEmpty() && !"正确".equals(tagged)) return tagged;
+        String type = question.optString("type").toLowerCase(Locale.ROOT);
+        if (type.contains("细节") || type.contains("detail")) return "没有定位证据句";
+        if (type.contains("推理") || type.contains("infer")) return "推理过度";
+        if (type.contains("主旨") || type.contains("main")) return "把局部信息当成主旨";
+        if (type.contains("词义") || type.contains("word")) return "单词或语境理解错误";
+        if (type.contains("态度") || type.contains("attitude")) return "作者态度判断错误";
+        if (type.contains("结构") || type.contains("structure")) return "篇章结构理解错误";
+        return "没有用原文证据排除选项";
+    }
+
+    private void recordStudyAnalytics(JSONObject article, int[] selected) {
+        String today = LocalDate.now().format(DATE_FORMAT);
+        String guard = "analyticsRecorded:" + article.optString("id") + ":" + today;
+        if (prefs.getBoolean(guard, false)) return;
+        JSONArray questions = article.optJSONArray("questions");
+        if (questions == null) return;
+        int correct = 0;
+        ArrayList<String> errors = new ArrayList<>();
+        for (int i = 0; i < selected.length; i++) {
+            JSONObject question = questions.optJSONObject(i);
+            if (question == null) continue;
+            if (selected[i] == question.optInt("answer")) correct++;
+            else errors.add(diagnoseError(question, selected[i]));
+        }
+        String week = weekKey();
+        long readingSeconds = activeReadingSeconds > 0 ? activeReadingSeconds : Math.max(1,
+                (System.currentTimeMillis() - readingStartedAt) / 1000L);
+        SharedPreferences.Editor editor = prefs.edit()
+                .putBoolean(guard, true)
+                .putInt(week + ":articles", prefs.getInt(week + ":articles", 0) + 1)
+                .putInt(week + ":words", prefs.getInt(week + ":words", 0)
+                        + article.optInt("wordCount"))
+                .putInt(week + ":questions", prefs.getInt(week + ":questions", 0)
+                        + selected.length)
+                .putInt(week + ":correct", prefs.getInt(week + ":correct", 0) + correct)
+                .putInt(week + ":clicks", prefs.getInt(week + ":clicks", 0)
+                        + activeArticleClicks)
+                .putLong(week + ":seconds", prefs.getLong(week + ":seconds", 0L)
+                        + readingSeconds);
+        for (String error : errors) {
+            String key = week + ":error:" + error;
+            editor.putInt(key, prefs.getInt(key, 0) + 1);
+        }
+        editor.apply();
+    }
+
+    private String weekKey() {
+        WeekFields fields = WeekFields.ISO;
+        LocalDate today = LocalDate.now();
+        return "week:" + today.get(fields.weekBasedYear()) + "-"
+                + String.format(Locale.US, "%02d", today.get(fields.weekOfWeekBasedYear()));
+    }
+
+    private String topWeeklyWeakness(String week) {
+        if (prefs.getInt(week + ":questions", 0) < 10) return "";
+        String prefix = week + ":error:";
+        String best = "";
+        int highest = 0;
+        for (Map.Entry<String, ?> entry : prefs.getAll().entrySet()) {
+            if (!entry.getKey().startsWith(prefix) || !(entry.getValue() instanceof Integer)) continue;
+            int count = (Integer) entry.getValue();
+            if (count > highest) {
+                highest = count;
+                best = entry.getKey().substring(prefix.length());
+            }
+        }
+        return best;
+    }
+
+    private String trainingAdvice(String weakness) {
+        if (weakness.contains("证据") || weakness.contains("定位")) {
+            return "细节题先在原文找到证据句，再看选项。";
+        }
+        if (weakness.contains("推理")) return "推理题只选原文能支持的结论，不凭常识扩展。";
+        if (weakness.contains("主旨")) return "概括每段共同指向，不用一个细节代替全文。";
+        if (weakness.contains("单词") || weakness.contains("语境")) {
+            return "猜词时先看上下句逻辑，再根据词性缩小含义。";
+        }
+        if (weakness.contains("态度")) return "圈出表示评价的形容词和转折词，判断作者立场。";
+        return "每道错题必须指出一句原文证据，再说明错项错在哪里。";
+    }
+
+    private int remainingDailyReviews() {
+        String today = LocalDate.now().format(DATE_FORMAT);
+        int completed = today.equals(prefs.getString("reviewDate", ""))
+                ? prefs.getInt("reviewCountToday", 0) : 0;
+        return Math.max(0, 12 - completed);
+    }
+
+    private void recordReviewToday() {
+        String today = LocalDate.now().format(DATE_FORMAT);
+        int completed = today.equals(prefs.getString("reviewDate", ""))
+                ? prefs.getInt("reviewCountToday", 0) : 0;
+        prefs.edit().putString("reviewDate", today)
+                .putInt("reviewCountToday", completed + 1).apply();
+    }
+
     private void markTodayComplete(JSONObject article, int[] selected) {
         updateAdaptiveLevel(article, selected);
+        recordStudyAnalytics(article, selected);
         String today = LocalDate.now().format(DATE_FORMAT);
         Set<String> dates = new HashSet<>(prefs.getStringSet("completedDates", new HashSet<>()));
         Set<String> ids = new HashSet<>(prefs.getStringSet("completedIds", new HashSet<>()));
@@ -941,9 +1171,11 @@ public class MainActivity extends Activity {
                     .putInt("totalArticles", prefs.getInt("totalArticles", 0) + 1)
                     .putInt("totalWords", prefs.getInt("totalWords", 0)
                             + article.optInt("wordCount", 0))
+                    .putString("lastArticleSource", article.optString("source"))
                     .apply();
         } else {
-            prefs.edit().putStringSet("completedIds", ids).apply();
+            prefs.edit().putStringSet("completedIds", ids)
+                    .putString("lastArticleSource", article.optString("source")).apply();
         }
         maybeRequestContentRefill();
     }
@@ -959,7 +1191,8 @@ public class MainActivity extends Activity {
         float accuracy = correct / (float) selected.length;
         float clicksPerHundred = activeArticleClicks * 100f
                 / Math.max(1, article.optInt("wordCount", 1));
-        long seconds = Math.max(1, (System.currentTimeMillis() - readingStartedAt) / 1000L);
+        long seconds = activeReadingSeconds > 0 ? activeReadingSeconds : Math.max(1,
+                (System.currentTimeMillis() - readingStartedAt) / 1000L);
         float score = prefs.getFloat("abilityScore", 1f);
         if (accuracy >= 0.8f && clicksPerHundred <= 10f) score += 0.25f;
         else if (accuracy < 0.6f || clicksPerHundred > 16f) score -= 0.25f;
