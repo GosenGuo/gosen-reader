@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T15:54:58.911Z",
+  "generatedAt": "2026-08-03T16:08:26.331Z",
   "words": {
     "on": {
       "lemma": "on",
@@ -8,18 +8,6 @@
       "forms": "无常见变形",
       "meanings": "在……之上；在……时；继续；关于",
       "senses": [
-        {
-          "translation": "专注于",
-          "pos": "prep.",
-          "example": "And they can focus their attention on academics rather than style.",
-          "sourceArticleId": "web-489568c736b8b700"
-        },
-        {
-          "translation": "在……日期",
-          "pos": "prep.",
-          "example": "And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6.",
-          "sourceArticleId": "web-f2b1ff9fd84cfda6"
-        },
         {
           "translation": "继续",
           "pos": "adv.",
@@ -79,6 +67,18 @@
           "pos": "prep.",
           "example": "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "在……之上",
+          "pos": "prep.",
+          "example": "There are plenty of \"energy drinks\" on the market.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "关于；有关",
+          "pos": "prep.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -107,10 +107,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 26,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 27,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "web": {
       "lemma": "web",
@@ -232,36 +233,6 @@
         {
           "translation": "（特指）狮子",
           "pos": "art.",
-          "example": "He begins to notice that the people are paying more attention to the lion in the cage next to his.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "（特指）观众",
-          "pos": "art.",
-          "example": "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "（特指）狮子",
-          "pos": "art.",
-          "example": "Of course,this makes the lion very angry,but the crowd loves it.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "（特指）饲养员",
-          "pos": "art.",
-          "example": "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "（特指）哑剧演员",
-          "pos": "art.",
-          "example": "Well,this goes on for some time-the mimic keeps taunting the lion,the crowds grow larger,and his salary keeps going up.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "（特指）狮子",
-          "pos": "art.",
           "example": "Then one terrible day when he is dangling over the angry lion he slips and falls.",
           "sourceArticleId": "web-a524105e021f666c"
         },
@@ -300,6 +271,36 @@
           "pos": "art.",
           "example": "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "（特指天气）",
+          "pos": "art.",
+          "example": "The weather is getting hotter.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "（特指某事物）",
+          "pos": "art.",
+          "example": "A cold drink may be just the thing.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "（特指市场）",
+          "pos": "art.",
+          "example": "There are plenty of \"energy drinks\" on the market.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "（特指配料表）",
+          "pos": "art.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "（特指奥委会）",
+          "pos": "art.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -332,10 +333,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 30,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 31,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "internet": {
       "lemma": "internet",
@@ -428,12 +430,6 @@
         {
           "translation": "人们",
           "pos": "n.",
-          "example": "Last night's meteor   shower left many people in the community dissatisfied and demanding answers.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "人们",
-          "pos": "n.",
           "example": "According to Gabe Rothschild, Emerald Valley's mayor, people gathered in the suburbs of the city, carrying heavy telescopes, expecting to watch the brightly burning meteors passing through the sky.",
           "sourceArticleId": "web-59b629f92c1e91fb"
         },
@@ -496,6 +492,12 @@
           "pos": "n.",
           "example": "He begins to notice that the people are paying more attention to the lion in the cage next to his.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "人们",
+          "pos": "n.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -511,10 +513,11 @@
         "web-0ada4954aa4da897",
         "web-7504f64bec4e74a7",
         "web-4a99bc1fb2af7921",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "can": {
       "lemma": "can",
@@ -522,18 +525,6 @@
       "forms": "could",
       "meanings": "能够；可以；可能；罐头",
       "senses": [
-        {
-          "translation": "能够",
-          "pos": "modal verb",
-          "example": "Once your site is up and running, you can begin advertising the site.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal verb",
-          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
         {
           "translation": "能够",
           "pos": "modal verb",
@@ -593,6 +584,18 @@
           "pos": "modal verb",
           "example": "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal verb",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal verb",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -614,10 +617,11 @@
         "web-ee55c880f34e43f4",
         "web-489568c736b8b700",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 19,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 20,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "access": {
       "lemma": "access",
@@ -651,30 +655,6 @@
       "forms": "an",
       "meanings": "一个；每一；任何；一种；同一",
       "senses": [
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "Bond jumps down from a roof to a windowsill and then runs several blocks over _ on the way.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "As its participants dash around a city, they may jump over fences, run up walls and even move from rooftop to rooftop.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "A park-our lover said, \"I love park-our, because its philosophy has become my life, my way to do everything.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "一种",
-          "pos": "art.",
-          "example": "It is a kind of expression of trust in yourself so that you earn energy and confidence.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
         {
           "translation": "一个",
           "pos": "art.",
@@ -722,6 +702,30 @@
           "pos": "art.",
           "example": "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "A cold drink may be just the thing.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "一次",
+          "pos": "art.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "一种",
+          "pos": "art.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -754,10 +758,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 30,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 31,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "variety": {
       "lemma": "variety",
@@ -792,48 +797,6 @@
       "meanings": "……的；属于；关于；由……组成；（表示数量）",
       "senses": [
         {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Park-our now enjoys the devotion of many die-hard fans across the world and has been the source for much inspiration.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "It is the art of using only your body to navigate from Point A to B in the least time possible, which involves besides leaping, climbing and sprinting, various unusual and complex movements to overcome barriers.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "因为",
-          "pos": "prep.",
-          "example": "It is just because of Bond's wonderful performances that the sport has become popular worldwide.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Yes, that's pork-our, an extreme street sport aimed at moving from one point to another as quickly as possible, getting over all the obstacles in the path using only the abilities of the human body.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "To overcome all the obstacles on the course and in life is part of the philosophy behind park-our.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "It is a kind of expression of trust in yourself so that you earn energy and confidence.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
           "translation": "（嘲笑）……",
           "pos": "prep.",
           "example": "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.",
@@ -862,6 +825,48 @@
           "pos": "prep.",
           "example": "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "There are plenty of \"energy drinks\" on the market.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Most of them have beautiful colors and cool names.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -894,10 +899,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 30,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 31,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "information": {
       "lemma": "information",
@@ -1078,42 +1084,6 @@
         {
           "translation": "你",
           "pos": "pron.",
-          "example": "Once your site is up and running, you can begin advertising the site.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "You need to create contents , such as articles, social networking sites, blog entries, etc.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "Very soon you will be making money online.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
           "example": "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.",
           "sourceArticleId": "web-489568c736b8b700"
         },
@@ -1146,6 +1116,42 @@
           "pos": "pron.",
           "example": "Do you want to get us both fired?",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "You are thirsty playing basketball or riding home from school.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "But be careful what you are drinking.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -1163,10 +1169,11 @@
         "web-489568c736b8b700",
         "web-2003500b566de45c",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 15,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 16,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "it's": {
       "lemma": "it is",
@@ -1223,24 +1230,6 @@
         {
           "translation": "在……之内",
           "pos": "prep.",
-          "example": "The state police responding to her 911 call said the family was only minutes from death, judging by the amount of poisonous gas in the house.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "在……方面",
-          "pos": "prep.",
-          "example": "\"Normally I peel them, but I read in Good Housekeeping Magazine that the skin has all the nutrients, so I ate the skin, and that's what caused me to choke,\" she recalled.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "处于（某种状态）",
-          "pos": "prep.",
-          "example": "\"I couldn't breathe and I was in panic when Toby jumped on me.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "在……之内",
-          "pos": "prep.",
           "example": "It is the art of using only your body to navigate from Point A to B in the least time possible, which involves besides leaping, climbing and sprinting, various unusual and complex movements to overcome barriers.",
           "sourceArticleId": "web-20d7ec6e8708c103"
         },
@@ -1291,6 +1280,24 @@
           "pos": "prep.",
           "example": "He begins to notice that the people are paying more attention to the lion in the cage next to his.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "在……之中",
+          "pos": "prep.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -1322,10 +1329,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 29,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 30,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "your": {
       "lemma": "your",
@@ -1333,24 +1341,6 @@
       "forms": "yours",
       "meanings": "你的；你们的",
       "senses": [
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Computers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
         {
           "translation": "你的",
           "pos": "pron.",
@@ -1404,6 +1394,24 @@
           "pos": "pron.",
           "example": "You must determine your destination, go straight, jump over all the barriers as if in park-our and never fall back from them in your life to reach the destination successfully.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Something that looks cool may not be good for your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Caffeine makes your heart beat fast.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -1415,10 +1423,11 @@
         "web-f335b4849447798b",
         "web-7504f64bec4e74a7",
         "web-ee55c880f34e43f4",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "interest": {
       "lemma": "interest",
@@ -1455,28 +1464,10 @@
     },
     "to": {
       "lemma": "to",
-      "pos": "particle",
+      "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "用于构成不定式；向；给；到；对于",
+      "meanings": "对于；用于构成不定式；向；给；到",
       "senses": [
-        {
-          "translation": "用于构成不定式",
-          "pos": "particle",
-          "example": "To overcome all the obstacles on the course and in life is part of the philosophy behind park-our.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "用于构成不定式",
-          "pos": "particle",
-          "example": "You must determine your destination, go straight, jump over all the barriers as if in park-our and never fall back from them in your life to reach the destination successfully.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "（方式）作为",
-          "pos": "prep.",
-          "example": "A park-our lover said, \"I love park-our, because its philosophy has become my life, my way to do everything.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
         {
           "translation": "用于构成不定式",
           "pos": "particle",
@@ -1530,6 +1521,24 @@
           "pos": "particle",
           "example": "Do you want to get us both fired?",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "对于",
+          "pos": "prep.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "用于构成不定式",
+          "pos": "particle",
+          "example": "But be careful not to drink too much.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "与...有关",
+          "pos": "prep.",
+          "example": "Possible health dangers have something to do with energy drinks.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -1562,10 +1571,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 30,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 31,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "be": {
       "lemma": "be",
@@ -1573,36 +1583,6 @@
       "forms": "am, is, are, was, were, being, been",
       "meanings": "是；位于；成为；（构成进行时或被动语态）",
       "senses": [
-        {
-          "translation": "成为",
-          "pos": "v.",
-          "example": "The site itself doesn't have to be anything special.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "进行（构成进行时）",
-          "pos": "v.",
-          "example": "Very soon you will be making money online.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "被（构成被动语态）",
-          "pos": "v.",
-          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "位于",
-          "pos": "v.",
-          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -1644,6 +1624,36 @@
           "pos": "v.",
           "example": "It can be done by anyone, at any time, anywhere in the world.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "A cold drink may be just the thing.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "But be careful what you are drinking.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Something that looks cool may not be good for your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "But be careful not to drink too much.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "被（构成被动语态）",
+          "pos": "v.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -1668,10 +1678,11 @@
         "web-489568c736b8b700",
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 22,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 23,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "aware": {
       "lemma": "aware",
@@ -1826,30 +1837,6 @@
       "meanings": "和；而且；然后；接着",
       "senses": [
         {
-          "translation": "然后",
-          "pos": "conj.",
-          "example": "So the next morning the mimic puts on the gorilla suit and enters the cage before the crowd comes.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "However,eventually the crowds tire of him and he tires of just swinging on wires.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "以及",
-          "pos": "conj.",
-          "example": "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
           "translation": "和",
           "pos": "conj.",
           "example": "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.",
@@ -1896,6 +1883,30 @@
           "pos": "conj.",
           "example": "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Most of them have beautiful colors and cool names.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "以及；和",
+          "pos": "conj.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "并且",
+          "pos": "conj.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "并且；然后",
+          "pos": "conj.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -1928,10 +1939,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 30,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 31,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "take": {
       "lemma": "take",
@@ -2039,18 +2051,6 @@
       "meanings": "使；制作；制造；构成；制定",
       "senses": [
         {
-          "translation": "制定（做）",
-          "pos": "v.",
-          "example": "The state has had to make severe cuts in school spending because of deep financial problems.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "构成",
-          "pos": "v.",
-          "example": "Could it be the pattern that two things make, as opposed to three?",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
           "translation": "使（某事成为...）",
           "pos": "v.",
           "example": "\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.",
@@ -2109,6 +2109,18 @@
           "pos": "v.",
           "example": "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "使",
+          "pos": "v.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "使",
+          "pos": "v.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -2121,10 +2133,11 @@
         "web-ee55c880f34e43f4",
         "web-f2b1ff9fd84cfda6",
         "web-2003500b566de45c",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "it": {
       "lemma": "it",
@@ -2239,12 +2252,6 @@
       "meanings": "什么；……的事物；多么；究竟是什么",
       "senses": [
         {
-          "translation": "……的事物",
-          "pos": "pron.",
-          "example": "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
           "translation": "如果……会怎么样",
           "pos": "pron.",
           "example": "What if my mother had sat on the sidelines with her statistics, like Jeremy Lin's mother?",
@@ -2309,6 +2316,12 @@
           "pos": "pron.",
           "example": "But what is park-our?",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "……的事物",
+          "pos": "pron.",
+          "example": "But be careful what you are drinking.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -2327,10 +2340,11 @@
         "web-489568c736b8b700",
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 16,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 17,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "want": {
       "lemma": "want",
@@ -2554,18 +2568,6 @@
         {
           "translation": "或者",
           "pos": "conj.",
-          "example": "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "Not that he ever spoke to them or played with them.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
           "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
           "sourceArticleId": "web-14515232ae2b45c0"
         },
@@ -2622,6 +2624,18 @@
           "pos": "conj.",
           "example": "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.",
           "sourceArticleId": "web-489568c736b8b700"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "You are thirsty playing basketball or riding home from school.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -2638,10 +2652,11 @@
         "web-14515232ae2b45c0",
         "web-7504f64bec4e74a7",
         "web-ee55c880f34e43f4",
-        "web-489568c736b8b700"
+        "web-489568c736b8b700",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T14:55:34.402Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "improving": {
       "lemma": "improve",
@@ -2668,18 +2683,6 @@
       "forms": "am, are, was, were, being, been",
       "meanings": "是；存在；等于；位于",
       "senses": [
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "It is the art of using only your body to navigate from Point A to B in the least time possible, which involves besides leaping, climbing and sprinting, various unusual and complex movements to overcome barriers.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "It is just because of Bond's wonderful performances that the sport has become popular worldwide.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
         {
           "translation": "被（构成被动语态）",
           "pos": "v.",
@@ -2739,6 +2742,18 @@
           "pos": "v.",
           "example": "\"But the lion is quick and attacks.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "是（连系动词）",
+          "pos": "v.",
+          "example": "The weather is getting hotter.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "是（连系动词）",
+          "pos": "v.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -2765,16 +2780,17 @@
         "web-489568c736b8b700",
         "web-f2b1ff9fd84cfda6",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 24,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 25,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "find": {
       "lemma": "find",
       "pos": "v.",
       "forms": "found, finding, finds",
-      "meanings": "找到；发现；认为；发觉",
+      "meanings": "发现；找到；认为；发觉",
       "senses": [
         {
           "translation": "找到",
@@ -2823,6 +2839,12 @@
           "pos": "v.",
           "example": "Here you can find sofas and armchairs for group work.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "发现",
+          "pos": "v.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -2831,10 +2853,11 @@
         "web-2e315a8a858c375d",
         "web-52737a111ab04db4",
         "web-f328bfb9843d2dfa",
-        "web-f335b4849447798b"
+        "web-f335b4849447798b",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "out": {
       "lemma": "out",
@@ -3113,6 +3136,12 @@
           "pos": "det.",
           "example": "Their own doctor, who she had finally gone to for advice, had sent her to an expert who knew all about these things.",
           "sourceArticleId": "web-2003500b566de45c"
+        },
+        {
+          "translation": "这些",
+          "pos": "det.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -3121,10 +3150,11 @@
         "web-a41ebe4e54718747",
         "web-83aed36829bb66d0",
         "web-0ada4954aa4da897",
-        "web-2003500b566de45c"
+        "web-2003500b566de45c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T15:09:35.302Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "tips": {
       "lemma": "tip",
@@ -4004,36 +4034,6 @@
       "meanings": "是；有；在；位于；成为",
       "senses": [
         {
-          "translation": "是",
-          "pos": "v.",
-          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "被",
-          "pos": "v.",
-          "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
           "translation": "有",
           "pos": "v.",
           "example": "There are quite a few advantages of wearing school uniforms.",
@@ -4074,6 +4074,36 @@
           "pos": "v.",
           "example": "He begins to notice that the people are paying more attention to the lion in the cage next to his.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "是（系动词）",
+          "pos": "v.",
+          "example": "You are thirsty playing basketball or riding home from school.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "正在（进行时助动词）",
+          "pos": "v.",
+          "example": "But be careful what you are drinking.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "有（存在）",
+          "pos": "v.",
+          "example": "There are plenty of \"energy drinks\" on the market.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "是（系动词）",
+          "pos": "v.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "是（系动词）",
+          "pos": "v.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -4091,10 +4121,11 @@
         "web-4a99bc1fb2af7921",
         "web-ee55c880f34e43f4",
         "web-489568c736b8b700",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 15,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 16,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "mentioned": {
       "lemma": "mention",
@@ -4716,30 +4747,6 @@
       "meanings": "引导从句；那个；那；如此",
       "senses": [
         {
-          "translation": "那个",
-          "pos": "pron.",
-          "example": "That was the arrangement, and John didn't care much for it.",
-          "sourceArticleId": "web-2003500b566de45c"
-        },
-        {
-          "translation": "引导结果状语从句",
-          "pos": "conj.",
-          "example": "Both pets were rescued by their owners in _ -----Toby as a 4-week-old thrown into a garbage bin to die, and Winnie as a week-old orphan hiding under a barn, so helpless that Cathy's husband, Eric, had to feed her milk with an eyedropper.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "引导宾语从句",
-          "pos": "conj.",
-          "example": "\"Normally I peel them, but I read in Good Housekeeping Magazine that the skin has all the nutrients, so I ate the skin, and that's what caused me to choke,\" she recalled.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "那件事",
-          "pos": "pron.",
-          "example": "He never does that, but he did, and saved my life.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
           "translation": "引导从句",
           "pos": "conj.",
           "example": "It is just because of Bond's wonderful performances that the sport has become popular worldwide.",
@@ -4786,6 +4793,30 @@
           "pos": "conj.",
           "example": "The mimic is so scared that he begins to run round and round the cage with the lion close behind.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "pron.",
+          "example": "Something that looks cool may not be good for your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "那（指代事物）",
+          "pos": "pron.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -4814,10 +4845,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 26,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 27,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "engine": {
       "lemma": "engine",
@@ -4866,16 +4898,10 @@
     },
     "as": {
       "lemma": "as",
-      "pos": "prep.",
+      "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "作为；像……一样；当……时；因为；正如",
+      "meanings": "像……一样；作为；当……时；因为；正如",
       "senses": [
-        {
-          "translation": "作为",
-          "pos": "prep.",
-          "example": "Both pets were rescued by their owners in _ -----Toby as a 4-week-old thrown into a garbage bin to die, and Winnie as a week-old orphan hiding under a barn, so helpless that Cathy's husband, Eric, had to feed her milk with an eyedropper.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
         {
           "translation": "当……时",
           "pos": "conj.",
@@ -4941,6 +4967,12 @@
           "pos": "prep.",
           "example": "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "像……一样",
+          "pos": "adv.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -4964,10 +4996,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 21,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 22,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "phrase": {
       "lemma": "phrase",
@@ -4994,18 +5027,6 @@
       "forms": "无常见变形",
       "meanings": "不；没；不是；绝非",
       "senses": [
-        {
-          "translation": "不",
-          "pos": "adv.",
-          "example": "Maggie was very glad that James was not a frequent visitor to the house.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "并非（Not that...）",
-          "pos": "adv.",
-          "example": "Not that he ever spoke to them or played with them.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
         {
           "translation": "不能",
           "pos": "adv.",
@@ -5065,6 +5086,18 @@
           "pos": "adv.",
           "example": "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "Something that looks cool may not be good for your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "But be careful not to drink too much.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -5087,10 +5120,11 @@
         "web-7504f64bec4e74a7",
         "web-489568c736b8b700",
         "web-f2b1ff9fd84cfda6",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 20,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 21,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "two": {
       "lemma": "two",
@@ -5403,18 +5437,6 @@
         {
           "translation": "仅仅",
           "pos": "adv.",
-          "example": "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "仅仅",
-          "pos": "adv.",
-          "example": "The baby is just one day old and has not yet left hospital.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "仅仅",
-          "pos": "adv.",
           "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
           "sourceArticleId": "web-a0a23c816fc997da"
         },
@@ -5471,6 +5493,18 @@
           "pos": "adv.",
           "example": "However,eventually the crowds tire of him and he tires of just swinging on wires.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "恰好",
+          "pos": "adv.",
+          "example": "A cold drink may be just the thing.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "仅仅",
+          "pos": "adv.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -5485,10 +5519,11 @@
         "web-14515232ae2b45c0",
         "web-2003500b566de45c",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 12,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 13,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "happen": {
       "lemma": "happen",
@@ -5656,8 +5691,8 @@
     },
     "names": {
       "lemma": "name",
-      "pos": "noun",
-      "forms": "names",
+      "pos": "n.",
+      "forms": "names, named, naming",
       "meanings": "名字；名称；名声；给……取名",
       "senses": [
         {
@@ -5665,13 +5700,20 @@
           "pos": "noun",
           "example": "Example:\n\"Robin Counts\"\n   Search all of your names.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "名称",
+          "pos": "n.",
+          "example": "Most of them have beautiful colors and cool names.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "if": {
       "lemma": "if",
@@ -5775,30 +5817,6 @@
       "meanings": "有；经历；吃；（完成时态助动词）",
       "senses": [
         {
-          "translation": "拥有/持有",
-          "pos": "v.",
-          "example": "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "遭受（某种困难）",
-          "pos": "v.",
-          "example": "But seriously, who in their right mind says thanks for the financial problems I have?",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "拥有",
-          "pos": "v.",
-          "example": "The very first step you need to complete is to have a product or service idea.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "拥有",
-          "pos": "v.",
-          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
           "translation": "有",
           "pos": "v.",
           "example": "The site itself doesn't have to be anything special.",
@@ -5845,6 +5863,30 @@
           "pos": "v.",
           "example": "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.",
           "sourceArticleId": "web-2003500b566de45c"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "Most of them have beautiful colors and cool names.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "含有",
+          "pos": "v.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "Possible health dangers have something to do with energy drinks.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "经历；遭受",
+          "pos": "v.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -5867,10 +5909,11 @@
         "web-4a99bc1fb2af7921",
         "web-ee55c880f34e43f4",
         "web-f2b1ff9fd84cfda6",
-        "web-2003500b566de45c"
+        "web-2003500b566de45c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 20,
-      "updatedAt": "2026-08-03T15:09:35.302Z"
+      "articleCount": 21,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "ever": {
       "lemma": "ever",
@@ -6055,14 +6098,8 @@
       "lemma": "use",
       "pos": "n.",
       "forms": "uses, used, using",
-      "meanings": "使用；利用；消耗；习惯于",
+      "meanings": "使用；利用；消耗；用途；习惯于",
       "senses": [
-        {
-          "translation": "使用",
-          "pos": "v.",
-          "example": "Mixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
         {
           "translation": "使用",
           "pos": "v.",
@@ -6128,6 +6165,12 @@
           "pos": "n.",
           "example": "\"\nCountless more animal casualties   result from the use of artificial lighting.",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "使用",
+          "pos": "n.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -6139,10 +6182,11 @@
         "web-09421cfd6a2c44ad",
         "web-83aed36829bb66d0",
         "web-f335b4849447798b",
-        "web-59b629f92c1e91fb"
+        "web-59b629f92c1e91fb",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "middle": {
       "lemma": "middle",
@@ -7322,12 +7366,6 @@
       "senses": [
         {
           "translation": "因为",
-          "pos": "prep.",
-          "example": "It is famous for being a symbol, not only of a city, but a whole country and condition too.",
-          "sourceArticleId": "web-f2b1ff9fd84cfda6"
-        },
-        {
-          "translation": "因为",
           "pos": "conj.",
           "example": "But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .",
           "sourceArticleId": "web-f2b1ff9fd84cfda6"
@@ -7391,6 +7429,12 @@
           "pos": "prep.",
           "example": "Well,this goes on for some time-the mimic keeps taunting the lion,the crowds grow larger,and his salary keeps going up.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "对……而言",
+          "pos": "prep.",
+          "example": "Something that looks cool may not be good for your health.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -7421,10 +7465,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 28,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 29,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "city": {
       "lemma": "city",
@@ -8096,22 +8141,29 @@
     },
     "check": {
       "lemma": "check",
-      "pos": "v.",
-      "forms": "checks; checked; checking",
-      "meanings": "查看；核对；检查；抑制",
+      "pos": "n.",
+      "forms": "checks",
+      "meanings": "检查；查看；核对；抑制",
       "senses": [
         {
           "translation": "查看",
           "pos": "v.",
           "example": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "检查",
+          "pos": "n.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-07-30T09:01:30.209Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "them": {
       "lemma": "they",
@@ -8119,30 +8171,6 @@
       "forms": "they, their, theirs, themselves",
       "meanings": "它们；他们；她们",
       "senses": [
-        {
-          "translation": "她们",
-          "pos": "pron.",
-          "example": "The list of women from 26 countries, there are 153000000 of them in Twitter \"fans\", 16 of them own Create Company.",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
-          "translation": "他们",
-          "pos": "pron.",
-          "example": "How I can't stand them.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "他们",
-          "pos": "pron.",
-          "example": "Not that he ever spoke to them or played with them.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "他们",
-          "pos": "pron.",
-          "example": "He took no notice of them, as if he was unable to see children, at least until the time came for him to go.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
         {
           "translation": "他们",
           "pos": "pron.",
@@ -8190,6 +8218,30 @@
           "pos": "pron.",
           "example": "You must determine your destination, go straight, jump over all the barriers as if in park-our and never fall back from them in your life to reach the destination successfully.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "它们（指代饮料）",
+          "pos": "pron.",
+          "example": "Most of them have beautiful colors and cool names.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "它们（指代饮料）",
+          "pos": "pron.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "它们（指代饮料）",
+          "pos": "pron.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "它们（指代饮料）",
+          "pos": "pron.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -8206,10 +8258,11 @@
         "web-ee55c880f34e43f4",
         "web-489568c736b8b700",
         "web-c07f29846f6c48f3",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "from": {
       "lemma": "from",
@@ -8217,18 +8270,6 @@
       "forms": "无常见变形",
       "meanings": "从；离；来自；因为；起始",
       "senses": [
-        {
-          "translation": "来自",
-          "pos": "prep.",
-          "example": "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.",
-          "sourceArticleId": "web-489568c736b8b700"
-        },
-        {
-          "translation": "与……不同",
-          "pos": "prep.",
-          "example": "The interiors were different from his design.",
-          "sourceArticleId": "web-f2b1ff9fd84cfda6"
-        },
         {
           "translation": "除了（某事物）之外",
           "pos": "prep.",
@@ -8288,6 +8329,18 @@
           "pos": "prep.",
           "example": "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "从",
+          "pos": "prep.",
+          "example": "You are thirsty playing basketball or riding home from school.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "远离；避免",
+          "pos": "prep.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -8313,10 +8366,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 23,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 24,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "time": {
       "lemma": "time",
@@ -8423,14 +8477,8 @@
       "lemma": "they",
       "pos": "pron.",
       "forms": "their, theirs, them, themselves",
-      "meanings": "他们；她们；它们；人；大家",
+      "meanings": "它们；他们；她们；人；大家",
       "senses": [
-        {
-          "translation": "他们",
-          "pos": "pron.",
-          "example": "How can they be so blind?",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
         {
           "translation": "他们",
           "pos": "pron.",
@@ -8496,6 +8544,12 @@
           "pos": "pron.",
           "example": "He offers the mimic a job to dress up as the gorilla until they can get another one.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "它们",
+          "pos": "pron.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -8518,10 +8572,11 @@
         "web-489568c736b8b700",
         "web-2003500b566de45c",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 20,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 21,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "writing": {
       "lemma": "write",
@@ -9354,24 +9409,6 @@
       "meanings": "在（某时间/地点）；以（某种程度）；向；针对",
       "senses": [
         {
-          "translation": "在（起初）",
-          "pos": "prep.",
-          "example": "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.",
-          "sourceArticleId": "web-489568c736b8b700"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.",
-          "sourceArticleId": "web-f2b1ff9fd84cfda6"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "He was going to stay with his Aunt Daisy till she came back, and his father would stay on at home by himself.",
-          "sourceArticleId": "web-2003500b566de45c"
-        },
-        {
           "translation": "在",
           "pos": "prep.",
           "example": "As Amy Paul choked  on a piece of apple at her home, her dog jumped up, landing hard on her chest and forcing the piece in her throat out.",
@@ -9424,6 +9461,24 @@
           "pos": "prep.",
           "example": "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "针对",
+          "pos": "prep.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "以（某种程度）",
+          "pos": "prep.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "在（某种程度/数值）",
+          "pos": "prep.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -9450,10 +9505,11 @@
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 24,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 25,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "young": {
       "lemma": "young",
@@ -9478,15 +9534,22 @@
           "pos": "adj.",
           "example": "It gives students the opportunity to learn how to dress like young ladies and gentleman.",
           "sourceArticleId": "web-489568c736b8b700"
+        },
+        {
+          "translation": "年轻的",
+          "pos": "adj.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-cda4f9a292f21a6c",
         "web-6889075584252ffd",
-        "web-489568c736b8b700"
+        "web-489568c736b8b700",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T14:55:34.402Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "age": {
       "lemma": "age",
@@ -9881,18 +9944,6 @@
       "meanings": "与……一起；使用；带有；由于；关于",
       "senses": [
         {
-          "translation": "和……一起",
-          "pos": "prep.",
-          "example": "James never brought his third wife with him nor ever mentioned her.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "与……（互动）",
-          "pos": "prep.",
-          "example": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
           "translation": "带有",
           "pos": "prep.",
           "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
@@ -9951,6 +10002,18 @@
           "pos": "prep.",
           "example": "The mimic is so scared that he begins to run round and round the cage with the lion close behind.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "关于",
+          "pos": "prep.",
+          "example": "Possible health dangers have something to do with energy drinks.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "带有",
+          "pos": "prep.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -9978,10 +10041,11 @@
         "web-f2b1ff9fd84cfda6",
         "web-2003500b566de45c",
         "web-c07f29846f6c48f3",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 25,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 26,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "this": {
       "lemma": "this",
@@ -9989,12 +10053,6 @@
       "forms": "these",
       "meanings": "这；这个；这种情况；此",
       "senses": [
-        {
-          "translation": "这",
-          "pos": "pron.",
-          "example": "This was not supposed to happen.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
         {
           "translation": "这",
           "pos": "pron.",
@@ -10060,6 +10118,12 @@
           "pos": "pron.",
           "example": "Well,this goes on for some time-the mimic keeps taunting the lion,the crowds grow larger,and his salary keeps going up.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "这",
+          "pos": "pron.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -10080,10 +10144,11 @@
         "web-4a99bc1fb2af7921",
         "web-ee55c880f34e43f4",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 18,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 19,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "mindset": {
       "lemma": "mindset",
@@ -10922,6 +10987,12 @@
           "pos": "adv.",
           "example": "It is famous for being a symbol, not only of a city, but a whole country and condition too.",
           "sourceArticleId": "web-f2b1ff9fd84cfda6"
+        },
+        {
+          "translation": "太",
+          "pos": "adv.",
+          "example": "But be careful not to drink too much.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -10931,10 +11002,11 @@
         "web-f328bfb9843d2dfa",
         "web-59b629f92c1e91fb",
         "web-0ada4954aa4da897",
-        "web-f2b1ff9fd84cfda6"
+        "web-f2b1ff9fd84cfda6",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-03T15:02:38.322Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "ten": {
       "lemma": "ten",
@@ -11139,12 +11211,6 @@
       "meanings": "已经；有；经历；吃；使",
       "senses": [
         {
-          "translation": "有",
-          "pos": "v.",
-          "example": "Not everyone has a computer or electronic reader.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
           "translation": "已经",
           "pos": "v.",
           "example": "The baby is just one day old and has not yet left hospital.",
@@ -11209,6 +11275,12 @@
           "pos": "aux.",
           "example": "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "已经",
+          "pos": "aux.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -11224,10 +11296,11 @@
         "web-f2b1ff9fd84cfda6",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "revitalized": {
       "lemma": "revitalize",
@@ -11420,12 +11493,6 @@
         {
           "translation": "学校",
           "pos": "n.",
-          "example": "When Bob was in his glory days, our Shanghainese-born parents were bent on getting him into medical school.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "学校",
-          "pos": "n.",
           "example": "I didn't get an interview to medical school, thus will not be entering school for September 2009.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
         },
@@ -11488,6 +11555,12 @@
           "pos": "n.",
           "example": "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.",
           "sourceArticleId": "web-489568c736b8b700"
+        },
+        {
+          "translation": "学校",
+          "pos": "n.",
+          "example": "You are thirsty playing basketball or riding home from school.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -11499,10 +11572,11 @@
         "web-0ada4954aa4da897",
         "web-b08fa6a6e65a8840",
         "web-4a99bc1fb2af7921",
-        "web-489568c736b8b700"
+        "web-489568c736b8b700",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T14:55:34.402Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "levels": {
       "lemma": "level",
@@ -11801,12 +11875,6 @@
         {
           "translation": "学生",
           "pos": "n.",
-          "example": "More than six million students attend California public schools.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "学生",
-          "pos": "n.",
           "example": "School administrators point out that the texts may be free online, but students need a way to access them.",
           "sourceArticleId": "web-83aed36829bb66d0"
         },
@@ -11869,6 +11937,12 @@
           "pos": "n.",
           "example": "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.",
           "sourceArticleId": "web-489568c736b8b700"
+        },
+        {
+          "translation": "学生",
+          "pos": "n.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -11879,10 +11953,11 @@
         "web-83aed36829bb66d0",
         "web-f335b4849447798b",
         "web-4a99bc1fb2af7921",
-        "web-489568c736b8b700"
+        "web-489568c736b8b700",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T14:55:34.402Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "participate": {
       "lemma": "participate",
@@ -12425,24 +12500,6 @@
       "meanings": "最；大多数；极度；绝大部分",
       "senses": [
         {
-          "translation": "最",
-          "pos": "adv.",
-          "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "最",
-          "pos": "adv.",
-          "example": "Then, write in the name and number of the program you're most interested in, and mail it today.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "大多数",
-          "pos": "det.",
-          "example": "In the early 1990s,the word\" Internet\" was strange to most people.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
           "translation": "大多数",
           "pos": "det.",
           "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
@@ -12495,6 +12552,24 @@
           "pos": "det.",
           "example": "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "大多数",
+          "pos": "det.",
+          "example": "Most of them have beautiful colors and cool names.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "大多数",
+          "pos": "det.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "大多数",
+          "pos": "det.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -12507,10 +12582,11 @@
         "web-f335b4849447798b",
         "web-9164814709a91049",
         "web-0ada4954aa4da897",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "visible": {
       "lemma": "visible",
@@ -12562,12 +12638,6 @@
       "forms": "theirs",
       "meanings": "他们的；她们的；它们的",
       "senses": [
-        {
-          "translation": "他们的",
-          "pos": "pron.",
-          "example": "This course will develop children's writing skills and their ability to answer questions.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
         {
           "translation": "它们的",
           "pos": "pron.",
@@ -12633,6 +12703,12 @@
           "pos": "pron.",
           "example": "\"\nBoth Toby and Winnie accompanied their owners to the awards luncheon.",
           "sourceArticleId": "web-c07f29846f6c48f3"
+        },
+        {
+          "translation": "他们的",
+          "pos": "pron.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -12652,10 +12728,11 @@
         "web-ee55c880f34e43f4",
         "web-489568c736b8b700",
         "web-2003500b566de45c",
-        "web-c07f29846f6c48f3"
+        "web-c07f29846f6c48f3",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 17,
-      "updatedAt": "2026-08-03T15:35:36.816Z"
+      "articleCount": 18,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "success": {
       "lemma": "success",
@@ -13809,12 +13886,6 @@
       "meanings": "一个；某人；单一的；其中之一",
       "senses": [
         {
-          "translation": "没有人",
-          "pos": "pron.",
-          "example": "No one sees Bob without leaving with a laugh.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
           "translation": "一个人",
           "pos": "pron.",
           "example": "My dream in life is to become a doctor, one who changes the world.",
@@ -13879,6 +13950,12 @@
           "pos": "num.",
           "example": "Then one terrible day when he is dangling over the angry lion he slips and falls.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "一个",
+          "pos": "num.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -13898,10 +13975,11 @@
         "web-f2b1ff9fd84cfda6",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 17,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 18,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "projects": {
       "lemma": "project",
@@ -15929,12 +16007,6 @@
       "meanings": "做；干；进行；引起",
       "senses": [
         {
-          "translation": "做",
-          "pos": "v.",
-          "example": "We can also do shopping and find nearly all kinds of goods.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
           "translation": "（助动词，用于构成疑问句）",
           "pos": "aux.v.",
           "example": "Do you know what the hamburger named his daughter ?",
@@ -15999,6 +16071,12 @@
           "pos": "v.",
           "example": "Do you want to get us both fired?",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "有（某种关系）",
+          "pos": "v.",
+          "example": "Possible health dangers have something to do with energy drinks.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -16012,10 +16090,11 @@
         "web-7504f64bec4e74a7",
         "web-4a99bc1fb2af7921",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "became": {
       "lemma": "become",
@@ -16752,14 +16831,21 @@
           "pos": "adj.",
           "example": "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "冷的",
+          "pos": "adj.",
+          "example": "A cold drink may be just the thing.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-f39e7f5b1b236779"
+        "web-f39e7f5b1b236779",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:24:31.869Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "weather": {
       "lemma": "weather",
@@ -16772,13 +16858,20 @@
           "pos": "n.",
           "example": "Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "天气",
+          "pos": "n.",
+          "example": "The weather is getting hotter.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "meetings": {
       "lemma": "meeting",
@@ -17713,24 +17806,6 @@
         {
           "translation": "但是",
           "pos": "conj.",
-          "example": "The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.",
-          "sourceArticleId": "web-489568c736b8b700"
-        },
-        {
-          "translation": "但是",
-          "pos": "conj.",
-          "example": "Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.",
-          "sourceArticleId": "web-489568c736b8b700"
-        },
-        {
-          "translation": "但是",
-          "pos": "conj.",
-          "example": "It is famous for being a symbol, not only of a city, but a whole country and condition too.",
-          "sourceArticleId": "web-f2b1ff9fd84cfda6"
-        },
-        {
-          "translation": "但是",
-          "pos": "conj.",
           "example": "But Utzon has never seen his Opera House.",
           "sourceArticleId": "web-f2b1ff9fd84cfda6"
         },
@@ -17781,6 +17856,24 @@
           "pos": "conj.",
           "example": "\"But the lion is quick and attacks.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "But be careful what you are drinking.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "But be careful not to drink too much.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -17805,10 +17898,11 @@
         "web-f2b1ff9fd84cfda6",
         "web-c07f29846f6c48f3",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 22,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 23,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "also": {
       "lemma": "also",
@@ -19907,20 +20001,27 @@
       "lemma": "take",
       "pos": "v.",
       "forms": "takes, taking, took, taken",
-      "meanings": "拿；带走；进行；乘车",
+      "meanings": "拿；带走；摄入；进行",
       "senses": [
         {
           "translation": "进行",
           "pos": "v.",
           "example": "Helen plans to continue taking trips.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "摄入",
+          "pos": "v.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "trips": {
       "lemma": "trip",
@@ -20315,7 +20416,7 @@
     },
     "lot": {
       "lemma": "lot",
-      "pos": "noun",
+      "pos": "pron.",
       "forms": "lots",
       "meanings": "许多；大量；地皮；命运",
       "senses": [
@@ -20342,15 +20443,22 @@
           "pos": "noun",
           "example": "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "许多",
+          "pos": "pron.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
         "web-91480225d160a6b6",
-        "web-83aed36829bb66d0"
+        "web-83aed36829bb66d0",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T11:38:34.585Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "americans": {
       "lemma": "american",
@@ -21025,6 +21133,12 @@
           "pos": "n.",
           "example": "As Amy Paul choked  on a piece of apple at her home, her dog jumped up, landing hard on her chest and forcing the piece in her throat out.",
           "sourceArticleId": "web-c07f29846f6c48f3"
+        },
+        {
+          "translation": "家",
+          "pos": "n.",
+          "example": "You are thirsty playing basketball or riding home from school.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -21035,10 +21149,11 @@
         "web-f328bfb9843d2dfa",
         "web-14515232ae2b45c0",
         "web-2003500b566de45c",
-        "web-c07f29846f6c48f3"
+        "web-c07f29846f6c48f3",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-03T15:35:36.816Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "spare": {
       "lemma": "spare",
@@ -21153,6 +21268,12 @@
           "pos": "adj.",
           "example": "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.",
           "sourceArticleId": "web-2003500b566de45c"
+        },
+        {
+          "translation": "更好",
+          "pos": "adj.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -21160,10 +21281,11 @@
         "web-52737a111ab04db4",
         "web-09421cfd6a2c44ad",
         "web-f328bfb9843d2dfa",
-        "web-2003500b566de45c"
+        "web-2003500b566de45c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T15:09:35.302Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "majors": {
       "lemma": "major",
@@ -21766,6 +21888,12 @@
           "pos": "adv.",
           "example": "As its participants dash around a city, they may jump over fences, run up walls and even move from rooftop to rooftop.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "甚至",
+          "pos": "adv.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -21774,10 +21902,11 @@
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
         "web-2003500b566de45c",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "professional": {
       "lemma": "professional",
@@ -24338,16 +24467,23 @@
           "pos": "adj.",
           "example": "The story began in 1957 when Utzon won an international competition to design an opera house in Sydney.",
           "sourceArticleId": "web-f2b1ff9fd84cfda6"
+        },
+        {
+          "translation": "国际的",
+          "pos": "adj.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
         "web-59b629f92c1e91fb",
         "web-4a99bc1fb2af7921",
-        "web-f2b1ff9fd84cfda6"
+        "web-f2b1ff9fd84cfda6",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T15:02:38.322Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "fair": {
       "lemma": "fair",
@@ -24867,12 +25003,6 @@
         {
           "translation": "在……之后",
           "pos": "prep.",
-          "example": "The longest day of the month is the day after my younger brother T.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
-          "translation": "在……之后",
-          "pos": "prep.",
           "example": "After dinner, I go to my friend Brad's house to work on a project for science class .",
           "sourceArticleId": "web-2e315a8a858c375d"
         },
@@ -24935,6 +25065,12 @@
           "pos": "prep.",
           "example": "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.",
           "sourceArticleId": "web-2003500b566de45c"
+        },
+        {
+          "translation": "在……之后",
+          "pos": "prep.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -24947,10 +25083,11 @@
         "web-7504f64bec4e74a7",
         "web-ee55c880f34e43f4",
         "web-f2b1ff9fd84cfda6",
-        "web-2003500b566de45c"
+        "web-2003500b566de45c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T15:09:35.302Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "losing": {
       "lemma": "lose",
@@ -25521,14 +25658,21 @@
           "pos": "modal v.",
           "example": "Your merchant account should accept as many forms of payment as possible.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "应该",
+          "pos": "modal v.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "something": {
       "lemma": "something",
@@ -25547,14 +25691,27 @@
           "pos": "pron.",
           "example": "Sometimes we can find something that is quite good but very cheap.",
           "sourceArticleId": "web-91480225d160a6b6"
+        },
+        {
+          "translation": "某事",
+          "pos": "pron.",
+          "example": "Something that looks cool may not be good for your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "某事",
+          "pos": "pron.",
+          "example": "Possible health dangers have something to do with energy drinks.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-91480225d160a6b6"
+        "web-91480225d160a6b6",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-02T11:59:42.745Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "early": {
       "lemma": "early",
@@ -25878,12 +26035,6 @@
       "meanings": "有（引导there be句型）；在那里；向那里；到那里",
       "senses": [
         {
-          "translation": "有",
-          "pos": "adv.",
-          "example": "There are 15 new this year, including South Korean President Park Geun-hye .",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
           "translation": "在那里",
           "pos": "adv.",
           "example": "I want to scream and wake up but I can't do anything but sit there.",
@@ -25948,6 +26099,12 @@
           "pos": "adv.",
           "example": "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.",
           "sourceArticleId": "web-2003500b566de45c"
+        },
+        {
+          "translation": "有",
+          "pos": "adv.",
+          "example": "There are plenty of \"energy drinks\" on the market.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -25969,10 +26126,11 @@
         "web-ee55c880f34e43f4",
         "web-489568c736b8b700",
         "web-f2b1ff9fd84cfda6",
-        "web-2003500b566de45c"
+        "web-2003500b566de45c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 19,
-      "updatedAt": "2026-08-03T15:09:35.302Z"
+      "articleCount": 20,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "developed": {
       "lemma": "develop",
@@ -26702,6 +26860,12 @@
           "pos": "adj.",
           "example": "Yes, that's pork-our, an extreme street sport aimed at moving from one point to another as quickly as possible, getting over all the obstacles in the path using only the abilities of the human body.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "可能的",
+          "pos": "adj.",
+          "example": "Possible health dangers have something to do with energy drinks.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -26709,10 +26873,11 @@
         "web-52737a111ab04db4",
         "web-7504f64bec4e74a7",
         "web-2003500b566de45c",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "anirban": {
       "lemma": "anirban",
@@ -28519,9 +28684,9 @@
     },
     "much": {
       "lemma": "much",
-      "pos": "adv.",
+      "pos": "pron.",
       "forms": "more, most",
-      "meanings": "很；非常；多；经常；大大地",
+      "meanings": "很多；大量；多；非常；经常",
       "senses": [
         {
           "translation": "很",
@@ -28558,6 +28723,12 @@
           "pos": "adv.",
           "example": "Park-our can be just as exciting and charming as it sounds, but its participants see much more in park-our than that.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "多",
+          "pos": "pron.",
+          "example": "But be careful not to drink too much.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -28565,10 +28736,11 @@
         "web-eecaaca1e069e103",
         "web-1fac3b0d4f7569c5",
         "web-2003500b566de45c",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "faster": {
       "lemma": "fast",
@@ -29440,14 +29612,21 @@
           "pos": "adv.",
           "example": "He sometimes jokes he could be mayor of his building, and it's true.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "有时",
+          "pos": "adv.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-91480225d160a6b6",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "quite": {
       "lemma": "quite",
@@ -29502,12 +29681,6 @@
       "forms": "better, best",
       "meanings": "好；愉快的；优良的；有效的；合格的",
       "senses": [
-        {
-          "translation": "好的",
-          "pos": "adj.",
-          "example": "Sometimes we can find something that is quite good but very cheap.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
         {
           "translation": "好",
           "pos": "adj.",
@@ -29573,6 +29746,12 @@
           "pos": "adj.",
           "example": "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "有益的",
+          "pos": "adj.",
+          "example": "Something that looks cool may not be good for your health.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -29585,10 +29764,11 @@
         "web-b08fa6a6e65a8840",
         "web-7504f64bec4e74a7",
         "web-c07f29846f6c48f3",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "cheap": {
       "lemma": "cheap",
@@ -30727,7 +30907,7 @@
       "lemma": "say",
       "pos": "v.",
       "forms": "says, said, saying",
-      "meanings": "说；讲；表达；记载",
+      "meanings": "说；讲；表达；记载；声称",
       "senses": [
         {
           "translation": "说",
@@ -30776,16 +30956,29 @@
           "pos": "v.",
           "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "声称",
+          "pos": "v.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "说",
+          "pos": "v.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-2e315a8a858c375d",
         "web-59b629f92c1e91fb",
         "web-f39e7f5b1b236779",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "usually": {
       "lemma": "usual",
@@ -31756,7 +31949,7 @@
       "lemma": "tell",
       "pos": "v.",
       "forms": "tells, told, telling",
-      "meanings": "看出；讲述；告诉；吩咐",
+      "meanings": "看出；讲述；告诉；吩咐；分辨",
       "senses": [
         {
           "translation": "看出",
@@ -31769,14 +31962,21 @@
           "pos": "v.",
           "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "看出",
+          "pos": "v.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-2e315a8a858c375d",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T12:14:28.212Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "big": {
       "lemma": "big",
@@ -32101,9 +32301,9 @@
     },
     "looks": {
       "lemma": "look",
-      "pos": "n.",
-      "forms": "looks",
-      "meanings": "外观；造型；神情；注视；看起来",
+      "pos": "v.",
+      "forms": "looks, looked, looking",
+      "meanings": "看起来；注视；寻求；外观；造型",
       "senses": [
         {
           "translation": "看起来",
@@ -32128,15 +32328,22 @@
           "pos": "n.",
           "example": "Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.",
           "sourceArticleId": "web-489568c736b8b700"
+        },
+        {
+          "translation": "看起来",
+          "pos": "v.",
+          "example": "Something that looks cool may not be good for your health.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-2e315a8a858c375d",
         "web-a0a23c816fc997da",
-        "web-489568c736b8b700"
+        "web-489568c736b8b700",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T14:55:34.402Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "know": {
       "lemma": "know",
@@ -33656,16 +33863,10 @@
     },
     "because": {
       "lemma": "because",
-      "pos": "conj.",
+      "pos": "prep.",
       "forms": "无常见变形",
       "meanings": "因为；由于",
       "senses": [
-        {
-          "translation": "因为",
-          "pos": "conj.",
-          "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "因为",
           "pos": "conj.",
@@ -33731,6 +33932,12 @@
           "pos": "conj.",
           "example": "A park-our lover said, \"I love park-our, because its philosophy has become my life, my way to do everything.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "由于",
+          "pos": "prep.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -33742,10 +33949,11 @@
         "web-ee55c880f34e43f4",
         "web-489568c736b8b700",
         "web-2003500b566de45c",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 9,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 10,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "advantages": {
       "lemma": "advantage",
@@ -33997,7 +34205,7 @@
     },
     "drink": {
       "lemma": "drink",
-      "pos": "v.",
+      "pos": "n.",
       "forms": "drinks, drank, drunk, drinking",
       "meanings": "喝；饮；饮料；酒；喝酒",
       "senses": [
@@ -34012,14 +34220,33 @@
           "pos": "v.",
           "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "饮料",
+          "pos": "n.",
+          "example": "A cold drink may be just the thing.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "喝",
+          "pos": "v.",
+          "example": "But be careful not to drink too much.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "饮料",
+          "pos": "n.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-52737a111ab04db4",
-        "web-ee55c880f34e43f4"
+        "web-ee55c880f34e43f4",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "pub": {
       "lemma": "pub",
@@ -36260,15 +36487,22 @@
           "pos": "n.",
           "example": "But seriously, who in their right mind says thanks for the financial problems I have?",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "问题",
+          "pos": "n.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "concern": {
       "lemma": "concern",
@@ -37447,7 +37681,7 @@
       "lemma": "great",
       "pos": "adj.",
       "forms": "greater, greatest",
-      "meanings": "巨大的；极好的；伟大的；非常",
+      "meanings": "极好的；巨大的；伟大的；非常",
       "senses": [
         {
           "translation": "巨大的",
@@ -37466,15 +37700,22 @@
           "pos": "adj.",
           "example": "He discovers that it's a great job.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "极好的",
+          "pos": "adj.",
+          "example": "Sounds great!",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-1fac3b0d4f7569c5",
         "web-f2b1ff9fd84cfda6",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "distances": {
       "lemma": "distance",
@@ -37717,7 +37958,7 @@
       "lemma": "make",
       "pos": "v.",
       "forms": "makes, made, making",
-      "meanings": "进行；制造；使得；赚（钱）",
+      "meanings": "使得；制造；促使；进行；赚取",
       "senses": [
         {
           "translation": "进行",
@@ -37730,14 +37971,21 @@
           "pos": "v.",
           "example": "Of course,this makes the lion very angry,but the crowd loves it.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "使",
+          "pos": "v.",
+          "example": "Caffeine makes your heart beat fast.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-1fac3b0d4f7569c5",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "change": {
       "lemma": "change",
@@ -39755,20 +40003,27 @@
       "lemma": "maker",
       "pos": "n.",
       "forms": "makers",
-      "meanings": "制作者；制造者；厂商",
+      "meanings": "制作者；制造者；厂商；创造者",
       "senses": [
         {
           "translation": "制作者",
           "pos": "n.",
           "example": "By the end of the 1700's most dictionary makers had followed Johnson's example.",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "厂商",
+          "pos": "n.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "johnson's": {
       "lemma": "Johnson",
@@ -39830,6 +40085,12 @@
           "pos": "v.",
           "example": "Yes, that's pork-our, an extreme street sport aimed at moving from one point to another as quickly as possible, getting over all the obstacles in the path using only the abilities of the human body.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "变得",
+          "pos": "v.",
+          "example": "The weather is getting hotter.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -39838,10 +40099,11 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-489568c736b8b700",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "saw": {
       "lemma": "see",
@@ -40107,6 +40369,12 @@
           "pos": "pron.",
           "example": "A park-our lover said, \"I love park-our, because its philosophy has become my life, my way to do everything.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "它的",
+          "pos": "pron.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -40114,10 +40382,11 @@
         "web-a0a23c816fc997da",
         "web-59b629f92c1e91fb",
         "web-f2b1ff9fd84cfda6",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "histories": {
       "lemma": "history",
@@ -41230,9 +41499,9 @@
     },
     "least": {
       "lemma": "least",
-      "pos": "adj./adv.",
+      "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "最少；最小；最不；至少",
+      "meanings": "至少；最少；最小；最不",
       "senses": [
         {
           "translation": "最少",
@@ -41257,16 +41526,23 @@
           "pos": "adj.",
           "example": "It is the art of using only your body to navigate from Point A to B in the least time possible, which involves besides leaping, climbing and sprinting, various unusual and complex movements to overcome barriers.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "至少",
+          "pos": "adv.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-83aed36829bb66d0",
         "web-f335b4849447798b",
         "web-14515232ae2b45c0",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "state's": {
       "lemma": "state",
@@ -42108,6 +42384,24 @@
           "pos": "modal v.",
           "example": "As its participants dash around a city, they may jump over fences, run up walls and even move from rooftop to rooftop.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "可能",
+          "pos": "modal v.",
+          "example": "A cold drink may be just the thing.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "可能",
+          "pos": "modal v.",
+          "example": "Something that looks cool may not be good for your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "可能",
+          "pos": "modal v.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
@@ -42115,10 +42409,11 @@
         "web-f335b4849447798b",
         "web-9164814709a91049",
         "web-489568c736b8b700",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "everyone": {
       "lemma": "everyone",
@@ -42755,13 +43050,20 @@
           "pos": "adj.",
           "example": "My housetraining was a long process, because you were terribly busy, but we worked on that together.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
+        },
+        {
+          "translation": "忙碌的",
+          "pos": "adj.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "park": {
       "lemma": "park",
@@ -47063,14 +47365,21 @@
           "pos": "v.",
           "example": "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "保持",
+          "pos": "v.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-f335b4849447798b",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "lecture": {
       "lemma": "lecture",
@@ -47216,13 +47525,56 @@
           "pos": "n.",
           "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "饮料",
+          "pos": "n.",
+          "example": "There are plenty of \"energy drinks\" on the market.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "饮料",
+          "pos": "n.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "饮料",
+          "pos": "n.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "饮料",
+          "pos": "n.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "饮料",
+          "pos": "n.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "饮料",
+          "pos": "n.",
+          "example": "Possible health dangers have something to do with energy drinks.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "饮料",
+          "pos": "n.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-f335b4849447798b"
+        "web-f335b4849447798b",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "sweets": {
       "lemma": "sweet",
@@ -48092,13 +48444,20 @@
           "pos": "n.",
           "example": "But some scientists think it can be harmful for humans, too.",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "科学家",
+          "pos": "n.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-59b629f92c1e91fb"
+        "web-59b629f92c1e91fb",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "stars": {
       "lemma": "star",
@@ -49124,13 +49483,20 @@
           "pos": "v.",
           "example": "They worry that exposure to light while sleeping can increase a person's chances of getting cancer.",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "入睡",
+          "pos": "v.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-59b629f92c1e91fb"
+        "web-59b629f92c1e91fb",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "increase": {
       "lemma": "increase",
@@ -50838,10 +51204,10 @@
       "updatedAt": "2026-08-03T12:46:42.837Z"
     },
     "limited": {
-      "lemma": "limited",
-      "pos": "adj.",
-      "forms": "limit, limiting",
-      "meanings": "有限公司的；有限的；受到限制的；不多的",
+      "lemma": "limit",
+      "pos": "v.",
+      "forms": "limits, limited, limiting",
+      "meanings": "限制；限定；限量；减量",
       "senses": [
         {
           "translation": "（公司名称后缀）有限公司的",
@@ -50854,14 +51220,21 @@
           "pos": "adj.",
           "example": "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.",
           "sourceArticleId": "web-489568c736b8b700"
+        },
+        {
+          "translation": "限制了",
+          "pos": "v.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
         "web-9164814709a91049",
-        "web-489568c736b8b700"
+        "web-489568c736b8b700",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T14:55:34.402Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "company": {
       "lemma": "company",
@@ -51027,13 +51400,32 @@
           "pos": "n.",
           "example": "The list of Chinese women, including Chinese President Xi Jinping's wife Peng Liyuan, intelligent mobile phone maker HTC founder Wang Xuehong, chief executive of Chongqing Longhu real estate development limited company chairman Wu Yajun, SOHO China Ltd and co-founder Zhang Xin, the World Health Organization Director-General Chen Fengfuzhen (Margaret Chan), Huawei chairman Sun Yafang, the Li Jiacheng Foundation Director Zhou triumph, Baidu Inc chief financial officer Li Xinzhe, Sun Media Klc Holdings Ltd chairman Yang Lan.",
           "sourceArticleId": "web-9164814709a91049"
+        },
+        {
+          "translation": "健康",
+          "pos": "n.",
+          "example": "Something that looks cool may not be good for your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "健康",
+          "pos": "n.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "健康",
+          "pos": "n.",
+          "example": "Possible health dangers have something to do with energy drinks.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-9164814709a91049"
+        "web-9164814709a91049",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T12:46:42.837Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "organization": {
       "lemma": "organization",
@@ -53384,22 +53776,29 @@
     },
     "awake": {
       "lemma": "awake",
-      "pos": "v.",
+      "pos": "adj.",
       "forms": "awoke, awoken, awaking",
-      "meanings": "醒来；唤醒；觉醒；意识到",
+      "meanings": "醒着；清醒的；唤醒；觉醒；意识到",
       "senses": [
         {
           "translation": "醒来",
           "pos": "v.",
           "example": "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "清醒的",
+          "pos": "adj.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-f39e7f5b1b236779"
+        "web-f39e7f5b1b236779",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T13:24:31.869Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "loving": {
       "lemma": "love",
@@ -57321,13 +57720,20 @@
           "pos": "n.",
           "example": "The second thing that reminded me to look at perspective was reading a book.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "东西",
+          "pos": "n.",
+          "example": "A cold drink may be just the thing.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "reminded": {
       "lemma": "remind",
@@ -59549,13 +59955,20 @@
           "pos": "n.",
           "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "茶",
+          "pos": "n.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-ee55c880f34e43f4"
+        "web-ee55c880f34e43f4",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "coffee": {
       "lemma": "coffee",
@@ -59580,13 +59993,20 @@
           "pos": "n.",
           "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "咖啡",
+          "pos": "n.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-ee55c880f34e43f4"
+        "web-ee55c880f34e43f4",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "hot": {
       "lemma": "hot",
@@ -59674,13 +60094,20 @@
           "pos": "v.",
           "example": "Drinking two or three cups reduces the risk by 15 percent.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "喝",
+          "pos": "v.",
+          "example": "But be careful what you are drinking.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-ee55c880f34e43f4"
+        "web-ee55c880f34e43f4",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "reduces": {
       "lemma": "reduce",
@@ -59768,7 +60195,7 @@
       "lemma": "caffeine",
       "pos": "n.",
       "forms": "无常见变形",
-      "meanings": "咖啡因",
+      "meanings": "咖啡因；咖啡碱",
       "senses": [
         {
           "translation": "咖啡因",
@@ -59781,13 +60208,38 @@
           "pos": "n.",
           "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "咖啡因",
+          "pos": "n.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "咖啡因",
+          "pos": "n.",
+          "example": "Caffeine makes your heart beat fast.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "咖啡因",
+          "pos": "n.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "咖啡因",
+          "pos": "n.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-ee55c880f34e43f4"
+        "web-ee55c880f34e43f4",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "chemical": {
       "lemma": "chemical",
@@ -63092,13 +63544,26 @@
           "pos": "n.",
           "example": "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.",
           "sourceArticleId": "web-2003500b566de45c"
+        },
+        {
+          "translation": "心脏",
+          "pos": "n.",
+          "example": "Caffeine makes your heart beat fast.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "心脏",
+          "pos": "n.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-2003500b566de45c"
+        "web-2003500b566de45c",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T15:09:35.302Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "advice": {
       "lemma": "advice",
@@ -66269,13 +66734,20 @@
           "pos": "v.",
           "example": "Yes, that's pork-our, an extreme street sport aimed at moving from one point to another as quickly as possible, getting over all the obstacles in the path using only the abilities of the human body.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "针对",
+          "pos": "v.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "obstacles": {
       "lemma": "obstacle",
@@ -66470,20 +66942,27 @@
       "lemma": "sound",
       "pos": "v.",
       "forms": "sounded, sounding",
-      "meanings": "听起来；发出声音；测深",
+      "meanings": "听起来；发出声音；测深；测量",
       "senses": [
         {
           "translation": "听起来",
           "pos": "v.",
           "example": "Park-our can be just as exciting and charming as it sounds, but its participants see much more in park-our than that.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "听起来",
+          "pos": "v.",
+          "example": "Sounds great!",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "behind": {
       "lemma": "behind",
@@ -66693,13 +67172,44 @@
           "pos": "n.",
           "example": "It is a kind of expression of trust in yourself so that you earn energy and confidence.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "能量",
+          "pos": "n.",
+          "example": "There are plenty of \"energy drinks\" on the market.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "能量",
+          "pos": "n.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "能量",
+          "pos": "n.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "能量",
+          "pos": "n.",
+          "example": "Possible health dangers have something to do with energy drinks.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "能量",
+          "pos": "n.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
         }
       ],
       "articleIds": [
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-78c5365878759c41"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     },
     "mimic": {
       "lemma": "mimic",
@@ -67962,6 +68472,600 @@
       ],
       "articleCount": 1,
       "updatedAt": "2026-08-03T15:54:58.911Z"
+    },
+    "hotter": {
+      "lemma": "hot",
+      "pos": "adj.",
+      "forms": "hottest, hotter",
+      "meanings": "更热的；更辣的；更激烈的",
+      "senses": [
+        {
+          "translation": "更热的",
+          "pos": "adj.",
+          "example": "The weather is getting hotter.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "thirsty": {
+      "lemma": "thirsty",
+      "pos": "adj.",
+      "forms": "thirstier, thirstiest",
+      "meanings": "口渴的；干旱的；渴望的",
+      "senses": [
+        {
+          "translation": "口渴的",
+          "pos": "adj.",
+          "example": "You are thirsty playing basketball or riding home from school.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "playing": {
+      "lemma": "play",
+      "pos": "v.",
+      "forms": "plays, played, playing",
+      "meanings": "做（体育活动）；玩耍；演奏；扮演",
+      "senses": [
+        {
+          "translation": "打（篮球）",
+          "pos": "v.",
+          "example": "You are thirsty playing basketball or riding home from school.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "basketball": {
+      "lemma": "basketball",
+      "pos": "n.",
+      "forms": "basketballs",
+      "meanings": "篮球；篮球运动",
+      "senses": [
+        {
+          "translation": "篮球",
+          "pos": "n.",
+          "example": "You are thirsty playing basketball or riding home from school.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "riding": {
+      "lemma": "ride",
+      "pos": "v.",
+      "forms": "rides, rode, ridden, riding",
+      "meanings": "骑；乘；搭；驾驭；（交通工具）行驶",
+      "senses": [
+        {
+          "translation": "骑车",
+          "pos": "v.",
+          "example": "You are thirsty playing basketball or riding home from school.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "careful": {
+      "lemma": "careful",
+      "pos": "adj.",
+      "forms": "more careful, most careful",
+      "meanings": "小心的；仔细的；谨慎的；精心的",
+      "senses": [
+        {
+          "translation": "小心",
+          "pos": "adj.",
+          "example": "But be careful what you are drinking.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "仔细的",
+          "pos": "adj.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "小心",
+          "pos": "adj.",
+          "example": "But be careful not to drink too much.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "cool": {
+      "lemma": "cool",
+      "pos": "adj.",
+      "forms": "cooler, coolest",
+      "meanings": "凉爽的；很酷的；冷静的；冷淡的",
+      "senses": [
+        {
+          "translation": "很酷的",
+          "pos": "adj.",
+          "example": "Something that looks cool may not be good for your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "很酷的",
+          "pos": "adj.",
+          "example": "Most of them have beautiful colors and cool names.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "plenty": {
+      "lemma": "plenty",
+      "pos": "pron.",
+      "forms": "无常见变形",
+      "meanings": "充足；大量；富裕",
+      "senses": [
+        {
+          "translation": "大量的",
+          "pos": "pron.",
+          "example": "There are plenty of \"energy drinks\" on the market.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "market": {
+      "lemma": "market",
+      "pos": "n.",
+      "forms": "markets",
+      "meanings": "市场；超市；行情；销路",
+      "senses": [
+        {
+          "translation": "市场",
+          "pos": "n.",
+          "example": "There are plenty of \"energy drinks\" on the market.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "beautiful": {
+      "lemma": "beautiful",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "美丽的；极好的；美妙的",
+      "senses": [
+        {
+          "translation": "美丽的",
+          "pos": "adj.",
+          "example": "Most of them have beautiful colors and cool names.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "colors": {
+      "lemma": "color",
+      "pos": "n.",
+      "forms": "colors, colored, coloring",
+      "meanings": "颜色；色彩；肤色；颜料",
+      "senses": [
+        {
+          "translation": "颜色",
+          "pos": "n.",
+          "example": "Most of them have beautiful colors and cool names.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "lists": {
+      "lemma": "list",
+      "pos": "n.",
+      "forms": "lists, listed, listing",
+      "meanings": "名单；列表；清单；列出",
+      "senses": [
+        {
+          "translation": "标签；成分说明清单",
+          "pos": "n.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "helpful": {
+      "lemma": "helpful",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "有帮助的；有益的；有用的；乐于助人的",
+      "senses": [
+        {
+          "translation": "有帮助的",
+          "pos": "adj.",
+          "example": "The lists on them tell you they are helpful to your health.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "lots": {
+      "lemma": "lot",
+      "pos": "pron.",
+      "forms": "lots",
+      "meanings": "许多；大量；签；场地",
+      "senses": [
+        {
+          "translation": "许多",
+          "pos": "pron.",
+          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "especially": {
+      "lemma": "especially",
+      "pos": "adv.",
+      "forms": "无常见变形",
+      "meanings": "特别；尤其；专门；格外",
+      "senses": [
+        {
+          "translation": "特别",
+          "pos": "adv.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "sports": {
+      "lemma": "sport",
+      "pos": "n.",
+      "forms": "sports",
+      "meanings": "体育运动；体育活动；游戏；消遣；运动的",
+      "senses": [
+        {
+          "translation": "体育运动",
+          "pos": "n.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "体育运动",
+          "pos": "n.",
+          "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "players": {
+      "lemma": "player",
+      "pos": "n.",
+      "forms": "players",
+      "meanings": "运动员；比赛者；玩家；参与者；播放器",
+      "senses": [
+        {
+          "translation": "运动员",
+          "pos": "n.",
+          "example": "These drinks are especially aimed at young people, students, busy people and sports players.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "beat": {
+      "lemma": "beat",
+      "pos": "v.",
+      "forms": "beat, beaten/beat, beating",
+      "meanings": "跳动；敲打；打败；节奏；拍子",
+      "senses": [
+        {
+          "translation": "跳动",
+          "pos": "v.",
+          "example": "Caffeine makes your heart beat fast.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "fast": {
+      "lemma": "fast",
+      "pos": "adv.",
+      "forms": "faster, fastest",
+      "meanings": "快速地；紧紧地；迅速的；禁食",
+      "senses": [
+        {
+          "translation": "快速地",
+          "pos": "adv.",
+          "example": "Caffeine makes your heart beat fast.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "olympic": {
+      "lemma": "olympic",
+      "pos": "adj.",
+      "forms": "无常见变形",
+      "meanings": "奥林匹克的；奥林匹亚的；奥委会的",
+      "senses": [
+        {
+          "translation": "奥林匹克的",
+          "pos": "adj.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "committee": {
+      "lemma": "committee",
+      "pos": "n.",
+      "forms": "committees",
+      "meanings": "委员会；全体委员",
+      "senses": [
+        {
+          "translation": "委员会",
+          "pos": "n.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "ioc": {
+      "lemma": "ioc",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "国际奥林匹克委员会",
+      "senses": [
+        {
+          "translation": "国际奥委会",
+          "pos": "n.",
+          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "strong": {
+      "lemma": "strong",
+      "pos": "adj.",
+      "forms": "stronger, strongest",
+      "meanings": "强的；浓的；坚固的；强壮的",
+      "senses": [
+        {
+          "translation": "强的",
+          "pos": "adj.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "cup": {
+      "lemma": "cup",
+      "pos": "n.",
+      "forms": "cups",
+      "meanings": "杯子；一杯的容量；奖杯；（使）成杯状",
+      "senses": [
+        {
+          "translation": "一杯",
+          "pos": "n.",
+          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "dangers": {
+      "lemma": "danger",
+      "pos": "n.",
+      "forms": "dangers",
+      "meanings": "危险；威胁；危险境地",
+      "senses": [
+        {
+          "translation": "危险",
+          "pos": "n.",
+          "example": "Possible health dangers have something to do with energy drinks.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "box": {
+      "lemma": "box",
+      "pos": "n.",
+      "forms": "boxes",
+      "meanings": "盒；箱；抽屉；把……装入盒中",
+      "senses": [
+        {
+          "translation": "盒",
+          "pos": "n.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "nervous": {
+      "lemma": "nervous",
+      "pos": "adj.",
+      "forms": "nervously (adv.)",
+      "meanings": "紧张的；神经质的；焦虑的",
+      "senses": [
+        {
+          "translation": "紧张的",
+          "pos": "adj.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "difficulty": {
+      "lemma": "difficulty",
+      "pos": "n.",
+      "forms": "difficulties",
+      "meanings": "困难；难题；费劲；困境",
+      "senses": [
+        {
+          "translation": "困难",
+          "pos": "n.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "cause": {
+      "lemma": "cause",
+      "pos": "v.",
+      "forms": "causes, caused, causing",
+      "meanings": "引起；导致；造成；事业",
+      "senses": [
+        {
+          "translation": "引起",
+          "pos": "v.",
+          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
+    },
+    "teenagers": {
+      "lemma": "teenager",
+      "pos": "n.",
+      "forms": "teenagers",
+      "meanings": "青少年；十三到十九岁的人",
+      "senses": [
+        {
+          "translation": "青少年",
+          "pos": "n.",
+          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
+          "sourceArticleId": "web-78c5365878759c41"
+        }
+      ],
+      "articleIds": [
+        "web-78c5365878759c41"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-03T16:08:26.331Z"
     }
   }
 }
