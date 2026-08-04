@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T16:25:09.752Z",
+  "generatedAt": "2026-08-04T16:25:22.641Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -15095,7 +15095,21 @@
             "Doubts about the present test."
           ],
           "answer": 2,
-          "explanation": "文章明确提到他开始研究是因为失去了一位亲密的家庭朋友。"
+          "explanation": "文章明确提到Jack是因为失去了一位亲密的朋友而开始研究胰腺癌的。",
+          "type": "细节理解",
+          "evidenceSentence": "He started to learn it after losing a close family friend to the disease.",
+          "optionExplanations": [
+            "文章未提及学校任务。",
+            "教授是在他开始研究并写信后才介入的，而非动力来源。",
+            "文中明确指出这是他研究的原因。",
+            "这是他研究过程中发现的事实，而非研究的初衷。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "推理过度",
+            "正确",
+            "偷换概念"
+          ]
         },
         {
           "prompt": "Jack Andraka's research on pancreatic cancer   _  .",
@@ -15106,7 +15120,21 @@
             "was finished at the high school of Maryland"
           ],
           "answer": 0,
-          "explanation": "文章指出他的测试准确率高达90%，且被证明是非常成功的，而其他选项在文中均被否定或夸大。"
+          "explanation": "文中提到其测试被证明90%的时间是准确的，取得了巨大成功。",
+          "type": "细节理解",
+          "evidenceSentence": "His test has proved correct 90% of the time.",
+          "optionExplanations": [
+            "原文提到测试结果准确，表明其成功。",
+            "文中说其更敏感，未对比价格。",
+            "文中是说测试准确率为90%，并非治愈率。",
+            "他是在Johns Hopkins大学实验室完成的。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "推理过度",
+            "偷换概念",
+            "偷换概念"
+          ]
         },
         {
           "prompt": "We can infer from the text that Jack Andraka   _  .",
@@ -15117,7 +15145,21 @@
             "wasn't afraid of failure"
           ],
           "answer": 0,
-          "explanation": "文中提到教授对这位15岁的年轻人感到惊讶并邀请他面试，暗示了Jack给教授留下了深刻印象。"
+          "explanation": "教授在面试后对Jack的评价（clever young man）和对未来的预测表明Jack给教授留下了深刻印象。",
+          "type": "推理判断",
+          "evidenceSentence": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .",
+          "optionExplanations": [
+            "教授对其印象深刻，符合推理。",
+            "文中只说正在商谈，未体现公司对其评价高度。",
+            "文中提到他写信给200名研究员，只有一人回复，说明获取支持并不容易。",
+            "文中未提及他对待失败的态度。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "推理过度",
+            "推理过度",
+            "没有定位证据句"
+          ]
         },
         {
           "prompt": "What's the best title for the text?",
@@ -15128,7 +15170,21 @@
             "Teenager Cancer Researcher"
           ],
           "answer": 3,
-          "explanation": "全文主要讲述了这位少年发明癌症检测方法的成长和成功故事，以“少年癌症研究者”为标题最能概括全文内容。"
+          "explanation": "文章全文围绕Jack Andraka这位少年在抗癌研究上的成就及过程展开。",
+          "type": "主旨大意",
+          "evidenceSentence": "The Maryland teenager is the youngest winner of the $75,000 prize.",
+          "optionExplanations": [
+            "这是文章背景，不是中心话题。",
+            "题目涵盖范围过窄，文章不仅讲抗癌斗争，更讲个人的成就。",
+            "题目不够具体，缺乏对人物主体Jack的描述。",
+            "该标题概括了文章的核心人物及其身份和核心事迹。"
+          ],
+          "optionErrorTypes": [
+            "把局部信息当成主旨",
+            "把局部信息当成主旨",
+            "把局部信息当成主旨",
+            "正确"
+          ]
         }
       ],
       "generationUsage": {
@@ -15158,7 +15214,69 @@
         "averageSentenceWords": 14.5,
         "longSentenceRatio": 0.045,
         "challengingQuestionRatio": 0.5
-      }
+      },
+      "phrases": [
+        {
+          "phrase": "went on the Internet",
+          "translation": "上网",
+          "note": "表示登录互联网查找信息",
+          "sentence": "I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right."
+        },
+        {
+          "phrase": "found late",
+          "translation": "发现得晚",
+          "note": "指疾病被诊断或发现的时间较晚",
+          "sentence": "I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right."
+        },
+        {
+          "phrase": "be able to do something",
+          "translation": "能够做某事",
+          "note": "表示有能力或可能性去完成某事",
+          "sentence": "We should be able to do something.'\""
+        },
+        {
+          "phrase": "asked to work",
+          "translation": "要求工作",
+          "note": "表示请求获得工作机会",
+          "sentence": "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed."
+        },
+        {
+          "phrase": "recognize the disease",
+          "translation": "识别疾病",
+          "note": "表示检测或诊断出疾病",
+          "sentence": "There he developed a simple paper test, which can recognize the disease in a single drop of blood."
+        },
+        {
+          "phrase": "takes only 5 minutes to run",
+          "translation": "只需5分钟就能进行",
+          "note": "表示检测过程耗时很短",
+          "sentence": "It costs 3 cents per test, and then it takes only 5 minutes to run,\" he said."
+        },
+        {
+          "phrase": "showed interest in",
+          "translation": "对...感兴趣",
+          "note": "表示表现出对某事的兴趣",
+          "sentence": "He was the only person among the 200 researchers Jack wrote to who showed interest in his project."
+        },
+        {
+          "phrase": "wrote to",
+          "translation": "写信给",
+          "note": "表示通过书面形式联系某人",
+          "sentence": "He was the only person among the 200 researchers Jack wrote to who showed interest in his project."
+        },
+        {
+          "phrase": "called him over",
+          "translation": "叫他过来",
+          "note": "表示邀请某人来访或到某个地方",
+          "sentence": "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview ."
+        },
+        {
+          "phrase": "talking with companies about developing",
+          "translation": "与公司洽谈开发",
+          "note": "表示与企业进行商业讨论以推进项目",
+          "sentence": "He is now talking with companies about developing the test into a simple product."
+        }
+      ]
     },
     {
       "id": "web-91480225d160a6b6",
