@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T16:25:50.072Z",
+  "generatedAt": "2026-08-04T16:26:09.730Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -25234,7 +25234,21 @@
             "she is ready to have a baby because of her age and body"
           ],
           "answer": 3,
-          "explanation": "根据文中第二段，女性提到生育的主要影响因素是个人愿望和生理驱动（biological urge），即生理年龄和身体需求，D项符合。"
+          "explanation": "文中提到女性选择要孩子更多是受个人愿望和生理冲动的影响，对应选项D。",
+          "type": "细节理解",
+          "evidenceSentence": "Childless women were more likely to mention personal wish and biological urge  as major influences, compared to men.",
+          "optionExplanations": [
+            "文中指明文化压力更多是男性提到的因素。",
+            "文中指明家庭压力更多是男性提到的因素。",
+            "文中未提及避免社会偏见是女性的原因。",
+            "文中提到的personal wish和biological urge与选项中的年龄和身体对应。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "偷换概念",
+            "没有定位证据句",
+            "正确"
+          ]
         },
         {
           "prompt": "Because they didn't have children, half men experienced_.",
@@ -25245,7 +25259,21 @@
             "jealousy and loneliness"
           ],
           "answer": 0,
-          "explanation": "文中第三段明确指出，在想要孩子的男性中，有一半的人经历过孤独感（loneliness），结合第四段提到的情绪比例数据，选项A中的孤独和悲伤符合原文描述。"
+          "explanation": "文中明确指出一半没有孩子的男性经历过孤独，而在其他段落提到男人在悲伤上的比例是56%，文中明确罗列了这些数据。",
+          "type": "细节理解",
+          "evidenceSentence": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
+          "optionExplanations": [
+            "文中提到一半男人有孤独感，56%男人有悲伤感。",
+            "文中虽然提到了抑郁和愤怒，但没有提到这二者合计为“半数男性”的共同特征。",
+            "文中从未提及幸福和自由。",
+            "文中提到了嫉妒，但没有证据支撑二者的关联。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "偷换概念",
+            "没有定位证据句",
+            "偷换概念"
+          ]
         },
         {
           "prompt": "According to Mr Hadley's words, we can learn that without children_.",
@@ -25256,7 +25284,21 @@
             "men have a higher level of guilt and depression than women"
           ],
           "answer": 0,
-          "explanation": "根据文末最后一段Mr Hadley的总结，研究挑战了女性比男性更想生孩子以及女性负面情绪更深的传统观点，指出男性的负面情绪实际上更为强烈，A项正确。"
+          "explanation": "作者在文中总结男性在没有孩子时经历的负面情绪普遍高于女性，驳斥了女性在这方面更深重的观点。",
+          "type": "推理判断",
+          "evidenceSentence": "My work shows that there was a similar level of wish for parenthood among childless men and women in the survey, and that men had higher levels of anger, depression, sadness, jealousy  and loneliness than women.",
+          "optionExplanations": [
+            "根据原文研究结果，男性的负面情绪确实高于女性。",
+            "文中明确提到这挑战了这一普遍观点。",
+            "文中明确指出男性水平高于女性，而非相等。",
+            "文中提到男性无负罪感，因此该选项错误。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "单词或语境理解错误",
+            "忽略否定或范围",
+            "忽略否定或范围"
+          ]
         },
         {
           "prompt": "Which of the following may be the best title for the passage?",
@@ -25267,7 +25309,21 @@
             "A research about men and women"
           ],
           "answer": 2,
-          "explanation": "文章主要通过数据对比，揭示了男性在渴望孩子及因无子女产生的负面情绪上并不比女性少，甚至在某些方面（如孤独、抑郁、愤怒等）表现得更为强烈，C项最能概括文章核心发现。"
+          "explanation": "文章主要通过研究对比，揭示了男性对孩子的渴望程度及无子后的负面心理影响往往被社会忽视，甚至超过了女性。",
+          "type": "主旨大意",
+          "evidenceSentence": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children.",
+          "optionExplanations": [
+            "文章并非强调女性必须有孩子。",
+            "文中并未表达女性无孩子就幸福的观点。",
+            "文章通过数据说明男性对孩子的需求和负面情感被严重低估，此标题概括了文章的核心发现。",
+            "该标题过于宽泛，没有体现文章的研究发现和核心论点。"
+          ],
+          "optionErrorTypes": [
+            "把局部信息当成主旨",
+            "把局部信息当成主旨",
+            "正确",
+            "把局部信息当成主旨"
+          ]
         }
       ],
       "generationUsage": {
@@ -25297,7 +25353,51 @@
         "averageSentenceWords": 25.5,
         "longSentenceRatio": 0.364,
         "challengingQuestionRatio": 0.25
-      }
+      },
+      "phrases": [
+        {
+          "phrase": "want children",
+          "translation": "想要孩子",
+          "note": "表达生育意愿的常用搭配",
+          "sentence": "British researchers found that men are almost as likely as women to want children, and they feel more lonely, depressed, angry and sad than women if they don't have them."
+        },
+        {
+          "phrase": "experienced loneliness",
+          "translation": "经历过孤独",
+          "note": "用experience表达经历某种情感",
+          "sentence": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women."
+        },
+        {
+          "phrase": "experienced depression",
+          "translation": "经历过抑郁",
+          "note": "描述消极心理状态",
+          "sentence": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women."
+        },
+        {
+          "phrase": "experienced anger",
+          "translation": "经历过愤怒",
+          "note": "表达负面情绪体验",
+          "sentence": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women."
+        },
+        {
+          "phrase": "experienced sadness",
+          "translation": "经历过悲伤",
+          "note": "表述情感经历的搭配",
+          "sentence": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women."
+        },
+        {
+          "phrase": "challenges the common idea",
+          "translation": "挑战普遍观点",
+          "note": "动词短语，表示质疑或反驳",
+          "sentence": "This challenges the common idea that women are much more likely to want to have children than men, and that they always experience all kinds of bad emotions more deeply than men if they don't have children."
+        },
+        {
+          "phrase": "carried out his survey",
+          "translation": "进行了他的调查",
+          "note": "carry out表示实施、执行研究",
+          "sentence": "He carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41."
+        }
+      ]
     },
     {
       "id": "web-1fac3b0d4f7569c5",
