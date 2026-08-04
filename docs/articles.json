@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T17:00:02.567Z",
+  "generatedAt": "2026-08-04T07:52:35.679Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -88171,6 +88171,3167 @@
             "outputTokens": 17970,
             "totalTokens": 65477,
             "estimatedCostUsd": null
+          }
+        }
+      }
+    },
+    {
+      "id": "web-721dea8f3b5f4d9e",
+      "title": "RACE 高中英语阅读 high11545",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "More than one-third of adults in the United States are obese .In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.\nEven many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.\nReducing pounds largely comes down to the two-sided factors of diet and exercise.Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.\nAdvising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.Dieting has more to do with the types of food you eat than how much you eat.Reduce the amount of red meat in your diet.If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.Limit your intake of salt and starches.If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.You might find you're really not sacrificing that much in terms of taste.\nA diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.Drink more water and less sugary drinks.If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.\nIt's important--if not always easy--to make sure you get at least some physical activity each and every day.If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.Next time you need to mail a letter,walk to the mailbox instead of driving.Try to work in a daily walk in your neighborhood.",
+      "wordCount": 342,
+      "sentenceTranslations": {
+        "More than one-third of adults in the United States are obese .": "超过三分之一的美国成年人患有肥胖症。",
+        "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": "事实上，肥胖问题已经严重到某种程度，以至于一位大城市的市长开始着手禁止销售大杯含糖软饮，而第一夫人也发起了一项旨在管控公立学校膳食供应的运动。",
+        "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": "即使是许多未达到临床肥胖定义的成年人也处于超重状态，且有很大一部分人正在寻找减肥的最佳方法。",
+        "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": "减轻体重主要归结为饮食和运动这两个关键因素。",
+        "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": "如果饮食控制不足，运动量又不够，最终就会导致个人体重超标。",
+        "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": "建议人们少吃多运动听起来可能是最简单的建议，但从某种程度上说，这种说法过于简单化了。",
+        "Dieting has more to do with the types of food you eat than how much you eat.": "节食的关键不在于吃多少，而在于吃什么类型的食物。",
+        "Reduce the amount of red meat in your diet.": "减少日常饮食中红肉的摄入量。",
+        "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": "如果你不想完全戒掉红肉，那就选择脂肪含量较少的肉类部位。",
+        "Limit your intake of salt and starches.": "限制盐分和淀粉的摄入。",
+        "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": "如果你午餐吃三明治时非要配点薯片，那就选择比油炸薯片脂肪含量更低的烘焙薯片。",
+        "You might find you're really not sacrificing that much in terms of taste.": "你可能会发现，自己在口感上其实并没有做出多大的牺牲。",
+        "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": "富含水果、蔬菜、蛋白、鱼类和脱脂乳制品的饮食一定有助于实现减肥目标。",
+        "Drink more water and less sugary drinks.": "多喝水，少喝含糖饮料。",
+        "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": "如果非喝汽水不可，健怡汽水是更好的选择，但苏打水则比健怡汽水更胜一筹。",
+        "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": "确保每天进行至少一定的体育锻炼非常重要，尽管这并不总是容易做到。",
+        "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": "如果你的双脚无法支撑规律的慢跑计划，那就多去散散步。",
+        "Next time you need to mail a letter,walk to the mailbox instead of driving.": "下次要寄信时，不妨步行去投递，而不要开车前往。",
+        "Try to work in a daily walk in your neighborhood.": "试着每天在你的社区里散散步。"
+      },
+      "glossary": {
+        "more": {
+          "lemma": "more",
+          "translation": "更多",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "更多的；较大程度地；更；额外；附加的",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "多于",
+              "pos": "adv."
+            },
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "更多地",
+              "pos": "adv."
+            },
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "更多",
+              "pos": "adj."
+            },
+            "Drink more water and less sugary drinks.": {
+              "translation": "更多",
+              "pos": "adv."
+            }
+          }
+        },
+        "than": {
+          "lemma": "than",
+          "translation": "比",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "比；除……之外；与之相比；宁可",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "比",
+              "pos": "conj."
+            }
+          }
+        },
+        "one": {
+          "lemma": "one",
+          "translation": "一",
+          "pos": "num.",
+          "forms": "ones",
+          "meanings": "一个；某人；单一的；其中之一",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "一",
+              "pos": "num."
+            },
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "一位",
+              "pos": "pron."
+            },
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "一个",
+              "pos": "pron."
+            }
+          }
+        },
+        "third": {
+          "lemma": "third",
+          "translation": "三分之一",
+          "pos": "num.",
+          "forms": "thirds",
+          "meanings": "第三；三分之一；第三个",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "三分之一",
+              "pos": "num."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；属于；关于；由……组成；（表示数量）",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Reduce the amount of red meat in your diet.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Limit your intake of salt and starches.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "在……方面",
+              "pos": "prep."
+            },
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "adults": {
+          "lemma": "adult",
+          "translation": "成年人",
+          "pos": "n.",
+          "forms": "adult",
+          "meanings": "成年人；成人；成熟的",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "成年人",
+              "pos": "n."
+            },
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "成年人",
+              "pos": "n."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……之内",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "在……",
+              "pos": "prep."
+            },
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "在……中",
+              "pos": "prep."
+            },
+            "Reduce the amount of red meat in your diet.": {
+              "translation": "在……中",
+              "pos": "prep."
+            },
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "在……方面",
+              "pos": "prep."
+            },
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "在……方面",
+              "pos": "prep."
+            },
+            "Try to work in a daily walk in your neighborhood.": {
+              "translation": "在……里",
+              "pos": "prep."
+            }
+          }
+        },
+        "the": {
+          "lemma": "the",
+          "translation": "这/那",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这；那；（用于特指）；（用于最高级前）",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "Reduce the amount of red meat in your diet.": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "（特指）",
+              "pos": "art."
+            }
+          }
+        },
+        "united": {
+          "lemma": "united",
+          "translation": "联合的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "联合的；团结的；统一的；共同的",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "联合的",
+              "pos": "adj."
+            }
+          }
+        },
+        "states": {
+          "lemma": "state",
+          "translation": "州",
+          "pos": "n.",
+          "forms": "state, stating, stated",
+          "meanings": "州；国家；状态；陈述",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "州",
+              "pos": "n."
+            }
+          }
+        },
+        "are": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, were, been, being",
+          "meanings": "是；有；在；位于；成为",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "obese": {
+          "lemma": "obese",
+          "translation": "肥胖的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "肥胖的；过胖的；极度超重的",
+          "contexts": {
+            "More than one-third of adults in the United States are obese .": {
+              "translation": "肥胖的",
+              "pos": "adj."
+            }
+          }
+        },
+        "fact": {
+          "lemma": "fact",
+          "translation": "事实",
+          "pos": "n.",
+          "forms": "facts",
+          "meanings": "事实；真相；实际情况；真实性",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "事实",
+              "pos": "n."
+            }
+          }
+        },
+        "over": {
+          "lemma": "over",
+          "translation": "超过",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "越过；在……上方；关于；超过；遍及",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "超过",
+              "pos": "prep."
+            }
+          }
+        },
+        "obesity": {
+          "lemma": "obesity",
+          "translation": "肥胖症",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "肥胖症；肥胖；过胖",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "肥胖症",
+              "pos": "n."
+            },
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "肥胖症",
+              "pos": "n."
+            }
+          }
+        },
+        "has": {
+          "lemma": "have",
+          "translation": "已经",
+          "pos": "aux.",
+          "forms": "has, had, having",
+          "meanings": "已经；有；经历；吃；使",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "已经",
+              "pos": "aux."
+            },
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "有",
+              "pos": "v."
+            }
+          }
+        },
+        "reached": {
+          "lemma": "reach",
+          "translation": "达到",
+          "pos": "v.",
+          "forms": "reaches, reaching, reached",
+          "meanings": "到达；达到；取得联系；伸手触及；延伸",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "达到",
+              "pos": "v."
+            }
+          }
+        },
+        "such": {
+          "lemma": "such",
+          "translation": "如此的",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "这样的；如此的；例如；十分的",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "如此的",
+              "pos": "det."
+            }
+          }
+        },
+        "proportions": {
+          "lemma": "proportion",
+          "translation": "程度",
+          "pos": "n.",
+          "forms": "proportions",
+          "meanings": "比例；程度；部分；规模",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "程度",
+              "pos": "n."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "如此……以至于",
+          "pos": "conj.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；如此",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "如此……以至于",
+              "pos": "conj."
+            },
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "引导定语从句",
+              "pos": "pron."
+            },
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "那么",
+              "pos": "adv."
+            },
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "那个",
+              "pos": "pron."
+            }
+          }
+        },
+        "big": {
+          "lemma": "big",
+          "translation": "大城市的",
+          "pos": "adj.",
+          "forms": "bigger, biggest",
+          "meanings": "年长的；大的；重大的；大城市的",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "大城市的",
+              "pos": "adj."
+            }
+          }
+        },
+        "city": {
+          "lemma": "city",
+          "translation": "城市",
+          "pos": "n.",
+          "forms": "cities",
+          "meanings": "城市；都市；全市居民",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "城市",
+              "pos": "n."
+            }
+          }
+        },
+        "mayor": {
+          "lemma": "mayor",
+          "translation": "市长",
+          "pos": "n.",
+          "forms": "mayors",
+          "meanings": "市长；镇长；市长职位",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "市长",
+              "pos": "n."
+            }
+          }
+        },
+        "gone": {
+          "lemma": "go",
+          "translation": "着手处理",
+          "pos": "v.",
+          "forms": "went, gone, going, goes",
+          "meanings": "去；走；着手；运行；离去",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "着手处理",
+              "pos": "v."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "着手于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围；着手于",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "着手于",
+              "pos": "prep."
+            }
+          }
+        },
+        "banning": {
+          "lemma": "ban",
+          "translation": "禁止",
+          "pos": "v.",
+          "forms": "banned, banning, bans",
+          "meanings": "禁止；取缔；禁令；封杀",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "禁止",
+              "pos": "v."
+            }
+          }
+        },
+        "large": {
+          "lemma": "large",
+          "translation": "大规格的",
+          "pos": "adj.",
+          "forms": "larger, largest",
+          "meanings": "大的；大规模的；大量的；大规格的",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "大规格的",
+              "pos": "adj."
+            },
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "大的",
+              "pos": "adj."
+            }
+          }
+        },
+        "sized": {
+          "lemma": "sized",
+          "translation": "有……尺寸的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "有……尺寸的；具有……规格的",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "有……尺寸的",
+              "pos": "adj."
+            }
+          }
+        },
+        "sugary": {
+          "lemma": "sugary",
+          "translation": "含糖的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "含糖的；甜的；过分甜腻的",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "含糖的",
+              "pos": "adj."
+            },
+            "Drink more water and less sugary drinks.": {
+              "translation": "含糖的",
+              "pos": "adj."
+            }
+          }
+        },
+        "soft": {
+          "lemma": "soft",
+          "translation": "非酒精的（饮料）",
+          "pos": "adj.",
+          "forms": "softer, softest",
+          "meanings": "软的；柔和的；非酒精的（饮料）；温和的",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "非酒精的",
+              "pos": "adj."
+            }
+          }
+        },
+        "drinks": {
+          "lemma": "drink",
+          "translation": "饮料",
+          "pos": "n.",
+          "forms": "drink, drinks, drank, drunk, drinking",
+          "meanings": "饮料；酒；喝酒；喝",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "饮料",
+              "pos": "n."
+            },
+            "Drink more water and less sugary drinks.": {
+              "translation": "饮料",
+              "pos": "n."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "而且",
+              "pos": "conj."
+            },
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "并且",
+              "pos": "conj."
+            },
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "而且",
+              "pos": "conj."
+            },
+            "Limit your intake of salt and starches.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Drink more water and less sugary drinks.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "和",
+              "pos": "conj."
+            }
+          }
+        },
+        "first": {
+          "lemma": "first",
+          "translation": "第一",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "第一；首要的；最初；首先",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "第一",
+              "pos": "adj."
+            },
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "第一",
+              "pos": "adj."
+            }
+          }
+        },
+        "lady": {
+          "lemma": "lady",
+          "translation": "夫人",
+          "pos": "n.",
+          "forms": "ladies",
+          "meanings": "女士；夫人；小姐；举止优雅的女性",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "夫人",
+              "pos": "n."
+            }
+          }
+        },
+        "been": {
+          "lemma": "be",
+          "translation": "已经",
+          "pos": "aux.",
+          "forms": "am, is, are, being, was, were",
+          "meanings": "是；成为；存在；发生；已经",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "已经",
+              "pos": "aux."
+            }
+          }
+        },
+        "on": {
+          "lemma": "on",
+          "translation": "在……进行",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之上；在……时；关于；继续",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "在……进行",
+              "pos": "prep."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一场",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何；一种；同一",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "一场",
+              "pos": "art."
+            },
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "一种",
+              "pos": "art."
+            },
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Try to work in a daily walk in your neighborhood.": {
+              "translation": "一次",
+              "pos": "art."
+            }
+          }
+        },
+        "campaign": {
+          "lemma": "campaign",
+          "translation": "活动",
+          "pos": "n.",
+          "forms": "campaigns",
+          "meanings": "活动；运动；战役；竞选活动",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "活动",
+              "pos": "n."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "用于构成不定式",
+          "pos": "particle",
+          "forms": "无常见变形",
+          "meanings": "用于构成不定式；对于；向；给；到",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "达到",
+              "pos": "prep."
+            },
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "Try to work in a daily walk in your neighborhood.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            }
+          }
+        },
+        "control": {
+          "lemma": "control",
+          "translation": "控制",
+          "pos": "v.",
+          "forms": "controls, controlled, controlling",
+          "meanings": "控制；管理；支配；限制",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "控制",
+              "pos": "v."
+            }
+          }
+        },
+        "dietary": {
+          "lemma": "dietary",
+          "translation": "饮食的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "饮食的；与饮食相关的；规定饮食的",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "与饮食相关的",
+              "pos": "adj."
+            }
+          }
+        },
+        "offerings": {
+          "lemma": "offering",
+          "translation": "供应品",
+          "pos": "n.",
+          "forms": "offerings",
+          "meanings": "供应品；祭品；提议；提供的东西",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "供应的东西",
+              "pos": "n."
+            }
+          }
+        },
+        "public": {
+          "lemma": "public",
+          "translation": "公立的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "公立的；公共的；公开的；大众的",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "公立的",
+              "pos": "adj."
+            }
+          }
+        },
+        "schools": {
+          "lemma": "school",
+          "translation": "学校",
+          "pos": "n.",
+          "forms": "schools",
+          "meanings": "学校；学院；学派；教育",
+          "contexts": {
+            "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.": {
+              "translation": "学校",
+              "pos": "n."
+            }
+          }
+        },
+        "even": {
+          "lemma": "even",
+          "translation": "甚至",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "甚至；即使；平坦的；偶数的",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "甚至",
+              "pos": "adv."
+            },
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "更加（用于比较级前）",
+              "pos": "adv."
+            }
+          }
+        },
+        "many": {
+          "lemma": "many",
+          "translation": "许多",
+          "pos": "adj.",
+          "forms": "more, most",
+          "meanings": "许多；大量；许多人",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "许多",
+              "pos": "adj."
+            }
+          }
+        },
+        "who": {
+          "lemma": "who",
+          "translation": "……的人",
+          "pos": "pron.",
+          "forms": "whom, whose",
+          "meanings": "谁；……的人；（引导定语从句）",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "……的人",
+              "pos": "pron."
+            }
+          }
+        },
+        "do": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "v.",
+          "forms": "did, done, doing, does",
+          "meanings": "做；干；进行；引起；起到……作用",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "做（辅助否定）",
+              "pos": "aux."
+            },
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "做/有关",
+              "pos": "v."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是；绝非",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "fit": {
+          "lemma": "fit",
+          "translation": "符合",
+          "pos": "v.",
+          "forms": "fitted/fit, fitting, fits",
+          "meanings": "符合；适合；安装；使适应；合身",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "符合",
+              "pos": "v."
+            }
+          }
+        },
+        "clinic": {
+          "lemma": "clinic",
+          "translation": "临床的",
+          "pos": "adj.",
+          "forms": "clinics",
+          "meanings": "临床的；诊所的；私人的；集体诊疗的",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "临床的",
+              "pos": "adj."
+            }
+          }
+        },
+        "definition": {
+          "lemma": "definition",
+          "translation": "定义",
+          "pos": "n.",
+          "forms": "definitions",
+          "meanings": "定义；释义；清晰度；解释",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "定义",
+              "pos": "n."
+            }
+          }
+        },
+        "still": {
+          "lemma": "still",
+          "translation": "仍然",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仍然；更；静止的；尽管如此",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "仍然",
+              "pos": "adv."
+            }
+          }
+        },
+        "overweight": {
+          "lemma": "overweight",
+          "translation": "超重的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "超重的；重量超标的；过重的",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "超重的",
+              "pos": "adj."
+            },
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "超重的",
+              "pos": "adj."
+            }
+          }
+        },
+        "percentage": {
+          "lemma": "percentage",
+          "translation": "比例",
+          "pos": "n.",
+          "forms": "percentages",
+          "meanings": "比例；百分率；百分比；部分",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "比例",
+              "pos": "n."
+            }
+          }
+        },
+        "looking": {
+          "lemma": "look",
+          "translation": "寻找",
+          "pos": "v.",
+          "forms": "looks, looked, looking",
+          "meanings": "寻找；看起来；注视；留意",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "寻找",
+              "pos": "v."
+            }
+          }
+        },
+        "for": {
+          "lemma": "for",
+          "translation": "为了",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "为了；寻找；支持；因为；对……而言",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "对于",
+              "pos": "prep."
+            },
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "顾及",
+              "pos": "prep."
+            }
+          }
+        },
+        "best": {
+          "lemma": "best",
+          "translation": "最好的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "最好的；最优秀的；最合适的",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "最好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "ways": {
+          "lemma": "way",
+          "translation": "方法",
+          "pos": "n.",
+          "forms": "ways",
+          "meanings": "方法；途径；道路；方向",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "方法",
+              "pos": "n."
+            }
+          }
+        },
+        "lose": {
+          "lemma": "lose",
+          "translation": "减轻",
+          "pos": "v.",
+          "forms": "losing, lost, loses",
+          "meanings": "减轻（体重）；失去；丢失；输掉",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "减轻",
+              "pos": "v."
+            }
+          }
+        },
+        "weight": {
+          "lemma": "weight",
+          "translation": "体重",
+          "pos": "n.",
+          "forms": "weights, weighting, weighted",
+          "meanings": "重量；体重；重物；分量；重要性",
+          "contexts": {
+            "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.": {
+              "translation": "体重",
+              "pos": "n."
+            },
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "体重",
+              "pos": "n."
+            }
+          }
+        },
+        "reducing": {
+          "lemma": "reduce",
+          "translation": "减少",
+          "pos": "v.",
+          "forms": "reduces, reduced, reducing",
+          "meanings": "减少；缩小；降低；简化；使陷于",
+          "contexts": {
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "减少",
+              "pos": "v."
+            }
+          }
+        },
+        "pounds": {
+          "lemma": "pound",
+          "translation": "磅（重量单位）",
+          "pos": "n.",
+          "forms": "pounds",
+          "meanings": "磅（重量单位）；英镑；猛击；重击",
+          "contexts": {
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "体重（磅）",
+              "pos": "n."
+            }
+          }
+        },
+        "largely": {
+          "lemma": "largely",
+          "translation": "主要地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "主要地；很大程度上；基本上；广泛地",
+          "contexts": {
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "很大程度上",
+              "pos": "adv."
+            }
+          }
+        },
+        "comes": {
+          "lemma": "come",
+          "translation": "（问题、情况）归结为",
+          "pos": "v.",
+          "forms": "comes, came, coming",
+          "meanings": "来到；到达；出现；发生；归结为",
+          "contexts": {
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "归结为",
+              "pos": "v."
+            }
+          }
+        },
+        "down": {
+          "lemma": "down",
+          "translation": "（归结）为",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向下；减少；减弱；减缓；处于低迷状态",
+          "contexts": {
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "（与come连用，表示归结为）",
+              "pos": "adv."
+            }
+          }
+        },
+        "two": {
+          "lemma": "two",
+          "translation": "二",
+          "pos": "num.",
+          "forms": "无常见变形",
+          "meanings": "二；两个；两个一组；二重奏",
+          "contexts": {
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "两个",
+              "pos": "num."
+            }
+          }
+        },
+        "sided": {
+          "lemma": "sided",
+          "translation": "有...面的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "有...面的；片面的；偏袒的",
+          "contexts": {
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "双面的",
+              "pos": "adj."
+            }
+          }
+        },
+        "factors": {
+          "lemma": "factor",
+          "translation": "因素",
+          "pos": "n.",
+          "forms": "factors",
+          "meanings": "因素；要素；比例；因子",
+          "contexts": {
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "因素",
+              "pos": "n."
+            }
+          }
+        },
+        "diet": {
+          "lemma": "diet",
+          "translation": "日常饮食",
+          "pos": "n.",
+          "forms": "diets, dieting, dieted",
+          "meanings": "日常饮食；节食；特种饮食；低糖饮料",
+          "contexts": {
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "饮食",
+              "pos": "n."
+            },
+            "Reduce the amount of red meat in your diet.": {
+              "translation": "饮食",
+              "pos": "n."
+            },
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "饮食",
+              "pos": "n."
+            },
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "无糖的",
+              "pos": "adj."
+            }
+          }
+        },
+        "exercise": {
+          "lemma": "exercise",
+          "translation": "锻炼",
+          "pos": "n.",
+          "forms": "exercises, exercising, exercised",
+          "meanings": "锻炼；练习；运动；运用",
+          "contexts": {
+            "Reducing pounds largely comes down to the two-sided factors of diet and exercise.": {
+              "translation": "锻炼",
+              "pos": "n."
+            },
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "运动",
+              "pos": "v."
+            }
+          }
+        },
+        "carrying": {
+          "lemma": "carry",
+          "translation": "执行",
+          "pos": "v.",
+          "forms": "carried, carrying, carries",
+          "meanings": "携带；运送；支撑；负荷；执行",
+          "contexts": {
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "执行",
+              "pos": "v."
+            }
+          }
+        },
+        "out": {
+          "lemma": "out",
+          "translation": "（与动词连用表示彻底或完成）",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "彻底地；向外；离开；（与动词连用表示完成）；显露出来",
+          "contexts": {
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "（与动词连用表示彻底或完成）",
+              "pos": "adv."
+            }
+          }
+        },
+        "enough": {
+          "lemma": "enough",
+          "translation": "足够地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "足够的；充分的；足够地；果然；够了",
+          "contexts": {
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "足够地",
+              "pos": "adv."
+            }
+          }
+        },
+        "getting": {
+          "lemma": "get",
+          "translation": "获得",
+          "pos": "v.",
+          "forms": "getting, got, gotten/got",
+          "meanings": "变得；获得；到达；理解；着手做",
+          "contexts": {
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "获得",
+              "pos": "v."
+            }
+          }
+        },
+        "second": {
+          "lemma": "second",
+          "translation": "第二",
+          "pos": "adj.",
+          "forms": "seconds",
+          "meanings": "第二；秒；瞬间；第二名",
+          "contexts": {
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "第二",
+              "pos": "adj."
+            }
+          }
+        },
+        "ends": {
+          "lemma": "end",
+          "translation": "最终导致",
+          "pos": "v.",
+          "forms": "ended, ending, ends",
+          "meanings": "结束；终止；终点；目标；最终导致",
+          "contexts": {
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "最终导致",
+              "pos": "v."
+            }
+          }
+        },
+        "up": {
+          "lemma": "up",
+          "translation": "（与动词连用表示结果）",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向上；完成；起床；未睡；彻底",
+          "contexts": {
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "（与动词连用表示结果）",
+              "pos": "adv."
+            }
+          }
+        },
+        "giving": {
+          "lemma": "give",
+          "translation": "给予",
+          "pos": "v.",
+          "forms": "gave, given, giving",
+          "meanings": "给；提供；发出；赠送",
+          "contexts": {
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "给予",
+              "pos": "v."
+            }
+          }
+        },
+        "individual": {
+          "lemma": "individual",
+          "translation": "个人",
+          "pos": "n.",
+          "forms": "individuals",
+          "meanings": "个别的；单独的；独特的；个人的；个人",
+          "contexts": {
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "个人",
+              "pos": "n."
+            }
+          }
+        },
+        "recipe": {
+          "lemma": "recipe",
+          "translation": "方法",
+          "pos": "n.",
+          "forms": "recipes",
+          "meanings": "烹饪法；食谱；方法；秘诀；导致...的原因",
+          "contexts": {
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "导致超重的方法",
+              "pos": "n."
+            }
+          }
+        },
+        "being": {
+          "lemma": "be",
+          "translation": "处于某种状态",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, been, being",
+          "meanings": "存在；处于某种状态；表现；成为；作为",
+          "contexts": {
+            "Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.": {
+              "translation": "处于超重状态",
+              "pos": "v."
+            }
+          }
+        },
+        "advising": {
+          "lemma": "advise",
+          "translation": "建议",
+          "pos": "v.",
+          "forms": "advises, advised, advising",
+          "meanings": "建议；劝告；通知；商量",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "建议",
+              "pos": "v."
+            }
+          }
+        },
+        "someone": {
+          "lemma": "someone",
+          "translation": "某人",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "某人；有人；重要人物",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "某人",
+              "pos": "pron."
+            }
+          }
+        },
+        "eat": {
+          "lemma": "eat",
+          "translation": "吃",
+          "pos": "v.",
+          "forms": "ate, eaten, eating",
+          "meanings": "吃；进食；腐蚀",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "吃",
+              "pos": "v."
+            },
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "吃",
+              "pos": "v."
+            }
+          }
+        },
+        "less": {
+          "lemma": "less",
+          "translation": "较少的",
+          "pos": "adj.",
+          "forms": "little, less, least",
+          "meanings": "较少的；更少的；较小程度的",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "较少地",
+              "pos": "adv."
+            },
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "较少的",
+              "pos": "adj."
+            },
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "较少的",
+              "pos": "adj."
+            },
+            "Drink more water and less sugary drinks.": {
+              "translation": "较少的",
+              "pos": "adj."
+            }
+          }
+        },
+        "might": {
+          "lemma": "might",
+          "translation": "可能",
+          "pos": "modal verb",
+          "forms": "无常见变形",
+          "meanings": "可能；可以；也许",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "可能",
+              "pos": "modal verb"
+            },
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "可能",
+              "pos": "modal verb"
+            }
+          }
+        },
+        "be": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；成为；（构成进行时或被动语态）",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "easiest": {
+          "lemma": "easy",
+          "translation": "最容易的",
+          "pos": "adj.",
+          "forms": "easier, easiest",
+          "meanings": "最容易的；最简单的；最舒适的",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "最容易的",
+              "pos": "adj."
+            }
+          }
+        },
+        "advice": {
+          "lemma": "advice",
+          "translation": "建议",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "建议；忠告；通知；劝告",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "建议",
+              "pos": "n."
+            }
+          }
+        },
+        "possible": {
+          "lemma": "possible",
+          "translation": "可能的",
+          "pos": "adj.",
+          "forms": "possibly (adv.), possibility (n.)",
+          "meanings": "可能的；合理的；能做到的；潜在的；尽可能地",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "可能的",
+              "pos": "adj."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "it's": {
+          "lemma": "it is",
+          "translation": "它是",
+          "pos": "phrase",
+          "forms": "无常见变形",
+          "meanings": "它是；情况是；这是",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "这是",
+              "pos": "phrase"
+            },
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "这是",
+              "pos": "phrase"
+            }
+          }
+        },
+        "also": {
+          "lemma": "also",
+          "translation": "也",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "也；同样；并且；而且",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "也",
+              "pos": "adv."
+            }
+          }
+        },
+        "partially": {
+          "lemma": "partially",
+          "translation": "部分地",
+          "pos": "adv.",
+          "forms": "partial (adj.)",
+          "meanings": "部分地；在某种程度上；不完全地",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "部分地",
+              "pos": "adv."
+            }
+          }
+        },
+        "an": {
+          "lemma": "an",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "一个；每一；任何",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "oversimplification": {
+          "lemma": "oversimplification",
+          "translation": "简单化",
+          "pos": "n.",
+          "forms": "oversimplify (v.)",
+          "meanings": "过度简化；过于简单化",
+          "contexts": {
+            "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.": {
+              "translation": "过于简单化",
+              "pos": "n."
+            }
+          }
+        },
+        "dieting": {
+          "lemma": "diet",
+          "translation": "节食",
+          "pos": "v.",
+          "forms": "dieted, dieting, diets",
+          "meanings": "节食；进行饮食疗法；日常饮食",
+          "contexts": {
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "节食",
+              "pos": "v."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "与……一起；使用；带有；由于；关于",
+          "contexts": {
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "带有",
+              "pos": "prep."
+            }
+          }
+        },
+        "types": {
+          "lemma": "type",
+          "translation": "类型",
+          "pos": "n.",
+          "forms": "types, typed, typing",
+          "meanings": "类型；种类；典型；打字",
+          "contexts": {
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "种类",
+              "pos": "n."
+            }
+          }
+        },
+        "food": {
+          "lemma": "food",
+          "translation": "食物",
+          "pos": "n.",
+          "forms": "foods",
+          "meanings": "食物；食品；养料；营养物",
+          "contexts": {
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "食物",
+              "pos": "n."
+            }
+          }
+        },
+        "you": {
+          "lemma": "you",
+          "translation": "你",
+          "pos": "pron.",
+          "forms": "your; yours; yourself",
+          "meanings": "你；你们；人们（泛指）；本人",
+          "contexts": {
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "你",
+              "pos": "pron."
+            }
+          }
+        },
+        "how": {
+          "lemma": "how",
+          "translation": "多少",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "如何；多少；多么；状况",
+          "contexts": {
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "多少",
+              "pos": "adv."
+            }
+          }
+        },
+        "much": {
+          "lemma": "much",
+          "translation": "多少",
+          "pos": "pron.",
+          "forms": "more, most",
+          "meanings": "很多；大量；多；非常；经常",
+          "contexts": {
+            "Dieting has more to do with the types of food you eat than how much you eat.": {
+              "translation": "多少",
+              "pos": "pron."
+            },
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "很多",
+              "pos": "pron."
+            }
+          }
+        },
+        "reduce": {
+          "lemma": "reduce",
+          "translation": "减少",
+          "pos": "v.",
+          "forms": "reduces, reduced, reducing",
+          "meanings": "减少；降低；缩小；使处于某种状态",
+          "contexts": {
+            "Reduce the amount of red meat in your diet.": {
+              "translation": "减少",
+              "pos": "v."
+            }
+          }
+        },
+        "amount": {
+          "lemma": "amount",
+          "translation": "数量",
+          "pos": "n.",
+          "forms": "amounts, amounted, amounting",
+          "meanings": "数量；总额；总计；数额",
+          "contexts": {
+            "Reduce the amount of red meat in your diet.": {
+              "translation": "数量",
+              "pos": "n."
+            }
+          }
+        },
+        "red": {
+          "lemma": "red",
+          "translation": "红色的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "红色的；红色的东西；赤字；红色",
+          "contexts": {
+            "Reduce the amount of red meat in your diet.": {
+              "translation": "红色的",
+              "pos": "adj."
+            },
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "红色的",
+              "pos": "adj."
+            }
+          }
+        },
+        "meat": {
+          "lemma": "meat",
+          "translation": "肉",
+          "pos": "n.",
+          "forms": "meats",
+          "meanings": "肉；食用肉类；实质；精髓",
+          "contexts": {
+            "Reduce the amount of red meat in your diet.": {
+              "translation": "肉",
+              "pos": "n."
+            },
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "肉",
+              "pos": "n."
+            }
+          }
+        },
+        "your": {
+          "lemma": "your",
+          "translation": "你的",
+          "pos": "pron.",
+          "forms": "yours",
+          "meanings": "你的；你们的",
+          "contexts": {
+            "Reduce the amount of red meat in your diet.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "Limit your intake of salt and starches.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "Try to work in a daily walk in your neighborhood.": {
+              "translation": "你的",
+              "pos": "pron."
+            }
+          }
+        },
+        "if": {
+          "lemma": "if",
+          "translation": "如果",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "如果；是否；即使；仿佛",
+          "contexts": {
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "如果",
+              "pos": "conj."
+            },
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "如果",
+              "pos": "conj."
+            },
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "如果",
+              "pos": "conj."
+            },
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "如果",
+              "pos": "conj."
+            },
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "如果",
+              "pos": "conj."
+            }
+          }
+        },
+        "don't": {
+          "lemma": "do",
+          "translation": "不",
+          "pos": "aux.",
+          "forms": "无常见变形",
+          "meanings": "不（助动词否定形式）；不做；进行；表现",
+          "contexts": {
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "不",
+              "pos": "aux."
+            }
+          }
+        },
+        "want": {
+          "lemma": "want",
+          "translation": "想要",
+          "pos": "v.",
+          "forms": "wanted, wanting, wants",
+          "meanings": "想要；希望；需要；缺乏",
+          "contexts": {
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "想要",
+              "pos": "v."
+            }
+          }
+        },
+        "eliminate": {
+          "lemma": "eliminate",
+          "translation": "消除",
+          "pos": "v.",
+          "forms": "eliminates, eliminated, eliminating",
+          "meanings": "消除；排除；剔除；淘汰",
+          "contexts": {
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "消除",
+              "pos": "v."
+            }
+          }
+        },
+        "altogether": {
+          "lemma": "altogether",
+          "translation": "完全",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "完全；总共；总而言之；全部",
+          "contexts": {
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "完全",
+              "pos": "adv."
+            }
+          }
+        },
+        "choose": {
+          "lemma": "choose",
+          "translation": "选择",
+          "pos": "v.",
+          "forms": "chooses, chose, chosen, choosing",
+          "meanings": "选择；决定；挑选；选定",
+          "contexts": {
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "选择",
+              "pos": "v."
+            },
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "选择",
+              "pos": "v."
+            }
+          }
+        },
+        "cuts": {
+          "lemma": "cut",
+          "translation": "肉块",
+          "pos": "n.",
+          "forms": "cuts",
+          "meanings": "肉块；削减；切口；伤口",
+          "contexts": {
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "肉块",
+              "pos": "n."
+            }
+          }
+        },
+        "fat": {
+          "lemma": "fat",
+          "translation": "脂肪",
+          "pos": "n.",
+          "forms": "fats",
+          "meanings": "脂肪；肥胖；油腻的；肥厚的",
+          "contexts": {
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "脂肪",
+              "pos": "n."
+            },
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "脂肪",
+              "pos": "n."
+            }
+          }
+        },
+        "content": {
+          "lemma": "content",
+          "translation": "含量",
+          "pos": "n.",
+          "forms": "contents",
+          "meanings": "含量；内容；目录；容量",
+          "contexts": {
+            "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.": {
+              "translation": "含量",
+              "pos": "n."
+            }
+          }
+        },
+        "limit": {
+          "lemma": "limit",
+          "translation": "限制",
+          "pos": "v.",
+          "forms": "limits; limiting; limited",
+          "meanings": "限制；限定；限度；界限",
+          "contexts": {
+            "Limit your intake of salt and starches.": {
+              "translation": "限制",
+              "pos": "v."
+            }
+          }
+        },
+        "intake": {
+          "lemma": "intake",
+          "translation": "摄入量",
+          "pos": "n.",
+          "forms": "intakes",
+          "meanings": "摄入量；吸入；纳入；进气口",
+          "contexts": {
+            "Limit your intake of salt and starches.": {
+              "translation": "摄入量",
+              "pos": "n."
+            }
+          }
+        },
+        "salt": {
+          "lemma": "salt",
+          "translation": "盐",
+          "pos": "n.",
+          "forms": "salts, salted, salting",
+          "meanings": "盐；食盐；咸味；用盐腌制",
+          "contexts": {
+            "Limit your intake of salt and starches.": {
+              "translation": "盐",
+              "pos": "n."
+            }
+          }
+        },
+        "starches": {
+          "lemma": "starch",
+          "translation": "淀粉",
+          "pos": "n.",
+          "forms": "starches, starched, starching",
+          "meanings": "淀粉；淀粉类食物；浆糊",
+          "contexts": {
+            "Limit your intake of salt and starches.": {
+              "translation": "淀粉类食物",
+              "pos": "n."
+            }
+          }
+        },
+        "you've": {
+          "lemma": "you have",
+          "translation": "你已经",
+          "pos": "pron. + v.",
+          "forms": "无常见变形",
+          "meanings": "你已经；你拥有",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "你已经",
+              "pos": "pron. + v."
+            }
+          }
+        },
+        "got": {
+          "lemma": "get",
+          "translation": "得到",
+          "pos": "v.",
+          "forms": "got, gotten/got, getting",
+          "meanings": "得到；变成；到达；明白",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "不得不（在have got to结构中）",
+              "pos": "v."
+            }
+          }
+        },
+        "have": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "has, had, having",
+          "meanings": "有；经历；吃；（完成时态助动词）",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "吃/喝",
+              "pos": "v."
+            },
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "喝",
+              "pos": "v."
+            }
+          }
+        },
+        "potato": {
+          "lemma": "potato",
+          "translation": "马铃薯",
+          "pos": "n.",
+          "forms": "potatoes",
+          "meanings": "马铃薯；土豆",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "马铃薯",
+              "pos": "n."
+            }
+          }
+        },
+        "chips": {
+          "lemma": "chip",
+          "translation": "炸薯片",
+          "pos": "n.",
+          "forms": "chips, chipped, chipping",
+          "meanings": "炸薯片；碎片；集成电路块",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "炸薯片",
+              "pos": "n."
+            }
+          }
+        },
+        "alongside": {
+          "lemma": "alongside",
+          "translation": "在……旁边",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……旁边；与……一起；在……侧面",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "在……旁边",
+              "pos": "prep."
+            }
+          }
+        },
+        "sandwich": {
+          "lemma": "sandwich",
+          "translation": "三明治",
+          "pos": "n.",
+          "forms": "sandwiches",
+          "meanings": "三明治；夹心面包",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "三明治",
+              "pos": "n."
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "在（某时间/地点）",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/地点）；以（某种程度）；向；针对",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "以（某种程度/数值）",
+              "pos": "prep."
+            }
+          }
+        },
+        "lunch": {
+          "lemma": "lunch",
+          "translation": "午餐",
+          "pos": "n.",
+          "forms": "lunches",
+          "meanings": "午餐；午饭",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "午餐",
+              "pos": "n."
+            }
+          }
+        },
+        "baked": {
+          "lemma": "bake",
+          "translation": "烘焙的",
+          "pos": "adj.",
+          "forms": "baking, baked, bakes",
+          "meanings": "烘焙的；烤制的；烤熟的",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "烘焙的",
+              "pos": "adj."
+            }
+          }
+        },
+        "contain": {
+          "lemma": "contain",
+          "translation": "包含",
+          "pos": "v.",
+          "forms": "contains, contained, containing",
+          "meanings": "包含；容纳；克制（情绪）；装有",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "包含",
+              "pos": "v."
+            }
+          }
+        },
+        "deep": {
+          "lemma": "deep",
+          "translation": "深的",
+          "pos": "adj.",
+          "forms": "deeper, deepest",
+          "meanings": "深的；深重的；深刻的；深奥的",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "深（油炸）",
+              "pos": "adv."
+            }
+          }
+        },
+        "fried": {
+          "lemma": "fry",
+          "translation": "油炸的",
+          "pos": "adj.",
+          "forms": "frying, fried, fries",
+          "meanings": "油炸的；炒的",
+          "contexts": {
+            "If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.": {
+              "translation": "油炸的",
+              "pos": "adj."
+            }
+          }
+        },
+        "find": {
+          "lemma": "find",
+          "translation": "发现",
+          "pos": "v.",
+          "forms": "found, finding, finds",
+          "meanings": "发现；找到；认为；发觉",
+          "contexts": {
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "发现",
+              "pos": "v."
+            }
+          }
+        },
+        "you're": {
+          "lemma": "you are",
+          "translation": "你是",
+          "pos": "v.",
+          "forms": "无常见变形",
+          "meanings": "你是；你们是",
+          "contexts": {
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "你是",
+              "pos": "v."
+            }
+          }
+        },
+        "really": {
+          "lemma": "really",
+          "translation": "确实",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "确实；真正地；非常；实际上",
+          "contexts": {
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "确实",
+              "pos": "adv."
+            }
+          }
+        },
+        "sacrificing": {
+          "lemma": "sacrifice",
+          "translation": "牺牲",
+          "pos": "v.",
+          "forms": "sacrifices, sacrificed, sacrificing",
+          "meanings": "牺牲；放弃（某事物）；献祭",
+          "contexts": {
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "牺牲（放弃）",
+              "pos": "v."
+            }
+          }
+        },
+        "terms": {
+          "lemma": "term",
+          "translation": "方面",
+          "pos": "n.",
+          "forms": "terms",
+          "meanings": "方面；术语；条款；学期",
+          "contexts": {
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "方面",
+              "pos": "n."
+            }
+          }
+        },
+        "taste": {
+          "lemma": "taste",
+          "translation": "口味",
+          "pos": "n.",
+          "forms": "tastes, tasted, tasting",
+          "meanings": "口味；味道；品味；尝试",
+          "contexts": {
+            "You might find you're really not sacrificing that much in terms of taste.": {
+              "translation": "口味",
+              "pos": "n."
+            }
+          }
+        },
+        "rich": {
+          "lemma": "rich",
+          "translation": "丰富的",
+          "pos": "adj.",
+          "forms": "richer, richest",
+          "meanings": "有钱的；富有的；丰富的；肥沃的",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "丰富的",
+              "pos": "adj."
+            }
+          }
+        },
+        "fruits": {
+          "lemma": "fruit",
+          "translation": "水果",
+          "pos": "n.",
+          "forms": "fruit (复数同形或fruits)",
+          "meanings": "水果；果实；成果；产物",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "水果",
+              "pos": "n."
+            }
+          }
+        },
+        "vegetables": {
+          "lemma": "vegetable",
+          "translation": "蔬菜",
+          "pos": "n.",
+          "forms": "vegetables",
+          "meanings": "蔬菜；植物人",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "蔬菜",
+              "pos": "n."
+            }
+          }
+        },
+        "egg": {
+          "lemma": "egg",
+          "translation": "蛋",
+          "pos": "n.",
+          "forms": "eggs (复数)",
+          "meanings": "蛋；鸡蛋；卵",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "蛋",
+              "pos": "n."
+            }
+          }
+        },
+        "whites": {
+          "lemma": "white",
+          "translation": "蛋白",
+          "pos": "n.",
+          "forms": "whites",
+          "meanings": "蛋白；白色；白种人",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "蛋白",
+              "pos": "n."
+            }
+          }
+        },
+        "fish": {
+          "lemma": "fish",
+          "translation": "鱼",
+          "pos": "n.",
+          "forms": "fish (复数同形)",
+          "meanings": "鱼；鱼肉；捕鱼",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "鱼",
+              "pos": "n."
+            }
+          }
+        },
+        "nonfat": {
+          "lemma": "nonfat",
+          "translation": "无脂肪的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "无脂肪的；脱脂的",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "无脂肪的",
+              "pos": "adj."
+            }
+          }
+        },
+        "dairy": {
+          "lemma": "dairy",
+          "translation": "乳制品的",
+          "pos": "adj.",
+          "forms": "dairies",
+          "meanings": "乳制品的；乳品店；乳牛场",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "乳制品的",
+              "pos": "adj."
+            }
+          }
+        },
+        "products": {
+          "lemma": "product",
+          "translation": "产品",
+          "pos": "n.",
+          "forms": "products",
+          "meanings": "产品；产物；作品；成果",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "产品",
+              "pos": "n."
+            }
+          }
+        },
+        "will": {
+          "lemma": "will",
+          "translation": "将要",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将要；会；愿意；意志（名词）",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "将要",
+              "pos": "modal v."
+            }
+          }
+        },
+        "certainly": {
+          "lemma": "certainly",
+          "translation": "无疑地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "无疑地；肯定地；当然；行",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "无疑地",
+              "pos": "adv."
+            }
+          }
+        },
+        "aid": {
+          "lemma": "aid",
+          "translation": "帮助",
+          "pos": "v.",
+          "forms": "aids, aided, aiding",
+          "meanings": "帮助；援助；辅助设备；救援物资",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "帮助",
+              "pos": "v."
+            }
+          }
+        },
+        "mission": {
+          "lemma": "mission",
+          "translation": "任务",
+          "pos": "n.",
+          "forms": "missions",
+          "meanings": "任务；使命；代表团；传教区",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "任务",
+              "pos": "n."
+            }
+          }
+        },
+        "losing": {
+          "lemma": "lose",
+          "translation": "失去",
+          "pos": "v.",
+          "forms": "loses, lost, losing",
+          "meanings": "失去；丢失；输掉；迷失",
+          "contexts": {
+            "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.": {
+              "translation": "失去",
+              "pos": "v."
+            }
+          }
+        },
+        "drink": {
+          "lemma": "drink",
+          "translation": "喝",
+          "pos": "v.",
+          "forms": "drinks, drank, drunk, drinking",
+          "meanings": "喝；饮；饮料；酒；喝酒",
+          "contexts": {
+            "Drink more water and less sugary drinks.": {
+              "translation": "喝",
+              "pos": "v."
+            }
+          }
+        },
+        "water": {
+          "lemma": "water",
+          "translation": "水",
+          "pos": "n.",
+          "forms": "waters, watered, watering",
+          "meanings": "水；水域；给…浇水；流口水",
+          "contexts": {
+            "Drink more water and less sugary drinks.": {
+              "translation": "水",
+              "pos": "n."
+            }
+          }
+        },
+        "soda": {
+          "lemma": "soda",
+          "translation": "苏打水",
+          "pos": "n.",
+          "forms": "sodas",
+          "meanings": "苏打水；汽水；碳酸饮料",
+          "contexts": {
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "苏打水",
+              "pos": "n."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于；位于",
+          "contexts": {
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "better": {
+          "lemma": "good",
+          "translation": "更好的",
+          "pos": "adj.",
+          "forms": "best",
+          "meanings": "更好的；更优秀的；改善；胜过；更好地",
+          "contexts": {
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "更好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "option": {
+          "lemma": "option",
+          "translation": "选择",
+          "pos": "n.",
+          "forms": "options",
+          "meanings": "选择；选项；选择权；选修课",
+          "contexts": {
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "选择",
+              "pos": "n."
+            }
+          }
+        },
+        "seltzer": {
+          "lemma": "seltzer",
+          "translation": "苏打水",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "苏打水；碳酸水；起泡水",
+          "contexts": {
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "苏打水",
+              "pos": "n."
+            }
+          }
+        },
+        "choice": {
+          "lemma": "choice",
+          "translation": "选择",
+          "pos": "n.",
+          "forms": "choices",
+          "meanings": "选择；挑选；抉择；入选者",
+          "contexts": {
+            "If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.": {
+              "translation": "选择",
+              "pos": "n."
+            }
+          }
+        },
+        "important": {
+          "lemma": "important",
+          "translation": "重要的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "重要的；有影响力的；重大的；尊贵的",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "重要的",
+              "pos": "adj."
+            }
+          }
+        },
+        "always": {
+          "lemma": "always",
+          "translation": "总是",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "总是；一直；永远；始终",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "总是",
+              "pos": "adv."
+            }
+          }
+        },
+        "easy": {
+          "lemma": "easy",
+          "translation": "容易的",
+          "pos": "adj.",
+          "forms": "easier, easiest",
+          "meanings": "容易的；舒适的；从容的；安逸的",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "容易的",
+              "pos": "adj."
+            }
+          }
+        },
+        "make": {
+          "lemma": "make",
+          "translation": "使",
+          "pos": "v.",
+          "forms": "made, making, makes",
+          "meanings": "使；制作；制造；构成；制定",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "使得",
+              "pos": "v."
+            },
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "确保",
+              "pos": "v."
+            }
+          }
+        },
+        "sure": {
+          "lemma": "sure",
+          "translation": "确信的",
+          "pos": "adj.",
+          "forms": "surer, surest",
+          "meanings": "确信的；可靠的；当然；确实地",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "确保",
+              "pos": "adj."
+            },
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "务必",
+              "pos": "adj."
+            }
+          }
+        },
+        "get": {
+          "lemma": "get",
+          "translation": "获得",
+          "pos": "v.",
+          "forms": "gets, got, gotten, getting",
+          "meanings": "获得；变得；到达；理解；使得",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "获得",
+              "pos": "v."
+            }
+          }
+        },
+        "least": {
+          "lemma": "least",
+          "translation": "至少",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "至少；最少；最小；最不",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "至少",
+              "pos": "adv."
+            }
+          }
+        },
+        "some": {
+          "lemma": "some",
+          "translation": "一些",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "一些；某些；若干；相当数量",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "一些",
+              "pos": "adj."
+            }
+          }
+        },
+        "physical": {
+          "lemma": "physical",
+          "translation": "身体的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "身体的；物理的；物质的；体力的",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "身体的",
+              "pos": "adj."
+            }
+          }
+        },
+        "activity": {
+          "lemma": "activity",
+          "translation": "活动",
+          "pos": "n.",
+          "forms": "activities",
+          "meanings": "活动；活跃；行动；行为",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "活动",
+              "pos": "n."
+            }
+          }
+        },
+        "each": {
+          "lemma": "each",
+          "translation": "每个",
+          "pos": "adj./det.",
+          "forms": "无常见变形",
+          "meanings": "每个；各自的；每人；每",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "每个",
+              "pos": "adj./det."
+            }
+          }
+        },
+        "every": {
+          "lemma": "every",
+          "translation": "每一",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "每一个；所有；每隔",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "每一",
+              "pos": "det."
+            }
+          }
+        },
+        "day": {
+          "lemma": "day",
+          "translation": "天",
+          "pos": "n.",
+          "forms": "days",
+          "meanings": "天；白天；日子；时期；一日",
+          "contexts": {
+            "It's important--if not always easy--to make sure you get at least some physical activity each and every day.": {
+              "translation": "天",
+              "pos": "n."
+            }
+          }
+        },
+        "feet": {
+          "lemma": "foot",
+          "translation": "脚",
+          "pos": "n.",
+          "forms": "foot",
+          "meanings": "脚；足；英尺；底部",
+          "contexts": {
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "脚",
+              "pos": "n."
+            }
+          }
+        },
+        "won't": {
+          "lemma": "will",
+          "translation": "将要",
+          "pos": "aux.",
+          "forms": "无常见变形",
+          "meanings": "将；会；愿意；总是",
+          "contexts": {
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "不愿；不能（表意志或能力）",
+              "pos": "aux."
+            }
+          }
+        },
+        "allow": {
+          "lemma": "allow",
+          "translation": "允许",
+          "pos": "v.",
+          "forms": "allows, allowed, allowing",
+          "meanings": "允许；准许；承认；给予",
+          "contexts": {
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "允许",
+              "pos": "v."
+            }
+          }
+        },
+        "regular": {
+          "lemma": "regular",
+          "translation": "规律的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "定期的；规律的；匀称的；经常的",
+          "contexts": {
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "规律的",
+              "pos": "adj."
+            }
+          }
+        },
+        "jogging": {
+          "lemma": "jog",
+          "translation": "慢跑",
+          "pos": "n.",
+          "forms": "joggings",
+          "meanings": "慢跑；缓步走；轻推；慢跑运动",
+          "contexts": {
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "慢跑",
+              "pos": "n."
+            }
+          }
+        },
+        "regimen": {
+          "lemma": "regimen",
+          "translation": "养生法",
+          "pos": "n.",
+          "forms": "regimens",
+          "meanings": "养生法；生活规则；（饮食、运动等）程序；摄生之道",
+          "contexts": {
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "养生计划",
+              "pos": "n."
+            }
+          }
+        },
+        "then": {
+          "lemma": "then",
+          "translation": "那么",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "那么；然后；那时；当时；接着",
+          "contexts": {
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "那么",
+              "pos": "adv."
+            }
+          }
+        },
+        "take": {
+          "lemma": "take",
+          "translation": "进行（动作）",
+          "pos": "v.",
+          "forms": "took, taken, taking, takes",
+          "meanings": "进行；采取；花费；拿；乘坐",
+          "contexts": {
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "进行",
+              "pos": "v."
+            }
+          }
+        },
+        "lots": {
+          "lemma": "lot",
+          "translation": "许多",
+          "pos": "pron.",
+          "forms": "lots",
+          "meanings": "许多；大量；签；场地",
+          "contexts": {
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "许多",
+              "pos": "pron."
+            }
+          }
+        },
+        "walks": {
+          "lemma": "walk",
+          "translation": "散步",
+          "pos": "n.",
+          "forms": "walks",
+          "meanings": "散步；步行；路程；人行道",
+          "contexts": {
+            "If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.": {
+              "translation": "散步",
+              "pos": "n."
+            }
+          }
+        },
+        "next": {
+          "lemma": "next",
+          "translation": "下次",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "接下来的；下次；紧邻的；次要的",
+          "contexts": {
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "下一次",
+              "pos": "adj."
+            }
+          }
+        },
+        "time": {
+          "lemma": "time",
+          "translation": "时候",
+          "pos": "n.",
+          "forms": "times",
+          "meanings": "时间；时候；次数；时代；倍数",
+          "contexts": {
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "时候",
+              "pos": "n."
+            }
+          }
+        },
+        "need": {
+          "lemma": "need",
+          "translation": "需要",
+          "pos": "v.",
+          "forms": "needs; needed; needing",
+          "meanings": "需要；必须；有必要；缺乏",
+          "contexts": {
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "需要",
+              "pos": "v."
+            }
+          }
+        },
+        "mail": {
+          "lemma": "mail",
+          "translation": "邮寄",
+          "pos": "v.",
+          "forms": "mails; mailed; mailing",
+          "meanings": "邮寄；投递；邮件；邮政",
+          "contexts": {
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "邮寄",
+              "pos": "v."
+            }
+          }
+        },
+        "letter": {
+          "lemma": "letter",
+          "translation": "信件",
+          "pos": "n.",
+          "forms": "letters",
+          "meanings": "信；字母；文字；证书",
+          "contexts": {
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "信件",
+              "pos": "n."
+            }
+          }
+        },
+        "walk": {
+          "lemma": "walk",
+          "translation": "步行",
+          "pos": "v.",
+          "forms": "walks, walked, walking",
+          "meanings": "走；步行；散步；走动",
+          "contexts": {
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "步行",
+              "pos": "v."
+            },
+            "Try to work in a daily walk in your neighborhood.": {
+              "translation": "散步",
+              "pos": "n."
+            }
+          }
+        },
+        "mailbox": {
+          "lemma": "mailbox",
+          "translation": "信箱",
+          "pos": "n.",
+          "forms": "mailboxes",
+          "meanings": "信箱；邮箱",
+          "contexts": {
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "信箱",
+              "pos": "n."
+            }
+          }
+        },
+        "instead": {
+          "lemma": "instead",
+          "translation": "代替",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "代替；反而；作为替代；抵充",
+          "contexts": {
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "代替",
+              "pos": "adv."
+            }
+          }
+        },
+        "driving": {
+          "lemma": "drive",
+          "translation": "驾驶",
+          "pos": "v.",
+          "forms": "drives, drove, driven, driving",
+          "meanings": "驾驶；开车；驱使；猛击",
+          "contexts": {
+            "Next time you need to mail a letter,walk to the mailbox instead of driving.": {
+              "translation": "驾驶",
+              "pos": "v."
+            }
+          }
+        },
+        "try": {
+          "lemma": "try",
+          "translation": "尝试",
+          "pos": "v.",
+          "forms": "tries, tried, trying",
+          "meanings": "尝试；试图；试验；努力",
+          "contexts": {
+            "Try to work in a daily walk in your neighborhood.": {
+              "translation": "尝试",
+              "pos": "v."
+            }
+          }
+        },
+        "work": {
+          "lemma": "work",
+          "translation": "安排",
+          "pos": "v.",
+          "forms": "works, worked, working",
+          "meanings": "工作；劳动；运作；起作用；安排",
+          "contexts": {
+            "Try to work in a daily walk in your neighborhood.": {
+              "translation": "安排",
+              "pos": "v."
+            }
+          }
+        },
+        "daily": {
+          "lemma": "daily",
+          "translation": "每日的",
+          "pos": "adj.",
+          "forms": "dailies",
+          "meanings": "日报；每日的；日常的；按日计的",
+          "contexts": {
+            "Try to work in a daily walk in your neighborhood.": {
+              "translation": "每日的",
+              "pos": "adj."
+            }
+          }
+        },
+        "neighborhood": {
+          "lemma": "neighborhood",
+          "translation": "街区",
+          "pos": "n.",
+          "forms": "neighborhoods",
+          "meanings": "街区；邻近地区；社区；街坊",
+          "contexts": {
+            "Try to work in a daily walk in your neighborhood.": {
+              "translation": "街区",
+              "pos": "n."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "You should  _  when you want to lose weight",
+          "options": [
+            "try not to fit the clinic definition of obesity",
+            "diet as well as exercise enough",
+            "get little exercise every day",
+            "focus your attention on diet only"
+          ],
+          "answer": 1,
+          "explanation": "文中明确指出减轻体重归结于饮食和运动两个因素，而不做足这两点会导致超重，因此减肥应同时注意饮食和运动。",
+          "type": "细节理解",
+          "evidenceSentence": "Reducing pounds largely comes down to the two-sided factors of diet and exercise.",
+          "optionExplanations": [
+            "文章未提及要努力不去符合肥胖定义，而是要减肥。",
+            "文章明确指出减轻体重取决于饮食和运动，必须两者都做得足够。",
+            "文章建议每天进行身体活动，而不是做得少。",
+            "文章提到饮食和运动是两个方面，不应只关注饮食。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "正确",
+            "忽略否定或范围",
+            "把局部信息当成主旨"
+          ]
+        },
+        {
+          "prompt": "The First Lady has started a movement to  _  .",
+          "options": [
+            "raise people's awareness of healthy diet",
+            "control the public school dietary supplying",
+            "ban the sugary soft drinks",
+            "realize the importance of dieting"
+          ],
+          "answer": 1,
+          "explanation": "文章明确提到第一夫人开展了一项活动来控制公立学校的饮食供应。",
+          "type": "细节理解",
+          "evidenceSentence": "the First Lady has been on a campaign to control the dietary offerings in public schools.",
+          "optionExplanations": [
+            "文章未提及该活动目的是为了提高人们的意识，而是为了控制饮食。",
+            "文章明确说明了第一夫人的行动目标是控制公立学校的食物提供。",
+            "禁止含糖软饮料是某大城市市长的举措，非第一夫人。",
+            "文章未提及该活动是为了实现节食的重要性。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "正确",
+            "偷换概念",
+            "推理过度"
+          ]
+        }
+      ],
+      "generationUsage": {
+        "requests": 25,
+        "inputTokens": 52863,
+        "outputTokens": 22167,
+        "totalTokens": 75030,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": 0.0712764,
+        "reportedCosts": {},
+        "pricingComplete": true,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 25,
+            "inputTokens": 52863,
+            "outputTokens": 22167,
+            "totalTokens": 75030,
+            "estimatedCostUsd": null,
+            "estimatedCostCny": 0.0712764
           }
         }
       }
