@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T16:24:57.719Z",
+  "generatedAt": "2026-08-04T16:25:09.752Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -12072,7 +12072,21 @@
             "High school graduates preparing for college entrance examination."
           ],
           "answer": 0,
-          "explanation": "广告旨在吸引那些希望通过在家学习来提升职业技能或获得学位的高中毕业生，因为文中提到该课程无需全日制上大学即可获得副学士学位。"
+          "explanation": "文章提到获得副学士学位相比高中毕业能增加收入，并鼓励人们无需全职上大学即可通过该机构学习，因此目标人群主要是希望提升职业技能的高中毕业生。",
+          "type": "推理判断",
+          "evidenceSentence": "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.",
+          "optionExplanations": [
+            "文章目标人群是有意通过在家学习提升学历的高中毕业生，符合文意。",
+            "广告明确提到无需全职上大学，不针对在校大学生。",
+            "文章提到大公司认可其培训，而非专门针对在校生找工作。",
+            "文章推广的是在家获得的副学士学位，而非备考大学入学考试。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "偷换概念",
+            "偷换概念",
+            "偷换概念"
+          ]
         },
         {
           "prompt": "People can get a Specialized Associate Degree by   _  .",
@@ -12083,7 +12097,21 @@
             "studying abroad for two years"
           ],
           "answer": 2,
-          "explanation": "文章明确指出该机构提供在家学习的模式，学员可以在业余时间学习，无需放弃当前工作即可获得学位。"
+          "explanation": "文章明确指出Harcourt提供的学习方式是利用业余时间在家学习，无需全职上学。",
+          "type": "细节理解",
+          "evidenceSentence": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.",
+          "optionExplanations": [
+            "文章明确说明是无需全职上学。",
+            "在这些公司工作是该学位的认可证明，而非获取学位的途径。",
+            "文章明确提到在业余时间学习，符合文意。",
+            "文中未提及出国学习。"
+          ],
+          "optionErrorTypes": [
+            "忽略否定或范围",
+            "偷换概念",
+            "正确",
+            "推理过度"
+          ]
         },
         {
           "prompt": "How can you contact Harcourt Learning Direct?",
@@ -12094,7 +12122,21 @@
             "By sending a letter not later than today."
           ],
           "answer": 1,
-          "explanation": "文中明确提供了联系方式，包括邮寄表格、拨打24小时热线电话以及通过电子邮件（Harcourt@learning.com）进行联系。"
+          "explanation": "文章结尾处提供了联系方式，包括电话、网址和电子邮件地址。",
+          "type": "细节理解",
+          "evidenceSentence": "E-mail: Harcourt@learning.com",
+          "optionExplanations": [
+            "文中未提及办公室地址或访问办公地点。",
+            "文中明确提供了电子邮件地址，可以通过邮件联系。",
+            "文中说明电话是24小时全天候服务的，不仅限于工作日。",
+            "文中只是建议尽快寄出优惠券，并未强制规定必须在今天之内寄信。"
+          ],
+          "optionErrorTypes": [
+            "没有定位证据句",
+            "正确",
+            "忽略否定或范围",
+            "推理过度"
+          ]
         }
       ],
       "generationUsage": {
@@ -12124,7 +12166,57 @@
         "averageSentenceWords": 11.9,
         "longSentenceRatio": 0.034,
         "challengingQuestionRatio": 0
-      }
+      },
+      "phrases": [
+        {
+          "phrase": "give up",
+          "translation": "放弃",
+          "note": "放弃某事物，停止做某事",
+          "sentence": "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one."
+        },
+        {
+          "phrase": "move ahead",
+          "translation": "前进，进步",
+          "note": "取得进展或升职",
+          "sentence": "everything you need to master your training and move ahead to a new career is included in the low tuition   price you pay."
+        },
+        {
+          "phrase": "in as little as",
+          "translation": "仅需，最短只需",
+          "note": "表示最少时间或数量",
+          "sentence": "Earn your degree in as little as two years!"
+        },
+        {
+          "phrase": "get valuable job skills",
+          "translation": "获得宝贵的工作技能",
+          "note": "学到有实用价值的职业技能",
+          "sentence": "Even if you have no experience before, you can get valuable job skills in today's hottest fields!"
+        },
+        {
+          "phrase": "take advantage of",
+          "translation": "利用，充分利用",
+          "note": "充分利用机会或资源",
+          "sentence": "We'll rush your free information about how you can take advantage of the opportunities."
+        },
+        {
+          "phrase": "act today",
+          "translation": "立即采取行动",
+          "note": "现在就行动，不要拖延",
+          "sentence": "Act today!"
+        },
+        {
+          "phrase": "fill in",
+          "translation": "填写",
+          "note": "在表格上写入信息",
+          "sentence": "Simply fill in your name and address on the coupon   above."
+        },
+        {
+          "phrase": "mail it today",
+          "translation": "今天就寄出",
+          "note": "立即邮寄",
+          "sentence": "Then, write in the name and number of the program you're most interested in, and mail it today."
+        }
+      ]
     },
     {
       "id": "web-6889075584252ffd",
