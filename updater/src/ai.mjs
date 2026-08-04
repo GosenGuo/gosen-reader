@@ -1,7 +1,7 @@
 const trimSlash = value => value.replace(/\/+$/, "");
 
 export class AiClient {
-  constructor(env = process.env) {
+  constructor(env = process.env, options = {}) {
     this.apiKey = env.AI_API_KEY?.trim();
     this.baseUrl = trimSlash(env.AI_BASE_URL || "https://xcode.best/v1");
     this.chatUrl = env.AI_CHAT_URL?.trim() || `${this.baseUrl}/chat/completions`;
@@ -24,11 +24,14 @@ export class AiClient {
       Number(env.AI_PRIMARY_RETRY_COOLDOWN_MS ?? 300_000)
     );
     this.primaryRetryAt = 0;
-    this.pricing = parsePricing(env.AI_MODEL_PRICING_JSON);
+    this.usdPricing = parsePricing(env.AI_MODEL_PRICING_JSON);
+    this.cnyPricing = parseCnyPricing(env.AI_MODEL_PRICING_CNY_JSON);
     this.usdCnyRate = positiveNumber(env.USD_CNY_RATE);
     this.reportedCostCurrency =
       env.AI_REPORTED_COST_CURRENCY?.trim() || "provider_units";
-    this.usageEntries = [];
+    this.usageEntries = Array.isArray(options.usageEntries)
+      ? options.usageEntries
+      : [];
     if (!this.apiKey) throw new Error("AI_API_KEY is required");
   }
 
@@ -152,11 +155,18 @@ export class AiClient {
     const totalTokens = tokenNumber(
       usage.total_tokens ?? inputTokens + outputTokens
     );
-    const rate = this.pricing[model];
-    const estimatedCostUsd = rate
-      ? (inputTokens * rate.inputUsdPerMillion
-        + outputTokens * rate.outputUsdPerMillion) / 1_000_000
+    const usdRate = this.usdPricing[model];
+    const cnyRate = this.cnyPricing[model];
+    const estimatedCostUsd = usdRate
+      ? (inputTokens * usdRate.inputUsdPerMillion
+        + outputTokens * usdRate.outputUsdPerMillion) / 1_000_000
       : null;
+    const estimatedCostCny = cnyRate
+      ? (inputTokens * cnyRate.inputCnyPerMillion
+        + outputTokens * cnyRate.outputCnyPerMillion) / 1_000_000
+      : estimatedCostUsd != null && this.usdCnyRate
+        ? estimatedCostUsd * this.usdCnyRate
+        : null;
     const reportedCost = optionalNumber(
       usage.cost
       ?? usage.total_cost
@@ -173,7 +183,8 @@ export class AiClient {
         ? null
         : String(usage.currency || payload.currency || this.reportedCostCurrency),
       estimatedCostUsd,
-      pricing: rate || null
+      estimatedCostCny,
+      pricing: cnyRate || usdRate || null
     });
   }
 }
@@ -223,6 +234,28 @@ function parsePricing(raw) {
   return pricing;
 }
 
+function parseCnyPricing(raw) {
+  if (!raw?.trim()) return {};
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch {
+    throw new Error("AI_MODEL_PRICING_CNY_JSON must be valid JSON");
+  }
+  const pricing = {};
+  for (const [model, value] of Object.entries(parsed)) {
+    const inputCnyPerMillion = positiveNumber(value?.inputCnyPerMillion);
+    const outputCnyPerMillion = positiveNumber(value?.outputCnyPerMillion);
+    if (!inputCnyPerMillion || !outputCnyPerMillion) {
+      throw new Error(
+        `AI_MODEL_PRICING_CNY_JSON has invalid input/output rates for ${model}`
+      );
+    }
+    pricing[model] = { inputCnyPerMillion, outputCnyPerMillion };
+  }
+  return pricing;
+}
+
 function summarizeUsage(entries, usdCnyRate) {
   const summary = {
     requests: entries.length,
@@ -235,13 +268,21 @@ function summarizeUsage(entries, usdCnyRate) {
     pricingComplete: entries.length > 0
   };
   let estimatedCostUsd = 0;
+  let estimatedCostCny = 0;
+  let usdPricingComplete = entries.length > 0;
+  let cnyPricingComplete = entries.length > 0;
   const models = {};
   for (const entry of entries) {
     summary.inputTokens += entry.inputTokens;
     summary.outputTokens += entry.outputTokens;
     summary.totalTokens += entry.totalTokens;
-    if (entry.estimatedCostUsd == null) summary.pricingComplete = false;
+    if (entry.estimatedCostUsd == null) usdPricingComplete = false;
     else estimatedCostUsd += entry.estimatedCostUsd;
+    if (entry.estimatedCostCny == null) cnyPricingComplete = false;
+    else estimatedCostCny += entry.estimatedCostCny;
+    if (entry.estimatedCostUsd == null && entry.estimatedCostCny == null) {
+      summary.pricingComplete = false;
+    }
     if (entry.reportedCost != null) {
       const currency = entry.reportedCostCurrency || "provider_units";
       summary.reportedCosts[currency] =
@@ -252,7 +293,8 @@ function summarizeUsage(entries, usdCnyRate) {
       inputTokens: 0,
       outputTokens: 0,
       totalTokens: 0,
-      estimatedCostUsd: null
+      estimatedCostUsd: null,
+      estimatedCostCny: null
     };
     model.requests += 1;
     model.inputTokens += entry.inputTokens;
@@ -261,11 +303,24 @@ function summarizeUsage(entries, usdCnyRate) {
     if (entry.estimatedCostUsd != null) {
       model.estimatedCostUsd = (model.estimatedCostUsd || 0) + entry.estimatedCostUsd;
     }
+    if (entry.estimatedCostCny != null) {
+      model.estimatedCostCny = (model.estimatedCostCny || 0) + entry.estimatedCostCny;
+    }
   }
-  if (summary.pricingComplete && entries.length > 0) {
+  if (usdPricingComplete) {
     summary.estimatedCostUsd = roundMoney(estimatedCostUsd);
-    if (usdCnyRate) {
-      summary.estimatedCostCny = roundMoney(estimatedCostUsd * usdCnyRate);
+  }
+  if (cnyPricingComplete) {
+    summary.estimatedCostCny = roundMoney(estimatedCostCny);
+  } else if (usdPricingComplete && usdCnyRate) {
+    summary.estimatedCostCny = roundMoney(estimatedCostUsd * usdCnyRate);
+  }
+  for (const model of Object.values(models)) {
+    if (model.estimatedCostUsd != null) {
+      model.estimatedCostUsd = roundMoney(model.estimatedCostUsd);
+    }
+    if (model.estimatedCostCny != null) {
+      model.estimatedCostCny = roundMoney(model.estimatedCostCny);
     }
   }
   summary.models = models;

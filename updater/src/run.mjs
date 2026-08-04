@@ -43,11 +43,18 @@ const translationConcurrency = Math.max(
 );
 
 const ai = new AiClient();
+const bulkAi = new AiClient({
+  ...process.env,
+  AI_MODEL: process.env.BULK_AI_MODEL?.trim() || "claude-haiku-4-5-20251001",
+  AI_FALLBACK_MODELS: process.env.BULK_AI_FALLBACK_MODELS?.trim()
+    || "gemini-2.5-flash"
+}, { usageEntries: ai.usageEntries });
 const search = new WebSearchClient();
 const wordBank = await loadWordBank(wordBankPath);
 const existingArticles = await loadExistingArticles(outputPath);
 
 console.log(`Starting on-demand refill; target=${targetCount}; existing=${existingArticles.length}`);
+console.log(`AI routes: strict=${ai.models.join(" -> ")}; bulk=${bulkAi.models.join(" -> ")}`);
 const candidates = await findCandidates();
 console.log(`Collected ${candidates.length} candidate pages`);
 const attemptedCandidates = candidates.slice(0, maxCandidateAttempts);
@@ -80,7 +87,7 @@ for (const [index, candidate] of attemptedCandidates.entries()) {
       console.log(`  rejected before glossary: ${preliminaryErrors.join("; ")}`);
       continue;
     }
-    await repairArticleGlossary(article, ai, wordBank);
+    await repairArticleGlossary(article, bulkAi, wordBank);
     const errors = validateArticle(article);
     if (seenIds.has(article.id) || errors.length) {
       console.log(`  rejected: ${seenIds.has(article.id) ? "duplicate" : errors.join("; ")}`);
@@ -119,16 +126,20 @@ for (const [index, candidate] of attemptedCandidates.entries()) {
 if (newArticles.length === 0) {
   throw new Error("No valid articles were produced; the previous package must remain published");
 }
-if (newArticles.length < targetCount) {
-  console.warn(`Only ${newArticles.length}/${targetCount} passed validation; publishing quality over quota`);
+const reachedTarget = newArticles.length >= targetCount;
+if (!reachedTarget) {
+  console.warn(`Only ${newArticles.length}/${targetCount} passed validation; saved valid checkpoints but quota was not reached`);
 }
 
-const payload = await persistCurrentPackage({ completed: true });
+const payload = await persistCurrentPackage({ completed: reachedTarget });
 const articles = payload.articles;
 console.log(`Wrote ${articles.length} articles to ${outputPath}`);
 console.log(`Added ${newArticles.length} new article(s); kept ${existingArticles.length} existing article(s)`);
 console.log(`Wrote ${Object.keys(wordBank.words).length} words to ${wordBankPath}`);
 await publishIfConfigured(payload);
+if (!reachedTarget) {
+  throw new Error(`Generation quota not reached: ${newArticles.length}/${targetCount} valid articles`);
+}
 
 async function findCandidates() {
   const raceDir = process.env.RACE_DIR?.trim();
@@ -233,7 +244,7 @@ Return one review for every question, in order, and one explanation and error ty
   const sentenceTranslationsById = {};
   const translationBatches = chunkValues(sentences, 6);
   for (const group of chunkValues(translationBatches, translationConcurrency)) {
-    const translatedGroup = await Promise.all(group.map(batch => ai.json(
+    const translatedGroup = await Promise.all(group.map(batch => bulkAi.json(
       `Translate English sentences for a Chinese high-school student.
 Return exactly one JSON object keyed by every supplied sentence id:
 {"s0":"natural, accurate Chinese full-sentence translation","s1":"..."}
@@ -419,8 +430,11 @@ function formatCost(usage) {
       .join(" + ");
   }
   if (!usage.pricingComplete) return "cost unavailable (pricing not configured)";
+  if (usage.estimatedCostUsd == null && usage.estimatedCostCny != null) {
+    return `CNY ${usage.estimatedCostCny.toFixed(6)} estimated`;
+  }
   const cny = usage.estimatedCostCny == null
     ? ""
-    : ` / ¥${usage.estimatedCostCny.toFixed(6)}`;
-  return `$${usage.estimatedCostUsd.toFixed(6)}${cny}`;
+    : ` / CNY ${usage.estimatedCostCny.toFixed(6)}`;
+  return `$${usage.estimatedCostUsd.toFixed(6)}${cny} estimated`;
 }

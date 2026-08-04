@@ -118,10 +118,62 @@ test("records token usage and estimates per-model cost", async () => {
           inputTokens: 2_000,
           outputTokens: 500,
           totalTokens: 2_500,
-          estimatedCostUsd: 0.004
+          estimatedCostUsd: 0.004,
+          estimatedCostCny: 0.0288
         }
       }
     });
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("tracks relay-native CNY pricing across shared strict and bulk clients", async () => {
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async (_url, options) => {
+    const { model } = JSON.parse(options.body);
+    const usage = model === "gemini-2.5-flash"
+      ? { prompt_tokens: 1_000, completion_tokens: 500, total_tokens: 1_500 }
+      : { prompt_tokens: 2_000, completion_tokens: 500, total_tokens: 2_500 };
+    return Response.json({
+      choices: [{ message: { content: "{\"ok\":true}" } }],
+      usage
+    });
+  };
+  try {
+    const pricing = JSON.stringify({
+      "gemini-2.5-flash": {
+        inputCnyPerMillion: 0.3,
+        outputCnyPerMillion: 2.5
+      },
+      "claude-haiku-4-5-20251001": {
+        inputCnyPerMillion: 0.028,
+        outputCnyPerMillion: 0.14
+      }
+    });
+    const strict = new AiClient({
+      AI_API_KEY: "test-only",
+      AI_MODEL: "gemini-2.5-flash",
+      AI_MODEL_PRICING_CNY_JSON: pricing
+    });
+    const bulk = new AiClient({
+      AI_API_KEY: "test-only",
+      AI_MODEL: "claude-haiku-4-5-20251001",
+      AI_MODEL_PRICING_CNY_JSON: pricing
+    }, { usageEntries: strict.usageEntries });
+    await strict.json("system", "strict");
+    await bulk.json("system", "bulk");
+    const usage = strict.usageSince(0);
+    assert.equal(usage.requests, 2);
+    assert.equal(usage.totalTokens, 4_000);
+    assert.equal(usage.estimatedCostUsd, null);
+    assert.equal(usage.estimatedCostCny, 0.001676);
+    assert.equal(usage.pricingComplete, true);
+    assert.equal(usage.models["gemini-2.5-flash"].estimatedCostCny, 0.00155);
+    assert.equal(
+      usage.models["claude-haiku-4-5-20251001"].estimatedCostCny,
+      0.000126
+    );
   } finally {
     globalThis.fetch = originalFetch;
   }
