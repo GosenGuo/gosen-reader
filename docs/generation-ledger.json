@@ -993,17 +993,17 @@
       "runId": "30928914763-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-04T16:24:12.550Z",
-      "generatedAt": "2026-08-04T16:29:28.391Z",
+      "generatedAt": "2026-08-04T16:29:43.832Z",
       "requestedArticles": 39,
-      "acceptedArticles": 26,
+      "acceptedArticles": 27,
       "completed": false,
       "usage": {
-        "requests": 45,
-        "inputTokens": 36728,
-        "outputTokens": 33337,
-        "totalTokens": 70065,
+        "requests": 49,
+        "inputTokens": 39747,
+        "outputTokens": 36828,
+        "totalTokens": 76575,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.03660626,
+        "estimatedCostCny": 0.03717953,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
@@ -1016,12 +1016,12 @@
             "estimatedCostCny": 0.0329384
           },
           "claude-haiku-4-5-20251001": {
-            "requests": 26,
-            "inputTokens": 20375,
-            "outputTokens": 22124,
-            "totalTokens": 42499,
+            "requests": 30,
+            "inputTokens": 23394,
+            "outputTokens": 25615,
+            "totalTokens": 49009,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.00366786
+            "estimatedCostCny": 0.00424113
           }
         }
       },
@@ -1567,6 +1567,25 @@
               "estimatedCostCny": 0.00018301
             }
           }
+        },
+        {
+          "articleId": "web-78c5365878759c41",
+          "title": "RACE 高中英语阅读 high4155",
+          "requests": 1,
+          "inputTokens": 619,
+          "outputTokens": 800,
+          "totalTokens": 1419,
+          "estimatedCostCny": 0.00012933,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 1,
+              "inputTokens": 619,
+              "outputTokens": 800,
+              "totalTokens": 1419,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00012933
+            }
+          }
         }
       ],
       "failures": [
@@ -1581,6 +1600,10 @@
         {
           "articleId": "web-2e315a8a858c375d",
           "error": "question diagnostics were incomplete or evidence was not verbatim"
+        },
+        {
+          "articleId": "web-a524105e021f666c",
+          "error": "only 0 valid phrase(s) were returned"
         }
       ]
     }
