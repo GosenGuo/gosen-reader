@@ -993,17 +993,17 @@
       "runId": "30928914763-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-04T16:24:12.550Z",
-      "generatedAt": "2026-08-04T16:30:17.568Z",
+      "generatedAt": "2026-08-04T16:30:25.818Z",
       "requestedArticles": 39,
-      "acceptedArticles": 30,
+      "acceptedArticles": 31,
       "completed": false,
       "usage": {
-        "requests": 52,
-        "inputTokens": 42131,
-        "outputTokens": 39802,
-        "totalTokens": 81933,
+        "requests": 53,
+        "inputTokens": 42809,
+        "outputTokens": 40586,
+        "totalTokens": 83395,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.03766264,
+        "estimatedCostCny": 0.03779139,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
@@ -1016,12 +1016,12 @@
             "estimatedCostCny": 0.0329384
           },
           "claude-haiku-4-5-20251001": {
-            "requests": 33,
-            "inputTokens": 25778,
-            "outputTokens": 28589,
-            "totalTokens": 54367,
+            "requests": 34,
+            "inputTokens": 26456,
+            "outputTokens": 29373,
+            "totalTokens": 55829,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.00472424
+            "estimatedCostCny": 0.00485299
           }
         }
       },
@@ -1641,6 +1641,25 @@
               "totalTokens": 2016,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00018558
+            }
+          }
+        },
+        {
+          "articleId": "web-b9d326f381c855fe",
+          "title": "RACE 高中英语阅读 high11558",
+          "requests": 1,
+          "inputTokens": 678,
+          "outputTokens": 784,
+          "totalTokens": 1462,
+          "estimatedCostCny": 0.00012874,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 1,
+              "inputTokens": 678,
+              "outputTokens": 784,
+              "totalTokens": 1462,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00012874
             }
           }
         }
