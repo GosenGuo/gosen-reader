@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T16:25:22.641Z",
+  "generatedAt": "2026-08-04T16:25:50.072Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -23134,7 +23134,21 @@
             "Because you have no choice but to speak English."
           ],
           "answer": 3,
-          "explanation": "文中提到混合班级使得班里其他学生可能不会说你的母语，从而强迫你必须使用英语交流，故选项D更准确地概括了其带来的直接效果。"
+          "explanation": "文章明确指出，在混合班级中，来自世界各地的学生可能不说你的母语，这迫使你必须使用英语交流，这是该教学模式的优势。",
+          "type": "细节理解",
+          "evidenceSentence": "It is possible that nobody in your class will speak your language, so you will just have to speak English!",
+          "optionExplanations": [
+            "选项A与原文含义完全相反，混合班级是为了避免使用母语。",
+            "选项B原文提到学生来自世界各地，而非仅限于英语国家。",
+            "选项C是原文的描述，但不是学习效果好的原因，而是前提条件，D选项更直接地解释了学习效果好的结果。",
+            "选项D正确，因为没有其他共同语言，学习者必须使用英语进行沟通。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "偷换概念",
+            "推理过度",
+            "正确"
+          ]
         },
         {
           "prompt": "Where can you probably find the passage?",
@@ -23145,7 +23159,21 @@
             "In a medical newspaper"
           ],
           "answer": 0,
-          "explanation": "文章结尾明确提到了一个网址（EnglishClub.com），这表明该文章很可能发布在互联网上，用于宣传语言游学项目。"
+          "explanation": "文章结尾处提到了特定的网址 EnglishClub.com，这类介绍性文章通常发布在相关教育类的网站或在线平台上。",
+          "type": "推理判断",
+          "evidenceSentence": "You'll find schools offering language holidays at EnglishClub.com ESL World.",
+          "optionExplanations": [
+            "选项A正确，文中直接给出了网站地址，说明这是一篇网络文章。",
+            "选项B与文章内容明显不符，这是语言学习介绍，非科学教材。",
+            "选项C虽涉及旅行，但该文更偏向教育服务推荐，且文中有网址指向。",
+            "选项D完全无关，文中并未涉及任何医疗相关内容。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "单词或语境理解错误",
+            "推理过度",
+            "单词或语境理解错误"
+          ]
         }
       ],
       "generationUsage": {
@@ -23175,7 +23203,39 @@
         "averageSentenceWords": 15.2,
         "longSentenceRatio": 0.048,
         "challengingQuestionRatio": 0
-      }
+      },
+      "phrases": [
+        {
+          "phrase": "study abroad",
+          "translation": "出国学习",
+          "note": "在国外学习语言或专业的常用表达",
+          "sentence": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language."
+        },
+        {
+          "phrase": "language school",
+          "translation": "语言学校",
+          "note": "专门教授语言的学校，通常有来自世界各地的学生",
+          "sentence": "While there, you study in a language school with students from many different countries."
+        },
+        {
+          "phrase": "host family",
+          "translation": "寄宿家庭",
+          "note": "接待留学生或交换生的当地家庭",
+          "sentence": "You live with local people, often staying with a host family."
+        },
+        {
+          "phrase": "escape the English language",
+          "translation": "避免接触英语",
+          "note": "逃脱或摆脱某种语言环境的习语",
+          "sentence": "You have little or no opportunity to escape the English language."
+        },
+        {
+          "phrase": "closely associated with",
+          "translation": "与...密切相关",
+          "note": "表示两个事物之间有紧密的联系",
+          "sentence": "Their language is closely associated with their culture."
+        }
+      ]
     },
     {
       "id": "web-eecaaca1e069e103",

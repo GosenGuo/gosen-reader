@@ -993,35 +993,35 @@
       "runId": "30928914763-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-04T16:24:12.550Z",
-      "generatedAt": "2026-08-04T16:25:22.641Z",
+      "generatedAt": "2026-08-04T16:25:50.072Z",
       "requestedArticles": 39,
-      "acceptedArticles": 4,
+      "acceptedArticles": 5,
       "completed": false,
       "usage": {
-        "requests": 13,
-        "inputTokens": 11295,
-        "outputTokens": 8746,
-        "totalTokens": 20041,
+        "requests": 21,
+        "inputTokens": 17933,
+        "outputTokens": 13340,
+        "totalTokens": 31273,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.01632348,
+        "estimatedCostCny": 0.0275328,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "gemini-2.5-flash": {
-            "requests": 9,
-            "inputTokens": 7938,
-            "outputTokens": 5349,
-            "totalTokens": 13287,
+            "requests": 16,
+            "inputTokens": 13755,
+            "outputTokens": 9077,
+            "totalTokens": 22832,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.0157539
+            "estimatedCostCny": 0.026819
           },
           "claude-haiku-4-5-20251001": {
-            "requests": 4,
-            "inputTokens": 3357,
-            "outputTokens": 3397,
-            "totalTokens": 6754,
+            "requests": 5,
+            "inputTokens": 4178,
+            "outputTokens": 4263,
+            "totalTokens": 8441,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.00056958
+            "estimatedCostCny": 0.0007138
           }
         }
       },
@@ -1133,11 +1133,46 @@
               "estimatedCostCny": 0.00014711
             }
           }
+        },
+        {
+          "articleId": "web-52737a111ab04db4",
+          "title": "RACE 高中英语阅读 high17053",
+          "requests": 2,
+          "inputTokens": 1550,
+          "outputTokens": 1205,
+          "totalTokens": 2755,
+          "estimatedCostCny": 0.00121043,
+          "models": {
+            "gemini-2.5-flash": {
+              "requests": 1,
+              "inputTokens": 729,
+              "outputTokens": 339,
+              "totalTokens": 1068,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.0010662
+            },
+            "claude-haiku-4-5-20251001": {
+              "requests": 1,
+              "inputTokens": 821,
+              "outputTokens": 866,
+              "totalTokens": 1687,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00014423
+            }
+          }
         }
       ],
       "failures": [
         {
           "articleId": "web-c46072fb88fa1c7b",
+          "error": "question diagnostics were incomplete or evidence was not verbatim"
+        },
+        {
+          "articleId": "web-91480225d160a6b6",
+          "error": "question diagnostics were incomplete or evidence was not verbatim"
+        },
+        {
+          "articleId": "web-2e315a8a858c375d",
           "error": "question diagnostics were incomplete or evidence was not verbatim"
         }
       ]
