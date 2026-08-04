@@ -36,3 +36,36 @@ test("keeps only exact useful multi-word expressions", () => {
   ] }, body);
   assert.deepEqual(phrases.map(value => value.phrase), ["figured out", "took part in"]);
 });
+
+test("grounds slightly rewritten evidence back to an exact passage sentence", () => {
+  const article = {
+    body: "In the early 1990s,the Internet was strange to most people. Today it is useful.",
+    questions: [{
+      prompt: "What was strange to most people?",
+      options: ["The Internet", "Television", "Radio", "Books"],
+      answer: 0,
+      explanation: ""
+    }]
+  };
+  applyQuestionReviews(article, { questionReviews: [{
+    type: "细节理解",
+    explanation: "原文直接说明。",
+    evidenceSentence: "In the early 1990s, the Internet was strange to most people.",
+    optionExplanations: ["正确", "错误", "错误", "错误"],
+    optionErrorTypes: ["正确", "没有定位证据句", "没有定位证据句", "没有定位证据句"]
+  }] });
+  assert.equal(
+    article.questions[0].evidenceSentence,
+    "In the early 1990s,the Internet was strange to most people."
+  );
+  assert.equal(hasCompleteQuestionLearningMetadata(article), true);
+});
+
+test("supplements an empty model response with known high-value expressions", () => {
+  const body = "As soon as he was out of work, he decided to dress up as a gorilla. "
+    + "He wanted people to pay attention to him and not make fun of him.";
+  const phrases = normalizeLearningPhrases({ phrases: [] }, body);
+  assert.ok(phrases.length >= 4);
+  assert.ok(phrases.some(value => value.phrase === "as soon as"));
+  assert.ok(phrases.some(value => value.phrase === "pay attention to"));
+});
