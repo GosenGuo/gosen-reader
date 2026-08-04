@@ -45,6 +45,32 @@ final class LearningStore {
                 }
             }
             if (item == null) {
+                JSONArray names = pool.names();
+                if (names != null) {
+                    for (int i = 0; i < names.length(); i++) {
+                        String candidateKey = names.optString(i);
+                        JSONObject candidate = pool.optJSONObject(candidateKey);
+                        if (candidate == null
+                                || !normalized.equals(normalize(candidate.optString("lemma")))
+                                || !normalize(pos).equals(normalize(candidate.optString("pos")))) {
+                            continue;
+                        }
+                        JSONArray candidateContexts = candidate.optJSONArray("contexts");
+                        if (candidateContexts == null) continue;
+                        for (int contextIndex = 0;
+                             contextIndex < candidateContexts.length(); contextIndex++) {
+                            JSONObject context = candidateContexts.optJSONObject(contextIndex);
+                            if (context != null && sentence.equals(context.optString("sentence"))) {
+                                senseKey = candidateKey;
+                                item = candidate;
+                                break;
+                            }
+                        }
+                        if (item != null) break;
+                    }
+                }
+            }
+            if (item == null) {
                 item = new JSONObject();
                 item.put("createdDate", LocalDate.now().toString());
                 item.put("dueDate", LocalDate.now().plusDays(1).toString());
@@ -132,6 +158,20 @@ final class LearningStore {
         return result.subList(0, Math.min(limit, result.size()));
     }
 
+    List<JSONObject> allWords(int limit) {
+        List<JSONObject> result = new ArrayList<>();
+        JSONObject pool = load();
+        JSONArray names = pool.names();
+        if (names == null) return result;
+        for (int i = 0; i < names.length(); i++) {
+            JSONObject item = pool.optJSONObject(names.optString(i));
+            if (item != null) result.add(item);
+        }
+        Collections.sort(result, (left, right) -> right.optString("lastSeenDate")
+                .compareTo(left.optString("lastSeenDate")));
+        return result.subList(0, Math.min(Math.max(0, limit), result.size()));
+    }
+
     void answer(String senseKey, int result) {
         try {
             JSONObject pool = load();
@@ -177,6 +217,52 @@ final class LearningStore {
             item.put("lastReviewedDate", LocalDate.now().toString());
             item.put("dueDate", LocalDate.now().plusDays(interval).toString());
             pool.put(senseKey, item);
+            save(pool);
+        } catch (Exception ignored) { }
+    }
+
+    JSONObject reviewContext(JSONObject item) {
+        JSONArray contexts = item == null ? null : item.optJSONArray("contexts");
+        if (contexts != null && contexts.length() > 0) {
+            int index = Math.floorMod(item.optInt("reviewCount", 0), contexts.length());
+            JSONObject context = contexts.optJSONObject(index);
+            if (context != null) return context;
+        }
+        JSONObject fallback = new JSONObject();
+        try {
+            fallback.put("sentence", item == null ? "" : item.optString("sentence"));
+            fallback.put("translation", item == null ? "" : item.optString("sentenceTranslation"));
+            fallback.put("meaning", item == null ? "" : item.optString("translation"));
+        } catch (Exception ignored) { }
+        return fallback;
+    }
+
+    void correctMeaning(String senseKey, String correctedTranslation, String sentence) {
+        String corrected = correctedTranslation == null ? "" : correctedTranslation.trim();
+        if (corrected.isEmpty()) return;
+        try {
+            JSONObject pool = load();
+            JSONObject item = pool.optJSONObject(senseKey);
+            if (item == null) return;
+            item.put("translation", corrected);
+            JSONArray contexts = item.optJSONArray("contexts");
+            if (contexts != null) {
+                for (int i = 0; i < contexts.length(); i++) {
+                    JSONObject context = contexts.optJSONObject(i);
+                    if (context != null && sentence.equals(context.optString("sentence"))) {
+                        context.put("meaning", corrected);
+                    }
+                }
+            }
+            pool.put(senseKey, item);
+            save(pool);
+        } catch (Exception ignored) { }
+    }
+
+    void removeWord(String senseKey) {
+        try {
+            JSONObject pool = load();
+            pool.remove(senseKey);
             save(pool);
         } catch (Exception ignored) { }
     }

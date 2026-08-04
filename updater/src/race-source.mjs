@@ -1,5 +1,9 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import {
+  assessDifficulty,
+  balanceCandidatesByDifficulty
+} from "./difficulty.mjs";
 
 const RACE_SOURCE_URL = "https://www.cs.cmu.edu/~glai1/data/race/";
 
@@ -12,7 +16,8 @@ export async function loadRaceCandidates(root, limit, seed = currentMonthSeed())
 
   const start = positiveHash(seed) % names.length;
   const candidates = [];
-  for (let offset = 0; offset < names.length && candidates.length < limit; offset += 1) {
+  const poolLimit = Math.min(names.length, Math.max(limit, limit * 4));
+  for (let offset = 0; offset < names.length && candidates.length < poolLimit; offset += 1) {
     const name = names[(start + offset) % names.length];
     try {
       const record = JSON.parse(await fs.readFile(path.join(highRoot, name), "utf8"));
@@ -22,7 +27,7 @@ export async function loadRaceCandidates(root, limit, seed = currentMonthSeed())
       console.warn(`Skipping invalid RACE file ${name}: ${error.message}`);
     }
   }
-  return candidates;
+  return balanceCandidatesByDifficulty(candidates, limit);
 }
 
 export function normalizeRaceRecord(record, fallbackId = "race-high") {
@@ -48,6 +53,7 @@ export function normalizeRaceRecord(record, fallbackId = "race-high") {
   if (normalizedQuestions.some(question => !question)) return null;
 
   const sourceId = String(record.id || fallbackId).replace(/\.[^.]+$/, "");
+  const difficulty = assessDifficulty(article, normalizedQuestions);
   return {
     title: `RACE 高中英语阅读 ${sourceId}`,
     url: RACE_SOURCE_URL,
@@ -57,7 +63,10 @@ export function normalizeRaceRecord(record, fallbackId = "race-high") {
       source: "RACE 中国高中英语考试阅读题库",
       region: "中国",
       year: 2017,
-      difficulty: "较难",
+      difficulty: difficulty.label,
+      difficultyLevel: difficulty.level,
+      difficultyScore: difficulty.score,
+      difficultyMetrics: difficulty.metrics,
       body: article,
       questions: normalizedQuestions
     }

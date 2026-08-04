@@ -3,6 +3,7 @@ import {
   extractUniqueWords,
   findIncompleteWords
 } from "./word-bank.mjs";
+import { assessDifficulty } from "./difficulty.mjs";
 
 export function normalizeArticle(raw, source) {
   const body = String(raw.body || "").replace(/\r/g, "").trim();
@@ -10,6 +11,23 @@ export function normalizeArticle(raw, source) {
   const hash = crypto.createHash("sha256")
     .update(body.toLowerCase().replace(/\s+/g, " "))
     .digest("hex").slice(0, 16);
+  const questions = Array.isArray(raw.questions) ? raw.questions.map(question => ({
+    prompt: String(question.prompt || "").trim(),
+    options: Array.isArray(question.options)
+      ? question.options.map(value => String(value).trim())
+      : [],
+    answer: Number(question.answer),
+    explanation: String(question.explanation || "").trim(),
+    type: String(question.type || "").trim(),
+    evidenceSentence: String(question.evidenceSentence || "").trim(),
+    optionExplanations: Array.isArray(question.optionExplanations)
+      ? question.optionExplanations.map(value => String(value || "").trim())
+      : [],
+    optionErrorTypes: Array.isArray(question.optionErrorTypes)
+      ? question.optionErrorTypes.map(value => String(value || "").trim())
+      : []
+  })) : [];
+  const difficulty = assessDifficulty(body, questions);
   return {
     id: `web-${hash}`,
     title,
@@ -17,31 +35,39 @@ export function normalizeArticle(raw, source) {
     sourceUrl: source.url,
     region: String(raw.region || "高中英语"),
     year: Number(raw.year) || new Date().getFullYear(),
-    difficulty: String(raw.difficulty || "高考"),
+    difficulty: difficulty.label,
+    difficultyLevel: difficulty.level,
+    difficultyScore: difficulty.score,
+    difficultyMetrics: difficulty.metrics,
     body,
     wordCount: body.match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g)?.length || 0,
     sentenceTranslations: raw.sentenceTranslations || {},
     glossary: raw.glossary || {},
-    questions: Array.isArray(raw.questions) ? raw.questions.map(question => ({
-      prompt: String(question.prompt || "").trim(),
-      options: Array.isArray(question.options)
-        ? question.options.map(value => String(value).trim())
-        : [],
-      answer: Number(question.answer),
-      explanation: String(question.explanation || "").trim(),
-      type: String(question.type || "").trim(),
-      evidenceSentence: String(question.evidenceSentence || "").trim(),
-      optionExplanations: Array.isArray(question.optionExplanations)
-        ? question.optionExplanations.map(value => String(value || "").trim())
-        : [],
-      optionErrorTypes: Array.isArray(question.optionErrorTypes)
-        ? question.optionErrorTypes.map(value => String(value || "").trim())
-        : []
-    })) : []
+    phrases: normalizePhrases(raw.phrases, body),
+    questions
   };
 }
 
-export function validateArticle(article) {
+function normalizePhrases(rawPhrases, body) {
+  if (!Array.isArray(rawPhrases)) return [];
+  const seen = new Set();
+  return rawPhrases.map(value => ({
+    phrase: String(value?.phrase || "").trim(),
+    translation: String(value?.translation || "").trim(),
+    note: String(value?.note || "").trim(),
+    sentence: String(value?.sentence || "").trim()
+  })).filter(value => {
+    const key = value.phrase.toLowerCase();
+    const wordCount = value.phrase.match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g)?.length || 0;
+    if (!key || seen.has(key) || wordCount < 2 || wordCount > 6) return false;
+    if (!value.translation || !value.sentence || !body.includes(value.sentence)) return false;
+    if (!value.sentence.toLowerCase().includes(key)) return false;
+    seen.add(key);
+    return true;
+  }).slice(0, 24);
+}
+
+export function validateArticle(article, options = {}) {
   const errors = [];
   if (!article.id) errors.push("missing id");
   if (article.wordCount < 90 || article.wordCount > 900) errors.push("word count outside 90-900");
@@ -65,7 +91,7 @@ export function validateArticle(article) {
       || optionExplanations.length
       || optionErrorTypes.length
     );
-    if (hasLearningMetadata) {
+    if (options.requireLearningMetadata || hasLearningMetadata) {
       if (!question.type) errors.push(`question ${index + 1} has no type`);
       if (!question.evidenceSentence || !article.body.includes(question.evidenceSentence)) {
         errors.push(`question ${index + 1} evidence is not an exact passage sentence`);
@@ -84,6 +110,30 @@ export function validateArticle(article) {
       }
     }
   }
+  if (options.requireLearningMetadata) {
+    if (!Number.isInteger(article.difficultyLevel)
+        || article.difficultyLevel < 0 || article.difficultyLevel > 2) {
+      errors.push("difficulty level is missing or invalid");
+    }
+    if (!Number.isInteger(article.difficultyScore)
+        || article.difficultyScore < 0 || article.difficultyScore > 100) {
+      errors.push("difficulty score is missing or invalid");
+    }
+    if (!Array.isArray(article.phrases) || article.phrases.length < 3) {
+      errors.push("fewer than three learning phrases");
+    }
+  }
+  for (const [index, phrase] of (Array.isArray(article.phrases) ? article.phrases : []).entries()) {
+    const phraseWords = String(phrase?.phrase || "")
+      .match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g)?.length || 0;
+    if (phraseWords < 2 || phraseWords > 6
+        || !phrase.translation
+        || !phrase.sentence
+        || !article.body.includes(phrase.sentence)
+        || !phrase.sentence.toLowerCase().includes(phrase.phrase.toLowerCase())) {
+      errors.push(`learning phrase ${index + 1} is invalid`);
+    }
+  }
   const sentences = splitSentences(article.body);
   const translated = sentences.filter(sentence => article.sentenceTranslations[sentence]).length;
   if (translated < Math.max(1, Math.floor(sentences.length * 0.85))) {
@@ -100,7 +150,7 @@ export function validateArticle(article) {
   return errors;
 }
 
-export function validatePackage(payload) {
+export function validatePackage(payload, options = {}) {
   const errors = [];
   if (payload.schemaVersion !== 1) errors.push("schemaVersion must be 1");
   if (!Array.isArray(payload.articles) || payload.articles.length === 0) {
@@ -111,7 +161,7 @@ export function validatePackage(payload) {
   for (const [index, article] of payload.articles.entries()) {
     if (ids.has(article.id)) errors.push(`duplicate article id ${article.id}`);
     ids.add(article.id);
-    for (const error of validateArticle(article)) {
+    for (const error of validateArticle(article, options)) {
       errors.push(`article ${index + 1}: ${error}`);
     }
   }

@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+import "./backfill.mjs";
 import { AiClient } from "./ai.mjs";
 import { WebSearchClient, downloadReadablePage } from "./search.mjs";
 import { loadRaceCandidates } from "./race-source.mjs";
@@ -21,6 +22,12 @@ import {
   repairArticleGlossary,
   validateWordBank
 } from "./word-bank.mjs";
+import {
+  applyQuestionReviews,
+  extractLearningPhrases,
+  normalizeLearningPhrases,
+  reviewQuestions
+} from "./learning-enrichment.mjs";
 
 const targetCount = Number(process.env.TARGET_ARTICLE_COUNT || 30);
 const maxSearchResults = Number(process.env.MAX_SEARCH_RESULTS || 80);
@@ -223,21 +230,11 @@ async function enrichArticle(extracted, page) {
   // Attach a rejection handler immediately. Without this wrapper, the parallel
   // question request can time out while sentence translation is still running;
   // Node then treats it as an unhandled rejection and kills the whole refill.
-  const questionPromise = ai.json(
-    `Review existing high-school English multiple-choice reading questions for a Chinese high-school student.
-Return exactly one JSON object:
-{"questionReviews":[{"type":"细节理解","explanation":"brief Chinese explanation grounded in the passage","evidenceSentence":"one exact complete sentence copied verbatim from the passage","optionExplanations":["why option A is correct or wrong in Chinese","why option B is correct or wrong in Chinese","why option C is correct or wrong in Chinese","why option D is correct or wrong in Chinese"],"optionErrorTypes":["正确","偷换概念","推理过度","忽略否定或范围"]}]}
-Return one review for every question, in order, and one explanation and error type for every option. Type must be one of: 细节理解, 推理判断, 主旨大意, 词义猜测, 作者态度, 篇章结构. Error type must be one of: 正确, 没有定位证据句, 推理过度, 偷换概念, 忽略否定或范围, 把局部信息当成主旨, 单词或语境理解错误. Mark the correct option's error type as "正确". Evidence sentences must be exact verbatim sentences from the passage. Do not rewrite questions or return markdown or commentary.`,
-    JSON.stringify({
-      body: extracted.body,
-      questions: extracted.questions.map(question => ({
-        prompt: question.prompt,
-        options: question.options,
-        answer: question.answer
-      }))
-    }),
-    0
-  ).then(
+  const questionPromise = reviewQuestions(ai, extracted).then(
+    value => ({ value, error: null }),
+    error => ({ value: null, error })
+  );
+  const phrasePromise = extractLearningPhrases(bulkAi, extracted.body).then(
     value => ({ value, error: null }),
     error => ({ value: null, error })
   );
@@ -258,35 +255,25 @@ Do not omit ids or return English source text, markdown, or commentary.`,
   }
   const questionOutcome = await questionPromise;
   if (questionOutcome.error) throw questionOutcome.error;
-  const questionResult = questionOutcome.value;
+  const phraseOutcome = await phrasePromise;
+  if (phraseOutcome.error) throw phraseOutcome.error;
   const sentenceTranslations = {};
   for (const { id, sentence } of sentences) {
     const translation = String(sentenceTranslationsById[id] || "").trim();
     if (translation) sentenceTranslations[sentence] = translation;
   }
-  return {
+  const enriched = {
     ...extracted,
     sourceUrl: page.url,
     sentenceTranslations,
     glossary: {},
-    questions: extracted.questions.map((question, index) => {
-      const review = questionResult?.questionReviews?.[index] || {};
-      const optionExplanations = Array.isArray(review.optionExplanations)
-        ? review.optionExplanations.slice(0, question.options.length).map(value => String(value || "").trim())
-        : [];
-      return {
-        ...question,
-        type: String(review.type || "").trim(),
-        explanation: String(review.explanation || question.explanation || "").trim(),
-        evidenceSentence: String(review.evidenceSentence || "").trim(),
-        optionExplanations,
-        optionErrorTypes: Array.isArray(review.optionErrorTypes)
-          ? review.optionErrorTypes.slice(0, question.options.length)
-            .map(value => String(value || "").trim())
-          : []
-      };
-    })
+    phrases: normalizeLearningPhrases(phraseOutcome.value, extracted.body)
   };
+  applyQuestionReviews(enriched, questionOutcome.value);
+  if (enriched.phrases.length < 3) {
+    throw new Error(`phrase extraction returned only ${enriched.phrases.length} valid expression(s)`);
+  }
+  return enriched;
 }
 
 function chunkValues(values, size) {
@@ -324,7 +311,7 @@ async function persistCurrentPackage({ completed, checkpointArticle = null }) {
     generatedAt: new Date().toISOString(),
     articles
   };
-  const packageErrors = validatePackage(payload);
+  const packageErrors = validatePackage(payload, { requireLearningMetadata: true });
   if (packageErrors.length) {
     throw new Error(`Package validation failed:\n${packageErrors.join("\n")}`);
   }

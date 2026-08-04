@@ -5,7 +5,9 @@ import { validateWordBank } from "./word-bank.mjs";
 
 const input = path.resolve(process.argv[2] || "./dist/articles.json");
 const payload = JSON.parse(await fs.readFile(input, "utf8"));
-const errors = validatePackage(payload);
+const errors = validatePackage(payload, {
+  requireLearningMetadata: process.env.REQUIRE_COMPLETE_LEARNING_METADATA === "true"
+});
 const wordBankInput = process.argv[3] ? path.resolve(process.argv[3]) : null;
 if (wordBankInput) {
   const wordBank = JSON.parse(await fs.readFile(wordBankInput, "utf8"));

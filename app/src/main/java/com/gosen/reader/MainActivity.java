@@ -64,6 +64,7 @@ public class MainActivity extends Activity {
     private long readingStartedAt;
     private long activeReadingSeconds;
     private int activeArticleClicks;
+    private boolean activeAssessment;
     private boolean darkMode;
     private int GREEN;
     private int PRIMARY;
@@ -304,6 +305,14 @@ public class MainActivity extends Activity {
             page.addView(empty);
         } else {
             JSONObject article = todayArticle();
+            if (isCurrentAssessmentArticle(article)) {
+                LinearLayout assessmentNotice = card(GREEN_LIGHT);
+                assessmentNotice.addView(label("阶段检测已到期", 17, GREEN, true));
+                assessmentNotice.addView(label("每完成 10 篇安排一次同难度区间检测，用阅读速度、查词率和正确率判断真实进步。",
+                        13, MUTED, false));
+                page.addView(assessmentNotice);
+                page.addView(space(10));
+            }
             LinearLayout articleCard = articleCard(article, true);
             page.addView(articleCard);
         }
@@ -325,6 +334,8 @@ public class MainActivity extends Activity {
     }
 
     private JSONObject todayArticle() {
+        JSONObject assessment = assessmentArticleIfDue();
+        if (assessment != null) return assessment;
         float target = prefs.getFloat("abilityScore", 1f);
         JSONObject best = null;
         float bestScore = -1f;
@@ -348,7 +359,51 @@ public class MainActivity extends Activity {
         return repository.get(index);
     }
 
+    private JSONObject assessmentArticleIfDue() {
+        int total = prefs.getInt("totalArticles", 0);
+        int completedAssessments = prefs.getInt("assessmentCount", 0);
+        if (total < 10 || completedAssessments >= total / 10) return null;
+
+        String reservedId = prefs.getString("currentAssessmentArticleId", "");
+        JSONObject reserved = repository.getById(reservedId);
+        if (reserved != null && !isCompleted(reservedId)) return reserved;
+
+        JSONObject best = null;
+        int bestDistance = Integer.MAX_VALUE;
+        for (int pass = 0; pass < 2 && best == null; pass++) {
+            for (int i = 0; i < repository.size(); i++) {
+                JSONObject candidate = repository.get(i);
+                if (candidate == null || isCompleted(candidate.optString("id"))) continue;
+                int score = candidate.optInt("difficultyScore", 42);
+                int words = candidate.optInt("wordCount", 0);
+                JSONArray questions = candidate.optJSONArray("questions");
+                boolean fixedBand = articleLevel(candidate) == 1f
+                        && score >= 34 && score <= 50
+                        && words >= 240 && words <= 360
+                        && questions != null && questions.length() >= 3;
+                if (pass == 0 && !fixedBand) continue;
+                int distance = Math.abs(score - 42) + Math.abs(words - 300) / 20;
+                if (distance < bestDistance) {
+                    bestDistance = distance;
+                    best = candidate;
+                }
+            }
+        }
+        if (best != null) {
+            prefs.edit().putString("currentAssessmentArticleId", best.optString("id")).apply();
+        }
+        return best;
+    }
+
+    private boolean isCurrentAssessmentArticle(JSONObject article) {
+        return article != null && article.optString("id").equals(
+                prefs.getString("currentAssessmentArticleId", ""));
+    }
+
     private float articleLevel(JSONObject article) {
+        if (article.has("difficultyLevel")) {
+            return Math.max(0f, Math.min(2f, (float) article.optDouble("difficultyLevel", 1d)));
+        }
         String difficulty = article.optString("difficulty", "高考");
         if (difficulty.contains("基础") || difficulty.contains("容易")) return 0f;
         if (difficulty.contains("较难") || difficulty.contains("困难")) return 2f;
@@ -366,8 +421,16 @@ public class MainActivity extends Activity {
 
     private LinearLayout articleCard(JSONObject article, boolean prominent) {
         LinearLayout box = card(SURFACE);
+        boolean assessment = isCurrentAssessmentArticle(article);
+        if (assessment) {
+            box.addView(label("阶段检测 · 固定难度对比", 13, GOLD, true));
+            box.addView(space(6));
+        }
         TextView tag = label(article.optString("difficulty", "高中") + "  ·  "
-                + article.optInt("wordCount", 0) + " 词", 13, GREEN, true);
+                + article.optInt("wordCount", 0) + " 词"
+                + (article.has("difficultyScore")
+                ? "  ·  难度 " + article.optInt("difficultyScore") : ""),
+                13, GREEN, true);
         box.addView(tag);
         box.addView(space(8));
         box.addView(label(article.optString("title"), prominent ? 23 : 18, INK, true));
@@ -381,7 +444,7 @@ public class MainActivity extends Activity {
         }
         box.addView(space(16));
         Button read = primaryButton(isCompleted(article.optString("id"))
-                ? "再次阅读" : "开始阅读");
+                ? "再次阅读" : assessment ? "开始阶段检测" : "开始阅读");
         read.setOnClickListener(view -> showReader(article));
         box.addView(read);
         return box;
@@ -394,7 +457,7 @@ public class MainActivity extends Activity {
         LinearLayout page = page();
         scroll.addView(page);
         page.addView(label("阅读题库", 28, INK, true));
-        page.addView(label("当前共有 " + repository.size() + " 篇，月度更新包会自动替换题库。",
+        page.addView(label("当前共有 " + repository.size() + " 篇；未读少于 5 篇时会自动补充 30 篇。",
                 14, MUTED, false));
         page.addView(space(12));
         Button refresh = secondaryButton("刷新题库");
@@ -432,6 +495,10 @@ public class MainActivity extends Activity {
         page.addView(label("生词复习", 28, INK, true));
         page.addView(label("每天最多 12 个；系统会根据“忘记、模糊、记得”动态安排。",
                 14, MUTED, false));
+        page.addView(space(10));
+        Button manageVocabulary = secondaryButton("管理全部生词与释义");
+        manageVocabulary.setOnClickListener(view -> showVocabularyManager());
+        page.addView(manageVocabulary);
         page.addView(space(18));
 
         int remaining = remainingDailyReviews();
@@ -453,7 +520,11 @@ public class MainActivity extends Activity {
         String senseKey = item.optString("senseKey", item.optString("lemma"));
         String lemma = item.optString("lemma");
         String displayWord = item.optString("displayWord", lemma);
-        String sentence = item.optString("sentence");
+        JSONObject reviewContext = learningStore.reviewContext(item);
+        String sentence = reviewContext.optString("sentence", item.optString("sentence"));
+        String contextMeaning = reviewContext.optString("meaning", item.optString("translation"));
+        String contextTranslation = reviewContext.optString(
+                "translation", item.optString("sentenceTranslation"));
         String masked = sentence.replaceAll("(?i)\\b" + Pattern.quote(displayWord) + "\\b", "______");
         if (masked.equals(sentence)) {
             masked = sentence.replaceAll("(?i)\\b" + Pattern.quote(lemma) + "\\b", "______");
@@ -473,13 +544,13 @@ public class MainActivity extends Activity {
         answer.setPadding(0, dp(16), 0, 0);
         answer.addView(label(displayWord + "  ·  " + item.optString("pos", "—"),
                 22, INK, true));
-        answer.addView(label(item.optString("translation"), 23, GREEN, true));
+        answer.addView(label(contextMeaning, 23, GREEN, true));
         answer.addView(label(learningStore.statusLabel(item) + "  ·  已在 "
                 + item.optInt("contextCount", 1) + " 个语境中遇见",
                 13, MUTED, true));
         answer.addView(space(8));
         answer.addView(label(sentence, 15, INK, false));
-        answer.addView(label(item.optString("sentenceTranslation"), 15, MUTED, false));
+        answer.addView(label(contextTranslation, 15, MUTED, false));
         answer.addView(space(10));
         answer.addView(label("词形：" + item.optString("forms", "—"), 14, MUTED, false));
         answer.addView(label("已点击 " + item.optInt("clickCount") + " 次", 13, MUTED, false));
@@ -504,6 +575,15 @@ public class MainActivity extends Activity {
         rememberedParams.leftMargin = dp(6);
         actions.addView(remembered, rememberedParams);
         answer.addView(actions);
+        answer.addView(space(10));
+        Button remove = secondaryButton("这个词我已认识 · 移出生词本");
+        remove.setOnClickListener(view -> {
+            learningStore.removeWord(senseKey);
+            Toast.makeText(this, "已移出生词本；以后再次查询仍可重新加入",
+                    Toast.LENGTH_SHORT).show();
+            showReview();
+        });
+        answer.addView(remove);
         box.addView(answer);
 
         reveal.setOnClickListener(view -> {
@@ -527,6 +607,78 @@ public class MainActivity extends Activity {
         });
         page.addView(box);
         setScreen(scroll, true);
+    }
+
+    private void showVocabularyManager() {
+        onHomeScreen = false;
+        ScrollView scroll = screenScroll();
+        LinearLayout page = page();
+        scroll.addView(page);
+        page.addView(backRow("返回复习", this::showReview));
+        page.addView(space(12));
+        page.addView(label("生词本管理", 28, INK, true));
+        page.addView(label("可以修正 AI 释义，或删除已经认识和误点的词。",
+                14, MUTED, false));
+        page.addView(space(16));
+        ArrayList<JSONObject> words = new ArrayList<>(learningStore.allWords(200));
+        if (words.isEmpty()) {
+            page.addView(label("生词本还是空的。阅读时点击单词后会自动加入。",
+                    16, MUTED, false));
+            setScreen(scroll, false);
+            return;
+        }
+        for (JSONObject item : words) {
+            String senseKey = item.optString("senseKey", item.optString("lemma"));
+            LinearLayout box = card(SURFACE);
+            box.addView(label(item.optString("displayWord", item.optString("lemma"))
+                    + "  ·  " + item.optString("pos", "—"), 19, INK, true));
+            TextView meaning = label(item.optString("translation"), 18, GREEN, true);
+            box.addView(meaning);
+            box.addView(label(learningStore.statusLabel(item) + " · "
+                    + item.optInt("contextCount", 1) + " 个语境 · 点击 "
+                    + item.optInt("clickCount") + " 次", 13, MUTED, false));
+            box.addView(space(10));
+            EditText correction = new EditText(this);
+            correction.setText(item.optString("translation"));
+            correction.setTextColor(INK);
+            correction.setTextSize(15);
+            correction.setVisibility(View.GONE);
+            correction.setBackground(rounded(GREEN_LIGHT, 12));
+            correction.setPadding(dp(12), dp(8), dp(12), dp(8));
+            Button save = primaryButton("保存释义");
+            save.setVisibility(View.GONE);
+            Button edit = secondaryButton("修正释义");
+            edit.setOnClickListener(view -> {
+                correction.setVisibility(View.VISIBLE);
+                save.setVisibility(View.VISIBLE);
+                edit.setVisibility(View.GONE);
+            });
+            save.setOnClickListener(view -> {
+                String corrected = correction.getText().toString().trim();
+                if (corrected.isEmpty()) return;
+                learningStore.correctMeaning(senseKey, corrected, item.optString("sentence"));
+                meaning.setText(corrected);
+                correction.setVisibility(View.GONE);
+                save.setVisibility(View.GONE);
+                edit.setVisibility(View.VISIBLE);
+            });
+            Button remove = secondaryButton("移出生词本");
+            remove.setOnClickListener(view -> {
+                learningStore.removeWord(senseKey);
+                showVocabularyManager();
+            });
+            box.addView(edit);
+            box.addView(correction);
+            box.addView(save);
+            box.addView(space(6));
+            box.addView(remove);
+            page.addView(box);
+            page.addView(space(10));
+        }
+        if (learningStore.totalCount() > words.size()) {
+            page.addView(label("当前只显示最近的 200 个词。", 13, MUTED, false));
+        }
+        setScreen(scroll, false);
     }
 
     private void showStats() {
@@ -581,6 +733,8 @@ public class MainActivity extends Activity {
                 + " · 离线缓存 " + repository.size() + " 篇", 14, MUTED, false));
         page.addView(learning);
         page.addView(space(12));
+        page.addView(assessmentProgressCard());
+        page.addView(space(12));
         page.addView(weeklyReportCard());
         setScreen(scroll, true);
     }
@@ -617,6 +771,44 @@ public class MainActivity extends Activity {
         return box;
     }
 
+    private LinearLayout assessmentProgressCard() {
+        LinearLayout box = card(SURFACE);
+        box.addView(label("阶段能力检测", 18, INK, true));
+        box.addView(space(8));
+        JSONArray history = assessmentHistory();
+        if (history.length() == 0) {
+            int remaining = Math.max(0, 10 - prefs.getInt("totalArticles", 0));
+            box.addView(label("再完成 " + remaining
+                    + " 篇后建立第一份固定难度基线。", 14, MUTED, false));
+            return box;
+        }
+        JSONObject latest = history.optJSONObject(history.length() - 1);
+        box.addView(label("最近一次：正确率 " + latest.optInt("accuracyPercent")
+                + "% · 每百词查词 " + latest.optInt("clicksPerHundred")
+                + " 次 · " + latest.optInt("wordsPerMinute") + " 词/分钟",
+                14, MUTED, false));
+        if (history.length() >= 2) {
+            JSONObject previous = history.optJSONObject(history.length() - 2);
+            int accuracyDelta = latest.optInt("accuracyPercent")
+                    - previous.optInt("accuracyPercent");
+            int clickImprovement = previous.optInt("clicksPerHundred")
+                    - latest.optInt("clicksPerHundred");
+            int speedDelta = latest.optInt("wordsPerMinute")
+                    - previous.optInt("wordsPerMinute");
+            box.addView(space(6));
+            box.addView(label("相比上次：正确率 " + signed(accuracyDelta) + " 个百分点"
+                    + " · 查词变化 " + signed(-clickImprovement) + " 次/百词"
+                    + " · 速度 " + signed(speedDelta) + " 词/分钟",
+                    14, accuracyDelta >= 0 && clickImprovement >= 0 ? GREEN : MUTED, true));
+        }
+        int nextAt = (prefs.getInt("assessmentCount", 0) + 1) * 10;
+        int remaining = Math.max(0, nextAt - prefs.getInt("totalArticles", 0));
+        box.addView(space(8));
+        box.addView(label(remaining == 0 ? "下一次阶段检测已到期"
+                : "距离下一次检测还有 " + remaining + " 篇", 13, GOLD, true));
+        return box;
+    }
+
     private String abilityLabel(float score) {
         if (score < 0.67f) return "基础";
         if (score > 1.33f) return "较难";
@@ -634,6 +826,7 @@ public class MainActivity extends Activity {
     private void showReader(JSONObject article) {
         onHomeScreen = false;
         activeArticle = article;
+        activeAssessment = isCurrentAssessmentArticle(article);
         readingStartedAt = System.currentTimeMillis();
         activeReadingSeconds = 0L;
         activeArticleClicks = 0;
@@ -779,11 +972,15 @@ public class MainActivity extends Activity {
                 13, MUTED, false));
         sheet.addView(space(16));
 
-        String translation = contextEntry != null
+        String generatedTranslation = contextEntry != null
                 ? contextEntry.optString("translation", entry.optString("translation"))
                 : entry == null ? "该词释义待题库处理器补充"
                 : entry.optString("translation");
-        sheet.addView(label(translation, 24, GREEN, true));
+        String overrideKey = "meaningOverride:" + article.optString("id") + ":" + key
+                + ":" + Integer.toHexString(sentence.hashCode());
+        String translation = prefs.getString(overrideKey, generatedTranslation);
+        TextView translationView = label(translation, 24, GREEN, true);
+        sheet.addView(translationView);
         String pos = contextEntry != null
                 ? contextEntry.optString("pos", entry.optString("pos", "—"))
                 : entry == null ? "—" : entry.optString("pos", "—");
@@ -792,7 +989,7 @@ public class MainActivity extends Activity {
         JSONObject translations = article.optJSONObject("sentenceTranslations");
         String chinese = translations == null ? "" : translations.optString(sentence);
         activeArticleClicks++;
-        learningStore.recordWord(lemma, displayedWord, translation, pos, forms, meanings,
+        String senseKey = learningStore.recordWord(lemma, displayedWord, translation, pos, forms, meanings,
                 sentence, chinese, article.optString("id"), article.optString("title"), history);
         sheet.addView(label("词性  " + pos, 14, MUTED, false));
         sheet.addView(space(14));
@@ -806,12 +1003,79 @@ public class MainActivity extends Activity {
             sheet.addView(space(14));
         }
 
+        JSONArray phrases = article.optJSONArray("phrases");
+        boolean phraseHeaderShown = false;
+        int shownPhrases = 0;
+        if (phrases != null) {
+            for (int i = 0; i < phrases.length() && shownPhrases < 3; i++) {
+                JSONObject phrase = phrases.optJSONObject(i);
+                if (phrase == null || !sentence.equals(phrase.optString("sentence"))
+                        || !phraseContainsWord(phrase.optString("phrase"), displayedWord)) {
+                    continue;
+                }
+                if (!phraseHeaderShown) {
+                    sheet.addView(label("所在搭配", 14, GOLD, true));
+                    phraseHeaderShown = true;
+                }
+                sheet.addView(label(phrase.optString("phrase") + "  ·  "
+                        + phrase.optString("translation"), 17, INK, true));
+                String note = phrase.optString("note");
+                if (!note.isEmpty()) sheet.addView(label(note, 13, MUTED, false));
+                sheet.addView(space(8));
+                shownPhrases++;
+            }
+            if (phraseHeaderShown) sheet.addView(space(4));
+        }
+
         sheet.addView(label("所在句", 14, MUTED, true));
         sheet.addView(label(sentence, 15, INK, false));
         sheet.addView(space(8));
         sheet.addView(label(chinese.isEmpty() ? "本句翻译待题库处理器补充。" : chinese,
                 15, GREEN, false));
         sheet.addView(space(18));
+
+        Button correct = secondaryButton("释义不准确？手动修正");
+        EditText correction = new EditText(this);
+        correction.setText(translation);
+        correction.setTextColor(INK);
+        correction.setTextSize(16);
+        correction.setSingleLine(false);
+        correction.setVisibility(View.GONE);
+        correction.setBackground(rounded(GREEN_LIGHT, 12));
+        correction.setPadding(dp(12), dp(10), dp(12), dp(10));
+        Button saveCorrection = primaryButton("保存修正");
+        saveCorrection.setVisibility(View.GONE);
+        correct.setOnClickListener(view -> {
+            correction.setVisibility(View.VISIBLE);
+            saveCorrection.setVisibility(View.VISIBLE);
+            correct.setVisibility(View.GONE);
+        });
+        saveCorrection.setOnClickListener(view -> {
+            String corrected = correction.getText().toString().trim();
+            if (corrected.isEmpty()) {
+                Toast.makeText(this, "释义不能为空", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            prefs.edit().putString(overrideKey, corrected).apply();
+            learningStore.correctMeaning(senseKey, corrected, sentence);
+            translationView.setText(corrected);
+            correction.setVisibility(View.GONE);
+            saveCorrection.setVisibility(View.GONE);
+            correct.setVisibility(View.VISIBLE);
+            Toast.makeText(this, "已保存你的释义", Toast.LENGTH_SHORT).show();
+        });
+        sheet.addView(correct);
+        sheet.addView(correction);
+        sheet.addView(saveCorrection);
+        sheet.addView(space(8));
+        Button remove = secondaryButton("我已认识 · 移出生词本");
+        remove.setOnClickListener(view -> {
+            learningStore.removeWord(senseKey);
+            Toast.makeText(this, "已移出生词本", Toast.LENGTH_SHORT).show();
+            dialog.dismiss();
+        });
+        sheet.addView(remove);
+        sheet.addView(space(8));
         Button close = secondaryButton("继续阅读");
         close.setOnClickListener(view -> dialog.dismiss());
         sheet.addView(close);
@@ -831,6 +1095,15 @@ public class MainActivity extends Activity {
                     ViewGroup.LayoutParams.WRAP_CONTENT);
         });
         dialog.show();
+    }
+
+    private boolean phraseContainsWord(String phrase, String word) {
+        String normalizedWord = word.toLowerCase(Locale.ROOT).replace('’', '\'');
+        Matcher matcher = WORD_PATTERN.matcher(phrase.toLowerCase(Locale.ROOT).replace('’', '\''));
+        while (matcher.find()) {
+            if (normalizedWord.equals(matcher.group())) return true;
+        }
+        return false;
     }
 
     private JSONObject commonEntry(String word) {
@@ -961,6 +1234,20 @@ public class MainActivity extends Activity {
         page.addView(label("答对 " + correct + " / " + selected.length
                 + " 题。正确率用于复盘，不影响打卡。", 16, INK, false));
         page.addView(space(20));
+        if (activeAssessment) {
+            JSONObject result = latestAssessment();
+            LinearLayout assessment = card(GREEN_LIGHT);
+            assessment.addView(label("阶段检测结果", 19, GREEN, true));
+            assessment.addView(space(6));
+            assessment.addView(label("正确率 " + result.optInt("accuracyPercent")
+                    + "% · 每百词查词 " + result.optInt("clicksPerHundred")
+                    + " 次 · " + result.optInt("wordsPerMinute") + " 词/分钟",
+                    15, INK, true));
+            assessment.addView(label("检测难度 " + result.optInt("difficultyScore")
+                    + "；今后会继续从同一难度区间抽题比较。", 13, MUTED, false));
+            page.addView(assessment);
+            page.addView(space(16));
+        }
 
         for (int i = 0; i < questions.length(); i++) {
             JSONObject q = questions.optJSONObject(i);
@@ -1152,6 +1439,7 @@ public class MainActivity extends Activity {
     private void markTodayComplete(JSONObject article, int[] selected) {
         updateAdaptiveLevel(article, selected);
         recordStudyAnalytics(article, selected);
+        if (activeAssessment) recordAssessmentResult(article, selected);
         String today = LocalDate.now().format(DATE_FORMAT);
         Set<String> dates = new HashSet<>(prefs.getStringSet("completedDates", new HashSet<>()));
         Set<String> ids = new HashSet<>(prefs.getStringSet("completedIds", new HashSet<>()));
@@ -1194,15 +1482,70 @@ public class MainActivity extends Activity {
         long seconds = activeReadingSeconds > 0 ? activeReadingSeconds : Math.max(1,
                 (System.currentTimeMillis() - readingStartedAt) / 1000L);
         float score = prefs.getFloat("abilityScore", 1f);
-        if (accuracy >= 0.8f && clicksPerHundred <= 10f) score += 0.25f;
-        else if (accuracy < 0.6f || clicksPerHundred > 16f) score -= 0.25f;
-        score = Math.max(0f, Math.min(2f, score));
+        float lookupPenalty = Math.max(0f, clicksPerHundred - 8f) / 24f;
+        float observedLevel = articleLevel(article)
+                + (accuracy - 0.70f) * 1.2f - lookupPenalty;
+        observedLevel = Math.max(0f, Math.min(2f, observedLevel));
+        score = Math.max(0f, Math.min(2f, score * 0.70f + observedLevel * 0.30f));
         prefs.edit()
                 .putFloat("abilityScore", score)
                 .putFloat("lastAccuracy", accuracy)
                 .putFloat("lastClicksPerHundred", clicksPerHundred)
                 .putLong("lastReadingSeconds", seconds)
                 .apply();
+    }
+
+    private void recordAssessmentResult(JSONObject article, int[] selected) {
+        String guard = "assessmentRecorded:" + article.optString("id");
+        if (prefs.getBoolean(guard, false)) return;
+        JSONArray questions = article.optJSONArray("questions");
+        if (questions == null || selected.length == 0) return;
+        int correct = 0;
+        for (int i = 0; i < selected.length; i++) {
+            JSONObject question = questions.optJSONObject(i);
+            if (question != null && selected[i] == question.optInt("answer")) correct++;
+        }
+        long seconds = activeReadingSeconds > 0 ? activeReadingSeconds : Math.max(1,
+                (System.currentTimeMillis() - readingStartedAt) / 1000L);
+        int words = Math.max(1, article.optInt("wordCount", 1));
+        JSONObject result = new JSONObject();
+        try {
+            result.put("index", prefs.getInt("assessmentCount", 0) + 1);
+            result.put("date", LocalDate.now().format(DATE_FORMAT));
+            result.put("articleId", article.optString("id"));
+            result.put("difficultyScore", article.optInt("difficultyScore", 42));
+            result.put("wordCount", words);
+            result.put("accuracyPercent", Math.round(correct * 100f / selected.length));
+            result.put("clicksPerHundred", Math.round(activeArticleClicks * 100f / words));
+            result.put("wordsPerMinute", Math.round(words * 60f / seconds));
+            result.put("readingSeconds", seconds);
+        } catch (Exception ignored) { }
+        JSONArray history = assessmentHistory();
+        history.put(result);
+        prefs.edit()
+                .putString("assessmentHistory", history.toString())
+                .putInt("assessmentCount", prefs.getInt("assessmentCount", 0) + 1)
+                .putBoolean(guard, true)
+                .remove("currentAssessmentArticleId")
+                .apply();
+    }
+
+    private JSONArray assessmentHistory() {
+        try {
+            return new JSONArray(prefs.getString("assessmentHistory", "[]"));
+        } catch (Exception ignored) {
+            return new JSONArray();
+        }
+    }
+
+    private JSONObject latestAssessment() {
+        JSONArray history = assessmentHistory();
+        JSONObject result = history.optJSONObject(history.length() - 1);
+        return result == null ? new JSONObject() : result;
+    }
+
+    private String signed(int value) {
+        return value > 0 ? "+" + value : String.valueOf(value);
     }
 
     private boolean isTodayDone() {
