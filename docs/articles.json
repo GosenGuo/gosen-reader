@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T07:57:38.997Z",
+  "generatedAt": "2026-08-04T16:24:44.058Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -2707,7 +2707,16 @@
           "answer": 2,
           "explanation": "“Be alert”部分提到某些搜索引擎的功能可以让你自动收到任何提及你名字或个人信息的通知，即帮助你快速知晓新的提及。"
         }
-      ]
+      ],
+      "difficultyLevel": 2,
+      "difficultyScore": 55,
+      "difficultyMetrics": {
+        "wordCount": 326,
+        "sentenceCount": 17,
+        "averageSentenceWords": 19.2,
+        "longSentenceRatio": 0.235,
+        "challengingQuestionRatio": 0
+      }
     },
     {
       "id": "web-cda4f9a292f21a6c",
@@ -5694,7 +5703,21 @@
             "musician"
           ],
           "answer": 1,
-          "explanation": "文中提到她最初想学医，因此计划成为医生。"
+          "explanation": "根据原文第一段，作者提到Andrea Peterson最初追求的是医学学位，说明她原本计划成为一名医生。",
+          "type": "细节理解",
+          "evidenceSentence": "It was with this mindset that she started to pursue a degree in medicine.",
+          "optionExplanations": [
+            "她后来才决定投身教育，并非最初计划。",
+            "正确，原文明确提到她追求医学学位，对应医生职业。",
+            "她是教育家的女儿，但这是她的家庭背景而非她个人的初始职业规划。",
+            "她是在大学期间被音乐教育吸引，而非最初计划。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "正确",
+            "偷换概念",
+            "偷换概念"
+          ]
         },
         {
           "prompt": "Which of the following is NOT a benefit the students get from Andrea Peterson's class?",
@@ -5705,7 +5728,21 @@
             "Prizes for English and maths."
           ],
           "answer": 3,
-          "explanation": "文中只提到了音乐比赛获奖、自信心增强和促进其他学科学习，未提及英语和数学课获奖。"
+          "explanation": "文章第三段提到音乐可以提高自信、潜力以及迁移到其他学科，第二段提到音乐比赛获奖，但并未提到学生通过音乐课在英语和数学学科上获得奖项。",
+          "type": "细节理解",
+          "evidenceSentence": "It is truly exciting to see how my music teaching can transfer to other classrooms.",
+          "optionExplanations": [
+            "文章提到学生参加比赛并获奖，这是受益之一。",
+            "文章提到音乐可以增强学生的自信心和自尊心。",
+            "文章提到音乐教学成果可以转移到其他教室学习中。",
+            "正确，文章未提到学生在英语和数学课上获奖。"
+          ],
+          "optionErrorTypes": [
+            "忽略否定或范围",
+            "忽略否定或范围",
+            "忽略否定或范围",
+            "正确"
+          ]
         },
         {
           "prompt": "What is most special about the way Andrea Peterson teaches?",
@@ -5716,7 +5753,92 @@
             "She comes from a family of professional educators."
           ],
           "answer": 2,
-          "explanation": "她最特别之处在于将音乐与其他学科结合，开展跨课程项目，如用书中故事创作音乐剧。"
+          "explanation": "文章第三段详细介绍了Peterson引入了跨学科项目，将英语、数学等学科内容融入音乐教学，这是她教学方法中最独特的创新点。",
+          "type": "推理判断",
+          "evidenceSentence": "With this philosophy,Peterson introduced a crosscurriculum program,wherein she takes lessons taught in other classes,such as English and math,and expands upon them in an eightweek unit.",
+          "optionExplanations": [
+            "文中未详述具体的音乐教学技巧，重点在于其跨学科教学理念。",
+            "虽然课堂受欢迎，但并非其教学“最特别”之处，最特别的是跨学科整合。",
+            "正确，通过跨课程项目将音乐与英语、数学结合是其核心特色。",
+            "这是其背景，不是她教学方法的特点。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "推理过度",
+            "正确",
+            "偷换概念"
+          ]
+        }
+      ],
+      "difficultyLevel": 2,
+      "difficultyScore": 69,
+      "difficultyMetrics": {
+        "wordCount": 339,
+        "sentenceCount": 15,
+        "averageSentenceWords": 22.6,
+        "longSentenceRatio": 0.333,
+        "challengingQuestionRatio": 0
+      },
+      "phrases": [
+        {
+          "phrase": "serve others",
+          "translation": "为他人服务",
+          "note": "表示帮助、服务他人的目的和理想",
+          "sentence": "Andrea Peterson knew at a young age that she wanted to serve others."
+        },
+        {
+          "phrase": "pursue a degree",
+          "translation": "攻读学位",
+          "note": "指为获得学位而学习和努力",
+          "sentence": "It was with this mindset that she started to pursue a degree in medicine."
+        },
+        {
+          "phrase": "drawn to",
+          "translation": "被吸引到；对...感兴趣",
+          "note": "表示被某事物吸引或产生兴趣",
+          "sentence": "she realized that she was drawn to teach music,too."
+        },
+        {
+          "phrase": "revitalized the music programs",
+          "translation": "振兴音乐项目",
+          "note": "指重新激发活力，使音乐项目获得新生",
+          "sentence": "she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload."
+        },
+        {
+          "phrase": "to the extent that",
+          "translation": "在...程度上；以至于",
+          "note": "表示某情况达到的程度或结果",
+          "sentence": "she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload."
+        },
+        {
+          "phrase": "participate in",
+          "translation": "参加；参与",
+          "note": "表示积极参与某项活动或竞赛",
+          "sentence": "The growth of the music program in Granite Falls School District has encouraged students to participate in country,state and national music competitions,and won numerous prizes for the district."
+        },
+        {
+          "phrase": "unlock students' potential",
+          "translation": "开发学生的潜能",
+          "note": "比喻激发或帮助学生发挥潜在能力",
+          "sentence": "Music is an amazing tool to unlock students' potential."
+        },
+        {
+          "phrase": "transfer to",
+          "translation": "转移到；延伸到",
+          "note": "表示某种学习或效果从一个领域延伸到另一个领域",
+          "sentence": "It is truly exciting to see how my music teaching can transfer to other classrooms."
+        },
+        {
+          "phrase": "crosscurriculum program",
+          "translation": "跨课程项目",
+          "note": "指将多个学科内容整合的教学计划",
+          "sentence": "Peterson introduced a crosscurriculum program,wherein she takes lessons taught in other classes,such as English and math,and expands upon them in an eightweek unit."
+        },
+        {
+          "phrase": "work together to",
+          "translation": "一起努力；合作",
+          "note": "表示学生合作完成任务",
+          "sentence": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community."
         }
       ]
     },
@@ -5727,7 +5849,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "Helen Thayer, one of the greatest explorers of the 20th century, loves challenges. She says,\"I like to see what's on the other side of the hill.\" She has gone almost everywhere to do that.\nIn 1988,at the age of 50,she became the first woman to travel alone to the North Pole.  She pulled her own sled piled with 160 pounds of supplies,and during her trip no one brought her fresh supplies.Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears. In fact,Charlie saved her life when one of  them attacked her.Near the end of her trip,a forceful wind blew away the majority of her supplies. The last week of the trip,she survived on a handful of nuts and a little water each day.\nHelen goes to challenging places not only for  adventures,but also for education.Before her Arctic journey,she started a website called Adventure Classroom.On the site,she shared her adventures in order to inspire students.She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up...\"\nHelen grew up in New Zealand.Her parents  were athletes and mountain climbers.Following her parents'example,she climbed her first mountain at the age of nine.Later,she climbed the highest  mountains in North and South America,the former  USSR and New Zealand.\nIn 1996,she took on another challenge--the Sahara Desert.She and her husband,Bill,walked 2,400 miles across it.In 2001,she and Bill travelled on foot from west to east through the Gobi Desert in Mongolia.They hope to travel in mainland China into Sichuan and Tibet to study pandas.\nHelen plans to continue taking trips.She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website. She wants to inspire her students to never stop facing challenges.",
       "wordCount": 328,
       "sentenceTranslations": {
@@ -8724,6 +8846,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 38,
+      "difficultyMetrics": {
+        "wordCount": 328,
+        "sentenceCount": 24,
+        "averageSentenceWords": 13.7,
+        "longSentenceRatio": 0.042,
+        "challengingQuestionRatio": 0.5
       }
     },
     {
@@ -8733,7 +8864,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "Have you ever wondered what a Degree might be worth to you in your job or career? It means a lot. Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.\nHarcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time. With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one. Choose from exciting majors like Business Management, Accounting, Dressmaking & Design, Bookkeeping, Photography, Computer Science, Engineering, and more!\nYour training includes everything you need!\nBooks, lessons, learning aids---even professional-quality tools and equipment --- everything you need to master your training and move ahead to a new career is included in the low tuition   price you pay.\nYour education is nationally recognized! \nNearly 2,000 American companies --- including General Electric, IBM, Mobil, General Motors, Ford, and many others --- have used our training for their employees. If companies like these recognize the value of our training, you can be sure that employers in your area will, too!\nEarn your degree in as little as two years! Get a career diploma in just six months!\nThe career of your dreams is closer than you think! Even if you have no experience before, you can get valuable job skills in today's hottest fields! Step-by-step lessons make learning easy. Prepare for promotions, pay raises, or even start a business of your own.\nSend today for FREE information about Harcourt at-home training! \nSimply fill in your name and address on the coupon   above. Then, write in the name and number of the program you're most interested in, and mail it today. We'll rush your free information about how you can take advantage of the opportunities. In the field you've chosen. Act today!\nMail coupon today! Or call the number below 1-800-372-1589. Call anytime, 24 hours a day, 7 days a week. www.harcourt-learning.com \nE-mail: Harcourt@learning.com",
       "wordCount": 345,
       "sentenceTranslations": {
@@ -11924,6 +12055,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 35,
+      "difficultyMetrics": {
+        "wordCount": 345,
+        "sentenceCount": 29,
+        "averageSentenceWords": 11.9,
+        "longSentenceRatio": 0.034,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -11933,7 +12073,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "Jack Andraka from Maryland won the grand prize at the 2012 Intel International Science and Engineering Fair. It is the largest high school science competition in the world. The Maryland teenager is the youngest winner of the $75,000 prize. He was chosen from among 1,500 students in 70 countries.\nJack Andraka invented a test for pancreatic cancer  . He started to learn it after losing a close family friend to the disease. \"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right. We should be able to do something.'\" He found that early discovery is important to increasing the chances of surviving the disease.\nThe Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed. There he developed a simple paper test, which can recognize the disease in a single drop of blood. His test has proved correct 90% of the time. It also is 100 times more sensitive than other tests. \"It costs 3 cents per test, and then it takes only 5 minutes to run,\" he said.\nJack's success wouldn't have been possible without Anirban Maitra, a professor at Johns Hopkins. He was the only person among the 200 researchers Jack wrote to who showed interest in his project. \"I was very surprised that this was a 15-year-old who was writing this. I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview . \"\nJack worked in Professor Maitra's laboratory, completing his project in 7 months. The government has given the Maryland teenager patent rights to the pancreatic cancer test. He is now talking with companies about developing the test into a simple product.\nWhatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.",
       "wordCount": 319,
       "sentenceTranslations": {
@@ -14857,6 +14997,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 38,
+      "difficultyMetrics": {
+        "wordCount": 319,
+        "sentenceCount": 22,
+        "averageSentenceWords": 14.5,
+        "longSentenceRatio": 0.045,
+        "challengingQuestionRatio": 0.5
       }
     },
     {
@@ -14866,7 +15015,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "基础",
       "body": "In the early 1990s,the word\" Internet\" was strange to most people. But today, Internet has become a useful tool for people all over the world. Maybe Internet has been the greatest invention in the field of communication in the history of mankind .\nCommunicating with others on the Internet is much faster. We can chat with a person who is sitting in the other part of the world. We can e-mail our friends and they can read the e-mails within a minute. Giving all kinds of information is probably the biggest advantage of the Internet. We can use search engines to find the information we need. Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at.\nWe can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites. There are some games for free. We can meet new and interesting people in the chat now. We can also listen to music and see films.\nNow ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying. We can also do shopping and find nearly all kinds of goods. Sometimes we can find something that is quite good but very cheap.",
       "wordCount": 216,
       "sentenceTranslations": {
@@ -16856,6 +17005,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 0,
+      "difficultyScore": 12,
+      "difficultyMetrics": {
+        "wordCount": 216,
+        "sentenceCount": 16,
+        "averageSentenceWords": 13.5,
+        "longSentenceRatio": 0,
+        "challengingQuestionRatio": 0.333
       }
     },
     {
@@ -16865,7 +17023,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "The longest day of the month is the day after my younger brother T.J gets his new issue of Just Joking , a magazine filled with all kinds of jokes. When the new issue arrives, T.J tells me every riddle in it . But a constant stream of riddles can get annoying .\n\"Hey, Keith ! What did he hamburger name his daughter ?\"\n  \"T.J !\" I shout . \"Enough riddles !\"\nHe is suddenly quiet.\n\"Keith , be nice ,\"Mom says. \"T.J, honey, what did the hamburger name his daughter?\"\n\"Patty,\" he says.\nDuring dinner ,T.J doesn't say anything . Usually he brings Just Joking to the table with him and tells us some riddles in between bites of food .This evening, he does not .I'm relieved . At last --- some peace and quiet.\nAfter dinner, I go to my friend Brad's house to work on a project for science class . We're painting the planets when Brad's little sister, Nita, comes into the room.\n\"Brad, can I help you with the project ?\" Nita asks.\n\"Nita !\" He shouts at her . \"Leave us alone!\"\nNita walks out of the room looking sad. I feel bad for her. I can tell that she just wants to be around her big brother. The look on Nita's face reminds me of the look on T.J's face earlier in the evening . Now I don't feel so good about T.J's silence at the dinner table.\nWhen Brad and I finish working on the project, I see Nita in the front of the room .She still looks sad.\n\"Hey, Nita! Do you know what the hamburger named his daughter ?\" I ask.\n\"I don't know. What?\" Nita says.www.ks5u.com\n\"Patty!\"\nNita laughs and I laugh too . \" I heard that from my brother, T.J,\" I say. \"He's very funny.\nWhen I get home, T.J still looks unhappy.\n\"T.J, guess what ?\" I say. \" I used one of your riddles tonight. Brad's little sister thought it was really funny. So let's find more riddles for the next time I go over there. And maybe you can come along with me sometime.\"\n\"Really ?\" T.J's eyes light up . \"OK!\" T.J runs upstairs, and then comes back, smiling and carrying Just Joking.",
       "wordCount": 372,
       "sentenceTranslations": {
@@ -20164,6 +20322,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 39,
+      "difficultyMetrics": {
+        "wordCount": 372,
+        "sentenceCount": 66,
+        "averageSentenceWords": 5.6,
+        "longSentenceRatio": 0,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -20173,7 +20340,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language. English language holidays are taken in English-speaking countries like England, the USA or Australia. While there, you study in a language school with students from many different countries. You live with local people, often staying with a host family. A language holiday can be of any length - from one week to one year - but most are two or three weeks.\nWhat are the Benefits of a Language Holiday?\nLanguage holidays have become a very popular method of learning English because they have many advantages:\nTotal Exposure  Because you are in an English-speaking country, you are constantly exposed to English from the time you wake up and have breakfast with your host family until late evening and your last drink in a local pub. You have little or no opportunity to escape the English language. This is how you learn your own language - constant exposure.\nMixed Classes   When you study in your own country, all the other students in your class speak your language, so you are not forced to use English. On a language holiday, students come from countries all over the world. It is possible that nobody in your class will speak your language, so you will just have to speak English!\nFreedom From Pressure   On a language holiday you are away from home and can forget the everyday pressures of school or business. Your mind is more relaxed and you can learn more easily.\nCultural Understanding   Learning a language is not only about learning words. Different nations have different cultures. People think and behave differently. Their language is closely associated with their culture. By visiting and living in a foreign country, you learn to understand the culture and the people - and so better understand the language.\nYou'll find schools offering language holidays at EnglishClub.com ESL World.",
       "wordCount": 319,
       "sentenceTranslations": {
@@ -22729,6 +22896,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 37,
+      "difficultyMetrics": {
+        "wordCount": 319,
+        "sentenceCount": 21,
+        "averageSentenceWords": 15.2,
+        "longSentenceRatio": 0.048,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -24782,6 +24958,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 2,
+      "difficultyScore": 65,
+      "difficultyMetrics": {
+        "wordCount": 280,
+        "sentenceCount": 11,
+        "averageSentenceWords": 25.5,
+        "longSentenceRatio": 0.364,
+        "challengingQuestionRatio": 0.25
       }
     },
     {
@@ -24791,7 +24976,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "Traffic problems are an everyday concern in many cities,including Washington,DC.A growing number of Washingtonians are turning to bicycles to get to and from work.In fact,the number of commuters who use bicycles has doubled in the city since 2007.\nRalph Buehler teaches urban planning at the Virginia Polytechnic Institute and State University,popularly known as Virginia Tech.He has written a book about urban biking,called \"City Cycling\". He says there is a reason why urban bike tiding is now becoming more popular.\n\"Over the last 60 to 70 years.cities in the U.S.have been adapted to the automobile.\"\n\"Most cities took advantage of the money coming for the interstate highway system,from the federal government,starting in 1956.There was a 90 percent federal match so the cities only had to put up 10%.It was very tempting.\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.Their cars became a symbol of freedom.\n But today,many people believe they can save money by living in the city.\n Greg Billing is with the Washington Area Bicyclist Association.\"When a person makes a change from 04 using a car to using a bike,they are saving anywhere between 8 or$9,000 a year.\"\n Ralph Buehler says governments save money when people use bicycles.\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.\"\nWashington,DC has also taken steps to protect bike riders.It approved a safe passing law and created areas on the road between cars and bikes.\nThe United States Census Bureau says 4%of the city's workers ride to work by bike.The only city on the East Coast with more bike commuters is New York.",
       "wordCount": 306,
       "sentenceTranslations": {
@@ -27720,6 +27905,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 31,
+      "difficultyMetrics": {
+        "wordCount": 306,
+        "sentenceCount": 24,
+        "averageSentenceWords": 12.8,
+        "longSentenceRatio": 0.042,
+        "challengingQuestionRatio": 0.25
       }
     },
     {
@@ -27729,7 +27923,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "基础",
       "body": "The first English dictionary was published in 1604. The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.\nThe author, Robert Cawdrey, made no attempt to include everyday words in his dictionary. No one, he reasoned, would ever have to look up a word in a dictionary if he already knew the meaning of the word. During the 1600's more dictionaries were published. Each followed Cawdrey's lead and presented a few thousand hard words. Around 1700 one dictionary maker, John Kersey, did define easy words as well as hard words. But until the 1750's all the dictionaries were rather crude and not very valuable.\nA man named Dr Samuel Johnson changed all this. In 1755 Dr Johnson produced the first modern dictionary. He included in his dictionary all important words, both easy and hard, and he gave good meanings. He also gave good sentences to show how each word was actually used in speech and in writing. By the end of the 1700's most dictionary makers had followed Johnson's example. Dictionaries were getting better and better.\nThe 1800's saw the greatest improvement in the quality of dictionaries. In England scholars planned and prepared the Oxford English Dictionary, a twenty-volume (;;) work. One of the most interesting features of the Oxford Dictionary is its word histories. It traces (;) the history of each word from its earliest recorded use up to the time of the printing of the dictionary.",
       "wordCount": 244,
       "sentenceTranslations": {
@@ -29951,6 +30145,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 0,
+      "difficultyScore": 17,
+      "difficultyMetrics": {
+        "wordCount": 244,
+        "sentenceCount": 18,
+        "averageSentenceWords": 13.6,
+        "longSentenceRatio": 0,
+        "challengingQuestionRatio": 0.2
       }
     },
     {
@@ -29960,7 +30163,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "California has a new program called the Digital Textbook Initiative. \"Starting this fall with high school math and science, we will be the first state in the nation to provide schools with a state-approved list of digital textbooks.\" That was Governor Arnold Schwarzenegger in June, talking about his effort to get schools to use materials available free online. He listed reasons why he thinks digital textbooks make sense.\nCalifornia approves traditional textbooks in six-year cycles. Digital ones can offer the latest information. They lighten the load of school bags. They save paper and trees, and make learning more fun and interactive. And above all, he said, they help schools with their finances.\nThe state has had to make severe cuts in school spending because of deep financial problems. More than six million students attend California public schools. \nEarlier this year, California invited content developers to offer digital math and science materials for high schools. These had to meet at least 90% of the state's learning requirements. Specially trained teachers examined 16 textbooks and approved ten of them. Six of the ten were published by the CK 12 Foundation, a nonprofit group that had been developing digital science and math books for about two years. The foundation paid teachers and other education professionals to write and edit them. The money came from a group financed by the Khosla Family.\nCalifornia cannot require schools to use the digital textbooks. Individual school districts will have to decide for themselves. Susan Martimo, a California Department of Education official, says she does not expect widespread use right away. Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.\nSchool administrators point out that the texts may be free online, but students need a way to access them. Not everyone has a computer or electronic reader. Schools could print out copies, but that would not help the environment. Also, there is the cost to train teachers to use digital textbooks effectively.",
       "wordCount": 341,
       "sentenceTranslations": {
@@ -33133,6 +33336,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 38,
+      "difficultyMetrics": {
+        "wordCount": 341,
+        "sentenceCount": 25,
+        "averageSentenceWords": 13.6,
+        "longSentenceRatio": 0.04,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -33142,7 +33354,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "When I was a baby, I entertained you and made you laugh.Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.\nMy housetraining was a long process, because you were terribly busy, but we worked on that together. We went for long walks, runs in the park and car rides. We stopped for ice cream. I took long naps in the sun waiting for you to come home at the end of the day.\nGradually, you began spending more time at work and on your career, and more time searching for a human mate.Eventually, you fell in love.She, now your wife, is not a dog person, but I still welcomed her into our home.I was happy because you were happy.Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.\nYour wife was afraid I would bite them.But nevertheless, as they began to grow, I became their friend.Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.You've made the right decision for your \"family\", but there was a time when I was your only family.\nI was excited about the car ride until we arrived at the dog pound.It smelled of dogs and cats, of fear, of hopelessness.You filled out the paperwork and said, \"I know you will find a good home for her\".They shrugged and gave you a pained look.The children were in tears as they waved me goodbye.And \"How could you?\" were the only three words that swept over my mind.\nIs it better to live with hope or without hope? At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.\nMy beloved master, I will think of you and wait for you forever.I hope you receive more faithfulness from your family than you showed to me.",
       "wordCount": 382,
       "sentenceTranslations": {
@@ -36477,6 +36689,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 47,
+      "difficultyMetrics": {
+        "wordCount": 382,
+        "sentenceCount": 27,
+        "averageSentenceWords": 14.1,
+        "longSentenceRatio": 0.037,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -36486,7 +36707,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "The baby is just one day old and has not yet left hospital. She is quiet but alert  . Twenty centimeters from her face researchers have placed a white card with two black spots on it. She stares at it carefully. A researcher removes the card and replaces it by another, this time with the spots differently spaced. As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented. Her gaze returns; she looks at it for twice as long as she did at the previous card. Can she tell that the number two is different from three, just 24 hours after coming into the world?\nOr do newborns simply prefer more to fewer? The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes. Perhaps it is just the newness? When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves. Could it be the pattern that two things make, as opposed to three? No again. Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two. The effect even crosses between senses. Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.",
       "wordCount": 265,
       "sentenceTranslations": {
@@ -38841,6 +39062,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 30,
+      "difficultyMetrics": {
+        "wordCount": 265,
+        "sentenceCount": 17,
+        "averageSentenceWords": 15.6,
+        "longSentenceRatio": 0.118,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -38850,7 +39080,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "Guide to Stockholm University Library\nOur library offers different types of studying places and provides a good studying environment.\nZones\nThe library is divided into different zones. The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer. The reading places consist mostly of tables and chairs. The ground floor is the zone where you can talk. Here you can find sofas and armchairs for group work.\nComputers\nYou can use your own computer to connect to the wi-fi specially prepared for notebook computers; you can also use library computers, which contain the most commonly used applications, such as Microsoft Office. They are situated in the area known as the Experimental Field on the ground floor.\nGroup-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor. Some study rooms are for 2-3 people and others can hold up to 6-8 people. All rooms are marked on the library maps.\nThere are 40 group-study rooms that must be booked via the website. To book, you need an active University account and a valid University card. You can use a room three hours per day, nine hours at most per week.\nStorage of study material\nThe library has lockers for students to store course literature. When you have obtained at least 40 credits  , you may rent a locker and pay 400 SEK for a year's rental period.\nRules to be followed\nMobile phone conversations are not permitted anywhere in the library. Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.\nPlease note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
       "wordCount": 313,
       "sentenceTranslations": {
@@ -41616,6 +41846,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 38,
+      "difficultyMetrics": {
+        "wordCount": 313,
+        "sentenceCount": 19,
+        "averageSentenceWords": 16.5,
+        "longSentenceRatio": 0.053,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -41625,7 +41864,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "Last night's meteor   shower left many people in the community dissatisfied and demanding answers. According to Gabe Rothschild, Emerald Valley's mayor, people gathered in the suburbs of the city, carrying heavy telescopes, expecting to watch the brightly burning meteors passing through the sky. What they found instead was a sky so brightened by the city's lights that it darkened the light of the meteors passing overhead.\n\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.\"\nAstronomers--scientists who study stars and planets--have been complaining about this problem for decades. They say that light pollution prevents them from seeing objects in the sky that they could see quite easily in the past. They call on people and the government to take measures to fight against it.\nThere is yet a population besides professional and amateur star observers that suffers even more from light pollution. This population consists of birds, bats, frogs, snakes, etc. For example, outdoor lighting severely affects migrating   birds. According to the International Dark-Sky Association, \"100 million birds a year throughout North America die in crashes with lighted buildings and towers.\"\nCountless more animal casualties   result from the use of artificial lighting. Clearly, people enjoy the benefits of lighting their evenings. But some scientists think it can be harmful for humans, too. They worry that exposure to light while sleeping can increase a person's chances of getting cancer.\nEmerald Valley is only one community that is becoming aware of the negative effects of light pollution. For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory. Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.",
       "wordCount": 318,
       "sentenceTranslations": {
@@ -44840,6 +45079,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 47,
+      "difficultyMetrics": {
+        "wordCount": 318,
+        "sentenceCount": 18,
+        "averageSentenceWords": 17.7,
+        "longSentenceRatio": 0.167,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -44849,7 +45097,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "According to the British \"Daily Mail\" reported on May 22nd, the United States of America \"Forbes\" magazine recently released the 2013 annual \"most powerful women list\".\nGerman Chancellor(,) Angela Merkel for three consecutive  years reelected top. There are 9 Chinese including Chinese first lady--Peng Liyuan. Brazil President Dilma Rousseff ranked second. \"Bill and Melinda Gates foundation\" co-chairman, Gate's wife Mi Linda (Melinda Gates) was third. The United States first lady Michel (wife of Obama) in 2010 in the first, from 2012 second drop to fourth. Former American Secretary of state Hillary Clinton as a fifth. The queen of England fell 12,drop to fortieth. another list of British women's female writer JK Rowling, ranked ninety-third.\nThe list of Chinese women, including Chinese President Xi Jinping's wife Peng Liyuan, intelligent mobile phone maker HTC founder Wang Xuehong, chief executive of Chongqing Longhu real estate development limited company chairman Wu Yajun, SOHO China Ltd and co-founder Zhang Xin, the World Health Organization Director-General Chen Fengfuzhen (Margaret Chan), Huawei chairman Sun Yafang, the Li Jiacheng Foundation Director Zhou triumph, Baidu Inc chief financial officer Li Xinzhe, Sun Media Klc Holdings Ltd chairman Yang Lan.\n\"Forbes\" magazine said, this year the list of people are political, business, media, the humanitarian field, entertainment and technology industry elite , but also some women were selected because of the huge wealth, including funds, media exposure and influence. The entertainment industry representatives include Beyonce Knowles, actress Anngelina Jolie and Lady Gaga. The list of women from 26 countries, there are 153000000 of them in Twitter \"fans\", 16 of them own Create Company. There are 15 new this year, including South Korean President Park Geun-hye .\nIf you want to know more, click chinadaily.com.cn.",
       "wordCount": 282,
       "sentenceTranslations": {
@@ -47748,6 +47996,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 36,
+      "difficultyMetrics": {
+        "wordCount": 282,
+        "sentenceCount": 17,
+        "averageSentenceWords": 16.6,
+        "longSentenceRatio": 0.118,
+        "challengingQuestionRatio": 0.2
       }
     },
     {
@@ -47757,7 +48014,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "The church seems cold this morning, even after all the people, friends and family, fill the benches. I sit here in silence, in shock and denial. This was not supposed to happen. What about our dreams, or our plans? We were going to raise our children, travel the world, and grow old together. I'm only 37, a typical housewife. I don't know if I can do all this alone--two children, no father. What do I do or say?\nThe faces of so many people confuse me as they come to pay their last respects. Some have real sorrow; I can see it in their eyes. The others seem to just say, \"I told you so.\" Those famous last words: I-told-you-so. How I can't stand them. And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see. I want to scream and wake up but I can't do anything but sit there. How can they be so blind? I fell in love with a man. Love knows no boundaries .\nHe was a good man, hardworking, caring and kind. He was retired from the Navy and a gentleman. He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears. I remember our first child was a big surprise to both of us. I remember when I told him the news. He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.\" After a few months he started planning our next and even doing his famous little dance whenever he discussed the idea.\nA man, thirty years older than I, lies in a coffin. Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was. And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.",
       "wordCount": 345,
       "sentenceTranslations": {
@@ -50826,6 +51083,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 36,
+      "difficultyMetrics": {
+        "wordCount": 345,
+        "sentenceCount": 28,
+        "averageSentenceWords": 12.3,
+        "longSentenceRatio": 0.036,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -50835,7 +51101,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "Most people watching Jeremy Lin these past two months saw Jeremy Lin, New York Knicks star; but I, watching him, saw someone else. That was my elder brother, Bob, who is athletic and energetic. He could never sit still when he was in second grade; he had to get up every now and then and run around the room. And sure enough, he grew up to be a starting player for an N.C.A.A. championship lacrosse team. He was a Nike-endorsed marathoner, too, and reached the top of Mt. Everest, unguided, in his 50s.\nAnd yet my family never watched his lacrosse games. We did watch some of his marathons, but that wasn't until he was in his 20s. When Bob was in his glory days, our Shanghainese-born parents were bent on getting him into medical school. There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic. Bob never did become a doctor, though; and neither did I. It wasn't until my younger sister came along that someone in the family finally wore a white coat.\nBob today could be the fittest 58-year-old on the planet. His doctor estimates his biological age at 35; he's still climbing big mountains in the Himalayas. And, like Jeremy Lin, he's charming. No one sees Bob without leaving with a laugh. He sometimes jokes he could be mayor of his building, and it's true. To know him is to cheer for him.\nAnd yet my parents did not cheer for him. What if my mother had sat on the sidelines with her statistics, like Jeremy Lin's mother? What if my father had played videos of athletes for my brother to watch and imitate? It's hard not to wonder.\nAnd how did Jeremy Lin's parents manage to do these remarkable things? Amy Chua, the tiger mother, recalls her immigrant father beating the kids whenever they mispronounced a Chinese word. How is it that Jeremy Lin's immigrant father in particular, Gie-Ming Lin, encouraged his son to follow such an untraditional path?",
       "wordCount": 358,
       "sentenceTranslations": {
@@ -54160,6 +54426,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 39,
+      "difficultyMetrics": {
+        "wordCount": 358,
+        "sentenceCount": 29,
+        "averageSentenceWords": 12.3,
+        "longSentenceRatio": 0.034,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -54169,7 +54444,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "Maggie was very glad that James was not a frequent visitor to the house. So far as the children were concerned, they had a mystery about him that stirred their imagination. He stirred Maggie's anger, however, so that she often said to her husband, \"It's mercy that brother of yours doesn't come oftener.\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother. His arrival was a signal to the children that their bedtime would be delayed. Not that he ever spoke to them or played with them. He took no notice of them, as if he was unable to see children, at least until the time came for him to go. Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.\" Such was his regard for her.\nMaggie paid him back in her own way. She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice. Very late, they dropped off to sleep in their chairs. Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left. That gave her some satisfaction, for James, though rich, was mean. He always went home by the last train, just after two o'clock.\nMaggie's children secretly stared at their uncle. They could not forget that he had, in their mother's words, \"lost two wives and taken a third, \" They wondered about those two unfortunate lost ladies. They asked each other what their fate had been, and if neither could ever be found again. James never brought his third wife with him nor ever mentioned her. The children decided that he must be so frightened of losing her that he never allowed her outside the door.",
       "wordCount": 342,
       "sentenceTranslations": {
@@ -57243,6 +57518,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 45,
+      "difficultyMetrics": {
+        "wordCount": 342,
+        "sentenceCount": 20,
+        "averageSentenceWords": 17.1,
+        "longSentenceRatio": 0.05,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -57252,7 +57536,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis. This past week I have been greatly challenged to change my perspective and here is why.\nMy dream in life is to become a doctor, one who changes the world. But last week I opened an email from UBC that contained the words \"regrets\", no interview. I didn't get an interview to medical school, thus will not be entering school for September 2009. My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough. My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.\nDuring the past week two things happened. At church our pastor mentioned perspective in a section of his sermon  . He stated that when we take our eyes off ourselves and realize God's greatness, our circumstances will be seen through a new perspective.\nThe second thing that reminded me to look at perspective was reading a book. The Mitford Series is so good if you are looking for books to read. So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church. His sermon ended up saying \"In everything we give thanks.\" It is easy to give thanks when we feel successful in life. It is easy to give thanks when we receive a blessing. But seriously, who in their right mind says thanks for the financial problems I have?",
       "wordCount": 301,
       "sentenceTranslations": {
@@ -60040,6 +60324,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 46,
+      "difficultyMetrics": {
+        "wordCount": 301,
+        "sentenceCount": 17,
+        "averageSentenceWords": 17.7,
+        "longSentenceRatio": 0.176,
+        "challengingQuestionRatio": 0.333
       }
     },
     {
@@ -60049,7 +60342,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "基础",
       "body": "In order to start a business online now, there are a few steps you need to complete.\nThe very first step you need to complete is to have a product or service idea. A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.\nOnce you have your business ready to go, you need to go ahead and get a website. You will need to buy a domain name   and host  it with a company on the Web. Your domain name should be as simple as possible and it should be related to(...) your products. After this you can go ahead and get your site built up.\nYou can either do this yourself or you can pay someone else to do this. The site itself doesn't have to be anything special.\nThe final step for starting your business online is to have a way to make money. For this, you need to have a merchant account  that will let you sell things and make money. Your merchant account should accept as many forms of payment as possible.\nOnce your site is up and running, you can begin advertising the site. You need to create contents , such as articles, social networking sites, blog entries, etc. and then you can post it on the Internet so that you can attract  as many potential  customers as possible.\nThat's how easy it is to start a business online now.Very soon you will be making money online.",
       "wordCount": 264,
       "sentenceTranslations": {
@@ -62166,6 +62459,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 0,
+      "difficultyScore": 25,
+      "difficultyMetrics": {
+        "wordCount": 264,
+        "sentenceCount": 18,
+        "averageSentenceWords": 14.7,
+        "longSentenceRatio": 0.056,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -64609,6 +64911,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 2,
+      "difficultyScore": 55,
+      "difficultyMetrics": {
+        "wordCount": 285,
+        "sentenceCount": 12,
+        "averageSentenceWords": 23.3,
+        "longSentenceRatio": 0.25,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -64618,7 +64929,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "*What prevents depression:tea,coffee or hot chocolate?\nWomen who drink for or more cups of coffee a day are a fifth less likely to become depressed.Drinking two or three cups reduces the risk by 15 percent. This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.\nOne theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity. Some anti-depressants also work by blocking the adenosine receptors. Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.\n*How many eggs can we healthily eat: one a day or two a day?\nNeither-eat them freely. We've long been warned to stick to two or three eggs a week because of their high cholesterol content. But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.\nThere is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.\nResearch by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
       "wordCount": 250,
       "sentenceTranslations": {
@@ -66924,6 +67235,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 37,
+      "difficultyMetrics": {
+        "wordCount": 250,
+        "sentenceCount": 13,
+        "averageSentenceWords": 19.2,
+        "longSentenceRatio": 0.154,
+        "challengingQuestionRatio": 0.333
       }
     },
     {
@@ -66933,7 +67253,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "There are quite a few advantages of wearing school uniforms. The idea may seem disagreeable at first, but considering all the positive effective coming from wearing uniforms you would be more likely to enjoy them.\nTeachers love school uniforms because it helps provide an orderly learning environment. Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner. It gives students the opportunity to learn how to dress like young ladies and gentleman. And they can focus their attention on academics rather than style.\nPurchasing school uniforms is easy and needs less hesitation  and consideration. No matter what the school' s policy is, there are only specific essential  pieces to the wardrobe  that are necessary, so _ . A few wardrobe items can last a long time. Parents could also enjoy an easy morning, as it will take less time to choose a set of clothes for the school day.\nStudents wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly. Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly. Some students may not like the lack of individuality  with a uniform, but some school dress code policies may offer them the opportunities to show their unique styles.\nUniforms today are also becoming trendier and can be seen in many areas of pop culture. Celebrities and fashion designers are using uniforms as inspiration for new looks which also appeal to students.",
       "wordCount": 270,
       "sentenceTranslations": {
@@ -69534,6 +69854,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 40,
+      "difficultyMetrics": {
+        "wordCount": 270,
+        "sentenceCount": 15,
+        "averageSentenceWords": 18,
+        "longSentenceRatio": 0.133,
+        "challengingQuestionRatio": 0.75
       }
     },
     {
@@ -69543,7 +69872,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty. It is famous for being a symbol, not only of a city, but a whole country and condition too.\nIts creator, Danish architect Jorn Utzon , turned 85 last Wednesday. And he was awarded the Prizker Prize, known as the Nobel Prize of Architecture, on April 6. But Utzon has never seen his Opera House.\nThe story began in 1957 when Utzon won an international competition to design an opera house in Sydney.\nBut not everyone was enthusiastic ( ) . Utzon left his Opera project in 1966 after an argument with the local government and a storm of public criticism over the building's design. It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.\n\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.\nAlthough the Sydney Opera House was Utzon's masterpiece, it damaged his career. Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.\nUtzon said he once saw posters of the Opera House. The interiors were different from his design. But, he said, \"There is no regret, for it gave me such a wonderful experience in Australia and towards which I only have love and appreciation .\"\nBritain's Queen Elizabeth opened the Opera House in 1973, and it now holds around 3000 events every year. It is recognized as one of the great symbolic buildings of the 20th century.",
       "wordCount": 280,
       "sentenceTranslations": {
@@ -72156,6 +72485,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 32,
+      "difficultyMetrics": {
+        "wordCount": 280,
+        "sentenceCount": 17,
+        "averageSentenceWords": 16.5,
+        "longSentenceRatio": 0.059,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -74756,6 +75094,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 2,
+      "difficultyScore": 59,
+      "difficultyMetrics": {
+        "wordCount": 296,
+        "sentenceCount": 13,
+        "averageSentenceWords": 22.8,
+        "longSentenceRatio": 0.308,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -77574,6 +77921,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 2,
+      "difficultyScore": 64,
+      "difficultyMetrics": {
+        "wordCount": 312,
+        "sentenceCount": 14,
+        "averageSentenceWords": 22.3,
+        "longSentenceRatio": 0.357,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -80622,6 +80978,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 2,
+      "difficultyScore": 58,
+      "difficultyMetrics": {
+        "wordCount": 343,
+        "sentenceCount": 18,
+        "averageSentenceWords": 19.1,
+        "longSentenceRatio": 0.222,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -80631,7 +80996,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer. As soon as he starts to draw the crowd,a zoo keeper grabs him and drags him into his office. The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off. He offers the mimic a job to dress up as the gorilla until they can get another one. The mimic accepts.\nSo the next morning the mimic puts on the gorilla suit and enters the cage before the crowd comes. He discovers that it's a great job. He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic. However,eventually the crowds tire of him and he tires of just swinging on wires. He begins to notice that the people are paying more attention to the lion in the cage next to his. Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage. Of course,this makes the lion very angry,but the crowd loves it.\nAt the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction. Well,this goes on for some time-the mimic keeps taunting the lion,the crowds grow larger,and his salary keeps going up. Then one terrible day when he is dangling over the angry lion he slips and falls. The mimic is terrified.\nThe lion gathers itself and prepares to attack. The mimic is so scared that he begins to run round and round the cage with the lion close behind. Finally,the mimic starts screaming and yelling,\"Help me,help me!\"But the lion is quick and attacks. The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!Do you want to get us both fired?\"",
       "wordCount": 362,
       "sentenceTranslations": {
@@ -83636,6 +84001,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 50,
+      "difficultyMetrics": {
+        "wordCount": 362,
+        "sentenceCount": 22,
+        "averageSentenceWords": 16.5,
+        "longSentenceRatio": 0.091,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -83645,7 +84019,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "基础",
       "body": "The weather is getting hotter. You are thirsty playing basketball or riding home from school. A cold drink may be just the thing. But be careful what you are drinking. Something that looks cool may not be good for your health. There are plenty of \"energy drinks\" on the market. Most of them have beautiful colors and cool names. The lists on them tell you they are helpful to your health. Sounds great!\nBut after a careful check you may find that most energy drinks have lots of caffeine in them. These drinks are especially aimed at young people, students, busy people and sports players. Makers sometimes say their drinks make you better at sports and can keep you awake. But be careful not to drink too much. Caffeine makes your heart beat fast. Because of this, the International Olympic Committee(IOC) has limited  its use. Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea. Possible health dangers have something to do with energy drinks. Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems. Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
       "wordCount": 210,
       "sentenceTranslations": {
@@ -85691,6 +86065,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 0,
+      "difficultyScore": 9,
+      "difficultyMetrics": {
+        "wordCount": 210,
+        "sentenceCount": 19,
+        "averageSentenceWords": 11.1,
+        "longSentenceRatio": 0,
+        "challengingQuestionRatio": 0.5
       }
     },
     {
@@ -85700,7 +86083,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "基础",
       "body": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.\nDon't forget your camera - the best way to capture your visit forever.\nKeep Safe at the Zoo:\nChildren aged 12 years and under need to be accompanied   by a caregiver.\nTo keep the safety of our animals, any throwing games are not permitted in the zoo grounds.\nThe zoo animals are not trained. Do not enter any enclosure  , or put any part of your body into an enclosure.\nThere are a number of natural waterways at the zoo, so please take care of your children at all times.\nGeneral Information:\nCheck out the weather before you come. In winter we suggest you bring a jacket and an umbrella, and in summer, be sure to bring sunscreen and a hat.\nEvery zoo animal enjoys its own specific: well-balanced food. We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals. Our keepers work strictly on _ .\nFeel free to take personal photos and make videos. However, any commercial photography or filming needs written permissions from zoo management.\nNot all animals are permitted in the zoo grounds. We welcome people with guide dogs, but they must contact us ahead of time about their visit. Please phone the Zoo Information Center on +64(0)9-360-3805.\nSmoking is not permitted in covered areas.\nAuckland Zoo does not allow entry to any unaccompanied children 12 years and under. If the children are found by themselves, the staff do have the right to call the police.",
       "wordCount": 273,
       "sentenceTranslations": {
@@ -88173,6 +88556,15 @@
             "estimatedCostUsd": null
           }
         }
+      },
+      "difficultyLevel": 0,
+      "difficultyScore": 25,
+      "difficultyMetrics": {
+        "wordCount": 273,
+        "sentenceCount": 20,
+        "averageSentenceWords": 13.7,
+        "longSentenceRatio": 0,
+        "challengingQuestionRatio": 0.5
       }
     },
     {
@@ -88182,7 +88574,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "More than one-third of adults in the United States are obese .In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.\nEven many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.\nReducing pounds largely comes down to the two-sided factors of diet and exercise.Not carrying out the first one enough,and not getting enough of the second one,ends up giving the individual a recipe for being overweight.\nAdvising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.Dieting has more to do with the types of food you eat than how much you eat.Reduce the amount of red meat in your diet.If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.Limit your intake of salt and starches.If you've got to have potato chips alongside your sandwich at lunch,choose the baked potato chips that contain less fat than the deep-fried chips.You might find you're really not sacrificing that much in terms of taste.\nA diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.Drink more water and less sugary drinks.If you have to have a soda,a diet soda is a better option,but seltzer is an even better choice than that.\nIt's important--if not always easy--to make sure you get at least some physical activity each and every day.If your feet won't allow for a regular jogging regimen,then make sure you take lots of walks.Next time you need to mail a letter,walk to the mailbox instead of driving.Try to work in a daily walk in your neighborhood.",
       "wordCount": 342,
       "sentenceTranslations": {
@@ -91334,6 +91726,15 @@
             "estimatedCostCny": 0.0712764
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 50,
+      "difficultyMetrics": {
+        "wordCount": 342,
+        "sentenceCount": 19,
+        "averageSentenceWords": 18,
+        "longSentenceRatio": 0.105,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -94650,6 +95051,15 @@
             "estimatedCostCny": 0.0822785
           }
         }
+      },
+      "difficultyLevel": 2,
+      "difficultyScore": 60,
+      "difficultyMetrics": {
+        "wordCount": 341,
+        "sentenceCount": 17,
+        "averageSentenceWords": 20.1,
+        "longSentenceRatio": 0.235,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -94659,7 +95069,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "With its budget of $80 million , John Woo as director, and an all-star cast ,Red Cliffis the most expensive and ambitious Asian-financed film ever. Last week I saw the release of the second part, and _ does it shows.\nBut watching the film as a foreigner I felt I was missing out on something. Not knowing my Cao Cao's from my Zhou Yu's, I was not even sure whom I wanted to win. Certainly after the opening scene, in which Cao Cao is seen watching a game of Cuju, an ancient Chinese variation of football, I knew who had my support. After all, any man who enjoys his football is someone after my own heart. But after Cao Cao resorted to some evil strategies against his enemies in the south, I wasn't so sure he was the man I should be rooting for.\nAnd there is a lot more toRed Cliff 2than just extravagant battle scenes. The film does not take itself too seriously. Conversations between leaders are littered with one-liners, many of which had the audience in laughter. There is even enough to keep fans of more romantic entertainment happy too. This includes a charming relationship between a southern spy and an innocent northern soldier. The characters' interaction provides some genuinely heart-warming moments in the middle of the battle.\nClocking in at around two hours, the film certainly does justice to the history story. When I walked out the cinema, I felt as drained  as Cao Cao's soldiers must have 1,800 years ago.",
       "wordCount": 255,
       "sentenceTranslations": {
@@ -97165,6 +97575,15 @@
             "estimatedCostCny": 0.059638
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 36,
+      "difficultyMetrics": {
+        "wordCount": 255,
+        "sentenceCount": 15,
+        "averageSentenceWords": 17,
+        "longSentenceRatio": 0.133,
+        "challengingQuestionRatio": 1
       }
     },
     {
@@ -97174,7 +97593,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "What do those countries have in common? People are killing each other or drive others out of their homes. Why is this happening? Very simple, in each of these, one group of people believes another group is different from them and dangerous to them. It has been thus through history. How different are humans from each other?\nWe come in different colors: red, black, white, yellow and brown; we have a variety of political systems, social systems, religious views or none at all; We are different in mind, have different educational systems, different economic classes. We speak different languages, and have different customs and dresses.\nIf we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other. I say they appear to be different, because most of what have been listed stand for what we see or hear, not what is true of human. Man is man everywhere. It is only where he lives, when he lives there, with whom he lives there, and al the others that have effect on how he lives, that is, what he believes, what he wears, his customs, his language and so on. These are man-made facts that each group develops over tome, living together, facing the same problems, needing and desiring the same things. They are his culture. The truth is that we are much more same than different. If you wear one type of clothing and I wear another, we both wear some kind of clothing. Our culture demands it. If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other. Nothing is gained by giving too many differences, but much is lost. If we understood our differences as the ones of culture, then we could make our world more peaceful.\nDifferences does not mean better or worse, right or wrong. It means only that differences have been made by society. Differences produce variety of thoughts, work out human problems peacefully.",
       "wordCount": 350,
       "sentenceTranslations": {
@@ -100113,6 +100532,15 @@
             "estimatedCostCny": 0.0705896
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 49,
+      "difficultyMetrics": {
+        "wordCount": 350,
+        "sentenceCount": 23,
+        "averageSentenceWords": 15.2,
+        "longSentenceRatio": 0.13,
+        "challengingQuestionRatio": 0.25
       }
     },
     {
@@ -100122,7 +100550,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "By Road Around the World\nNickname: Walker\nEmail: ragwani@hotmail.com\nWhen to travel: May 2011-Aug 2011\nWho am I: I am 55. From my childhood, have this dream to go around the world by hitch hiking. However this is now changed and I want to go by road.\nMy travel plans: Going throughout the world and study various people, culture, habits.\nWho am I looking for: A female companion, and she must have similar interest as me.\nJust for fun\nNickname: Stream\nEmail: qrutta@yahoo.co.uk\nWhen to travel: Jan 2011-Dec 2011\nWho am I: Young slim girl, looking to see Asia with anyone who wants to travel.\nMy travel plans: I most prefer a white man in his late30's to have fun with me as he travels either on business or leisure trips\nWhom am I looking for: Someone who is honest, friendly; good sense of humor, adventurous.\n22yr old Australian looking for travel companion\nNickname: Angela\nEmail: alyssia _ europe@hotmail.com\nWhen to travel: March 2011\nWho am I: a lovely girl, with fun, honest, caring.\nMy travel plans: I will be traveling to Europe cities, then the world!\nWho am I looking for:  An extremely fun and entertaining male/female, middle-aged, someone that I can enjoy every travel moment with.\nFun and maybe more\nNickname: Sunnygirl\nEmail: sunnygirl2008@yahoo.com\nWhen to travel: Jun2011-Aug2011\nWho am I: Slender African girl in her late 20's. Quite charming, loving, pretty,fun to be with.\nMy travel plans: Nothing in mind for sure, just looking to come with you.\nWhom am I looking for: Looking for a white male between 40-50 years, someone who is full of energy and lively.",
       "wordCount": 280,
       "sentenceTranslations": {
@@ -102614,6 +103042,15 @@
             "estimatedCostCny": 0.0601416
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 28,
+      "difficultyMetrics": {
+        "wordCount": 280,
+        "sentenceCount": 19,
+        "averageSentenceWords": 14.7,
+        "longSentenceRatio": 0.053,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -102623,7 +103060,7 @@
       "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
       "region": "中国",
       "year": 2017,
-      "difficulty": "较难",
+      "difficulty": "高考标准",
       "body": "Even plants can run a fever, especially when they're under attack by insects or disease. But unlike human, plants can have their temperature taken from 3,000 feet away--straight up. A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress. The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.\nEven better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye. Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops. The data were transformed into a colourcoded map showing where plants were running \"fevers\". Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.\nThe bad news is that Paley's company closed down in 1984, after only three years. Farmers resisted the new technology and longterm backers were hard to find. But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation. Agriculture experts have no doubt the technology works. \"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M. Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade. But only if Paley finds the financial backing which he failed to obtain 10 years ago.",
       "wordCount": 271,
       "sentenceTranslations": {
@@ -105428,6 +105865,15 @@
             "estimatedCostCny": 0.0661572
           }
         }
+      },
+      "difficultyLevel": 1,
+      "difficultyScore": 33,
+      "difficultyMetrics": {
+        "wordCount": 271,
+        "sentenceCount": 15,
+        "averageSentenceWords": 18.1,
+        "longSentenceRatio": 0.067,
+        "challengingQuestionRatio": 0
       }
     },
     {
@@ -108369,6 +108815,15 @@
             "estimatedCostCny": 0.071925
           }
         }
+      },
+      "difficultyLevel": 2,
+      "difficultyScore": 61,
+      "difficultyMetrics": {
+        "wordCount": 304,
+        "sentenceCount": 15,
+        "averageSentenceWords": 20.3,
+        "longSentenceRatio": 0.333,
+        "challengingQuestionRatio": 0.667
       }
     }
   ]
