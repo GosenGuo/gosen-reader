@@ -993,35 +993,35 @@
       "runId": "30928914763-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-04T16:24:12.550Z",
-      "generatedAt": "2026-08-04T16:24:44.058Z",
+      "generatedAt": "2026-08-04T16:24:57.719Z",
       "requestedArticles": 39,
-      "acceptedArticles": 1,
+      "acceptedArticles": 2,
       "completed": false,
       "usage": {
-        "requests": 7,
-        "inputTokens": 6192,
-        "outputTokens": 4805,
-        "totalTokens": 10997,
+        "requests": 9,
+        "inputTokens": 7778,
+        "outputTokens": 6071,
+        "totalTokens": 13849,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.01138147,
+        "estimatedCostCny": 0.01271226,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "gemini-2.5-flash": {
-            "requests": 6,
-            "inputTokens": 5346,
-            "outputTokens": 3848,
-            "totalTokens": 9194,
+            "requests": 7,
+            "inputTokens": 6118,
+            "outputTokens": 4229,
+            "totalTokens": 10347,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.0112238
+            "estimatedCostCny": 0.0124079
           },
           "claude-haiku-4-5-20251001": {
-            "requests": 1,
-            "inputTokens": 846,
-            "outputTokens": 957,
-            "totalTokens": 1803,
+            "requests": 2,
+            "inputTokens": 1660,
+            "outputTokens": 1842,
+            "totalTokens": 3502,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.00015767
+            "estimatedCostCny": 0.00030436
           }
         }
       },
@@ -1050,6 +1050,33 @@
               "totalTokens": 1803,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00015767
+            }
+          }
+        },
+        {
+          "articleId": "web-ffeb0429c5817c0f",
+          "title": "RACE 高中英语阅读 high17044",
+          "requests": 2,
+          "inputTokens": 1586,
+          "outputTokens": 1266,
+          "totalTokens": 2852,
+          "estimatedCostCny": 0.00133079,
+          "models": {
+            "gemini-2.5-flash": {
+              "requests": 1,
+              "inputTokens": 772,
+              "outputTokens": 381,
+              "totalTokens": 1153,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.0011841
+            },
+            "claude-haiku-4-5-20251001": {
+              "requests": 1,
+              "inputTokens": 814,
+              "outputTokens": 885,
+              "totalTokens": 1699,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00014669
             }
           }
         }

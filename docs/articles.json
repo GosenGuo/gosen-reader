@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T16:24:44.058Z",
+  "generatedAt": "2026-08-04T16:24:57.719Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -8807,7 +8807,21 @@
             "For fame."
           ],
           "answer": 1,
-          "explanation": "根据文章第二段，海伦去北极是为了教育目的，她创建了“冒险课堂”网站来激励学生，因此她旅行的主要目的是教育。"
+          "explanation": "文章明确指出Helen去往充满挑战的地方不仅是为了探险，也是为了教育。",
+          "type": "细节理解",
+          "evidenceSentence": "Helen goes to challenging places not only for  adventures,but also for education.",
+          "optionExplanations": [
+            "文中提到adventure是她去挑战性场所的原因之一，但“fun”并非她前往的主要目的描述，属于概括不全。",
+            "文章明确提到她去挑战性地方的原因之一是education，与原文相符。",
+            "文中未提及她为了金钱而进行探险，属于无中生有。",
+            "文中未提及她为了名声而进行探险，属于无中生有。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "正确",
+            "单词或语境理解错误",
+            "单词或语境理解错误"
+          ]
         },
         {
           "prompt": "Which is the best title for the text?",
@@ -8818,7 +8832,21 @@
             "Adventure Classroom Owner"
           ],
           "answer": 0,
-          "explanation": "文章主要讲述了海伦·塞耶作为探险家的经历和冒险精神，选项A“热爱冒险的女人”最能概括全文内容。"
+          "explanation": "全文主要围绕Helen Thayer作为探险家的生平、挑战经历及通过探险进行教育的使命展开，以“热爱冒险的女性”最能概括全篇。",
+          "type": "主旨大意",
+          "evidenceSentence": "Helen Thayer, one of the greatest explorers of the 20th century, loves challenges.",
+          "optionExplanations": [
+            "标题全面概括了她作为探险家热爱挑战的特质，是最佳选项。",
+            "“A Famous Woman”范围过大，缺乏文章重点描述的“探险”核心，属于把局部信息当成主旨。",
+            "虽然她爬山，但爬山只是她众多冒险活动之一，属于把局部信息当成主旨。",
+            "Adventure Classroom只是她事业的一部分，不能概括整篇文章关于她探险经历的内容，属于把局部信息当成主旨。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "把局部信息当成主旨",
+            "把局部信息当成主旨",
+            "把局部信息当成主旨"
+          ]
         }
       ],
       "generationUsage": {
@@ -8855,7 +8883,39 @@
         "averageSentenceWords": 13.7,
         "longSentenceRatio": 0.042,
         "challengingQuestionRatio": 0.5
-      }
+      },
+      "phrases": [
+        {
+          "phrase": "travel alone to",
+          "translation": "独自前往",
+          "note": "强调一个人完成某项旅程或任务",
+          "sentence": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole."
+        },
+        {
+          "phrase": "set goals",
+          "translation": "设定目标",
+          "note": "制定具体的目标和计划",
+          "sentence": "Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up..."
+        },
+        {
+          "phrase": "plan for success",
+          "translation": "为成功做计划",
+          "note": "为了达到目标而进行周密的规划",
+          "sentence": "Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up..."
+        },
+        {
+          "phrase": "never give up",
+          "translation": "永不放弃",
+          "note": "坚定的意志表达，强调持续的努力和决心",
+          "sentence": "Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up..."
+        },
+        {
+          "phrase": "never stop facing challenges",
+          "translation": "永远不停止面对挑战",
+          "note": "表示持续地迎接困难和挑战的态度",
+          "sentence": "She wants to inspire her students to never stop facing challenges."
+        }
+      ]
     },
     {
       "id": "web-a41ebe4e54718747",
