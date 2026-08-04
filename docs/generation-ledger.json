@@ -993,17 +993,17 @@
       "runId": "30928914763-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-04T16:24:12.550Z",
-      "generatedAt": "2026-08-04T16:26:22.646Z",
+      "generatedAt": "2026-08-04T16:26:30.925Z",
       "requestedArticles": 39,
-      "acceptedArticles": 7,
+      "acceptedArticles": 8,
       "completed": false,
       "usage": {
-        "requests": 26,
-        "inputTokens": 22080,
-        "outputTokens": 17460,
-        "totalTokens": 39540,
+        "requests": 27,
+        "inputTokens": 22771,
+        "outputTokens": 18071,
+        "totalTokens": 40842,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.03397334,
+        "estimatedCostCny": 0.03407822,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
@@ -1016,12 +1016,12 @@
             "estimatedCostCny": 0.0329384
           },
           "claude-haiku-4-5-20251001": {
-            "requests": 7,
-            "inputTokens": 5727,
-            "outputTokens": 6247,
-            "totalTokens": 11974,
+            "requests": 8,
+            "inputTokens": 6418,
+            "outputTokens": 6858,
+            "totalTokens": 13276,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.00103494
+            "estimatedCostCny": 0.00113982
           }
         }
       },
@@ -1204,6 +1204,25 @@
               "totalTokens": 1687,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00014781
+            }
+          }
+        },
+        {
+          "articleId": "web-09421cfd6a2c44ad",
+          "title": "RACE 高中英语阅读 high18021",
+          "requests": 1,
+          "inputTokens": 691,
+          "outputTokens": 611,
+          "totalTokens": 1302,
+          "estimatedCostCny": 0.00010489,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 1,
+              "inputTokens": 691,
+              "outputTokens": 611,
+              "totalTokens": 1302,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00010489
             }
           }
         }
