@@ -993,27 +993,27 @@
       "runId": "30928914763-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-04T16:24:12.550Z",
-      "generatedAt": "2026-08-04T16:30:54.963Z",
+      "generatedAt": "2026-08-04T16:31:00.659Z",
       "requestedArticles": 39,
-      "acceptedArticles": 34,
+      "acceptedArticles": 35,
       "completed": false,
       "usage": {
-        "requests": 58,
-        "inputTokens": 46188,
-        "outputTokens": 42765,
-        "totalTokens": 88953,
+        "requests": 59,
+        "inputTokens": 46705,
+        "outputTokens": 43276,
+        "totalTokens": 89981,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.04028613,
+        "estimatedCostCny": 0.04171873,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "gemini-2.5-flash": {
-            "requests": 21,
-            "inputTokens": 17444,
-            "outputTokens": 11975,
-            "totalTokens": 29419,
+            "requests": 22,
+            "inputTokens": 17961,
+            "outputTokens": 12486,
+            "totalTokens": 30447,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.0351707
+            "estimatedCostCny": 0.0366033
           },
           "claude-haiku-4-5-20251001": {
             "requests": 37,
@@ -1725,6 +1725,25 @@
               "totalTokens": 880,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.0010978
+            }
+          }
+        },
+        {
+          "articleId": "web-e5460a9523607192",
+          "title": "RACE 高中英语阅读 high11571",
+          "requests": 1,
+          "inputTokens": 517,
+          "outputTokens": 511,
+          "totalTokens": 1028,
+          "estimatedCostCny": 0.0014326,
+          "models": {
+            "gemini-2.5-flash": {
+              "requests": 1,
+              "inputTokens": 517,
+              "outputTokens": 511,
+              "totalTokens": 1028,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.0014326
             }
           }
         }
