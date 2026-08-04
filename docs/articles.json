@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T07:56:18.641Z",
+  "generatedAt": "2026-08-04T07:56:54.346Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -102612,6 +102612,2820 @@
             "totalTokens": 65656,
             "estimatedCostUsd": null,
             "estimatedCostCny": 0.0601416
+          }
+        }
+      }
+    },
+    {
+      "id": "web-473b3be3fe52d4fc",
+      "title": "RACE 高中英语阅读 high1157",
+      "source": "RACE 中国高中英语考试阅读题库",
+      "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+      "region": "中国",
+      "year": 2017,
+      "difficulty": "较难",
+      "body": "Even plants can run a fever, especially when they're under attack by insects or disease. But unlike human, plants can have their temperature taken from 3,000 feet away--straight up. A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress. The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.\nEven better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye. Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops. The data were transformed into a colourcoded map showing where plants were running \"fevers\". Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.\nThe bad news is that Paley's company closed down in 1984, after only three years. Farmers resisted the new technology and longterm backers were hard to find. But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation. Agriculture experts have no doubt the technology works. \"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M. Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade. But only if Paley finds the financial backing which he failed to obtain 10 years ago.",
+      "wordCount": 271,
+      "sentenceTranslations": {
+        "Even plants can run a fever, especially when they're under attack by insects or disease.": "植物也会“发烧”，特别是在受到昆虫叮咬或病害侵袭的时候。",
+        "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": "但与人类不同的是，测量植物的体温可以在3000英尺的高空直接进行。",
+        "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": "十年前，物理学家斯蒂芬·佩利利用为军事目的和其他卫星开发的红外扫描技术，找到了一种测量农作物温度的快捷方法，用以判断哪些作物正处于生长压力之下。",
+        "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": "此举旨在让农民能够精准地喷洒农药，而不是向整片田地喷洒有毒物质，因为其中难免会包含一些没有病虫害的植株。",
+        "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": "更棒的是，佩利的远程扫描服务公司甚至能在农作物问题肉眼可见之前就将其检测出来。",
+        "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": "安装在飞机上、于夜间3000英尺高空飞行的红外扫描仪，可以测量农作物散发出的热量。",
+        "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": "这些数据被转化成了一张彩色编码图，显示出植物在哪些地方出现了“发烧”现象。",
+        "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": "农民随后可以进行定点喷洒，所使用的农药比平时减少了50%到70%。",
+        "The bad news is that Paley's company closed down in 1984, after only three years.": "坏消息是，佩利的初创公司在仅仅运营了三年后，便于1984年倒闭了。",
+        "Farmers resisted the new technology and longterm backers were hard to find.": "农民们抵触这项新技术，而且很难找到长期支持者。",
+        "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": "但随着人们对农产品农药残留的担忧重燃，加之红外扫描技术的改进，佩利希望能够恢复运营。",
+        "Agriculture experts have no doubt the technology works.": "农业专家们对这项技术的效果深信不疑。",
+        "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": "德克萨斯农工大学的乔治·奥瑟说：“这项技术可以应用在美国75%的农用土地上。”",
+        "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": "最近从农业部退休的雷·杰克逊认为，远程红外农作物扫描技术在本年代末有望得到采用。",
+        "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": "但前提是佩利必须找到他在10年前没能获得的财政支持。"
+      },
+      "glossary": {
+        "even": {
+          "lemma": "even",
+          "translation": "甚至",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "甚至；即使；平坦的；偶数的；相等的",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "甚至",
+              "pos": "adv."
+            },
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "更加",
+              "pos": "adv."
+            }
+          }
+        },
+        "plants": {
+          "lemma": "plant",
+          "translation": "植物",
+          "pos": "n.",
+          "forms": "plants",
+          "meanings": "植物；工厂；装置；种植",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "植物",
+              "pos": "n."
+            },
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "植物",
+              "pos": "n."
+            },
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "植物",
+              "pos": "n."
+            },
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "植物",
+              "pos": "n."
+            }
+          }
+        },
+        "can": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal verb",
+          "forms": "could",
+          "meanings": "能够；可以；可能；罐头",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "能够",
+              "pos": "modal verb"
+            }
+          }
+        },
+        "run": {
+          "lemma": "run",
+          "translation": "出现（指疾病或症状）",
+          "pos": "v.",
+          "forms": "runs, running, ran, run",
+          "meanings": "奔跑；运行；经营；流动；出现（症状）",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "出现（指发烧症状）",
+              "pos": "v."
+            }
+          }
+        },
+        "a": {
+          "lemma": "a",
+          "translation": "一",
+          "pos": "art.",
+          "forms": "an",
+          "meanings": "一个；每一；任何；一种；同一",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "一次",
+              "pos": "art."
+            },
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "一架",
+              "pos": "art."
+            },
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "一种",
+              "pos": "art."
+            },
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "fever": {
+          "lemma": "fever",
+          "translation": "发烧",
+          "pos": "n.",
+          "forms": "fevers",
+          "meanings": "发烧；狂热；骚动；激动",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "发烧",
+              "pos": "n."
+            }
+          }
+        },
+        "especially": {
+          "lemma": "especially",
+          "translation": "尤其",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "特别；尤其；专门；格外",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "尤其",
+              "pos": "adv."
+            }
+          }
+        },
+        "when": {
+          "lemma": "when",
+          "translation": "当……时",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "在……时；当……时；既然；考虑到",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "当……时",
+              "pos": "conj."
+            }
+          }
+        },
+        "they're": {
+          "lemma": "they are",
+          "translation": "它们是",
+          "pos": "pron. + v.",
+          "forms": "无常见变形",
+          "meanings": "它们是；他们是",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "它们是",
+              "pos": "pron. + v."
+            }
+          }
+        },
+        "under": {
+          "lemma": "under",
+          "translation": "处于（某种状态）",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之下；少于；在……影响下；处于（某种状态）",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "受到……的（攻击）",
+              "pos": "prep."
+            },
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "处于（压力之下）",
+              "pos": "prep."
+            }
+          }
+        },
+        "attack": {
+          "lemma": "attack",
+          "translation": "侵袭",
+          "pos": "v.",
+          "forms": "attacks, attacking, attacked",
+          "meanings": "攻击；侵袭；抨击；发作",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "侵袭",
+              "pos": "v."
+            }
+          }
+        },
+        "by": {
+          "lemma": "by",
+          "translation": "被",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "被；通过；凭借；在……旁边；在……之前",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "被",
+              "pos": "prep."
+            },
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "被",
+              "pos": "prep."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "在……之前",
+              "pos": "prep."
+            }
+          }
+        },
+        "insects": {
+          "lemma": "insect",
+          "translation": "昆虫",
+          "pos": "n.",
+          "forms": "insects",
+          "meanings": "昆虫；虫子",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "昆虫",
+              "pos": "n."
+            }
+          }
+        },
+        "or": {
+          "lemma": "or",
+          "translation": "或者",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "或者；否则；也不；即",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "或者",
+              "pos": "conj."
+            }
+          }
+        },
+        "disease": {
+          "lemma": "disease",
+          "translation": "疾病",
+          "pos": "n.",
+          "forms": "diseases",
+          "meanings": "疾病；弊病；病害",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "疾病",
+              "pos": "n."
+            }
+          }
+        },
+        "but": {
+          "lemma": "but",
+          "translation": "但是",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "但是；可是；除了；只不过",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "但是",
+              "pos": "conj."
+            }
+          }
+        },
+        "unlike": {
+          "lemma": "unlike",
+          "translation": "不像",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "不像；与……不同；不同的",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "不像",
+              "pos": "prep."
+            }
+          }
+        },
+        "human": {
+          "lemma": "human",
+          "translation": "人类",
+          "pos": "n.",
+          "forms": "humans",
+          "meanings": "人类；人；人类的",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "人类",
+              "pos": "n."
+            }
+          }
+        },
+        "have": {
+          "lemma": "have",
+          "translation": "让",
+          "pos": "v.",
+          "forms": "has, had, having",
+          "meanings": "有；经历；让；持有",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "让",
+              "pos": "v."
+            },
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "Agriculture experts have no doubt the technology works.": {
+              "translation": "有",
+              "pos": "v."
+            }
+          }
+        },
+        "their": {
+          "lemma": "their",
+          "translation": "它们的",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "它们的；他们的；她们的",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "它们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "temperature": {
+          "lemma": "temperature",
+          "translation": "温度",
+          "pos": "n.",
+          "forms": "temperatures",
+          "meanings": "温度；体温；气温；发烧；冷热度",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "温度",
+              "pos": "n."
+            },
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "温度",
+              "pos": "n."
+            }
+          }
+        },
+        "taken": {
+          "lemma": "take",
+          "translation": "测量",
+          "pos": "v.",
+          "forms": "takes, taking, took, taken",
+          "meanings": "参加；拍摄；采取；拿走；测量（体温等）",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "测量",
+              "pos": "v."
+            }
+          }
+        },
+        "from": {
+          "lemma": "from",
+          "translation": "距离",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "从；离；来自；因为；起始",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "距离",
+              "pos": "prep."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "从（某部门）退休",
+              "pos": "prep."
+            }
+          }
+        },
+        "feet": {
+          "lemma": "foot",
+          "translation": "英尺",
+          "pos": "n.",
+          "forms": "foot",
+          "meanings": "脚；足；英尺；底部",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "英尺",
+              "pos": "n."
+            },
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "英尺",
+              "pos": "n."
+            }
+          }
+        },
+        "away": {
+          "lemma": "away",
+          "translation": "远距离地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "离开；不在；向远处；一直；去别处",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "远距离地",
+              "pos": "adv."
+            }
+          }
+        },
+        "straight": {
+          "lemma": "straight",
+          "translation": "径直地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "径直地；笔直地；坦率地；连续地",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "径直地",
+              "pos": "adv."
+            }
+          }
+        },
+        "up": {
+          "lemma": "up",
+          "translation": "向上",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向上；完成；起床；未睡；彻底",
+          "contexts": {
+            "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.": {
+              "translation": "向上",
+              "pos": "adv."
+            },
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "（构成短语）提出",
+              "pos": "adv."
+            }
+          }
+        },
+        "decade": {
+          "lemma": "decade",
+          "translation": "十年",
+          "pos": "n.",
+          "forms": "decades",
+          "meanings": "十年；十年期",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "十年",
+              "pos": "n."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "十年",
+              "pos": "n."
+            }
+          }
+        },
+        "ago": {
+          "lemma": "ago",
+          "translation": "以前",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "以前；从前",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "以前",
+              "pos": "adv."
+            },
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "以前",
+              "pos": "adv."
+            }
+          }
+        },
+        "adopting": {
+          "lemma": "adopt",
+          "translation": "采用",
+          "pos": "v.",
+          "forms": "adopts, adopting, adopted",
+          "meanings": "采用；采纳；收养；批准",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "采用",
+              "pos": "v."
+            }
+          }
+        },
+        "the": {
+          "lemma": "the",
+          "translation": "（用于特指）",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "这；那；（用于特指）；（用于最高级前）",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Agriculture experts have no doubt the technology works.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            }
+          }
+        },
+        "infrared": {
+          "lemma": "infrared",
+          "translation": "红外的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "红外的；红外线的",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "红外的",
+              "pos": "adj."
+            },
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "红外的",
+              "pos": "adj."
+            },
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "红外的",
+              "pos": "adj."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "红外的",
+              "pos": "adj."
+            }
+          }
+        },
+        "scanning": {
+          "lemma": "scan",
+          "translation": "扫描",
+          "pos": "n.",
+          "forms": "scans, scanned, scanning",
+          "meanings": "扫描；细看；审视",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "扫描",
+              "pos": "n."
+            },
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "扫描",
+              "pos": "n."
+            },
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "扫描",
+              "pos": "n."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "扫描",
+              "pos": "n."
+            }
+          }
+        },
+        "technology": {
+          "lemma": "technology",
+          "translation": "技术",
+          "pos": "n.",
+          "forms": "technologies",
+          "meanings": "科技；技术；工艺；工程学",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "技术",
+              "pos": "n."
+            },
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "技术",
+              "pos": "n."
+            },
+            "Agriculture experts have no doubt the technology works.": {
+              "translation": "技术",
+              "pos": "n."
+            }
+          }
+        },
+        "developed": {
+          "lemma": "develop",
+          "translation": "研制",
+          "pos": "v.",
+          "forms": "develops, developed, developing",
+          "meanings": "开发；研制；发展；养成",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "研制",
+              "pos": "v."
+            }
+          }
+        },
+        "for": {
+          "lemma": "for",
+          "translation": "用于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "为了；支持；因为；对……而言；代表",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "用于",
+              "pos": "prep."
+            }
+          }
+        },
+        "military": {
+          "lemma": "military",
+          "translation": "军事的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "军事的；军用的；军队的",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "军事的",
+              "pos": "adj."
+            }
+          }
+        },
+        "purposes": {
+          "lemma": "purpose",
+          "translation": "目的",
+          "pos": "n.",
+          "forms": "purposes",
+          "meanings": "目的；意图；用途；意志",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "目的",
+              "pos": "n."
+            }
+          }
+        },
+        "and": {
+          "lemma": "and",
+          "translation": "和",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "和；而且；然后；接着",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "和",
+              "pos": "conj."
+            }
+          }
+        },
+        "other": {
+          "lemma": "other",
+          "translation": "其他的",
+          "pos": "adj.",
+          "forms": "others",
+          "meanings": "其他的；另外的；另一方的；其余的",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "其他的",
+              "pos": "adj."
+            }
+          }
+        },
+        "satellites": {
+          "lemma": "satellite",
+          "translation": "人造卫星",
+          "pos": "n.",
+          "forms": "satellites",
+          "meanings": "人造卫星；卫星；附属机构；随从",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "人造卫星",
+              "pos": "n."
+            }
+          }
+        },
+        "physicist": {
+          "lemma": "physicist",
+          "translation": "物理学家",
+          "pos": "n.",
+          "forms": "physicists",
+          "meanings": "物理学家；物理研究者",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "物理学家",
+              "pos": "n."
+            }
+          }
+        },
+        "stephen": {
+          "lemma": "stephen",
+          "translation": "斯蒂芬（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "斯蒂芬（男子名）",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "斯蒂芬",
+              "pos": "n."
+            }
+          }
+        },
+        "paley": {
+          "lemma": "paley",
+          "translation": "佩利（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "佩利（姓氏）",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "佩利",
+              "pos": "n."
+            },
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "佩利",
+              "pos": "n."
+            },
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "佩利",
+              "pos": "n."
+            },
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "佩利",
+              "pos": "n."
+            },
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "佩利",
+              "pos": "n."
+            }
+          }
+        },
+        "came": {
+          "lemma": "come",
+          "translation": "（came up with）提出，想出",
+          "pos": "v.",
+          "forms": "comes, came, coming",
+          "meanings": "来；到达；出现；开始；提出（想法）",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "想出",
+              "pos": "v."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "使用；利用",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "和……一起；使用；带有；由于；关于",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "利用",
+              "pos": "prep."
+            },
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "由于",
+              "pos": "prep."
+            }
+          }
+        },
+        "quick": {
+          "lemma": "quick",
+          "translation": "快速的",
+          "pos": "adj.",
+          "forms": "quicker, quickest",
+          "meanings": "迅速的；敏捷的；即刻的；急躁的",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "快速的",
+              "pos": "adj."
+            }
+          }
+        },
+        "way": {
+          "lemma": "way",
+          "translation": "方法",
+          "pos": "n.",
+          "forms": "ways",
+          "meanings": "方式；道路；方向；程度",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "方法",
+              "pos": "n."
+            }
+          }
+        },
+        "to": {
+          "lemma": "to",
+          "translation": "用于构成不定式",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "用于构成不定式；对于；向；给；到",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
+            },
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
+            },
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
+            },
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
+            },
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
+            },
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
+            },
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
+            }
+          }
+        },
+        "take": {
+          "lemma": "take",
+          "translation": "测量（体温/温度等）",
+          "pos": "v.",
+          "forms": "took, taken, taking, takes",
+          "meanings": "进行；采取；花费；拿；乘坐；测量",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "测量",
+              "pos": "v."
+            }
+          }
+        },
+        "of": {
+          "lemma": "of",
+          "translation": "……的",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "……的；关于；属于；由……组成；（表示数量或种类）",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "……的",
+              "pos": "prep."
+            }
+          }
+        },
+        "crops": {
+          "lemma": "crop",
+          "translation": "农作物",
+          "pos": "n.",
+          "forms": "crops",
+          "meanings": "农作物；庄稼；产量；收成",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "农作物",
+              "pos": "n."
+            },
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "农作物",
+              "pos": "n."
+            }
+          }
+        },
+        "determine": {
+          "lemma": "determine",
+          "translation": "确定",
+          "pos": "v.",
+          "forms": "determines; determined; determining",
+          "meanings": "确定；决定；测定；查明",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "确定",
+              "pos": "v."
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "哪一个",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "哪一些",
+              "pos": "pron."
+            },
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "（引导非限制性定语从句）这",
+              "pos": "pron."
+            },
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "（引导定语从句）……的那个",
+              "pos": "pron."
+            }
+          }
+        },
+        "ones": {
+          "lemma": "one",
+          "translation": "（代替上文提到的复数名词）那些",
+          "pos": "pron.",
+          "forms": "ones",
+          "meanings": "（用于代替前文提到的人或物）那个，那些；一个人；任何人；一",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "那些",
+              "pos": "pron."
+            }
+          }
+        },
+        "are": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, were, been, being",
+          "meanings": "是；有；在；位于；成为",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "stress": {
+          "lemma": "stress",
+          "translation": "压力",
+          "pos": "n.",
+          "forms": "stresses; stressed; stressing",
+          "meanings": "压力；紧张；强调；重音",
+          "contexts": {
+            "A decade ago, adopting the infrared scanning technology developed for military purposes and other satellites, physicist Stephen Paley came up with a quick way to take the temperature of crops to determine which ones are under stress.": {
+              "translation": "压力",
+              "pos": "n."
+            }
+          }
+        },
+        "goal": {
+          "lemma": "goal",
+          "translation": "目标",
+          "pos": "n.",
+          "forms": "goals",
+          "meanings": "目标；目的；进球；得分",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "目标",
+              "pos": "n."
+            }
+          }
+        },
+        "was": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；处于；在；存在；成为",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "let": {
+          "lemma": "let",
+          "translation": "让",
+          "pos": "v.",
+          "forms": "lets, letting, let",
+          "meanings": "允许；让；出租；使",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "让",
+              "pos": "v."
+            }
+          }
+        },
+        "farmers": {
+          "lemma": "farmer",
+          "translation": "农民",
+          "pos": "n.",
+          "forms": "farmer",
+          "meanings": "农民；农场主；农夫",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "农民",
+              "pos": "n."
+            },
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "农民",
+              "pos": "n."
+            },
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "农场主",
+              "pos": "n."
+            }
+          }
+        },
+        "precisely": {
+          "lemma": "precise",
+          "translation": "精确地",
+          "pos": "adv.",
+          "forms": "precise",
+          "meanings": "精确地；准确地；恰好；明确地",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "精确地",
+              "pos": "adv."
+            }
+          }
+        },
+        "target": {
+          "lemma": "target",
+          "translation": "瞄准",
+          "pos": "v.",
+          "forms": "targets, targeted, targeting",
+          "meanings": "瞄准；把……作为目标；目标；靶子",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "瞄准",
+              "pos": "v."
+            }
+          }
+        },
+        "pesticide": {
+          "lemma": "pesticide",
+          "translation": "杀虫剂",
+          "pos": "n.",
+          "forms": "pesticides",
+          "meanings": "杀虫剂；农药",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "杀虫剂",
+              "pos": "n."
+            },
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "杀虫剂",
+              "pos": "n."
+            }
+          }
+        },
+        "spraying": {
+          "lemma": "spray",
+          "translation": "喷洒",
+          "pos": "v.",
+          "forms": "sprays, sprayed, spray",
+          "meanings": "喷洒；喷雾；喷射",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "喷洒",
+              "pos": "v."
+            }
+          }
+        },
+        "rather": {
+          "lemma": "rather",
+          "translation": "而不是",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "相当地；在某种程度上；而不是；宁愿",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "而不是",
+              "pos": "adv."
+            }
+          }
+        },
+        "than": {
+          "lemma": "than",
+          "translation": "比",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "比；除……之外；与之相比；宁可",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "比",
+              "pos": "conj."
+            }
+          }
+        },
+        "rain": {
+          "lemma": "rain",
+          "translation": "大量降下",
+          "pos": "v.",
+          "forms": "rains, rained, raining",
+          "meanings": "（使）大量降下；下雨；雨水",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "大量降下",
+              "pos": "v."
+            }
+          }
+        },
+        "poison": {
+          "lemma": "poison",
+          "translation": "毒药",
+          "pos": "n.",
+          "forms": "poisons, poisoned, poisoning",
+          "meanings": "毒药；有害物；下毒；毒害",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "毒药",
+              "pos": "n."
+            }
+          }
+        },
+        "on": {
+          "lemma": "on",
+          "translation": "在……之上",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之上；关于；在……时；继续；通过",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "在……上",
+              "pos": "prep."
+            },
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "在……上",
+              "pos": "prep."
+            },
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "在……上",
+              "pos": "prep."
+            }
+          }
+        },
+        "whole": {
+          "lemma": "whole",
+          "translation": "整个的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "整个的；完整的；全部的；全体的",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "整个的",
+              "pos": "adj."
+            }
+          }
+        },
+        "field": {
+          "lemma": "field",
+          "translation": "田地",
+          "pos": "n.",
+          "forms": "fields",
+          "meanings": "领域；田地；运动场地；野外",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "田地",
+              "pos": "n."
+            }
+          }
+        },
+        "invariably": {
+          "lemma": "invariably",
+          "translation": "总是，不变地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "总是；不变地；一贯地",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "总是",
+              "pos": "adv."
+            }
+          }
+        },
+        "includes": {
+          "lemma": "include",
+          "translation": "包含",
+          "pos": "v.",
+          "forms": "included, including, includes",
+          "meanings": "包含；包括；计入",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "包含",
+              "pos": "v."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "引导定语从句",
+          "pos": "pron.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；如此",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "引导定语从句",
+              "pos": "pron."
+            },
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            }
+          }
+        },
+        "don't": {
+          "lemma": "do",
+          "translation": "不",
+          "pos": "aux.",
+          "forms": "无常见变形",
+          "meanings": "不；不做；进行；表现",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "不",
+              "pos": "aux."
+            }
+          }
+        },
+        "pest": {
+          "lemma": "pest",
+          "translation": "害虫",
+          "pos": "n.",
+          "forms": "pests",
+          "meanings": "害虫；讨厌的人；有害生物",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "害虫",
+              "pos": "n."
+            }
+          }
+        },
+        "problems": {
+          "lemma": "problem",
+          "translation": "问题",
+          "pos": "n.",
+          "forms": "problems",
+          "meanings": "问题；难题；困境；习题",
+          "contexts": {
+            "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.": {
+              "translation": "问题",
+              "pos": "n."
+            },
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "问题",
+              "pos": "n."
+            }
+          }
+        },
+        "better": {
+          "lemma": "good",
+          "translation": "更好的",
+          "pos": "adj.",
+          "forms": "best",
+          "meanings": "更好的；更优秀的；改善；胜过；更好地",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "更好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "paley's": {
+          "lemma": "Paley",
+          "translation": "帕利（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "帕利的；属于帕利的",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "帕利的",
+              "pos": "n."
+            },
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "帕利的",
+              "pos": "n."
+            }
+          }
+        },
+        "remote": {
+          "lemma": "remote",
+          "translation": "远程的",
+          "pos": "adj.",
+          "forms": "remoter, remotest",
+          "meanings": "远程的；偏远的；遥远的；微小的",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "远程的",
+              "pos": "adj."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "远程的",
+              "pos": "adj."
+            }
+          }
+        },
+        "services": {
+          "lemma": "service",
+          "translation": "服务",
+          "pos": "n.",
+          "forms": "services",
+          "meanings": "服务；公共事业；服役；保养",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "服务",
+              "pos": "n."
+            }
+          }
+        },
+        "company": {
+          "lemma": "company",
+          "translation": "公司",
+          "pos": "n.",
+          "forms": "companies",
+          "meanings": "公司；陪伴；同伴；剧团",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "公司",
+              "pos": "n."
+            },
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "公司",
+              "pos": "n."
+            }
+          }
+        },
+        "could": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "能够；可能；可以；用于疑问句表示惊讶或困惑",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "可能",
+              "pos": "modal v."
+            }
+          }
+        },
+        "detect": {
+          "lemma": "detect",
+          "translation": "检测",
+          "pos": "v.",
+          "forms": "detects, detected, detecting",
+          "meanings": "检测；发现；察觉；探测",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "检测",
+              "pos": "v."
+            }
+          }
+        },
+        "crop": {
+          "lemma": "crop",
+          "translation": "农作物",
+          "pos": "n.",
+          "forms": "crops",
+          "meanings": "农作物；产量；一茬；平头",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "农作物",
+              "pos": "n."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "农作物",
+              "pos": "n."
+            }
+          }
+        },
+        "before": {
+          "lemma": "before",
+          "translation": "在……之前",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之前；以前；在……前面",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "在……之前",
+              "pos": "prep."
+            }
+          }
+        },
+        "they": {
+          "lemma": "they",
+          "translation": "它们",
+          "pos": "pron.",
+          "forms": "their, theirs, them, themselves",
+          "meanings": "它们；他们；她们；人；大家",
+          "contexts": {
+            "Even plants can run a fever, especially when they're under attack by insects or disease.": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "他们",
+              "pos": "pron."
+            }
+          }
+        },
+        "became": {
+          "lemma": "become",
+          "translation": "变得",
+          "pos": "v.",
+          "forms": "became, become, becoming, becomes",
+          "meanings": "变成；变得；成为；适宜",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "变得",
+              "pos": "v."
+            }
+          }
+        },
+        "visible": {
+          "lemma": "visible",
+          "translation": "可见的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "可见的；显而易见的；明显的",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "可见的",
+              "pos": "adj."
+            }
+          }
+        },
+        "eye": {
+          "lemma": "eye",
+          "translation": "眼睛",
+          "pos": "n.",
+          "forms": "eyes",
+          "meanings": "眼睛；视力；眼光；看；审视",
+          "contexts": {
+            "Even better, Paley's Remote Scanning Services Company could detect crop problems before they became visible to the eye.": {
+              "translation": "眼睛",
+              "pos": "n."
+            }
+          }
+        },
+        "mounted": {
+          "lemma": "mount",
+          "translation": "安装",
+          "pos": "v.",
+          "forms": "mounting, mounts, mounted",
+          "meanings": "安装；固定；登上；发起；增加",
+          "contexts": {
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "安装",
+              "pos": "v."
+            }
+          }
+        },
+        "plane": {
+          "lemma": "plane",
+          "translation": "飞机",
+          "pos": "n.",
+          "forms": "planes",
+          "meanings": "飞机；平面；水平；刨子",
+          "contexts": {
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "飞机",
+              "pos": "n."
+            }
+          }
+        },
+        "flown": {
+          "lemma": "fly",
+          "translation": "驾驶（飞机）",
+          "pos": "v.",
+          "forms": "flies, flying, flew, flown",
+          "meanings": "驾驶（飞机）；飞行；飞逝；悬挂",
+          "contexts": {
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "驾驶",
+              "pos": "v."
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "在",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/地点）；以（某种程度）；向；针对",
+          "contexts": {
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "在",
+              "pos": "prep."
+            }
+          }
+        },
+        "night": {
+          "lemma": "night",
+          "translation": "夜晚",
+          "pos": "n.",
+          "forms": "nights",
+          "meanings": "夜晚；夜间；晚上",
+          "contexts": {
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "夜晚",
+              "pos": "n."
+            }
+          }
+        },
+        "an": {
+          "lemma": "an",
+          "translation": "一个",
+          "pos": "art.",
+          "forms": "无常见变形",
+          "meanings": "一个；每一；任何",
+          "contexts": {
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "一个",
+              "pos": "art."
+            }
+          }
+        },
+        "scanner": {
+          "lemma": "scanner",
+          "translation": "扫描仪",
+          "pos": "n.",
+          "forms": "scanners",
+          "meanings": "扫描仪；扫描器；检查员",
+          "contexts": {
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "扫描仪",
+              "pos": "n."
+            }
+          }
+        },
+        "measured": {
+          "lemma": "measure",
+          "translation": "测量",
+          "pos": "v.",
+          "forms": "measures, measuring, measured",
+          "meanings": "测量；衡量；判断；措施",
+          "contexts": {
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "测量",
+              "pos": "v."
+            }
+          }
+        },
+        "heat": {
+          "lemma": "heat",
+          "translation": "热量",
+          "pos": "n.",
+          "forms": "heats, heating, heated",
+          "meanings": "热量；高温；热度；加热",
+          "contexts": {
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "热量",
+              "pos": "n."
+            }
+          }
+        },
+        "emitted": {
+          "lemma": "emit",
+          "translation": "放射，散发",
+          "pos": "v.",
+          "forms": "emits, emitting, emitted",
+          "meanings": "放射；发出（光、热、声音等）；散发（气味）；发表",
+          "contexts": {
+            "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.": {
+              "translation": "散发",
+              "pos": "v."
+            }
+          }
+        },
+        "data": {
+          "lemma": "data",
+          "translation": "数据",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "数据；资料；材料；信息",
+          "contexts": {
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "数据",
+              "pos": "n."
+            }
+          }
+        },
+        "were": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；存在；变为",
+          "contexts": {
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "（构成被动语态）被",
+              "pos": "v."
+            },
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "transformed": {
+          "lemma": "transform",
+          "translation": "转变",
+          "pos": "v.",
+          "forms": "transforms, transforming, transformed",
+          "meanings": "转变；转换；改造；改变外观",
+          "contexts": {
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "转化",
+              "pos": "v."
+            }
+          }
+        },
+        "into": {
+          "lemma": "into",
+          "translation": "进入到",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "进入到；进入；处于（某状态）；变成",
+          "contexts": {
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "进入到",
+              "pos": "prep."
+            },
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "进入",
+              "pos": "prep."
+            }
+          }
+        },
+        "colourcoded": {
+          "lemma": "color-coded",
+          "translation": "颜色编码的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "用颜色编码的；按颜色分类的",
+          "contexts": {
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "颜色编码的",
+              "pos": "adj."
+            }
+          }
+        },
+        "map": {
+          "lemma": "map",
+          "translation": "地图",
+          "pos": "n.",
+          "forms": "maps, mapping, mapped",
+          "meanings": "地图；图表；（比喻）使……出名；绘制地图",
+          "contexts": {
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "地图",
+              "pos": "n."
+            }
+          }
+        },
+        "showing": {
+          "lemma": "show",
+          "translation": "显示",
+          "pos": "v.",
+          "forms": "shows, showing, showed, shown",
+          "meanings": "显示；展示；表明；带领",
+          "contexts": {
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "显示",
+              "pos": "v."
+            }
+          }
+        },
+        "where": {
+          "lemma": "where",
+          "translation": "在……的地方",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "在……的地方；在何处；去哪里；情况是",
+          "contexts": {
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "在……的地方",
+              "pos": "conj."
+            }
+          }
+        },
+        "running": {
+          "lemma": "run",
+          "translation": "处于（某种状态）",
+          "pos": "v.",
+          "forms": "runs, running, ran, run",
+          "meanings": "运转；经营；奔跑；管理；处于（某种状态）",
+          "contexts": {
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "处于（某种状态）",
+              "pos": "v."
+            }
+          }
+        },
+        "fevers": {
+          "lemma": "fever",
+          "translation": "发烧",
+          "pos": "n.",
+          "forms": "fevers",
+          "meanings": "发烧；狂热；骚动；发热状态",
+          "contexts": {
+            "The data were transformed into a colourcoded map showing where plants were running \"fevers\".": {
+              "translation": "发烧",
+              "pos": "n."
+            }
+          }
+        },
+        "then": {
+          "lemma": "then",
+          "translation": "那时",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "那么；然后；那时；当时；接着",
+          "contexts": {
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "那么（紧接着）",
+              "pos": "adv."
+            }
+          }
+        },
+        "spotspray": {
+          "lemma": "spotspray",
+          "translation": "局部喷洒（农药）",
+          "pos": "v.",
+          "forms": "spotsprays, spotsprayed, spotspraying",
+          "meanings": "定点喷雾；局部喷洒；对准喷施",
+          "contexts": {
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "局部喷洒",
+              "pos": "v."
+            }
+          }
+        },
+        "using": {
+          "lemma": "use",
+          "translation": "使用",
+          "pos": "v.",
+          "forms": "uses, used, using",
+          "meanings": "使用；利用；运用；消耗",
+          "contexts": {
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "使用",
+              "pos": "v."
+            }
+          }
+        },
+        "percent": {
+          "lemma": "percent",
+          "translation": "百分之",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "百分之……；百分比；百分率",
+          "contexts": {
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "百分之",
+              "pos": "n."
+            },
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "百分之",
+              "pos": "n."
+            }
+          }
+        },
+        "less": {
+          "lemma": "less",
+          "translation": "较少的",
+          "pos": "adj.",
+          "forms": "little, less, least",
+          "meanings": "较少的；更少的；较小程度的",
+          "contexts": {
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "更少的",
+              "pos": "adj."
+            }
+          }
+        },
+        "otherwise": {
+          "lemma": "otherwise",
+          "translation": "否则",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "否则；在其他方面；不同地",
+          "contexts": {
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "不这样做的话",
+              "pos": "adv."
+            }
+          }
+        },
+        "would": {
+          "lemma": "will",
+          "translation": "将",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将；会；愿意；总是",
+          "contexts": {
+            "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.": {
+              "translation": "会（表示虚拟语气中的结果）",
+              "pos": "modal v."
+            }
+          }
+        },
+        "bad": {
+          "lemma": "bad",
+          "translation": "坏的",
+          "pos": "adj.",
+          "forms": "worse, worst",
+          "meanings": "坏的；糟糕的；严重的；有害的",
+          "contexts": {
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "坏的",
+              "pos": "adj."
+            }
+          }
+        },
+        "news": {
+          "lemma": "news",
+          "translation": "新闻",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "新闻；消息；报道；新事物",
+          "contexts": {
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "消息",
+              "pos": "n."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, being, been",
+          "meanings": "是；存在；等于；位于；是……的情况",
+          "contexts": {
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "closed": {
+          "lemma": "close",
+          "translation": "倒闭",
+          "pos": "v.",
+          "forms": "closes, closed, closing",
+          "meanings": "关上；结束；倒闭；靠近；封锁",
+          "contexts": {
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "倒闭",
+              "pos": "v."
+            }
+          }
+        },
+        "down": {
+          "lemma": "down",
+          "translation": "倒闭（与close连用）",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "向下；减少；减弱；减缓；处于低迷状态",
+          "contexts": {
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "倒闭（与close连用）",
+              "pos": "adv."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……之内",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
+          "contexts": {
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "在……方面",
+              "pos": "prep."
+            },
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "在……之内",
+              "pos": "prep."
+            }
+          }
+        },
+        "after": {
+          "lemma": "after",
+          "translation": "在……之后",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之后；后来；跟随；依照",
+          "contexts": {
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "在……之后",
+              "pos": "prep."
+            }
+          }
+        },
+        "only": {
+          "lemma": "only",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；只；才；唯一的",
+          "contexts": {
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "仅仅",
+              "pos": "adv."
+            },
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "只有",
+              "pos": "conj."
+            }
+          }
+        },
+        "three": {
+          "lemma": "three",
+          "translation": "三",
+          "pos": "num.",
+          "forms": "无常见变形",
+          "meanings": "三；三个；第三",
+          "contexts": {
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "三",
+              "pos": "num."
+            }
+          }
+        },
+        "years": {
+          "lemma": "year",
+          "translation": "年",
+          "pos": "n.",
+          "forms": "years",
+          "meanings": "年；年份；岁数；一年的时间；年度",
+          "contexts": {
+            "The bad news is that Paley's company closed down in 1984, after only three years.": {
+              "translation": "年",
+              "pos": "n."
+            },
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "年",
+              "pos": "n."
+            }
+          }
+        },
+        "resisted": {
+          "lemma": "resist",
+          "translation": "抵制",
+          "pos": "v.",
+          "forms": "resists, resisted, resisting",
+          "meanings": "抵制；抗拒；忍住；抵抗",
+          "contexts": {
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "抵制",
+              "pos": "v."
+            }
+          }
+        },
+        "new": {
+          "lemma": "new",
+          "translation": "新的",
+          "pos": "adj.",
+          "forms": "newer, newest",
+          "meanings": "新的；刚出现的；新鲜的；新式的",
+          "contexts": {
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "新的",
+              "pos": "adj."
+            }
+          }
+        },
+        "longterm": {
+          "lemma": "long-term",
+          "translation": "长期的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "长期的；长期存在的；长效的",
+          "contexts": {
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "长期的",
+              "pos": "adj."
+            }
+          }
+        },
+        "backers": {
+          "lemma": "backer",
+          "translation": "支持者",
+          "pos": "n.",
+          "forms": "backers",
+          "meanings": "支持者；赞助人；援助者",
+          "contexts": {
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "支持者",
+              "pos": "n."
+            }
+          }
+        },
+        "hard": {
+          "lemma": "hard",
+          "translation": "困难的",
+          "pos": "adj.",
+          "forms": "harder, hardest",
+          "meanings": "用力地；困难的；努力的；硬的；艰难的",
+          "contexts": {
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "困难的",
+              "pos": "adj."
+            }
+          }
+        },
+        "find": {
+          "lemma": "find",
+          "translation": "找到",
+          "pos": "v.",
+          "forms": "found, finding, finds",
+          "meanings": "发现；找到；认为；发觉",
+          "contexts": {
+            "Farmers resisted the new technology and longterm backers were hard to find.": {
+              "translation": "找到",
+              "pos": "v."
+            }
+          }
+        },
+        "renewed": {
+          "lemma": "renew",
+          "translation": "重新的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "重新的；更新的；恢复的",
+          "contexts": {
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "重新的",
+              "pos": "adj."
+            }
+          }
+        },
+        "concern": {
+          "lemma": "concern",
+          "translation": "担忧",
+          "pos": "n.",
+          "forms": "concerns, concerned, concerning",
+          "meanings": "担忧；关心；关注的事；企业",
+          "contexts": {
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "担忧",
+              "pos": "n."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围；着手于",
+          "contexts": {
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "关于",
+              "pos": "prep."
+            }
+          }
+        },
+        "pesticides": {
+          "lemma": "pesticide",
+          "translation": "杀虫剂",
+          "pos": "n.",
+          "forms": "pesticides",
+          "meanings": "杀虫剂；农药",
+          "contexts": {
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "杀虫剂",
+              "pos": "n."
+            }
+          }
+        },
+        "produce": {
+          "lemma": "produce",
+          "translation": "农产品",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "农产品；产生；制造；出示",
+          "contexts": {
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "农产品",
+              "pos": "n."
+            }
+          }
+        },
+        "refinements": {
+          "lemma": "refinement",
+          "translation": "改进",
+          "pos": "n.",
+          "forms": "refinements",
+          "meanings": "改进；提炼；精巧；文雅",
+          "contexts": {
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "改进",
+              "pos": "n."
+            }
+          }
+        },
+        "hopes": {
+          "lemma": "hope",
+          "translation": "希望",
+          "pos": "v.",
+          "forms": "hoped, hoping, hopes",
+          "meanings": "希望；盼望；期待；愿望",
+          "contexts": {
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "希望",
+              "pos": "v."
+            }
+          }
+        },
+        "get": {
+          "lemma": "get",
+          "translation": "变得",
+          "pos": "v.",
+          "forms": "gets, got, gotten, getting",
+          "meanings": "获得；变得；到达；理解；使得",
+          "contexts": {
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "变得",
+              "pos": "v."
+            }
+          }
+        },
+        "back": {
+          "lemma": "back",
+          "translation": "回来",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "背部；后面；回来；向后；回击",
+          "contexts": {
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "回来",
+              "pos": "adv."
+            }
+          }
+        },
+        "operation": {
+          "lemma": "operation",
+          "translation": "运作",
+          "pos": "n.",
+          "forms": "operations",
+          "meanings": "运作；操作；手术；经营",
+          "contexts": {
+            "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.": {
+              "translation": "运作",
+              "pos": "n."
+            }
+          }
+        },
+        "agriculture": {
+          "lemma": "agriculture",
+          "translation": "农业",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "农业；农学；农耕",
+          "contexts": {
+            "Agriculture experts have no doubt the technology works.": {
+              "translation": "农业",
+              "pos": "n."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "农业",
+              "pos": "n."
+            }
+          }
+        },
+        "experts": {
+          "lemma": "expert",
+          "translation": "专家",
+          "pos": "n.",
+          "forms": "experts",
+          "meanings": "专家；能手；行家；熟练的",
+          "contexts": {
+            "Agriculture experts have no doubt the technology works.": {
+              "translation": "专家",
+              "pos": "n."
+            }
+          }
+        },
+        "no": {
+          "lemma": "no",
+          "translation": "没有",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "没有；不；禁止；一点也不",
+          "contexts": {
+            "Agriculture experts have no doubt the technology works.": {
+              "translation": "没有",
+              "pos": "det."
+            }
+          }
+        },
+        "doubt": {
+          "lemma": "doubt",
+          "translation": "怀疑",
+          "pos": "n.",
+          "forms": "doubts, doubted, doubting",
+          "meanings": "怀疑；疑惑；不信；疑问",
+          "contexts": {
+            "Agriculture experts have no doubt the technology works.": {
+              "translation": "怀疑",
+              "pos": "n."
+            }
+          }
+        },
+        "works": {
+          "lemma": "work",
+          "translation": "起作用",
+          "pos": "v.",
+          "forms": "works, worked, working",
+          "meanings": "作品；著作；工作；工程；起作用",
+          "contexts": {
+            "Agriculture experts have no doubt the technology works.": {
+              "translation": "起作用",
+              "pos": "v."
+            }
+          }
+        },
+        "this": {
+          "lemma": "this",
+          "translation": "这项",
+          "pos": "det.",
+          "forms": "these",
+          "meanings": "这；这个；这种情况；此；这项",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "这项",
+              "pos": "det."
+            }
+          }
+        },
+        "technique": {
+          "lemma": "technique",
+          "translation": "技术",
+          "pos": "n.",
+          "forms": "techniques",
+          "meanings": "技术；技巧；手段；工艺",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "技术",
+              "pos": "n."
+            }
+          }
+        },
+        "be": {
+          "lemma": "be",
+          "translation": "（构成被动语态）",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；成为；（构成进行时或被动语态）",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "被",
+              "pos": "v."
+            },
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "被",
+              "pos": "v."
+            }
+          }
+        },
+        "used": {
+          "lemma": "use",
+          "translation": "被使用",
+          "pos": "v.",
+          "forms": "using, used, uses",
+          "meanings": "使用；利用；习惯于；曾（过去常做某事）",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "被使用",
+              "pos": "v."
+            }
+          }
+        },
+        "agricultural": {
+          "lemma": "agricultural",
+          "translation": "农业的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "农业的；农用的",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "农业的",
+              "pos": "adj."
+            }
+          }
+        },
+        "land": {
+          "lemma": "land",
+          "translation": "土地",
+          "pos": "n.",
+          "forms": "lands, landing, landed",
+          "meanings": "土地；陆地；国家；着陆",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "土地",
+              "pos": "n."
+            }
+          }
+        },
+        "united": {
+          "lemma": "united",
+          "translation": "联合的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "联合的；团结的；统一的；共同的",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "联合的",
+              "pos": "adj."
+            }
+          }
+        },
+        "states": {
+          "lemma": "state",
+          "translation": "州",
+          "pos": "n.",
+          "forms": "state, stating, stated",
+          "meanings": "州；国家；状态；陈述",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "州",
+              "pos": "n."
+            }
+          }
+        },
+        "says": {
+          "lemma": "say",
+          "translation": "说",
+          "pos": "v.",
+          "forms": "said, saying",
+          "meanings": "说；讲；陈述；写道",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "说",
+              "pos": "v."
+            }
+          }
+        },
+        "george": {
+          "lemma": "George",
+          "translation": "乔治（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "乔治（人名）",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "乔治",
+              "pos": "n."
+            }
+          }
+        },
+        "oerther": {
+          "lemma": "Oerther",
+          "translation": "厄瑟（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "厄瑟（人名）",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "厄瑟",
+              "pos": "n."
+            }
+          }
+        },
+        "texas": {
+          "lemma": "texas",
+          "translation": "得克萨斯州",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "得克萨斯州（美国州名）；得州",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "得克萨斯州",
+              "pos": "n."
+            }
+          }
+        },
+        "m": {
+          "lemma": "m",
+          "translation": "机械（名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "（缩写）机械；管理；米（长度单位）；（人名缩写）",
+          "contexts": {
+            "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.": {
+              "translation": "机械（Texas A & M 大学名称的一部分）",
+              "pos": "n."
+            }
+          }
+        },
+        "ray": {
+          "lemma": "ray",
+          "translation": "雷（人名）",
+          "pos": "n.",
+          "forms": "rays",
+          "meanings": "雷（人名）；光线；射线；微量",
+          "contexts": {
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "雷（人名）",
+              "pos": "n."
+            }
+          }
+        },
+        "jackson": {
+          "lemma": "jackson",
+          "translation": "杰克逊（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "杰克逊（人名）",
+          "contexts": {
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "杰克逊（人名）",
+              "pos": "n."
+            }
+          }
+        },
+        "who": {
+          "lemma": "who",
+          "translation": "……的人",
+          "pos": "pron.",
+          "forms": "whom, whose",
+          "meanings": "谁；……的人；（引导定语从句）",
+          "contexts": {
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "……的人",
+              "pos": "pron."
+            }
+          }
+        },
+        "recently": {
+          "lemma": "recent",
+          "translation": "最近",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "最近；近来",
+          "contexts": {
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "最近",
+              "pos": "adv."
+            }
+          }
+        },
+        "retired": {
+          "lemma": "retire",
+          "translation": "退休",
+          "pos": "v.",
+          "forms": "retires, retired, retiring",
+          "meanings": "退休；退役；隐退；撤退",
+          "contexts": {
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "退休",
+              "pos": "v."
+            }
+          }
+        },
+        "department": {
+          "lemma": "department",
+          "translation": "部门",
+          "pos": "n.",
+          "forms": "departments",
+          "meanings": "部门；系；科；局",
+          "contexts": {
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "部门",
+              "pos": "n."
+            }
+          }
+        },
+        "thinks": {
+          "lemma": "think",
+          "translation": "认为",
+          "pos": "v.",
+          "forms": "thinks, thought, thinking",
+          "meanings": "认为；想；思考；考虑",
+          "contexts": {
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "认为",
+              "pos": "v."
+            }
+          }
+        },
+        "adopted": {
+          "lemma": "adopt",
+          "translation": "采用",
+          "pos": "v.",
+          "forms": "adopts, adopted, adopting",
+          "meanings": "采用；收养；采纳；领养",
+          "contexts": {
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "采用",
+              "pos": "v."
+            }
+          }
+        },
+        "end": {
+          "lemma": "end",
+          "translation": "末尾",
+          "pos": "n.",
+          "forms": "ends, ended, ending",
+          "meanings": "末尾；结束；终点；目标；结尾",
+          "contexts": {
+            "Ray Jackson, who recently retired from the Department of Agriculture, thinks remote infrared crop scanning could be adopted by the end of the decade.": {
+              "translation": "末尾",
+              "pos": "n."
+            }
+          }
+        },
+        "if": {
+          "lemma": "if",
+          "translation": "如果",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "如果；是否；即使；仿佛",
+          "contexts": {
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "如果",
+              "pos": "conj."
+            }
+          }
+        },
+        "finds": {
+          "lemma": "find",
+          "translation": "发现",
+          "pos": "v.",
+          "forms": "finds, found, finding",
+          "meanings": "发现；查明；找到；发觉",
+          "contexts": {
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "发现",
+              "pos": "v."
+            }
+          }
+        },
+        "financial": {
+          "lemma": "financial",
+          "translation": "财政的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "财政的；金融的；财务的；与钱有关的",
+          "contexts": {
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "财政的",
+              "pos": "adj."
+            }
+          }
+        },
+        "backing": {
+          "lemma": "backing",
+          "translation": "支持",
+          "pos": "n.",
+          "forms": "backings",
+          "meanings": "支持；资助；后援；伴奏",
+          "contexts": {
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "支持",
+              "pos": "n."
+            }
+          }
+        },
+        "he": {
+          "lemma": "he",
+          "translation": "他",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他；（指代男性）；那个人",
+          "contexts": {
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "他",
+              "pos": "pron."
+            }
+          }
+        },
+        "failed": {
+          "lemma": "fail",
+          "translation": "未能",
+          "pos": "v.",
+          "forms": "fails, failed, failing",
+          "meanings": "失败；未能；不及格；失灵",
+          "contexts": {
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "未能",
+              "pos": "v."
+            }
+          }
+        },
+        "obtain": {
+          "lemma": "obtain",
+          "translation": "获得",
+          "pos": "v.",
+          "forms": "obtains, obtained, obtaining",
+          "meanings": "获得；得到；存在；通用",
+          "contexts": {
+            "But only if Paley finds the financial backing which he failed to obtain 10 years ago.": {
+              "translation": "获得",
+              "pos": "v."
+            }
+          }
+        }
+      },
+      "questions": [
+        {
+          "prompt": "Plants will send out an increased amount of heat when they are  _  .",
+          "options": [
+            "facing an infrared scanner",
+            "sprayed with pesticides",
+            "in poor physical condition",
+            "exposed to excessive sun rays"
+          ],
+          "answer": 2,
+          "explanation": "文章首句提到植物在受到昆虫或疾病攻击时会发烧（即温度升高），对应处于不良生理状态。",
+          "type": "细节理解",
+          "evidenceSentence": "Even plants can run a fever, especially when they're under attack by insects or disease.",
+          "optionExplanations": [
+            "红外扫描是检测手段而非植物发热的原因。",
+            "喷洒杀虫剂是处理问题的手段，而非导致发热的原因。",
+            "受病虫害侵袭属于身体状况不佳，符合发热原因。",
+            "文中未提及阳光直射与植物发热的因果关系。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "推理过度",
+            "正确",
+            "没有定位证据句"
+          ]
+        },
+        {
+          "prompt": "In order to apply pesticide spraying precisely, we can use infrared scanning to  _  .",
+          "options": [
+            "estimate the damage to the crops",
+            "draw a colourcoded map",
+            "measure the size of the affected area",
+            "locate the problem area"
+          ],
+          "answer": 3,
+          "explanation": "文中明确指出通过红外扫描数据转化为地图，目的是为了让农民准确定位并进行针对性喷洒。",
+          "type": "细节理解",
+          "evidenceSentence": "The data were transformed into a colourcoded map showing where plants were running \"fevers\".",
+          "optionExplanations": [
+            "评估损害程度不是红外扫描的主要目的。",
+            "绘制地图是手段，而非目的。",
+            "测量面积不是目的，目的是寻找问题所在以便精准施药。",
+            "通过红外扫描确定哪些植物在“发烧”，从而准确定位问题区域。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "推理过度",
+            "推理过度",
+            "正确"
+          ]
+        },
+        {
+          "prompt": "Farmers can save a considerable amount of pesticide by  _  .",
+          "options": [
+            "resorting to spotspraying",
+            "transforming poisoned rain",
+            "consulting infrared scanning experts",
+            "detecting crop problems at an early stage"
+          ],
+          "answer": 0,
+          "explanation": "文中指出通过使用该技术进行局部喷洒，农民可以比以往减少50%到70%的农药用量。",
+          "type": "细节理解",
+          "evidenceSentence": "Farmers could then spotspray, using 50 to 70 percent less pesticide than they otherwise would.",
+          "optionExplanations": [
+            "通过局部喷洒（spotspray）可以显著减少农药用量，符合文意。",
+            "文中提到的是避免“倾倒”毒药，并非通过转化毒雨来节省。",
+            "咨询专家无法直接节省农药，技术应用本身才是关键。",
+            "早期发现有助于处理，但节省农药的直接原因在于局部施药方式。"
+          ],
+          "optionErrorTypes": [
+            "正确",
+            "单词或语境理解错误",
+            "推理过度",
+            "推理过度"
+          ]
+        },
+        {
+          "prompt": "The application of infrared scanning technology to agriculture met with some difficulties--  _  .",
+          "options": [
+            "its high cost",
+            "the lack of official support",
+            "the lack of financial support",
+            "its failure to help increase production"
+          ],
+          "answer": 2,
+          "explanation": "文末提到Paley的公司关闭是因为难以找到长期支持者（资金），且他在寻找资金方面失败了。",
+          "type": "细节理解",
+          "evidenceSentence": "But only if Paley finds the financial backing which he failed to obtain 10 years ago.",
+          "optionExplanations": [
+            "文中未提及成本高昂是主要阻碍。",
+            "文中未提及缺乏官方支持，重点在于缺乏资金。",
+            "明确提到难以找到长期支持者且未能获得资金。",
+            "文中提到专家认为技术有效，不存在无法提高产量的问题。"
+          ],
+          "optionErrorTypes": [
+            "没有定位证据句",
+            "没有定位证据句",
+            "正确",
+            "没有定位证据句"
+          ]
+        }
+      ],
+      "generationUsage": {
+        "requests": 22,
+        "inputTokens": 48324,
+        "outputTokens": 20664,
+        "totalTokens": 68988,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": 0.0661572,
+        "reportedCosts": {},
+        "pricingComplete": true,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 22,
+            "inputTokens": 48324,
+            "outputTokens": 20664,
+            "totalTokens": 68988,
+            "estimatedCostUsd": null,
+            "estimatedCostCny": 0.0661572
           }
         }
       }

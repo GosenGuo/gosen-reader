@@ -793,17 +793,17 @@
     {
       "runId": "30889477021",
       "startedAt": "2026-08-04T07:51:34.109Z",
-      "generatedAt": "2026-08-04T07:56:18.641Z",
+      "generatedAt": "2026-08-04T07:56:54.346Z",
       "requestedArticles": 7,
-      "acceptedArticles": 5,
+      "acceptedArticles": 6,
       "completed": false,
       "usage": {
-        "requests": 225,
-        "inputTokens": 358493,
-        "outputTokens": 147506,
-        "totalTokens": 505999,
+        "requests": 247,
+        "inputTokens": 406817,
+        "outputTokens": 168170,
+        "totalTokens": 574987,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.47452756,
+        "estimatedCostCny": 0.54068476,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
@@ -816,12 +816,12 @@
             "estimatedCostCny": 0.00011626
           },
           "gemini-2.5-flash": {
-            "requests": 222,
-            "inputTokens": 357621,
-            "outputTokens": 146850,
-            "totalTokens": 504471,
+            "requests": 244,
+            "inputTokens": 405945,
+            "outputTokens": 167514,
+            "totalTokens": 573459,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.4744113
+            "estimatedCostCny": 0.5405685
           }
         }
       },
@@ -938,6 +938,29 @@
               "totalTokens": 65656,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.0601416
+            }
+          }
+        },
+        {
+          "articleId": "web-473b3be3fe52d4fc",
+          "title": "RACE 高中英语阅读 high1157",
+          "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+          "requests": 22,
+          "inputTokens": 48324,
+          "outputTokens": 20664,
+          "totalTokens": 68988,
+          "estimatedCostUsd": null,
+          "estimatedCostCny": 0.0661572,
+          "reportedCosts": {},
+          "pricingComplete": true,
+          "models": {
+            "gemini-2.5-flash": {
+              "requests": 22,
+              "inputTokens": 48324,
+              "outputTokens": 20664,
+              "totalTokens": 68988,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.0661572
             }
           }
         }
