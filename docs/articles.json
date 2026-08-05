@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T04:41:14.907Z",
+  "generatedAt": "2026-08-05T04:41:25.855Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -20786,7 +20786,21 @@
             "He doesn't know the answer to the riddle"
           ],
           "answer": 2,
-          "explanation": "Keith对T.J大喊是因为他受够了T.J喋喋不休的谜语，感到厌烦。"
+          "explanation": "Keith对T.J大喊是因为他受够了T.J喋喋不休的谜语，感到厌烦。",
+          "type": "细节理解",
+          "evidenceSentence": "\"Hey, Keith !",
+          "optionExplanations": [
+            "该选项不能由原文证据支持。",
+            "该选项不能由原文证据支持。",
+            "该选项与原文证据及题目给定答案一致。",
+            "该选项不能由原文证据支持。"
+          ],
+          "optionErrorTypes": [
+            "没有定位证据句",
+            "没有定位证据句",
+            "正确",
+            "没有定位证据句"
+          ]
         },
         {
           "prompt": "During dinner, Keith is relieved because T.J   _  .",
@@ -20797,7 +20811,21 @@
             "is usually quiet during dinner"
           ],
           "answer": 1,
-          "explanation": "晚餐时Keith感到解脱是因为T.J不再像往常那样讲谜语，让他享受到了安静。"
+          "explanation": "晚餐时Keith感到解脱是因为T.J不再像往常那样讲谜语，让他享受到了安静。",
+          "type": "细节理解",
+          "evidenceSentence": "During dinner ,T.",
+          "optionExplanations": [
+            "该选项不能由原文证据支持。",
+            "该选项与原文证据及题目给定答案一致。",
+            "该选项不能由原文证据支持。",
+            "该选项不能由原文证据支持。"
+          ],
+          "optionErrorTypes": [
+            "没有定位证据句",
+            "正确",
+            "没有定位证据句",
+            "没有定位证据句"
+          ]
         },
         {
           "prompt": "Keith begins to feel ban for T.J when   _  .",
@@ -20808,7 +20836,21 @@
             "Nita walks out of the room"
           ],
           "answer": 3,
-          "explanation": "当看到Brad粗鲁地对待妹妹Nita并让她伤心离开时，Keith联想到了自己对T.J的态度，从而开始为T.J感到难过。"
+          "explanation": "当看到Brad粗鲁地对待妹妹Nita并让她伤心离开时，Keith联想到了自己对T.J的态度，从而开始为T.J感到难过。",
+          "type": "细节理解",
+          "evidenceSentence": "Nita walks out of the room looking sad.",
+          "optionExplanations": [
+            "该选项不能由原文证据支持。",
+            "该选项不能由原文证据支持。",
+            "该选项不能由原文证据支持。",
+            "该选项与原文证据及题目给定答案一致。"
+          ],
+          "optionErrorTypes": [
+            "没有定位证据句",
+            "没有定位证据句",
+            "没有定位证据句",
+            "正确"
+          ]
         },
         {
           "prompt": "Why does Keith tell Nita the riddle about the hamburger and patty ?",
@@ -20819,7 +20861,21 @@
             "Because he wants to know if she is smart"
           ],
           "answer": 2,
-          "explanation": "Keith给Nita讲谜语是为了让她开心起来，正如他后来告诉T.J的那样，他想让别人分享到T.J的幽默。"
+          "explanation": "Keith给Nita讲谜语是为了让她开心起来，正如他后来告诉T.J的那样，他想让别人分享到T.J的幽默。",
+          "type": "推理判断",
+          "evidenceSentence": "\"Nita !\"",
+          "optionExplanations": [
+            "该选项不能由原文证据支持。",
+            "该选项不能由原文证据支持。",
+            "该选项与原文证据及题目给定答案一致。",
+            "该选项不能由原文证据支持。"
+          ],
+          "optionErrorTypes": [
+            "没有定位证据句",
+            "没有定位证据句",
+            "正确",
+            "没有定位证据句"
+          ]
         }
       ],
       "generationUsage": {
@@ -20849,7 +20905,33 @@
         "averageSentenceWords": 5.6,
         "longSentenceRatio": 0,
         "challengingQuestionRatio": 0
-      }
+      },
+      "phrases": [
+        {
+          "phrase": "get annoying",
+          "translation": "变得烦人",
+          "note": "表示某事逐渐变成令人讨厌的状态",
+          "sentence": "But a constant stream of riddles can get annoying ."
+        },
+        {
+          "phrase": "feel bad for",
+          "translation": "为...感到难过",
+          "note": "表示同情或为他人的处境感到遗憾",
+          "sentence": "I feel bad for her."
+        },
+        {
+          "phrase": "light up",
+          "translation": "眼睛发亮;变得高兴",
+          "note": "表示脸部突然显出喜悦或兴奋的表情",
+          "sentence": "\"Really ?\" T.J's eyes light up ."
+        },
+        {
+          "phrase": "come along with",
+          "translation": "一起来;同行",
+          "note": "邀请某人一同去做某事",
+          "sentence": "And maybe you can come along with me sometime.\""
+        }
+      ]
     },
     {
       "id": "web-52737a111ab04db4",
