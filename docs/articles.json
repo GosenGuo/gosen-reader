@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T04:41:02.234Z",
+  "generatedAt": "2026-08-05T04:41:14.907Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -17370,7 +17370,21 @@
             "Six."
           ],
           "answer": 1,
-          "explanation": "文章分别从交流速度快、提供信息、娱乐功能以及在线服务四个方面阐述了互联网的优势，故总计四点。"
+          "explanation": "文章分段介绍了互联网的四大优势：通讯快捷、获取信息、娱乐活动、在线服务。",
+          "type": "细节理解",
+          "evidenceSentence": "Communicating with others on the Internet is much faster.",
+          "optionExplanations": [
+            "文章提到的四大优势包括通讯、获取信息、娱乐和在线服务，因此三个不对。",
+            "文章分段论述了互联网的四大优势（通信、信息、娱乐、服务），选项符合文章逻辑。",
+            "文章并未列出五大优势，故该选项错误。",
+            "文章并未列出六大优势，故该选项错误。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "正确",
+            "偷换概念",
+            "偷换概念"
+          ]
         },
         {
           "prompt": "What fact doesn't the passage provide?",
@@ -17381,7 +17395,21 @@
             "Goods on the Internet are more expensive than those in real shops."
           ],
           "answer": 3,
-          "explanation": "文中提到网上有时能买到便宜的商品，并未说网上商品比实体店更贵，因此该选项不符合事实。"
+          "explanation": "文中提到网上买的东西有时很便宜，但并没有提到网上商品比实体店贵，与原文事实不符。",
+          "type": "细节理解",
+          "evidenceSentence": "Sometimes we can find something that is quite good but very cheap.",
+          "optionExplanations": [
+            "文中提到搜索引擎可以帮助找到需要的任何信息，表述符合原文。",
+            "文中明确提到网上有一些免费游戏，表述符合原文。",
+            "文中提到网上可以购物并找到各种商品，表述符合原文。",
+            "文中提到网上商品有时很便宜，并未提及比实体店贵，该选项与原文事实矛盾。"
+          ],
+          "optionErrorTypes": [
+            "偷换概念",
+            "偷换概念",
+            "偷换概念",
+            "正确"
+          ]
         },
         {
           "prompt": "Which title best gives the main idea of the passage?",
@@ -17392,7 +17420,21 @@
             "Surfing the Websites on the Internet"
           ],
           "answer": 2,
-          "explanation": "文章开头介绍了互联网的普及，随后分段列举了互联网在交流、信息检索、娱乐和服务方面的多项优势，因此第三个选项最能概括全篇主旨。"
+          "explanation": "文章通过多段内容全面介绍了互联网带给人们的便利和好处，即互联网的优势。",
+          "type": "主旨大意",
+          "evidenceSentence": "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .",
+          "optionExplanations": [
+            "在线购物只是文章最后一段提到的其中一个服务，属于局部信息。",
+            "交流信息只是文章提到的互联网功能之一，属于局部信息。",
+            "文章各段分别从不同方面阐述了互联网带来的好处，概括了全篇主旨。",
+            "浏览网站只是文章提到的一种娱乐方式，属于局部信息。"
+          ],
+          "optionErrorTypes": [
+            "把局部信息当成主旨",
+            "把局部信息当成主旨",
+            "正确",
+            "把局部信息当成主旨"
+          ]
         }
       ],
       "generationUsage": {
@@ -17422,7 +17464,75 @@
         "averageSentenceWords": 13.5,
         "longSentenceRatio": 0,
         "challengingQuestionRatio": 0.333
-      }
+      },
+      "phrases": [
+        {
+          "phrase": "become a useful tool",
+          "translation": "成为有用的工具",
+          "note": "表示某物逐渐演变成为有实际用途的东西",
+          "sentence": "But today, Internet has become a useful tool for people all over the world."
+        },
+        {
+          "phrase": "chat with a person",
+          "translation": "与某人聊天",
+          "note": "与他人进行对话交流的常见表达",
+          "sentence": "We can chat with a person who is sitting in the other part of the world."
+        },
+        {
+          "phrase": "e-mail our friends",
+          "translation": "给朋友发电子邮件",
+          "note": "通过电子邮件与朋友沟通的动作",
+          "sentence": "We can e-mail our friends and they can read the e-mails within a minute."
+        },
+        {
+          "phrase": "type in a keyword",
+          "translation": "输入关键词",
+          "note": "在搜索引擎中输入搜索词的常用表达",
+          "sentence": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at."
+        },
+        {
+          "phrase": "look at",
+          "translation": "查看，浏览",
+          "note": "浏览网页或查看信息时的动词短语",
+          "sentence": "Just type in a keyword or keywords and the search engine will give us a list of suitable websites to look at."
+        },
+        {
+          "phrase": "downloading games",
+          "translation": "下载游戏",
+          "note": "从互联网获取游戏文件的活动",
+          "sentence": "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites."
+        },
+        {
+          "phrase": "visiting chat rooms",
+          "translation": "访问聊天室",
+          "note": "进入在线聊天空间与他人互动",
+          "sentence": "We can enjoy a lot on the Internet by downloading games, visiting chat rooms or surfing  websites."
+        },
+        {
+          "phrase": "listen to music",
+          "translation": "听音乐",
+          "note": "在线收听音乐的常见表达",
+          "sentence": "We can also listen to music and see films."
+        },
+        {
+          "phrase": "online banking",
+          "translation": "网上银行",
+          "note": "通过互联网进行银行业务的服务",
+          "sentence": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying."
+        },
+        {
+          "phrase": "job finding",
+          "translation": "寻找工作",
+          "note": "在互联网上搜索和申请工作机会",
+          "sentence": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying."
+        },
+        {
+          "phrase": "ticket buying",
+          "translation": "购买票券",
+          "note": "在线购买各种票务的服务",
+          "sentence": "Now ,there is a lot of service on the Internet such as online banking ,job finding and ticket buying."
+        }
+      ]
     },
     {
       "id": "web-2e315a8a858c375d",
