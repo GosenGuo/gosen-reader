@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T16:31:00.659Z",
+  "generatedAt": "2026-08-05T04:41:02.234Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -2661,7 +2661,21 @@
             "how to protect our online reputation"
           ],
           "answer": 1,
-          "explanation": "文章开头指出要意识到自己的网络声誉，并采取行动，接着围绕“监控和评估在线声誉”给出了具体建议，所以主要是关于如何监控在线声誉。"
+          "explanation": "文章主要介绍如何管理和监控个人网络声誉，不仅限于搜索，还包括监控和评估，因此B选项最准确。",
+          "type": "主旨大意",
+          "evidenceSentence": "Follow these tips to monitor and evaluate your online reputation:",
+          "optionExplanations": [
+            "过于具体，只是监控方法的一部分。",
+            "文章核心在于监控和评估个人声誉，涵盖了搜索方法。",
+            "仅提到部分技术细节，不能概括全文。",
+            "保护是一个更广泛的概念，不如监控和评估贴切。"
+          ],
+          "optionErrorTypes": [
+            "把局部信息当成主旨",
+            "正确",
+            "把局部信息当成主旨",
+            "把局部信息当成主旨"
+          ]
         },
         {
           "prompt": "If you put quotation marks around your name when you search online, you will   _  .",
@@ -2672,7 +2686,21 @@
             "get most information about others"
           ],
           "answer": 1,
-          "explanation": "用引号括起姓名会让搜索引擎将其视为一个完整短语，但若有人与你同名，他们的信息仍会出现，所以依然可能得到他人的信息。"
+          "explanation": "文中提到加引号是为了让搜索引擎将其视为短语，从而排除不相关的结果，但并不意味着能百分之百排除别人的信息。",
+          "type": "细节理解",
+          "evidenceSentence": "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.",
+          "optionExplanations": [
+            "这与加引号获取精确结果的目的相悖。",
+            "即使加了引号，仍可能存在同名同姓者的信息，因此仍然会搜到别人的信息。",
+            "“Only”过于绝对，引号不能保证完全排除他人信息。",
+            "原文目的是为了获取精确结果，而非获取他人信息。"
+          ],
+          "optionErrorTypes": [
+            "单词或语境理解错误",
+            "正确",
+            "偷换概念",
+            "推理过度"
+          ]
         },
         {
           "prompt": "Which is the correct way to search if you want to eliminate many false hits?",
@@ -2683,7 +2711,21 @@
             "\"Jim Green\"---gardening."
           ],
           "answer": 3,
-          "explanation": "根据“Be strategic”部分，要消除很多错误结果，需在姓名外添加与你相关的关键词，如园艺，“\"Jim Green\"---gardening”正符合这一模式。"
+          "explanation": "文中明确指出通过添加关键词（如城市、雇主或爱好）来排除虚假搜索结果。",
+          "type": "细节理解",
+          "evidenceSentence": "You can add keywords that apply only to you; for example your city, your employer, or a hobby.",
+          "optionExplanations": [
+            "这只是搜索人名，无法排除重名导致的错误信息。",
+            "直接搜索人名，会得到更多无关信息。",
+            "这只是缩小范围，但没有加入排除无关信息的关键词。",
+            "添加关键词是排除干扰信息的正确方法，且符合示例逻辑。"
+          ],
+          "optionErrorTypes": [
+            "没有定位证据句",
+            "没有定位证据句",
+            "没有定位证据句",
+            "正确"
+          ]
         },
         {
           "prompt": "You are advised to go blogging to   _  .",
@@ -2694,7 +2736,21 @@
             "ask others not to disclose your personal information and picture"
           ],
           "answer": 2,
-          "explanation": "“Go blogging”部分明确建议查看朋友等的博客，目的是看他们是否写了关于你的事或发布了你的照片。"
+          "explanation": "文中建议查看亲友博客是为了及时了解他们是否发布了关于你的信息或照片。",
+          "type": "细节理解",
+          "evidenceSentence": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.",
+          "optionExplanations": [
+            "沟通不是文章建议查看博客的目的。",
+            "文章并未提及popularity的概念。",
+            "符合原文关于监控社交媒体提及的建议。",
+            "文中并未建议去要求他们停止发布信息。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "推理过度",
+            "正确",
+            "推理过度"
+          ]
         },
         {
           "prompt": "The feature provided by some search engines can help you to",
@@ -2705,7 +2761,21 @@
             "stop the spread of any new mention of your name or other personal information"
           ],
           "answer": 2,
-          "explanation": "“Be alert”部分提到某些搜索引擎的功能可以让你自动收到任何提及你名字或个人信息的通知，即帮助你快速知晓新的提及。"
+          "explanation": "该功能的作用是自动通知你，即让你及时获知新信息。",
+          "type": "细节理解",
+          "evidenceSentence": "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.",
+          "optionExplanations": [
+            "该功能只能通知，无法阻止他人发布信息。",
+            "原文侧重于自动通知机制，“find out”不如“know quickly”精准描述自动通知的及时性。",
+            "该功能通过自动通知让你快速知晓新的提及。",
+            "该功能没有阻止信息传播的能力。"
+          ],
+          "optionErrorTypes": [
+            "推理过度",
+            "偷换概念",
+            "正确",
+            "推理过度"
+          ]
         }
       ],
       "difficultyLevel": 2,
@@ -2716,7 +2786,75 @@
         "averageSentenceWords": 19.2,
         "longSentenceRatio": 0.235,
         "challengingQuestionRatio": 0
-      }
+      },
+      "phrases": [
+        {
+          "phrase": "access a variety of",
+          "translation": "获取多种",
+          "note": "表示可以得到或使用多种类型的东西",
+          "sentence": "On Web sites across the Internet, people can access a variety of information about you."
+        },
+        {
+          "phrase": "in your interest",
+          "translation": "对你有利",
+          "note": "表示某事对某人有好处或符合某人的利益",
+          "sentence": "It's in your interest to be aware of your online reputation and to take the necessary actions to make it what you want it to be."
+        },
+        {
+          "phrase": "take the necessary actions",
+          "translation": "采取必要的措施",
+          "note": "表示做所需要的事情来解决问题",
+          "sentence": "It's in your interest to be aware of your online reputation and to take the necessary actions to make it what you want it to be."
+        },
+        {
+          "phrase": "find out",
+          "translation": "找出",
+          "note": "表示通过调查或搜索来发现信息",
+          "sentence": "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people."
+        },
+        {
+          "phrase": "play the name game",
+          "translation": "进行名字搜索",
+          "note": "搜索自己名字的习语表达",
+          "sentence": "Play the name game."
+        },
+        {
+          "phrase": "put quotation marks around",
+          "translation": "用引号括起来",
+          "note": "表示在某些词或短语前后加引号",
+          "sentence": "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text."
+        },
+        {
+          "phrase": "be strategic",
+          "translation": "采用策略",
+          "note": "表示有计划和目的地进行某事",
+          "sentence": "Be strategic."
+        },
+        {
+          "phrase": "check them out",
+          "translation": "查看它们",
+          "note": "表示查阅或浏览某些网站或页面",
+          "sentence": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you."
+        },
+        {
+          "phrase": "from time to time",
+          "translation": "时不时地",
+          "note": "表示不定期地、偶尔地进行某事",
+          "sentence": "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you."
+        },
+        {
+          "phrase": "be alert",
+          "translation": "保持警觉",
+          "note": "表示要保持注意力和观察",
+          "sentence": "Be alert."
+        },
+        {
+          "phrase": "receive automatic notification",
+          "translation": "收到自动通知",
+          "note": "表示系统自动发送关于某事的提醒",
+          "sentence": "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information."
+        }
+      ]
     },
     {
       "id": "web-cda4f9a292f21a6c",

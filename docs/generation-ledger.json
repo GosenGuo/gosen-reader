@@ -1766,6 +1766,73 @@
           "error": "only 0 valid phrase(s) were returned"
         }
       ]
+    },
+    {
+      "runId": "30975822174-quality",
+      "kind": "quality-backfill",
+      "startedAt": "2026-08-05T04:40:53.006Z",
+      "generatedAt": "2026-08-05T04:41:02.234Z",
+      "requestedArticles": 4,
+      "acceptedArticles": 1,
+      "completed": false,
+      "usage": {
+        "requests": 2,
+        "inputTokens": 1807,
+        "outputTokens": 1611,
+        "totalTokens": 3418,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": 0.00224344,
+        "reportedCosts": {},
+        "pricingComplete": true,
+        "models": {
+          "gemini-2.5-flash": {
+            "requests": 1,
+            "inputTokens": 977,
+            "outputTokens": 721,
+            "totalTokens": 1698,
+            "estimatedCostUsd": null,
+            "estimatedCostCny": 0.0020956
+          },
+          "claude-haiku-4-5-20251001": {
+            "requests": 1,
+            "inputTokens": 830,
+            "outputTokens": 890,
+            "totalTokens": 1720,
+            "estimatedCostUsd": null,
+            "estimatedCostCny": 0.00014784
+          }
+        }
+      },
+      "articles": [
+        {
+          "articleId": "web-c46072fb88fa1c7b",
+          "title": "RACE 高中英语阅读 high24159",
+          "requests": 2,
+          "inputTokens": 1807,
+          "outputTokens": 1611,
+          "totalTokens": 3418,
+          "estimatedCostCny": 0.00224344,
+          "models": {
+            "gemini-2.5-flash": {
+              "requests": 1,
+              "inputTokens": 977,
+              "outputTokens": 721,
+              "totalTokens": 1698,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.0020956
+            },
+            "claude-haiku-4-5-20251001": {
+              "requests": 1,
+              "inputTokens": 830,
+              "outputTokens": 890,
+              "totalTokens": 1720,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00014784
+            }
+          }
+        }
+      ],
+      "failures": []
     }
   ]
 }
