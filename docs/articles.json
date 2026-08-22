@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:59:24.396Z",
+  "generatedAt": "2026-08-22T12:59:55.803Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -74262,40 +74262,48 @@
           "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
           "contexts": {
             "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.": {
-              "translation": "在……之内",
+              "translation": "住在",
               "pos": "prep."
             },
             "My dream in life is to become a doctor, one who changes the world.": {
-              "translation": "在……（生活中）",
-              "pos": "prep."
-            },
-            "At church our pastor mentioned perspective in a section of his sermon  .": {
-              "translation": "在……之中",
-              "pos": "prep."
-            },
-            "His sermon ended up saying \"In everything we give thanks.": {
               "translation": "在……方面",
               "pos": "prep."
             },
-            "\" It is easy to give thanks when we feel successful in life.": {
+            "At church our pastor mentioned perspective in a section of his sermon  .": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "His sermon ended up saying \"In everything we give thanks.": {
               "translation": "在……中",
               "pos": "prep."
             },
+            "\" It is easy to give thanks when we feel successful in life.": {
+              "translation": "在……时",
+              "pos": "prep."
+            },
             "But seriously, who in their right mind says thanks for the financial problems I have?": {
-              "translation": "处于……（状态）",
+              "translation": "在",
+              "pos": "prep."
+            },
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
+              "translation": "在……看来",
+              "pos": "prep."
+            },
+            "see it in another way": {
+              "translation": "以……方式",
               "pos": "prep."
             }
           }
         },
         "a": {
           "lemma": "a",
-          "translation": "一种",
+          "translation": "一个",
           "pos": "art.",
           "forms": "an",
           "meanings": "一个；每一；任何；一种",
           "contexts": {
             "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.": {
-              "translation": "一种",
+              "translation": "一个",
               "pos": "art."
             },
             "My dream in life is to become a doctor, one who changes the world.": {
@@ -74303,31 +74311,35 @@
               "pos": "art."
             },
             "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.": {
-              "translation": "一次",
-              "pos": "art."
-            },
-            "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.": {
-              "translation": "一段时间",
-              "pos": "art."
-            },
-            "At church our pastor mentioned perspective in a section of his sermon  .": {
-              "translation": "一部分",
-              "pos": "art."
-            },
-            "He stated that when we take our eyes off ourselves and realize God's greatness, our circumstances will be seen through a new perspective.": {
               "translation": "一种",
               "pos": "art."
             },
+            "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.": {
+              "translation": "一种",
+              "pos": "art."
+            },
+            "At church our pastor mentioned perspective in a section of his sermon  .": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "He stated that when we take our eyes off ourselves and realize God's greatness, our circumstances will be seen through a new perspective.": {
+              "translation": "一个",
+              "pos": "art."
+            },
             "The second thing that reminded me to look at perspective was reading a book.": {
-              "translation": "一本",
+              "translation": "一个",
               "pos": "art."
             },
             "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.": {
-              "translation": "一位",
+              "translation": "一个",
               "pos": "art."
             },
             "It is easy to give thanks when we receive a blessing.": {
-              "translation": "一次",
+              "translation": "一个",
+              "pos": "art."
+            },
+            "The author still wants to be a doctor.": {
+              "translation": "一个",
               "pos": "art."
             }
           }
@@ -74434,6 +74446,14 @@
               "pos": "conj."
             },
             "It is easy to give thanks when we receive a blessing.": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "How did she feel when the author received the email from UBC?": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
               "translation": "当……时",
               "pos": "conj."
             }
@@ -74648,6 +74668,10 @@
             "It is easy to give thanks when we receive a blessing.": {
               "translation": "是",
               "pos": "v."
+            },
+            "The author thinks the second sermon is wiser.": {
+              "translation": "是",
+              "pos": "v."
             }
           }
         },
@@ -74679,7 +74703,7 @@
         },
         "from": {
           "lemma": "from",
-          "translation": "与……不同",
+          "translation": "来自",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "从；来自；因为；由于；起始",
@@ -74690,6 +74714,18 @@
             },
             "But last week I opened an email from UBC that contained the words \"regrets\", no interview.": {
               "translation": "来自",
+              "pos": "prep."
+            },
+            "How did she feel when the author received the email from UBC?": {
+              "translation": "来自",
+              "pos": "prep."
+            },
+            "What can we infer from the passage?": {
+              "translation": "从",
+              "pos": "prep."
+            },
+            "The author can't really free from the disappointment.": {
+              "translation": "从",
               "pos": "prep."
             }
           }
@@ -74889,49 +74925,61 @@
         },
         "to": {
           "lemma": "to",
-          "translation": "去……",
+          "translation": "向；给",
           "pos": "particle",
           "forms": "无常见变形",
           "meanings": "向；给；到；构成不定式；对于",
           "contexts": {
             "This past week I have been greatly challenged to change my perspective and here is why.": {
-              "translation": "（构成不定式）去……",
+              "translation": "不定式标记",
               "pos": "particle"
             },
             "My dream in life is to become a doctor, one who changes the world.": {
-              "translation": "（构成不定式）去……",
+              "translation": "不定式标记",
               "pos": "particle"
             },
             "I didn't get an interview to medical school, thus will not be entering school for September 2009.": {
-              "translation": "向/去",
-              "pos": "prep."
+              "translation": "不定式标记",
+              "pos": "particle"
             },
             "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.": {
-              "translation": "（构成不定式）去……",
+              "translation": "不定式标记",
               "pos": "particle"
             },
             "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.": {
-              "translation": "（构成不定式）去……",
+              "translation": "不定式标记",
               "pos": "particle"
             },
             "The second thing that reminded me to look at perspective was reading a book.": {
-              "translation": "（构成不定式）去……",
+              "translation": "不定式标记",
               "pos": "particle"
             },
             "The Mitford Series is so good if you are looking for books to read.": {
-              "translation": "（构成不定式）去……",
+              "translation": "不定式标记",
               "pos": "particle"
             },
             "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.": {
-              "translation": "（构成不定式）去……",
+              "translation": "不定式标记",
               "pos": "particle"
             },
             "\" It is easy to give thanks when we feel successful in life.": {
-              "translation": "（构成不定式）去……",
+              "translation": "不定式标记",
               "pos": "particle"
             },
             "It is easy to give thanks when we receive a blessing.": {
-              "translation": "（构成不定式）去……",
+              "translation": "不定式标记",
+              "pos": "particle"
+            },
+            "turn to God for help": {
+              "translation": "向",
+              "pos": "prep."
+            },
+            "say thanks to it": {
+              "translation": "向",
+              "pos": "prep."
+            },
+            "The author still wants to be a doctor.": {
+              "translation": "不定式标记",
               "pos": "particle"
             }
           }
@@ -75044,6 +75092,10 @@
             "My dream in life is to become a doctor, one who changes the world.": {
               "translation": "医生",
               "pos": "n."
+            },
+            "The author still wants to be a doctor.": {
+              "translation": "医生",
+              "pos": "n."
             }
           }
         },
@@ -75104,45 +75156,73 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "这",
+          "translation": "这；那",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这；那；（用于特指）；（用于最高级前）；（专有名词前）",
           "contexts": {
             "My dream in life is to become a doctor, one who changes the world.": {
-              "translation": "这（个）",
+              "translation": "该",
               "pos": "art."
             },
             "But last week I opened an email from UBC that contained the words \"regrets\", no interview.": {
-              "translation": "那",
+              "translation": "这些",
               "pos": "art."
             },
             "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.": {
-              "translation": "那",
+              "translation": "这种",
               "pos": "art."
             },
             "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.": {
-              "translation": "那个",
+              "translation": "这个",
               "pos": "art."
             },
             "During the past week two things happened.": {
-              "translation": "那",
+              "translation": "这",
               "pos": "art."
             },
             "The second thing that reminded me to look at perspective was reading a book.": {
-              "translation": "那",
+              "translation": "第二个",
               "pos": "art."
             },
             "The Mitford Series is so good if you are looking for books to read.": {
-              "translation": "（专有名词前）",
-              "pos": "art."
-            },
-            "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.": {
               "translation": "那",
               "pos": "art."
             },
+            "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.": {
+              "translation": "这个",
+              "pos": "art."
+            },
             "But seriously, who in their right mind says thanks for the financial problems I have?": {
-              "translation": "那些",
+              "translation": "他们的",
+              "pos": "art."
+            },
+            "How did she feel when the author received the email from UBC?": {
+              "translation": "该",
+              "pos": "art."
+            },
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
+              "translation": "第一个",
+              "pos": "art."
+            },
+            "What can we infer from the passage?": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "The author can't really free from the disappointment.": {
+              "translation": "这个",
+              "pos": "art."
+            },
+            "The author thinks the second sermon is wiser.": {
+              "translation": "第二个",
+              "pos": "art."
+            },
+            "The author still wants to be a doctor.": {
+              "translation": "这个",
+              "pos": "art."
+            },
+            "The author thanks God for not being admitted by the university.": {
+              "translation": "该",
               "pos": "art."
             }
           }
@@ -75234,6 +75314,10 @@
             "But last week I opened an email from UBC that contained the words \"regrets\", no interview.": {
               "translation": "电子邮件",
               "pos": "n."
+            },
+            "How did she feel when the author received the email from UBC?": {
+              "translation": "电子邮件",
+              "pos": "n."
             }
           }
         },
@@ -75245,6 +75329,10 @@
           "meanings": "不列颠哥伦比亚大学（加拿大名校）",
           "contexts": {
             "But last week I opened an email from UBC that contained the words \"regrets\", no interview.": {
+              "translation": "不列颠哥伦比亚大学",
+              "pos": "n."
+            },
+            "How did she feel when the author received the email from UBC?": {
               "translation": "不列颠哥伦比亚大学",
               "pos": "n."
             }
@@ -75413,28 +75501,36 @@
           "meanings": "不；没；不是；绝非",
           "contexts": {
             "I didn't get an interview to medical school, thus will not be entering school for September 2009.": {
-              "translation": "不",
+              "translation": "不会",
               "pos": "adv."
             },
             "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.": {
-              "translation": "不",
+              "translation": "没有",
+              "pos": "adv."
+            },
+            "The author thanks God for not being admitted by the university.": {
+              "translation": "不是",
               "pos": "adv."
             }
           }
         },
         "be": {
           "lemma": "be",
-          "translation": "是",
+          "translation": "进入",
           "pos": "v.",
           "forms": "am, is, are, was, were, being, been",
           "meanings": "是；位于；成为；（构成进行时或被动语态）",
           "contexts": {
             "I didn't get an interview to medical school, thus will not be entering school for September 2009.": {
-              "translation": "（构成短语将要入学）",
+              "translation": "进入",
               "pos": "v."
             },
             "He stated that when we take our eyes off ourselves and realize God's greatness, our circumstances will be seen through a new perspective.": {
-              "translation": "被（构成被动语态）",
+              "translation": "被看待；被认为",
+              "pos": "v."
+            },
+            "The author still wants to be a doctor.": {
+              "translation": "成为",
               "pos": "v."
             }
           }
@@ -75454,13 +75550,13 @@
         },
         "for": {
           "lemma": "for",
-          "translation": "在...时候",
+          "translation": "为了",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "为了；支持；因为；给；持续（一段时间）",
           "contexts": {
             "I didn't get an interview to medical school, thus will not be entering school for September 2009.": {
-              "translation": "在……的时候",
+              "translation": "进入",
               "pos": "prep."
             },
             "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.": {
@@ -75468,14 +75564,26 @@
               "pos": "prep."
             },
             "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.": {
-              "translation": "持续（一段时间）",
+              "translation": "为了；寻求",
               "pos": "prep."
             },
             "The Mitford Series is so good if you are looking for books to read.": {
-              "translation": "寻找",
+              "translation": "为了",
               "pos": "prep."
             },
             "But seriously, who in their right mind says thanks for the financial problems I have?": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "turn to God for help": {
+              "translation": "寻求",
+              "pos": "prep."
+            },
+            "praise others for it": {
+              "translation": "因为",
+              "pos": "prep."
+            },
+            "The author thanks God for not being admitted by the university.": {
               "translation": "因为",
               "pos": "prep."
             }
@@ -75591,6 +75699,14 @@
           "meanings": "失望；令人失望的事；扫兴；沮丧",
           "contexts": {
             "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.": {
+              "translation": "失望",
+              "pos": "n."
+            },
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
+              "translation": "失望",
+              "pos": "n."
+            },
+            "The author can't really free from the disappointment.": {
               "translation": "失望",
               "pos": "n."
             }
@@ -75813,13 +75929,17 @@
         },
         "being": {
           "lemma": "be",
-          "translation": "成为，存在",
+          "translation": "是",
           "pos": "v.",
           "forms": "am, is, are, was, were, been, being",
           "meanings": "存在；处于某种状态；表现；成为",
           "contexts": {
             "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.": {
-              "translation": "表现出",
+              "translation": "是；够好",
+              "pos": "v."
+            },
+            "The author thanks God for not being admitted by the university.": {
+              "translation": "被录取",
               "pos": "v."
             }
           }
@@ -75875,6 +75995,10 @@
           "meanings": "绝望；使人失望的人或事；丧失信心",
           "contexts": {
             "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.": {
+              "translation": "绝望",
+              "pos": "n."
+            },
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
               "translation": "绝望",
               "pos": "n."
             }
@@ -76110,6 +76234,10 @@
             "At church our pastor mentioned perspective in a section of his sermon  .": {
               "translation": "牧师",
               "pos": "n."
+            },
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
+              "translation": "牧师",
+              "pos": "n."
             }
           }
         },
@@ -76170,6 +76298,10 @@
             "His sermon ended up saying \"In everything we give thanks.": {
               "translation": "布道",
               "pos": "n."
+            },
+            "The author thinks the second sermon is wiser.": {
+              "translation": "布道",
+              "pos": "n."
             }
           }
         },
@@ -76219,6 +76351,14 @@
               "pos": "pron."
             },
             "It is easy to give thanks when we receive a blessing.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "What can we infer from the passage?": {
               "translation": "我们",
               "pos": "pron."
             }
@@ -76356,13 +76496,17 @@
         },
         "second": {
           "lemma": "second",
-          "translation": "第二的",
+          "translation": "第二",
           "pos": "adj.",
           "forms": "seconds",
           "meanings": "第二；秒；瞬间；第二名",
           "contexts": {
             "The second thing that reminded me to look at perspective was reading a book.": {
-              "translation": "第二的",
+              "translation": "第二",
+              "pos": "adj."
+            },
+            "The author thinks the second sermon is wiser.": {
+              "translation": "第二",
               "pos": "adj."
             }
           }
@@ -76632,6 +76776,10 @@
             "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.": {
               "translation": "什么",
               "pos": "pron."
+            },
+            "What can we infer from the passage?": {
+              "translation": "什么",
+              "pos": "pron."
             }
           }
         },
@@ -76643,6 +76791,10 @@
           "meanings": "说；讲；表达；记载",
           "contexts": {
             "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.": {
+              "translation": "说",
+              "pos": "v."
+            },
+            "say thanks to it": {
               "translation": "说",
               "pos": "v."
             }
@@ -76743,22 +76895,42 @@
             "But seriously, who in their right mind says thanks for the financial problems I have?": {
               "translation": "感谢",
               "pos": "n."
+            },
+            "say thanks to it": {
+              "translation": "感谢",
+              "pos": "n."
+            },
+            "The author thanks God for not being admitted by the university.": {
+              "translation": "感谢",
+              "pos": "n."
             }
           }
         },
         "it": {
           "lemma": "it",
-          "translation": "这",
+          "translation": "它",
           "pos": "pron.",
           "forms": "its, itself",
           "meanings": "它；这；（引导形式主语）",
           "contexts": {
             "\" It is easy to give thanks when we feel successful in life.": {
-              "translation": "（引导形式主语）",
+              "translation": "（形式主语，指下文的事实）",
               "pos": "pron."
             },
             "It is easy to give thanks when we receive a blessing.": {
-              "translation": "（引导形式主语）",
+              "translation": "（形式主语，指下文的事实）",
+              "pos": "pron."
+            },
+            "say thanks to it": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "see it in another way": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "praise others for it": {
+              "translation": "它",
               "pos": "pron."
             }
           }
@@ -76788,6 +76960,10 @@
           "meanings": "感到；触摸；认为；有……感觉",
           "contexts": {
             "\" It is easy to give thanks when we feel successful in life.": {
+              "translation": "感到",
+              "pos": "v."
+            },
+            "How did she feel when the author received the email from UBC?": {
               "translation": "感到",
               "pos": "v."
             }
@@ -76906,6 +77082,502 @@
           "contexts": {
             "But seriously, who in their right mind says thanks for the financial problems I have?": {
               "translation": "问题",
+              "pos": "n."
+            }
+          }
+        },
+        "how": {
+          "lemma": "how",
+          "translation": "如何",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "如何；以何种方式；多么；状况",
+          "contexts": {
+            "How did she feel when the author received the email from UBC?": {
+              "translation": "如何；怎样",
+              "pos": "adv."
+            }
+          }
+        },
+        "did": {
+          "lemma": "do",
+          "translation": "（助动词）",
+          "pos": "v.",
+          "forms": "does, did, done, doing",
+          "meanings": "做；进行；行动；强调谓语；（构成否定句的助动词）",
+          "contexts": {
+            "How did she feel when the author received the email from UBC?": {
+              "translation": "（过去式助动词，用于构成疑问句）",
+              "pos": "v."
+            }
+          }
+        },
+        "she": {
+          "lemma": "she",
+          "translation": "她",
+          "pos": "pron.",
+          "forms": "she, her, hers, herself",
+          "meanings": "她；某个女人；那个女人",
+          "contexts": {
+            "How did she feel when the author received the email from UBC?": {
+              "translation": "她",
+              "pos": "pron."
+            }
+          }
+        },
+        "author": {
+          "lemma": "author",
+          "translation": "作者",
+          "pos": "n.",
+          "forms": "authors",
+          "meanings": "作者；创始人；发起人",
+          "contexts": {
+            "How did she feel when the author received the email from UBC?": {
+              "translation": "作者",
+              "pos": "n."
+            },
+            "The author can't really free from the disappointment.": {
+              "translation": "作者",
+              "pos": "n."
+            },
+            "The author thinks the second sermon is wiser.": {
+              "translation": "作者",
+              "pos": "n."
+            },
+            "The author still wants to be a doctor.": {
+              "translation": "作者",
+              "pos": "n."
+            },
+            "The author thanks God for not being admitted by the university.": {
+              "translation": "作者",
+              "pos": "n."
+            }
+          }
+        },
+        "received": {
+          "lemma": "receive",
+          "translation": "收到",
+          "pos": "v.",
+          "forms": "receives, received, receiving",
+          "meanings": "收到；接收；遭受；迎接",
+          "contexts": {
+            "How did she feel when the author received the email from UBC?": {
+              "translation": "收到",
+              "pos": "v."
+            }
+          }
+        },
+        "surprised": {
+          "lemma": "surprise",
+          "translation": "感到惊讶的",
+          "pos": "adj.",
+          "forms": "surprises, surprising, surprised",
+          "meanings": "感到惊讶的；出人意料的；惊喜；使惊讶",
+          "contexts": {
+            "Surprised.": {
+              "translation": "感到惊讶的",
+              "pos": "adj."
+            }
+          }
+        },
+        "disappointed": {
+          "lemma": "disappoint",
+          "translation": "失望的",
+          "pos": "adj.",
+          "forms": "disappoints, disappointing, disappointed",
+          "meanings": "失望的；沮丧的；感到被辜负的",
+          "contexts": {
+            "Disappointed.": {
+              "translation": "失望的",
+              "pos": "adj."
+            }
+          }
+        },
+        "excited": {
+          "lemma": "excite",
+          "translation": "激动的",
+          "pos": "adj.",
+          "forms": "exciting, excitement",
+          "meanings": "激动的；兴奋的；活跃的；使激动",
+          "contexts": {
+            "Excited.": {
+              "translation": "激动的",
+              "pos": "adj."
+            }
+          }
+        },
+        "pleased": {
+          "lemma": "pleased",
+          "translation": "高兴的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "高兴的；满意的；愉快的",
+          "contexts": {
+            "Pleased.": {
+              "translation": "高兴的",
+              "pos": "adj."
+            }
+          }
+        },
+        "first": {
+          "lemma": "first",
+          "translation": "第一",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "第一；首先；首要的；最初；最早",
+          "contexts": {
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
+              "translation": "第一个",
+              "pos": "adj."
+            }
+          }
+        },
+        "pastor's": {
+          "lemma": "pastor",
+          "translation": "牧师的",
+          "pos": "n.",
+          "forms": "pastors",
+          "meanings": "牧师；牧羊人；宗教领袖",
+          "contexts": {
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
+              "translation": "牧师的",
+              "pos": "n."
+            }
+          }
+        },
+        "view": {
+          "lemma": "view",
+          "translation": "观点",
+          "pos": "n.",
+          "forms": "views, viewed, viewing",
+          "meanings": "观点；看法；视野；风景；看待",
+          "contexts": {
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
+              "translation": "观点",
+              "pos": "n."
+            }
+          }
+        },
+        "face": {
+          "lemma": "face",
+          "translation": "面临",
+          "pos": "v.",
+          "forms": "faces, faced, facing",
+          "meanings": "脸；表情；正面；面临；对付",
+          "contexts": {
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
+              "translation": "面临",
+              "pos": "v."
+            }
+          }
+        },
+        "or": {
+          "lemma": "or",
+          "translation": "或者",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "或者；否则；也不；即；或",
+          "contexts": {
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
+              "translation": "或者",
+              "pos": "conj."
+            }
+          }
+        },
+        "should": {
+          "lemma": "should",
+          "translation": "应该",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "应该；会；可能；将要；应当",
+          "contexts": {
+            "In the first pastor's view, when we face disappointment or despair, we should   _  .": {
+              "translation": "应该",
+              "pos": "modal v."
+            }
+          }
+        },
+        "turn": {
+          "lemma": "turn",
+          "translation": "转向",
+          "pos": "v.",
+          "forms": "turning, turned, turns",
+          "meanings": "旋转；关掉；转向；变成",
+          "contexts": {
+            "turn to God for help": {
+              "translation": "转向",
+              "pos": "v."
+            }
+          }
+        },
+        "god": {
+          "lemma": "God",
+          "translation": "上帝",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "上帝；天主；神；神圣的人",
+          "contexts": {
+            "He stated that when we take our eyes off ourselves and realize God's greatness, our circumstances will be seen through a new perspective.": {
+              "translation": "上帝",
+              "pos": "n."
+            },
+            "turn to God for help": {
+              "translation": "上帝",
+              "pos": "n."
+            },
+            "The author thanks God for not being admitted by the university.": {
+              "translation": "上帝",
+              "pos": "n."
+            }
+          }
+        },
+        "help": {
+          "lemma": "help",
+          "translation": "帮助",
+          "pos": "v.",
+          "forms": "helps, helped, helping",
+          "meanings": "帮助；协助；救助；有助于",
+          "contexts": {
+            "turn to God for help": {
+              "translation": "帮助",
+              "pos": "v."
+            }
+          }
+        },
+        "see": {
+          "lemma": "see",
+          "translation": "看出",
+          "pos": "v.",
+          "forms": "saw, seen, seeing",
+          "meanings": "看见；查看；理解；看出；体验",
+          "contexts": {
+            "see it in another way": {
+              "translation": "看出",
+              "pos": "v."
+            }
+          }
+        },
+        "another": {
+          "lemma": "another",
+          "translation": "另一种",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "另一；又一；另一个；另一种",
+          "contexts": {
+            "see it in another way": {
+              "translation": "另一种",
+              "pos": "det."
+            }
+          }
+        },
+        "way": {
+          "lemma": "way",
+          "translation": "方式",
+          "pos": "n.",
+          "forms": "ways",
+          "meanings": "方式；道路；方向；程度；途径",
+          "contexts": {
+            "see it in another way": {
+              "translation": "方式",
+              "pos": "n."
+            }
+          }
+        },
+        "praise": {
+          "lemma": "praise",
+          "translation": "称赞",
+          "pos": "v.",
+          "forms": "praises, praised, praising",
+          "meanings": "称赞；赞美；歌颂；表扬",
+          "contexts": {
+            "praise others for it": {
+              "translation": "称赞",
+              "pos": "v."
+            }
+          }
+        },
+        "others": {
+          "lemma": "other",
+          "translation": "其他人",
+          "pos": "pron.",
+          "forms": "others",
+          "meanings": "其他人；别的人；其余的人；另外的人",
+          "contexts": {
+            "praise others for it": {
+              "translation": "其他人",
+              "pos": "pron."
+            }
+          }
+        },
+        "can": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal verb",
+          "forms": "could",
+          "meanings": "能够；可以；可能；可以被；能被",
+          "contexts": {
+            "What can we infer from the passage?": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "The author can't really free from the disappointment.": {
+              "translation": "能够",
+              "pos": "modal verb"
+            }
+          }
+        },
+        "infer": {
+          "lemma": "infer",
+          "translation": "推断",
+          "pos": "v.",
+          "forms": "infers, inferred, inferring",
+          "meanings": "推断；推论；暗示；推导；表明",
+          "contexts": {
+            "What can we infer from the passage?": {
+              "translation": "推断",
+              "pos": "v."
+            }
+          }
+        },
+        "passage": {
+          "lemma": "passage",
+          "translation": "文章",
+          "pos": "n.",
+          "forms": "passages",
+          "meanings": "文章；段落；通道；走廊；通行权",
+          "contexts": {
+            "What can we infer from the passage?": {
+              "translation": "文章",
+              "pos": "n."
+            }
+          }
+        },
+        "can't": {
+          "lemma": "can",
+          "translation": "不能",
+          "pos": "modal verb",
+          "forms": "cannot",
+          "meanings": "不能；不可以；无法；不可能",
+          "contexts": {
+            "The author can't really free from the disappointment.": {
+              "translation": "无法",
+              "pos": "modal verb"
+            }
+          }
+        },
+        "really": {
+          "lemma": "really",
+          "translation": "真正地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "真正地；确实；非常；实际上",
+          "contexts": {
+            "The author can't really free from the disappointment.": {
+              "translation": "真正地",
+              "pos": "adv."
+            }
+          }
+        },
+        "free": {
+          "lemma": "free",
+          "translation": "摆脱",
+          "pos": "v.",
+          "forms": "frees, freed, freeing",
+          "meanings": "解放；使自由；摆脱；免除",
+          "contexts": {
+            "The author can't really free from the disappointment.": {
+              "translation": "摆脱",
+              "pos": "v."
+            }
+          }
+        },
+        "thinks": {
+          "lemma": "think",
+          "translation": "认为",
+          "pos": "v.",
+          "forms": "thinks, thought, thinking",
+          "meanings": "认为；想；思考；考虑",
+          "contexts": {
+            "The author thinks the second sermon is wiser.": {
+              "translation": "认为",
+              "pos": "v."
+            }
+          }
+        },
+        "wiser": {
+          "lemma": "wise",
+          "translation": "更明智的",
+          "pos": "adj.",
+          "forms": "wise, wiser, wisest",
+          "meanings": "聪慧的；明智的；知道；有见识的",
+          "contexts": {
+            "The author thinks the second sermon is wiser.": {
+              "translation": "更明智的",
+              "pos": "adj."
+            }
+          }
+        },
+        "still": {
+          "lemma": "still",
+          "translation": "仍然",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仍然；更；静止的；尽管如此",
+          "contexts": {
+            "The author still wants to be a doctor.": {
+              "translation": "仍然",
+              "pos": "adv."
+            }
+          }
+        },
+        "wants": {
+          "lemma": "want",
+          "translation": "想要",
+          "pos": "v.",
+          "forms": "wants, wanted, wanting",
+          "meanings": "想要；希望；需要；打算",
+          "contexts": {
+            "The author still wants to be a doctor.": {
+              "translation": "想要",
+              "pos": "v."
+            }
+          }
+        },
+        "admitted": {
+          "lemma": "admit",
+          "translation": "录取",
+          "pos": "v.",
+          "forms": "admits, admitted, admitting",
+          "meanings": "承认；准许进入；接纳；录取",
+          "contexts": {
+            "The author thanks God for not being admitted by the university.": {
+              "translation": "录取",
+              "pos": "v."
+            }
+          }
+        },
+        "by": {
+          "lemma": "by",
+          "translation": "被",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "通过；被；凭借；在……旁边；逐……地",
+          "contexts": {
+            "The author thanks God for not being admitted by the university.": {
+              "translation": "被",
+              "pos": "prep."
+            }
+          }
+        },
+        "university": {
+          "lemma": "university",
+          "translation": "大学",
+          "pos": "n.",
+          "forms": "universities",
+          "meanings": "大学；高等学府；综合性大学；大学校园",
+          "contexts": {
+            "The author thanks God for not being admitted by the university.": {
+              "translation": "大学",
               "pos": "n."
             }
           }
