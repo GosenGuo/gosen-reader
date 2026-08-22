@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:51:09.164Z",
+  "generatedAt": "2026-08-22T12:51:54.890Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -31959,6 +31959,10 @@
             "Traffic problems are an everyday concern in many cities,including Washington,DC.": {
               "translation": "交通",
               "pos": "n."
+            },
+            "Traffic problems are an everyday concern in many cities": {
+              "translation": "交通",
+              "pos": "n."
             }
           }
         },
@@ -31966,10 +31970,18 @@
           "lemma": "problem",
           "translation": "问题",
           "pos": "n.",
-          "forms": "problem",
+          "forms": "problems",
           "meanings": "问题；难题；困境；习题",
           "contexts": {
             "Traffic problems are an everyday concern in many cities,including Washington,DC.": {
+              "translation": "问题",
+              "pos": "n."
+            },
+            "Traffic problems are an everyday concern in many cities": {
+              "translation": "问题",
+              "pos": "n."
+            },
+            "Bikes result in new problems in Washington,DC": {
               "translation": "问题",
               "pos": "n."
             }
@@ -31987,10 +31999,14 @@
               "pos": "v."
             },
             "A growing number of Washingtonians are turning to bicycles to get to and from work.": {
-              "translation": "正（做某事）",
-              "pos": "aux."
+              "translation": "正在",
+              "pos": "v."
             },
             "\"When a person makes a change from 04 using a car to using a bike,they are saving anywhere between 8 or$9,000 a year.": {
+              "translation": "正在",
+              "pos": "v."
+            },
+            "Traffic problems are an everyday concern in many cities": {
               "translation": "是",
               "pos": "v."
             }
@@ -32006,6 +32022,10 @@
             "Traffic problems are an everyday concern in many cities,including Washington,DC.": {
               "translation": "一个",
               "pos": "art."
+            },
+            "Traffic problems are an everyday concern in many cities": {
+              "translation": "一个",
+              "pos": "art."
             }
           }
         },
@@ -32019,18 +32039,26 @@
             "Traffic problems are an everyday concern in many cities,including Washington,DC.": {
               "translation": "日常的",
               "pos": "adj."
+            },
+            "Traffic problems are an everyday concern in many cities": {
+              "translation": "日常的",
+              "pos": "adj."
             }
           }
         },
         "concern": {
           "lemma": "concern",
-          "translation": "担忧",
+          "translation": "关注的事",
           "pos": "n.",
           "forms": "concerns, concerned, concerning",
           "meanings": "担忧；关心；关注的事；企业",
           "contexts": {
             "Traffic problems are an everyday concern in many cities,including Washington,DC.": {
-              "translation": "担忧",
+              "translation": "关注的事",
+              "pos": "n."
+            },
+            "Traffic problems are an everyday concern in many cities": {
+              "translation": "关注的事",
               "pos": "n."
             }
           }
@@ -32043,19 +32071,19 @@
           "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；使用（某种语言/材料）",
           "contexts": {
             "Traffic problems are an everyday concern in many cities,including Washington,DC.": {
-              "translation": "在",
+              "translation": "在……之内",
               "pos": "prep."
             },
             "In fact,the number of commuters who use bicycles has doubled in the city since 2007.": {
-              "translation": "在",
+              "translation": "在……方面",
               "pos": "prep."
             },
             "cities in the U.": {
-              "translation": "在",
+              "translation": "在……之内",
               "pos": "prep."
             },
             "\"\n\"Most cities took advantage of the money coming for the interstate highway system,from the federal government,starting in 1956.": {
-              "translation": "在",
+              "translation": "来自",
               "pos": "prep."
             },
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
@@ -32063,7 +32091,39 @@
               "pos": "prep."
             },
             "But today,many people believe they can save money by living in the city.": {
-              "translation": "在",
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Traffic problems are an everyday concern in many cities": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Bicycling to work in Washington,DC grows in popularity": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Bikes result in new problems in Washington,DC": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Urban biking has been popular in the last 60 to 70 years.": {
+              "translation": "在……期间",
+              "pos": "prep."
+            },
+            "In the years after World War Two,many Americans prefer to  _  .": {
+              "translation": "在……期间",
+              "pos": "prep."
+            },
+            "1ive in the city": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "1ive in the suburbs": {
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "Living in the city is much cheaper than in the country.": {
+              "translation": "比",
               "pos": "prep."
             }
           }
@@ -32084,6 +32144,14 @@
               "pos": "adj."
             },
             "But today,many people believe they can save money by living in the city.": {
+              "translation": "许多",
+              "pos": "adj."
+            },
+            "Traffic problems are an everyday concern in many cities": {
+              "translation": "许多",
+              "pos": "adj."
+            },
+            "In the years after World War Two,many Americans prefer to  _  .": {
               "translation": "许多",
               "pos": "adj."
             }
@@ -32115,6 +32183,14 @@
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
               "translation": "城市",
               "pos": "n."
+            },
+            "Traffic problems are an everyday concern in many cities": {
+              "translation": "城市",
+              "pos": "n."
+            },
+            "Cities didn't use the money from the government wisely.": {
+              "translation": "城市",
+              "pos": "n."
             }
           }
         },
@@ -32140,32 +32216,56 @@
           "contexts": {
             "Traffic problems are an everyday concern in many cities,including Washington,DC.": {
               "translation": "华盛顿",
-              "pos": "n."
+              "pos": "n. (prop.)"
             },
             "Greg Billing is with the Washington Area Bicyclist Association.": {
               "translation": "华盛顿",
-              "pos": "n."
+              "pos": "n. (prop.)"
             },
             "\"\nWashington,DC has also taken steps to protect bike riders.": {
               "translation": "华盛顿",
-              "pos": "n."
+              "pos": "n. (prop.)"
+            },
+            "Bicycling to work in Washington,DC grows in popularity": {
+              "translation": "华盛顿",
+              "pos": "n. (prop.)"
+            },
+            "Bikes result in new problems in Washington,DC": {
+              "translation": "华盛顿",
+              "pos": "n. (prop.)"
+            },
+            "Washington,DC has taken steps to protect bike riders": {
+              "translation": "华盛顿",
+              "pos": "n. (prop.)"
             }
           }
         },
         "dc": {
           "lemma": "DC",
-          "translation": "华盛顿特区",
+          "translation": "华盛顿哥伦比亚特区",
           "pos": "n. (prop.)",
           "forms": "无常见变形",
-          "meanings": "华盛顿哥伦比亚特区",
+          "meanings": "华盛顿哥伦比亚特区；直流电",
           "contexts": {
             "Traffic problems are an everyday concern in many cities,including Washington,DC.": {
-              "translation": "华盛顿特区",
-              "pos": "n."
+              "translation": "华盛顿哥伦比亚特区",
+              "pos": "n. (prop.)"
             },
             "\"\nWashington,DC has also taken steps to protect bike riders.": {
-              "translation": "华盛顿特区",
-              "pos": "n."
+              "translation": "华盛顿哥伦比亚特区",
+              "pos": "n. (prop.)"
+            },
+            "Bicycling to work in Washington,DC grows in popularity": {
+              "translation": "华盛顿哥伦比亚特区",
+              "pos": "n. (prop.)"
+            },
+            "Bikes result in new problems in Washington,DC": {
+              "translation": "华盛顿哥伦比亚特区",
+              "pos": "n. (prop.)"
+            },
+            "Washington,DC has taken steps to protect bike riders": {
+              "translation": "华盛顿哥伦比亚特区",
+              "pos": "n. (prop.)"
             }
           }
         },
@@ -32181,7 +32281,7 @@
               "pos": "art."
             },
             "He has written a book about urban biking,called \"City Cycling\".": {
-              "translation": "一本",
+              "translation": "一",
               "pos": "art."
             },
             "He says there is a reason why urban bike tiding is now becoming more popular.": {
@@ -32189,7 +32289,7 @@
               "pos": "art."
             },
             "There was a 90 percent federal match so the cities only had to put up 10%.": {
-              "translation": "一个",
+              "translation": "百分之",
               "pos": "art."
             },
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
@@ -32205,7 +32305,11 @@
               "pos": "art."
             },
             "It approved a safe passing law and created areas on the road between cars and bikes.": {
-              "translation": "一项",
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Government invested a lot to build bicycling facilities.": {
+              "translation": "一个",
               "pos": "art."
             }
           }
@@ -32248,23 +32352,27 @@
           "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
           "contexts": {
             "A growing number of Washingtonians are turning to bicycles to get to and from work.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "In fact,the number of commuters who use bicycles has doubled in the city since 2007.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "\"\n\"Most cities took advantage of the money coming for the interstate highway system,from the federal government,starting in 1956.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "Their cars became a symbol of freedom.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "The United States Census Bureau says 4%of the city's workers ride to work by bike.": {
-              "translation": "……的",
+              "translation": "的",
+              "pos": "prep."
+            },
+            "What's the best title of the text?": {
+              "translation": "的",
               "pos": "prep."
             }
           }
@@ -32297,13 +32405,13 @@
         },
         "to": {
           "lemma": "to",
-          "translation": "到",
+          "translation": "到；向",
           "pos": "prep./particle",
           "forms": "无常见变形",
           "meanings": "到；向；给；构成不定式",
           "contexts": {
             "A growing number of Washingtonians are turning to bicycles to get to and from work.": {
-              "translation": "去（某处）",
+              "translation": "到",
               "pos": "prep."
             },
             "\"Over the last 60 to 70 years.": {
@@ -32311,28 +32419,48 @@
               "pos": "prep."
             },
             "have been adapted to the automobile.": {
+              "translation": "被",
+              "pos": "particle"
+            },
+            "There was a 90 percent federal match so the cities only had to put up 10%.": {
               "translation": "向",
               "pos": "prep."
             },
-            "There was a 90 percent federal match so the cities only had to put up 10%.": {
-              "translation": "构成不定式",
-              "pos": "particle"
-            },
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
-              "translation": "到",
+              "translation": "向",
               "pos": "prep."
             },
             "\"When a person makes a change from 04 using a car to using a bike,they are saving anywhere between 8 or$9,000 a year.": {
-              "translation": "构成不定式",
-              "pos": "particle"
+              "translation": "从；到",
+              "pos": "prep."
             },
             "\"\nWashington,DC has also taken steps to protect bike riders.": {
-              "translation": "为了",
-              "pos": "prep."
+              "translation": "来",
+              "pos": "particle"
             },
             "The United States Census Bureau says 4%of the city's workers ride to work by bike.": {
-              "translation": "去",
+              "translation": "到",
               "pos": "prep."
+            },
+            "Bicycling to work in Washington,DC grows in popularity": {
+              "translation": "到",
+              "pos": "prep."
+            },
+            "Washington,DC has taken steps to protect bike riders": {
+              "translation": "到",
+              "pos": "prep."
+            },
+            "Government invested a lot to build bicycling facilities.": {
+              "translation": "来",
+              "pos": "particle"
+            },
+            "Urban biking has been popular in the last 60 to 70 years.": {
+              "translation": "到",
+              "pos": "prep."
+            },
+            "In the years after World War Two,many Americans prefer to  _  .": {
+              "translation": "来",
+              "pos": "particle"
             }
           }
         },
@@ -32352,6 +32480,10 @@
               "pos": "n."
             },
             "\"\n Ralph Buehler says governments save money when people use bicycles.": {
+              "translation": "自行车",
+              "pos": "n."
+            },
+            "Money can be saved when people use bicycles.": {
               "translation": "自行车",
               "pos": "n."
             }
@@ -32396,6 +32528,14 @@
             "It approved a safe passing law and created areas on the road between cars and bikes.": {
               "translation": "和",
               "pos": "conj."
+            },
+            "What do Ralph Buehler and Greg Billing agree with?": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Road facilities and public transport develop rapidly now.": {
+              "translation": "和",
+              "pos": "conj."
             }
           }
         },
@@ -32411,7 +32551,7 @@
               "pos": "prep."
             },
             "\"\n\"Most cities took advantage of the money coming for the interstate highway system,from the federal government,starting in 1956.": {
-              "translation": "从",
+              "translation": "来自",
               "pos": "prep."
             },
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
@@ -32420,6 +32560,14 @@
             },
             "\"When a person makes a change from 04 using a car to using a bike,they are saving anywhere between 8 or$9,000 a year.": {
               "translation": "从",
+              "pos": "prep."
+            },
+            "What can we know from Ralph Buehler's statement?": {
+              "translation": "从",
+              "pos": "prep."
+            },
+            "Cities didn't use the money from the government wisely.": {
+              "translation": "来自",
               "pos": "prep."
             }
           }
@@ -32442,6 +32590,10 @@
             "The United States Census Bureau says 4%of the city's workers ride to work by bike.": {
               "translation": "工作",
               "pos": "n."
+            },
+            "Bicycling to work in Washington,DC grows in popularity": {
+              "translation": "工作",
+              "pos": "n."
             }
           }
         },
@@ -32460,61 +32612,93 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "这，那",
+          "translation": "这；那",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
           "contexts": {
             "In fact,the number of commuters who use bicycles has doubled in the city since 2007.": {
-              "translation": "（用于特指）",
+              "translation": "该；这个",
               "pos": "art."
             },
             "Ralph Buehler teaches urban planning at the Virginia Polytechnic Institute and State University,popularly known as Virginia Tech.": {
-              "translation": "（专有名词前）",
+              "translation": "该；这个",
               "pos": "art."
             },
             "\"Over the last 60 to 70 years.": {
-              "translation": "（用于特指）",
+              "translation": "这；那",
               "pos": "art."
             },
             "cities in the U.": {
-              "translation": "（用于特指）",
+              "translation": "该；这个",
               "pos": "art."
             },
             "have been adapted to the automobile.": {
-              "translation": "（用于特指）",
+              "translation": "该；这个",
               "pos": "art."
             },
             "\"\n\"Most cities took advantage of the money coming for the interstate highway system,from the federal government,starting in 1956.": {
-              "translation": "（用于特指）",
+              "translation": "该；这个",
               "pos": "art."
             },
             "There was a 90 percent federal match so the cities only had to put up 10%.": {
-              "translation": "（用于特指）",
+              "translation": "该；这个",
               "pos": "art."
             },
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
-              "translation": "（用于特指）",
+              "translation": "该；这个",
               "pos": "art."
             },
             "But today,many people believe they can save money by living in the city.": {
-              "translation": "（用于特指）",
+              "translation": "该；这个",
               "pos": "art."
             },
             "Greg Billing is with the Washington Area Bicyclist Association.": {
-              "translation": "（专有名词前）",
+              "translation": "该；这个",
               "pos": "art."
             },
             "It approved a safe passing law and created areas on the road between cars and bikes.": {
-              "translation": "（用于特指）",
+              "translation": "该；这个",
               "pos": "art."
             },
             "The United States Census Bureau says 4%of the city's workers ride to work by bike.": {
-              "translation": "（用于特指）",
+              "translation": "该；这个",
               "pos": "art."
             },
             "The only city on the East Coast with more bike commuters is New York.": {
-              "translation": "（用于特指）",
+              "translation": "该；这个",
+              "pos": "art."
+            },
+            "What's the best title of the text?": {
+              "translation": "该；这个",
+              "pos": "art."
+            },
+            "The federal government supported building public transport.": {
+              "translation": "该；这个",
+              "pos": "art."
+            },
+            "Cities didn't use the money from the government wisely.": {
+              "translation": "该；这个",
+              "pos": "art."
+            },
+            "Urban biking has been popular in the last 60 to 70 years.": {
+              "translation": "该；这个",
+              "pos": "art."
+            },
+            "In the years after World War Two,many Americans prefer to  _  .": {
+              "translation": "该；这个",
+              "pos": "art."
+            },
+            "1ive in the city": {
+              "translation": "该；这个",
+              "pos": "art."
+            },
+            "1ive in the suburbs": {
+              "translation": "该；这个",
+              "pos": "art."
+            },
+            "Living in the city is much cheaper than in the country.": {
+              "translation": "该；这个",
               "pos": "art."
             }
           }
@@ -32563,6 +32747,14 @@
             "\"\n Ralph Buehler says governments save money when people use bicycles.": {
               "translation": "使用",
               "pos": "v."
+            },
+            "Cities didn't use the money from the government wisely.": {
+              "translation": "使用",
+              "pos": "v."
+            },
+            "Money can be saved when people use bicycles.": {
+              "translation": "使用",
+              "pos": "v."
             }
           }
         },
@@ -32582,6 +32774,14 @@
               "pos": "v."
             },
             "\"\nWashington,DC has also taken steps to protect bike riders.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "Washington,DC has taken steps to protect bike riders": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "Urban biking has been popular in the last 60 to 70 years.": {
               "translation": "已经",
               "pos": "v."
             }
@@ -32626,6 +32826,14 @@
             "The only city on the East Coast with more bike commuters is New York.": {
               "translation": "城市",
               "pos": "n."
+            },
+            "1ive in the city": {
+              "translation": "城市",
+              "pos": "n."
+            },
+            "Living in the city is much cheaper than in the country.": {
+              "translation": "城市",
+              "pos": "n."
             }
           }
         },
@@ -32656,6 +32864,14 @@
             "\"\n Ralph Buehler says governments save money when people use bicycles.": {
               "translation": "拉尔夫",
               "pos": "n."
+            },
+            "What can we know from Ralph Buehler's statement?": {
+              "translation": "拉尔夫",
+              "pos": "n."
+            },
+            "What do Ralph Buehler and Greg Billing agree with?": {
+              "translation": "拉尔夫",
+              "pos": "n."
             }
           }
         },
@@ -32671,6 +32887,14 @@
               "pos": "n."
             },
             "\"\n Ralph Buehler says governments save money when people use bicycles.": {
+              "translation": "比勒",
+              "pos": "n."
+            },
+            "What can we know from Ralph Buehler's statement?": {
+              "translation": "比勒",
+              "pos": "n."
+            },
+            "What do Ralph Buehler and Greg Billing agree with?": {
               "translation": "比勒",
               "pos": "n."
             }
@@ -32705,6 +32929,10 @@
               "pos": "adj."
             },
             "He says there is a reason why urban bike tiding is now becoming more popular.": {
+              "translation": "城市的",
+              "pos": "adj."
+            },
+            "Urban biking has been popular in the last 60 to 70 years.": {
               "translation": "城市的",
               "pos": "adj."
             }
@@ -32919,6 +33147,10 @@
             "He has written a book about urban biking,called \"City Cycling\".": {
               "translation": "骑自行车",
               "pos": "n."
+            },
+            "Urban biking has been popular in the last 60 to 70 years.": {
+              "translation": "骑自行车",
+              "pos": "n."
             }
           }
         },
@@ -33006,6 +33238,10 @@
               "pos": "v."
             },
             "The only city on the East Coast with more bike commuters is New York.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Living in the city is much cheaper than in the country.": {
               "translation": "是",
               "pos": "v."
             }
@@ -33107,6 +33343,10 @@
             "There was a 90 percent federal match so the cities only had to put up 10%.": {
               "translation": "联邦的",
               "pos": "adj."
+            },
+            "The federal government supported building public transport.": {
+              "translation": "联邦的",
+              "pos": "adj."
             }
           }
         },
@@ -33118,6 +33358,22 @@
           "meanings": "政府；政体；管辖；治理",
           "contexts": {
             "\"\n\"Most cities took advantage of the money coming for the interstate highway system,from the federal government,starting in 1956.": {
+              "translation": "政府",
+              "pos": "n."
+            },
+            "The federal government supported building public transport.": {
+              "translation": "政府",
+              "pos": "n."
+            },
+            "Government invested a lot to build bicycling facilities.": {
+              "translation": "政府",
+              "pos": "n."
+            },
+            "Cities didn't use the money from the government wisely.": {
+              "translation": "政府",
+              "pos": "n."
+            },
+            "Government should build more bicycling facilities.": {
               "translation": "政府",
               "pos": "n."
             }
@@ -33301,6 +33557,10 @@
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
               "translation": "在……之后",
               "pos": "prep."
+            },
+            "In the years after World War Two,many Americans prefer to  _  .": {
+              "translation": "在……之后",
+              "pos": "prep."
             }
           }
         },
@@ -33312,6 +33572,10 @@
           "meanings": "世界；地球；领域；世间",
           "contexts": {
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
+              "translation": "世界",
+              "pos": "n."
+            },
+            "In the years after World War Two,many Americans prefer to  _  .": {
               "translation": "世界",
               "pos": "n."
             }
@@ -33327,18 +33591,26 @@
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
               "translation": "战争",
               "pos": "n."
+            },
+            "In the years after World War Two,many Americans prefer to  _  .": {
+              "translation": "战争",
+              "pos": "n."
             }
           }
         },
         "two": {
           "lemma": "two",
-          "translation": "二",
+          "translation": "两个",
           "pos": "num.",
           "forms": "无常见变形",
           "meanings": "二；两个；两个一组",
           "contexts": {
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
-              "translation": "二",
+              "translation": "两次",
+              "pos": "num."
+            },
+            "In the years after World War Two,many Americans prefer to  _  .": {
+              "translation": "两次",
               "pos": "num."
             }
           }
@@ -33351,6 +33623,10 @@
           "meanings": "美国人；美洲人",
           "contexts": {
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
+              "translation": "美国人",
+              "pos": "n."
+            },
+            "In the years after World War Two,many Americans prefer to  _  .": {
               "translation": "美国人",
               "pos": "n."
             }
@@ -33476,20 +33752,28 @@
           "meanings": "旅行；游历；行走；行进",
           "contexts": {
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
-              "translation": "通勤",
+              "translation": "往返于工作地点",
+              "pos": "v."
+            },
+            "travel great distances": {
+              "translation": "行走",
               "pos": "v."
             }
           }
         },
         "great": {
           "lemma": "great",
-          "translation": "巨大的",
+          "translation": "很大的",
           "pos": "adj.",
           "forms": "greater, greatest",
           "meanings": "巨大的；极好的；伟大的；非常",
           "contexts": {
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
-              "translation": "巨大的",
+              "translation": "很大的",
+              "pos": "adj."
+            },
+            "travel great distances": {
+              "translation": "很大的",
               "pos": "adj."
             }
           }
@@ -33502,6 +33786,10 @@
           "meanings": "距离；间距；远方；疏远",
           "contexts": {
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
+              "translation": "距离",
+              "pos": "n."
+            },
+            "travel great distances": {
               "translation": "距离",
               "pos": "n."
             }
@@ -33541,6 +33829,10 @@
           "meanings": "郊区；城外",
           "contexts": {
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
+              "translation": "郊区",
+              "pos": "n."
+            },
+            "1ive in the suburbs": {
               "translation": "郊区",
               "pos": "n."
             }
@@ -33655,6 +33947,10 @@
             "\"\n Ralph Buehler says governments save money when people use bicycles.": {
               "translation": "人们",
               "pos": "n."
+            },
+            "Money can be saved when people use bicycles.": {
+              "translation": "人们",
+              "pos": "n."
             }
           }
         },
@@ -33679,6 +33975,14 @@
           "meanings": "能够；可以；可能；罐头",
           "contexts": {
             "But today,many people believe they can save money by living in the city.": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "What can we know from Ralph Buehler's statement?": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "Money can be saved when people use bicycles.": {
               "translation": "能够",
               "pos": "modal v."
             }
@@ -33728,6 +34032,10 @@
             "But today,many people believe they can save money by living in the city.": {
               "translation": "居住",
               "pos": "v."
+            },
+            "Living in the city is much cheaper than in the country.": {
+              "translation": "生活",
+              "pos": "v."
             }
           }
         },
@@ -33739,7 +34047,11 @@
           "meanings": "格雷格（人名）",
           "contexts": {
             "Greg Billing is with the Washington Area Bicyclist Association.": {
-              "translation": "格雷格（人名）",
+              "translation": "格雷格",
+              "pos": "n."
+            },
+            "What do Ralph Buehler and Greg Billing agree with?": {
+              "translation": "格雷格",
               "pos": "n."
             }
           }
@@ -33752,24 +34064,32 @@
           "meanings": "比林（姓氏）；记账；开账单",
           "contexts": {
             "Greg Billing is with the Washington Area Bicyclist Association.": {
-              "translation": "比林（姓氏）",
+              "translation": "比林",
+              "pos": "n."
+            },
+            "What do Ralph Buehler and Greg Billing agree with?": {
+              "translation": "比林",
               "pos": "n."
             }
           }
         },
         "with": {
           "lemma": "with",
-          "translation": "属于（某机构）",
+          "translation": "与……一起",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "与……一起；使用；带有；由于；关于",
           "contexts": {
             "Greg Billing is with the Washington Area Bicyclist Association.": {
-              "translation": "属于（某机构）",
+              "translation": "与……一起",
               "pos": "prep."
             },
             "The only city on the East Coast with more bike commuters is New York.": {
-              "translation": "具有",
+              "translation": "带有；具有",
+              "pos": "prep."
+            },
+            "What do Ralph Buehler and Greg Billing agree with?": {
+              "translation": "同意；赞成",
               "pos": "prep."
             }
           }
@@ -33815,7 +34135,7 @@
         },
         "when": {
           "lemma": "when",
-          "translation": "当……时",
+          "translation": "当……时；在……时候",
           "pos": "conj.",
           "forms": "无常见变形",
           "meanings": "当……时；在……时候；既然；考虑到",
@@ -33825,6 +34145,10 @@
               "pos": "conj."
             },
             "\"\n Ralph Buehler says governments save money when people use bicycles.": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "Money can be saved when people use bicycles.": {
               "translation": "当……时",
               "pos": "conj."
             }
@@ -33991,6 +34315,10 @@
             "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.": {
               "translation": "建造",
               "pos": "v."
+            },
+            "The federal government supported building public transport.": {
+              "translation": "建造",
+              "pos": "v."
             }
           }
         },
@@ -34002,7 +34330,19 @@
           "meanings": "骑自行车的；自行车运动的",
           "contexts": {
             "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.": {
-              "translation": "骑自行车的",
+              "translation": "自行车的",
+              "pos": "adj."
+            },
+            "Bicycling to work in Washington,DC grows in popularity": {
+              "translation": "骑自行车",
+              "pos": "v."
+            },
+            "Government invested a lot to build bicycling facilities.": {
+              "translation": "自行车的",
+              "pos": "adj."
+            },
+            "Government should build more bicycling facilities.": {
+              "translation": "自行车的",
               "pos": "adj."
             }
           }
@@ -34017,18 +34357,34 @@
             "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.": {
               "translation": "设施",
               "pos": "n."
+            },
+            "Government invested a lot to build bicycling facilities.": {
+              "translation": "设施",
+              "pos": "n."
+            },
+            "Government should build more bicycling facilities.": {
+              "translation": "设施",
+              "pos": "n."
+            },
+            "Road facilities and public transport develop rapidly now.": {
+              "translation": "设施",
+              "pos": "n."
             }
           }
         },
         "much": {
           "lemma": "much",
-          "translation": "很",
+          "translation": "很；非常",
           "pos": "adv.",
           "forms": "more, most",
           "meanings": "很；非常；多",
           "contexts": {
             "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.": {
-              "translation": "很",
+              "translation": "很；非常",
+              "pos": "adv."
+            },
+            "Living in the city is much cheaper than in the country.": {
+              "translation": "很；非常",
               "pos": "adv."
             }
           }
@@ -34043,6 +34399,10 @@
             "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.": {
               "translation": "更便宜的",
               "pos": "adj."
+            },
+            "Living in the city is much cheaper than in the country.": {
+              "translation": "更便宜的",
+              "pos": "adj."
             }
           }
         },
@@ -34054,6 +34414,10 @@
           "meanings": "比；除……之外；与之相比",
           "contexts": {
             "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "Living in the city is much cheaper than in the country.": {
               "translation": "比",
               "pos": "conj."
             }
@@ -34074,17 +34438,21 @@
         },
         "road": {
           "lemma": "road",
-          "translation": "道路",
+          "translation": "公路",
           "pos": "n.",
           "forms": "roads",
           "meanings": "道路；公路；途径；方法",
           "contexts": {
             "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.": {
-              "translation": "道路",
+              "translation": "公路",
               "pos": "n."
             },
             "It approved a safe passing law and created areas on the road between cars and bikes.": {
               "translation": "道路",
+              "pos": "n."
+            },
+            "Road facilities and public transport develop rapidly now.": {
+              "translation": "公路",
               "pos": "n."
             }
           }
@@ -34099,18 +34467,34 @@
             "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.": {
               "translation": "公共的",
               "pos": "adj."
+            },
+            "The federal government supported building public transport.": {
+              "translation": "公共的",
+              "pos": "adj."
+            },
+            "Road facilities and public transport develop rapidly now.": {
+              "translation": "公共的",
+              "pos": "adj."
             }
           }
         },
         "transport": {
           "lemma": "transport",
-          "translation": "交通工具",
+          "translation": "运输",
           "pos": "n.",
           "forms": "transports",
           "meanings": "交通工具；运输；运送",
           "contexts": {
             "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.": {
-              "translation": "交通工具",
+              "translation": "运输",
+              "pos": "n."
+            },
+            "The federal government supported building public transport.": {
+              "translation": "运输",
+              "pos": "n."
+            },
+            "Road facilities and public transport develop rapidly now.": {
+              "translation": "运输",
               "pos": "n."
             }
           }
@@ -34138,6 +34522,10 @@
             "\"\nWashington,DC has also taken steps to protect bike riders.": {
               "translation": "采取",
               "pos": "v."
+            },
+            "Washington,DC has taken steps to protect bike riders": {
+              "translation": "采取",
+              "pos": "v."
             }
           }
         },
@@ -34149,6 +34537,10 @@
           "meanings": "步骤；措施；台阶；脚步",
           "contexts": {
             "\"\nWashington,DC has also taken steps to protect bike riders.": {
+              "translation": "措施",
+              "pos": "n."
+            },
+            "Washington,DC has taken steps to protect bike riders": {
               "translation": "措施",
               "pos": "n."
             }
@@ -34164,6 +34556,10 @@
             "\"\nWashington,DC has also taken steps to protect bike riders.": {
               "translation": "保护",
               "pos": "v."
+            },
+            "Washington,DC has taken steps to protect bike riders": {
+              "translation": "保护",
+              "pos": "v."
             }
           }
         },
@@ -34175,6 +34571,10 @@
           "meanings": "骑车者；乘车者；骑马者",
           "contexts": {
             "\"\nWashington,DC has also taken steps to protect bike riders.": {
+              "translation": "骑车者",
+              "pos": "n."
+            },
+            "Washington,DC has taken steps to protect bike riders": {
               "translation": "骑车者",
               "pos": "n."
             }
@@ -34283,6 +34683,10 @@
           "meanings": "自行车；脚踏车",
           "contexts": {
             "It approved a safe passing law and created areas on the road between cars and bikes.": {
+              "translation": "自行车",
+              "pos": "n."
+            },
+            "Bikes result in new problems in Washington,DC": {
               "translation": "自行车",
               "pos": "n."
             }
@@ -34415,6 +34819,10 @@
             "The only city on the East Coast with more bike commuters is New York.": {
               "translation": "新的",
               "pos": "adj."
+            },
+            "Bikes result in new problems in Washington,DC": {
+              "translation": "新的",
+              "pos": "adj."
             }
           }
         },
@@ -34455,8 +34863,12 @@
               "pos": "n."
             },
             "The only city on the East Coast with more bike commuters is New York.": {
-              "translation": "自行车的",
-              "pos": "adj."
+              "translation": "自行车",
+              "pos": "n."
+            },
+            "Washington,DC has taken steps to protect bike riders": {
+              "translation": "自行车",
+              "pos": "n."
             }
           }
         },
@@ -34483,6 +34895,10 @@
             "He says there is a reason why urban bike tiding is now becoming more popular.": {
               "translation": "现在",
               "pos": "adv."
+            },
+            "Road facilities and public transport develop rapidly now.": {
+              "translation": "现在",
+              "pos": "adv."
             }
           }
         },
@@ -34501,30 +34917,38 @@
         },
         "more": {
           "lemma": "more",
-          "translation": "更",
+          "translation": "更多",
           "pos": "adv.",
           "forms": "无常见变形",
           "meanings": "更多；较大程度；额外；再",
           "contexts": {
             "He says there is a reason why urban bike tiding is now becoming more popular.": {
-              "translation": "更",
+              "translation": "更受欢迎",
               "pos": "adv."
             },
             "The only city on the East Coast with more bike commuters is New York.": {
-              "translation": "更多的",
+              "translation": "更多",
+              "pos": "adj."
+            },
+            "Government should build more bicycling facilities.": {
+              "translation": "更多",
               "pos": "adj."
             }
           }
         },
         "popular": {
           "lemma": "popular",
-          "translation": "受欢迎的",
+          "translation": "流行的",
           "pos": "adj.",
           "forms": "more popular, most popular",
           "meanings": "受欢迎的；流行的；大众的",
           "contexts": {
             "He says there is a reason why urban bike tiding is now becoming more popular.": {
-              "translation": "受欢迎的",
+              "translation": "流行的",
+              "pos": "adj."
+            },
+            "Urban biking has been popular in the last 60 to 70 years.": {
+              "translation": "流行的",
               "pos": "adj."
             }
           }
@@ -34544,13 +34968,17 @@
         },
         "last": {
           "lemma": "last",
-          "translation": "最后的",
+          "translation": "过去的",
           "pos": "adj.",
           "forms": "lasts, lasted, lasting",
           "meanings": "最后的；上一个；最终；持续；姓",
           "contexts": {
             "\"Over the last 60 to 70 years.": {
-              "translation": "最后的",
+              "translation": "过去的",
+              "pos": "adj."
+            },
+            "Urban biking has been popular in the last 60 to 70 years.": {
+              "translation": "过去的",
               "pos": "adj."
             }
           }
@@ -34567,6 +34995,14 @@
               "pos": "n."
             },
             "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.": {
+              "translation": "年",
+              "pos": "n."
+            },
+            "Urban biking has been popular in the last 60 to 70 years.": {
+              "translation": "年",
+              "pos": "n."
+            },
+            "In the years after World War Two,many Americans prefer to  _  .": {
               "translation": "年",
               "pos": "n."
             }
@@ -34587,17 +35023,25 @@
         },
         "s": {
           "lemma": "s",
-          "translation": "表示缩写或所有格",
+          "translation": "缩写",
           "pos": "suffix",
           "forms": "无常见变形",
           "meanings": "复数词尾；所有格符号；表示缩写",
           "contexts": {
             "S.": {
-              "translation": "缩写符号",
+              "translation": "缩写",
               "pos": "suffix"
             },
             "The United States Census Bureau says 4%of the city's workers ride to work by bike.": {
-              "translation": "所有格",
+              "translation": "复数词尾",
+              "pos": "suffix"
+            },
+            "What's the best title of the text?": {
+              "translation": "复数词尾",
+              "pos": "suffix"
+            },
+            "What can we know from Ralph Buehler's statement?": {
+              "translation": "复数词尾",
               "pos": "suffix"
             }
           }
@@ -34617,14 +35061,18 @@
         },
         "been": {
           "lemma": "be",
-          "translation": "被",
+          "translation": "是",
           "pos": "v.",
           "forms": "am, is, are, being, was, were",
           "meanings": "是；成为；存在；发生",
           "contexts": {
             "have been adapted to the automobile.": {
               "translation": "被",
-              "pos": "aux."
+              "pos": "v."
+            },
+            "Urban biking has been popular in the last 60 to 70 years.": {
+              "translation": "一直是",
+              "pos": "v."
             }
           }
         },
@@ -34695,7 +35143,7 @@
         },
         "money": {
           "lemma": "money",
-          "translation": "资金",
+          "translation": "钱",
           "pos": "n.",
           "forms": "monies",
           "meanings": "钱；金钱；货币；资金",
@@ -34711,6 +35159,14 @@
             "\"\n Ralph Buehler says governments save money when people use bicycles.": {
               "translation": "钱",
               "pos": "n."
+            },
+            "Cities didn't use the money from the government wisely.": {
+              "translation": "资金",
+              "pos": "n."
+            },
+            "Money can be saved when people use bicycles.": {
+              "translation": "钱",
+              "pos": "n."
             }
           }
         },
@@ -34724,6 +35180,412 @@
             "\"\n\"Most cities took advantage of the money coming for the interstate highway system,from the federal government,starting in 1956.": {
               "translation": "来源",
               "pos": "v."
+            }
+          }
+        },
+        "what's": {
+          "lemma": "what is",
+          "translation": "是什么",
+          "pos": "pron.+v.",
+          "forms": "无常见变形",
+          "meanings": "是什么；……的东西",
+          "contexts": {
+            "What's the best title of the text?": {
+              "translation": "是什么",
+              "pos": "pron.+v."
+            }
+          }
+        },
+        "best": {
+          "lemma": "best",
+          "translation": "最好的",
+          "pos": "adj.",
+          "forms": "better, best",
+          "meanings": "最好的；最佳的；最优的；最好地",
+          "contexts": {
+            "What's the best title of the text?": {
+              "translation": "最好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "title": {
+          "lemma": "title",
+          "translation": "标题",
+          "pos": "n.",
+          "forms": "titles",
+          "meanings": "标题；题目；称号；头衔；冠军",
+          "contexts": {
+            "What's the best title of the text?": {
+              "translation": "标题",
+              "pos": "n."
+            }
+          }
+        },
+        "text": {
+          "lemma": "text",
+          "translation": "文本",
+          "pos": "n.",
+          "forms": "texts",
+          "meanings": "文本；正文；课文；短信；段落",
+          "contexts": {
+            "What's the best title of the text?": {
+              "translation": "文本",
+              "pos": "n."
+            }
+          }
+        },
+        "grows": {
+          "lemma": "grow",
+          "translation": "增长",
+          "pos": "v.",
+          "forms": "grows, grew, grown, growing",
+          "meanings": "增长；生长；发展；变得；种植",
+          "contexts": {
+            "Bicycling to work in Washington,DC grows in popularity": {
+              "translation": "增长",
+              "pos": "v."
+            }
+          }
+        },
+        "popularity": {
+          "lemma": "popularity",
+          "translation": "受欢迎；流行",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "受欢迎；流行；知名度；人气",
+          "contexts": {
+            "Bicycling to work in Washington,DC grows in popularity": {
+              "translation": "受欢迎；流行",
+              "pos": "n."
+            }
+          }
+        },
+        "result": {
+          "lemma": "result",
+          "translation": "导致",
+          "pos": "v.",
+          "forms": "results, resulted, resulting",
+          "meanings": "结果；后果；成效；起因于；导致",
+          "contexts": {
+            "Bikes result in new problems in Washington,DC": {
+              "translation": "导致",
+              "pos": "v."
+            }
+          }
+        },
+        "what": {
+          "lemma": "what",
+          "translation": "什么",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "什么；……的事物；多么；究竟是什么",
+          "contexts": {
+            "What's the best title of the text?": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "What can we know from Ralph Buehler's statement?": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "What do Ralph Buehler and Greg Billing agree with?": {
+              "translation": "什么",
+              "pos": "pron."
+            }
+          }
+        },
+        "we": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "us, our, ours",
+          "meanings": "我们",
+          "contexts": {
+            "What can we know from Ralph Buehler's statement?": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "know": {
+          "lemma": "know",
+          "translation": "知道",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉",
+          "contexts": {
+            "What can we know from Ralph Buehler's statement?": {
+              "translation": "知道",
+              "pos": "v."
+            }
+          }
+        },
+        "buehler's": {
+          "lemma": "buehler",
+          "translation": "布勒（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "布勒（人名）",
+          "contexts": {
+            "What can we know from Ralph Buehler's statement?": {
+              "translation": "布勒（人名）",
+              "pos": "n."
+            }
+          }
+        },
+        "statement": {
+          "lemma": "statement",
+          "translation": "陈述；声明",
+          "pos": "noun",
+          "forms": "statements",
+          "meanings": "陈述；声明；声明书；财务报表",
+          "contexts": {
+            "What can we know from Ralph Buehler's statement?": {
+              "translation": "声明",
+              "pos": "noun"
+            }
+          }
+        },
+        "supported": {
+          "lemma": "support",
+          "translation": "支持",
+          "pos": "verb",
+          "forms": "supports, supported, supporting",
+          "meanings": "支持；拥护；维持；承载",
+          "contexts": {
+            "The federal government supported building public transport.": {
+              "translation": "支持",
+              "pos": "verb"
+            }
+          }
+        },
+        "invested": {
+          "lemma": "invest",
+          "translation": "投资",
+          "pos": "verb",
+          "forms": "invests, invested, investing",
+          "meanings": "投资；投入；赋予；授予",
+          "contexts": {
+            "Government invested a lot to build bicycling facilities.": {
+              "translation": "投资",
+              "pos": "verb"
+            }
+          }
+        },
+        "lot": {
+          "lemma": "lot",
+          "translation": "很多",
+          "pos": "noun",
+          "forms": "lots",
+          "meanings": "许多；大量；地皮；命运",
+          "contexts": {
+            "Government invested a lot to build bicycling facilities.": {
+              "translation": "很多",
+              "pos": "noun"
+            }
+          }
+        },
+        "build": {
+          "lemma": "build",
+          "translation": "建造",
+          "pos": "verb",
+          "forms": "builds, built, building",
+          "meanings": "建造；建立；开发；增强",
+          "contexts": {
+            "Government invested a lot to build bicycling facilities.": {
+              "translation": "建造",
+              "pos": "verb"
+            },
+            "Government should build more bicycling facilities.": {
+              "translation": "建造",
+              "pos": "verb"
+            }
+          }
+        },
+        "didn't": {
+          "lemma": "did not",
+          "translation": "没有",
+          "pos": "verb",
+          "forms": "无常见变形",
+          "meanings": "没有（do的否定过去式）；并未；不曾",
+          "contexts": {
+            "Cities didn't use the money from the government wisely.": {
+              "translation": "没有",
+              "pos": "verb"
+            }
+          }
+        },
+        "wisely": {
+          "lemma": "wisely",
+          "translation": "明智地",
+          "pos": "adverb",
+          "forms": "无常见变形",
+          "meanings": "明智地；聪慧地；谨慎地",
+          "contexts": {
+            "Cities didn't use the money from the government wisely.": {
+              "translation": "明智地",
+              "pos": "adverb"
+            }
+          }
+        },
+        "prefer": {
+          "lemma": "prefer",
+          "translation": "更喜欢",
+          "pos": "verb",
+          "forms": "prefers, preferred, preferring",
+          "meanings": "更喜欢；宁愿；提出（建议等）；偏爱",
+          "contexts": {
+            "In the years after World War Two,many Americans prefer to  _  .": {
+              "translation": "更喜欢",
+              "pos": "verb"
+            }
+          }
+        },
+        "ive": {
+          "lemma": "live",
+          "translation": "居住",
+          "pos": "verb",
+          "forms": "lives, lived, living",
+          "meanings": "居住；生活；生存；经历",
+          "contexts": {
+            "1ive in the city": {
+              "translation": "居住",
+              "pos": "verb"
+            },
+            "1ive in the suburbs": {
+              "translation": "居住",
+              "pos": "verb"
+            }
+          }
+        },
+        "rent": {
+          "lemma": "rent",
+          "translation": "租用",
+          "pos": "verb",
+          "forms": "rents, rented, renting",
+          "meanings": "租用；出租；租金",
+          "contexts": {
+            "rent houses": {
+              "translation": "租用",
+              "pos": "verb"
+            }
+          }
+        },
+        "houses": {
+          "lemma": "house",
+          "translation": "房子",
+          "pos": "n.",
+          "forms": "houses",
+          "meanings": "房子；住宅；家；议院；剧院",
+          "contexts": {
+            "rent houses": {
+              "translation": "房子",
+              "pos": "n."
+            }
+          }
+        },
+        "do": {
+          "lemma": "do",
+          "translation": "做（助动词，用于构成疑问句）",
+          "pos": "aux.v.",
+          "forms": "did, done, doing, does",
+          "meanings": "做；干；进行；引起；（助动词，用于构成疑问句）",
+          "contexts": {
+            "What do Ralph Buehler and Greg Billing agree with?": {
+              "translation": "做（助动词，用于构成疑问句）",
+              "pos": "aux.v."
+            }
+          }
+        },
+        "agree": {
+          "lemma": "agree",
+          "translation": "同意；赞成",
+          "pos": "v.",
+          "forms": "agrees, agreed, agreeing",
+          "meanings": "同意；赞成；一致；相符；适合",
+          "contexts": {
+            "What do Ralph Buehler and Greg Billing agree with?": {
+              "translation": "赞成；同意",
+              "pos": "v."
+            }
+          }
+        },
+        "be": {
+          "lemma": "be",
+          "translation": "是；被证明是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, being, been",
+          "meanings": "是；位于；表现为；处于……状态",
+          "contexts": {
+            "Money can be saved when people use bicycles.": {
+              "translation": "被（用于被动语态）",
+              "pos": "v."
+            }
+          }
+        },
+        "saved": {
+          "lemma": "save",
+          "translation": "节省；省下",
+          "pos": "v.",
+          "forms": "saves, saved, saving",
+          "meanings": "救；挽救；节省；储存；保存",
+          "contexts": {
+            "Money can be saved when people use bicycles.": {
+              "translation": "节省；省下",
+              "pos": "v."
+            }
+          }
+        },
+        "country": {
+          "lemma": "country",
+          "translation": "农村；乡下",
+          "pos": "n.",
+          "forms": "countries",
+          "meanings": "国家；国土；农村；乡下；地区",
+          "contexts": {
+            "Living in the city is much cheaper than in the country.": {
+              "translation": "农村；乡下",
+              "pos": "n."
+            }
+          }
+        },
+        "should": {
+          "lemma": "should",
+          "translation": "应该",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "应该；会；可能；将要",
+          "contexts": {
+            "Government should build more bicycling facilities.": {
+              "translation": "应该",
+              "pos": "modal v."
+            }
+          }
+        },
+        "develop": {
+          "lemma": "develop",
+          "translation": "发展；进步",
+          "pos": "v.",
+          "forms": "develops, developed, developing",
+          "meanings": "培养；发展；开发；研制；患（病）",
+          "contexts": {
+            "Road facilities and public transport develop rapidly now.": {
+              "translation": "发展；进步",
+              "pos": "v."
+            }
+          }
+        },
+        "rapidly": {
+          "lemma": "rapidly",
+          "translation": "迅速地；快速地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "迅速地；快速地；急速地",
+          "contexts": {
+            "Road facilities and public transport develop rapidly now.": {
+              "translation": "迅速地；快速地",
+              "pos": "adv."
             }
           }
         }
