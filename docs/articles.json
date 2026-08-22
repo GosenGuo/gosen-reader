@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T13:14:00.544Z",
+  "generatedAt": "2026-08-22T13:14:40.453Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -93474,15 +93474,19 @@
             "When John Weston awoke that morning, he remembered that his mother was going into hospital.": {
               "translation": "当……时",
               "pos": "conj."
+            },
+            "when John asked what was wrong with her": {
+              "translation": "当……时",
+              "pos": "conj."
             }
           }
         },
         "john": {
           "lemma": "John",
-          "translation": "约翰",
+          "translation": "约翰（人名）",
           "pos": "n.",
           "forms": "无常见变形",
-          "meanings": "约翰；（人名）约翰",
+          "meanings": "约翰；人名；男孩名字",
           "contexts": {
             "When John Weston awoke that morning, he remembered that his mother was going into hospital.": {
               "translation": "约翰",
@@ -93503,17 +93507,37 @@
             "That was the arrangement, and John didn't care much for it.": {
               "translation": "约翰",
               "pos": "n."
+            },
+            "when John asked what was wrong with her": {
+              "translation": "约翰",
+              "pos": "n."
+            },
+            "how did John react to his mother's bad temper?": {
+              "translation": "约翰",
+              "pos": "n."
+            },
+            "John regarded   _  as most bad-tempered.": {
+              "translation": "约翰",
+              "pos": "n."
             }
           }
         },
         "weston": {
           "lemma": "Weston",
-          "translation": "韦斯顿",
+          "translation": "韦斯顿（姓氏）",
           "pos": "n.",
           "forms": "无常见变形",
-          "meanings": "韦斯顿（姓氏）",
+          "meanings": "韦斯顿；姓氏",
           "contexts": {
             "When John Weston awoke that morning, he remembered that his mother was going into hospital.": {
+              "translation": "韦斯顿",
+              "pos": "n."
+            },
+            "Mrs Weston went to see her doctor  _  .": {
+              "translation": "韦斯顿",
+              "pos": "n."
+            },
+            "what did Mrs Weston's own doctor decide to do?": {
               "translation": "韦斯顿",
               "pos": "n."
             }
@@ -93535,7 +93559,7 @@
         "that": {
           "lemma": "that",
           "translation": "那个",
-          "pos": "pron./conj.",
+          "pos": "pron.",
           "forms": "those",
           "meanings": "那个；那；引导从句；如此",
           "contexts": {
@@ -93544,24 +93568,32 @@
               "pos": "pron."
             },
             "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.": {
-              "translation": "引导宾语从句",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.": {
-              "translation": "引导宾语从句",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "Always rather sharp, she began losing her temper over little things so that John's father kept his thoughts to himself more and more.": {
-              "translation": "引导结果状语从句",
-              "pos": "conj."
+              "translation": "如此",
+              "pos": "adv."
             },
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
-              "translation": "引导宾语从句",
-              "pos": "conj."
+              "translation": "如此",
+              "pos": "adv."
             },
             "That was the arrangement, and John didn't care much for it.": {
               "translation": "那个",
               "pos": "pron."
+            },
+            "as soon as she realized that something was wrong": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "He pretended that he had toothache.": {
+              "translation": "引导从句",
+              "pos": "conj."
             }
           }
         },
@@ -93583,7 +93615,7 @@
           "translation": "他",
           "pos": "pron.",
           "forms": "him, his, himself",
-          "meanings": "他；（指代男性）；那个人",
+          "meanings": "他；那个人；指代男性",
           "contexts": {
             "When John Weston awoke that morning, he remembered that his mother was going into hospital.": {
               "translation": "他",
@@ -93606,6 +93638,38 @@
               "pos": "pron."
             },
             "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "he decided to send her to hospital": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "he decided to get an expert to examine her": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He decided to treat her himself": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He advised her to wait for a few weeks.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "he tried to imagine himself in her place.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He tried not to notice it.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He pretended that he had toothache.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He behaved himself as well as possible.": {
               "translation": "他",
               "pos": "pron."
             }
@@ -93654,6 +93718,26 @@
             "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.": {
               "translation": "他的",
               "pos": "pron."
+            },
+            "how did John react to his mother's bad temper?": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "his father": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "his mother": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "his cousin Mona": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "his aunt Daisy": {
+              "translation": "他的",
+              "pos": "pron."
             }
           }
         },
@@ -93675,6 +93759,14 @@
             "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.": {
               "translation": "母亲",
               "pos": "n."
+            },
+            "how did John react to his mother's bad temper?": {
+              "translation": "母亲",
+              "pos": "n."
+            },
+            "his mother": {
+              "translation": "母亲",
+              "pos": "n."
             }
           }
         },
@@ -93694,7 +93786,7 @@
               "pos": "v."
             },
             "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.": {
-              "translation": "有，存在",
+              "translation": "是",
               "pos": "v."
             },
             "He was going to stay with his Aunt Daisy till she came back, and his father would stay on at home by himself.": {
@@ -93702,7 +93794,7 @@
               "pos": "v."
             },
             "John's cousin, Mona, was to come in and make the bed and wash the pots and dust round now and again.": {
-              "translation": "将要（表安排）",
+              "translation": "是",
               "pos": "v."
             },
             "That was the arrangement, and John didn't care much for it.": {
@@ -93710,6 +93802,14 @@
               "pos": "v."
             },
             "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "as soon as she realized that something was wrong": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "when John asked what was wrong with her": {
               "translation": "是",
               "pos": "v."
             }
@@ -93773,6 +93873,10 @@
               "pos": "n."
             },
             "So his mother would go into hospital for a few days.": {
+              "translation": "医院",
+              "pos": "n."
+            },
+            "he decided to send her to hospital": {
               "translation": "医院",
               "pos": "n."
             }
@@ -93848,6 +93952,14 @@
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
               "translation": "什么",
               "pos": "pron."
+            },
+            "when John asked what was wrong with her": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "what did Mrs Weston's own doctor decide to do?": {
+              "translation": "什么",
+              "pos": "pron."
             }
           }
         },
@@ -93861,12 +93973,20 @@
             "He hadn't worked out quite what was wrong with her.": {
               "translation": "有毛病的",
               "pos": "adj."
+            },
+            "as soon as she realized that something was wrong": {
+              "translation": "不对劲的",
+              "pos": "adj."
+            },
+            "when John asked what was wrong with her": {
+              "translation": "有问题的",
+              "pos": "adj."
             }
           }
         },
         "with": {
           "lemma": "with",
-          "translation": "关于",
+          "translation": "与……一起",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "与……一起；使用；带有；由于；关于",
@@ -93876,20 +93996,24 @@
               "pos": "prep."
             },
             "He was going to stay with his Aunt Daisy till she came back, and his father would stay on at home by himself.": {
-              "translation": "和……一起",
+              "translation": "与……一起",
+              "pos": "prep."
+            },
+            "when John asked what was wrong with her": {
+              "translation": "关于",
               "pos": "prep."
             }
           }
         },
         "her": {
           "lemma": "she",
-          "translation": "她（宾格）",
+          "translation": "她的",
           "pos": "pron.",
           "forms": "hers, herself",
           "meanings": "她的；她（宾格）；她（所有格代词）",
           "contexts": {
             "He hadn't worked out quite what was wrong with her.": {
-              "translation": "她（宾格）",
+              "translation": "她的",
               "pos": "pron."
             },
             "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.": {
@@ -93897,11 +94021,11 @@
               "pos": "pron."
             },
             "Their own doctor, who she had finally gone to for advice, had sent her to an expert who knew all about these things.": {
-              "translation": "她（宾格）",
+              "translation": "她的",
               "pos": "pron."
             },
             "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.": {
-              "translation": "她（宾格）",
+              "translation": "她的",
               "pos": "pron."
             },
             "During the weeks since then the pains had come even more frequently, and the narrowed eyes became an almost permanent part of her expression.": {
@@ -93913,6 +94037,38 @@
               "pos": "pron."
             },
             "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "Mrs Weston went to see her doctor  _  .": {
+              "translation": "她的",
+              "pos": "pron."
+            },
+            "only after her husband advised her to": {
+              "translation": "她的",
+              "pos": "pron."
+            },
+            "when John asked what was wrong with her": {
+              "translation": "她的",
+              "pos": "pron."
+            },
+            "he decided to send her to hospital": {
+              "translation": "她的",
+              "pos": "pron."
+            },
+            "he decided to get an expert to examine her": {
+              "translation": "她的",
+              "pos": "pron."
+            },
+            "He decided to treat her himself": {
+              "translation": "她的",
+              "pos": "pron."
+            },
+            "He advised her to wait for a few weeks.": {
+              "translation": "她的",
+              "pos": "pron."
+            },
+            "he tried to imagine himself in her place.": {
               "translation": "她的",
               "pos": "pron."
             }
@@ -93950,7 +94106,7 @@
         },
         "she": {
           "lemma": "she",
-          "translation": "她",
+          "translation": "她（主格）",
           "pos": "pron.",
           "forms": "her, hers, herself",
           "meanings": "她（主格）",
@@ -93976,6 +94132,10 @@
               "pos": "pron."
             },
             "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "as soon as she realized that something was wrong": {
               "translation": "她",
               "pos": "pron."
             }
@@ -94004,12 +94164,16 @@
             "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.": {
               "translation": "健康的",
               "pos": "adj."
+            },
+            "He behaved himself as well as possible.": {
+              "translation": "很好地",
+              "pos": "adv."
             }
           }
         },
         "for": {
           "lemma": "for",
-          "translation": "长达",
+          "translation": "为了",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "为了；支持；因为；给；长达",
@@ -94023,15 +94187,19 @@
               "pos": "prep."
             },
             "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.": {
-              "translation": "给",
+              "translation": "为了",
               "pos": "prep."
             },
             "So his mother would go into hospital for a few days.": {
-              "translation": "长达（一段时间）",
+              "translation": "长达",
               "pos": "prep."
             },
             "That was the arrangement, and John didn't care much for it.": {
-              "translation": "支持/赞同",
+              "translation": "对于",
+              "pos": "prep."
+            },
+            "He advised her to wait for a few weeks.": {
+              "translation": "长达",
               "pos": "prep."
             }
           }
@@ -94051,17 +94219,21 @@
         },
         "time": {
           "lemma": "time",
-          "translation": "一段时间",
+          "translation": "时间",
           "pos": "n.",
           "forms": "times",
           "meanings": "时间；时代；次数；倍数；时刻",
           "contexts": {
             "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.": {
-              "translation": "一段时间",
+              "translation": "时间",
               "pos": "n."
             },
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
-              "translation": "总是/一直",
+              "translation": "一直",
+              "pos": "n."
+            },
+            "a long time after the trouble began": {
+              "translation": "时间",
               "pos": "n."
             }
           }
@@ -94132,41 +94304,49 @@
           "meanings": "它；这；（引导形式主语）",
           "contexts": {
             "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.": {
-              "translation": "这（指代前面提到的状况）",
+              "translation": "这件事",
               "pos": "pron."
             },
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
-              "translation": "这（指代某种情形）",
+              "translation": "那样",
               "pos": "pron."
             },
             "That was the arrangement, and John didn't care much for it.": {
-              "translation": "它（指代安排）",
+              "translation": "这个安排",
+              "pos": "pron."
+            },
+            "He tried not to notice it.": {
+              "translation": "它",
               "pos": "pron."
             }
           }
         },
         "had": {
           "lemma": "have",
-          "translation": "曾经",
+          "translation": "已经",
           "pos": "v.",
           "forms": "has, having, had",
           "meanings": "有；经历；吃；已经",
           "contexts": {
             "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.": {
-              "translation": "已经（过去完成时助动词）",
-              "pos": "aux."
+              "translation": "已经",
+              "pos": "v."
             },
             "Their own doctor, who she had finally gone to for advice, had sent her to an expert who knew all about these things.": {
-              "translation": "已经（过去完成时助动词）",
-              "pos": "aux."
+              "translation": "已经",
+              "pos": "v."
             },
             "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.": {
-              "translation": "已经（过去完成时助动词）",
-              "pos": "aux."
+              "translation": "已经",
+              "pos": "v."
             },
             "During the weeks since then the pains had come even more frequently, and the narrowed eyes became an almost permanent part of her expression.": {
-              "translation": "已经（过去完成时助动词）",
-              "pos": "aux."
+              "translation": "已经",
+              "pos": "v."
+            },
+            "He pretended that he had toothache.": {
+              "translation": "有",
+              "pos": "v."
             }
           }
         },
@@ -94215,38 +94395,78 @@
         },
         "to": {
           "lemma": "to",
-          "translation": "用于构成不定式",
+          "translation": "构成不定式",
           "pos": "particle",
           "forms": "无常见变形",
           "meanings": "构成不定式；向；给；到；对于",
           "contexts": {
             "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.": {
-              "translation": "用于构成不定式",
-              "pos": "particle"
+              "translation": "向",
+              "pos": "prep."
             },
             "Their own doctor, who she had finally gone to for advice, had sent her to an expert who knew all about these things.": {
-              "translation": "向（某人求助/咨询）",
+              "translation": "向",
               "pos": "prep."
             },
             "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.": {
-              "translation": "（引导目的）去",
-              "pos": "prep."
+              "translation": "构成不定式",
+              "pos": "particle"
             },
             "Always rather sharp, she began losing her temper over little things so that John's father kept his thoughts to himself more and more.": {
-              "translation": "对于",
+              "translation": "给",
               "pos": "prep."
             },
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
-              "translation": "用于构成不定式",
+              "translation": "构成不定式",
               "pos": "particle"
             },
             "He was going to stay with his Aunt Daisy till she came back, and his father would stay on at home by himself.": {
-              "translation": "（方向）到",
-              "pos": "prep."
+              "translation": "构成不定式",
+              "pos": "particle"
             },
             "John's cousin, Mona, was to come in and make the bed and wash the pots and dust round now and again.": {
-              "translation": "（指示动作方向）来",
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "Mrs Weston went to see her doctor  _  .": {
+              "translation": "向",
               "pos": "prep."
+            },
+            "only after her husband advised her to": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "what did Mrs Weston's own doctor decide to do?": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "he decided to send her to hospital": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "he decided to get an expert to examine her": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "He decided to treat her himself": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "He advised her to wait for a few weeks.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "how did John react to his mother's bad temper?": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "he tried to imagine himself in her place.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "He tried not to notice it.": {
+              "translation": "构成不定式",
+              "pos": "particle"
             }
           }
         },
@@ -94272,6 +94492,10 @@
           "contexts": {
             "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.": {
               "translation": "看见",
+              "pos": "v."
+            },
+            "Mrs Weston went to see her doctor  _  .": {
+              "translation": "拜访",
               "pos": "v."
             }
           }
@@ -94318,12 +94542,16 @@
           "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
           "contexts": {
             "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.": {
-              "translation": "由于（处于……状态）",
+              "translation": "在……期间",
               "pos": "prep."
             },
             "John's cousin, Mona, was to come in and make the bed and wash the pots and dust round now and again.": {
-              "translation": "进入",
-              "pos": "adv."
+              "translation": "来",
+              "pos": "prep."
+            },
+            "he tried to imagine himself in her place.": {
+              "translation": "处于",
+              "pos": "prep."
             }
           }
         },
@@ -94335,15 +94563,23 @@
           "meanings": "一个；每一；任何；一种；同一",
           "contexts": {
             "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.": {
-              "translation": "一次",
+              "translation": "一个",
               "pos": "art."
             },
             "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.": {
-              "translation": "一张",
+              "translation": "一个",
               "pos": "art."
             },
             "So his mother would go into hospital for a few days.": {
-              "translation": "一段",
+              "translation": "一些",
+              "pos": "art."
+            },
+            "a long time after the trouble began": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "He advised her to wait for a few weeks.": {
+              "translation": "几个",
               "pos": "art."
             }
           }
@@ -94483,6 +94719,10 @@
             "Their own doctor, who she had finally gone to for advice, had sent her to an expert who knew all about these things.": {
               "translation": "自己的",
               "pos": "adj."
+            },
+            "what did Mrs Weston's own doctor decide to do?": {
+              "translation": "自己的",
+              "pos": "adj."
             }
           }
         },
@@ -94494,6 +94734,14 @@
           "meanings": "医生；博士；医师",
           "contexts": {
             "Their own doctor, who she had finally gone to for advice, had sent her to an expert who knew all about these things.": {
+              "translation": "医生",
+              "pos": "n."
+            },
+            "Mrs Weston went to see her doctor  _  .": {
+              "translation": "医生",
+              "pos": "n."
+            },
+            "what did Mrs Weston's own doctor decide to do?": {
               "translation": "医生",
               "pos": "n."
             }
@@ -94578,6 +94826,10 @@
             "During the weeks since then the pains had come even more frequently, and the narrowed eyes became an almost permanent part of her expression.": {
               "translation": "一个",
               "pos": "art."
+            },
+            "he decided to get an expert to examine her": {
+              "translation": "一个",
+              "pos": "art."
             }
           }
         },
@@ -94589,6 +94841,10 @@
           "meanings": "专家；内行；行家；熟练的",
           "contexts": {
             "Their own doctor, who she had finally gone to for advice, had sent her to an expert who knew all about these things.": {
+              "translation": "专家",
+              "pos": "n."
+            },
+            "he decided to get an expert to examine her": {
               "translation": "专家",
               "pos": "n."
             }
@@ -94688,24 +94944,40 @@
           "meanings": "因为；像……一样；作为；当……时；正如",
           "contexts": {
             "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.": {
-              "translation": "当……时",
+              "translation": "一……就",
               "pos": "conj."
             },
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
-              "translation": "像……一样",
+              "translation": "像",
+              "pos": "prep."
+            },
+            "as soon as she realized that something was wrong": {
+              "translation": "一……就",
               "pos": "conj."
+            },
+            "He behaved himself as well as possible.": {
+              "translation": "尽可能……地",
+              "pos": "adv."
+            },
+            "John regarded   _  as most bad-tempered.": {
+              "translation": "认为是",
+              "pos": "prep."
             }
           }
         },
         "soon": {
           "lemma": "soon",
-          "translation": "很快",
+          "translation": "不久",
           "pos": "adv.",
           "forms": "sooner, soonest",
           "meanings": "不久；很快；立刻；早",
           "contexts": {
             "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.": {
-              "translation": "很快",
+              "translation": "不久",
+              "pos": "adv."
+            },
+            "as soon as she realized that something was wrong": {
+              "translation": "一……就",
               "pos": "adv."
             }
           }
@@ -94848,13 +95120,21 @@
         },
         "after": {
           "lemma": "after",
-          "translation": "照顾（look after搭配）",
+          "translation": "之后",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "在……之后；后来；跟随；依照",
           "contexts": {
             "He had told her that just as soon as there was a bed for her, she would have to come into his hospital where he could look after her himself.": {
-              "translation": "照顾（look after搭配）",
+              "translation": "照料",
+              "pos": "v."
+            },
+            "only after her husband advised her to": {
+              "translation": "在……之后",
+              "pos": "prep."
+            },
+            "a long time after the trouble began": {
+              "translation": "在……之后",
               "pos": "prep."
             }
           }
@@ -94875,6 +95155,18 @@
               "pos": "pron."
             },
             "He was going to stay with his Aunt Daisy till she came back, and his father would stay on at home by himself.": {
+              "translation": "他自己",
+              "pos": "pron."
+            },
+            "He decided to treat her himself": {
+              "translation": "他自己",
+              "pos": "pron."
+            },
+            "he tried to imagine himself in her place.": {
+              "translation": "他自己",
+              "pos": "pron."
+            },
+            "He behaved himself as well as possible.": {
               "translation": "他自己",
               "pos": "pron."
             }
@@ -94901,19 +95193,23 @@
           "meanings": "这；那；（用于特指）；（用于最高级前）",
           "contexts": {
             "During the weeks since then the pains had come even more frequently, and the narrowed eyes became an almost permanent part of her expression.": {
-              "translation": "（用于特指一段时间）",
+              "translation": "那",
               "pos": "art."
             },
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
-              "translation": "（用于特指时间）",
+              "translation": "那",
               "pos": "art."
             },
             "John's cousin, Mona, was to come in and make the bed and wash the pots and dust round now and again.": {
-              "translation": "（用于特指事物）",
+              "translation": "这",
               "pos": "art."
             },
             "That was the arrangement, and John didn't care much for it.": {
-              "translation": "那个（指代前文提到的安排）",
+              "translation": "那",
+              "pos": "art."
+            },
+            "a long time after the trouble began": {
+              "translation": "那",
               "pos": "art."
             }
           }
@@ -94926,6 +95222,10 @@
           "meanings": "周；星期",
           "contexts": {
             "During the weeks since then the pains had come even more frequently, and the narrowed eyes became an almost permanent part of her expression.": {
+              "translation": "周",
+              "pos": "n."
+            },
+            "He advised her to wait for a few weeks.": {
               "translation": "周",
               "pos": "n."
             }
@@ -95122,6 +95422,10 @@
             "Always rather sharp, she began losing her temper over little things so that John's father kept his thoughts to himself more and more.": {
               "translation": "开始",
               "pos": "v."
+            },
+            "a long time after the trouble began": {
+              "translation": "开始",
+              "pos": "v."
             }
           }
         },
@@ -95146,6 +95450,10 @@
           "meanings": "脾气；性情；情绪；调和",
           "contexts": {
             "Always rather sharp, she began losing her temper over little things so that John's father kept his thoughts to himself more and more.": {
+              "translation": "脾气",
+              "pos": "n."
+            },
+            "how did John react to his mother's bad temper?": {
               "translation": "脾气",
               "pos": "n."
             }
@@ -95225,6 +95533,10 @@
             "He was going to stay with his Aunt Daisy till she came back, and his father would stay on at home by himself.": {
               "translation": "父亲",
               "pos": "n."
+            },
+            "his father": {
+              "translation": "父亲",
+              "pos": "n."
             }
           }
         },
@@ -95275,7 +95587,11 @@
           "meanings": "可能的；合理的；能做到的；潜在的",
           "contexts": {
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
-              "translation": "可能的",
+              "translation": "能够做到的",
+              "pos": "adj."
+            },
+            "He behaved himself as well as possible.": {
+              "translation": "能够做到的",
               "pos": "adj."
             }
           }
@@ -95317,13 +95633,21 @@
         "tried": {
           "lemma": "try",
           "translation": "尝试",
-          "pos": "verb",
+          "pos": "v.",
           "forms": "tries, tried, trying",
           "meanings": "尝试；努力；试验；审判",
           "contexts": {
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
-              "translation": "试图",
-              "pos": "verb"
+              "translation": "尝试",
+              "pos": "v."
+            },
+            "he tried to imagine himself in her place.": {
+              "translation": "尝试",
+              "pos": "v."
+            },
+            "He tried not to notice it.": {
+              "translation": "努力",
+              "pos": "v."
             }
           }
         },
@@ -95369,19 +95693,23 @@
         "toothache": {
           "lemma": "toothache",
           "translation": "牙痛",
-          "pos": "noun",
+          "pos": "n.",
           "forms": "toothaches",
           "meanings": "牙痛；牙疼",
           "contexts": {
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
               "translation": "牙痛",
-              "pos": "noun"
+              "pos": "n."
+            },
+            "He pretended that he had toothache.": {
+              "translation": "牙痛",
+              "pos": "n."
             }
           }
         },
         "how": {
           "lemma": "how",
-          "translation": "多么",
+          "translation": "如何",
           "pos": "adv.",
           "forms": "无常见变形",
           "meanings": "如何；多少；多么；状况",
@@ -95389,39 +95717,55 @@
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
               "translation": "多么",
               "pos": "adv."
+            },
+            "how did John react to his mother's bad temper?": {
+              "translation": "如何",
+              "pos": "adv."
             }
           }
         },
         "bad": {
           "lemma": "bad",
-          "translation": "坏的",
+          "translation": "脾气坏的",
           "pos": "adj.",
           "forms": "worse, worst",
-          "meanings": "坏的；糟糕的；严重的；有害的",
+          "meanings": "坏的；糟糕的；严重的；有害的；脾气坏的",
           "contexts": {
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
-              "translation": "坏的",
+              "translation": "脾气坏的",
               "pos": "adj."
             },
             "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.": {
-              "translation": "坏的",
+              "translation": "脾气坏的",
+              "pos": "adj."
+            },
+            "how did John react to his mother's bad temper?": {
+              "translation": "脾气坏的",
+              "pos": "adj."
+            },
+            "John regarded   _  as most bad-tempered.": {
+              "translation": "脾气坏的",
               "pos": "adj."
             }
           }
         },
         "tempered": {
           "lemma": "tempered",
-          "translation": "脾气的",
+          "translation": "有…脾气的",
           "pos": "adj.",
           "forms": "无常见变形",
-          "meanings": "脾气的；有…性情的",
+          "meanings": "脾气的；有…性情的；经过调节的；冷静的",
           "contexts": {
             "John, as ready as possible to make allowances, tried to think what it would be like to have toothache all the time and how bad-tempered that would make you.": {
-              "translation": "脾气的",
+              "translation": "有坏脾气的",
               "pos": "adj."
             },
             "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.": {
-              "translation": "脾气的",
+              "translation": "有坏脾气的",
+              "pos": "adj."
+            },
+            "John regarded   _  as most bad-tempered.": {
+              "translation": "有坏脾气的",
               "pos": "adj."
             }
           }
@@ -95454,13 +95798,17 @@
         },
         "few": {
           "lemma": "few",
-          "translation": "少数",
+          "translation": "几天",
           "pos": "adj.",
           "forms": "fewer, fewest",
-          "meanings": "少数；不多；一些；很少",
+          "meanings": "少数；不多；一些；很少；几个",
           "contexts": {
             "So his mother would go into hospital for a few days.": {
-              "translation": "少数",
+              "translation": "几天",
+              "pos": "adj."
+            },
+            "He advised her to wait for a few weeks.": {
+              "translation": "几周",
               "pos": "adj."
             }
           }
@@ -95493,34 +95841,42 @@
         },
         "aunt": {
           "lemma": "aunt",
-          "translation": "姨妈",
+          "translation": "姑妈",
           "pos": "n.",
           "forms": "aunts",
-          "meanings": "姨妈；姑妈；伯母；婶婶",
+          "meanings": "姨妈；姑妈；伯母；婶婶；阿姨",
           "contexts": {
             "He was going to stay with his Aunt Daisy till she came back, and his father would stay on at home by himself.": {
-              "translation": "姨妈",
+              "translation": "姑妈",
               "pos": "n."
             },
             "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.": {
-              "translation": "姨妈",
+              "translation": "姑妈",
+              "pos": "n."
+            },
+            "his aunt Daisy": {
+              "translation": "姑妈",
               "pos": "n."
             }
           }
         },
         "daisy": {
           "lemma": "daisy",
-          "translation": "黛西",
+          "translation": "黛西（人名）",
           "pos": "n.",
           "forms": "daisies",
-          "meanings": "黛西（人名）；雏菊",
+          "meanings": "黛西（人名）；雏菊；杰出的人或物",
           "contexts": {
             "He was going to stay with his Aunt Daisy till she came back, and his father would stay on at home by himself.": {
-              "translation": "黛西",
+              "translation": "黛西（人名）",
               "pos": "n."
             },
             "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.": {
-              "translation": "黛西",
+              "translation": "黛西（人名）",
+              "pos": "n."
+            },
+            "his aunt Daisy": {
+              "translation": "黛西（人名）",
               "pos": "n."
             }
           }
@@ -95618,12 +95974,16 @@
         },
         "cousin": {
           "lemma": "cousin",
-          "translation": "堂表兄弟姐妹",
+          "translation": "表姐妹",
           "pos": "n.",
           "forms": "cousins",
-          "meanings": "堂兄弟；表姐妹；堂兄；表弟",
+          "meanings": "堂兄弟；表姐妹；堂兄；表弟；亲戚",
           "contexts": {
             "John's cousin, Mona, was to come in and make the bed and wash the pots and dust round now and again.": {
+              "translation": "表姐妹",
+              "pos": "n."
+            },
+            "his cousin Mona": {
               "translation": "表姐妹",
               "pos": "n."
             }
@@ -95631,13 +95991,17 @@
         },
         "mona": {
           "lemma": "mona",
-          "translation": "莫娜（人名）",
+          "translation": "莫娜（女性名字）",
           "pos": "n.",
           "forms": "无常见变形",
-          "meanings": "莫娜（女性名字）",
+          "meanings": "莫娜（女性名字）；蒙娜",
           "contexts": {
             "John's cousin, Mona, was to come in and make the bed and wash the pots and dust round now and again.": {
-              "translation": "莫娜",
+              "translation": "莫娜（女性名字）",
+              "pos": "n."
+            },
+            "his cousin Mona": {
+              "translation": "莫娜（女性名字）",
               "pos": "n."
             }
           }
@@ -95912,6 +96276,416 @@
             "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.": {
               "translation": "比",
               "pos": "conj."
+            }
+          }
+        },
+        "mrs": {
+          "lemma": "mrs",
+          "translation": "太太",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "太太；夫人；女士",
+          "contexts": {
+            "Mrs Weston went to see her doctor  _  .": {
+              "translation": "韦斯顿太太",
+              "pos": "n."
+            },
+            "what did Mrs Weston's own doctor decide to do?": {
+              "translation": "韦斯顿太太",
+              "pos": "n."
+            }
+          }
+        },
+        "went": {
+          "lemma": "go",
+          "translation": "去",
+          "pos": "v.",
+          "forms": "went, gone, going, goes",
+          "meanings": "去；走；变得；进行；运行",
+          "contexts": {
+            "Mrs Weston went to see her doctor  _  .": {
+              "translation": "去",
+              "pos": "v."
+            }
+          }
+        },
+        "realized": {
+          "lemma": "realize",
+          "translation": "意识到",
+          "pos": "v.",
+          "forms": "realizes, realized, realizing",
+          "meanings": "意识到；实现；了解；以……价格售出；认识到",
+          "contexts": {
+            "as soon as she realized that something was wrong": {
+              "translation": "意识到",
+              "pos": "v."
+            }
+          }
+        },
+        "something": {
+          "lemma": "something",
+          "translation": "某事",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "某事；某物；重要的人或事",
+          "contexts": {
+            "as soon as she realized that something was wrong": {
+              "translation": "某事",
+              "pos": "pron."
+            }
+          }
+        },
+        "only": {
+          "lemma": "only",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；只；才；唯一的",
+          "contexts": {
+            "only after her husband advised her to": {
+              "translation": "仅仅",
+              "pos": "adv."
+            }
+          }
+        },
+        "husband": {
+          "lemma": "husband",
+          "translation": "丈夫",
+          "pos": "n.",
+          "forms": "husbands",
+          "meanings": "丈夫",
+          "contexts": {
+            "only after her husband advised her to": {
+              "translation": "丈夫",
+              "pos": "n."
+            }
+          }
+        },
+        "advised": {
+          "lemma": "advise",
+          "translation": "建议",
+          "pos": "v.",
+          "forms": "advise, advises, advising, advised, adviser, advisor",
+          "meanings": "建议；劝告；通知；咨询；提醒",
+          "contexts": {
+            "only after her husband advised her to": {
+              "translation": "建议",
+              "pos": "v."
+            },
+            "He advised her to wait for a few weeks.": {
+              "translation": "劝告",
+              "pos": "v."
+            }
+          }
+        },
+        "long": {
+          "lemma": "long",
+          "translation": "漫长的",
+          "pos": "adj.",
+          "forms": "longer, longest",
+          "meanings": "漫长的；长期的；长度的；远久的",
+          "contexts": {
+            "a long time after the trouble began": {
+              "translation": "漫长的",
+              "pos": "adj."
+            }
+          }
+        },
+        "trouble": {
+          "lemma": "trouble",
+          "translation": "麻烦",
+          "pos": "n.",
+          "forms": "troubles, troubled, troubling",
+          "meanings": "麻烦；烦恼；问题；故障",
+          "contexts": {
+            "a long time after the trouble began": {
+              "translation": "麻烦",
+              "pos": "n."
+            }
+          }
+        },
+        "asked": {
+          "lemma": "ask",
+          "translation": "询问",
+          "pos": "v.",
+          "forms": "ask, asks, asked, asking",
+          "meanings": "请求；询问；要求；邀请；查问",
+          "contexts": {
+            "when John asked what was wrong with her": {
+              "translation": "询问",
+              "pos": "v."
+            }
+          }
+        },
+        "did": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "v.",
+          "forms": "do, does, did, done, doing",
+          "meanings": "做；进行；行动；强调谓语；（构成否定句的助动词）",
+          "contexts": {
+            "what did Mrs Weston's own doctor decide to do?": {
+              "translation": "做",
+              "pos": "v."
+            },
+            "how did John react to his mother's bad temper?": {
+              "translation": "做",
+              "pos": "v."
+            }
+          }
+        },
+        "weston's": {
+          "lemma": "weston",
+          "translation": "韦斯顿",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "人名；所有格形式",
+          "contexts": {
+            "what did Mrs Weston's own doctor decide to do?": {
+              "translation": "韦斯顿的",
+              "pos": "n."
+            }
+          }
+        },
+        "decide": {
+          "lemma": "decide",
+          "translation": "决定",
+          "pos": "v.",
+          "forms": "decide, decides, decided, deciding",
+          "meanings": "决定；选定；解决；裁决",
+          "contexts": {
+            "what did Mrs Weston's own doctor decide to do?": {
+              "translation": "决定",
+              "pos": "v."
+            }
+          }
+        },
+        "do": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "v.",
+          "forms": "did, done, doing, does",
+          "meanings": "做；干；进行；引起；起到……作用",
+          "contexts": {
+            "what did Mrs Weston's own doctor decide to do?": {
+              "translation": "做",
+              "pos": "v."
+            }
+          }
+        },
+        "decided": {
+          "lemma": "decide",
+          "translation": "决定",
+          "pos": "v.",
+          "forms": "decides, decided, deciding",
+          "meanings": "决定；选定；解决；判定",
+          "contexts": {
+            "he decided to send her to hospital": {
+              "translation": "决定",
+              "pos": "v."
+            },
+            "he decided to get an expert to examine her": {
+              "translation": "决定",
+              "pos": "v."
+            },
+            "He decided to treat her himself": {
+              "translation": "决定",
+              "pos": "v."
+            }
+          }
+        },
+        "send": {
+          "lemma": "send",
+          "translation": "送",
+          "pos": "v.",
+          "forms": "sends, sent, sending",
+          "meanings": "发送；寄送；派遣；打发",
+          "contexts": {
+            "he decided to send her to hospital": {
+              "translation": "送",
+              "pos": "v."
+            }
+          }
+        },
+        "get": {
+          "lemma": "get",
+          "translation": "请",
+          "pos": "v.",
+          "forms": "gets, got, gotten, getting",
+          "meanings": "获得；变得；到达；理解；使得",
+          "contexts": {
+            "he decided to get an expert to examine her": {
+              "translation": "请；让",
+              "pos": "v."
+            }
+          }
+        },
+        "examine": {
+          "lemma": "examine",
+          "translation": "检查",
+          "pos": "v.",
+          "forms": "examines, examined, examining",
+          "meanings": "检查；审查；考查；检验",
+          "contexts": {
+            "he decided to get an expert to examine her": {
+              "translation": "检查",
+              "pos": "v."
+            }
+          }
+        },
+        "wait": {
+          "lemma": "wait",
+          "translation": "等待",
+          "pos": "v.",
+          "forms": "waits, waited, waiting",
+          "meanings": "等待；等候；耽搁",
+          "contexts": {
+            "He advised her to wait for a few weeks.": {
+              "translation": "等待",
+              "pos": "v."
+            }
+          }
+        },
+        "react": {
+          "lemma": "react",
+          "translation": "反应",
+          "pos": "v.",
+          "forms": "reacts, reacted, reacting",
+          "meanings": "反应；做出反应；回应；起反应",
+          "contexts": {
+            "how did John react to his mother's bad temper?": {
+              "translation": "反应",
+              "pos": "v."
+            }
+          }
+        },
+        "mother's": {
+          "lemma": "mother",
+          "translation": "母亲的",
+          "pos": "n.",
+          "forms": "mothers",
+          "meanings": "母亲；妈妈；母体；根源",
+          "contexts": {
+            "how did John react to his mother's bad temper?": {
+              "translation": "母亲的",
+              "pos": "n."
+            }
+          }
+        },
+        "imagine": {
+          "lemma": "imagine",
+          "translation": "想象",
+          "pos": "v.",
+          "forms": "imagines, imagined, imagining",
+          "meanings": "想象；猜想；设想；以为",
+          "contexts": {
+            "he tried to imagine himself in her place.": {
+              "translation": "想象",
+              "pos": "v."
+            }
+          }
+        },
+        "place": {
+          "lemma": "place",
+          "translation": "位置",
+          "pos": "n.",
+          "forms": "places",
+          "meanings": "地方；场所；位置；职位；发生",
+          "contexts": {
+            "he tried to imagine himself in her place.": {
+              "translation": "位置",
+              "pos": "n."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是；绝非",
+          "contexts": {
+            "He tried not to notice it.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "notice": {
+          "lemma": "notice",
+          "translation": "注意到",
+          "pos": "v.",
+          "forms": "notices, noticing, noticed",
+          "meanings": "注意到；留意；通知；布告",
+          "contexts": {
+            "He tried not to notice it.": {
+              "translation": "注意到",
+              "pos": "v."
+            }
+          }
+        },
+        "pretended": {
+          "lemma": "pretend",
+          "translation": "假装",
+          "pos": "v.",
+          "forms": "pretends, pretending, pretended",
+          "meanings": "假装；装作；声称；冒充",
+          "contexts": {
+            "He pretended that he had toothache.": {
+              "translation": "假装",
+              "pos": "v."
+            }
+          }
+        },
+        "behaved": {
+          "lemma": "behave",
+          "translation": "表现",
+          "pos": "v.",
+          "forms": "behaves, behaving, behaved",
+          "meanings": "表现；行为；举止；表现得",
+          "contexts": {
+            "He behaved himself as well as possible.": {
+              "translation": "表现",
+              "pos": "v."
+            }
+          }
+        },
+        "regarded": {
+          "lemma": "regard",
+          "translation": "视为",
+          "pos": "v.",
+          "forms": "regards, regarding, regarded",
+          "meanings": "视为；认为；注视；关于",
+          "contexts": {
+            "John regarded   _  as most bad-tempered.": {
+              "translation": "视为",
+              "pos": "v."
+            }
+          }
+        },
+        "most": {
+          "lemma": "most",
+          "translation": "最",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大多数；最；极度；绝大部分",
+          "contexts": {
+            "John regarded   _  as most bad-tempered.": {
+              "translation": "最",
+              "pos": "adv."
+            }
+          }
+        },
+        "treat": {
+          "lemma": "treat",
+          "translation": "对待",
+          "pos": "verb",
+          "forms": "treats, treated, treating",
+          "meanings": "对待；款待；治疗；把...视为",
+          "contexts": {
+            "He decided to treat her himself": {
+              "translation": "对待",
+              "pos": "verb"
             }
           }
         }
