@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T13:10:55.222Z",
+      "generatedAt": "2026-08-22T13:11:32.607Z",
       "requestedArticles": 40,
-      "acceptedArticles": 35,
+      "acceptedArticles": 36,
       "completed": false,
       "usage": {
-        "requests": 298,
-        "inputTokens": 600972,
-        "outputTokens": 346115,
-        "totalTokens": 947087,
+        "requests": 306,
+        "inputTokens": 616635,
+        "outputTokens": 354785,
+        "totalTokens": 971420,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.06528332,
+        "estimatedCostCny": 0.06693568,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 298,
-            "inputTokens": 600972,
-            "outputTokens": 346115,
-            "totalTokens": 947087,
+            "requests": 306,
+            "inputTokens": 616635,
+            "outputTokens": 354785,
+            "totalTokens": 971420,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.06528332
+            "estimatedCostCny": 0.06693568
           }
         }
       },
@@ -2667,6 +2667,25 @@
               "totalTokens": 26447,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00180698
+            }
+          }
+        },
+        {
+          "articleId": "web-e5460a9523607192",
+          "title": "RACE 高中英语阅读 high11571",
+          "requests": 8,
+          "inputTokens": 15663,
+          "outputTokens": 8670,
+          "totalTokens": 24333,
+          "estimatedCostCny": 0.00165236,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 8,
+              "inputTokens": 15663,
+              "outputTokens": 8670,
+              "totalTokens": 24333,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00165236
             }
           }
         }
