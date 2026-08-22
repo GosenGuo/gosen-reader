@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T12:46:56.182Z",
+      "generatedAt": "2026-08-22T12:47:26.179Z",
       "requestedArticles": 40,
-      "acceptedArticles": 1,
+      "acceptedArticles": 2,
       "completed": false,
       "usage": {
-        "requests": 11,
-        "inputTokens": 23941,
-        "outputTokens": 12615,
-        "totalTokens": 36556,
+        "requests": 17,
+        "inputTokens": 38271,
+        "outputTokens": 20496,
+        "totalTokens": 58767,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.00243645,
+        "estimatedCostCny": 0.00394103,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 11,
-            "inputTokens": 23941,
-            "outputTokens": 12615,
-            "totalTokens": 36556,
+            "requests": 17,
+            "inputTokens": 38271,
+            "outputTokens": 20496,
+            "totalTokens": 58767,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.00243645
+            "estimatedCostCny": 0.00394103
           }
         }
       },
@@ -2021,6 +2021,25 @@
               "totalTokens": 36556,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00243645
+            }
+          }
+        },
+        {
+          "articleId": "web-cda4f9a292f21a6c",
+          "title": "RACE 高中英语阅读 high6999",
+          "requests": 6,
+          "inputTokens": 14330,
+          "outputTokens": 7881,
+          "totalTokens": 22211,
+          "estimatedCostCny": 0.00150458,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 6,
+              "inputTokens": 14330,
+              "outputTokens": 7881,
+              "totalTokens": 22211,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00150458
             }
           }
         }
