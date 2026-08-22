@@ -12,11 +12,14 @@ import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.SpannableString;
+import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
+import android.text.style.LeadingMarginSpan;
 import android.view.Gravity;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -493,7 +496,7 @@ public class MainActivity extends Activity {
         LinearLayout page = page();
         scroll.addView(page);
         page.addView(label("生词复习", 28, INK, true));
-        page.addView(label("每天最多 12 个；系统会根据“忘记、模糊、记得”动态安排。",
+        page.addView(label("点按卡片翻面；左滑表示认识并移除，右滑表示保留。每天最多 12 个。",
                 14, MUTED, false));
         page.addView(space(10));
         Button manageVocabulary = secondaryButton("管理全部生词与释义");
@@ -525,88 +528,133 @@ public class MainActivity extends Activity {
         String contextMeaning = reviewContext.optString("meaning", item.optString("translation"));
         String contextTranslation = reviewContext.optString(
                 "translation", item.optString("sentenceTranslation"));
-        String masked = sentence.replaceAll("(?i)\\b" + Pattern.quote(displayWord) + "\\b", "______");
-        if (masked.equals(sentence)) {
-            masked = sentence.replaceAll("(?i)\\b" + Pattern.quote(lemma) + "\\b", "______");
+
+        FrameLayout flashcard = new FrameLayout(this);
+        flashcard.setMinimumHeight(dp(360));
+        flashcard.setPadding(dp(24), dp(28), dp(24), dp(28));
+        flashcard.setBackground(rounded(SURFACE, 22));
+        flashcard.setElevation(dp(3));
+
+        LinearLayout front = new LinearLayout(this);
+        front.setGravity(Gravity.CENTER);
+        TextView frontWord = label(displayWord, 38, INK, true);
+        frontWord.setGravity(Gravity.CENTER);
+        front.addView(frontWord);
+
+        LinearLayout back = new LinearLayout(this);
+        back.setOrientation(LinearLayout.VERTICAL);
+        back.setGravity(Gravity.CENTER_VERTICAL);
+        back.setVisibility(View.GONE);
+        TextView backWord = label(displayWord + "  ·  " + item.optString("pos", "—"),
+                25, INK, true);
+        backWord.setGravity(Gravity.CENTER);
+        back.addView(backWord);
+        TextView backMeaning = label(contextMeaning, 26, GREEN, true);
+        backMeaning.setGravity(Gravity.CENTER);
+        back.addView(backMeaning);
+        back.addView(space(14));
+        back.addView(label("词形：" + item.optString("forms", "—"), 14, MUTED, false));
+        back.addView(space(10));
+        back.addView(label(sentence, 16, INK, false));
+        if (!contextTranslation.isEmpty()) {
+            back.addView(space(5));
+            back.addView(label(contextTranslation, 15, MUTED, false));
         }
+        back.addView(space(12));
+        back.addView(label(learningStore.statusLabel(item) + " · 已点击 "
+                + item.optInt("clickCount") + " 次 · "
+                + item.optInt("contextCount", 1) + " 个语境", 13, MUTED, false));
 
-        LinearLayout box = card(SURFACE);
-        box.addView(label("先回忆这个词在句中的含义", 14, MUTED, true));
-        box.addView(space(10));
-        box.addView(label(masked, 19, INK, false));
-        box.addView(space(14));
-        Button reveal = primaryButton("显示答案");
-        box.addView(reveal);
-
-        LinearLayout answer = new LinearLayout(this);
-        answer.setOrientation(LinearLayout.VERTICAL);
-        answer.setVisibility(View.GONE);
-        answer.setPadding(0, dp(16), 0, 0);
-        answer.addView(label(displayWord + "  ·  " + item.optString("pos", "—"),
-                22, INK, true));
-        answer.addView(label(contextMeaning, 23, GREEN, true));
-        answer.addView(label(learningStore.statusLabel(item) + "  ·  已在 "
-                + item.optInt("contextCount", 1) + " 个语境中遇见",
-                13, MUTED, true));
-        answer.addView(space(8));
-        answer.addView(label(sentence, 15, INK, false));
-        answer.addView(label(contextTranslation, 15, MUTED, false));
-        answer.addView(space(10));
-        answer.addView(label("词形：" + item.optString("forms", "—"), 14, MUTED, false));
-        answer.addView(label("已点击 " + item.optInt("clickCount") + " 次", 13, MUTED, false));
-        answer.addView(space(16));
-
-        LinearLayout actions = new LinearLayout(this);
-        actions.setOrientation(LinearLayout.HORIZONTAL);
-        Button forgot = secondaryButton("没想起来");
-        Button vague = secondaryButton("有点模糊");
-        Button remembered = primaryButton("完全记得");
-        forgot.setTextSize(12);
-        vague.setTextSize(12);
-        remembered.setTextSize(12);
-        actions.addView(forgot, new LinearLayout.LayoutParams(0,
-                ViewGroup.LayoutParams.WRAP_CONTENT, 1));
-        LinearLayout.LayoutParams vagueParams = new LinearLayout.LayoutParams(0,
-                ViewGroup.LayoutParams.WRAP_CONTENT, 1);
-        vagueParams.leftMargin = dp(6);
-        actions.addView(vague, vagueParams);
-        LinearLayout.LayoutParams rememberedParams = new LinearLayout.LayoutParams(0,
-                ViewGroup.LayoutParams.WRAP_CONTENT, 1);
-        rememberedParams.leftMargin = dp(6);
-        actions.addView(remembered, rememberedParams);
-        answer.addView(actions);
-        answer.addView(space(10));
-        Button remove = secondaryButton("这个词我已认识 · 移出生词本");
-        remove.setOnClickListener(view -> {
+        flashcard.addView(front, new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+        flashcard.addView(back, new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+        installFlashcardGestures(flashcard, front, back, () -> {
             learningStore.removeWord(senseKey);
-            Toast.makeText(this, "已移出生词本；以后再次查询仍可重新加入",
-                    Toast.LENGTH_SHORT).show();
-            showReview();
-        });
-        answer.addView(remove);
-        box.addView(answer);
-
-        reveal.setOnClickListener(view -> {
-            reveal.setVisibility(View.GONE);
-            answer.setVisibility(View.VISIBLE);
-        });
-        forgot.setOnClickListener(view -> {
-            learningStore.answer(senseKey, LearningStore.FORGOT);
             recordReviewToday();
+            Toast.makeText(this, "已认识，已移出生词库", Toast.LENGTH_SHORT).show();
             showReview();
-        });
-        vague.setOnClickListener(view -> {
+        }, () -> {
             learningStore.answer(senseKey, LearningStore.VAGUE);
             recordReviewToday();
+            Toast.makeText(this, "已保留，之后继续复习", Toast.LENGTH_SHORT).show();
             showReview();
         });
-        remembered.setOnClickListener(view -> {
-            learningStore.answer(senseKey, LearningStore.REMEMBERED);
-            recordReviewToday();
-            showReview();
-        });
-        page.addView(box);
+        page.addView(flashcard, new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, dp(360)));
+        page.addView(space(12));
+        LinearLayout swipeGuide = new LinearLayout(this);
+        swipeGuide.setGravity(Gravity.CENTER);
+        TextView leftGuide = label("← 认识，移除", 14, GREEN, true);
+        leftGuide.setGravity(Gravity.START);
+        TextView rightGuide = label("保留，继续复习 →", 14, GOLD, true);
+        rightGuide.setGravity(Gravity.END);
+        swipeGuide.addView(leftGuide, new LinearLayout.LayoutParams(0,
+                ViewGroup.LayoutParams.WRAP_CONTENT, 1));
+        swipeGuide.addView(rightGuide, new LinearLayout.LayoutParams(0,
+                ViewGroup.LayoutParams.WRAP_CONTENT, 1));
+        page.addView(swipeGuide);
         setScreen(scroll, true);
+    }
+
+    private void installFlashcardGestures(View card, View front, View back,
+                                          Runnable onSwipeLeft, Runnable onSwipeRight) {
+        final float[] downX = {0f};
+        final float[] downY = {0f};
+        final boolean[] horizontal = {false};
+        final boolean[] showingBack = {false};
+        card.setOnTouchListener((view, event) -> {
+            float deltaX = event.getRawX() - downX[0];
+            float deltaY = event.getRawY() - downY[0];
+            if (event.getActionMasked() == MotionEvent.ACTION_DOWN) {
+                downX[0] = event.getRawX();
+                downY[0] = event.getRawY();
+                horizontal[0] = false;
+                return true;
+            }
+            if (event.getActionMasked() == MotionEvent.ACTION_MOVE) {
+                if (!horizontal[0] && Math.abs(deltaX) > dp(10)
+                        && Math.abs(deltaX) > Math.abs(deltaY)) {
+                    horizontal[0] = true;
+                    view.getParent().requestDisallowInterceptTouchEvent(true);
+                }
+                if (horizontal[0]) {
+                    view.setTranslationX(deltaX);
+                    view.setRotation(deltaX / Math.max(1f, view.getWidth()) * 8f);
+                    view.setAlpha(Math.max(0.55f,
+                            1f - Math.abs(deltaX) / Math.max(1f, view.getWidth())));
+                }
+                return true;
+            }
+            if (event.getActionMasked() == MotionEvent.ACTION_UP) {
+                if (horizontal[0] && Math.abs(deltaX) >= dp(90)) {
+                    boolean left = deltaX < 0;
+                    float target = left ? -Math.max(view.getWidth(), dp(420))
+                            : Math.max(view.getWidth(), dp(420));
+                    view.animate().translationX(target).rotation(left ? -10f : 10f)
+                            .alpha(0f).setDuration(180)
+                            .withEndAction(left ? onSwipeLeft : onSwipeRight).start();
+                } else {
+                    view.animate().translationX(0f).rotation(0f).alpha(1f)
+                            .setDuration(140).start();
+                    if (!horizontal[0] && Math.abs(deltaX) < dp(10)
+                            && Math.abs(deltaY) < dp(10)) {
+                        showingBack[0] = !showingBack[0];
+                        front.setVisibility(showingBack[0] ? View.GONE : View.VISIBLE);
+                        back.setVisibility(showingBack[0] ? View.VISIBLE : View.GONE);
+                    }
+                }
+                view.getParent().requestDisallowInterceptTouchEvent(false);
+                return true;
+            }
+            if (event.getActionMasked() == MotionEvent.ACTION_CANCEL) {
+                view.animate().translationX(0f).rotation(0f).alpha(1f)
+                        .setDuration(140).start();
+                view.getParent().requestDisallowInterceptTouchEvent(false);
+                return true;
+            }
+            return false;
+        });
     }
 
     private void showVocabularyManager() {
@@ -912,12 +960,30 @@ public class MainActivity extends Activity {
 
     private SpannableString makeClickableArticle(JSONObject article) {
         String body = article.optString("body");
-        SpannableString text = new SpannableString(body);
-        Matcher matcher = WORD_PATTERN.matcher(body);
+        SpannableString text = makeClickableText(article, body, null);
+        int paragraphStart = 0;
+        while (paragraphStart < body.length()) {
+            int newline = body.indexOf('\n', paragraphStart);
+            int paragraphEnd = newline >= 0 ? newline : body.length();
+            if (!body.substring(paragraphStart, paragraphEnd).trim().isEmpty()) {
+                text.setSpan(new LeadingMarginSpan.Standard(dp(38), 0),
+                        paragraphStart, paragraphEnd, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            }
+            if (newline < 0) break;
+            paragraphStart = newline + 1;
+        }
+        return text;
+    }
+
+    private SpannableString makeClickableText(JSONObject article, String value,
+                                              String fixedContext) {
+        SpannableString text = new SpannableString(value);
+        Matcher matcher = WORD_PATTERN.matcher(value);
         while (matcher.find()) {
             final String word = matcher.group();
             final int wordStart = matcher.start();
-            final String sentence = findSentence(body, wordStart);
+            final String sentence = fixedContext == null
+                    ? findSentence(value, wordStart) : fixedContext;
             text.setSpan(new ClickableSpan() {
                 @Override
                 public void onClick(View widget) {
@@ -1171,15 +1237,23 @@ public class MainActivity extends Activity {
         page.addView(backRow("返回文章", () -> showReader(article)));
         page.addView(space(12));
         page.addView(label("完成题目", 28, INK, true));
-        page.addView(label("提交后即可完成今日打卡，正确率不影响打卡。", 14, MUTED, false));
+        page.addView(label("题目和选项里的英文单词也可以直接点击查词。提交后即可完成今日打卡。",
+                14, MUTED, false));
         page.addView(space(18));
 
         ArrayList<RadioGroup> groups = new ArrayList<>();
         for (int i = 0; i < questions.length(); i++) {
             JSONObject question = questions.optJSONObject(i);
             LinearLayout box = card(SURFACE);
-            box.addView(label((i + 1) + ". " + question.optString("prompt"),
-                    17, INK, true));
+            SpannableStringBuilder prompt = new SpannableStringBuilder()
+                    .append((i + 1) + ". ")
+                    .append(makeClickableText(article, question.optString("prompt"),
+                            question.optString("prompt")));
+            TextView promptView = label("", 17, INK, true);
+            promptView.setText(prompt);
+            promptView.setMovementMethod(LinkMovementMethod.getInstance());
+            promptView.setHighlightColor(Color.TRANSPARENT);
+            box.addView(promptView);
             box.addView(space(10));
             RadioGroup group = new RadioGroup(this);
             JSONArray options = question.optJSONArray("options");
@@ -1187,11 +1261,15 @@ public class MainActivity extends Activity {
                 RadioButton option = new RadioButton(this);
                 option.setId(View.generateViewId());
                 option.setTag(j);
-                option.setText(String.format(Locale.US, "%c. %s",
-                        (char) ('A' + j), options.optString(j)));
+                String optionText = options.optString(j);
+                option.setText(new SpannableStringBuilder()
+                        .append(String.format(Locale.US, "%c. ", (char) ('A' + j)))
+                        .append(makeClickableText(article, optionText, optionText)));
                 option.setTextSize(15);
                 option.setTextColor(INK);
                 option.setPadding(0, dp(6), 0, dp(6));
+                option.setHighlightColor(Color.TRANSPARENT);
+                option.setMovementMethod(LinkMovementMethod.getInstance());
                 group.addView(option);
             }
             box.addView(group);
