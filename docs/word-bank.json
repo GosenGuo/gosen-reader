@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T13:01:48.952Z",
+  "generatedAt": "2026-08-22T13:02:22.329Z",
   "words": {
     "on": {
       "lemma": "on",
@@ -8,18 +8,6 @@
       "forms": "无常见变形",
       "meanings": "关于；在……之上；在（某一天）；继续；在（时间）",
       "senses": [
-        {
-          "translation": "在……上",
-          "pos": "prep.",
-          "example": "Peng Liyuan ranks 9th on the 2013 annual \"most powerful women list\".",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
-          "translation": "关于",
-          "pos": "prep.",
-          "example": "When Bob was in his glory days, our Shanghainese-born parents were bent on getting him into medical school.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
         {
           "translation": "在……之上",
           "pos": "prep.",
@@ -79,6 +67,18 @@
           "pos": "prep.",
           "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "对……的影响",
+          "pos": "prep.",
+          "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "对",
+          "pos": "prep.",
+          "example": "tea and hot chocolate have no effect on men's depression",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -121,7 +121,7 @@
         "web-83aed36829bb66d0"
       ],
       "articleCount": 37,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "web": {
       "lemma": "web",
@@ -261,66 +261,6 @@
       "meanings": "这；那；（用于特指）；（用于最高级前）",
       "senses": [
         {
-          "translation": "这；那",
-          "pos": "art.",
-          "example": "it is better if the website domain name is related to the products you sell.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "（定冠词，表示特指）",
-          "pos": "art.",
-          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "（定冠词，表示特指）",
-          "pos": "art.",
-          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "（定冠词，表示特指）",
-          "pos": "art.",
-          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "（定冠词，表示特指）",
-          "pos": "art.",
-          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "（定冠词，表示特指）",
-          "pos": "art.",
-          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "（定冠词，表示特指）",
-          "pos": "art.",
-          "example": "Throughout the course children will learn songs, read stories and write short stories and poems.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "（定冠词，表示特指）",
-          "pos": "art.",
-          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "（定冠词，表示特指）",
-          "pos": "art.",
-          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "（定冠词，表示特指）",
-          "pos": "art.",
-          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
           "translation": "（定冠词，表示特指）",
           "pos": "art.",
           "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
@@ -331,6 +271,66 @@
           "pos": "art.",
           "example": "Which of the following is TRUE about the courses?",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "该",
+          "pos": "art.",
+          "example": "Drinking two or three cups reduces the risk by 15 percent.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "该",
+          "pos": "art.",
+          "example": "This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "该",
+          "pos": "art.",
+          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "该",
+          "pos": "art.",
+          "example": "Some anti-depressants also work by blocking the adenosine receptors.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "该",
+          "pos": "art.",
+          "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "该",
+          "pos": "art.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "该",
+          "pos": "art.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "该",
+          "pos": "art.",
+          "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "该",
+          "pos": "art.",
+          "example": "We can infer from the text that  _  .",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "该",
+          "pos": "art.",
+          "example": "What can we learn about eggs from the text?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -376,7 +376,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "internet": {
       "lemma": "internet",
@@ -471,14 +471,8 @@
       "lemma": "people",
       "pos": "n.",
       "forms": "peoples",
-      "meanings": "人们；民族；人；国民",
+      "meanings": "人们；民族；人；国民；百姓",
       "senses": [
-        {
-          "translation": "人们",
-          "pos": "n.",
-          "example": "Last night's meteor   shower left many people in the community dissatisfied and demanding answers.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
         {
           "translation": "人们",
           "pos": "n.",
@@ -544,6 +538,12 @@
           "pos": "n.",
           "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "人们",
+          "pos": "n.",
+          "example": "too much caffeine will probably make people sleepy",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -565,10 +565,11 @@
         "web-c5114d8c96e4f03b",
         "web-6eef5352ebcffaba",
         "web-6f0dbb98f7323216",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 19,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "articleCount": 20,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "can": {
       "lemma": "can",
@@ -576,36 +577,6 @@
       "forms": "could",
       "meanings": "能够；可以；可能；罐头",
       "senses": [
-        {
-          "translation": "能",
-          "pos": "modal verb",
-          "example": "What can we know from the passage about the writer?",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "能",
-          "pos": "modal verb",
-          "example": "Which of the following can't be used to describe the writer's feelings for the man?",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal verb",
-          "example": "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal verb",
-          "example": "From the passage we can tell that Bob is   _  .",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "能够",
-          "pos": "modal verb",
-          "example": "What can we infer from the passage?",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
         {
           "translation": "能够",
           "pos": "modal verb",
@@ -647,6 +618,36 @@
           "pos": "modal verb",
           "example": "Students can have free lunch at school.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal verb",
+          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal verb",
+          "example": "*How many eggs can we healthily eat: one a day or two a day?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal verb",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal verb",
+          "example": "We can infer from the text that  _  .",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal verb",
+          "example": "What can we learn about eggs from the text?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -679,7 +680,7 @@
         "web-4a99bc1fb2af7921"
       ],
       "articleCount": 27,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "access": {
       "lemma": "access",
@@ -748,42 +749,6 @@
         {
           "translation": "一个",
           "pos": "art.",
-          "example": "it costs no money to start a business online",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "not everyone is allowed  to start a business online",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks,  RMB 11,500/3weeks,  RMB 14,000/4weeks\nLiterature Study (12--14 year olds)\nClass size: 6--10 students\nCourse summary: Children will practice the skills required for the GCSE English Literature exam through analyzing a novel.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "The novel is \"Holes\" by Louis Sachar, a best-seller across the world.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
           "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
         },
@@ -816,6 +781,42 @@
           "pos": "art.",
           "example": "Students will learn seven days a week.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "每一",
+          "pos": "art.",
+          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "*How many eggs can we healthily eat: one a day or two a day?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "三个",
+          "pos": "art.",
+          "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "三个",
+          "pos": "art.",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -861,7 +862,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "variety": {
       "lemma": "variety",
@@ -911,36 +912,6 @@
         {
           "translation": "……的",
           "pos": "prep.",
-          "example": "The children decided that he must be so frightened of losing her that he never allowed her outside the door.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "At church our pastor mentioned perspective in a section of his sermon  .",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
           "example": "Your merchant account should accept as many forms of payment as possible.",
           "sourceArticleId": "web-7504f64bec4e74a7"
         },
@@ -979,6 +950,36 @@
           "pos": "prep.",
           "example": "Which of the following is TRUE about the courses?",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "……的",
+          "pos": "prep.",
+          "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -1024,7 +1025,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "information": {
       "lemma": "information",
@@ -1125,12 +1126,6 @@
         {
           "translation": "关于",
           "pos": "prep.",
-          "example": "What do the astronomers complain about?",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "关于",
-          "pos": "prep.",
           "example": "reading a book about United Nations",
           "sourceArticleId": "web-9164814709a91049"
         },
@@ -1193,6 +1188,12 @@
           "pos": "prep.",
           "example": "Which of the following is TRUE about the courses?",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "关于",
+          "pos": "prep.",
+          "example": "What can we learn about eggs from the text?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -1221,41 +1222,18 @@
         "web-cda4f9a292f21a6c",
         "web-91480225d160a6b6",
         "web-eecaaca1e069e103",
-        "web-9164814709a91049"
+        "web-9164814709a91049",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 26,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "articleCount": 27,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "you": {
       "lemma": "you",
       "pos": "pron.",
       "forms": "your; yours; yourself",
-      "meanings": "你；你们；人们（泛指）",
+      "meanings": "你；你们；人们（泛指）；本人",
       "senses": [
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "Once you have your business ready to go, you need to go ahead and get a website.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "After this you can go ahead and get your site built up.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
         {
           "translation": "你",
           "pos": "pron.",
@@ -1303,6 +1281,30 @@
           "pos": "pron.",
           "example": "it is better if the website domain name is related to the products you sell.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "One egg daily and you'll get more cholesterol than recommended.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -1329,7 +1331,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 21,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "it's": {
       "lemma": "it is",
@@ -1397,30 +1399,6 @@
       "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
       "senses": [
         {
-          "translation": "住在",
-          "pos": "prep.",
-          "example": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "在……方面",
-          "pos": "prep.",
-          "example": "My dream in life is to become a doctor, one who changes the world.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "At church our pastor mentioned perspective in a section of his sermon  .",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "在……中",
-          "pos": "prep.",
-          "example": "His sermon ended up saying \"In everything we give thanks.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
           "translation": "在……时",
           "pos": "prep.",
           "example": "\" It is easy to give thanks when we feel successful in life.",
@@ -1467,6 +1445,30 @@
           "pos": "prep.",
           "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "在……期间",
+          "pos": "prep.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -1512,7 +1514,7 @@
         "web-a0a23c816fc997da"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "your": {
       "lemma": "your",
@@ -1520,18 +1522,6 @@
       "forms": "yours",
       "meanings": "你的；你们的",
       "senses": [
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Never complain about your life.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "The upper floor is a quiet zone with over a thousand places for silent reading, and places where you can sit and work with your own computer.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
         {
           "translation": "你的",
           "pos": "pron.",
@@ -1591,6 +1581,18 @@
           "pos": "pron.",
           "example": "Making your site as special as possible",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -1609,7 +1611,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 13,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "interest": {
       "lemma": "interest",
@@ -1666,52 +1668,10 @@
     },
     "to": {
       "lemma": "to",
-      "pos": "prep.",
+      "pos": "particle",
       "forms": "无常见变形",
-      "meanings": "向；给；到；构成不定式；对于",
+      "meanings": "构成不定式；向；给；到；对于",
       "senses": [
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "it costs no money to start a business online",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "not everyone is allowed  to start a business online",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "you need to have as many merchant accounts as possible",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "particle",
-          "example": "it is better if the website domain name is related to the products you sell.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "向；给",
-          "pos": "prep.",
-          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "构成不定式",
-          "pos": "prep.",
-          "example": "This course will develop children's writing skills and their ability to answer questions.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "向；到",
-          "pos": "prep.",
-          "example": "Price: RMB 4,500/week,  RMB 8,000/2 weeks\nDates: June 28--July 2,  July 5--July 9,  July 12--July 16,  July 19--July 23,\nJuly 26--July 30,  August 2--August 6\nTime: 9:00 am to 4:00 pm, Monday to Friday\nTeaching: Classes are taught by experienced native English speaking teachers with a Chinese teaching assistant.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
         {
           "translation": "给",
           "pos": "prep.",
@@ -1741,6 +1701,48 @@
           "pos": "prep.",
           "example": "They will be offered from June to July.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "What is considered to fight depression best?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "构成不定式",
+          "pos": "particle",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -1786,7 +1788,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "be": {
       "lemma": "be",
@@ -1794,12 +1796,6 @@
       "forms": "am, is, are, was, were, being, been",
       "meanings": "是；位于；成为；（构成进行时或被动语态）",
       "senses": [
-        {
-          "translation": "成为",
-          "pos": "v.",
-          "example": "The author still wants to be a doctor.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -1865,6 +1861,12 @@
           "pos": "v.",
           "example": "School fees should be paid before 18 June.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -1905,7 +1907,7 @@
         "web-09421cfd6a2c44ad"
       ],
       "articleCount": 35,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "aware": {
       "lemma": "aware",
@@ -2091,24 +2093,6 @@
       "meanings": "和；而且；然后；接着",
       "senses": [
         {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "You will need to buy a domain name   and host  it with a company on the Web.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "并且",
-          "pos": "conj.",
-          "example": "Your domain name should be as simple as possible and it should be related to(.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "然后",
-          "pos": "conj.",
-          "example": "After this you can go ahead and get your site built up.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
           "translation": "并且",
           "pos": "conj.",
           "example": "For this, you need to have a merchant account  that will let you sell things and make money.",
@@ -2161,6 +2145,24 @@
           "pos": "conj",
           "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "而且",
+          "pos": "conj.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "tea and hot chocolate have no effect on men's depression",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "One egg daily and you'll get more cholesterol than recommended.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -2206,7 +2208,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "take": {
       "lemma": "take",
@@ -2370,20 +2372,8 @@
       "lemma": "make",
       "pos": "v.",
       "forms": "made, making, makes",
-      "meanings": "使；制作；制造；构成；制定；赚取",
+      "meanings": "使；制作；制造；构成；制定",
       "senses": [
-        {
-          "translation": "使……成为",
-          "pos": "v.",
-          "example": "It's in your interest to be aware of your online reputation and to take the necessary actions to make it what you want it to be.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "确保",
-          "pos": "v.",
-          "example": "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
         {
           "translation": "使",
           "pos": "v.",
@@ -2443,6 +2433,18 @@
           "pos": "v.",
           "example": "how to make some pocket money",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "使",
+          "pos": "v.",
+          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "使",
+          "pos": "v.",
+          "example": "too much caffeine will probably make people sleepy",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -2465,7 +2467,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 17,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "it": {
       "lemma": "it",
@@ -2586,24 +2588,6 @@
       "meanings": "什么；……的事物；多么；究竟是什么",
       "senses": [
         {
-          "translation": "什么",
-          "pos": "pronoun",
-          "example": "What is the main idea of the passage?",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
-          "translation": "什么",
-          "pos": "pron.",
-          "example": "What about our dreams, or our plans?",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "什么",
-          "pos": "pron.",
-          "example": "What do I do or say?",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
           "translation": "……的事物",
           "pos": "pron.",
           "example": "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.",
@@ -2656,6 +2640,24 @@
           "pos": "pron.",
           "example": "What do we learn about \"Literature Study\"?",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "什么",
+          "pos": "pron.",
+          "example": "*What prevents depression:tea,coffee or hot chocolate?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "什么",
+          "pos": "pron.",
+          "example": "What is considered to fight depression best?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "什么",
+          "pos": "pron.",
+          "example": "What can we learn about eggs from the text?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -2687,7 +2689,7 @@
         "web-4a99bc1fb2af7921"
       ],
       "articleCount": 26,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "want": {
       "lemma": "want",
@@ -2956,54 +2958,6 @@
         {
           "translation": "或者",
           "pos": "conj.",
-          "example": "Is it better to live with hope or without hope?",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "Or do newborns simply prefer more to fewer?",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "What about our dreams, or our plans?",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "What do I do or say?",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "Not that he ever spoke to them or played with them.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
           "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
           "sourceArticleId": "web-14515232ae2b45c0"
         },
@@ -3024,6 +2978,54 @@
           "pos": "conj.",
           "example": "You can either do this yourself or you can pay someone else to do this.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "*What prevents depression:tea,coffee or hot chocolate?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "或",
+          "pos": "conj.",
+          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "或",
+          "pos": "conj.",
+          "example": "Drinking two or three cups reduces the risk by 15 percent.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "还是",
+          "pos": "conj.",
+          "example": "*How many eggs can we healthily eat: one a day or two a day?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "或",
+          "pos": "conj.",
+          "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "coffee contains less caffeine than tea or hot chocolate",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "或",
+          "pos": "conj.",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -3052,7 +3054,7 @@
         "web-b08fa6a6e65a8840"
       ],
       "articleCount": 23,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "improving": {
       "lemma": "improve",
@@ -3079,42 +3081,6 @@
       "forms": "am, are, was, were, being, been",
       "meanings": "是；存在；等于；位于",
       "senses": [
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "\" It is easy to give thanks when we feel successful in life.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "It is easy to give thanks when we receive a blessing.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "The author thinks the second sermon is wiser.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "The very first step you need to complete is to have a product or service idea.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "The final step for starting your business online is to have a way to make money.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Once your site is up and running, you can begin advertising the site.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -3150,6 +3116,42 @@
           "pos": "v.",
           "example": "Which of the following is TRUE about the courses?",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "What is considered to fight depression best?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "one is depressed if his brain chemical adenosine is active",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -3192,7 +3194,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 37,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "find": {
       "lemma": "find",
@@ -3928,38 +3930,8 @@
       "lemma": "by",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "通过；被；凭借；在……旁边；逐……地",
+      "meanings": "通过；凭借；被；在……旁边；逐……地",
       "senses": [
-        {
-          "translation": "被",
-          "pos": "prep.",
-          "example": "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "被",
-          "pos": "prep.",
-          "example": "It hoped to be adopted by another family",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "凭借（某种方式/工具替换）",
-          "pos": "prep.",
-          "example": "A researcher removes the card and replaces it by another, this time with the spots differently spaced.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "被",
-          "pos": "prep.",
-          "example": "What they found instead was a sky so brightened by the city's lights that it darkened the light of the meteors passing overhead.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "逐……地",
-          "pos": "prep.",
-          "example": "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
         {
           "translation": "被",
           "pos": "prep.",
@@ -4001,6 +3973,36 @@
           "pos": "prep.",
           "example": "It will be taught by Louis Sachar.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "减少了15%",
+          "pos": "prep.",
+          "example": "Drinking two or three cups reduces the risk by 15 percent.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "通过减慢……",
+          "pos": "prep.",
+          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "通过阻断……",
+          "pos": "prep.",
+          "example": "Some anti-depressants also work by blocking the adenosine receptors.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "被医生（告知）",
+          "pos": "prep.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "由……（机构）所作的",
+          "pos": "prep.",
+          "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -4035,7 +4037,7 @@
         "web-b08fa6a6e65a8840"
       ],
       "articleCount": 29,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "typing": {
       "lemma": "type",
@@ -4685,20 +4687,8 @@
       "lemma": "be",
       "pos": "v.",
       "forms": "am, is, were, been, being",
-      "meanings": "有；是；在；等于；位于",
+      "meanings": "是；有；在；位于；成为",
       "senses": [
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "有",
-          "pos": "v.",
-          "example": "There are 9 Chinese including Chinese first lady--Peng Liyuan.",
-          "sourceArticleId": "web-9164814709a91049"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -4758,6 +4748,18 @@
           "pos": "v.",
           "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -4788,7 +4790,7 @@
         "web-a0a23c816fc997da"
       ],
       "articleCount": 25,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "mentioned": {
       "lemma": "mention",
@@ -5034,12 +5036,6 @@
         {
           "translation": "获得",
           "pos": "v.",
-          "example": "Even if you have no experience before, you can get valuable job skills in today's hottest fields!",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
-        {
-          "translation": "获得",
-          "pos": "v.",
           "example": "People can get a Specialized Associate Degree by   _  .",
           "sourceArticleId": "web-a41ebe4e54718747"
         },
@@ -5102,6 +5098,12 @@
           "pos": "v.",
           "example": "After this you can go ahead and get your site built up.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "获得",
+          "pos": "v.",
+          "example": "One egg daily and you'll get more cholesterol than recommended.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -5120,10 +5122,11 @@
         "web-c3ef658275687753",
         "web-cda4f9a292f21a6c",
         "web-f335b4849447798b",
-        "web-9164814709a91049"
+        "web-9164814709a91049",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 16,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "articleCount": 17,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "moreprecise": {
       "lemma": "precise",
@@ -5391,7 +5394,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 10,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "so": {
       "lemma": "so",
@@ -5507,30 +5510,6 @@
       "meanings": "引导从句；那个；那；因为",
       "senses": [
         {
-          "translation": "引导从句",
-          "pos": "conj.",
-          "example": "The children decided that he must be so frightened of losing her that he never allowed her outside the door.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "引导定语从句",
-          "pos": "pron.",
-          "example": "she paid James the money that she owed him",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "引导宾语从句",
-          "pos": "conj.",
-          "example": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "引导定语从句",
-          "pos": "pron.",
-          "example": "But last week I opened an email from UBC that contained the words \"regrets\", no interview.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
           "translation": "引导定语从句",
           "pos": "pron.",
           "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
@@ -5577,6 +5556,30 @@
           "pos": "pron.",
           "example": "After reading the passage, we may know that   _  .",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "那个",
+          "pos": "det.",
+          "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "We can infer from the text that  _  .",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -5618,7 +5621,7 @@
         "web-09421cfd6a2c44ad"
       ],
       "articleCount": 36,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "engine": {
       "lemma": "engine",
@@ -5667,16 +5670,10 @@
     },
     "as": {
       "lemma": "as",
-      "pos": "prep.",
+      "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "像……一样；作为；当……时；正如；因为；例如",
+      "meanings": "像……一样；作为；当……时；正如；因为",
       "senses": [
-        {
-          "translation": "作为",
-          "pos": "prep.",
-          "example": "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
         {
           "translation": "像……一样",
           "pos": "conj.",
@@ -5742,6 +5739,12 @@
           "pos": "prep.",
           "example": "It uses a novel as its textbook.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "像……一样",
+          "pos": "adv.",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -5772,10 +5775,11 @@
         "web-6eef5352ebcffaba",
         "web-6f0dbb98f7323216",
         "web-e5460a9523607192",
-        "web-c3ef658275687753"
+        "web-c3ef658275687753",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 28,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "articleCount": 29,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "phrase": {
       "lemma": "phrase",
@@ -5802,12 +5806,6 @@
       "forms": "无常见变形",
       "meanings": "不；没；不是；绝非",
       "senses": [
-        {
-          "translation": "不",
-          "pos": "adv.",
-          "example": "This was not supposed to happen.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
         {
           "translation": "不",
           "pos": "adv.",
@@ -5873,6 +5871,12 @@
           "pos": "adv.",
           "example": "not everyone is allowed  to start a business online",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -5903,10 +5907,11 @@
         "web-6eef5352ebcffaba",
         "web-e5460a9523607192",
         "web-cda4f9a292f21a6c",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 28,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "articleCount": 29,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "two": {
       "lemma": "two",
@@ -5914,30 +5919,6 @@
       "forms": "无常见变形",
       "meanings": "二；两个；两个一组；二重奏",
       "senses": [
-        {
-          "translation": "二",
-          "pos": "num.",
-          "example": "Can she tell that the number two is different from three, just 24 hours after coming into the world?",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "二",
-          "pos": "num.",
-          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "二",
-          "pos": "num.",
-          "example": "Could it be the pattern that two things make, as opposed to three?",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "二",
-          "pos": "num.",
-          "example": "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
         {
           "translation": "二",
           "pos": "num.",
@@ -5985,6 +5966,30 @@
           "pos": "num.",
           "example": "During the past week two things happened.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "二",
+          "pos": "num.",
+          "example": "Drinking two or three cups reduces the risk by 15 percent.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "二",
+          "pos": "num.",
+          "example": "*How many eggs can we healthily eat: one a day or two a day?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "二",
+          "pos": "num.",
+          "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "二",
+          "pos": "num.",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -6005,38 +6010,14 @@
         "web-9164814709a91049"
       ],
       "articleCount": 15,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "more": {
       "lemma": "more",
-      "pos": "adv.",
+      "pos": "adj.",
       "forms": "无常见变形",
-      "meanings": "更多地；较大程度地；更；额外",
+      "meanings": "更多的；较大程度地；更；额外；附加的",
       "senses": [
-        {
-          "translation": "更多的",
-          "pos": "adv.",
-          "example": "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "更多的",
-          "pos": "adv.",
-          "example": "I hope you receive more faithfulness from your family than you showed to me.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "再",
-          "pos": "adv.",
-          "example": "It did not trust humans any more.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "较多数量",
-          "pos": "adj.",
-          "example": "Or do newborns simply prefer more to fewer?",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
         {
           "translation": "更多",
           "pos": "adv.",
@@ -6084,6 +6065,30 @@
           "pos": "adv.",
           "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "更多的",
+          "pos": "adj.",
+          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "更加",
+          "pos": "adv.",
+          "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "更多的",
+          "pos": "adj.",
+          "example": "Eggs contain more cholesterol at present than ever before.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "更多的",
+          "pos": "adj.",
+          "example": "One egg daily and you'll get more cholesterol than recommended.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -6116,7 +6121,7 @@
         "web-91480225d160a6b6"
       ],
       "articleCount": 27,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "unrelated": {
       "lemma": "unrelated",
@@ -6423,6 +6428,18 @@
           "pos": "n.",
           "example": "Where does this text probably come from?",
           "sourceArticleId": "web-a0a23c816fc997da"
+        },
+        {
+          "translation": "文本",
+          "pos": "n.",
+          "example": "We can infer from the text that  _  .",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "文本",
+          "pos": "n.",
+          "example": "What can we learn about eggs from the text?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -6430,10 +6447,11 @@
         "web-ffeb0429c5817c0f",
         "web-6889075584252ffd",
         "web-1fac3b0d4f7569c5",
-        "web-a0a23c816fc997da"
+        "web-a0a23c816fc997da",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-22T12:54:33.931Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "all": {
       "lemma": "all",
@@ -6574,12 +6592,6 @@
       "meanings": "如果；是否；即使；仿佛",
       "senses": [
         {
-          "translation": "如果",
-          "pos": "conj.",
-          "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
           "translation": "好像",
           "pos": "conj.",
           "example": "Keep your phone on silent as if you were in a lecture and exit the library if you need to receive calls.",
@@ -6644,6 +6656,12 @@
           "pos": "conj.",
           "example": "it is better if the website domain name is related to the products you sell.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "如果",
+          "pos": "conj.",
+          "example": "one is depressed if his brain chemical adenosine is active",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -6666,29 +6684,18 @@
         "web-e5460a9523607192",
         "web-c3ef658275687753",
         "web-2e315a8a858c375d",
-        "web-7504f64bec4e74a7"
+        "web-7504f64bec4e74a7",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 20,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "articleCount": 21,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "have": {
       "lemma": "have",
       "pos": "v.",
       "forms": "has, had, having",
-      "meanings": "有；经历；吃；（完成时态助动词）",
+      "meanings": "有；经历；吃；被告知；（完成时态助动词）",
       "senses": [
-        {
-          "translation": "已经（构成完成时态）",
-          "pos": "aux.",
-          "example": "Bob could also have been a sport star.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "已经（完成时态助动词）",
-          "pos": "aux.",
-          "example": "This past week I have been greatly challenged to change my perspective and here is why.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
         {
           "translation": "拥有/持有",
           "pos": "v.",
@@ -6748,6 +6755,18 @@
           "pos": "v.",
           "example": "Students can have free lunch at school.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "被告知",
+          "pos": "v.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "有",
+          "pos": "v.",
+          "example": "tea and hot chocolate have no effect on men's depression",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -6782,11 +6801,11 @@
         "web-0ada4954aa4da897"
       ],
       "articleCount": 29,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "ever": {
       "lemma": "ever",
-      "pos": "adverb",
+      "pos": "adv.",
       "forms": "无常见变形",
       "meanings": "曾经；永远；在任何时候；究竟",
       "senses": [
@@ -6837,6 +6856,12 @@
           "pos": "adverb",
           "example": "With its budget of $80 million , John Woo as director, and an all-star cast ,Red Cliffis the most expensive and ambitious Asian-financed film ever.",
           "sourceArticleId": "web-b9d326f381c855fe"
+        },
+        {
+          "translation": "曾经",
+          "pos": "adv.",
+          "example": "Eggs contain more cholesterol at present than ever before.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -6845,10 +6870,11 @@
         "web-09421cfd6a2c44ad",
         "web-14515232ae2b45c0",
         "web-a524105e021f666c",
-        "web-b9d326f381c855fe"
+        "web-b9d326f381c855fe",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "used": {
       "lemma": "use",
@@ -7967,12 +7993,6 @@
       "meanings": "谁；……的人；（引导定语从句）",
       "senses": [
         {
-          "translation": "谁",
-          "pos": "pron.",
-          "example": "Who tells this story?",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
           "translation": "……的人",
           "pos": "pron.",
           "example": "Be faithful to those who love you",
@@ -8037,6 +8057,12 @@
           "pos": "pron.",
           "example": "Students who take \"Ancient Civilizations\"   _  .",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "（引导定语从句）……的人",
+          "pos": "pron.",
+          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -8064,7 +8090,7 @@
         "web-f39e7f5b1b236779"
       ],
       "articleCount": 22,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "share": {
       "lemma": "share",
@@ -8120,24 +8146,6 @@
         {
           "translation": "许多",
           "pos": "adj.",
-          "example": "But today,many people believe they can save money by living in the city.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "许多",
-          "pos": "adj.",
-          "example": "Traffic problems are an everyday concern in many cities",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "许多",
-          "pos": "adj.",
-          "example": "In the years after World War Two,many Americans prefer to  _  .",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "许多",
-          "pos": "adj.",
           "example": "Last night's meteor   shower left many people in the community dissatisfied and demanding answers.",
           "sourceArticleId": "web-59b629f92c1e91fb"
         },
@@ -8188,6 +8196,24 @@
           "pos": "adj.",
           "example": "you need to have as many merchant accounts as possible",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "许多",
+          "pos": "adj.",
+          "example": "*How many eggs can we healthily eat: one a day or two a day?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "许多",
+          "pos": "adj.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "许多",
+          "pos": "adj.",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -8209,7 +8235,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 16,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "false": {
       "lemma": "false",
@@ -8513,14 +8539,8 @@
       "lemma": "for",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "为了；支持；因为；给；持续（一段时间）",
+      "meanings": "为了；支持；因为；给；长达",
       "senses": [
-        {
-          "translation": "因为",
-          "pos": "prep.",
-          "example": "My immediate reaction was one of extreme disappointment and anger--mostly directed at myself for not working hard enough, for not seeking out the opportunities necessary to have a good application, for simply not being good enough.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
         {
           "translation": "为了；寻求",
           "pos": "prep.",
@@ -8586,6 +8606,12 @@
           "pos": "prep.",
           "example": "It is suitable for students of all ages",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "长达",
+          "pos": "prep.",
+          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -8629,7 +8655,7 @@
         "web-52737a111ab04db4"
       ],
       "articleCount": 38,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "city": {
       "lemma": "city",
@@ -9477,15 +9503,9 @@
     "them": {
       "lemma": "they",
       "pos": "pron.",
-      "forms": "they; their; theirs; themselves",
-      "meanings": "他们；她们；它们",
+      "forms": "they, their, theirs, themselves",
+      "meanings": "它们；他们；她们",
       "senses": [
-        {
-          "translation": "它们",
-          "pos": "pron.",
-          "example": "Her best guess is that some schools with a lot of technology will be the first to use them, but only in addition to their traditional books.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
         {
           "translation": "它们",
           "pos": "pron.",
@@ -9551,6 +9571,12 @@
           "pos": "pron.",
           "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "它们",
+          "pos": "pron.",
+          "example": "Neither-eat them freely.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -9574,7 +9600,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 18,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "from": {
       "lemma": "from",
@@ -9582,18 +9608,6 @@
       "forms": "无常见变形",
       "meanings": "从；来自；因为；由于；起始",
       "senses": [
-        {
-          "translation": "来自",
-          "pos": "prep.",
-          "example": "The list of women from 26 countries, there are 153000000 of them in Twitter \"fans\", 16 of them own Create Company.",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
-          "translation": "来自",
-          "pos": "prep.",
-          "example": "The great women come from sixty-two countries.",
-          "sourceArticleId": "web-9164814709a91049"
-        },
         {
           "translation": "从……退休",
           "pos": "prep.",
@@ -9653,6 +9667,18 @@
           "pos": "prep.",
           "example": "They will be offered from June to July.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "从",
+          "pos": "prep.",
+          "example": "We can infer from the text that  _  .",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "从",
+          "pos": "prep.",
+          "example": "What can we learn about eggs from the text?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -9687,10 +9713,11 @@
         "web-473b3be3fe52d4fc",
         "web-e5460a9523607192",
         "web-c3ef658275687753",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 32,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "articleCount": 33,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "time": {
       "lemma": "time",
@@ -10129,14 +10156,8 @@
       "lemma": "some",
       "pos": "adj.",
       "forms": "无常见变形",
-      "meanings": "一些；某些；若干；相当数量；某个",
+      "meanings": "一些；某些；若干；相当数量",
       "senses": [
-        {
-          "translation": "一些",
-          "pos": "adj.",
-          "example": "Some games on the Internet are free.",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
         {
           "translation": "一些",
           "pos": "adj.",
@@ -10202,6 +10223,12 @@
           "pos": "adj.",
           "example": "how to make some pocket money",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "一些",
+          "pos": "adj.",
+          "example": "Some anti-depressants also work by blocking the adenosine receptors.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -10227,7 +10254,7 @@
         "web-7504f64bec4e74a7"
       ],
       "articleCount": 20,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "enables": {
       "lemma": "enable",
@@ -10893,12 +10920,6 @@
         {
           "translation": "在",
           "pos": "prep.",
-          "example": "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
           "example": "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.",
           "sourceArticleId": "web-0ada4954aa4da897"
         },
@@ -10961,6 +10982,12 @@
           "pos": "prep.",
           "example": "Students can have free lunch at school.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "在（某个时间点）",
+          "pos": "prep.",
+          "example": "Eggs contain more cholesterol at present than ever before.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -10995,10 +11022,11 @@
         "web-b9d326f381c855fe",
         "web-6eef5352ebcffaba",
         "web-473b3be3fe52d4fc",
-        "web-c3ef658275687753"
+        "web-c3ef658275687753",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 32,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "articleCount": 33,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "young": {
       "lemma": "young",
@@ -11378,18 +11406,6 @@
         {
           "translation": "是",
           "pos": "v.",
-          "example": "That gave her some satisfaction, for James, though rich, was mean.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "he was a man difficult to please",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
           "example": "she never knew when he was coming",
           "sourceArticleId": "web-14515232ae2b45c0"
         },
@@ -11446,6 +11462,18 @@
           "pos": "v.",
           "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "被（用于被动语态）",
+          "pos": "v.",
+          "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "是（过去式）",
+          "pos": "v.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -11472,7 +11500,7 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 21,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "with": {
       "lemma": "with",
@@ -11597,16 +11625,10 @@
     },
     "this": {
       "lemma": "this",
-      "pos": "det.",
+      "pos": "pron.",
       "forms": "these",
       "meanings": "这；这个；这种情况；此",
       "senses": [
-        {
-          "translation": "今年",
-          "pos": "det.",
-          "example": "\"Forbes\" magazine said, this year the list of people are political, business, media, the humanitarian field, entertainment and technology industry elite , but also some women were selected because of the huge wealth, including funds, media exposure and influence.",
-          "sourceArticleId": "web-9164814709a91049"
-        },
         {
           "translation": "今年",
           "pos": "det.",
@@ -11672,6 +11694,12 @@
           "pos": "det.",
           "example": "This course will develop children's writing skills and their ability to answer questions.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "这（指代上文提到的结果）",
+          "pos": "pron.",
+          "example": "This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -11703,7 +11731,7 @@
         "web-a41ebe4e54718747"
       ],
       "articleCount": 26,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "mindset": {
       "lemma": "mindset",
@@ -11877,7 +11905,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "however": {
       "lemma": "however",
@@ -12622,14 +12650,8 @@
       "lemma": "too",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "也；太；过于；很",
+      "meanings": "太；过于；也；很；过多地",
       "senses": [
-        {
-          "translation": "也",
-          "pos": "adv.",
-          "example": "\"\nNita laughs and I laugh too .",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
         {
           "translation": "也",
           "pos": "adv.",
@@ -12695,6 +12717,12 @@
           "pos": "adv.",
           "example": "she was too busy looking after her children",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "太",
+          "pos": "adv.",
+          "example": "too much caffeine will probably make people sleepy",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -12708,10 +12736,11 @@
         "web-78c5365878759c41",
         "web-b9d326f381c855fe",
         "web-6eef5352ebcffaba",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "ten": {
       "lemma": "ten",
@@ -12750,7 +12779,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:53:31.552Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "years": {
       "lemma": "year",
@@ -12758,12 +12787,6 @@
       "forms": "years",
       "meanings": "年；年份；岁数；一年的时间；年度",
       "senses": [
-        {
-          "translation": "年",
-          "pos": "n.",
-          "example": "studying abroad for two years",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
         {
           "translation": "年",
           "pos": "n.",
@@ -12829,6 +12852,12 @@
           "pos": "n.",
           "example": "A man, thirty years older than I, lies in a coffin.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "年",
+          "pos": "n.",
+          "example": "This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -12848,7 +12877,7 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 14,
-      "updatedAt": "2026-08-22T12:58:07.089Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "granite": {
       "lemma": "granite",
@@ -13170,7 +13199,7 @@
       "lemma": "high",
       "pos": "adj.",
       "forms": "higher, highest",
-      "meanings": "高中的；高的；高级的；强烈的；高等的",
+      "meanings": "高的；高中的；高级的；强烈的",
       "senses": [
         {
           "translation": "高中的",
@@ -13253,7 +13282,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T12:53:31.552Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "school": {
       "lemma": "school",
@@ -13386,7 +13415,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:51:09.159Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "extent": {
       "lemma": "extent",
@@ -14532,12 +14561,6 @@
         {
           "translation": "他们的",
           "pos": "pron.",
-          "example": "Their eyesight is failing due to artificial lighting.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "他们的",
-          "pos": "pron.",
           "example": "The faces of so many people confuse me as they come to pay their last respects.",
           "sourceArticleId": "web-f39e7f5b1b236779"
         },
@@ -14600,6 +14623,12 @@
           "pos": "pron.",
           "example": "This course will develop children's writing skills and their ability to answer questions.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "它们的",
+          "pos": "pron.",
+          "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -14628,7 +14657,7 @@
         "web-f335b4849447798b"
       ],
       "articleCount": 23,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "success": {
       "lemma": "success",
@@ -15098,20 +15127,8 @@
       "lemma": "how",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "如何；以何种方式；多么；状况",
+      "meanings": "如何；多少（与many/much连用）；多么；状况",
       "senses": [
-        {
-          "translation": "多么（用于感叹）",
-          "pos": "adv.",
-          "example": "How I can't stand them.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "如何",
-          "pos": "adv.",
-          "example": "How can they be so blind?",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
         {
           "translation": "如何",
           "pos": "adv.",
@@ -15171,6 +15188,18 @@
           "pos": "adv.",
           "example": "will be taught how to write songs",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "多少",
+          "pos": "adv.",
+          "example": "*How many eggs can we healthily eat: one a day or two a day?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "多少",
+          "pos": "adv.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -15196,7 +15225,7 @@
         "web-4a99bc1fb2af7921"
       ],
       "articleCount": 20,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "my": {
       "lemma": "my",
@@ -15929,30 +15958,6 @@
       "meanings": "一个；某人；单一的；其中之一",
       "senses": [
         {
-          "translation": "一个",
-          "pos": "num.",
-          "example": "One of the most interesting features of the Oxford Dictionary is its word histories.",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
-        {
-          "translation": "一个字的",
-          "pos": "adj.",
-          "example": "was just a list of difficult words with one-word definitions",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
-        {
-          "translation": "一部很有价值的词典",
-          "pos": "pron.",
-          "example": "was considered to be a very valuable one",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
-        {
-          "translation": "一",
-          "pos": "num.",
-          "example": "The baby is just one day old and has not yet left hospital.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
           "translation": "一张（卡片）",
           "pos": "pron.",
           "example": "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.",
@@ -15999,6 +16004,30 @@
           "pos": "pron.",
           "example": "So last night I was reading and one of the main characters (who is a priest) is trying to figure out what to say at church.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "一个",
+          "pos": "num.",
+          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "一个",
+          "pos": "num.",
+          "example": "*How many eggs can we healthily eat: one a day or two a day?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "某人",
+          "pos": "pron.",
+          "example": "one is depressed if his brain chemical adenosine is active",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "一个",
+          "pos": "num.",
+          "example": "One egg daily and you'll get more cholesterol than recommended.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -16028,7 +16057,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 24,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "projects": {
       "lemma": "project",
@@ -16488,16 +16517,10 @@
     },
     "work": {
       "lemma": "work",
-      "pos": "n.",
+      "pos": "v.",
       "forms": "works, worked, working",
-      "meanings": "工作；职业；研究；作品；工厂",
+      "meanings": "工作；起作用；运作；经营；研究",
       "senses": [
-        {
-          "translation": "工作",
-          "pos": "v.",
-          "example": "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
         {
           "translation": "工作",
           "pos": "v.",
@@ -16563,6 +16586,12 @@
           "pos": "n.",
           "example": "Here you can find sofas and armchairs for group work.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "起作用",
+          "pos": "v.",
+          "example": "Some anti-depressants also work by blocking the adenosine receptors.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -16585,7 +16614,7 @@
         "web-a41ebe4e54718747"
       ],
       "articleCount": 17,
-      "updatedAt": "2026-08-22T12:55:24.029Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "together": {
       "lemma": "together",
@@ -16677,7 +16706,7 @@
       "lemma": "best",
       "pos": "adj.",
       "forms": "无常见变形",
-      "meanings": "最好的；最优秀的；最合适的",
+      "meanings": "最好的；最优秀的；最合适的；最佳的；最有效的",
       "senses": [
         {
           "translation": "最好地",
@@ -16738,6 +16767,12 @@
           "pos": "adj.",
           "example": "What's the best title of the text?",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
+        },
+        {
+          "translation": "最好的",
+          "pos": "adj.",
+          "example": "What is considered to fight depression best?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -16750,10 +16785,11 @@
         "web-6889075584252ffd",
         "web-91480225d160a6b6",
         "web-eecaaca1e069e103",
-        "web-1fac3b0d4f7569c5"
+        "web-1fac3b0d4f7569c5",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "fits": {
       "lemma": "fit",
@@ -16870,7 +16906,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 7,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "then": {
       "lemma": "then",
@@ -18178,12 +18214,6 @@
       "meanings": "像；如同；例如；喜欢",
       "senses": [
         {
-          "translation": "例如",
-          "pos": "prep.",
-          "example": "But executives of The New York Times Company said they could not yet answer fundamental questions about the plan, like how much it would cost or what the limit would be on free reading.",
-          "sourceArticleId": "web-e5460a9523607192"
-        },
-        {
           "translation": "像",
           "pos": "prep.",
           "example": "You may want to ask something along the lines of \"what's it like to work here?",
@@ -18248,6 +18278,12 @@
           "pos": "prep.",
           "example": "What if my mother had sat on the sidelines with her statistics, like Jeremy Lin's mother?",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "像",
+          "pos": "prep.",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -18262,10 +18298,11 @@
         "web-e5460a9523607192",
         "web-c3ef658275687753",
         "web-2e315a8a858c375d",
-        "web-f328bfb9843d2dfa"
+        "web-f328bfb9843d2dfa",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 12,
-      "updatedAt": "2026-08-22T12:58:40.664Z"
+      "articleCount": 13,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "what's": {
       "lemma": "what is",
@@ -19177,24 +19214,6 @@
         {
           "translation": "没有",
           "pos": "det.",
-          "example": "were of no value",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
-        {
-          "translation": "不",
-          "pos": "adv.",
-          "example": "No again.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "没有",
-          "pos": "det.",
-          "example": "The United States first lady Michel is no longer ranks NO.1.",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
-          "translation": "没有",
-          "pos": "det.",
           "example": "I don't know if I can do all this alone--two children, no father.",
           "sourceArticleId": "web-f39e7f5b1b236779"
         },
@@ -19245,6 +19264,24 @@
           "pos": "det.",
           "example": "*Snacks and lunch are provided at no cost\n*A school nurse will be on site throughout the course.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "没有",
+          "pos": "det.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "没有",
+          "pos": "det.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "没有",
+          "pos": "det.",
+          "example": "tea and hot chocolate have no effect on men's depression",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -19269,7 +19306,7 @@
         "web-7504f64bec4e74a7"
       ],
       "articleCount": 19,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "brought": {
       "lemma": "bring",
@@ -20079,12 +20116,6 @@
         {
           "translation": "周",
           "pos": "n.",
-          "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
-          "translation": "周",
-          "pos": "n.",
           "example": "Both pets were rescued by their owners in _ -----Toby as a 4-week-old thrown into a garbage bin to die, and Winnie as a week-old orphan hiding under a barn, so helpless that Cathy's husband, Eric, had to feed her milk with an eyedropper.",
           "sourceArticleId": "web-c07f29846f6c48f3"
         },
@@ -20147,6 +20178,12 @@
           "pos": "n.",
           "example": "Students will learn seven days a week.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "周",
+          "pos": "n.",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -20161,7 +20198,7 @@
         "web-b9d326f381c855fe"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "handful": {
       "lemma": "handful",
@@ -20380,20 +20417,8 @@
       "lemma": "day",
       "pos": "n.",
       "forms": "days",
-      "meanings": "天；白天；日子；时期；一天",
+      "meanings": "天；白天；日子；时期；一日",
       "senses": [
-        {
-          "translation": "天",
-          "pos": "n.",
-          "example": "It's important--if not always easy--to make sure you get at least some physical activity each and every day.",
-          "sourceArticleId": "web-721dea8f3b5f4d9e"
-        },
-        {
-          "translation": "天",
-          "pos": "n.",
-          "example": "The Bristol University study showed that only one in five owners play with their dogs six times a day.",
-          "sourceArticleId": "web-c5114d8c96e4f03b"
-        },
         {
           "translation": "天",
           "pos": "n.",
@@ -20453,6 +20478,18 @@
           "pos": "n.",
           "example": "will watch a short play every day",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "一天",
+          "pos": "n.",
+          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "一天",
+          "pos": "n.",
+          "example": "*How many eggs can we healthily eat: one a day or two a day?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -20471,7 +20508,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 13,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "goes": {
       "lemma": "go",
@@ -20614,12 +20651,6 @@
         {
           "translation": "但是",
           "pos": "conj.",
-          "example": "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "但是",
-          "pos": "conj.",
           "example": "Please note that food and fruit are forbidden in the library, but you are allowed to have drinks and sweets with you.",
           "sourceArticleId": "web-f335b4849447798b"
         },
@@ -20682,6 +20713,12 @@
           "pos": "conj.",
           "example": "But seriously, who in their right mind says thanks for the financial problems I have?",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -20716,20 +20753,14 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 29,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "also": {
       "lemma": "also",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "也；同样；并且；而且；亦",
+      "meanings": "也；同样；并且；而且",
       "senses": [
-        {
-          "translation": "也",
-          "pos": "adv.",
-          "example": "You should also Google the company and read any press releases.",
-          "sourceArticleId": "web-c3ef658275687753"
-        },
         {
           "translation": "也",
           "pos": "adv.",
@@ -20795,6 +20826,12 @@
           "pos": "adv.",
           "example": "Bob could also have been a sport star.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "也",
+          "pos": "adv.",
+          "example": "Some anti-depressants also work by blocking the adenosine receptors.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -20814,20 +20851,14 @@
         "web-0ada4954aa4da897"
       ],
       "articleCount": 14,
-      "updatedAt": "2026-08-22T12:58:40.664Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "before": {
       "lemma": "before",
-      "pos": "prep.",
+      "pos": "adv.",
       "forms": "无常见变形",
       "meanings": "在...之前；以前；在...前面；先于；在...之前的时间里",
       "senses": [
-        {
-          "translation": "在...之前",
-          "pos": "prep.",
-          "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
         {
           "translation": "在……之前",
           "pos": "prep.",
@@ -20893,6 +20924,12 @@
           "pos": "prep.",
           "example": "School fees should be paid before 18 June.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "以前",
+          "pos": "adv.",
+          "example": "Eggs contain more cholesterol at present than ever before.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -20909,10 +20946,11 @@
         "web-09421cfd6a2c44ad",
         "web-59b629f92c1e91fb",
         "web-9164814709a91049",
-        "web-4a99bc1fb2af7921"
+        "web-4a99bc1fb2af7921",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "arctic": {
       "lemma": "arctic",
@@ -21804,45 +21842,9 @@
     "we": {
       "lemma": "we",
       "pos": "pron.",
-      "forms": "us, our, ours",
+      "forms": "us; our; ours",
       "meanings": "我们；大家；咱们",
       "senses": [
-        {
-          "translation": "我们",
-          "pos": "pron.",
-          "example": "What can we know from the passage about the writer?",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "我们",
-          "pos": "pron.",
-          "example": "We did watch some of his marathons, but that wasn't until he was in his 20s.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "我们",
-          "pos": "pron.",
-          "example": "From the passage we can tell that Bob is   _  .",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "我们",
-          "pos": "pron.",
-          "example": "What do we know about James' behavior?",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "我们",
-          "pos": "pron.",
-          "example": "He stated that when we take our eyes off ourselves and realize God's greatness, our circumstances will be seen through a new perspective.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "我们",
-          "pos": "pron.",
-          "example": "His sermon ended up saying \"In everything we give thanks.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
         {
           "translation": "我们",
           "pos": "pron.",
@@ -21878,6 +21880,42 @@
           "pos": "pron.",
           "example": "What do we learn about \"Literature Study\"?",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "*How many eggs can we healthily eat: one a day or two a day?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "We can infer from the text that  _  .",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "What can we learn about eggs from the text?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -21901,7 +21939,7 @@
         "web-4a99bc1fb2af7921"
       ],
       "articleCount": 18,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "set": {
       "lemma": "set",
@@ -23125,12 +23163,6 @@
         {
           "translation": "学习",
           "pos": "v.",
-          "example": "A language holiday is a combination of \"holiday\" and study abroad to learn or improve a foreign language.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "学习",
-          "pos": "v.",
           "example": "While there, you study in a language school with students from many different countries.",
           "sourceArticleId": "web-52737a111ab04db4"
         },
@@ -23193,6 +23225,12 @@
           "pos": "n.",
           "example": "What do we learn about \"Literature Study\"?",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "研究",
+          "pos": "n.",
+          "example": "This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -23207,7 +23245,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "pandas": {
       "lemma": "panda",
@@ -24070,36 +24108,6 @@
         {
           "translation": "比",
           "pos": "conj.",
-          "example": "women are much more likely to want to have children than men",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "比",
-          "pos": "conj.",
-          "example": "men have a higher level of guilt and depression than women",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "比",
-          "pos": "conj.",
-          "example": "\"Building bicycling facilities is much cheaper than building and maintaining road facilities or public transport.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "比",
-          "pos": "conj.",
-          "example": "Living in the city is much cheaper than in the country.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "比",
-          "pos": "conj.",
-          "example": "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
-        {
-          "translation": "比",
-          "pos": "conj.",
           "example": "More than six million students attend California public schools.",
           "sourceArticleId": "web-83aed36829bb66d0"
         },
@@ -24138,6 +24146,36 @@
           "pos": "conj.",
           "example": "She married a man much older than she.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "比",
+          "pos": "conj.",
+          "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "比",
+          "pos": "conj.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "比",
+          "pos": "conj.",
+          "example": "coffee contains less caffeine than tea or hot chocolate",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "比",
+          "pos": "conj.",
+          "example": "Eggs contain more cholesterol at present than ever before.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "比",
+          "pos": "conj.",
+          "example": "One egg daily and you'll get more cholesterol than recommended.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -24165,7 +24203,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 22,
-      "updatedAt": "2026-08-22T12:58:07.089Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "those": {
       "lemma": "those",
@@ -24777,16 +24815,23 @@
           "pos": "adj.",
           "example": "Hillary Clinton is the present Secretary of state of America.",
           "sourceArticleId": "web-9164814709a91049"
+        },
+        {
+          "translation": "目前的",
+          "pos": "adj.",
+          "example": "Eggs contain more cholesterol at present than ever before.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-a41ebe4e54718747",
         "web-489568c736b8b700",
         "web-6889075584252ffd",
-        "web-9164814709a91049"
+        "web-9164814709a91049",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-22T12:57:41.134Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "train": {
       "lemma": "train",
@@ -26153,7 +26198,7 @@
         "web-c07f29846f6c48f3"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T12:58:07.089Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "companies": {
       "lemma": "company",
@@ -26298,6 +26343,12 @@
           "pos": "adj.",
           "example": "get general information about yourself",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "一般的",
+          "pos": "adj.",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -26305,10 +26356,11 @@
         "web-9164814709a91049",
         "web-1db81bcdb0151def",
         "web-e5460a9523607192",
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-22T12:57:41.134Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "electric": {
       "lemma": "electric",
@@ -26634,14 +26686,8 @@
       "lemma": "will",
       "pos": "modal v.",
       "forms": "无常见变形",
-      "meanings": "将要；会；愿意；意志（名词）",
+      "meanings": "将要；会；愿意；意志；决心",
       "senses": [
-        {
-          "translation": "将要",
-          "pos": "modal v.",
-          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
         {
           "translation": "将要",
           "pos": "modal v.",
@@ -26707,6 +26753,12 @@
           "pos": "modal v.",
           "example": "Students will learn seven days a week.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "将要",
+          "pos": "modal v.",
+          "example": "too much caffeine will probably make people sleepy",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -26728,10 +26780,11 @@
         "web-6f0dbb98f7323216",
         "web-e5460a9523607192",
         "web-c3ef658275687753",
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 19,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "articleCount": 20,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "earn": {
       "lemma": "earn",
@@ -27294,9 +27347,9 @@
     },
     "raises": {
       "lemma": "raise",
-      "pos": "n.",
+      "pos": "v.",
       "forms": "raises, raised, raising",
-      "meanings": "加薪；提高；举起；募集",
+      "meanings": "提高；举起；募集；加薪",
       "senses": [
         {
           "translation": "加薪",
@@ -27316,7 +27369,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:48:22.622Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "start": {
       "lemma": "start",
@@ -29504,12 +29557,6 @@
         {
           "translation": "学习",
           "pos": "v.",
-          "example": "This is how you learn your own language - constant exposure.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "学习",
-          "pos": "v.",
           "example": "Your mind is more relaxed and you can learn more easily.",
           "sourceArticleId": "web-52737a111ab04db4"
         },
@@ -29572,6 +29619,12 @@
           "pos": "v.",
           "example": "Students will learn seven days a week.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "了解",
+          "pos": "v.",
+          "example": "What can we learn about eggs from the text?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -29580,10 +29633,11 @@
         "web-4a99bc1fb2af7921",
         "web-489568c736b8b700",
         "web-1db81bcdb0151def",
-        "web-eecaaca1e069e103"
+        "web-eecaaca1e069e103",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "after": {
       "lemma": "after",
@@ -29591,12 +29645,6 @@
       "forms": "无常见变形",
       "meanings": "在……之后；后来；跟随；依照",
       "senses": [
-        {
-          "translation": "在……之后",
-          "pos": "prep.",
-          "example": "The longest day of the month is the day after my younger brother T.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
         {
           "translation": "在……之后",
           "pos": "prep.",
@@ -29662,6 +29710,12 @@
           "pos": "prep.",
           "example": "After reading the passage, we may know that   _  .",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "在……之后",
+          "pos": "prep.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -29682,7 +29736,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 15,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "losing": {
       "lemma": "lose",
@@ -29882,7 +29936,7 @@
     },
     "found": {
       "lemma": "find",
-      "pos": "verb",
+      "pos": "v.",
       "forms": "found, finding",
       "meanings": "发现；查明；觉得；获得",
       "senses": [
@@ -29970,7 +30024,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 8,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "cancers": {
       "lemma": "cancer",
@@ -30118,24 +30172,6 @@
         {
           "translation": "较少的",
           "pos": "adj.",
-          "example": "Students wearing uniforms will feel less pressure about what to wear or not to wear when their classmates are dressed similarly.",
-          "sourceArticleId": "web-489568c736b8b700"
-        },
-        {
-          "translation": "较少的",
-          "pos": "adj.",
-          "example": "Getting dressed before school becomes less of a chore when students are limited in their choices, so there shouldn't be any trouble about choosing an outfit for the day and getting ready quickly.",
-          "sourceArticleId": "web-489568c736b8b700"
-        },
-        {
-          "translation": "较少地",
-          "pos": "adv.",
-          "example": "Advising someone to eat less and exercise more might be the easiest advice possible,but it's also,partially,an oversimplification.",
-          "sourceArticleId": "web-721dea8f3b5f4d9e"
-        },
-        {
-          "translation": "较少的",
-          "pos": "adj.",
           "example": "If you don't want to eliminate red meat altogether,choose cuts of meat with less fat content.",
           "sourceArticleId": "web-721dea8f3b5f4d9e"
         },
@@ -30186,6 +30222,24 @@
           "pos": "adv.",
           "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "更少可能",
+          "pos": "adv.",
+          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "更少的",
+          "pos": "adj.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "更少的",
+          "pos": "adj.",
+          "example": "coffee contains less caffeine than tea or hot chocolate",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -30199,7 +30253,7 @@
         "web-59b629f92c1e91fb"
       ],
       "articleCount": 8,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "chance": {
       "lemma": "chance",
@@ -30401,12 +30455,6 @@
         {
           "translation": "应该",
           "pos": "modal v.",
-          "example": "Government should build more bicycling facilities.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "应该",
-          "pos": "modal v.",
           "example": "What condition should be met to book a group-study room?",
           "sourceArticleId": "web-f335b4849447798b"
         },
@@ -30469,6 +30517,12 @@
           "pos": "modal v.",
           "example": "School fees should be paid before 18 June.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "应该",
+          "pos": "modal v.",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -30482,10 +30536,11 @@
         "web-f335b4849447798b",
         "web-59b629f92c1e91fb",
         "web-b08fa6a6e65a8840",
-        "web-4a99bc1fb2af7921"
+        "web-4a99bc1fb2af7921",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 11,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "articleCount": 12,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "something": {
       "lemma": "something",
@@ -30927,20 +30982,8 @@
       "lemma": "there",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "存在（用于there be句型）；在那里；向那里；到那里",
+      "meanings": "有（引导there be句型）；在那里；向那里；到那里",
       "senses": [
-        {
-          "translation": "存在",
-          "pos": "adv.",
-          "example": "There was a 90 percent federal match so the cities only had to put up 10%.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "存在",
-          "pos": "adv.",
-          "example": "Also, there is the cost to train teachers to use digital textbooks effectively.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
         {
           "translation": "存在",
           "pos": "adv.",
@@ -31000,6 +31043,18 @@
           "pos": "adv.",
           "example": "In order to start a business online now, there are a few steps you need to complete.",
           "sourceArticleId": "web-7504f64bec4e74a7"
+        },
+        {
+          "translation": "有（引导there be句型）",
+          "pos": "adv.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "有（引导there be句型）",
+          "pos": "adv.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -31030,7 +31085,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 25,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "developed": {
       "lemma": "develop",
@@ -31136,18 +31191,6 @@
       "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
       "senses": [
         {
-          "translation": "（引导定语从句，指代前面的测试）",
-          "pos": "pron.",
-          "example": "There he developed a simple paper test, which can recognize the disease in a single drop of blood.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
-          "translation": "哪一个",
-          "pos": "pron.",
-          "example": "Which title best gives the main idea of the passage?",
-          "sourceArticleId": "web-91480225d160a6b6"
-        },
-        {
           "translation": "哪一个",
           "pos": "pron.",
           "example": "Which of the following may be the best title for the passage?",
@@ -31206,6 +31249,18 @@
           "pos": "pron.",
           "example": "Which of the following is TRUE about the courses?",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "（引导定语从句，指代前面的化学物质）",
+          "pos": "pron.",
+          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "（引导定语从句，指代前面的骨粉）",
+          "pos": "pron.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -31232,7 +31287,7 @@
         "web-4a99bc1fb2af7921"
       ],
       "articleCount": 21,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "single": {
       "lemma": "single",
@@ -31313,12 +31368,6 @@
         {
           "translation": "他的",
           "pos": "pron.",
-          "example": "Bob was always ignored by his parents",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "他的",
-          "pos": "pron.",
           "example": "Bob's parents often watched his games.",
           "sourceArticleId": "web-0ada4954aa4da897"
         },
@@ -31381,6 +31430,12 @@
           "pos": "pron.",
           "example": "His sermon ended up saying \"In everything we give thanks.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "他的",
+          "pos": "pron.",
+          "example": "one is depressed if his brain chemical adenosine is active",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -31401,10 +31456,11 @@
         "web-6eef5352ebcffaba",
         "web-6f0dbb98f7323216",
         "web-f328bfb9843d2dfa",
-        "web-f335b4849447798b"
+        "web-f335b4849447798b",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 18,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "articleCount": 19,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "proved": {
       "lemma": "prove",
@@ -31826,18 +31882,6 @@
       "meanings": "是；成为；存在；发生",
       "senses": [
         {
-          "translation": "已经",
-          "pos": "aux.",
-          "example": "The Times Company has been studying the matter for almost a year, searching for common ground between pro-and-anti pay campaigns--a debate mirrored in dozens of media-watching blogs-- and the system will not go into effect until January 2011.",
-          "sourceArticleId": "web-e5460a9523607192"
-        },
-        {
-          "translation": "成为",
-          "pos": "v.",
-          "example": "Jack's success wouldn't have been possible without Anirban Maitra, a professor at Johns Hopkins.",
-          "sourceArticleId": "web-6889075584252ffd"
-        },
-        {
           "translation": "是",
           "pos": "v.",
           "example": "Maybe Internet has been the greatest invention in the field of communication in the history of mankind .",
@@ -31896,6 +31940,18 @@
           "pos": "aux.",
           "example": "This past week I have been greatly challenged to change my perspective and here is why.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "被",
+          "pos": "aux.",
+          "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "被",
+          "pos": "aux.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -31915,7 +31971,7 @@
         "web-0ada4954aa4da897"
       ],
       "articleCount": 14,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "possible": {
       "lemma": "possible",
@@ -32229,7 +32285,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T12:54:33.931Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "wrote": {
       "lemma": "write",
@@ -32914,16 +32970,10 @@
     },
     "over": {
       "lemma": "over",
-      "pos": "adv.",
+      "pos": "prep.",
       "forms": "无常见变形",
       "meanings": "遍及；超过；在……上方；结束；翻转",
       "senses": [
-        {
-          "translation": "超过",
-          "pos": "prep.",
-          "example": "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.",
-          "sourceArticleId": "web-721dea8f3b5f4d9e"
-        },
         {
           "translation": "在……期间",
           "pos": "prep.",
@@ -32989,6 +33039,12 @@
           "pos": "adv.",
           "example": "He fell off his chair, saying over and over in disbelief, \"But I'm almost sixty.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "经过（十年）",
+          "pos": "prep.",
+          "example": "This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -33009,7 +33065,7 @@
         "web-6eef5352ebcffaba"
       ],
       "articleCount": 15,
-      "updatedAt": "2026-08-22T12:58:07.089Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "interview": {
       "lemma": "interview",
@@ -33231,7 +33287,7 @@
       "lemma": "give",
       "pos": "v.",
       "forms": "gives, gave, given, giving",
-      "meanings": "给予；提供；授予；交给",
+      "meanings": "给予；提供；授予；喂食",
       "senses": [
         {
           "translation": "给予",
@@ -33251,7 +33307,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:48:57.013Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "patent": {
       "lemma": "patent",
@@ -33695,18 +33751,6 @@
         {
           "translation": "所有格符号",
           "pos": "suffix",
-          "example": "Everest, unguided, in his 50s.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "复数词尾",
-          "pos": "suffix",
-          "example": "We did watch some of his marathons, but that wasn't until he was in his 20s.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "所有格符号",
-          "pos": "suffix",
           "example": "His doctor estimates his biological age at 35; he's still climbing big mountains in the Himalayas.",
           "sourceArticleId": "web-0ada4954aa4da897"
         },
@@ -33763,6 +33807,18 @@
           "pos": "suffix",
           "example": "Nobody in the author's family was a doctor.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "复数词尾",
+          "pos": "suffix",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "复数词尾",
+          "pos": "suffix",
+          "example": "tea and hot chocolate have no effect on men's depression",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -33777,7 +33833,7 @@
         "web-c46072fb88fa1c7b"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-22T12:58:40.664Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "word": {
       "lemma": "word",
@@ -33889,7 +33945,7 @@
       "lemma": "become",
       "pos": "v.",
       "forms": "became, become, becoming",
-      "meanings": "成为；变得；适应；合适",
+      "meanings": "变得；成为；适应；合适",
       "senses": [
         {
           "translation": "成为",
@@ -33964,7 +34020,7 @@
         "web-7504f64bec4e74a7"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "useful": {
       "lemma": "useful",
@@ -34151,14 +34207,8 @@
       "lemma": "much",
       "pos": "adv.",
       "forms": "more, most",
-      "meanings": "很；非常；多；大量",
+      "meanings": "很；非常；多；大量；许多",
       "senses": [
-        {
-          "translation": "很多",
-          "pos": "pron.",
-          "example": "You might find you're really not sacrificing that much in terms of taste.",
-          "sourceArticleId": "web-721dea8f3b5f4d9e"
-        },
         {
           "translation": "非常",
           "pos": "adv.",
@@ -34224,6 +34274,12 @@
           "pos": "adv.",
           "example": "She married a man much older than she.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "很",
+          "pos": "adv.",
+          "example": "too much caffeine will probably make people sleepy",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -34238,10 +34294,11 @@
         "web-6eef5352ebcffaba",
         "web-e5460a9523607192",
         "web-f328bfb9843d2dfa",
-        "web-f39e7f5b1b236779"
+        "web-f39e7f5b1b236779",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 12,
-      "updatedAt": "2026-08-22T12:58:07.089Z"
+      "articleCount": 13,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "faster": {
       "lemma": "fast",
@@ -34482,6 +34539,12 @@
           "pos": "adv.",
           "example": "Which of the following statements is probably TRUE?",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "大概",
+          "pos": "adv.",
+          "example": "too much caffeine will probably make people sleepy",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -34490,10 +34553,11 @@
         "web-52737a111ab04db4",
         "web-83aed36829bb66d0",
         "web-a0a23c816fc997da",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-22T12:58:40.664Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "biggest": {
       "lemma": "big",
@@ -34651,7 +34715,7 @@
         "web-7504f64bec4e74a7"
       ],
       "articleCount": 10,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "list": {
       "lemma": "list",
@@ -37217,7 +37281,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "evening": {
       "lemma": "evening",
@@ -40400,18 +40464,6 @@
         {
           "translation": "三",
           "pos": "num.",
-          "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
-          "translation": "三",
-          "pos": "num.",
-          "example": "Half play two or three times a day and 10 per cent have just one play session.",
-          "sourceArticleId": "web-c5114d8c96e4f03b"
-        },
-        {
-          "translation": "三",
-          "pos": "num.",
           "example": "The bad news is that Paley's company closed down in 1984, after only three years.",
           "sourceArticleId": "web-473b3be3fe52d4fc"
         },
@@ -40468,6 +40520,18 @@
           "pos": "num.",
           "example": "Three times",
           "sourceArticleId": "web-9164814709a91049"
+        },
+        {
+          "translation": "三",
+          "pos": "num.",
+          "example": "Drinking two or three cups reduces the risk by 15 percent.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "三",
+          "pos": "num.",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -40482,7 +40546,7 @@
         "web-91480225d160a6b6"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-22T12:57:41.134Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "weeks": {
       "lemma": "week",
@@ -40583,18 +40647,6 @@
         {
           "translation": "因为",
           "pos": "conj.",
-          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "因为",
-          "pos": "conj.",
-          "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "因为",
-          "pos": "conj.",
           "example": "One in four men had experienced anger because they did not have any children, compared with 18 percent of women, while 56 percent of men had experienced sadness because they did not have any children, compared with 43 percent of women.",
           "sourceArticleId": "web-eecaaca1e069e103"
         },
@@ -40651,6 +40703,18 @@
           "pos": "conj.",
           "example": "Maggie never prepared anything special for James because   _  .",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "因为",
+          "pos": "conj.",
+          "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "因为",
+          "pos": "conj.",
+          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -40670,7 +40734,7 @@
         "web-14515232ae2b45c0"
       ],
       "articleCount": 14,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "advantages": {
       "lemma": "advantage",
@@ -40949,9 +41013,9 @@
     },
     "drink": {
       "lemma": "drink",
-      "pos": "n.",
+      "pos": "v.",
       "forms": "drinks, drank, drunk, drinking",
-      "meanings": "喝；饮；饮料；酒",
+      "meanings": "喝；饮；饮料；酒；喝酒",
       "senses": [
         {
           "translation": "饮料",
@@ -40997,7 +41061,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:50:28.968Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "pub": {
       "lemma": "pub",
@@ -41856,14 +41920,21 @@
           "pos": "pron. + v.",
           "example": "Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.",
           "sourceArticleId": "web-14515232ae2b45c0"
+        },
+        {
+          "translation": "你将",
+          "pos": "pron. + v.",
+          "example": "One egg daily and you'll get more cholesterol than recommended.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-52737a111ab04db4",
-        "web-14515232ae2b45c0"
+        "web-14515232ae2b45c0",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "schools": {
       "lemma": "school",
@@ -42046,7 +42117,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:57:41.134Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "men": {
       "lemma": "man",
@@ -42137,7 +42208,7 @@
       "lemma": "likely",
       "pos": "adj.",
       "forms": "likelier, likeliest",
-      "meanings": "很可能的；有希望的",
+      "meanings": "很可能的；有希望的；预料中的",
       "senses": [
         {
           "translation": "很可能的",
@@ -42200,7 +42271,7 @@
         "web-489568c736b8b700"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:51:09.159Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "women": {
       "lemma": "woman",
@@ -42208,18 +42279,6 @@
       "forms": "woman (单数), women (复数)",
       "meanings": "女人；女性；成年女子",
       "senses": [
-        {
-          "translation": "女人",
-          "pos": "n.",
-          "example": "Women are happy without children",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "女人",
-          "pos": "n.",
-          "example": "A research about men and women",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "女性",
           "pos": "n.",
@@ -42279,6 +42338,18 @@
           "pos": "n.",
           "example": "\"Forbes\" released the 2013 annual \"most powerful women list\".",
           "sourceArticleId": "web-9164814709a91049"
+        },
+        {
+          "translation": "女性",
+          "pos": "n.",
+          "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "女性",
+          "pos": "n.",
+          "example": "This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -42287,7 +42358,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:57:41.134Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "lonely": {
       "lemma": "lonely",
@@ -42309,10 +42380,10 @@
       "updatedAt": "2026-08-22T12:51:09.159Z"
     },
     "depressed": {
-      "lemma": "depress",
+      "lemma": "depressed",
       "pos": "adj.",
-      "forms": "depressing, depression",
-      "meanings": "沮丧的；消沉的；萧条的",
+      "forms": "无常见变形",
+      "meanings": "沮丧的；消沉的；萧条的；压抑的",
       "senses": [
         {
           "translation": "沮丧的",
@@ -42325,6 +42396,12 @@
           "pos": "adj.",
           "example": "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "沮丧的",
+          "pos": "adj.",
+          "example": "one is depressed if his brain chemical adenosine is active",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -42332,7 +42409,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:51:09.159Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "angry": {
       "lemma": "angry",
@@ -42719,7 +42796,7 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:51:54.885Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "half": {
       "lemma": "half",
@@ -43040,6 +43117,24 @@
           "pos": "n.",
           "example": "men have a higher level of guilt and depression than women",
           "sourceArticleId": "web-eecaaca1e069e103"
+        },
+        {
+          "translation": "抑郁症水平",
+          "pos": "n.",
+          "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "抑郁症",
+          "pos": "n.",
+          "example": "What is considered to fight depression best?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "抑郁症",
+          "pos": "n.",
+          "example": "tea and hot chocolate have no effect on men's depression",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -43047,7 +43142,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:51:09.159Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "four": {
       "lemma": "four",
@@ -45630,7 +45725,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:56:11.557Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "makes": {
       "lemma": "make",
@@ -46906,7 +47001,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:53:31.552Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "actually": {
       "lemma": "actually",
@@ -50322,7 +50417,7 @@
       "lemma": "content",
       "pos": "n.",
       "forms": "contents",
-      "meanings": "内容；目录；含量；容量",
+      "meanings": "含量；内容；目录；容量",
       "senses": [
         {
           "translation": "内容",
@@ -50355,7 +50450,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:53:31.552Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "developers": {
       "lemma": "developer",
@@ -52128,9 +52223,9 @@
     },
     "long": {
       "lemma": "long",
-      "pos": "adj.",
+      "pos": "adv.",
       "forms": "longer, longest",
-      "meanings": "漫长的；长期的；长时间的；远久的",
+      "meanings": "漫长的；长期的；长度的；远久的",
       "senses": [
         {
           "translation": "漫长的",
@@ -52197,7 +52292,7 @@
         "web-14515232ae2b45c0"
       ],
       "articleCount": 7,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "process": {
       "lemma": "process",
@@ -54658,7 +54753,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "returns": {
       "lemma": "return",
@@ -55191,7 +55286,7 @@
       "lemma": "effect",
       "pos": "n.",
       "forms": "effects",
-      "meanings": "影响；效果；结果；效力；生效",
+      "meanings": "影响；效果；结果；效力",
       "senses": [
         {
           "translation": "影响",
@@ -55234,6 +55329,18 @@
           "pos": "n.",
           "example": "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "作用",
+          "pos": "n.",
+          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "影响",
+          "pos": "n.",
+          "example": "tea and hot chocolate have no effect on men's depression",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -55245,7 +55352,7 @@
         "web-59b629f92c1e91fb"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T12:56:11.557Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "separate": {
       "lemma": "separate",
@@ -56469,6 +56576,12 @@
           "pos": "v.",
           "example": "contain software essential for schoolwork",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "包含",
+          "pos": "v.",
+          "example": "Eggs contain more cholesterol at present than ever before.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -56477,7 +56590,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:55:24.029Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "commonly": {
       "lemma": "common",
@@ -56663,7 +56776,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:55:24.029Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "disturbing": {
       "lemma": "disturb",
@@ -56876,14 +56989,21 @@
           "pos": "adj.",
           "example": "active and optimistic",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "活跃的",
+          "pos": "adj.",
+          "example": "one is depressed if his brain chemical adenosine is active",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-f335b4849447798b",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-22T12:58:40.664Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "account": {
       "lemma": "account",
@@ -57945,7 +58065,7 @@
       "lemma": "according",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "据……所说；依照；视……而定；按照；如……所述",
+      "meanings": "据……所说；依照；视……而定",
       "senses": [
         {
           "translation": "据……所说",
@@ -58031,7 +58151,7 @@
         "web-7504f64bec4e74a7"
       ],
       "articleCount": 8,
-      "updatedAt": "2026-08-22T13:01:11.729Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "gabe": {
       "lemma": "Gabe",
@@ -59002,7 +59122,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:56:11.557Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "seeing": {
       "lemma": "see",
@@ -59025,9 +59145,9 @@
     },
     "past": {
       "lemma": "past",
-      "pos": "adj.",
+      "pos": "n.",
       "forms": "无常见变形",
-      "meanings": "过去的；往事；过；经过",
+      "meanings": "过去；往事；过去的；过",
       "senses": [
         {
           "translation": "过去",
@@ -59073,7 +59193,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "measures": {
       "lemma": "measure",
@@ -59105,13 +59225,20 @@
           "pos": "v.",
           "example": "They call on people and the government to take measures to fight against it.",
           "sourceArticleId": "web-59b629f92c1e91fb"
+        },
+        {
+          "translation": "对抗",
+          "pos": "v.",
+          "example": "What is considered to fight depression best?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
-        "web-59b629f92c1e91fb"
+        "web-59b629f92c1e91fb",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-22T12:56:11.557Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "against": {
       "lemma": "against",
@@ -59823,7 +59950,7 @@
     },
     "result": {
       "lemma": "result",
-      "pos": "v.",
+      "pos": "n.",
       "forms": "results, resulted, resulting",
       "meanings": "结果；导致；起因于；产生",
       "senses": [
@@ -59866,7 +59993,7 @@
         "web-1fac3b0d4f7569c5"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T12:56:11.557Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "artificial": {
       "lemma": "artificial",
@@ -60549,7 +60676,7 @@
       "lemma": "daily",
       "pos": "adj.",
       "forms": "dailies",
-      "meanings": "日报；每日的；日常的；按日计的",
+      "meanings": "每日的；日常的；按日计的；日报",
       "senses": [
         {
           "translation": "日报（专有名词的一部分）",
@@ -60586,6 +60713,18 @@
           "pos": "n.",
           "example": "Visit the website of China Daily.",
           "sourceArticleId": "web-9164814709a91049"
+        },
+        {
+          "translation": "每日推荐的",
+          "pos": "adj.",
+          "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "每天",
+          "pos": "adv.",
+          "example": "One egg daily and you'll get more cholesterol than recommended.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -60595,7 +60734,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "reported": {
       "lemma": "report",
@@ -61706,7 +61845,7 @@
     },
     "fifth": {
       "lemma": "fifth",
-      "pos": "num.",
+      "pos": "n.",
       "forms": "fifths",
       "meanings": "第五；五分之一",
       "senses": [
@@ -61728,7 +61867,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:57:41.134Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "queen": {
       "lemma": "queen",
@@ -64057,7 +64196,7 @@
         "web-2e315a8a858c375d"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T12:58:07.089Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "famous": {
       "lemma": "famous",
@@ -66253,6 +66392,12 @@
           "pos": "n.",
           "example": "The author still wants to be a doctor.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "医生",
+          "pos": "n.",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -66263,7 +66408,7 @@
         "web-cda4f9a292f21a6c"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "though": {
       "lemma": "though",
@@ -66300,7 +66445,7 @@
     },
     "neither": {
       "lemma": "neither",
-      "pos": "det./pron.",
+      "pos": "pron.",
       "forms": "无常见变形",
       "meanings": "两者都不；既不……也不；也不",
       "senses": [
@@ -66329,7 +66474,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "finally": {
       "lemma": "finally",
@@ -67432,7 +67577,7 @@
         "web-09421cfd6a2c44ad"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "concerned": {
       "lemma": "concern",
@@ -72503,6 +72648,24 @@
           "pos": "n.",
           "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "茶",
+          "pos": "n.",
+          "example": "Tea.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "茶",
+          "pos": "n.",
+          "example": "coffee contains less caffeine than tea or hot chocolate",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "茶",
+          "pos": "n.",
+          "example": "tea and hot chocolate have no effect on men's depression",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -72510,7 +72673,7 @@
         "web-78c5365878759c41"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T16:08:26.331Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "coffee": {
       "lemma": "coffee",
@@ -72541,6 +72704,18 @@
           "pos": "n.",
           "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "咖啡",
+          "pos": "n.",
+          "example": "Coffee.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "咖啡",
+          "pos": "n.",
+          "example": "coffee contains less caffeine than tea or hot chocolate",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -72548,7 +72723,7 @@
         "web-78c5365878759c41"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T16:08:26.331Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "hot": {
       "lemma": "hot",
@@ -72567,13 +72742,25 @@
           "pos": "adj.",
           "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "热的",
+          "pos": "adj.",
+          "example": "coffee contains less caffeine than tea or hot chocolate",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "热的",
+          "pos": "adj.",
+          "example": "tea and hot chocolate have no effect on men's depression",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "chocolate": {
       "lemma": "chocolate",
@@ -72592,13 +72779,31 @@
           "pos": "n.",
           "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "巧克力",
+          "pos": "n.",
+          "example": "Chocolate.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "巧克力",
+          "pos": "n.",
+          "example": "coffee contains less caffeine than tea or hot chocolate",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "巧克力",
+          "pos": "n.",
+          "example": "tea and hot chocolate have no effect on men's depression",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "cups": {
       "lemma": "cup",
@@ -72623,7 +72828,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "drinking": {
       "lemma": "drink",
@@ -72649,7 +72854,7 @@
         "web-78c5365878759c41"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T16:08:26.331Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "reduces": {
       "lemma": "reduce",
@@ -72674,7 +72879,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "risk": {
       "lemma": "risk",
@@ -72693,7 +72898,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "journal": {
       "lemma": "journal",
@@ -72712,7 +72917,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "theory": {
       "lemma": "theory",
@@ -72731,13 +72936,13 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "caffeine": {
       "lemma": "caffeine",
       "pos": "n.",
       "forms": "无常见变形",
-      "meanings": "咖啡因；咖啡碱",
+      "meanings": "咖啡因",
       "senses": [
         {
           "translation": "咖啡因",
@@ -72774,6 +72979,18 @@
           "pos": "n.",
           "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "咖啡因",
+          "pos": "n.",
+          "example": "too much caffeine will probably make people sleepy",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "咖啡因",
+          "pos": "n.",
+          "example": "coffee contains less caffeine than tea or hot chocolate",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -72781,7 +72998,7 @@
         "web-78c5365878759c41"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T16:08:26.331Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "chemical": {
       "lemma": "chemical",
@@ -72794,13 +73011,19 @@
           "pos": "n.",
           "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "化学物质",
+          "pos": "n.",
+          "example": "one is depressed if his brain chemical adenosine is active",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "adenosine": {
       "lemma": "adenosine",
@@ -72819,13 +73042,25 @@
           "pos": "n.",
           "example": "Some anti-depressants also work by blocking the adenosine receptors.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "腺苷",
+          "pos": "n.",
+          "example": "Adenosine.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "腺苷",
+          "pos": "n.",
+          "example": "one is depressed if his brain chemical adenosine is active",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "brain": {
       "lemma": "brain",
@@ -72838,13 +73073,19 @@
           "pos": "n.",
           "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "大脑",
+          "pos": "n.",
+          "example": "one is depressed if his brain chemical adenosine is active",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "sleepy": {
       "lemma": "sleepy",
@@ -72857,13 +73098,19 @@
           "pos": "adj.",
           "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "困倦的",
+          "pos": "adj.",
+          "example": "too much caffeine will probably make people sleepy",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "slowing": {
       "lemma": "slow",
@@ -72882,7 +73129,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "down": {
       "lemma": "down",
@@ -72948,7 +73195,7 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-04T07:56:54.344Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "nerve": {
       "lemma": "nerve",
@@ -72967,7 +73214,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "cell": {
       "lemma": "cell",
@@ -72986,7 +73233,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "activity": {
       "lemma": "activity",
@@ -73012,13 +73259,13 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:52:35.676Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "anti": {
       "lemma": "anti",
-      "pos": "adj.",
+      "pos": "pref.",
       "forms": "无常见变形",
-      "meanings": "反对的；抗；反；抵制",
+      "meanings": "抗；反；抵制；预防",
       "senses": [
         {
           "translation": "抗",
@@ -73038,7 +73285,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:57:35.405Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "depressants": {
       "lemma": "depressant",
@@ -73057,7 +73304,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "blocking": {
       "lemma": "block",
@@ -73076,7 +73323,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "receptors": {
       "lemma": "receptor",
@@ -73095,7 +73342,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "influential": {
       "lemma": "influential",
@@ -73121,11 +73368,11 @@
         "web-9164814709a91049"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:57:41.134Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "due": {
       "lemma": "due",
-      "pos": "prep.",
+      "pos": "adj.",
       "forms": "无常见变形",
       "meanings": "由于；预期的；应得的；到期的",
       "senses": [
@@ -73147,12 +73394,12 @@
         "web-59b629f92c1e91fb"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:56:11.557Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "eggs": {
       "lemma": "egg",
       "pos": "n.",
-      "forms": "egg",
+      "forms": "eggs",
       "meanings": "鸡蛋；卵；蛋；卵细胞",
       "senses": [
         {
@@ -73178,13 +73425,37 @@
           "pos": "n.",
           "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "鸡蛋",
+          "pos": "n.",
+          "example": "What can we learn about eggs from the text?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "鸡蛋",
+          "pos": "n.",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "鸡蛋",
+          "pos": "n.",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "鸡蛋",
+          "pos": "n.",
+          "example": "Eggs contain more cholesterol at present than ever before.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "healthily": {
       "lemma": "healthy",
@@ -73209,12 +73480,12 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "eat": {
       "lemma": "eat",
       "pos": "v.",
-      "forms": "ate, eaten, eating",
+      "forms": "eats; ate; eaten; eating",
       "meanings": "吃；进食；腐蚀",
       "senses": [
         {
@@ -73246,6 +73517,12 @@
           "pos": "v.",
           "example": "Dieting has more to do with the types of food you eat than how much you eat.",
           "sourceArticleId": "web-721dea8f3b5f4d9e"
+        },
+        {
+          "translation": "吃",
+          "pos": "v.",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -73253,7 +73530,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:52:35.676Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "we've": {
       "lemma": "we have",
@@ -73279,7 +73556,7 @@
         "web-20d7ec6e8708c103"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "warned": {
       "lemma": "warn",
@@ -73305,12 +73582,12 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:54:14.939Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "stick": {
       "lemma": "stick",
       "pos": "v.",
-      "forms": "sticks, stuck, sticking",
+      "forms": "sticks; stuck; sticking",
       "meanings": "坚持；粘贴；刺入；伸出",
       "senses": [
         {
@@ -73318,13 +73595,19 @@
           "pos": "v.",
           "example": "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "坚持",
+          "pos": "v.",
+          "example": "We should stick to two or three eggs a week in general.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "cholesterol": {
       "lemma": "cholesterol",
@@ -73349,13 +73632,25 @@
           "pos": "n.",
           "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "胆固醇",
+          "pos": "n.",
+          "example": "Eggs contain more cholesterol at present than ever before.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "胆固醇",
+          "pos": "n.",
+          "example": "One egg daily and you'll get more cholesterol than recommended.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "standards": {
       "lemma": "standard",
@@ -73374,7 +73669,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "agency": {
       "lemma": "agency",
@@ -73393,7 +73688,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "recommended": {
       "lemma": "recommend",
@@ -73412,19 +73707,37 @@
           "pos": "adj.",
           "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "推荐的",
+          "pos": "adj.",
+          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "推荐的",
+          "pos": "adj.",
+          "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "推荐的",
+          "pos": "adj.",
+          "example": "One egg daily and you'll get more cholesterol than recommended.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "limit": {
       "lemma": "limit",
       "pos": "n.",
       "forms": "limits; limiting; limited",
-      "meanings": "限制；限定；限度；界限",
+      "meanings": "限度；限制；界限；限量",
       "senses": [
         {
           "translation": "限度",
@@ -73457,7 +73770,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-04T07:57:35.405Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "unless": {
       "lemma": "unless",
@@ -73470,13 +73783,19 @@
           "pos": "conj.",
           "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
           "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "除非",
+          "pos": "conj.",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "cut": {
       "lemma": "cut",
@@ -73495,7 +73814,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "evidence": {
       "lemma": "evidence",
@@ -73514,7 +73833,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "eating": {
       "lemma": "eat",
@@ -73533,7 +73852,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "hens": {
       "lemma": "hen",
@@ -73552,13 +73871,13 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "longer": {
       "lemma": "long",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "更久；较长的；不再；长时间地",
+      "meanings": "较长的；更久；不再（与no连用）",
       "senses": [
         {
           "translation": "不再",
@@ -73585,7 +73904,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:57:41.134Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "bone": {
       "lemma": "bone",
@@ -73604,13 +73923,13 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "meal": {
       "lemma": "meal",
       "pos": "n.",
-      "forms": "meals",
-      "meanings": "进餐；一顿饭；饲料；餐",
+      "forms": "meals (pl.)",
+      "meanings": "进餐；餐；饲料；一顿饭",
       "senses": [
         {
           "translation": "饲料",
@@ -73630,7 +73949,7 @@
         "web-14515232ae2b45c0"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "banned": {
       "lemma": "ban",
@@ -73649,7 +73968,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "bse": {
       "lemma": "bse",
@@ -73668,7 +73987,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "cresis": {
       "lemma": "crisis",
@@ -73687,13 +74006,13 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "research": {
       "lemma": "research",
       "pos": "n.",
       "forms": "researched, researching, researches",
-      "meanings": "研究；调查；探讨；研究工作；科研",
+      "meanings": "研究；调查；探讨",
       "senses": [
         {
           "translation": "研究",
@@ -73752,13 +74071,13 @@
         "web-eecaaca1e069e103"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T12:51:09.159Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "egg": {
       "lemma": "egg",
       "pos": "n.",
-      "forms": "eggs (复数)",
-      "meanings": "蛋；鸡蛋；卵",
+      "forms": "eggs",
+      "meanings": "鸡蛋；蛋；卵",
       "senses": [
         {
           "translation": "蛋",
@@ -73771,6 +74090,18 @@
           "pos": "n.",
           "example": "A diet rich in fruits,vegetables,egg whites,fish and nonfat dairy products will certainly aid in the mission of losing weight.",
           "sourceArticleId": "web-721dea8f3b5f4d9e"
+        },
+        {
+          "translation": "鸡蛋",
+          "pos": "n.",
+          "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        },
+        {
+          "translation": "鸡蛋",
+          "pos": "n.",
+          "example": "One egg daily and you'll get more cholesterol than recommended.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
@@ -73778,7 +74109,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:52:35.676Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "council": {
       "lemma": "council",
@@ -73797,7 +74128,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "medium": {
       "lemma": "medium",
@@ -73816,13 +74147,13 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "gives": {
       "lemma": "give",
       "pos": "v.",
-      "forms": "give; gives; gave; given; giving",
-      "meanings": "提供；给予；赠送；产生；分配",
+      "forms": "gave, given, giving, gives",
+      "meanings": "提供；给予；赠送；产生",
       "senses": [
         {
           "translation": "提供",
@@ -73870,7 +74201,7 @@
         "web-91480225d160a6b6"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T12:49:25.762Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "mg": {
       "lemma": "mg",
@@ -73889,7 +74220,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T14:28:40.658Z"
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "uniforms": {
       "lemma": "uniform",
@@ -79915,7 +80246,7 @@
       "lemma": "consider",
       "pos": "v.",
       "forms": "considered, considering, considers",
-      "meanings": "考虑；认为；细想；斟酌",
+      "meanings": "认为；考虑；被认为；细想；斟酌",
       "senses": [
         {
           "translation": "被认为",
@@ -79928,14 +80259,21 @@
           "pos": "v.",
           "example": "was considered to be a very valuable one",
           "sourceArticleId": "web-09421cfd6a2c44ad"
+        },
+        {
+          "translation": "被认为",
+          "pos": "v.",
+          "example": "What is considered to fight depression best?",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-20d7ec6e8708c103",
-        "web-09421cfd6a2c44ad"
+        "web-09421cfd6a2c44ad",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-22T12:52:40.598Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "participants": {
       "lemma": "participant",
@@ -93352,14 +93690,21 @@
           "pos": "v.",
           "example": "What can we infer from the passage?",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "推断",
+          "pos": "v.",
+          "example": "We can infer from the text that  _  .",
+          "sourceArticleId": "web-ee55c880f34e43f4"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
-        "web-b08fa6a6e65a8840"
+        "web-b08fa6a6e65a8840",
+        "web-ee55c880f34e43f4"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     },
     "highly": {
       "lemma": "highly",
@@ -96231,6 +96576,63 @@
       ],
       "articleCount": 1,
       "updatedAt": "2026-08-22T13:01:48.952Z"
+    },
+    "contains": {
+      "lemma": "contain",
+      "pos": "v.",
+      "forms": "contains, contained, containing",
+      "meanings": "含有；包含；容纳；包括；控制",
+      "senses": [
+        {
+          "translation": "含有",
+          "pos": "v.",
+          "example": "coffee contains less caffeine than tea or hot chocolate",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        }
+      ],
+      "articleIds": [
+        "web-ee55c880f34e43f4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
+    },
+    "men's": {
+      "lemma": "man",
+      "pos": "pron.",
+      "forms": "man, men, men's",
+      "meanings": "男人的；属于男性的",
+      "senses": [
+        {
+          "translation": "男性的",
+          "pos": "pron.",
+          "example": "tea and hot chocolate have no effect on men's depression",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        }
+      ],
+      "articleIds": [
+        "web-ee55c880f34e43f4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
+    },
+    "advises": {
+      "lemma": "advise",
+      "pos": "v.",
+      "forms": "advises, advised, advising",
+      "meanings": "劝告；建议；通知；提醒",
+      "senses": [
+        {
+          "translation": "劝告",
+          "pos": "v.",
+          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
+          "sourceArticleId": "web-ee55c880f34e43f4"
+        }
+      ],
+      "articleIds": [
+        "web-ee55c880f34e43f4"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-22T13:02:22.329Z"
     }
   }
 }

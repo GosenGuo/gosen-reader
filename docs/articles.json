@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T13:01:48.956Z",
+  "generatedAt": "2026-08-22T13:02:22.333Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -83973,6 +83973,14 @@
             "*What prevents depression:tea,coffee or hot chocolate?": {
               "translation": "什么",
               "pos": "pron."
+            },
+            "What is considered to fight depression best?": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "What can we learn about eggs from the text?": {
+              "translation": "什么",
+              "pos": "pron."
             }
           }
         },
@@ -84001,6 +84009,14 @@
               "pos": "n."
             },
             "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.": {
+              "translation": "抑郁症水平",
+              "pos": "n."
+            },
+            "What is considered to fight depression best?": {
+              "translation": "抑郁症",
+              "pos": "n."
+            },
+            "tea and hot chocolate have no effect on men's depression": {
               "translation": "抑郁症",
               "pos": "n."
             }
@@ -84018,6 +84034,18 @@
               "pos": "n."
             },
             "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.": {
+              "translation": "茶",
+              "pos": "n."
+            },
+            "Tea.": {
+              "translation": "茶",
+              "pos": "n."
+            },
+            "coffee contains less caffeine than tea or hot chocolate": {
+              "translation": "茶",
+              "pos": "n."
+            },
+            "tea and hot chocolate have no effect on men's depression": {
               "translation": "茶",
               "pos": "n."
             }
@@ -84041,6 +84069,14 @@
             "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.": {
               "translation": "咖啡",
               "pos": "n."
+            },
+            "Coffee.": {
+              "translation": "咖啡",
+              "pos": "n."
+            },
+            "coffee contains less caffeine than tea or hot chocolate": {
+              "translation": "咖啡",
+              "pos": "n."
             }
           }
         },
@@ -84056,11 +84092,11 @@
               "pos": "conj."
             },
             "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.": {
-              "translation": "或者",
+              "translation": "或",
               "pos": "conj."
             },
             "Drinking two or three cups reduces the risk by 15 percent.": {
-              "translation": "或者",
+              "translation": "或",
               "pos": "conj."
             },
             "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.": {
@@ -84068,11 +84104,19 @@
               "pos": "conj."
             },
             "*How many eggs can we healthily eat: one a day or two a day?": {
-              "translation": "或者",
+              "translation": "还是",
               "pos": "conj."
             },
             "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.": {
+              "translation": "或",
+              "pos": "conj."
+            },
+            "coffee contains less caffeine than tea or hot chocolate": {
               "translation": "或者",
+              "pos": "conj."
+            },
+            "We should stick to two or three eggs a week in general.": {
+              "translation": "或",
               "pos": "conj."
             }
           }
@@ -84091,6 +84135,14 @@
             "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.": {
               "translation": "热的",
               "pos": "adj."
+            },
+            "coffee contains less caffeine than tea or hot chocolate": {
+              "translation": "热的",
+              "pos": "adj."
+            },
+            "tea and hot chocolate have no effect on men's depression": {
+              "translation": "热的",
+              "pos": "adj."
             }
           }
         },
@@ -84106,6 +84158,18 @@
               "pos": "n."
             },
             "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.": {
+              "translation": "巧克力",
+              "pos": "n."
+            },
+            "Chocolate.": {
+              "translation": "巧克力",
+              "pos": "n."
+            },
+            "coffee contains less caffeine than tea or hot chocolate": {
+              "translation": "巧克力",
+              "pos": "n."
+            },
+            "tea and hot chocolate have no effect on men's depression": {
               "translation": "巧克力",
               "pos": "n."
             }
@@ -84179,8 +84243,16 @@
               "pos": "adj."
             },
             "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.": {
-              "translation": "更",
+              "translation": "更加",
               "pos": "adv."
+            },
+            "Eggs contain more cholesterol at present than ever before.": {
+              "translation": "更多的",
+              "pos": "adj."
+            },
+            "One egg daily and you'll get more cholesterol than recommended.": {
+              "translation": "更多的",
+              "pos": "adj."
             }
           }
         },
@@ -84232,7 +84304,7 @@
         },
         "a": {
           "lemma": "a",
-          "translation": "每一",
+          "translation": "一个",
           "pos": "art.",
           "forms": "an",
           "meanings": "一个；每一；任何；一种；同一",
@@ -84246,15 +84318,19 @@
               "pos": "art."
             },
             "*How many eggs can we healthily eat: one a day or two a day?": {
-              "translation": "每一",
+              "translation": "一个",
               "pos": "art."
             },
             "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.": {
-              "translation": "每一",
+              "translation": "三个",
               "pos": "art."
             },
             "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.": {
               "translation": "一个",
+              "pos": "art."
+            },
+            "We should stick to two or three eggs a week in general.": {
+              "translation": "三个",
               "pos": "art."
             }
           }
@@ -84308,16 +84384,20 @@
         },
         "less": {
           "lemma": "less",
-          "translation": "更少地",
+          "translation": "更少的",
           "pos": "adv.",
           "forms": "little, less, least",
           "meanings": "更少的；较小的；较少的；较少地",
           "contexts": {
             "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.": {
-              "translation": "较少地",
+              "translation": "更少可能",
               "pos": "adv."
             },
             "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.": {
+              "translation": "更少的",
+              "pos": "adj."
+            },
+            "coffee contains less caffeine than tea or hot chocolate": {
               "translation": "更少的",
               "pos": "adj."
             }
@@ -84356,8 +84436,20 @@
               "pos": "particle"
             },
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
-              "translation": "到达/关于",
-              "pos": "prep."
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "What is considered to fight depression best?": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "We should stick to two or three eggs a week in general.": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
+              "translation": "构成不定式",
+              "pos": "particle"
             }
           }
         },
@@ -84382,6 +84474,10 @@
           "meanings": "沮丧的；消沉的；萧条的；压抑的",
           "contexts": {
             "Women who drink for or more cups of coffee a day are a fifth less likely to become depressed.": {
+              "translation": "沮丧的",
+              "pos": "adj."
+            },
+            "one is depressed if his brain chemical adenosine is active": {
               "translation": "沮丧的",
               "pos": "adj."
             }
@@ -84418,6 +84514,10 @@
             "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.": {
               "translation": "二",
               "pos": "num."
+            },
+            "We should stick to two or three eggs a week in general.": {
+              "translation": "二",
+              "pos": "num."
             }
           }
         },
@@ -84433,6 +84533,10 @@
               "pos": "num."
             },
             "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.": {
+              "translation": "三",
+              "pos": "num."
+            },
+            "We should stick to two or three eggs a week in general.": {
               "translation": "三",
               "pos": "num."
             }
@@ -84457,41 +84561,49 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "这",
+          "translation": "这；那",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这；那；（用于特指）；（用于最高级前）",
           "contexts": {
             "Drinking two or three cups reduces the risk by 15 percent.": {
-              "translation": "这",
+              "translation": "该",
               "pos": "art."
             },
             "This is the result of a study of 51,000 women over ten years, published in the Journal of the American Medicine Association.": {
-              "translation": "这",
+              "translation": "该",
               "pos": "art."
             },
             "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.": {
-              "translation": "这",
+              "translation": "该",
               "pos": "art."
             },
             "Some anti-depressants also work by blocking the adenosine receptors.": {
-              "translation": "这",
+              "translation": "该",
               "pos": "art."
             },
             "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.": {
-              "translation": "这",
+              "translation": "该",
               "pos": "art."
             },
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
-              "translation": "这",
+              "translation": "该",
               "pos": "art."
             },
             "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.": {
-              "translation": "这",
+              "translation": "该",
               "pos": "art."
             },
             "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.": {
-              "translation": "这",
+              "translation": "该",
+              "pos": "art."
+            },
+            "We can infer from the text that  _  .": {
+              "translation": "该",
+              "pos": "art."
+            },
+            "What can we learn about eggs from the text?": {
+              "translation": "该",
               "pos": "art."
             }
           }
@@ -84580,11 +84692,19 @@
               "pos": "v."
             },
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
-              "translation": "存在",
+              "translation": "是",
               "pos": "v."
             },
             "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.": {
-              "translation": "存在",
+              "translation": "是",
+              "pos": "v."
+            },
+            "What is considered to fight depression best?": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "one is depressed if his brain chemical adenosine is active": {
+              "translation": "是",
               "pos": "v."
             }
           }
@@ -84685,6 +84805,10 @@
             "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.": {
               "translation": "在……期间",
               "pos": "prep."
+            },
+            "We should stick to two or three eggs a week in general.": {
+              "translation": "在……之内",
+              "pos": "prep."
             }
           }
         },
@@ -84742,16 +84866,24 @@
         },
         "one": {
           "lemma": "one",
-          "translation": "一种（情况）",
+          "translation": "一个",
           "pos": "pron.",
           "forms": "ones",
           "meanings": "一个；某人；单一的；其中之一",
           "contexts": {
             "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.": {
-              "translation": "一种（情况）",
-              "pos": "pron."
+              "translation": "一个",
+              "pos": "num."
             },
             "*How many eggs can we healthily eat: one a day or two a day?": {
+              "translation": "一个",
+              "pos": "num."
+            },
+            "one is depressed if his brain chemical adenosine is active": {
+              "translation": "某人",
+              "pos": "pron."
+            },
+            "One egg daily and you'll get more cholesterol than recommended.": {
               "translation": "一个",
               "pos": "num."
             }
@@ -84772,21 +84904,25 @@
         },
         "that": {
           "lemma": "that",
-          "translation": "引导宾语从句",
+          "translation": "引导从句",
           "pos": "conj.",
           "forms": "those",
           "meanings": "引导从句；那个；那；因为",
           "contexts": {
             "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.": {
-              "translation": "引导宾语从句",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.": {
-              "translation": "引导宾语从句",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.": {
-              "translation": "引导宾语从句",
+              "translation": "那个",
+              "pos": "det."
+            },
+            "We can infer from the text that  _  .": {
+              "translation": "引导从句",
               "pos": "conj."
             }
           }
@@ -84805,17 +84941,29 @@
             "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.": {
               "translation": "咖啡因",
               "pos": "n."
+            },
+            "too much caffeine will probably make people sleepy": {
+              "translation": "咖啡因",
+              "pos": "n."
+            },
+            "coffee contains less caffeine than tea or hot chocolate": {
+              "translation": "咖啡因",
+              "pos": "n."
             }
           }
         },
         "effect": {
           "lemma": "effect",
-          "translation": "影响",
+          "translation": "作用",
           "pos": "n.",
           "forms": "effects",
           "meanings": "影响；效果；结果；效力",
           "contexts": {
             "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.": {
+              "translation": "作用",
+              "pos": "n."
+            },
+            "tea and hot chocolate have no effect on men's depression": {
               "translation": "影响",
               "pos": "n."
             }
@@ -84829,6 +84977,10 @@
           "meanings": "化学物质；化学制品；化学的；化学上的",
           "contexts": {
             "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.": {
+              "translation": "化学物质",
+              "pos": "n."
+            },
+            "one is depressed if his brain chemical adenosine is active": {
               "translation": "化学物质",
               "pos": "n."
             }
@@ -84848,6 +85000,14 @@
             "Some anti-depressants also work by blocking the adenosine receptors.": {
               "translation": "腺苷",
               "pos": "n."
+            },
+            "Adenosine.": {
+              "translation": "腺苷",
+              "pos": "n."
+            },
+            "one is depressed if his brain chemical adenosine is active": {
+              "translation": "腺苷",
+              "pos": "n."
             }
           }
         },
@@ -84859,6 +85019,10 @@
           "meanings": "大脑；头脑；智力；才智",
           "contexts": {
             "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.": {
+              "translation": "大脑",
+              "pos": "n."
+            },
+            "one is depressed if his brain chemical adenosine is active": {
               "translation": "大脑",
               "pos": "n."
             }
@@ -84899,6 +85063,14 @@
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
               "translation": "能够",
               "pos": "modal verb"
+            },
+            "We can infer from the text that  _  .": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "What can we learn about eggs from the text?": {
+              "translation": "能够",
+              "pos": "modal verb"
             }
           }
         },
@@ -84910,6 +85082,10 @@
           "meanings": "使；制作；制造；构成；制定",
           "contexts": {
             "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.": {
+              "translation": "使",
+              "pos": "v."
+            },
+            "too much caffeine will probably make people sleepy": {
               "translation": "使",
               "pos": "v."
             }
@@ -84949,6 +85125,10 @@
           "meanings": "困倦的；想睡的；寂静的；冷清的",
           "contexts": {
             "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.": {
+              "translation": "困倦的",
+              "pos": "adj."
+            },
+            "too much caffeine will probably make people sleepy": {
               "translation": "困倦的",
               "pos": "adj."
             }
@@ -85199,7 +85379,11 @@
           "meanings": "关于；在……之上；在（某一天）；继续；在（时间）",
           "contexts": {
             "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.": {
-              "translation": "关于；对于",
+              "translation": "对……的影响",
+              "pos": "prep."
+            },
+            "tea and hot chocolate have no effect on men's depression": {
+              "translation": "对",
               "pos": "prep."
             }
           }
@@ -85233,6 +85417,18 @@
               "pos": "conj."
             },
             "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "coffee contains less caffeine than tea or hot chocolate": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "Eggs contain more cholesterol at present than ever before.": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "One egg daily and you'll get more cholesterol than recommended.": {
               "translation": "比",
               "pos": "conj."
             }
@@ -85316,6 +85512,10 @@
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
               "translation": "许多",
               "pos": "adj."
+            },
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
+              "translation": "许多",
+              "pos": "adj."
             }
           }
         },
@@ -85323,7 +85523,7 @@
           "lemma": "egg",
           "translation": "鸡蛋",
           "pos": "n.",
-          "forms": "egg",
+          "forms": "eggs",
           "meanings": "鸡蛋；卵；蛋；卵细胞",
           "contexts": {
             "*How many eggs can we healthily eat: one a day or two a day?": {
@@ -85341,6 +85541,22 @@
             "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.": {
               "translation": "鸡蛋",
               "pos": "n."
+            },
+            "What can we learn about eggs from the text?": {
+              "translation": "鸡蛋",
+              "pos": "n."
+            },
+            "We should stick to two or three eggs a week in general.": {
+              "translation": "鸡蛋",
+              "pos": "n."
+            },
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
+              "translation": "鸡蛋",
+              "pos": "n."
+            },
+            "Eggs contain more cholesterol at present than ever before.": {
+              "translation": "鸡蛋",
+              "pos": "n."
             }
           }
         },
@@ -85348,7 +85564,7 @@
           "lemma": "we",
           "translation": "我们",
           "pos": "pron.",
-          "forms": "us, our, ours",
+          "forms": "us; our; ours",
           "meanings": "我们；大家；咱们",
           "contexts": {
             "*How many eggs can we healthily eat: one a day or two a day?": {
@@ -85360,6 +85576,18 @@
               "pos": "pron."
             },
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "We can infer from the text that  _  .": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "What can we learn about eggs from the text?": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "We should stick to two or three eggs a week in general.": {
               "translation": "我们",
               "pos": "pron."
             }
@@ -85386,7 +85614,7 @@
           "lemma": "eat",
           "translation": "吃",
           "pos": "v.",
-          "forms": "ate, eaten, eating",
+          "forms": "eats; ate; eaten; eating",
           "meanings": "吃；进食；腐蚀",
           "contexts": {
             "*How many eggs can we healthily eat: one a day or two a day?": {
@@ -85398,6 +85626,10 @@
               "pos": "v."
             },
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
+              "translation": "吃",
+              "pos": "v."
+            },
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
               "translation": "吃",
               "pos": "v."
             }
@@ -85502,10 +85734,14 @@
           "lemma": "stick",
           "translation": "坚持",
           "pos": "v.",
-          "forms": "sticks, stuck, sticking",
+          "forms": "sticks; stuck; sticking",
           "meanings": "坚持；粘贴；刺入；伸出",
           "contexts": {
             "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.": {
+              "translation": "坚持",
+              "pos": "v."
+            },
+            "We should stick to two or three eggs a week in general.": {
               "translation": "坚持",
               "pos": "v."
             }
@@ -85519,6 +85755,10 @@
           "meanings": "周；星期",
           "contexts": {
             "We've long been warned to stick to two or three eggs a week because of their high cholesterol content.": {
+              "translation": "周",
+              "pos": "n."
+            },
+            "We should stick to two or three eggs a week in general.": {
               "translation": "周",
               "pos": "n."
             }
@@ -85570,6 +85810,14 @@
               "pos": "n."
             },
             "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.": {
+              "translation": "胆固醇",
+              "pos": "n."
+            },
+            "Eggs contain more cholesterol at present than ever before.": {
+              "translation": "胆固醇",
+              "pos": "n."
+            },
+            "One egg daily and you'll get more cholesterol than recommended.": {
               "translation": "胆固醇",
               "pos": "n."
             }
@@ -85671,22 +85919,30 @@
             "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.": {
               "translation": "没有",
               "pos": "det."
+            },
+            "tea and hot chocolate have no effect on men's depression": {
+              "translation": "没有",
+              "pos": "det."
             }
           }
         },
         "recommended": {
           "lemma": "recommend",
-          "translation": "建议的",
+          "translation": "推荐的",
           "pos": "adj.",
           "forms": "recommends; recommending; recommended",
           "meanings": "建议的；推荐的；被认可的",
           "contexts": {
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
-              "translation": "建议的",
+              "translation": "推荐的",
               "pos": "adj."
             },
             "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.": {
-              "translation": "建议的",
+              "translation": "推荐的",
+              "pos": "adj."
+            },
+            "One egg daily and you'll get more cholesterol than recommended.": {
+              "translation": "推荐的",
               "pos": "adj."
             }
           }
@@ -85718,6 +85974,10 @@
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
               "translation": "除非",
               "pos": "conj."
+            },
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
+              "translation": "除非",
+              "pos": "conj."
             }
           }
         },
@@ -85735,19 +85995,31 @@
             "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.": {
               "translation": "你",
               "pos": "pron."
+            },
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "One egg daily and you'll get more cholesterol than recommended.": {
+              "translation": "你",
+              "pos": "pron."
             }
           }
         },
         "have": {
           "lemma": "have",
-          "translation": "有",
+          "translation": "被告知",
           "pos": "v.",
           "forms": "has, had, having",
-          "meanings": "有；经历；吃；（完成时态助动词）",
+          "meanings": "有；经历；吃；被告知；（完成时态助动词）",
           "contexts": {
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
+              "translation": "被告知",
+              "pos": "v."
+            },
+            "tea and hot chocolate have no effect on men's depression": {
               "translation": "有",
-              "pos": "aux."
+              "pos": "v."
             }
           }
         },
@@ -85787,6 +86059,10 @@
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
               "translation": "你的",
               "pos": "pron."
+            },
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
+              "translation": "你的",
+              "pos": "pron."
             }
           }
         },
@@ -85798,6 +86074,10 @@
           "meanings": "医生；博士；医师",
           "contexts": {
             "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.": {
+              "translation": "医生",
+              "pos": "n."
+            },
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
               "translation": "医生",
               "pos": "n."
             }
@@ -85850,6 +86130,14 @@
           "meanings": "和；而且；然后；接着",
           "contexts": {
             "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.": {
+              "translation": "而且",
+              "pos": "conj."
+            },
+            "tea and hot chocolate have no effect on men's depression": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "One egg daily and you'll get more cholesterol than recommended.": {
               "translation": "和",
               "pos": "conj."
             }
@@ -85876,6 +86164,10 @@
           "meanings": "包含；容纳；克制（情绪）；装有",
           "contexts": {
             "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.": {
+              "translation": "包含",
+              "pos": "v."
+            },
+            "Eggs contain more cholesterol at present than ever before.": {
               "translation": "包含",
               "pos": "v."
             }
@@ -85982,6 +86274,10 @@
             "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.": {
               "translation": "复数词尾",
               "pos": "suffix"
+            },
+            "tea and hot chocolate have no effect on men's depression": {
+              "translation": "复数词尾",
+              "pos": "suffix"
             }
           }
         },
@@ -86052,13 +86348,17 @@
         },
         "egg": {
           "lemma": "egg",
-          "translation": "蛋",
+          "translation": "鸡蛋",
           "pos": "n.",
-          "forms": "eggs (复数)",
-          "meanings": "蛋；鸡蛋；卵",
+          "forms": "eggs",
+          "meanings": "鸡蛋；蛋；卵",
           "contexts": {
             "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.": {
-              "translation": "蛋",
+              "translation": "鸡蛋",
+              "pos": "n."
+            },
+            "One egg daily and you'll get more cholesterol than recommended.": {
+              "translation": "鸡蛋",
               "pos": "n."
             }
           }
@@ -86146,11 +86446,413 @@
           "translation": "每日的",
           "pos": "adj.",
           "forms": "dailies",
-          "meanings": "日报；每日的；日常的；按日计的",
+          "meanings": "每日的；日常的；按日计的；日报",
           "contexts": {
             "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.": {
-              "translation": "每日的",
+              "translation": "每日推荐的",
               "pos": "adj."
+            },
+            "One egg daily and you'll get more cholesterol than recommended.": {
+              "translation": "每天",
+              "pos": "adv."
+            }
+          }
+        },
+        "considered": {
+          "lemma": "consider",
+          "translation": "被认为",
+          "pos": "v.",
+          "forms": "considered, considering, considers",
+          "meanings": "认为；考虑；被认为；细想；斟酌",
+          "contexts": {
+            "What is considered to fight depression best?": {
+              "translation": "被认为",
+              "pos": "v."
+            }
+          }
+        },
+        "fight": {
+          "lemma": "fight",
+          "translation": "对抗",
+          "pos": "v.",
+          "forms": "fought, fighting, fights",
+          "meanings": "对抗；斗争；打架；争论",
+          "contexts": {
+            "What is considered to fight depression best?": {
+              "translation": "对抗",
+              "pos": "v."
+            }
+          }
+        },
+        "best": {
+          "lemma": "best",
+          "translation": "最好的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "最好的；最优秀的；最合适的；最佳的；最有效的",
+          "contexts": {
+            "What is considered to fight depression best?": {
+              "translation": "最好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "infer": {
+          "lemma": "infer",
+          "translation": "推断",
+          "pos": "v.",
+          "forms": "infers, inferred, inferring",
+          "meanings": "推断；推论；暗示；推导；表明",
+          "contexts": {
+            "We can infer from the text that  _  .": {
+              "translation": "推断",
+              "pos": "v."
+            }
+          }
+        },
+        "from": {
+          "lemma": "from",
+          "translation": "从",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "从；来自；因为；由于；起始",
+          "contexts": {
+            "We can infer from the text that  _  .": {
+              "translation": "从",
+              "pos": "prep."
+            },
+            "What can we learn about eggs from the text?": {
+              "translation": "从",
+              "pos": "prep."
+            }
+          }
+        },
+        "text": {
+          "lemma": "text",
+          "translation": "文本",
+          "pos": "n.",
+          "forms": "texts",
+          "meanings": "文本；正文；课文；短信；段落",
+          "contexts": {
+            "We can infer from the text that  _  .": {
+              "translation": "文本",
+              "pos": "n."
+            },
+            "What can we learn about eggs from the text?": {
+              "translation": "文本",
+              "pos": "n."
+            }
+          }
+        },
+        "too": {
+          "lemma": "too",
+          "translation": "太",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "太；过于；也；很；过多地",
+          "contexts": {
+            "too much caffeine will probably make people sleepy": {
+              "translation": "太",
+              "pos": "adv."
+            }
+          }
+        },
+        "much": {
+          "lemma": "much",
+          "translation": "很",
+          "pos": "adv.",
+          "forms": "more, most",
+          "meanings": "很；非常；多；大量；许多",
+          "contexts": {
+            "too much caffeine will probably make people sleepy": {
+              "translation": "很",
+              "pos": "adv."
+            }
+          }
+        },
+        "will": {
+          "lemma": "will",
+          "translation": "将要",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将要；会；愿意；意志；决心",
+          "contexts": {
+            "too much caffeine will probably make people sleepy": {
+              "translation": "将要",
+              "pos": "modal v."
+            }
+          }
+        },
+        "probably": {
+          "lemma": "probably",
+          "translation": "大概",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大概；很可能；或许；可能地；大半",
+          "contexts": {
+            "too much caffeine will probably make people sleepy": {
+              "translation": "大概",
+              "pos": "adv."
+            }
+          }
+        },
+        "people": {
+          "lemma": "people",
+          "translation": "人们",
+          "pos": "n.",
+          "forms": "peoples",
+          "meanings": "人们；民族；人；国民；百姓",
+          "contexts": {
+            "too much caffeine will probably make people sleepy": {
+              "translation": "人们",
+              "pos": "n."
+            }
+          }
+        },
+        "contains": {
+          "lemma": "contain",
+          "translation": "含有",
+          "pos": "v.",
+          "forms": "contains, contained, containing",
+          "meanings": "含有；包含；容纳；包括；控制",
+          "contexts": {
+            "coffee contains less caffeine than tea or hot chocolate": {
+              "translation": "含有",
+              "pos": "v."
+            }
+          }
+        },
+        "if": {
+          "lemma": "if",
+          "translation": "如果",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "如果；是否；即使；仿佛",
+          "contexts": {
+            "one is depressed if his brain chemical adenosine is active": {
+              "translation": "如果",
+              "pos": "conj."
+            }
+          }
+        },
+        "his": {
+          "lemma": "he",
+          "translation": "他的",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他的；属于他的",
+          "contexts": {
+            "one is depressed if his brain chemical adenosine is active": {
+              "translation": "他的",
+              "pos": "pron."
+            }
+          }
+        },
+        "active": {
+          "lemma": "active",
+          "translation": "活跃的",
+          "pos": "adj.",
+          "forms": "actively; activeness",
+          "meanings": "有效的；活跃的；积极的；主动的",
+          "contexts": {
+            "one is depressed if his brain chemical adenosine is active": {
+              "translation": "活跃的",
+              "pos": "adj."
+            }
+          }
+        },
+        "men's": {
+          "lemma": "man",
+          "translation": "男性的",
+          "pos": "pron.",
+          "forms": "man, men, men's",
+          "meanings": "男人的；属于男性的",
+          "contexts": {
+            "tea and hot chocolate have no effect on men's depression": {
+              "translation": "男性的",
+              "pos": "pron."
+            }
+          }
+        },
+        "learn": {
+          "lemma": "learn",
+          "translation": "了解",
+          "pos": "v.",
+          "forms": "learnt/learned, learning",
+          "meanings": "学习；得知；获悉；认识到；学会",
+          "contexts": {
+            "What can we learn about eggs from the text?": {
+              "translation": "了解",
+              "pos": "v."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围；正要",
+          "contexts": {
+            "What can we learn about eggs from the text?": {
+              "translation": "关于",
+              "pos": "prep."
+            }
+          }
+        },
+        "should": {
+          "lemma": "should",
+          "translation": "应该",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "应该；会；可能",
+          "contexts": {
+            "We should stick to two or three eggs a week in general.": {
+              "translation": "应该",
+              "pos": "modal v."
+            }
+          }
+        },
+        "general": {
+          "lemma": "general",
+          "translation": "一般的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "总的；普遍的；一般的；首席的",
+          "contexts": {
+            "We should stick to two or three eggs a week in general.": {
+              "translation": "一般的",
+              "pos": "adj."
+            }
+          }
+        },
+        "as": {
+          "lemma": "as",
+          "translation": "像……一样",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "像……一样；作为；当……时；正如；因为",
+          "contexts": {
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
+              "translation": "像……一样",
+              "pos": "adv."
+            }
+          }
+        },
+        "like": {
+          "lemma": "like",
+          "translation": "像",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "像；如同；例如；喜欢",
+          "contexts": {
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
+              "translation": "像",
+              "pos": "prep."
+            }
+          }
+        },
+        "advises": {
+          "lemma": "advise",
+          "translation": "劝告",
+          "pos": "v.",
+          "forms": "advises, advised, advising",
+          "meanings": "劝告；建议；通知；提醒",
+          "contexts": {
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
+              "translation": "劝告",
+              "pos": "v."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；没；不是；绝非",
+          "contexts": {
+            "Eat as many eggs as you like unless your doctor advises you not to.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "at": {
+          "lemma": "at",
+          "translation": "在",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在（某时间/地点）；以（某种程度）；向；针对",
+          "contexts": {
+            "Eggs contain more cholesterol at present than ever before.": {
+              "translation": "在（某个时间点）",
+              "pos": "prep."
+            }
+          }
+        },
+        "present": {
+          "lemma": "present",
+          "translation": "目前的",
+          "pos": "adj.",
+          "forms": "presents, presented, presenting",
+          "meanings": "目前的；出席的；现在的；礼物",
+          "contexts": {
+            "Eggs contain more cholesterol at present than ever before.": {
+              "translation": "目前的",
+              "pos": "adj."
+            }
+          }
+        },
+        "ever": {
+          "lemma": "ever",
+          "translation": "曾经",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "曾经；永远；在任何时候；究竟",
+          "contexts": {
+            "Eggs contain more cholesterol at present than ever before.": {
+              "translation": "曾经",
+              "pos": "adv."
+            }
+          }
+        },
+        "before": {
+          "lemma": "before",
+          "translation": "以前",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在...之前；以前；在...前面；先于；在...之前的时间里",
+          "contexts": {
+            "Eggs contain more cholesterol at present than ever before.": {
+              "translation": "以前",
+              "pos": "adv."
+            }
+          }
+        },
+        "you'll": {
+          "lemma": "you will",
+          "translation": "你将",
+          "pos": "pron. + v.",
+          "forms": "无常见变形",
+          "meanings": "你将；你会",
+          "contexts": {
+            "One egg daily and you'll get more cholesterol than recommended.": {
+              "translation": "你将",
+              "pos": "pron. + v."
+            }
+          }
+        },
+        "get": {
+          "lemma": "get",
+          "translation": "获得",
+          "pos": "v.",
+          "forms": "gets, got, gotten, getting",
+          "meanings": "获得；变得；到达；理解；使得",
+          "contexts": {
+            "One egg daily and you'll get more cholesterol than recommended.": {
+              "translation": "获得",
+              "pos": "v."
             }
           }
         }

@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T13:01:48.956Z",
+      "generatedAt": "2026-08-22T13:02:22.333Z",
       "requestedArticles": 40,
-      "acceptedArticles": 23,
+      "acceptedArticles": 24,
       "completed": false,
       "usage": {
-        "requests": 178,
-        "inputTokens": 365924,
-        "outputTokens": 209193,
-        "totalTokens": 575117,
+        "requests": 186,
+        "inputTokens": 383633,
+        "outputTokens": 218211,
+        "totalTokens": 601844,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.03953289,
+        "estimatedCostCny": 0.04129126,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 178,
-            "inputTokens": 365924,
-            "outputTokens": 209193,
-            "totalTokens": 575117,
+            "requests": 186,
+            "inputTokens": 383633,
+            "outputTokens": 218211,
+            "totalTokens": 601844,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.03953289
+            "estimatedCostCny": 0.04129126
           }
         }
       },
@@ -2439,6 +2439,25 @@
               "totalTokens": 28267,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00187944
+            }
+          }
+        },
+        {
+          "articleId": "web-ee55c880f34e43f4",
+          "title": "RACE 高中英语阅读 high413",
+          "requests": 8,
+          "inputTokens": 17709,
+          "outputTokens": 9018,
+          "totalTokens": 26727,
+          "estimatedCostCny": 0.00175837,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 8,
+              "inputTokens": 17709,
+              "outputTokens": 9018,
+              "totalTokens": 26727,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00175837
             }
           }
         }
