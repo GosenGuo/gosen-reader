@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:59:55.803Z",
+  "generatedAt": "2026-08-22T13:01:11.733Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -77784,25 +77784,33 @@
           "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
           "contexts": {
             "In order to start a business online now, there are a few steps you need to complete.": {
-              "translation": "在……之内",
+              "translation": "为了",
               "pos": "prep."
             },
             "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.": {
               "translation": "在……方面",
+              "pos": "prep."
+            },
+            "The writer wrote this passage in order to tell us   _  .": {
+              "translation": "为了",
               "pos": "prep."
             }
           }
         },
         "order": {
           "lemma": "order",
-          "translation": "顺序",
+          "translation": "目的",
           "pos": "n.",
           "forms": "orders, ordered, ordering",
           "meanings": "顺序；命令；秩序；目的；订购",
           "contexts": {
             "In order to start a business online now, there are a few steps you need to complete.": {
-              "translation": "为了（in order to）",
-              "pos": "prep."
+              "translation": "目的",
+              "pos": "n."
+            },
+            "The writer wrote this passage in order to tell us   _  .": {
+              "translation": "目的",
+              "pos": "n."
             }
           }
         },
@@ -77834,8 +77842,8 @@
               "pos": "particle"
             },
             "Your domain name should be as simple as possible and it should be related to(.": {
-              "translation": "对于",
-              "pos": "prep."
+              "translation": "构成不定式",
+              "pos": "particle"
             },
             "You can either do this yourself or you can pay someone else to do this.": {
               "translation": "构成不定式",
@@ -77860,6 +77868,46 @@
             "That's how easy it is to start a business online now.": {
               "translation": "构成不定式",
               "pos": "particle"
+            },
+            "The writer wrote this passage in order to tell us   _  .": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "how to set up a website": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "how to start a business online": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "how to make some pocket money": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "how to become famous nowadays": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "According to the writer, which of the following may NOT be something necessary to do?": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "it costs no money to start a business online": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "not everyone is allowed  to start a business online": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "you need to have as many merchant accounts as possible": {
+              "translation": "构成不定式",
+              "pos": "particle"
+            },
+            "it is better if the website domain name is related to the products you sell.": {
+              "translation": "构成不定式",
+              "pos": "particle"
             }
           }
         },
@@ -77871,11 +77919,23 @@
           "meanings": "开始；出发；启动；创办；起跑",
           "contexts": {
             "In order to start a business online now, there are a few steps you need to complete.": {
-              "translation": "开始",
+              "translation": "创办",
               "pos": "v."
             },
             "That's how easy it is to start a business online now.": {
-              "translation": "开始",
+              "translation": "创办",
+              "pos": "v."
+            },
+            "how to start a business online": {
+              "translation": "创办",
+              "pos": "v."
+            },
+            "it costs no money to start a business online": {
+              "translation": "创办",
+              "pos": "v."
+            },
+            "not everyone is allowed  to start a business online": {
+              "translation": "创办",
               "pos": "v."
             }
           }
@@ -77908,7 +77968,7 @@
               "pos": "art."
             },
             "The final step for starting your business online is to have a way to make money.": {
-              "translation": "一种",
+              "translation": "一个",
               "pos": "art."
             },
             "For this, you need to have a merchant account  that will let you sell things and make money.": {
@@ -77918,18 +77978,46 @@
             "That's how easy it is to start a business online now.": {
               "translation": "一个",
               "pos": "art."
+            },
+            "how to set up a website": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "how to start a business online": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Building up a website": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Having a simple domain name": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Hosting the domain name with a company on the Web": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "it costs no money to start a business online": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "not everyone is allowed  to start a business online": {
+              "translation": "一个",
+              "pos": "art."
             }
           }
         },
         "business": {
           "lemma": "business",
-          "translation": "商业",
+          "translation": "生意",
           "pos": "n.",
           "forms": "businesses",
           "meanings": "商业；生意；事务；公事；职业",
           "contexts": {
             "In order to start a business online now, there are a few steps you need to complete.": {
-              "translation": "商业",
+              "translation": "生意",
               "pos": "n."
             },
             "Once you have your business ready to go, you need to go ahead and get a website.": {
@@ -77941,7 +78029,19 @@
               "pos": "n."
             },
             "That's how easy it is to start a business online now.": {
-              "translation": "商业",
+              "translation": "生意",
+              "pos": "n."
+            },
+            "how to start a business online": {
+              "translation": "生意",
+              "pos": "n."
+            },
+            "it costs no money to start a business online": {
+              "translation": "生意",
+              "pos": "n."
+            },
+            "not everyone is allowed  to start a business online": {
+              "translation": "生意",
               "pos": "n."
             }
           }
@@ -77972,6 +78072,18 @@
             "Very soon you will be making money online.": {
               "translation": "在线的",
               "pos": "adv."
+            },
+            "how to start a business online": {
+              "translation": "在线的",
+              "pos": "adj."
+            },
+            "it costs no money to start a business online": {
+              "translation": "在线的",
+              "pos": "adj."
+            },
+            "not everyone is allowed  to start a business online": {
+              "translation": "在线的",
+              "pos": "adj."
             }
           }
         },
@@ -78050,7 +78162,7 @@
         },
         "you": {
           "lemma": "you",
-          "translation": "你",
+          "translation": "你；你们",
           "pos": "pron.",
           "forms": "your; yours; yourself",
           "meanings": "你；你们；人们（泛指）",
@@ -78102,6 +78214,14 @@
             "Very soon you will be making money online.": {
               "translation": "你",
               "pos": "pron."
+            },
+            "you need to have as many merchant accounts as possible": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "it is better if the website domain name is related to the products you sell.": {
+              "translation": "你",
+              "pos": "pron."
             }
           }
         },
@@ -78135,6 +78255,10 @@
             "You need to create contents , such as articles, social networking sites, blog entries, etc.": {
               "translation": "需要",
               "pos": "v."
+            },
+            "you need to have as many merchant accounts as possible": {
+              "translation": "需要",
+              "pos": "v."
             }
           }
         },
@@ -78157,33 +78281,53 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "这",
+          "translation": "这；那",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这；那；（用于特指）；（用于最高级前）",
           "contexts": {
             "The very first step you need to complete is to have a product or service idea.": {
-              "translation": "这",
+              "translation": "这；那",
               "pos": "art."
             },
             "You will need to buy a domain name   and host  it with a company on the Web.": {
-              "translation": "那",
+              "translation": "这；那",
               "pos": "art."
             },
             "The site itself doesn't have to be anything special.": {
-              "translation": "这",
+              "translation": "这；那",
               "pos": "art."
             },
             "The final step for starting your business online is to have a way to make money.": {
-              "translation": "那",
+              "translation": "这；那",
               "pos": "art."
             },
             "Once your site is up and running, you can begin advertising the site.": {
-              "translation": "那",
+              "translation": "这；那",
               "pos": "art."
             },
             "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.": {
-              "translation": "那",
+              "translation": "这；那",
+              "pos": "art."
+            },
+            "The writer wrote this passage in order to tell us   _  .": {
+              "translation": "这；那",
+              "pos": "art."
+            },
+            "According to the writer, which of the following may NOT be something necessary to do?": {
+              "translation": "这；那",
+              "pos": "art."
+            },
+            "Hosting the domain name with a company on the Web": {
+              "translation": "这；那",
+              "pos": "art."
+            },
+            "After reading the passage, we may know that   _  .": {
+              "translation": "这；那",
+              "pos": "art."
+            },
+            "it is better if the website domain name is related to the products you sell.": {
+              "translation": "这；那",
               "pos": "art."
             }
           }
@@ -78257,6 +78401,14 @@
             "That's how easy it is to start a business online now.": {
               "translation": "是",
               "pos": "v."
+            },
+            "not everyone is allowed  to start a business online": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "it is better if the website domain name is related to the products you sell.": {
+              "translation": "是",
+              "pos": "v."
             }
           }
         },
@@ -78268,11 +78420,11 @@
           "meanings": "有；经历；吃；（完成时态助动词）",
           "contexts": {
             "The very first step you need to complete is to have a product or service idea.": {
-              "translation": "拥有",
+              "translation": "有",
               "pos": "v."
             },
             "Once you have your business ready to go, you need to go ahead and get a website.": {
-              "translation": "拥有",
+              "translation": "有",
               "pos": "v."
             },
             "The site itself doesn't have to be anything special.": {
@@ -78284,7 +78436,11 @@
               "pos": "v."
             },
             "For this, you need to have a merchant account  that will let you sell things and make money.": {
-              "translation": "拥有",
+              "translation": "有",
+              "pos": "v."
+            },
+            "you need to have as many merchant accounts as possible": {
+              "translation": "有",
               "pos": "v."
             }
           }
@@ -78367,7 +78523,7 @@
           "translation": "赚取",
           "pos": "v.",
           "forms": "made, making, makes",
-          "meanings": "使；制作；制造；构成；制定",
+          "meanings": "使；制作；制造；构成；制定；赚取",
           "contexts": {
             "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.": {
               "translation": "赚取",
@@ -78378,6 +78534,10 @@
               "pos": "v."
             },
             "For this, you need to have a merchant account  that will let you sell things and make money.": {
+              "translation": "赚取",
+              "pos": "v."
+            },
+            "how to make some pocket money": {
               "translation": "赚取",
               "pos": "v."
             }
@@ -78403,6 +78563,14 @@
               "pos": "n."
             },
             "Very soon you will be making money online.": {
+              "translation": "钱",
+              "pos": "n."
+            },
+            "how to make some pocket money": {
+              "translation": "钱",
+              "pos": "n."
+            },
+            "it costs no money to start a business online": {
               "translation": "钱",
               "pos": "n."
             }
@@ -78445,11 +78613,15 @@
               "pos": "v."
             },
             "The site itself doesn't have to be anything special.": {
-              "translation": "成为",
+              "translation": "是",
               "pos": "v."
             },
             "Very soon you will be making money online.": {
-              "translation": "进行（构成进行时）",
+              "translation": "（构成进行时）",
+              "pos": "v."
+            },
+            "According to the writer, which of the following may NOT be something necessary to do?": {
+              "translation": "是",
               "pos": "v."
             }
           }
@@ -78476,18 +78648,22 @@
           "contexts": {
             "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.": {
               "translation": "引导定语从句",
-              "pos": "pron."
+              "pos": "conj."
             },
             "For this, you need to have a merchant account  that will let you sell things and make money.": {
               "translation": "引导定语从句",
-              "pos": "pron."
+              "pos": "conj."
             },
             "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.": {
-              "translation": "以便",
+              "translation": "引导目的状语从句",
               "pos": "conj."
             },
             "That's how easy it is to start a business online now.": {
-              "translation": "那",
+              "translation": "那；那样",
+              "pos": "pron."
+            },
+            "After reading the passage, we may know that   _  .": {
+              "translation": "那个",
               "pos": "pron."
             }
           }
@@ -78607,6 +78783,14 @@
             "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.": {
               "translation": "不",
               "pos": "adv."
+            },
+            "According to the writer, which of the following may NOT be something necessary to do?": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "not everyone is allowed  to start a business online": {
+              "translation": "不",
+              "pos": "adv."
             }
           }
         },
@@ -78626,6 +78810,10 @@
               "pos": "adj."
             },
             "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.": {
+              "translation": "许多",
+              "pos": "adj."
+            },
+            "you need to have as many merchant accounts as possible": {
               "translation": "许多",
               "pos": "adj."
             }
@@ -78721,6 +78909,10 @@
             "Once your site is up and running, you can begin advertising the site.": {
               "translation": "你的",
               "pos": "pron."
+            },
+            "Making your site as special as possible": {
+              "translation": "你的",
+              "pos": "pron."
             }
           }
         },
@@ -78798,6 +78990,18 @@
             "Once you have your business ready to go, you need to go ahead and get a website.": {
               "translation": "网站",
               "pos": "n."
+            },
+            "how to set up a website": {
+              "translation": "网站",
+              "pos": "n."
+            },
+            "Building up a website": {
+              "translation": "网站",
+              "pos": "n."
+            },
+            "it is better if the website domain name is related to the products you sell.": {
+              "translation": "网站",
+              "pos": "n."
             }
           }
         },
@@ -78828,6 +79032,18 @@
             "Your domain name should be as simple as possible and it should be related to(.": {
               "translation": "域名",
               "pos": "n."
+            },
+            "Having a simple domain name": {
+              "translation": "域名",
+              "pos": "n."
+            },
+            "Hosting the domain name with a company on the Web": {
+              "translation": "域名",
+              "pos": "n."
+            },
+            "it is better if the website domain name is related to the products you sell.": {
+              "translation": "域名",
+              "pos": "n."
             }
           }
         },
@@ -78843,6 +79059,18 @@
               "pos": "n."
             },
             "Your domain name should be as simple as possible and it should be related to(.": {
+              "translation": "名字",
+              "pos": "n."
+            },
+            "Having a simple domain name": {
+              "translation": "名字",
+              "pos": "n."
+            },
+            "Hosting the domain name with a company on the Web": {
+              "translation": "名字",
+              "pos": "n."
+            },
+            "it is better if the website domain name is related to the products you sell.": {
               "translation": "名字",
               "pos": "n."
             }
@@ -78869,19 +79097,27 @@
           "meanings": "它；这；（引导形式主语）",
           "contexts": {
             "You will need to buy a domain name   and host  it with a company on the Web.": {
-              "translation": "它（指代网站域名）",
+              "translation": "它",
               "pos": "pron."
             },
             "Your domain name should be as simple as possible and it should be related to(.": {
-              "translation": "它（指代域名）",
+              "translation": "它",
               "pos": "pron."
             },
             "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.": {
-              "translation": "它（指代内容）",
+              "translation": "它",
               "pos": "pron."
             },
             "That's how easy it is to start a business online now.": {
-              "translation": "（形式主语，指代在线创业）",
+              "translation": "这",
+              "pos": "pron."
+            },
+            "it costs no money to start a business online": {
+              "translation": "形式主语",
+              "pos": "pron."
+            },
+            "it is better if the website domain name is related to the products you sell.": {
+              "translation": "形式主语",
               "pos": "pron."
             }
           }
@@ -78894,7 +79130,11 @@
           "meanings": "与……一起；使用；带有；由于；关于",
           "contexts": {
             "You will need to buy a domain name   and host  it with a company on the Web.": {
-              "translation": "使用（某家公司）",
+              "translation": "与……一起",
+              "pos": "prep."
+            },
+            "Hosting the domain name with a company on the Web": {
+              "translation": "与……一起",
               "pos": "prep."
             }
           }
@@ -78909,6 +79149,10 @@
             "You will need to buy a domain name   and host  it with a company on the Web.": {
               "translation": "公司",
               "pos": "n."
+            },
+            "Hosting the domain name with a company on the Web": {
+              "translation": "公司",
+              "pos": "n."
             }
           }
         },
@@ -78920,11 +79164,15 @@
           "meanings": "关于；在……之上；在（某一天）；继续；在（时间）",
           "contexts": {
             "You will need to buy a domain name   and host  it with a company on the Web.": {
-              "translation": "在（万维网上）",
+              "translation": "在……之上",
               "pos": "prep."
             },
             "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.": {
-              "translation": "在（互联网上）",
+              "translation": "在……之上",
+              "pos": "prep."
+            },
+            "Hosting the domain name with a company on the Web": {
+              "translation": "在……之上",
               "pos": "prep."
             }
           }
@@ -78937,6 +79185,10 @@
           "meanings": "网络；万维网；蛛网；网状物",
           "contexts": {
             "You will need to buy a domain name   and host  it with a company on the Web.": {
+              "translation": "网络",
+              "pos": "n."
+            },
+            "Hosting the domain name with a company on the Web": {
               "translation": "网络",
               "pos": "n."
             }
@@ -78958,10 +79210,18 @@
               "pos": "adv."
             },
             "You need to create contents , such as articles, social networking sites, blog entries, etc.": {
-              "translation": "例如（作为……）",
+              "translation": "作为",
               "pos": "prep."
             },
             "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.": {
+              "translation": "像……一样",
+              "pos": "adv."
+            },
+            "Making your site as special as possible": {
+              "translation": "像……一样",
+              "pos": "adv."
+            },
+            "you need to have as many merchant accounts as possible": {
               "translation": "像……一样",
               "pos": "adv."
             }
@@ -78975,6 +79235,10 @@
           "meanings": "简单的；简朴的；单纯的；容易的",
           "contexts": {
             "Your domain name should be as simple as possible and it should be related to(.": {
+              "translation": "简单的",
+              "pos": "adj."
+            },
+            "Having a simple domain name": {
               "translation": "简单的",
               "pos": "adj."
             }
@@ -78998,6 +79262,14 @@
             "and then you can post it on the Internet so that you can attract  as many potential  customers as possible.": {
               "translation": "可能的",
               "pos": "adj."
+            },
+            "Making your site as special as possible": {
+              "translation": "可能的",
+              "pos": "adj."
+            },
+            "you need to have as many merchant accounts as possible": {
+              "translation": "可能的",
+              "pos": "adj."
             }
           }
         },
@@ -79011,6 +79283,10 @@
             "Your domain name should be as simple as possible and it should be related to(.": {
               "translation": "有关联的",
               "pos": "adj."
+            },
+            "it is better if the website domain name is related to the products you sell.": {
+              "translation": "有关联的",
+              "pos": "adj."
             }
           }
         },
@@ -79018,10 +79294,14 @@
           "lemma": "product",
           "translation": "产品",
           "pos": "n.",
-          "forms": "product (sing.)",
+          "forms": "products",
           "meanings": "产品；产物；作品；成果",
           "contexts": {
             ") your products.": {
+              "translation": "产品",
+              "pos": "n."
+            },
+            "it is better if the website domain name is related to the products you sell.": {
               "translation": "产品",
               "pos": "n."
             }
@@ -79035,6 +79315,10 @@
           "meanings": "在……之后；后来；跟随；依照",
           "contexts": {
             "After this you can go ahead and get your site built up.": {
+              "translation": "在……之后",
+              "pos": "prep."
+            },
+            "After reading the passage, we may know that   _  .": {
               "translation": "在……之后",
               "pos": "prep."
             }
@@ -79053,9 +79337,13 @@
             },
             "You can either do this yourself or you can pay someone else to do this.": {
               "translation": "这",
-              "pos": "pron."
+              "pos": "det."
             },
             "For this, you need to have a merchant account  that will let you sell things and make money.": {
+              "translation": "为此",
+              "pos": "det."
+            },
+            "The writer wrote this passage in order to tell us   _  .": {
               "translation": "这",
               "pos": "det."
             }
@@ -79104,6 +79392,10 @@
             "Once your site is up and running, you can begin advertising the site.": {
               "translation": "网站",
               "pos": "n."
+            },
+            "Making your site as special as possible": {
+              "translation": "网站",
+              "pos": "n."
             }
           }
         },
@@ -79132,7 +79424,15 @@
               "pos": "adv."
             },
             "Once your site is up and running, you can begin advertising the site.": {
-              "translation": "运转",
+              "translation": "完成；运行",
+              "pos": "adv."
+            },
+            "how to set up a website": {
+              "translation": "建立",
+              "pos": "adv."
+            },
+            "Building up a website": {
+              "translation": "建立",
               "pos": "adv."
             }
           }
@@ -79158,6 +79458,10 @@
           "meanings": "做；干；进行；引起",
           "contexts": {
             "You can either do this yourself or you can pay someone else to do this.": {
+              "translation": "做",
+              "pos": "v."
+            },
+            "According to the writer, which of the following may NOT be something necessary to do?": {
               "translation": "做",
               "pos": "v."
             }
@@ -79264,6 +79568,10 @@
             "The site itself doesn't have to be anything special.": {
               "translation": "特别的",
               "pos": "adj."
+            },
+            "Making your site as special as possible": {
+              "translation": "特别的",
+              "pos": "adj."
             }
           }
         },
@@ -79335,7 +79643,11 @@
               "pos": "adj."
             },
             "Your merchant account should accept as many forms of payment as possible.": {
-              "translation": "商业的",
+              "translation": "商人的",
+              "pos": "adj."
+            },
+            "you need to have as many merchant accounts as possible": {
+              "translation": "商人的",
               "pos": "adj."
             }
           }
@@ -79372,13 +79684,17 @@
         },
         "sell": {
           "lemma": "sell",
-          "translation": "销售",
+          "translation": "出售",
           "pos": "v.",
           "forms": "sells, sold, selling",
           "meanings": "销售；出售；出卖；推销",
           "contexts": {
             "For this, you need to have a merchant account  that will let you sell things and make money.": {
-              "translation": "销售",
+              "translation": "出售",
+              "pos": "v."
+            },
+            "it is better if the website domain name is related to the products you sell.": {
+              "translation": "出售",
               "pos": "v."
             }
           }
@@ -79430,6 +79746,10 @@
           "meanings": "……的；关于；属于；由……组成；（表示数量或部分）",
           "contexts": {
             "Your merchant account should accept as many forms of payment as possible.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "According to the writer, which of the following may NOT be something necessary to do?": {
               "translation": "……的",
               "pos": "prep."
             }
@@ -79729,7 +80049,23 @@
           "meanings": "如何；以何种方式；多么；状况",
           "contexts": {
             "That's how easy it is to start a business online now.": {
-              "translation": "……的样子（表示程度）",
+              "translation": "多么",
+              "pos": "adv."
+            },
+            "how to set up a website": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "how to start a business online": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "how to make some pocket money": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "how to become famous nowadays": {
+              "translation": "如何",
               "pos": "adv."
             }
           }
@@ -79770,6 +80106,412 @@
             "Very soon you will be making money online.": {
               "translation": "赚取",
               "pos": "v."
+            },
+            "Making your site as special as possible": {
+              "translation": "制作；打造",
+              "pos": "v."
+            }
+          }
+        },
+        "writer": {
+          "lemma": "writer",
+          "translation": "作者",
+          "pos": "n.",
+          "forms": "writers",
+          "meanings": "作者；作家；撰稿人；书写者",
+          "contexts": {
+            "The writer wrote this passage in order to tell us   _  .": {
+              "translation": "作者",
+              "pos": "n."
+            },
+            "According to the writer, which of the following may NOT be something necessary to do?": {
+              "translation": "作者",
+              "pos": "n."
+            }
+          }
+        },
+        "wrote": {
+          "lemma": "write",
+          "translation": "写",
+          "pos": "v.",
+          "forms": "writes, writing, wrote, written",
+          "meanings": "写；书写；创作；写信给",
+          "contexts": {
+            "The writer wrote this passage in order to tell us   _  .": {
+              "translation": "写",
+              "pos": "v."
+            }
+          }
+        },
+        "passage": {
+          "lemma": "passage",
+          "translation": "文章",
+          "pos": "n.",
+          "forms": "passages",
+          "meanings": "文章；段落；通道；走廊；通行权",
+          "contexts": {
+            "The writer wrote this passage in order to tell us   _  .": {
+              "translation": "文章",
+              "pos": "n."
+            },
+            "After reading the passage, we may know that   _  .": {
+              "translation": "文章",
+              "pos": "n."
+            }
+          }
+        },
+        "tell": {
+          "lemma": "tell",
+          "translation": "告诉",
+          "pos": "v.",
+          "forms": "tells, told, telling",
+          "meanings": "看出；讲述；告诉；吩咐",
+          "contexts": {
+            "The writer wrote this passage in order to tell us   _  .": {
+              "translation": "告诉",
+              "pos": "v."
+            }
+          }
+        },
+        "us": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "我们（宾格）",
+          "contexts": {
+            "The writer wrote this passage in order to tell us   _  .": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "set": {
+          "lemma": "set",
+          "translation": "安装",
+          "pos": "v.",
+          "forms": "set (过去式/过去分词), setting",
+          "meanings": "设定；放置；安置；安装；摆放",
+          "contexts": {
+            "how to set up a website": {
+              "translation": "安装；建立",
+              "pos": "v."
+            }
+          }
+        },
+        "some": {
+          "lemma": "some",
+          "translation": "一些",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "一些；某些；若干；相当数量；某个",
+          "contexts": {
+            "how to make some pocket money": {
+              "translation": "一些",
+              "pos": "adj."
+            }
+          }
+        },
+        "pocket": {
+          "lemma": "pocket",
+          "translation": "零花钱",
+          "pos": "n.",
+          "forms": "pockets, pocketed, pocketing",
+          "meanings": "口袋；零花钱；一小块区域；搜括",
+          "contexts": {
+            "how to make some pocket money": {
+              "translation": "零花钱",
+              "pos": "n."
+            }
+          }
+        },
+        "become": {
+          "lemma": "become",
+          "translation": "成为",
+          "pos": "v.",
+          "forms": "became, become, becoming",
+          "meanings": "成为；变得；适应；合适",
+          "contexts": {
+            "how to become famous nowadays": {
+              "translation": "成为",
+              "pos": "v."
+            }
+          }
+        },
+        "famous": {
+          "lemma": "famous",
+          "translation": "著名的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "著名的；出名的；极好的",
+          "contexts": {
+            "how to become famous nowadays": {
+              "translation": "著名的",
+              "pos": "adj."
+            }
+          }
+        },
+        "nowadays": {
+          "lemma": "nowadays",
+          "translation": "现在；现今",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "现在；现今；现代；当今",
+          "contexts": {
+            "how to become famous nowadays": {
+              "translation": "现今",
+              "pos": "adv."
+            }
+          }
+        },
+        "according": {
+          "lemma": "according",
+          "translation": "据……所说",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "据……所说；依照；视……而定；按照；如……所述",
+          "contexts": {
+            "According to the writer, which of the following may NOT be something necessary to do?": {
+              "translation": "据……所说",
+              "pos": "prep."
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "哪一个",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
+          "contexts": {
+            "According to the writer, which of the following may NOT be something necessary to do?": {
+              "translation": "哪一个",
+              "pos": "pron."
+            }
+          }
+        },
+        "following": {
+          "lemma": "follow",
+          "translation": "接下来的",
+          "pos": "adj.",
+          "forms": "followed, following",
+          "meanings": "接下来的；跟随；遵循；听懂",
+          "contexts": {
+            "According to the writer, which of the following may NOT be something necessary to do?": {
+              "translation": "接下来的",
+              "pos": "adj."
+            }
+          }
+        },
+        "may": {
+          "lemma": "may",
+          "translation": "可能",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "可能；可以；五月；祝愿",
+          "contexts": {
+            "According to the writer, which of the following may NOT be something necessary to do?": {
+              "translation": "可能",
+              "pos": "modal v."
+            },
+            "After reading the passage, we may know that   _  .": {
+              "translation": "可能",
+              "pos": "modal v."
+            }
+          }
+        },
+        "something": {
+          "lemma": "something",
+          "translation": "某事",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "某事；某物；重要的人或事",
+          "contexts": {
+            "According to the writer, which of the following may NOT be something necessary to do?": {
+              "translation": "某事",
+              "pos": "pron."
+            }
+          }
+        },
+        "necessary": {
+          "lemma": "necessary",
+          "translation": "必要的",
+          "pos": "adj.",
+          "forms": "necessaries",
+          "meanings": "必要的；必须的；必然的；必需品",
+          "contexts": {
+            "According to the writer, which of the following may NOT be something necessary to do?": {
+              "translation": "必要的",
+              "pos": "adj."
+            }
+          }
+        },
+        "building": {
+          "lemma": "building",
+          "translation": "建造",
+          "pos": "v.",
+          "forms": "buildings",
+          "meanings": "建筑物；楼房；建筑业；建造",
+          "contexts": {
+            "Building up a website": {
+              "translation": "建造",
+              "pos": "v."
+            }
+          }
+        },
+        "having": {
+          "lemma": "have",
+          "translation": "有",
+          "pos": "v.",
+          "forms": "has, had, having",
+          "meanings": "有；经历；从事；吃喝；使得",
+          "contexts": {
+            "Having a simple domain name": {
+              "translation": "有",
+              "pos": "v."
+            }
+          }
+        },
+        "hosting": {
+          "lemma": "host",
+          "translation": "托管",
+          "pos": "v.",
+          "forms": "hosts, hosted, hosting",
+          "meanings": "主持；招待；托管；充当东道主",
+          "contexts": {
+            "Hosting the domain name with a company on the Web": {
+              "translation": "托管",
+              "pos": "v."
+            }
+          }
+        },
+        "reading": {
+          "lemma": "read",
+          "translation": "阅读",
+          "pos": "v.",
+          "forms": "reads, read, reading",
+          "meanings": "阅读；读书；读物；阅读材料",
+          "contexts": {
+            "After reading the passage, we may know that   _  .": {
+              "translation": "阅读",
+              "pos": "v."
+            }
+          }
+        },
+        "we": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "us, our, ours",
+          "meanings": "我们；大家；咱们",
+          "contexts": {
+            "After reading the passage, we may know that   _  .": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "know": {
+          "lemma": "know",
+          "translation": "知道",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉",
+          "contexts": {
+            "After reading the passage, we may know that   _  .": {
+              "translation": "知道",
+              "pos": "v."
+            }
+          }
+        },
+        "costs": {
+          "lemma": "cost",
+          "translation": "花费",
+          "pos": "v.",
+          "forms": "costs, costing, cost",
+          "meanings": "花费；代价；成本",
+          "contexts": {
+            "it costs no money to start a business online": {
+              "translation": "花费",
+              "pos": "v."
+            }
+          }
+        },
+        "no": {
+          "lemma": "no",
+          "translation": "没有",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "没有；不；禁止；一点也不",
+          "contexts": {
+            "it costs no money to start a business online": {
+              "translation": "没有",
+              "pos": "det."
+            }
+          }
+        },
+        "everyone": {
+          "lemma": "everyone",
+          "translation": "每个人",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "每个人；人人",
+          "contexts": {
+            "not everyone is allowed  to start a business online": {
+              "translation": "每个人",
+              "pos": "pron."
+            }
+          }
+        },
+        "allowed": {
+          "lemma": "allow",
+          "translation": "被允许",
+          "pos": "v.",
+          "forms": "allows, allowed, allowing",
+          "meanings": "允许；准许；给予；使能够",
+          "contexts": {
+            "not everyone is allowed  to start a business online": {
+              "translation": "被允许",
+              "pos": "v."
+            }
+          }
+        },
+        "accounts": {
+          "lemma": "account",
+          "translation": "账户",
+          "pos": "n.",
+          "forms": "account (单数), accounts (复数)",
+          "meanings": "账户；账目；说明；描述；价值",
+          "contexts": {
+            "you need to have as many merchant accounts as possible": {
+              "translation": "账户",
+              "pos": "n."
+            }
+          }
+        },
+        "better": {
+          "lemma": "good",
+          "translation": "更好的",
+          "pos": "adj.",
+          "forms": "best (superlative)",
+          "meanings": "更好的；更优秀的；改善；胜过；更好地",
+          "contexts": {
+            "it is better if the website domain name is related to the products you sell.": {
+              "translation": "更好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "if": {
+          "lemma": "if",
+          "translation": "如果",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "如果；是否；即使；仿佛",
+          "contexts": {
+            "it is better if the website domain name is related to the products you sell.": {
+              "translation": "如果",
+              "pos": "conj."
             }
           }
         }
