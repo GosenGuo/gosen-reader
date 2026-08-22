@@ -1,37 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T13:06:50.136Z",
+  "generatedAt": "2026-08-22T13:07:16.080Z",
   "words": {
     "on": {
       "lemma": "on",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "在……之上；在……时；继续；关于",
+      "meanings": "在……之上；在……时；关于；继续",
       "senses": [
-        {
-          "translation": "在……之上",
-          "pos": "prep.",
-          "example": "As Amy Paul choked  on a piece of apple at her home, her dog jumped up, landing hard on her chest and forcing the piece in her throat out.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "在……之上",
-          "pos": "prep.",
-          "example": "\"Winnie jumped on the bed and was clawing at me, with a kind of angry sound,\" Cathy Keesling said.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "在……之上",
-          "pos": "prep.",
-          "example": "\"I couldn't breathe and I was in panic when Toby jumped on me.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "在……之上",
-          "pos": "prep.",
-          "example": "Why did Amy Paul choke on a piece of apple?",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
         {
           "translation": "在……（途中）",
           "pos": "prep.",
@@ -79,6 +55,30 @@
           "pos": "prep.",
           "example": "The lists on them tell you they are helpful to your health.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "在……期间",
+          "pos": "prep.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "按照；根据",
+          "pos": "prep.",
+          "example": "Our keepers work strictly on _ .",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "拨打；通过",
+          "pos": "prep.",
+          "example": "Please phone the Zoo Information Center on +64(0)9-360-3805.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "关于；对于",
+          "pos": "prep.",
+          "example": "give people some tips on visiting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -121,7 +121,7 @@
         "web-83aed36829bb66d0"
       ],
       "articleCount": 37,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "web": {
       "lemma": "web",
@@ -261,76 +261,76 @@
       "meanings": "这；那；（用于特指）；（用于最高级前）",
       "senses": [
         {
-          "translation": "那个",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "The actor and the mimic",
-          "sourceArticleId": "web-a524105e021f666c"
+          "example": "To keep the safety of our animals, any throwing games are not permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "那个",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "The mimic and his animals",
-          "sourceArticleId": "web-a524105e021f666c"
+          "example": "The zoo animals are not trained.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "（用于特指）",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "The weather is getting hotter.",
-          "sourceArticleId": "web-78c5365878759c41"
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "（用于特指）",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "A cold drink may be just the thing.",
-          "sourceArticleId": "web-78c5365878759c41"
+          "example": "General Information:\nCheck out the weather before you come.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "那些",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "There are plenty of \"energy drinks\" on the market.",
-          "sourceArticleId": "web-78c5365878759c41"
+          "example": "Not all animals are permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "那些",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "The lists on them tell you they are helpful to your health.",
-          "sourceArticleId": "web-78c5365878759c41"
+          "example": "Please phone the Zoo Information Center on +64(0)9-360-3805.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "该；那个",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
-          "sourceArticleId": "web-78c5365878759c41"
+          "example": "If the children are found by themselves, the staff do have the right to call the police.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "以下",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "Many people like drinking energy drinks because of the following EXCEPT that   _  .",
-          "sourceArticleId": "web-78c5365878759c41"
+          "example": "they couldstay close to the animals",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "主要",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "The main reason for people not to drink too much energy drinks is that they may cause   _  .",
-          "sourceArticleId": "web-78c5365878759c41"
+          "example": "the zoo animals have been well-trained",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "从本文",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "From the passage we can know that   _  .",
-          "sourceArticleId": "web-78c5365878759c41"
+          "example": "it's dangerous to play near the waterways",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "最好的",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "Which of the following can be the best title of the passage?   _",
-          "sourceArticleId": "web-78c5365878759c41"
+          "example": "The main purpose of the passage is to   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "能源饮料的用途",
+          "translation": "这；那（定冠词）",
           "pos": "art.",
-          "example": "What's the Use of Energy Drinks?",
-          "sourceArticleId": "web-78c5365878759c41"
+          "example": "attract people to the zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -376,7 +376,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "internet": {
       "lemma": "internet",
@@ -476,30 +476,6 @@
         {
           "translation": "人们",
           "pos": "n.",
-          "example": "The faces of so many people confuse me as they come to pay their last respects.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "人们",
-          "pos": "n.",
-          "example": "Most people watching Jeremy Lin these past two months saw Jeremy Lin, New York Knicks star; but I, watching him, saw someone else.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
-        {
-          "translation": "人",
-          "pos": "n.",
-          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "人们",
-          "pos": "n.",
-          "example": "Price: RMB 3,500/week,  RMB 6,500/2 weeks,  RMB 9,000/3weeks,  RMB 11,000/4weeks\nAncient Civilizations (8--12 year olds)\nClass size: 6--16 students\nCourse summary: Children will learn about the culture, food, clothes and entertainment of people who lived in ancient civilizations, from Chinese, Greek, and Mayan / Aztec to Ancient Egypt.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "人们",
-          "pos": "n.",
           "example": "too much caffeine will probably make people sleepy",
           "sourceArticleId": "web-ee55c880f34e43f4"
         },
@@ -544,6 +520,30 @@
           "pos": "n.",
           "example": "advertisements are important in getting people to buy energy drinks",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "人们",
+          "pos": "n.",
+          "example": "We welcome people with guide dogs, but they must contact us ahead of time about their visit.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "人们",
+          "pos": "n.",
+          "example": "give people some tips on visiting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "人们",
+          "pos": "n.",
+          "example": "ask people to stop polluting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "人们",
+          "pos": "n.",
+          "example": "attract people to the zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -569,7 +569,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 20,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "can": {
       "lemma": "can",
@@ -749,24 +749,6 @@
         {
           "translation": "一个",
           "pos": "art.",
-          "example": "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "ask for a job there",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
           "example": "The zoo keeper offers the mimic a job to act as the gorilla because  _  .",
           "sourceArticleId": "web-a524105e021f666c"
         },
@@ -817,6 +799,24 @@
           "pos": "art.",
           "example": "sports players need to drink a lot of energy drinks",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Keep Safe at the Zoo:\nChildren aged 12 years and under need to be accompanied   by a caregiver.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "In winter we suggest you bring a jacket and an umbrella, and in summer, be sure to bring sunscreen and a hat.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -862,7 +862,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "variety": {
       "lemma": "variety",
@@ -910,48 +910,6 @@
       "meanings": "……的；属于；关于；由……组成；（表示数量）",
       "senses": [
         {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "There are plenty of \"energy drinks\" on the market.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Most of them have beautiful colors and cool names.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "But after a careful check you may find that most energy drinks have lots of caffeine in them.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
-          "translation": "因为",
-          "pos": "prep.",
-          "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
-          "translation": "在……中",
-          "pos": "prep.",
-          "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
           "translation": "因为",
           "pos": "prep.",
           "example": "Many people like drinking energy drinks because of the following EXCEPT that   _  .",
@@ -980,6 +938,48 @@
           "pos": "prep.",
           "example": "What's the Use of Energy Drinks?",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "……的（表所有关系）",
+          "pos": "prep.",
+          "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "……的（表所有关系）",
+          "pos": "prep.",
+          "example": "To keep the safety of our animals, any throwing games are not permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "……的（表所有关系）",
+          "pos": "prep.",
+          "example": "Do not enter any enclosure  , or put any part of your body into an enclosure.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "……的（表数量）",
+          "pos": "prep.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "……的（表所有关系）",
+          "pos": "prep.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "关于；有关",
+          "pos": "prep.",
+          "example": "We welcome people with guide dogs, but they must contact us ahead of time about their visit.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "……的（表所有关系）",
+          "pos": "prep.",
+          "example": "The main purpose of the passage is to   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -1025,26 +1025,14 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "information": {
       "lemma": "information",
       "pos": "n.",
       "forms": "无常见变形",
-      "meanings": "信息；资料；消息；情报",
+      "meanings": "信息；资料；消息；情报；通知",
       "senses": [
-        {
-          "translation": "信息",
-          "pos": "n.",
-          "example": "ask others not to disclose your personal information and picture",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "信息",
-          "pos": "n.",
-          "example": "prevent any new mention of your name or other personal information",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
         {
           "translation": "信息",
           "pos": "n.",
@@ -1104,6 +1092,18 @@
           "pos": "n.",
           "example": "According to the passage, if we want to get more information ,we can   _  .",
           "sourceArticleId": "web-9164814709a91049"
+        },
+        {
+          "translation": "信息",
+          "pos": "n.",
+          "example": "General Information:\nCheck out the weather before you come.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "咨询/信息",
+          "pos": "n.",
+          "example": "Please phone the Zoo Information Center on +64(0)9-360-3805.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -1115,7 +1115,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T12:57:41.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "about": {
       "lemma": "about",
@@ -1123,18 +1123,6 @@
       "forms": "无常见变形",
       "meanings": "关于；大约；在……周围；正要",
       "senses": [
-        {
-          "translation": "关于",
-          "pos": "prep.",
-          "example": "So far as the children were concerned, they had a mystery about him that stirred their imagination.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "正要",
-          "pos": "prep.",
-          "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
         {
           "translation": "关于",
           "pos": "prep.",
@@ -1194,6 +1182,18 @@
           "pos": "prep.",
           "example": "What does the mimic feel about the new job at first?",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "关于",
+          "pos": "prep.",
+          "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "关于",
+          "pos": "prep.",
+          "example": "We welcome people with guide dogs, but they must contact us ahead of time about their visit.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -1228,7 +1228,7 @@
         "web-a524105e021f666c"
       ],
       "articleCount": 29,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "you": {
       "lemma": "you",
@@ -1236,24 +1236,6 @@
       "forms": "your; yours; yourself",
       "meanings": "你；你们；人们（泛指）；本人",
       "senses": [
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "One egg daily and you'll get more cholesterol than recommended.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
-          "translation": "你",
-          "pos": "pron.",
-          "example": "You must determine your destination, go straight, jump over all the barriers as if in park-our and never fall back from them in your life to reach the destination successfully.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
         {
           "translation": "你",
           "pos": "pron.",
@@ -1307,6 +1289,24 @@
           "pos": "pron.",
           "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "General Information:\nCheck out the weather before you come.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "In winter we suggest you bring a jacket and an umbrella, and in summer, be sure to bring sunscreen and a hat.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "你",
+          "pos": "pron.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -1333,7 +1333,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 21,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "it's": {
       "lemma": "it is",
@@ -1382,6 +1382,12 @@
           "pos": "phrase",
           "example": "It's important--if not always easy--to make sure you get at least some physical activity each and every day.",
           "sourceArticleId": "web-721dea8f3b5f4d9e"
+        },
+        {
+          "translation": "这是",
+          "pos": "phrase",
+          "example": "it's dangerous to play near the waterways",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -1389,10 +1395,11 @@
         "web-0ada4954aa4da897",
         "web-14515232ae2b45c0",
         "web-a524105e021f666c",
-        "web-721dea8f3b5f4d9e"
+        "web-721dea8f3b5f4d9e",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "in": {
       "lemma": "in",
@@ -1400,30 +1407,6 @@
       "forms": "无常见变形",
       "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
       "senses": [
-        {
-          "translation": "在……方面",
-          "pos": "prep.",
-          "example": "Park-our can be just as exciting and charming as it sounds, but its participants see much more in park-our than that.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "在……里",
-          "pos": "prep.",
-          "example": "To overcome all the obstacles on the course and in life is part of the philosophy behind park-our.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "在……中",
-          "pos": "prep.",
-          "example": "You must determine your destination, go straight, jump over all the barriers as if in park-our and never fall back from them in your life to reach the destination successfully.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "在……里",
-          "pos": "prep.",
-          "example": "It can be done by anyone, at any time, anywhere in the world.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
         {
           "translation": "在……（表现）中",
           "pos": "prep.",
@@ -1471,6 +1454,30 @@
           "pos": "prep.",
           "example": "What's That in Energy Drinks?",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "在……内",
+          "pos": "prep.",
+          "example": "To keep the safety of our animals, any throwing games are not permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "在……期间",
+          "pos": "prep.",
+          "example": "In winter we suggest you bring a jacket and an umbrella, and in summer, be sure to bring sunscreen and a hat.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "在……内",
+          "pos": "prep.",
+          "example": "Not all animals are permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "在……内",
+          "pos": "prep.",
+          "example": "Smoking is not permitted in covered areas.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -1516,7 +1523,7 @@
         "web-a0a23c816fc997da"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "your": {
       "lemma": "your",
@@ -1524,36 +1531,6 @@
       "forms": "yours",
       "meanings": "你的；你们的",
       "senses": [
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "After this you can go ahead and get your site built up.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "The final step for starting your business online is to have a way to make money.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Your merchant account should accept as many forms of payment as possible.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Once your site is up and running, you can begin advertising the site.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "你的",
-          "pos": "pron.",
-          "example": "Making your site as special as possible",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
         {
           "translation": "你的",
           "pos": "pron.",
@@ -1595,6 +1572,36 @@
           "pos": "pron.",
           "example": "Caffeine makes your heart beat fast.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Don't forget your camera - the best way to capture your visit forever.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "Do not enter any enclosure  , or put any part of your body into an enclosure.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "你的",
+          "pos": "pron.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -1613,7 +1620,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 13,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "interest": {
       "lemma": "interest",
@@ -1670,81 +1677,81 @@
     },
     "to": {
       "lemma": "to",
-      "pos": "prep.",
+      "pos": "particle",
       "forms": "无常见变形",
-      "meanings": "对于；用于构成不定式；向；给；到",
+      "meanings": "用于构成不定式；对于；向；给；到",
       "senses": [
         {
           "translation": "用于构成不定式",
           "pos": "particle",
-          "example": "The mimic climbs to the lion's cage because  _  .",
-          "sourceArticleId": "web-a524105e021f666c"
+          "example": "Don't forget your camera - the best way to capture your visit forever.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "用于构成不定式",
           "pos": "particle",
-          "example": "he finds it more interesting to climb the cage",
-          "sourceArticleId": "web-a524105e021f666c"
+          "example": "Keep Safe at the Zoo:\nChildren aged 12 years and under need to be accompanied   by a caregiver.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "用于构成不定式",
           "pos": "particle",
-          "example": "he wants to play with the lion",
-          "sourceArticleId": "web-a524105e021f666c"
+          "example": "To keep the safety of our animals, any throwing games are not permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "用于构成不定式",
           "pos": "particle",
-          "example": "he wants to attract the attention of his audience",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "对",
-          "pos": "prep.",
-          "example": "The lists on them tell you they are helpful to your health.",
-          "sourceArticleId": "web-78c5365878759c41"
+          "example": "In winter we suggest you bring a jacket and an umbrella, and in summer, be sure to bring sunscreen and a hat.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "用于构成不定式",
-          "pos": "prep.",
-          "example": "But be careful not to drink too much.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
-          "translation": "与……有关",
-          "pos": "prep.",
-          "example": "Possible health dangers have something to do with energy drinks.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
-          "translation": "对",
-          "pos": "prep.",
-          "example": "they are said to be helpful to health",
-          "sourceArticleId": "web-78c5365878759c41"
+          "pos": "particle",
+          "example": "Feel free to take personal photos and make videos.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "用于构成不定式",
-          "pos": "prep.",
-          "example": "The main reason for people not to drink too much energy drinks is that they may cause   _  .",
-          "sourceArticleId": "web-78c5365878759c41"
+          "pos": "particle",
+          "example": "Auckland Zoo does not allow entry to any unaccompanied children 12 years and under.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "用于构成不定式",
-          "pos": "prep.",
-          "example": "advertisements are important in getting people to buy energy drinks",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
-          "translation": "对",
-          "pos": "prep.",
-          "example": "energy drinks are helpful to teenagers' study",
-          "sourceArticleId": "web-78c5365878759c41"
+          "pos": "particle",
+          "example": "If the children are found by themselves, the staff do have the right to call the police.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "用于构成不定式",
-          "pos": "prep.",
-          "example": "sports players need to drink a lot of energy drinks",
-          "sourceArticleId": "web-78c5365878759c41"
+          "pos": "particle",
+          "example": "they couldstay close to the animals",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "用于构成不定式",
+          "pos": "particle",
+          "example": "it's dangerous to play near the waterways",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "用于构成不定式",
+          "pos": "particle",
+          "example": "The main purpose of the passage is to   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "用于构成不定式",
+          "pos": "particle",
+          "example": "ask people to stop polluting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "用于构成不定式",
+          "pos": "particle",
+          "example": "attract people to the zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -1790,7 +1797,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "be": {
       "lemma": "be",
@@ -1798,18 +1805,6 @@
       "forms": "am, is, are, was, were, being, been",
       "meanings": "是；位于；成为；（构成进行时或被动语态）",
       "senses": [
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Coffee was found to be far more influential on depression levels than hot chocolate or tea due to the high caffeine content.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
-          "translation": "被（杀死）",
-          "pos": "v.",
-          "example": "When the Keesling family of Indiana was about to be killed by carbon monoxide, their cat clawed at the wife Cathy's hair until she woke up and called for help.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -1869,6 +1864,18 @@
           "pos": "v.",
           "example": "Which of the following can be the best title of the passage?   _",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "被",
+          "pos": "v.",
+          "example": "Keep Safe at the Zoo:\nChildren aged 12 years and under need to be accompanied   by a caregiver.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "In winter we suggest you bring a jacket and an umbrella, and in summer, be sure to bring sunscreen and a hat.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -1909,7 +1916,7 @@
         "web-09421cfd6a2c44ad"
       ],
       "articleCount": 35,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "aware": {
       "lemma": "aware",
@@ -2097,30 +2104,6 @@
         {
           "translation": "和",
           "pos": "conj.",
-          "example": "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "perform and earn some money there",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "The mimic and his job",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "The mimic and his success",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
           "example": "The actor and the mimic",
           "sourceArticleId": "web-a524105e021f666c"
         },
@@ -2165,6 +2148,30 @@
           "pos": "conj.",
           "example": "they can keep them awake and better at sports",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Keep Safe at the Zoo:\nChildren aged 12 years and under need to be accompanied   by a caregiver.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "In winter we suggest you bring a jacket and an umbrella, and in summer, be sure to bring sunscreen and a hat.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Feel free to take personal photos and make videos.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Auckland Zoo does not allow entry to any unaccompanied children 12 years and under.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -2210,26 +2217,14 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "take": {
       "lemma": "take",
       "pos": "v.",
       "forms": "took, taken, taking, takes",
-      "meanings": "移开；采取；拿；花费；乘坐；修读",
+      "meanings": "照顾；采取；花费；拿；乘坐",
       "senses": [
-        {
-          "translation": "采取",
-          "pos": "v.",
-          "example": "The New York Times announced Wednesday that it intended to charge frequent readers for access to its website, a step being debated across the industry that nearly every major newspaper has so far feared to take.",
-          "sourceArticleId": "web-e5460a9523607192"
-        },
-        {
-          "translation": "采取（行动）",
-          "pos": "v.",
-          "example": "The following key points may he the important steps you can take to ensure you make a good impression from the get-go\nBe Prepared\nResearch the company thoroughly before the job interview.",
-          "sourceArticleId": "web-c3ef658275687753"
-        },
         {
           "translation": "携带/拿走",
           "pos": "v.",
@@ -2289,6 +2284,18 @@
           "pos": "v.",
           "example": "take care of the dying gorilla",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "照顾",
+          "pos": "v.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "拍摄",
+          "pos": "v.",
+          "example": "Feel free to take personal photos and make videos.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -2310,7 +2317,7 @@
         "web-a524105e021f666c"
       ],
       "articleCount": 16,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "necessary": {
       "lemma": "necessary",
@@ -2378,18 +2385,6 @@
       "meanings": "使；制作；制造；构成；制定",
       "senses": [
         {
-          "translation": "构成",
-          "pos": "v.",
-          "example": "Could it be the pattern that two things make, as opposed to three?",
-          "sourceArticleId": "web-a0a23c816fc997da"
-        },
-        {
-          "translation": "使（某事成为...）",
-          "pos": "v.",
-          "example": "\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
           "translation": "赚取",
           "pos": "v.",
           "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
@@ -2448,6 +2443,18 @@
           "pos": "v.",
           "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "使",
+          "pos": "v.",
+          "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "制作",
+          "pos": "v.",
+          "example": "Feel free to take personal photos and make videos.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -2470,7 +2477,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 17,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "it": {
       "lemma": "it",
@@ -2963,18 +2970,6 @@
         {
           "translation": "或者",
           "pos": "conj.",
-          "example": "The very first step you need to complete is to have a product or service idea.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
-          "example": "You can either do this yourself or you can pay someone else to do this.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "或者",
-          "pos": "conj.",
           "example": "*What prevents depression:tea,coffee or hot chocolate?",
           "sourceArticleId": "web-ee55c880f34e43f4"
         },
@@ -3031,6 +3026,18 @@
           "pos": "conj.",
           "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "Do not enter any enclosure  , or put any part of your body into an enclosure.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "或者",
+          "pos": "conj.",
+          "example": "However, any commercial photography or filming needs written permissions from zoo management.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -3059,7 +3066,7 @@
         "web-b08fa6a6e65a8840"
       ],
       "articleCount": 23,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "improving": {
       "lemma": "improve",
@@ -3084,20 +3091,8 @@
       "lemma": "be",
       "pos": "v.",
       "forms": "am, are, was, were, being, been",
-      "meanings": "是；存在；等于；位于；成为",
+      "meanings": "是；存在；等于；位于",
       "senses": [
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "It is a team sport",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "Which of the following is the philosophy of park-our?",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
         {
           "translation": "正在",
           "pos": "v.",
@@ -3157,6 +3152,18 @@
           "pos": "v.",
           "example": "The main reason for people not to drink too much energy drinks is that they may cause   _  .",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "是；被禁止",
+          "pos": "v.",
+          "example": "Smoking is not permitted in covered areas.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "The main purpose of the passage is to   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -3199,7 +3206,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 37,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "find": {
       "lemma": "find",
@@ -3296,16 +3303,10 @@
     },
     "out": {
       "lemma": "out",
-      "pos": "adj.",
+      "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "彻底地；向外；离开；（与动词连用表示完成）；失业的",
+      "meanings": "彻底地；向外；离开；（与动词连用表示完成）；显露出来",
       "senses": [
-        {
-          "translation": "（与carried连用表示执行）",
-          "pos": "adv.",
-          "example": "\"\nHe carried out his survey of 27 men and 81 women who were not parents using an online questionnaire among people aged 20 to 66, with an average age of 41.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "（与point连用）指出",
           "pos": "adv.",
@@ -3371,6 +3372,12 @@
           "pos": "adj.",
           "example": "he wants to help the mimic who is out of work",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "彻底地（与check连用表示查看、弄清）",
+          "pos": "adv.",
+          "example": "General Information:\nCheck out the weather before you come.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -3394,7 +3401,7 @@
         "web-f335b4849447798b"
       ],
       "articleCount": 18,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "already": {
       "lemma": "already",
@@ -3642,13 +3649,20 @@
           "pos": "n.",
           "example": "Follow these tips to monitor and evaluate your online reputation:\n   Play the name game.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "提示",
+          "pos": "n.",
+          "example": "give people some tips on visiting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "monitor": {
       "lemma": "monitor",
@@ -3700,18 +3714,6 @@
       "forms": "plays, playing, played",
       "meanings": "玩耍；参加（比赛）；演奏（乐器）；戏剧；播放",
       "senses": [
-        {
-          "translation": "玩耍",
-          "pos": "v.",
-          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "戏剧",
-          "pos": "n.",
-          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
         {
           "translation": "玩耍",
           "pos": "v.",
@@ -3771,6 +3773,18 @@
           "pos": "v.",
           "example": "he wants to play with the lion",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "玩耍",
+          "pos": "v.",
+          "example": "they could play throwing games",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "玩耍",
+          "pos": "v.",
+          "example": "it's dangerous to play near the waterways",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -3778,10 +3792,11 @@
         "web-cda4f9a292f21a6c",
         "web-4a99bc1fb2af7921",
         "web-a524105e021f666c",
-        "web-c5114d8c96e4f03b"
+        "web-c5114d8c96e4f03b",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "name": {
       "lemma": "name",
@@ -3938,18 +3953,6 @@
       "meanings": "被；通过；凭借；在……旁边；在……之前",
       "senses": [
         {
-          "translation": "通过阻断……",
-          "pos": "prep.",
-          "example": "Some anti-depressants also work by blocking the adenosine receptors.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
-          "translation": "被医生（告知）",
-          "pos": "prep.",
-          "example": "But according to the Food Standards Agency, there is no recommended limit to how many eggs we can healthily eat, unless you have been told to cut down by your doctor.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
           "translation": "由……（机构）所作的",
           "pos": "prep.",
           "example": "Research by the British Egg Council found that a medium egg gives you around 100 mg of cholesterol, a third of the 300mg recommended daily limit.",
@@ -4008,6 +4011,18 @@
           "pos": "prep.",
           "example": "It can be done by anyone, at any time, anywhere in the world.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "被",
+          "pos": "prep.",
+          "example": "Keep Safe at the Zoo:\nChildren aged 12 years and under need to be accompanied   by a caregiver.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "凭借",
+          "pos": "prep.",
+          "example": "If the children are found by themselves, the staff do have the right to call the police.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -4042,7 +4057,7 @@
         "web-b08fa6a6e65a8840"
       ],
       "articleCount": 29,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "typing": {
       "lemma": "type",
@@ -4169,12 +4184,6 @@
         {
           "translation": "进入",
           "pos": "prep.",
-          "example": "come into fashion from now on",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "进入",
-          "pos": "prep.",
           "example": "She, now your wife, is not a dog person, but I still welcomed her into our home.",
           "sourceArticleId": "web-f328bfb9843d2dfa"
         },
@@ -4237,6 +4246,12 @@
           "pos": "prep.",
           "example": "As soon as he starts to draw the crowd,a zoo keeper grabs him and drags him into his office.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "进入到",
+          "pos": "prep.",
+          "example": "Do not enter any enclosure  , or put any part of your body into an enclosure.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -4259,7 +4274,7 @@
         "web-59b629f92c1e91fb"
       ],
       "articleCount": 17,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "several": {
       "lemma": "several",
@@ -4701,36 +4716,6 @@
       "meanings": "是；有；在；位于；成为",
       "senses": [
         {
-          "translation": "是",
-          "pos": "v.",
-          "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "So Smart Animals Are",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "是（助动词与现在分词连用构成进行时）",
-          "pos": "v.",
-          "example": "He begins to notice that the people are paying more attention to the lion in the cage next to his.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
-          "example": "You are thirsty playing basketball or riding home from school.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
-          "translation": "正在",
-          "pos": "v.",
-          "example": "But be careful what you are drinking.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
           "translation": "有",
           "pos": "v.",
           "example": "There are plenty of \"energy drinks\" on the market.",
@@ -4771,6 +4756,36 @@
           "pos": "v.",
           "example": "energy drinks are especially aimed at teenagers",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "是（用于被动语态）",
+          "pos": "v.",
+          "example": "To keep the safety of our animals, any throwing games are not permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "The zoo animals are not trained.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "有（存在）",
+          "pos": "v.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "是（用于被动语态）",
+          "pos": "v.",
+          "example": "Not all animals are permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "If the children are found by themselves, the staff do have the right to call the police.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -4802,7 +4817,7 @@
         "web-c07f29846f6c48f3"
       ],
       "articleCount": 26,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "mentioned": {
       "lemma": "mention",
@@ -5188,8 +5203,8 @@
     "put": {
       "lemma": "put",
       "pos": "v.",
-      "forms": "puts, putting, put",
-      "meanings": "放置；投入；安放；表达；使处于",
+      "forms": "puts, putting",
+      "meanings": "投入；放置；安放；表达",
       "senses": [
         {
           "translation": "放置",
@@ -5250,7 +5265,7 @@
         "web-59b629f92c1e91fb"
       ],
       "articleCount": 7,
-      "updatedAt": "2026-08-22T12:56:11.557Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "quotation": {
       "lemma": "quotation",
@@ -5415,12 +5430,6 @@
       "meanings": "因此；以便；如此；非常；确实",
       "senses": [
         {
-          "translation": "因此",
-          "pos": "conj.",
-          "example": "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
           "translation": "如此地（恐惧）",
           "pos": "adv.",
           "example": "The children decided that he must be so frightened of losing her that he never allowed her outside the door.",
@@ -5485,6 +5494,12 @@
           "pos": "adv.",
           "example": "The mimic is so scared that he begins to run round and round the cage with the lion close behind.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "因此",
+          "pos": "conj.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -5513,26 +5528,14 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 23,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "that": {
       "lemma": "that",
       "pos": "conj.",
       "forms": "those",
-      "meanings": "引导从句；那个；那；如此；那样",
+      "meanings": "引导从句；那个；那；如此",
       "senses": [
-        {
-          "translation": "引导从句",
-          "pos": "conj.",
-          "example": "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
-          "translation": "引导从句",
-          "pos": "conj.",
-          "example": "He discovers that it's a great job.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
         {
           "translation": "引导从句",
           "pos": "conj.",
@@ -5592,6 +5595,18 @@
           "pos": "pron.",
           "example": "What's That in Energy Drinks?",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "引导从句",
+          "pos": "conj.",
+          "example": "When visiting Auckland Zoo, parents should tell their children that   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -5633,7 +5648,7 @@
         "web-09421cfd6a2c44ad"
       ],
       "articleCount": 36,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "engine": {
       "lemma": "engine",
@@ -5816,50 +5831,8 @@
       "lemma": "not",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "不；没；不是；绝非；否定",
+      "meanings": "不；没；不是；绝非",
       "senses": [
-        {
-          "translation": "不",
-          "pos": "adv.",
-          "example": "not everyone is allowed  to start a business online",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "不",
-          "pos": "adv.",
-          "example": "Eat as many eggs as you like unless your doctor advises you not to.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
-          "translation": "不仅",
-          "pos": "adv.",
-          "example": "It is famous for being a symbol, not only of a city, but a whole country and condition too.",
-          "sourceArticleId": "web-f2b1ff9fd84cfda6"
-        },
-        {
-          "translation": "不是",
-          "pos": "adv.",
-          "example": "But not everyone was enthusiastic ( ) .",
-          "sourceArticleId": "web-f2b1ff9fd84cfda6"
-        },
-        {
-          "translation": "没有",
-          "pos": "adv.",
-          "example": "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.",
-          "sourceArticleId": "web-f2b1ff9fd84cfda6"
-        },
-        {
-          "translation": "没有",
-          "pos": "adv.",
-          "example": "he was not awarded the Pritzker Prize, known as the Nobel Prize of Architecture",
-          "sourceArticleId": "web-f2b1ff9fd84cfda6"
-        },
-        {
-          "translation": "不",
-          "pos": "adv.",
-          "example": "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
         {
           "translation": "不",
           "pos": "adv.",
@@ -5889,6 +5862,48 @@
           "pos": "adv.",
           "example": "The main reason for people not to drink too much energy drinks is that they may cause   _  .",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "To keep the safety of our animals, any throwing games are not permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "The zoo animals are not trained.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "不要（用于祈使句）",
+          "pos": "adv.",
+          "example": "Do not enter any enclosure  , or put any part of your body into an enclosure.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "不要（用于祈使句）",
+          "pos": "adv.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "Not all animals are permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "Smoking is not permitted in covered areas.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "不",
+          "pos": "adv.",
+          "example": "Auckland Zoo does not allow entry to any unaccompanied children 12 years and under.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -5923,7 +5938,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 29,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "two": {
       "lemma": "two",
@@ -6033,12 +6048,6 @@
         {
           "translation": "更多",
           "pos": "adv.",
-          "example": "If you want to know more, click chinadaily.",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
-          "translation": "更多",
-          "pos": "adv.",
           "example": "According to the passage, if we want to get more information ,we can   _  .",
           "sourceArticleId": "web-9164814709a91049"
         },
@@ -6101,6 +6110,12 @@
           "pos": "adv.",
           "example": "he finds it more interesting to climb the cage",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "更多",
+          "pos": "adv.",
+          "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -6133,7 +6148,7 @@
         "web-91480225d160a6b6"
       ],
       "articleCount": 27,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "unrelated": {
       "lemma": "unrelated",
@@ -6467,22 +6482,10 @@
     },
     "all": {
       "lemma": "all",
-      "pos": "adv.",
+      "pos": "det.",
       "forms": "无常见变形",
       "meanings": "全部；所有；总共；整个；完全",
       "senses": [
-        {
-          "translation": "所有",
-          "pos": "det.",
-          "example": "It provides money to write and edit all the textbooks in the USA",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
-        {
-          "translation": "全部",
-          "pos": "pron.",
-          "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
         {
           "translation": "所有",
           "pos": "adj.",
@@ -6542,6 +6545,18 @@
           "pos": "adv.",
           "example": "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "所有",
+          "pos": "det.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "全部",
+          "pos": "det.",
+          "example": "Not all animals are permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -6569,7 +6584,7 @@
         "web-4a99bc1fb2af7921"
       ],
       "articleCount": 22,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "names": {
       "lemma": "name",
@@ -6615,12 +6630,6 @@
       "forms": "无常见变形",
       "meanings": "如果；是否；即使；仿佛",
       "senses": [
-        {
-          "translation": "如果",
-          "pos": "conj.",
-          "example": "A student can rent a locker in the library if he   _  .",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
         {
           "translation": "如果",
           "pos": "conj.",
@@ -6686,6 +6695,12 @@
           "pos": "conj.",
           "example": "You must determine your destination, go straight, jump over all the barriers as if in park-our and never fall back from them in your life to reach the destination successfully.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "如果",
+          "pos": "conj.",
+          "example": "If the children are found by themselves, the staff do have the right to call the police.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -6712,7 +6727,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 21,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "have": {
       "lemma": "have",
@@ -6720,18 +6735,6 @@
       "forms": "has, had, having",
       "meanings": "有；经历；吃；（完成时态助动词）",
       "senses": [
-        {
-          "translation": "有",
-          "pos": "v.",
-          "example": "you need to have as many merchant accounts as possible",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "（完成时态助动词）",
-          "pos": "v.",
-          "example": "At the end of every week children will perform a short play wearing clothes they have made themselves.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
         {
           "translation": "有",
           "pos": "v.",
@@ -6791,6 +6794,18 @@
           "pos": "v.",
           "example": "they have lots of caffeine",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "有；拥有",
+          "pos": "v.",
+          "example": "If the children are found by themselves, the staff do have the right to call the police.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "（完成时态助动词）",
+          "pos": "v.",
+          "example": "the zoo animals have been well-trained",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -6825,7 +6840,7 @@
         "web-0ada4954aa4da897"
       ],
       "articleCount": 29,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "ever": {
       "lemma": "ever",
@@ -7341,7 +7356,7 @@
     },
     "sure": {
       "lemma": "sure",
-      "pos": "adv.",
+      "pos": "adj.",
       "forms": "surer, surest",
       "meanings": "确信的；可靠的；当然；确实地",
       "senses": [
@@ -7430,7 +7445,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-22T12:58:40.664Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "don't": {
       "lemma": "do",
@@ -7524,7 +7539,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 10,
-      "updatedAt": "2026-08-22T12:58:07.089Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "miss": {
       "lemma": "miss",
@@ -9019,36 +9034,6 @@
         {
           "translation": "任何",
           "pos": "det.",
-          "example": "find out any new mention of your name or other personal information.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "任何",
-          "pos": "det.",
-          "example": "know quickly any new mention of your name or other personal information",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "任何",
-          "pos": "det.",
-          "example": "stop the spread of any new mention of your name or other personal information",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "任何",
-          "pos": "det.",
-          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
-        {
-          "translation": "任何",
-          "pos": "det.",
-          "example": "Of the men who wanted children, half had experienced loneliness because they did not have any children, compared with 27 percent of women.",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
-        {
-          "translation": "任何",
-          "pos": "det.",
           "example": "Thirty-eight percent of men had experienced depression because they did not have any children, compared with only 27 percent of women.",
           "sourceArticleId": "web-eecaaca1e069e103"
         },
@@ -9087,6 +9072,36 @@
           "pos": "det.",
           "example": "It can be done by anyone, at any time, anywhere in the world.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "任何",
+          "pos": "det.",
+          "example": "To keep the safety of our animals, any throwing games are not permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "任何",
+          "pos": "det.",
+          "example": "Do not enter any enclosure  , or put any part of your body into an enclosure.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "任何",
+          "pos": "det.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "任何",
+          "pos": "det.",
+          "example": "However, any commercial photography or filming needs written permissions from zoo management.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "任何",
+          "pos": "det.",
+          "example": "Auckland Zoo does not allow entry to any unaccompanied children 12 years and under.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -9102,7 +9117,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 10,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "friends": {
       "lemma": "friend",
@@ -9395,7 +9410,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:51:09.159Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "pages": {
       "lemma": "page",
@@ -9498,9 +9513,9 @@
     },
     "check": {
       "lemma": "check",
-      "pos": "n.",
-      "forms": "checks",
-      "meanings": "检查；查看；核对；抑制",
+      "pos": "v.",
+      "forms": "checks, checked, checking",
+      "meanings": "检查；查看；核对；抑制；制止",
       "senses": [
         {
           "translation": "查看",
@@ -9539,7 +9554,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "them": {
       "lemma": "they",
@@ -9652,12 +9667,6 @@
         {
           "translation": "从",
           "pos": "prep.",
-          "example": "Amy Paul's husband was at his job when she took a midday break from making jewelry and bit into an apple.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "从",
-          "pos": "prep.",
           "example": "It is the art of using only your body to navigate from Point A to B in the least time possible, which involves besides leaping, climbing and sprinting, various unusual and complex movements to overcome barriers.",
           "sourceArticleId": "web-20d7ec6e8708c103"
         },
@@ -9720,6 +9729,12 @@
           "pos": "prep.",
           "example": "From the passage we can know that   _  .",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "从",
+          "pos": "prep.",
+          "example": "However, any commercial photography or filming needs written permissions from zoo management.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -9758,7 +9773,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 33,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "time": {
       "lemma": "time",
@@ -9766,12 +9781,6 @@
       "forms": "times",
       "meanings": "时间；时代；次数；倍数；一段时间",
       "senses": [
-        {
-          "translation": "时间",
-          "pos": "n.",
-          "example": "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
         {
           "translation": "时期",
           "pos": "n.",
@@ -9837,6 +9846,12 @@
           "pos": "n.",
           "example": "Well,this goes on for some time-the mimic keeps taunting the lion,the crowds grow larger,and his salary keeps going up.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "时间",
+          "pos": "n.",
+          "example": "We welcome people with guide dogs, but they must contact us ahead of time about their visit.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -9863,7 +9878,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 21,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "they": {
       "lemma": "they",
@@ -9871,24 +9886,6 @@
       "forms": "their, theirs, them, themselves",
       "meanings": "它们；他们；她们；人；大家",
       "senses": [
-        {
-          "translation": "他们",
-          "pos": "pron.",
-          "example": "As its participants dash around a city, they may jump over fences, run up walls and even move from rooftop to rooftop.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "他们",
-          "pos": "pron.",
-          "example": "they can ask for help",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "他们",
-          "pos": "pron.",
-          "example": "they may choose to escape",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
         {
           "translation": "他们",
           "pos": "pron.",
@@ -9942,6 +9939,24 @@
           "pos": "pron.",
           "example": "The main reason for people not to drink too much energy drinks is that they may cause   _  .",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "We welcome people with guide dogs, but they must contact us ahead of time about their visit.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "they could play throwing games",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "they couldstay close to the animals",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -9973,7 +9988,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 26,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "writing": {
       "lemma": "write",
@@ -10202,18 +10217,6 @@
         {
           "translation": "一些",
           "pos": "adj.",
-          "example": "\"Forbes\" magazine said, this year the list of people are political, business, media, the humanitarian field, entertainment and technology industry elite , but also some women were selected because of the huge wealth, including funds, media exposure and influence.",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
-          "translation": "一些人",
-          "pos": "adj.",
-          "example": "Some have real sorrow; I can see it in their eyes.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "一些",
-          "pos": "adj.",
           "example": "We did watch some of his marathons, but that wasn't until he was in his 20s.",
           "sourceArticleId": "web-0ada4954aa4da897"
         },
@@ -10270,6 +10273,18 @@
           "pos": "adj.",
           "example": "perform and earn some money there",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "一些",
+          "pos": "adj.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "一些",
+          "pos": "adj.",
+          "example": "give people some tips on visiting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -10296,7 +10311,7 @@
         "web-c07f29846f6c48f3"
       ],
       "articleCount": 21,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "enables": {
       "lemma": "enable",
@@ -10638,18 +10653,6 @@
         {
           "translation": "一个",
           "pos": "art.",
-          "example": "I didn't get an interview to medical school, thus will not be entering school for September 2009.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "A good idea to make money online should be an idea that excites you, an idea that others will be interested in, and an idea that not many other people are trying.",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
           "example": "While shell-like roofs, unlike anything else in the world, make the Sydney Opera House an image of timeless beauty.",
           "sourceArticleId": "web-f2b1ff9fd84cfda6"
         },
@@ -10706,6 +10709,18 @@
           "pos": "art.",
           "example": "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Do not enter any enclosure  , or put any part of your body into an enclosure.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "In winter we suggest you bring a jacket and an umbrella, and in summer, be sure to bring sunscreen and a hat.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -10738,7 +10753,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 27,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "outstanding": {
       "lemma": "outstanding",
@@ -10961,24 +10976,6 @@
       "meanings": "在（某时间/地点）；以（某种程度）；向；针对",
       "senses": [
         {
-          "translation": "向；针对",
-          "pos": "prep.",
-          "example": "clawing at Cathy's hair",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "针对",
-          "pos": "prep.",
-          "example": "Yes, that's pork-our, an extreme street sport aimed at moving from one point to another as quickly as possible, getting over all the obstacles in the path using only the abilities of the human body.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "在",
-          "pos": "prep.",
-          "example": "It can be done by anyone, at any time, anywhere in the world.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
           "translation": "在",
           "pos": "prep.",
           "example": "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.",
@@ -11031,6 +11028,24 @@
           "pos": "prep.",
           "example": "energy drinks are especially aimed at teenagers",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "在",
+          "pos": "prep.",
+          "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "在",
+          "pos": "prep.",
+          "example": "Keep Safe at the Zoo:\nChildren aged 12 years and under need to be accompanied   by a caregiver.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "在",
+          "pos": "prep.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -11069,7 +11084,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 33,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "young": {
       "lemma": "young",
@@ -11559,12 +11574,6 @@
       "meanings": "与……一起；使用；带有；由于；关于",
       "senses": [
         {
-          "translation": "带有",
-          "pos": "prep.",
-          "example": "My mind was full of hopelessness and despair that left me with no desire to further seek for the dream that I've held for quite a time now.",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
           "translation": "与……一起",
           "pos": "prep.",
           "example": "You will need to buy a domain name   and host  it with a company on the Web.",
@@ -11629,6 +11638,12 @@
           "pos": "prep.",
           "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "带有",
+          "pos": "prep.",
+          "example": "We welcome people with guide dogs, but they must contact us ahead of time about their visit.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -11671,7 +11686,7 @@
         "web-09421cfd6a2c44ad"
       ],
       "articleCount": 37,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "this": {
       "lemma": "this",
@@ -12015,7 +12030,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "while": {
       "lemma": "while",
@@ -12113,6 +12128,18 @@
           "pos": "v.",
           "example": "By visiting the office on weekdays.",
           "sourceArticleId": "web-a41ebe4e54718747"
+        },
+        {
+          "translation": "参观",
+          "pos": "v.",
+          "example": "When visiting Auckland Zoo, parents should tell their children that   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "参观",
+          "pos": "v.",
+          "example": "give people some tips on visiting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -12120,10 +12147,11 @@
         "web-91480225d160a6b6",
         "web-52737a111ab04db4",
         "web-a524105e021f666c",
-        "web-a41ebe4e54718747"
+        "web-a41ebe4e54718747",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "her": {
       "lemma": "she",
@@ -12841,18 +12869,6 @@
         {
           "translation": "年",
           "pos": "n.",
-          "example": "\"Over the last 60 to 70 years.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "年",
-          "pos": "n.",
-          "example": "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "年",
-          "pos": "n.",
           "example": "Urban biking has been popular in the last 60 to 70 years.",
           "sourceArticleId": "web-1fac3b0d4f7569c5"
         },
@@ -12909,6 +12925,18 @@
           "pos": "n.",
           "example": "It was not completed until seven years later and Utzon has never returned to Australia to see the result of his work.",
           "sourceArticleId": "web-f2b1ff9fd84cfda6"
+        },
+        {
+          "translation": "年",
+          "pos": "n.",
+          "example": "Keep Safe at the Zoo:\nChildren aged 12 years and under need to be accompanied   by a caregiver.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "年",
+          "pos": "n.",
+          "example": "Auckland Zoo does not allow entry to any unaccompanied children 12 years and under.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -12928,7 +12956,7 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 14,
-      "updatedAt": "2026-08-22T13:03:26.513Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "granite": {
       "lemma": "granite",
@@ -14203,7 +14231,7 @@
         "web-b9d326f381c855fe"
       ],
       "articleCount": 7,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "peterson's": {
       "lemma": "peterson",
@@ -14337,7 +14365,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:51:54.885Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "amazing": {
       "lemma": "amazing",
@@ -14443,12 +14471,6 @@
       "meanings": "最；大多数；极度；绝大部分",
       "senses": [
         {
-          "translation": "最多",
-          "pos": "adv.",
-          "example": "You can use a room three hours per day, nine hours at most per week.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
-        {
           "translation": "最",
           "pos": "adv.",
           "example": "What message does the author most want to give us?",
@@ -14513,6 +14535,12 @@
           "pos": "det.",
           "example": "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "最",
+          "pos": "det.",
+          "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -14537,7 +14565,7 @@
         "web-59b629f92c1e91fb"
       ],
       "articleCount": 19,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "visible": {
       "lemma": "visible",
@@ -14612,18 +14640,6 @@
         {
           "translation": "他们的",
           "pos": "pron.",
-          "example": "They could not forget that he had, in their mother's words, \"lost two wives and taken a third, \" They wondered about those two unfortunate lost ladies.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "他们的",
-          "pos": "pron.",
-          "example": "They asked each other what their fate had been, and if neither could ever be found again.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "他们的",
-          "pos": "pron.",
           "example": "But seriously, who in their right mind says thanks for the financial problems I have?",
           "sourceArticleId": "web-b08fa6a6e65a8840"
         },
@@ -14680,6 +14696,18 @@
           "pos": "pron.",
           "example": "Makers sometimes say their drinks make you better at sports and can keep you awake.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "他们的",
+          "pos": "pron.",
+          "example": "We welcome people with guide dogs, but they must contact us ahead of time about their visit.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "他们的",
+          "pos": "pron.",
+          "example": "When visiting Auckland Zoo, parents should tell their children that   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -14708,7 +14736,7 @@
         "web-f335b4849447798b"
       ],
       "articleCount": 23,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "success": {
       "lemma": "success",
@@ -16614,16 +16642,10 @@
     },
     "work": {
       "lemma": "work",
-      "pos": "n.",
+      "pos": "v.",
       "forms": "works, worked, working",
-      "meanings": "工作；作品；著作；劳动；运作",
+      "meanings": "工作；劳动；运作；起作用",
       "senses": [
-        {
-          "translation": "工作",
-          "pos": "n.",
-          "example": "The United States Census Bureau says 4%of the city's workers ride to work by bike.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
         {
           "translation": "工作",
           "pos": "n.",
@@ -16689,6 +16711,12 @@
           "pos": "n.",
           "example": "he wants to help the mimic who is out of work",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "工作",
+          "pos": "v.",
+          "example": "Our keepers work strictly on _ .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -16711,7 +16739,7 @@
         "web-a41ebe4e54718747"
       ],
       "articleCount": 17,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "together": {
       "lemma": "together",
@@ -16809,8 +16837,8 @@
     "best": {
       "lemma": "best",
       "pos": "adj.",
-      "forms": "better, best",
-      "meanings": "最好的；最优秀的；最合适的；最佳的；最有效的",
+      "forms": "无常见变形",
+      "meanings": "最好的；最优秀的；最合适的",
       "senses": [
         {
           "translation": "最好地",
@@ -16900,7 +16928,7 @@
         "web-78c5365878759c41"
       ],
       "articleCount": 12,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "fits": {
       "lemma": "fit",
@@ -16944,7 +16972,7 @@
       "lemma": "feel",
       "pos": "v.",
       "forms": "feels, felt, feeling",
-      "meanings": "感到；触摸；认为；有……感觉；摸起来",
+      "meanings": "感到；触摸；认为；有……感觉",
       "senses": [
         {
           "translation": "感觉",
@@ -17024,7 +17052,7 @@
         "web-a524105e021f666c"
       ],
       "articleCount": 8,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "then": {
       "lemma": "then",
@@ -17601,6 +17629,12 @@
           "pos": "n.",
           "example": "Bob's parents often watched his games.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "父母",
+          "pos": "n.",
+          "example": "When visiting Auckland Zoo, parents should tell their children that   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -17608,16 +17642,17 @@
         "web-ffeb0429c5817c0f",
         "web-eecaaca1e069e103",
         "web-0ada4954aa4da897",
-        "web-489568c736b8b700"
+        "web-489568c736b8b700",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-22T12:58:40.664Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "staff": {
       "lemma": "staff",
       "pos": "n.",
       "forms": "staffs/staves",
-      "meanings": "全体员工；参谋人员；棒/杆",
+      "meanings": "全体员工；职员；参谋人员；棒/杆",
       "senses": [
         {
           "translation": "全体员工",
@@ -17637,7 +17672,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "continue": {
       "lemma": "continue",
@@ -17741,7 +17776,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "forth": {
       "lemma": "forth",
@@ -17768,36 +17803,6 @@
       "forms": "children, child's, children's",
       "meanings": "孩子；儿童；子女；产物",
       "senses": [
-        {
-          "translation": "孩子",
-          "pos": "n.",
-          "example": "she was too busy looking after her children",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "孩子",
-          "pos": "n.",
-          "example": "James gave some money to the children",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "孩子；儿童",
-          "pos": "n.",
-          "example": "Course Details\nCrazy Creatures (3--5 year olds)\nClass size: 6--10 students\nCourse summary: \"Crazy Creatures\" teaches children the English language through songs, arts and craft and games.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "孩子；儿童",
-          "pos": "n.",
-          "example": "Every lesson focuses on a famous children's story such as \"The Very Hungry Caterpillar\".",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
-        {
-          "translation": "孩子；儿童",
-          "pos": "n.",
-          "example": "The lesson introduces key vocabulary for the story and the children play games, sing songs, and do arts and craft activities based on the story.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
         {
           "translation": "孩子；儿童",
           "pos": "n.",
@@ -17839,6 +17844,36 @@
           "pos": "n.",
           "example": "It will develop children's art skills.",
           "sourceArticleId": "web-4a99bc1fb2af7921"
+        },
+        {
+          "translation": "儿童；孩子",
+          "pos": "n.",
+          "example": "Keep Safe at the Zoo:\nChildren aged 12 years and under need to be accompanied   by a caregiver.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "儿童；孩子",
+          "pos": "n.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "儿童；孩子",
+          "pos": "n.",
+          "example": "Auckland Zoo does not allow entry to any unaccompanied children 12 years and under.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "儿童；孩子",
+          "pos": "n.",
+          "example": "If the children are found by themselves, the staff do have the right to call the police.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "儿童；孩子",
+          "pos": "n.",
+          "example": "When visiting Auckland Zoo, parents should tell their children that   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -17851,7 +17886,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 7,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "debra": {
       "lemma": "Debra",
@@ -18659,26 +18694,8 @@
       "lemma": "do",
       "pos": "v.",
       "forms": "did, done, doing, does",
-      "meanings": "做；干；进行；引起",
+      "meanings": "做；干；进行；引起；起到……作用",
       "senses": [
-        {
-          "translation": "做",
-          "pos": "v.",
-          "example": "I want to scream and wake up but I can't do anything but sit there.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "做",
-          "pos": "v.",
-          "example": "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "做",
-          "pos": "v.",
-          "example": "And how did Jeremy Lin's parents manage to do these remarkable things?",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
         {
           "translation": "构成疑问句的助动词",
           "pos": "aux.v.",
@@ -18732,6 +18749,24 @@
           "pos": "v.",
           "example": "Possible health dangers have something to do with energy drinks.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "（助动词，用于祈使句否定）",
+          "pos": "aux.",
+          "example": "Do not enter any enclosure  , or put any part of your body into an enclosure.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "（助动词，用于祈使句否定）",
+          "pos": "aux.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "（用于强调动词）确实",
+          "pos": "aux.",
+          "example": "If the children are found by themselves, the staff do have the right to call the police.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -18755,7 +18790,7 @@
         "web-14515232ae2b45c0"
       ],
       "articleCount": 18,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "became": {
       "lemma": "become",
@@ -19164,7 +19199,7 @@
         "web-b9d326f381c855fe"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "sled": {
       "lemma": "sled",
@@ -19538,7 +19573,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T13:04:49.389Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "dog": {
       "lemma": "dog",
@@ -19748,7 +19783,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "meetings": {
       "lemma": "meeting",
@@ -19992,12 +20027,6 @@
         {
           "translation": "当……时",
           "pos": "conj.",
-          "example": "Maggie felt pleased when   _  .",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
-        {
-          "translation": "当……时",
-          "pos": "conj.",
           "example": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
         },
@@ -20060,6 +20089,12 @@
           "pos": "conj.",
           "example": "Then one terrible day when he is dangling over the angry lion he slips and falls.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "When visiting Auckland Zoo, parents should tell their children that   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -20087,10 +20122,11 @@
         "web-6f0dbb98f7323216",
         "web-473b3be3fe52d4fc",
         "web-c3ef658275687753",
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 25,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "articleCount": 26,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "attacked": {
       "lemma": "attack",
@@ -20114,7 +20150,7 @@
     "near": {
       "lemma": "near",
       "pos": "prep.",
-      "forms": "nearer/nearest",
+      "forms": "nearer, nearest",
       "meanings": "接近；在……附近；将近",
       "senses": [
         {
@@ -20122,13 +20158,20 @@
           "pos": "prep.",
           "example": "Near the end of her trip,a forceful wind blew away the majority of her supplies.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "在……附近",
+          "pos": "prep.",
+          "example": "it's dangerous to play near the waterways",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
-        "web-ffeb0429c5817c0f"
+        "web-ffeb0429c5817c0f",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-22T12:47:46.485Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "end": {
       "lemma": "end",
@@ -20580,12 +20623,6 @@
       "meanings": "天；白天；日子；时期；一日",
       "senses": [
         {
-          "translation": "天",
-          "pos": "n.",
-          "example": "The longest day of the month is the day after my younger brother T.",
-          "sourceArticleId": "web-2e315a8a858c375d"
-        },
-        {
           "translation": "一天",
           "pos": "n.",
           "example": "I took long naps in the sun waiting for you to come home at the end of the day.",
@@ -20650,6 +20687,12 @@
           "pos": "n.",
           "example": "Then one terrible day when he is dangling over the angry lion he slips and falls.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "一天",
+          "pos": "n.",
+          "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -20668,7 +20711,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 13,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "goes": {
       "lemma": "go",
@@ -20811,18 +20854,6 @@
         {
           "translation": "但是",
           "pos": "conj.",
-          "example": "\"Normally I peel them, but I read in Good Housekeeping Magazine that the skin has all the nutrients, so I ate the skin, and that's what caused me to choke,\" she recalled.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "但是",
-          "pos": "conj.",
-          "example": "He never does that, but he did, and saved my life.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "但是",
-          "pos": "conj.",
           "example": "But what is park-our?",
           "sourceArticleId": "web-20d7ec6e8708c103"
         },
@@ -20879,6 +20910,18 @@
           "pos": "conj.",
           "example": "But be careful not to drink too much.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "We welcome people with guide dogs, but they must contact us ahead of time about their visit.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -20913,7 +20956,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 29,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "also": {
       "lemma": "also",
@@ -21110,7 +21153,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 15,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "arctic": {
       "lemma": "arctic",
@@ -21765,12 +21808,6 @@
       "meanings": "方式；道路；方向；程度",
       "senses": [
         {
-          "translation": "程度",
-          "pos": "n.",
-          "example": "Interview Questions\nAll this preparation work will go a long way to helping you for questions you might be asked during the interview.",
-          "sourceArticleId": "web-c3ef658275687753"
-        },
-        {
           "translation": "方式",
           "pos": "n.",
           "example": "Which is the correct way to search if you want to eliminate many false hits?",
@@ -21835,6 +21872,12 @@
           "pos": "n.",
           "example": "A park-our lover said, \"I love park-our, because its philosophy has become my life, my way to do everything.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "方式",
+          "pos": "n.",
+          "example": "Don't forget your camera - the best way to capture your visit forever.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -21852,7 +21895,7 @@
         "web-b08fa6a6e65a8840"
       ],
       "articleCount": 12,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "without": {
       "lemma": "without",
@@ -21930,9 +21973,9 @@
     },
     "hope": {
       "lemma": "hope",
-      "pos": "n./v.",
+      "pos": "v.",
       "forms": "hopes, hoped, hoping",
-      "meanings": "希望；期望；盼望",
+      "meanings": "希望；期望；盼望；期待",
       "senses": [
         {
           "translation": "希望",
@@ -21971,7 +22014,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:54:07.542Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "future": {
       "lemma": "future",
@@ -22002,33 +22045,9 @@
     "we": {
       "lemma": "we",
       "pos": "pron.",
-      "forms": "us; our; ours",
+      "forms": "us, our, ours",
       "meanings": "我们；大家；咱们",
       "senses": [
-        {
-          "translation": "我们",
-          "pos": "pron.",
-          "example": "In the first pastor's view, when we face disappointment or despair, we should   _  .",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "我们",
-          "pos": "pron.",
-          "example": "What can we infer from the passage?",
-          "sourceArticleId": "web-b08fa6a6e65a8840"
-        },
-        {
-          "translation": "我们",
-          "pos": "pron.",
-          "example": "After reading the passage, we may know that   _  .",
-          "sourceArticleId": "web-7504f64bec4e74a7"
-        },
-        {
-          "translation": "我们",
-          "pos": "pron.",
-          "example": "What do we learn about \"Literature Study\"?",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
         {
           "translation": "我们",
           "pos": "pron.",
@@ -22076,6 +22095,30 @@
           "pos": "pron.",
           "example": "Why Can't We Buy Energy Drinks?",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "In winter we suggest you bring a jacket and an umbrella, and in summer, be sure to bring sunscreen and a hat.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "We welcome people with guide dogs, but they must contact us ahead of time about their visit.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -22100,7 +22143,7 @@
         "web-78c5365878759c41"
       ],
       "articleCount": 19,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "set": {
       "lemma": "set",
@@ -22192,7 +22235,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:47:46.485Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "never": {
       "lemma": "never",
@@ -22352,6 +22395,12 @@
           "pos": "v.",
           "example": "She is going to give birth to their second child.",
           "sourceArticleId": "web-f39e7f5b1b236779"
+        },
+        {
+          "translation": "提供",
+          "pos": "v.",
+          "example": "give people some tips on visiting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -22362,10 +22411,11 @@
         "web-b08fa6a6e65a8840",
         "web-eecaaca1e069e103",
         "web-59b629f92c1e91fb",
-        "web-f39e7f5b1b236779"
+        "web-f39e7f5b1b236779",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "grew": {
       "lemma": "grow",
@@ -23615,7 +23665,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:48:22.622Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "environmental": {
       "lemma": "environmental",
@@ -23769,14 +23819,21 @@
           "pos": "v.",
           "example": "stop the spread of any new mention of your name or other personal information",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "停止",
+          "pos": "v.",
+          "example": "ask people to stop polluting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f",
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-22T12:47:46.485Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "facing": {
       "lemma": "face",
@@ -25313,7 +25370,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:48:22.622Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "accounting": {
       "lemma": "accounting",
@@ -25721,15 +25778,9 @@
     "need": {
       "lemma": "need",
       "pos": "v.",
-      "forms": "needs, needed, needing",
+      "forms": "needs; needed; needing",
       "meanings": "需要；必须；有必要；缺乏",
       "senses": [
-        {
-          "translation": "需要",
-          "pos": "v.",
-          "example": "Men need children more badly",
-          "sourceArticleId": "web-eecaaca1e069e103"
-        },
         {
           "translation": "需要",
           "pos": "v.",
@@ -25795,6 +25846,12 @@
           "pos": "v.",
           "example": "sports players need to drink a lot of energy drinks",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "需要",
+          "pos": "v.",
+          "example": "Keep Safe at the Zoo:\nChildren aged 12 years and under need to be accompanied   by a caregiver.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -25811,7 +25868,7 @@
         "web-78c5365878759c41"
       ],
       "articleCount": 11,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "aids": {
       "lemma": "aid",
@@ -26152,7 +26209,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T13:03:26.513Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "included": {
       "lemma": "include",
@@ -26551,7 +26608,7 @@
       "lemma": "general",
       "pos": "adj.",
       "forms": "无常见变形",
-      "meanings": "总的；普遍的；一般的；首席的",
+      "meanings": "总的；普遍的；一般的；首席的；全面地",
       "senses": [
         {
           "translation": "通用的（此处为公司专有名词组成部分）",
@@ -26599,7 +26656,7 @@
         "web-ee55c880f34e43f4"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T13:02:22.329Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "electric": {
       "lemma": "electric",
@@ -26705,24 +26762,6 @@
         {
           "translation": "我们的",
           "pos": "pron.",
-          "example": "Park-our now enjoys the devotion of many die-hard fans across the world and has been the source for much inspiration.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "我们的",
-          "pos": "pron.",
-          "example": "But what is park-our?",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "我们的",
-          "pos": "pron.",
-          "example": "Yes, that's pork-our, an extreme street sport aimed at moving from one point to another as quickly as possible, getting over all the obstacles in the path using only the abilities of the human body.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "我们的",
-          "pos": "pron.",
           "example": "Park-our is considered an extreme sport.",
           "sourceArticleId": "web-20d7ec6e8708c103"
         },
@@ -26773,6 +26812,24 @@
           "pos": "pron.",
           "example": "Which of the following is the philosophy of park-our?",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "我们的",
+          "pos": "pron.",
+          "example": "To keep the safety of our animals, any throwing games are not permitted in the zoo grounds.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "我们的",
+          "pos": "pron.",
+          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "我们的",
+          "pos": "pron.",
+          "example": "Our keepers work strictly on _ .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -26789,7 +26846,7 @@
         "web-c46072fb88fa1c7b"
       ],
       "articleCount": 11,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "employees": {
       "lemma": "employee",
@@ -27336,7 +27393,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T13:03:26.513Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "valuable": {
       "lemma": "valuable",
@@ -27797,7 +27854,7 @@
       "lemma": "free",
       "pos": "adj.",
       "forms": "freer, freest",
-      "meanings": "免费的；自由的；空闲的；不受限制的；无偿的",
+      "meanings": "随意的；免费的；自由的；空闲的",
       "senses": [
         {
           "translation": "免费的",
@@ -27882,7 +27939,7 @@
         "web-b08fa6a6e65a8840"
       ],
       "articleCount": 7,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "simply": {
       "lemma": "simply",
@@ -28081,7 +28138,7 @@
       "lemma": "number",
       "pos": "n.",
       "forms": "numbering, numbered, numbers",
-      "meanings": "数字；编号；号码；数量",
+      "meanings": "数量；编号；号码；数字",
       "senses": [
         {
           "translation": "编号",
@@ -28165,7 +28222,7 @@
         "web-09421cfd6a2c44ad"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T12:54:33.931Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "you're": {
       "lemma": "you are",
@@ -28540,7 +28597,7 @@
     },
     "call": {
       "lemma": "call",
-      "pos": "n.",
+      "pos": "v.",
       "forms": "calls, called, calling",
       "meanings": "打电话；呼叫；号召；称呼；访问",
       "senses": [
@@ -28588,7 +28645,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T13:04:49.389Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "below": {
       "lemma": "below",
@@ -29909,7 +29966,7 @@
         "web-20d7ec6e8708c103"
       ],
       "articleCount": 8,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "after": {
       "lemma": "after",
@@ -30079,15 +30136,22 @@
           "pos": "adj.",
           "example": "The mimic is so scared that he begins to run round and round the cage with the lion close behind.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "靠近的",
+          "pos": "adj.",
+          "example": "they couldstay close to the animals",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
         "web-6889075584252ffd",
         "web-14515232ae2b45c0",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "friend": {
       "lemma": "friend",
@@ -30296,7 +30360,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 8,
-      "updatedAt": "2026-08-22T13:03:26.513Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "cancers": {
       "lemma": "cancer",
@@ -30652,9 +30716,9 @@
     },
     "right": {
       "lemma": "right",
-      "pos": "adj.",
-      "forms": "righter, rightest",
-      "meanings": "正确的；恰当的；右边的；合适的；正常的",
+      "pos": "n.",
+      "forms": "rights",
+      "meanings": "权利；右边；正确；正直",
       "senses": [
         {
           "translation": "正确的",
@@ -30716,7 +30780,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 8,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "should": {
       "lemma": "should",
@@ -30724,12 +30788,6 @@
       "forms": "无常见变形",
       "meanings": "应该；会；可能",
       "senses": [
-        {
-          "translation": "应该",
-          "pos": "modal v.",
-          "example": "What should NOT be brought into the library?",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
         {
           "translation": "应该",
           "pos": "modal v.",
@@ -30795,6 +30853,12 @@
           "pos": "modal v.",
           "example": "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "应该",
+          "pos": "modal v.",
+          "example": "When visiting Auckland Zoo, parents should tell their children that   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -30810,10 +30874,11 @@
         "web-b08fa6a6e65a8840",
         "web-4a99bc1fb2af7921",
         "web-ee55c880f34e43f4",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "something": {
       "lemma": "something",
@@ -31260,12 +31325,6 @@
         {
           "translation": "有",
           "pos": "adv.",
-          "example": "The list of women from 26 countries, there are 153000000 of them in Twitter \"fans\", 16 of them own Create Company.",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
-          "translation": "有",
-          "pos": "adv.",
           "example": "There are 15 new this year, including South Korean President Park Geun-hye .",
           "sourceArticleId": "web-9164814709a91049"
         },
@@ -31328,6 +31387,12 @@
           "pos": "adv.",
           "example": "There are plenty of \"energy drinks\" on the market.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "有",
+          "pos": "adv.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -31359,7 +31424,7 @@
         "web-a524105e021f666c"
       ],
       "articleCount": 26,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "developed": {
       "lemma": "develop",
@@ -31798,14 +31863,8 @@
       "lemma": "time",
       "pos": "n.",
       "forms": "times",
-      "meanings": "次；倍；时期；时代",
+      "meanings": "次；倍；时期；时代；时间",
       "senses": [
-        {
-          "translation": "次",
-          "pos": "n.",
-          "example": "The Bristol University study showed that only one in five owners play with their dogs six times a day.",
-          "sourceArticleId": "web-c5114d8c96e4f03b"
-        },
         {
           "translation": "次",
           "pos": "n.",
@@ -31871,6 +31930,12 @@
           "pos": "n.",
           "example": "Living in a foreign culture there are many times when I realize that my perspective   on life is drastically different from those Koreans I interact   with on a daily basis.",
           "sourceArticleId": "web-b08fa6a6e65a8840"
+        },
+        {
+          "translation": "任何时候/时刻",
+          "pos": "n.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -31882,7 +31947,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T12:59:55.799Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "sensitive": {
       "lemma": "sensitive",
@@ -32169,12 +32234,6 @@
       "meanings": "是；成为；存在；发生；已经",
       "senses": [
         {
-          "translation": "被",
-          "pos": "v.",
-          "example": "have been adapted to the automobile.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
           "translation": "一直是",
           "pos": "v.",
           "example": "Urban biking has been popular in the last 60 to 70 years.",
@@ -32239,6 +32298,12 @@
           "pos": "aux.",
           "example": "Park-our now enjoys the devotion of many die-hard fans across the world and has been the source for much inspiration.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "被",
+          "pos": "aux.",
+          "example": "the zoo animals have been well-trained",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -32255,10 +32320,11 @@
         "web-721dea8f3b5f4d9e",
         "web-6eef5352ebcffaba",
         "web-e5460a9523607192",
-        "web-0ada4954aa4da897"
+        "web-0ada4954aa4da897",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 14,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "articleCount": 15,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "possible": {
       "lemma": "possible",
@@ -34939,7 +35005,7 @@
       "lemma": "we",
       "pos": "pron.",
       "forms": "无常见变形",
-      "meanings": "我们（宾格）",
+      "meanings": "我们（宾格）；我们",
       "senses": [
         {
           "translation": "我们",
@@ -35027,7 +35093,7 @@
         "web-7504f64bec4e74a7"
       ],
       "articleCount": 10,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "list": {
       "lemma": "list",
@@ -35239,7 +35305,7 @@
     },
     "enjoy": {
       "lemma": "enjoy",
-      "pos": "verb",
+      "pos": "v.",
       "forms": "enjoys, enjoyed, enjoying",
       "meanings": "享受；喜爱；享有；欣赏",
       "senses": [
@@ -35295,7 +35361,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T12:56:11.557Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "downloading": {
       "lemma": "download",
@@ -35381,6 +35447,12 @@
           "pos": "n.",
           "example": "Bob's parents often watched his games.",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "游戏",
+          "pos": "n.",
+          "example": "they could play throwing games",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -35391,7 +35463,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "rooms": {
       "lemma": "room",
@@ -36551,7 +36623,7 @@
         "web-eecaaca1e069e103"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-22T13:03:26.513Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "riddle": {
       "lemma": "riddle",
@@ -37581,7 +37653,7 @@
       "lemma": "food",
       "pos": "n.",
       "forms": "foods",
-      "meanings": "食物；食品；养料",
+      "meanings": "食物；食品；养料；营养物",
       "senses": [
         {
           "translation": "食物",
@@ -37635,7 +37707,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T13:02:22.329Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "evening": {
       "lemma": "evening",
@@ -37682,12 +37754,6 @@
       "forms": "do, does, did, doing, done",
       "meanings": "做；进行；行动；表现；（助动词）",
       "senses": [
-        {
-          "translation": "（助动词，用于强调）",
-          "pos": "v.",
-          "example": "Last week I saw the release of the second part, and _ does it shows.",
-          "sourceArticleId": "web-b9d326f381c855fe"
-        },
         {
           "translation": "做（助动词，用于否定）",
           "pos": "v.",
@@ -37753,6 +37819,12 @@
           "pos": "aux.v.",
           "example": "What does the passage mainly tell us?",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "（助动词，与not连用表示否定）",
+          "pos": "v.",
+          "example": "Auckland Zoo does not allow entry to any unaccompanied children 12 years and under.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -37770,7 +37842,7 @@
         "web-a524105e021f666c"
       ],
       "articleCount": 12,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "i'm": {
       "lemma": "i",
@@ -38429,7 +38501,7 @@
         "web-20d7ec6e8708c103"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "asks": {
       "lemma": "ask",
@@ -38792,6 +38864,12 @@
           "pos": "v.",
           "example": "What does the passage mainly tell us?",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "告诉",
+          "pos": "v.",
+          "example": "When visiting Auckland Zoo, parents should tell their children that   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -38800,10 +38878,11 @@
         "web-78c5365878759c41",
         "web-0ada4954aa4da897",
         "web-7504f64bec4e74a7",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "big": {
       "lemma": "big",
@@ -39435,6 +39514,12 @@
           "pos": "v.",
           "example": "ask for a job there",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "要求",
+          "pos": "v.",
+          "example": "ask people to stop polluting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -39443,10 +39528,11 @@
         "web-c3ef658275687753",
         "web-c46072fb88fa1c7b",
         "web-20d7ec6e8708c103",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 6,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "articleCount": 7,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "ks": {
       "lemma": "ks",
@@ -39811,12 +39897,6 @@
       "meanings": "到来；出现；到达；来",
       "senses": [
         {
-          "translation": "（与up搭配）想出",
-          "pos": "v.",
-          "example": "As well as preparing for the standard questions, you also need to come up with relevant questions to ask the interviewer about the company and your role.",
-          "sourceArticleId": "web-c3ef658275687753"
-        },
-        {
           "translation": "一起来；随同前往",
           "pos": "v.",
           "example": "And maybe you can come along with me sometime.",
@@ -39881,6 +39961,12 @@
           "pos": "v.",
           "example": "Upon his return to Denmark, he found work hard to come by , so he become a teacher at a university in Hawaii.",
           "sourceArticleId": "web-f2b1ff9fd84cfda6"
+        },
+        {
+          "translation": "来",
+          "pos": "v.",
+          "example": "General Information:\nCheck out the weather before you come.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -39900,7 +39986,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 14,
-      "updatedAt": "2026-08-22T13:03:26.513Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "along": {
       "lemma": "along",
@@ -41845,7 +41931,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "everyday": {
       "lemma": "everyday",
@@ -44266,7 +44352,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:51:09.159Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "traffic": {
       "lemma": "traffic",
@@ -44998,7 +45084,7 @@
     },
     "written": {
       "lemma": "write",
-      "pos": "v.",
+      "pos": "adj.",
       "forms": "writes, wrote, written, writing",
       "meanings": "写；书写；写作；编写",
       "senses": [
@@ -45020,7 +45106,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:51:54.885Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "book": {
       "lemma": "book",
@@ -45928,7 +46014,7 @@
         "web-c07f29846f6c48f3"
       ],
       "articleCount": 8,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "distances": {
       "lemma": "distance",
@@ -46936,7 +47022,7 @@
       "lemma": "safe",
       "pos": "adj.",
       "forms": "safer, safest",
-      "meanings": "安全的；保险的；可靠的",
+      "meanings": "安全的；保险的；可靠的；稳妥的",
       "senses": [
         {
           "translation": "安全的",
@@ -46956,7 +47042,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:51:54.885Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "passing": {
       "lemma": "passing",
@@ -48508,22 +48594,10 @@
     },
     "well": {
       "lemma": "well",
-      "pos": "int.",
+      "pos": "adv.",
       "forms": "better, best",
-      "meanings": "健康的；良好的；很；相当；嗯（感叹词）",
+      "meanings": "健康的；良好的；很；相当；嗯",
       "senses": [
-        {
-          "translation": "很",
-          "pos": "adv.",
-          "example": "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.",
-          "sourceArticleId": "web-f2b1ff9fd84cfda6"
-        },
-        {
-          "translation": "健康的",
-          "pos": "adj.",
-          "example": "He knew, though that she hadn't been well for some time now, and it had become almost familiar to him to see her eyes narrowed in a sudden attack of pain, and her hand pressing against her heart.",
-          "sourceArticleId": "web-2003500b566de45c"
-        },
         {
           "translation": "嗯（用于引起注意或开始说话）",
           "pos": "int.",
@@ -48583,6 +48657,18 @@
           "pos": "adv.",
           "example": "when he was doing well in math",
           "sourceArticleId": "web-0ada4954aa4da897"
+        },
+        {
+          "translation": "均衡的；良好的",
+          "pos": "adj.",
+          "example": "Every zoo animal enjoys its own specific: well-balanced food.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "很好地；充分地",
+          "pos": "adv.",
+          "example": "the zoo animals have been well-trained",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -48597,7 +48683,7 @@
         "web-0ada4954aa4da897"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "rather": {
       "lemma": "rather",
@@ -49461,12 +49547,6 @@
         {
           "translation": "它的",
           "pos": "pron.",
-          "example": "\"Utzon made a building well ahead of its time, and he persevered   through criticism to build a building that changed the image of an entire country,\" said Frank Gehry, a Pritzer Architecture Prize judge.",
-          "sourceArticleId": "web-f2b1ff9fd84cfda6"
-        },
-        {
-          "translation": "它的",
-          "pos": "pron.",
           "example": "its creator is Danish architect, who returned to Denmark",
           "sourceArticleId": "web-f2b1ff9fd84cfda6"
         },
@@ -49529,6 +49609,12 @@
           "pos": "pron.",
           "example": "Because of this, the International Olympic Committee(IOC) has limited  its use.",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "它的",
+          "pos": "pron.",
+          "example": "Every zoo animal enjoys its own specific: well-balanced food.",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -49548,7 +49634,7 @@
         "web-a524105e021f666c"
       ],
       "articleCount": 14,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "histories": {
       "lemma": "history",
@@ -51111,7 +51197,7 @@
       "lemma": "train",
       "pos": "adj.",
       "forms": "training, trains, trained",
-      "meanings": "受过训练的；熟练的",
+      "meanings": "受过训练的；熟练的；经过锻炼的",
       "senses": [
         {
           "translation": "受过训练的",
@@ -51124,6 +51210,18 @@
           "pos": "adj.",
           "example": "The zoo animals are not trained.",
           "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "受过训练的；驯服的",
+          "pos": "adj.",
+          "example": "The zoo animals are not trained.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "受过训练的；驯服的",
+          "pos": "adj.",
+          "example": "the zoo animals have been well-trained",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -51131,7 +51229,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:53:31.552Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "teachers": {
       "lemma": "teacher",
@@ -51738,7 +51836,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T13:01:48.952Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "susan": {
       "lemma": "susan",
@@ -52207,12 +52305,6 @@
       "meanings": "能够；可能；可以；用于疑问句表示惊讶或困惑",
       "senses": [
         {
-          "translation": "竟然，怎么（表示惊讶或责备）",
-          "pos": "modal v.",
-          "example": "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
           "translation": "能够（表示过去的能力）",
           "pos": "modal v.",
           "example": "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.",
@@ -52277,6 +52369,12 @@
           "pos": "modal v.",
           "example": "No one could explain their timely heroics.",
           "sourceArticleId": "web-c07f29846f6c48f3"
+        },
+        {
+          "translation": "能够",
+          "pos": "modal v.",
+          "example": "they could play throwing games",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -52291,10 +52389,11 @@
         "web-c07f29846f6c48f3",
         "web-6eef5352ebcffaba",
         "web-473b3be3fe52d4fc",
-        "web-e5460a9523607192"
+        "web-e5460a9523607192",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 12,
-      "updatedAt": "2026-08-22T13:04:49.389Z"
+      "articleCount": 13,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "print": {
       "lemma": "print",
@@ -53972,7 +54071,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:54:07.542Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "pets": {
       "lemma": "pet",
@@ -54193,7 +54292,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:54:07.542Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "cats": {
       "lemma": "cat",
@@ -54616,7 +54715,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:54:07.542Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "faithfulness": {
       "lemma": "faithfulness",
@@ -56253,7 +56352,7 @@
     },
     "guide": {
       "lemma": "guide",
-      "pos": "n.",
+      "pos": "adj.",
       "forms": "guides, guided, guiding",
       "meanings": "指南；向导；指导；引导；导游",
       "senses": [
@@ -56282,7 +56381,7 @@
         "web-52737a111ab04db4"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:55:24.029Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "stockholm": {
       "lemma": "stockholm",
@@ -57507,7 +57606,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 7,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "booked": {
       "lemma": "book",
@@ -58077,7 +58176,7 @@
     },
     "phone": {
       "lemma": "phone",
-      "pos": "n.",
+      "pos": "v.",
       "forms": "phones, phoned, phoning",
       "meanings": "电话；手机；打电话；通话",
       "senses": [
@@ -58112,7 +58211,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:57:41.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "conversations": {
       "lemma": "conversation",
@@ -58176,13 +58275,13 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:55:24.029Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "keep": {
       "lemma": "keep",
       "pos": "v.",
       "forms": "keeps, kept, keeping",
-      "meanings": "陪伴；保持；维持；继续；保存",
+      "meanings": "保持；维持；保存；饲养；陪伴",
       "senses": [
         {
           "translation": "保持",
@@ -58242,7 +58341,7 @@
         "web-a0a23c816fc997da"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "lecture": {
       "lemma": "lecture",
@@ -58303,7 +58402,7 @@
     },
     "please": {
       "lemma": "please",
-      "pos": "v.",
+      "pos": "adv.",
       "forms": "pleased, pleasing, pleases",
       "meanings": "请；使高兴；使满意；喜欢",
       "senses": [
@@ -58350,7 +58449,7 @@
         "web-14515232ae2b45c0"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:59:24.392Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "note": {
       "lemma": "note",
@@ -60506,7 +60605,7 @@
     },
     "animal": {
       "lemma": "animal",
-      "pos": "adj.",
+      "pos": "n.",
       "forms": "animals",
       "meanings": "动物；兽；畜生；野蛮人",
       "senses": [
@@ -60541,7 +60640,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:56:11.557Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "casualties": {
       "lemma": "casualty",
@@ -65344,8 +65443,8 @@
     "needs": {
       "lemma": "need",
       "pos": "v.",
-      "forms": "need, needs, needed, needing",
-      "meanings": "需要；需求；贫困；责任",
+      "forms": "needing, needed, needs",
+      "meanings": "需要；必须；有必要；缺乏",
       "senses": [
         {
           "translation": "需要",
@@ -65392,7 +65491,7 @@
         "web-20d7ec6e8708c103"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "humor": {
       "lemma": "humor",
@@ -67667,7 +67766,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:58:40.664Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "imitate": {
       "lemma": "imitate",
@@ -70676,16 +70775,23 @@
           "pos": "adj.",
           "example": "The main reason for people not to drink too much energy drinks is that they may cause   _  .",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "主要的",
+          "pos": "adj.",
+          "example": "The main purpose of the passage is to   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
         "web-b08fa6a6e65a8840",
         "web-91480225d160a6b6",
         "web-9164814709a91049",
-        "web-78c5365878759c41"
+        "web-78c5365878759c41",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "characters": {
       "lemma": "character",
@@ -71658,14 +71764,21 @@
           "pos": "v.",
           "example": "he wants to attract the attention of his audience",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "吸引",
+          "pos": "v.",
+          "example": "attract people to the zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
         "web-7504f64bec4e74a7",
-        "web-a524105e021f666c"
+        "web-a524105e021f666c",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "customers": {
       "lemma": "customer",
@@ -75469,7 +75582,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "essential": {
       "lemma": "essential",
@@ -78387,7 +78500,7 @@
       "lemma": "care",
       "pos": "v.",
       "forms": "cares, cared, caring",
-      "meanings": "照顾；照料；小心；忧虑；关注",
+      "meanings": "照顾；在意；关心；忧虑；喜欢",
       "senses": [
         {
           "translation": "喜欢",
@@ -78428,7 +78541,7 @@
         "web-a524105e021f666c"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "apart": {
       "lemma": "apart",
@@ -78789,12 +78902,6 @@
         {
           "translation": "动物",
           "pos": "n.",
-          "example": "For their nick-of-time acts, Toby, a 2-year-old dog, and Winnie, a cute cat, were named Dog and Cat of the Year by the American Society for the Prevention of Cruelty to Animals.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "动物",
-          "pos": "n.",
           "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
           "sourceArticleId": "web-1db81bcdb0151def"
         },
@@ -78845,6 +78952,24 @@
           "pos": "n.",
           "example": "The mimic and his animals",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "动物",
+          "pos": "n.",
+          "example": "they couldstay close to the animals",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "动物",
+          "pos": "n.",
+          "example": "the zoo animals have been well-trained",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "动物",
+          "pos": "n.",
+          "example": "introduce Auckland Zoo animals",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -78854,7 +78979,7 @@
         "web-a524105e021f666c"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "paul": {
       "lemma": "paul",
@@ -79557,7 +79682,7 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T13:04:49.389Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "barn": {
       "lemma": "barn",
@@ -79640,7 +79765,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T13:04:49.389Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "milk": {
       "lemma": "milk",
@@ -79971,7 +80096,7 @@
       "lemma": "police",
       "pos": "n.",
       "forms": "无常见变形",
-      "meanings": "警察；警方",
+      "meanings": "警察；警方；治安人员",
       "senses": [
         {
           "translation": "警察",
@@ -79991,7 +80116,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T13:04:49.389Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "responding": {
       "lemma": "respond",
@@ -80852,7 +80977,7 @@
         "web-b9d326f381c855fe"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "devotion": {
       "lemma": "devotion",
@@ -80955,7 +81080,7 @@
         "web-eecaaca1e069e103"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T13:05:22.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "navigate": {
       "lemma": "navigate",
@@ -82149,35 +82274,35 @@
         {
           "translation": "动物园",
           "pos": "n.",
-          "example": "Every zoo animal enjoys its own specific: well-balanced food.",
+          "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
           "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "动物园",
           "pos": "n.",
-          "example": "We hope that you enjoy some great food treats on your zoo visit, but please do not feed any of our animals.",
+          "example": "Keep Safe at the Zoo:\nChildren aged 12 years and under need to be accompanied   by a caregiver.",
           "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "动物园",
           "pos": "n.",
-          "example": "However, any commercial photography or filming needs written permissions from zoo management.",
+          "example": "To keep the safety of our animals, any throwing games are not permitted in the zoo grounds.",
           "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "动物园",
           "pos": "n.",
-          "example": "Not all animals are permitted in the zoo grounds.",
+          "example": "The zoo animals are not trained.",
           "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "动物园",
           "pos": "n.",
-          "example": "Please phone the Zoo Information Center on +64(0)9-360-3805.",
+          "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
           "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
-          "translation": "奥克兰动物园",
+          "translation": "动物园",
           "pos": "n.",
           "example": "Auckland Zoo does not allow entry to any unaccompanied children 12 years and under.",
           "sourceArticleId": "web-1db81bcdb0151def"
@@ -82185,38 +82310,38 @@
         {
           "translation": "动物园",
           "pos": "n.",
-          "example": "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer.",
-          "sourceArticleId": "web-a524105e021f666c"
+          "example": "When visiting Auckland Zoo, parents should tell their children that   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "动物园",
           "pos": "n.",
-          "example": "As soon as he starts to draw the crowd,a zoo keeper grabs him and drags him into his office.",
-          "sourceArticleId": "web-a524105e021f666c"
+          "example": "the zoo animals have been well-trained",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "动物园",
           "pos": "n.",
-          "example": "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.",
-          "sourceArticleId": "web-a524105e021f666c"
+          "example": "give people some tips on visiting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "动物园",
           "pos": "n.",
-          "example": "The mimic visits the zoo to  _  .",
-          "sourceArticleId": "web-a524105e021f666c"
+          "example": "introduce Auckland Zoo animals",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "动物园",
           "pos": "n.",
-          "example": "beg some money from the zoo keeper",
-          "sourceArticleId": "web-a524105e021f666c"
+          "example": "ask people to stop polluting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         },
         {
           "translation": "动物园",
           "pos": "n.",
-          "example": "The zoo keeper offers the mimic a job to act as the gorilla because  _  .",
-          "sourceArticleId": "web-a524105e021f666c"
+          "example": "attract people to the zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -82224,7 +82349,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T13:06:13.332Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "attempts": {
       "lemma": "attempt",
@@ -84354,7 +84479,7 @@
       "lemma": "auckland",
       "pos": "n.",
       "forms": "无常见变形",
-      "meanings": "奥克兰（地名）",
+      "meanings": "奥克兰（新西兰城市）",
       "senses": [
         {
           "translation": "奥克兰",
@@ -84367,13 +84492,37 @@
           "pos": "n.",
           "example": "Auckland Zoo does not allow entry to any unaccompanied children 12 years and under.",
           "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "奥克兰",
+          "pos": "n.",
+          "example": "When visiting Auckland Zoo, parents should tell their children that   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "奥克兰",
+          "pos": "n.",
+          "example": "give people some tips on visiting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "奥克兰",
+          "pos": "n.",
+          "example": "introduce Auckland Zoo animals",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "奥克兰",
+          "pos": "n.",
+          "example": "ask people to stop polluting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "suggest": {
       "lemma": "suggest",
@@ -84398,7 +84547,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "favorite": {
       "lemma": "favorite",
@@ -84417,7 +84566,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "camera": {
       "lemma": "camera",
@@ -84436,7 +84585,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "capture": {
       "lemma": "capture",
@@ -84455,13 +84604,13 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "visit": {
       "lemma": "visit",
-      "pos": "v.",
+      "pos": "n.",
       "forms": "visits, visited, visiting",
-      "meanings": "参观；访问；游览；逗留；拜访",
+      "meanings": "参观；访问；逗留；游览",
       "senses": [
         {
           "translation": "游览",
@@ -84493,7 +84642,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:57:41.134Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "caregiver": {
       "lemma": "caregiver",
@@ -84512,7 +84661,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "safety": {
       "lemma": "safety",
@@ -84531,11 +84680,11 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "throwing": {
       "lemma": "throw",
-      "pos": "v.",
+      "pos": "adj.",
       "forms": "throws, threw, thrown, throwing",
       "meanings": "投掷；扔；抛；投射",
       "senses": [
@@ -84544,13 +84693,19 @@
           "pos": "adj.",
           "example": "To keep the safety of our animals, any throwing games are not permitted in the zoo grounds.",
           "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "投掷的",
+          "pos": "adj.",
+          "example": "they could play throwing games",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "grounds": {
       "lemma": "ground",
@@ -84575,7 +84730,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "enter": {
       "lemma": "enter",
@@ -84594,7 +84749,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "enclosure": {
       "lemma": "enclosure",
@@ -84613,7 +84768,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "natural": {
       "lemma": "natural",
@@ -84632,18 +84787,24 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "waterways": {
       "lemma": "waterway",
       "pos": "n.",
-      "forms": "waterway",
-      "meanings": "水道；航道；水路",
+      "forms": "waterways",
+      "meanings": "水道；航道；水路；通航河道",
       "senses": [
         {
           "translation": "水道",
           "pos": "n.",
           "example": "There are a number of natural waterways at the zoo, so please take care of your children at all times.",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        },
+        {
+          "translation": "水道",
+          "pos": "n.",
+          "example": "it's dangerous to play near the waterways",
           "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
@@ -84651,7 +84812,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "winter": {
       "lemma": "winter",
@@ -84670,7 +84831,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "jacket": {
       "lemma": "jacket",
@@ -84689,7 +84850,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "umbrella": {
       "lemma": "umbrella",
@@ -84708,7 +84869,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "summer": {
       "lemma": "summer",
@@ -84727,7 +84888,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "sunscreen": {
       "lemma": "sunscreen",
@@ -84746,7 +84907,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "hat": {
       "lemma": "hat",
@@ -84765,7 +84926,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "balanced": {
       "lemma": "balance",
@@ -84784,13 +84945,13 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "treats": {
       "lemma": "treat",
       "pos": "n.",
       "forms": "treats",
-      "meanings": "零食；款待；乐事；美味的食物；请客",
+      "meanings": "款待；乐事；美味的食物；请客",
       "senses": [
         {
           "translation": "美味的食物",
@@ -84810,7 +84971,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:54:14.939Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "keepers": {
       "lemma": "keeper",
@@ -84829,7 +84990,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "strictly": {
       "lemma": "strictly",
@@ -84848,7 +85009,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "photos": {
       "lemma": "photo",
@@ -84867,7 +85028,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "commercial": {
       "lemma": "commercial",
@@ -84886,7 +85047,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "filming": {
       "lemma": "film",
@@ -84905,7 +85066,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "permissions": {
       "lemma": "permission",
@@ -84924,7 +85085,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "welcome": {
       "lemma": "welcome",
@@ -84943,7 +85104,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "contact": {
       "lemma": "contact",
@@ -84969,7 +85130,7 @@
         "web-a41ebe4e54718747"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:48:22.622Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "center": {
       "lemma": "center",
@@ -84988,7 +85149,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "smoking": {
       "lemma": "smoke",
@@ -85007,7 +85168,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "covered": {
       "lemma": "cover",
@@ -85026,7 +85187,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "entry": {
       "lemma": "entry",
@@ -85045,7 +85206,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "unaccompanied": {
       "lemma": "unaccompanied",
@@ -85064,7 +85225,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "adults": {
       "lemma": "adult",
@@ -89606,13 +89767,20 @@
           "pos": "adj.",
           "example": "Very simple, in each of these, one group of people believes another group is different from them and dangerous to them.",
           "sourceArticleId": "web-6eef5352ebcffaba"
+        },
+        {
+          "translation": "危险的",
+          "pos": "adj.",
+          "example": "it's dangerous to play near the waterways",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
-        "web-6eef5352ebcffaba"
+        "web-6eef5352ebcffaba",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-04T07:55:43.059Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "yellow": {
       "lemma": "yellow",
@@ -94459,12 +94627,6 @@
         {
           "translation": "文章",
           "pos": "n.",
-          "example": "Which is true according to the passage?",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
-          "translation": "文章",
-          "pos": "n.",
           "example": "According to the passage, if we want to get more information ,we can   _  .",
           "sourceArticleId": "web-9164814709a91049"
         },
@@ -94527,6 +94689,12 @@
           "pos": "n.",
           "example": "Which of the following can be the best title of the passage?   _",
           "sourceArticleId": "web-78c5365878759c41"
+        },
+        {
+          "translation": "文章",
+          "pos": "n.",
+          "example": "The main purpose of the passage is to   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
         }
       ],
       "articleIds": [
@@ -94542,10 +94710,11 @@
         "web-7504f64bec4e74a7",
         "web-c07f29846f6c48f3",
         "web-a524105e021f666c",
-        "web-78c5365878759c41"
+        "web-78c5365878759c41",
+        "web-1db81bcdb0151def"
       ],
-      "articleCount": 13,
-      "updatedAt": "2026-08-22T13:06:50.136Z"
+      "articleCount": 14,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     },
     "mainly": {
       "lemma": "mainly",
@@ -99005,6 +99174,82 @@
       ],
       "articleCount": 1,
       "updatedAt": "2026-08-22T13:06:50.136Z"
+    },
+    "couldstay": {
+      "lemma": "couldstay",
+      "pos": "v.",
+      "forms": "无常见变形",
+      "meanings": "靠近；停留",
+      "senses": [
+        {
+          "translation": "靠近",
+          "pos": "v.",
+          "example": "they couldstay close to the animals",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        }
+      ],
+      "articleIds": [
+        "web-1db81bcdb0151def"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
+    },
+    "purpose": {
+      "lemma": "purpose",
+      "pos": "n.",
+      "forms": "purposes",
+      "meanings": "目的；意图；用途；效果",
+      "senses": [
+        {
+          "translation": "目的",
+          "pos": "n.",
+          "example": "The main purpose of the passage is to   _  .",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        }
+      ],
+      "articleIds": [
+        "web-1db81bcdb0151def"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
+    },
+    "introduce": {
+      "lemma": "introduce",
+      "pos": "v.",
+      "forms": "introduces, introduced, introducing",
+      "meanings": "介绍；引进；推出；提出",
+      "senses": [
+        {
+          "translation": "介绍",
+          "pos": "v.",
+          "example": "introduce Auckland Zoo animals",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        }
+      ],
+      "articleIds": [
+        "web-1db81bcdb0151def"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
+    },
+    "polluting": {
+      "lemma": "pollute",
+      "pos": "v.",
+      "forms": "pollutes, polluted, polluting",
+      "meanings": "污染；弄脏；玷污",
+      "senses": [
+        {
+          "translation": "污染",
+          "pos": "v.",
+          "example": "ask people to stop polluting Auckland Zoo",
+          "sourceArticleId": "web-1db81bcdb0151def"
+        }
+      ],
+      "articleIds": [
+        "web-1db81bcdb0151def"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-22T13:07:16.080Z"
     }
   }
 }
