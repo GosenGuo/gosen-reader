@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T04:42:19.520Z",
+  "generatedAt": "2026-08-22T12:46:56.182Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -40,15 +40,19 @@
           "meanings": "在……之上；关于；通过（工具、媒介）；在（某一天或时刻）",
           "contexts": {
             "On Web sites across the Internet, people can access a variety of information about you.": {
-              "translation": "在互联网的网站上",
+              "translation": "在……上面",
               "pos": "prep."
             },
             "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.": {
-              "translation": "在互联网上",
+              "translation": "在……上",
               "pos": "prep."
             },
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
-              "translation": "在社交网站上",
+              "translation": "在……上",
+              "pos": "prep."
+            },
+            "The passage mainly gives us advice on   _  .": {
+              "translation": "关于",
               "pos": "prep."
             }
           }
@@ -102,33 +106,49 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "这，那",
+          "translation": "这",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这，那；特指；用于最高级前",
           "contexts": {
             "On Web sites across the Internet, people can access a variety of information about you.": {
-              "translation": "互联网",
+              "translation": "特指",
               "pos": "art."
             },
             "It's in your interest to be aware of your online reputation and to take the necessary actions to make it what you want it to be.": {
-              "translation": "必要的行为",
+              "translation": "特指",
               "pos": "art."
             },
             "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.": {
-              "translation": "第一步",
+              "translation": "特指",
               "pos": "art."
             },
             "Follow these tips to monitor and evaluate your online reputation:\n   Play the name game.": {
-              "translation": "这些提示",
+              "translation": "特指",
               "pos": "art."
             },
             "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.": {
-              "translation": "搜索引擎",
+              "translation": "特指",
               "pos": "art."
             },
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
-              "translation": "搜索引擎",
+              "translation": "特指",
+              "pos": "art."
+            },
+            "The passage mainly gives us advice on   _  .": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "The feature provided by some search engines can help you to": {
+              "translation": "特指",
+              "pos": "art."
+            },
+            "stop the spread of any new mention of your name or other personal information": {
+              "translation": "特指",
               "pos": "art."
             }
           }
@@ -166,7 +186,11 @@
               "pos": "n."
             },
             "If your search turns up information about other people who share your name, you caneliminate  many false hits by using keywords.": {
-              "translation": "其他人",
+              "translation": "人",
+              "pos": "n."
+            },
+            "still get other people's information": {
+              "translation": "人",
               "pos": "n."
             }
           }
@@ -183,7 +207,11 @@
               "pos": "modal v."
             },
             "You can add keywords that apply only to you; for example your city, your employer, or a hobby.": {
-              "translation": "可以",
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "The feature provided by some search engines can help you to": {
+              "translation": "能够",
               "pos": "modal v."
             }
           }
@@ -209,19 +237,23 @@
           "meanings": "一个；每一；任何",
           "contexts": {
             "On Web sites across the Internet, people can access a variety of information about you.": {
-              "translation": "各种各样的",
+              "translation": "一个",
               "pos": "art."
             },
             "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.": {
-              "translation": "一个短语",
+              "translation": "一个",
               "pos": "art."
             },
             "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.": {
-              "translation": "一个不同的名字",
+              "translation": "一个",
               "pos": "art."
             },
             "You can add keywords that apply only to you; for example your city, your employer, or a hobby.": {
-              "translation": "一个爱好",
+              "translation": "一个",
+              "pos": "art."
+            },
+            "have a better communication with your friends and family members": {
+              "translation": "一个",
               "pos": "art."
             }
           }
@@ -251,7 +283,7 @@
               "pos": "prep."
             },
             "It's in your interest to be aware of your online reputation and to take the necessary actions to make it what you want it to be.": {
-              "translation": "关于（意识）",
+              "translation": "……的",
               "pos": "prep."
             },
             "Example:\n\"Robin Counts\"\n   Search all of your names.": {
@@ -263,7 +295,27 @@
               "pos": "prep."
             },
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
-              "translation": "关于",
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "check out if others are writing about you or posting pictures of you": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "prevent any new mention of your name or other personal information": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "stop the spread of any new mention of your name or other personal information": {
+              "translation": "……的",
               "pos": "prep."
             }
           }
@@ -290,6 +342,42 @@
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
               "translation": "信息",
               "pos": "n."
+            },
+            "get general information about yourself": {
+              "translation": "信息",
+              "pos": "n."
+            },
+            "still get other people's information": {
+              "translation": "信息",
+              "pos": "n."
+            },
+            "get only your information": {
+              "translation": "信息",
+              "pos": "n."
+            },
+            "get most information about others": {
+              "translation": "信息",
+              "pos": "n."
+            },
+            "ask others not to disclose your personal information and picture": {
+              "translation": "信息",
+              "pos": "n."
+            },
+            "prevent any new mention of your name or other personal information": {
+              "translation": "信息",
+              "pos": "n."
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "信息",
+              "pos": "n."
+            },
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "信息",
+              "pos": "n."
+            },
+            "stop the spread of any new mention of your name or other personal information": {
+              "translation": "信息",
+              "pos": "n."
             }
           }
         },
@@ -309,6 +397,18 @@
               "pos": "prep."
             },
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "get general information about yourself": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "get most information about others": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "check out if others are writing about you or posting pictures of you": {
               "translation": "关于",
               "pos": "prep."
             }
@@ -350,6 +450,30 @@
               "pos": "pron."
             },
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "If you put quotation marks around your name when you search online, you will   _  .": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "人们",
+              "pos": "pron."
+            },
+            "You are advised to go blogging to   _  .": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "check out how popular you are with your friends and  s": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "check out if others are writing about you or posting pictures of you": {
+              "translation": "你",
+              "pos": "pron."
+            },
+            "The feature provided by some search engines can help you to": {
               "translation": "你",
               "pos": "pron."
             }
@@ -447,6 +571,42 @@
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
               "translation": "你的",
               "pos": "pron."
+            },
+            "If you put quotation marks around your name when you search online, you will   _  .": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "get only your information": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "have a better communication with your friends and family members": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "check out how popular you are with your friends and  s": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "ask others not to disclose your personal information and picture": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "prevent any new mention of your name or other personal information": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "你的",
+              "pos": "pron."
+            },
+            "stop the spread of any new mention of your name or other personal information": {
+              "translation": "你的",
+              "pos": "pron."
             }
           }
         },
@@ -472,39 +632,71 @@
           "contexts": {
             "It's in your interest to be aware of your online reputation and to take the necessary actions to make it what you want it to be.": {
               "translation": "为了",
-              "pos": "prep./part."
+              "pos": "part."
             },
             "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.": {
               "translation": "为了",
-              "pos": "prep./part."
+              "pos": "part."
             },
             "Follow these tips to monitor and evaluate your online reputation:\n   Play the name game.": {
               "translation": "为了",
-              "pos": "prep./part."
+              "pos": "part."
             },
             "Begin by typing your first and last name into several popular search engines to see where you are mentioned and in what context.": {
               "translation": "为了",
-              "pos": "prep./part."
+              "pos": "part."
             },
             "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.": {
               "translation": "为了",
-              "pos": "prep./part."
+              "pos": "part."
             },
             "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.": {
               "translation": "为了",
-              "pos": "prep./part."
+              "pos": "part."
             },
             "You can add keywords that apply only to you; for example your city, your employer, or a hobby.": {
               "translation": "为了",
-              "pos": "prep./part."
+              "pos": "part."
             },
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
               "translation": "为了",
-              "pos": "prep./part."
+              "pos": "part."
             },
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
               "translation": "为了",
-              "pos": "prep./part."
+              "pos": "part."
+            },
+            "how to google ourselves": {
+              "translation": "如何",
+              "pos": "part."
+            },
+            "how to monitor our online reputation": {
+              "translation": "如何",
+              "pos": "part."
+            },
+            "how to use different search engines": {
+              "translation": "如何",
+              "pos": "part."
+            },
+            "how to protect our online reputation": {
+              "translation": "如何",
+              "pos": "part."
+            },
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "为了",
+              "pos": "part."
+            },
+            "You are advised to go blogging to   _  .": {
+              "translation": "为了",
+              "pos": "part."
+            },
+            "ask others not to disclose your personal information and picture": {
+              "translation": "为了",
+              "pos": "part."
+            },
+            "The feature provided by some search engines can help you to": {
+              "translation": "为了",
+              "pos": "part."
             }
           }
         },
@@ -554,10 +746,22 @@
               "pos": "adj."
             },
             "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.": {
-              "translation": "网络上的",
+              "translation": "在线的",
               "pos": "adj."
             },
             "Follow these tips to monitor and evaluate your online reputation:\n   Play the name game.": {
+              "translation": "在线的",
+              "pos": "adj."
+            },
+            "how to monitor our online reputation": {
+              "translation": "在线的",
+              "pos": "adj."
+            },
+            "how to protect our online reputation": {
+              "translation": "在线的",
+              "pos": "adj."
+            },
+            "If you put quotation marks around your name when you search online, you will   _  .": {
               "translation": "在线的",
               "pos": "adj."
             }
@@ -565,21 +769,29 @@
         },
         "reputation": {
           "lemma": "reputation",
-          "translation": "声誉",
+          "translation": "名声",
           "pos": "n.",
           "forms": "reputations",
           "meanings": "名誉；名声；声望；好评",
           "contexts": {
             "It's in your interest to be aware of your online reputation and to take the necessary actions to make it what you want it to be.": {
-              "translation": "声誉",
+              "translation": "名声",
               "pos": "n."
             },
             "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.": {
-              "translation": "声誉",
+              "translation": "名声",
               "pos": "n."
             },
             "Follow these tips to monitor and evaluate your online reputation:\n   Play the name game.": {
-              "translation": "声誉",
+              "translation": "名声",
+              "pos": "n."
+            },
+            "how to monitor our online reputation": {
+              "translation": "名声",
+              "pos": "n."
+            },
+            "how to protect our online reputation": {
+              "translation": "名声",
               "pos": "n."
             }
           }
@@ -608,7 +820,19 @@
               "pos": "conj."
             },
             "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.": {
-              "translation": "并且",
+              "translation": "和",
+              "pos": "conj."
+            },
+            "have a better communication with your friends and family members": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "check out how popular you are with your friends and  s": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "ask others not to disclose your personal information and picture": {
+              "translation": "和",
               "pos": "conj."
             }
           }
@@ -717,6 +941,10 @@
             "It's in your interest to be aware of your online reputation and to take the necessary actions to make it what you want it to be.": {
               "translation": "想要",
               "pos": "v."
+            },
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "想要",
+              "pos": "v."
             }
           }
         },
@@ -793,6 +1021,26 @@
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
               "translation": "或者",
               "pos": "conj."
+            },
+            "check out if others are writing about you or posting pictures of you": {
+              "translation": "或者",
+              "pos": "conj."
+            },
+            "prevent any new mention of your name or other personal information": {
+              "translation": "或者",
+              "pos": "conj."
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "或者",
+              "pos": "conj."
+            },
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "或者",
+              "pos": "conj."
+            },
+            "stop the spread of any new mention of your name or other personal information": {
+              "translation": "或者",
+              "pos": "conj."
             }
           }
         },
@@ -813,8 +1061,8 @@
           "lemma": "be",
           "translation": "是",
           "pos": "v.",
-          "forms": "am, are, was, were",
-          "meanings": "是",
+          "forms": "am, are, was, were, been, being, is",
+          "meanings": "是；存在；发生",
           "contexts": {
             "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.": {
               "translation": "是",
@@ -823,35 +1071,55 @@
             "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.": {
               "translation": "是",
               "pos": "v."
+            },
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "是",
+              "pos": "v."
             }
           }
         },
         "find": {
           "lemma": "find",
-          "translation": "找到",
+          "translation": "发现",
           "pos": "v.",
           "forms": "found, finding, finds",
           "meanings": "发现；找到；认为；发觉",
           "contexts": {
             "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.": {
-              "translation": "找到",
+              "translation": "发现",
+              "pos": "v."
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "发现",
               "pos": "v."
             }
           }
         },
         "out": {
           "lemma": "out",
-          "translation": "（与find连用）找出",
+          "translation": "向外",
           "pos": "adv.",
           "forms": "无常见变形",
           "meanings": "向外；出；在外；彻底地",
           "contexts": {
             "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.": {
-              "translation": "（与find连用）找出",
+              "translation": "彻底地",
               "pos": "adv."
             },
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
-              "translation": "（与check连用）查看/核实",
+              "translation": "彻底地",
+              "pos": "adv."
+            },
+            "check out how popular you are with your friends and  s": {
+              "translation": "彻底地",
+              "pos": "adv."
+            },
+            "check out if others are writing about you or posting pictures of you": {
+              "translation": "彻底地",
+              "pos": "adv."
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "彻底地",
               "pos": "adv."
             }
           }
@@ -964,10 +1232,14 @@
           "lemma": "monitor",
           "translation": "监控",
           "pos": "v.",
-          "forms": "monitoring, monitored, monitors",
+          "forms": "monitored, monitoring, monitors",
           "meanings": "监控；监测；监督；班长",
           "contexts": {
             "Follow these tips to monitor and evaluate your online reputation:\n   Play the name game.": {
+              "translation": "监控",
+              "pos": "v."
+            },
+            "how to monitor our online reputation": {
               "translation": "监控",
               "pos": "v."
             }
@@ -1029,6 +1301,26 @@
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
               "translation": "名字",
               "pos": "n."
+            },
+            "If you put quotation marks around your name when you search online, you will   _  .": {
+              "translation": "名字",
+              "pos": "n."
+            },
+            "prevent any new mention of your name or other personal information": {
+              "translation": "名字",
+              "pos": "n."
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "名字",
+              "pos": "n."
+            },
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "名字",
+              "pos": "n."
+            },
+            "stop the spread of any new mention of your name or other personal information": {
+              "translation": "名字",
+              "pos": "n."
             }
           }
         },
@@ -1074,6 +1366,10 @@
               "pos": "prep."
             },
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
+              "translation": "被",
+              "pos": "prep."
+            },
+            "The feature provided by some search engines can help you to": {
               "translation": "被",
               "pos": "prep."
             }
@@ -1139,6 +1435,10 @@
           "meanings": "受欢迎的；流行的；大众的",
           "contexts": {
             "Begin by typing your first and last name into several popular search engines to see where you are mentioned and in what context.": {
+              "translation": "流行的",
+              "pos": "adj."
+            },
+            "check out how popular you are with your friends and  s": {
               "translation": "受欢迎的",
               "pos": "adj."
             }
@@ -1165,7 +1465,7 @@
             },
             "Example:\n\"Robin Counts\"\n   Search all of your names.": {
               "translation": "搜索",
-              "pos": "v."
+              "pos": "n."
             },
             "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.": {
               "translation": "搜索",
@@ -1178,22 +1478,46 @@
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
               "translation": "搜索",
               "pos": "n."
+            },
+            "how to use different search engines": {
+              "translation": "搜索",
+              "pos": "n."
+            },
+            "If you put quotation marks around your name when you search online, you will   _  .": {
+              "translation": "搜索",
+              "pos": "v."
+            },
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "搜索",
+              "pos": "n."
+            },
+            "The feature provided by some search engines can help you to": {
+              "translation": "搜索",
+              "pos": "n."
             }
           }
         },
         "engines": {
           "lemma": "engine",
-          "translation": "引擎",
+          "translation": "搜索引擎",
           "pos": "n.",
           "forms": "engines",
           "meanings": "引擎；发动机；机车；工具",
           "contexts": {
             "Begin by typing your first and last name into several popular search engines to see where you are mentioned and in what context.": {
-              "translation": "引擎",
+              "translation": "搜索引擎",
               "pos": "n."
             },
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
-              "translation": "引擎",
+              "translation": "搜索引擎",
+              "pos": "n."
+            },
+            "how to use different search engines": {
+              "translation": "搜索引擎",
+              "pos": "n."
+            },
+            "The feature provided by some search engines can help you to": {
+              "translation": "搜索引擎",
               "pos": "n."
             }
           }
@@ -1240,6 +1564,18 @@
               "pos": "v."
             },
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "You are advised to go blogging to   _  .": {
+              "translation": "被",
+              "pos": "v."
+            },
+            "check out how popular you are with your friends and  s": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "check out if others are writing about you or posting pictures of you": {
               "translation": "是",
               "pos": "v."
             }
@@ -1381,6 +1717,22 @@
             "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.": {
               "translation": "获得",
               "pos": "v."
+            },
+            "get general information about yourself": {
+              "translation": "获得",
+              "pos": "v."
+            },
+            "still get other people's information": {
+              "translation": "获得",
+              "pos": "v."
+            },
+            "get only your information": {
+              "translation": "获得",
+              "pos": "v."
+            },
+            "get most information about others": {
+              "translation": "获得",
+              "pos": "v."
             }
           }
         },
@@ -1420,30 +1772,42 @@
             "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.": {
               "translation": "放置",
               "pos": "v."
+            },
+            "If you put quotation marks around your name when you search online, you will   _  .": {
+              "translation": "放置",
+              "pos": "v."
             }
           }
         },
         "quotation": {
           "lemma": "quotation",
-          "translation": "引文",
+          "translation": "引号",
           "pos": "n.",
           "forms": "quotations",
-          "meanings": "引文；报价；引用",
+          "meanings": "引文；报价；引用；引号",
           "contexts": {
             "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.": {
-              "translation": "引文",
+              "translation": "引号",
+              "pos": "n."
+            },
+            "If you put quotation marks around your name when you search online, you will   _  .": {
+              "translation": "引号",
               "pos": "n."
             }
           }
         },
         "marks": {
           "lemma": "mark",
-          "translation": "符号",
+          "translation": "标记",
           "pos": "n.",
-          "forms": "marked, marking",
+          "forms": "marked, marking, marks",
           "meanings": "标记；分数；痕迹；符号",
           "contexts": {
             "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.": {
+              "translation": "符号",
+              "pos": "n."
+            },
+            "If you put quotation marks around your name when you search online, you will   _  .": {
               "translation": "符号",
               "pos": "n."
             }
@@ -1457,6 +1821,10 @@
           "meanings": "围绕；大约；在……附近；到处",
           "contexts": {
             "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.": {
+              "translation": "围绕（你的名字）",
+              "pos": "prep."
+            },
+            "If you put quotation marks around your name when you search online, you will   _  .": {
               "translation": "围绕",
               "pos": "prep."
             }
@@ -1556,7 +1924,11 @@
           "meanings": "不；不是；没",
           "contexts": {
             "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.": {
-              "translation": "不",
+              "translation": "不是",
+              "pos": "adverb"
+            },
+            "ask others not to disclose your personal information and picture": {
+              "translation": "不要",
               "pos": "adverb"
             }
           }
@@ -1713,6 +2085,18 @@
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
               "translation": "如果",
               "pos": "conjunction"
+            },
+            "If you put quotation marks around your name when you search online, you will   _  .": {
+              "translation": "如果",
+              "pos": "conjunction"
+            },
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "如果",
+              "pos": "conjunction"
+            },
+            "check out if others are writing about you or posting pictures of you": {
+              "translation": "是否",
+              "pos": "conjunction"
             }
           }
         },
@@ -1728,6 +2112,10 @@
               "pos": "verb"
             },
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
+              "translation": "有",
+              "pos": "verb"
+            },
+            "have a better communication with your friends and family members": {
               "translation": "有",
               "pos": "verb"
             }
@@ -1769,23 +2157,31 @@
             "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.": {
               "translation": "不同的",
               "pos": "adjective"
+            },
+            "how to use different search engines": {
+              "translation": "不同的",
+              "pos": "adjective"
             }
           }
         },
         "use": {
           "lemma": "use",
           "translation": "使用",
-          "pos": "v.",
+          "pos": "verb",
           "forms": "uses, used, using",
           "meanings": "使用；利用；消耗；习惯于",
           "contexts": {
             "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.": {
-              "translation": "使用",
-              "pos": "v."
+              "translation": "使用过",
+              "pos": "verb"
             },
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
-              "translation": "利用",
-              "pos": "v."
+              "translation": "使用",
+              "pos": "verb"
+            },
+            "how to use different search engines": {
+              "translation": "使用",
+              "pos": "verb"
             }
           }
         },
@@ -2000,17 +2396,37 @@
         "other": {
           "lemma": "other",
           "translation": "其他的",
-          "pos": "adj.",
+          "pos": "adjective",
           "forms": "others",
           "meanings": "其他的；另外的；另一方的",
           "contexts": {
             "If your search turns up information about other people who share your name, you caneliminate  many false hits by using keywords.": {
               "translation": "其他的",
-              "pos": "adj."
+              "pos": "adjective"
             },
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
               "translation": "其他的",
-              "pos": "adj."
+              "pos": "adjective"
+            },
+            "still get other people's information": {
+              "translation": "其他人的",
+              "pos": "adjective"
+            },
+            "prevent any new mention of your name or other personal information": {
+              "translation": "其他的",
+              "pos": "adjective"
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "其他的",
+              "pos": "adjective"
+            },
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "其他的",
+              "pos": "adjective"
+            },
+            "stop the spread of any new mention of your name or other personal information": {
+              "translation": "其他的",
+              "pos": "adjective"
             }
           }
         },
@@ -2056,39 +2472,51 @@
         "many": {
           "lemma": "many",
           "translation": "许多",
-          "pos": "adj.",
+          "pos": "adjective",
           "forms": "more, most",
           "meanings": "许多；大量；许多人",
           "contexts": {
             "If your search turns up information about other people who share your name, you caneliminate  many false hits by using keywords.": {
               "translation": "许多",
-              "pos": "adj."
+              "pos": "adjective"
+            },
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "许多",
+              "pos": "adjective"
             }
           }
         },
         "false": {
           "lemma": "false",
           "translation": "错误的",
-          "pos": "adj.",
+          "pos": "adjective",
           "forms": "无常见变形",
           "meanings": "错误的；虚假的；伪造的；不诚实的",
           "contexts": {
             "If your search turns up information about other people who share your name, you caneliminate  many false hits by using keywords.": {
               "translation": "错误的",
-              "pos": "adj."
+              "pos": "adjective"
+            },
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "错误的",
+              "pos": "adjective"
             }
           }
         },
         "hits": {
           "lemma": "hit",
           "translation": "搜索结果",
-          "pos": "n.",
+          "pos": "noun",
           "forms": "hit",
           "meanings": "搜索结果；击打；碰撞；成功的人或事",
           "contexts": {
             "If your search turns up information about other people who share your name, you caneliminate  many false hits by using keywords.": {
               "translation": "搜索结果",
-              "pos": "n."
+              "pos": "noun"
+            },
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "搜索结果",
+              "pos": "noun"
             }
           }
         },
@@ -2156,6 +2584,10 @@
           "meanings": "仅仅；只；才；唯一",
           "contexts": {
             "You can add keywords that apply only to you; for example your city, your employer, or a hobby.": {
+              "translation": "仅仅",
+              "pos": "adv."
+            },
+            "get only your information": {
               "translation": "仅仅",
               "pos": "adv."
             }
@@ -2262,6 +2694,10 @@
             "Example:\n   \"Robin Counts\" \"Woodgrove Bank\"\n   \"Robin counts\"----skydiving\n   Go blogging.": {
               "translation": "开始进行",
               "pos": "v."
+            },
+            "You are advised to go blogging to   _  .": {
+              "translation": "开始进行",
+              "pos": "v."
             }
           }
         },
@@ -2273,6 +2709,10 @@
           "meanings": "写博客；经营博客",
           "contexts": {
             "Example:\n   \"Robin Counts\" \"Woodgrove Bank\"\n   \"Robin counts\"----skydiving\n   Go blogging.": {
+              "translation": "写博客",
+              "pos": "v."
+            },
+            "You are advised to go blogging to   _  .": {
               "translation": "写博客",
               "pos": "v."
             }
@@ -2292,6 +2732,22 @@
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
               "translation": "任何",
               "pos": "det."
+            },
+            "prevent any new mention of your name or other personal information": {
+              "translation": "任何",
+              "pos": "det."
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "任何",
+              "pos": "det."
+            },
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "任何",
+              "pos": "det."
+            },
+            "stop the spread of any new mention of your name or other personal information": {
+              "translation": "任何",
+              "pos": "det."
             }
           }
         },
@@ -2303,6 +2759,14 @@
           "meanings": "朋友；支持者；友方",
           "contexts": {
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
+              "translation": "朋友",
+              "pos": "n."
+            },
+            "have a better communication with your friends and family members": {
+              "translation": "朋友",
+              "pos": "n."
+            },
+            "check out how popular you are with your friends and  s": {
               "translation": "朋友",
               "pos": "n."
             }
@@ -2318,6 +2782,10 @@
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
               "translation": "家人",
               "pos": "n."
+            },
+            "have a better communication with your friends and family members": {
+              "translation": "家人",
+              "pos": "n."
             }
           }
         },
@@ -2329,6 +2797,10 @@
           "meanings": "成员；会员；议员；肢体",
           "contexts": {
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
+              "translation": "成员",
+              "pos": "n."
+            },
+            "have a better communication with your friends and family members": {
               "translation": "成员",
               "pos": "n."
             }
@@ -2372,6 +2844,26 @@
               "pos": "adj."
             },
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
+              "translation": "个人的",
+              "pos": "adj."
+            },
+            "ask others not to disclose your personal information and picture": {
+              "translation": "个人的",
+              "pos": "adj."
+            },
+            "prevent any new mention of your name or other personal information": {
+              "translation": "个人的",
+              "pos": "adj."
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "个人的",
+              "pos": "adj."
+            },
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "个人的",
+              "pos": "adj."
+            },
+            "stop the spread of any new mention of your name or other personal information": {
               "translation": "个人的",
               "pos": "adj."
             }
@@ -2420,10 +2912,18 @@
           "lemma": "check",
           "translation": "查看",
           "pos": "v.",
-          "forms": "checks; checked; checking",
+          "forms": "checks, checked, checking",
           "meanings": "查看；核对；检查；抑制",
           "contexts": {
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
+              "translation": "查看",
+              "pos": "v."
+            },
+            "check out how popular you are with your friends and  s": {
+              "translation": "查看",
+              "pos": "v."
+            },
+            "check out if others are writing about you or posting pictures of you": {
               "translation": "查看",
               "pos": "v."
             }
@@ -2483,13 +2983,17 @@
         },
         "writing": {
           "lemma": "write",
-          "translation": "写",
+          "translation": "书写",
           "pos": "v.",
-          "forms": "writes; wrote; written",
+          "forms": "writes, wrote, written",
           "meanings": "写；书写；创作；写信",
           "contexts": {
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
-              "translation": "写",
+              "translation": "书写",
+              "pos": "v."
+            },
+            "check out if others are writing about you or posting pictures of you": {
+              "translation": "书写",
               "pos": "v."
             }
           }
@@ -2498,10 +3002,14 @@
           "lemma": "post",
           "translation": "发布",
           "pos": "v.",
-          "forms": "posts; posted",
+          "forms": "posts; posted; posting",
           "meanings": "发布；张贴；邮寄；通告",
           "contexts": {
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
+              "translation": "发布",
+              "pos": "v."
+            },
+            "check out if others are writing about you or posting pictures of you": {
               "translation": "发布",
               "pos": "v."
             }
@@ -2515,6 +3023,10 @@
           "meanings": "照片；图画；电影；局面",
           "contexts": {
             "If any of your friends, family members or coworkers have blogs or personal Web pages on social networking sites, check them out from time to time to see if they are writing about you or posting pictures of you.": {
+              "translation": "照片",
+              "pos": "n."
+            },
+            "check out if others are writing about you or posting pictures of you": {
               "translation": "照片",
               "pos": "n."
             }
@@ -2543,6 +3055,10 @@
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
               "translation": "功能",
               "pos": "n."
+            },
+            "The feature provided by some search engines can help you to": {
+              "translation": "功能",
+              "pos": "n."
             }
           }
         },
@@ -2556,6 +3072,10 @@
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
               "translation": "提供",
               "pos": "v."
+            },
+            "The feature provided by some search engines can help you to": {
+              "translation": "提供",
+              "pos": "v."
             }
           }
         },
@@ -2567,6 +3087,10 @@
           "meanings": "一些；某个；一部分；大约",
           "contexts": {
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
+              "translation": "一些",
+              "pos": "adj."
+            },
+            "The feature provided by some search engines can help you to": {
               "translation": "一些",
               "pos": "adj."
             }
@@ -2628,10 +3152,26 @@
           "lemma": "new",
           "translation": "新的",
           "pos": "adj.",
-          "forms": "newer, newest",
+          "forms": "newer; newest",
           "meanings": "新的；刚出现的；新鲜的；新式的",
           "contexts": {
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
+              "translation": "新的",
+              "pos": "adj."
+            },
+            "prevent any new mention of your name or other personal information": {
+              "translation": "新的",
+              "pos": "adj."
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "新的",
+              "pos": "adj."
+            },
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "新的",
+              "pos": "adj."
+            },
+            "stop the spread of any new mention of your name or other personal information": {
               "translation": "新的",
               "pos": "adj."
             }
@@ -2641,11 +3181,611 @@
           "lemma": "mention",
           "translation": "提及",
           "pos": "n.",
-          "forms": "mentioned, mentioning, mentions",
+          "forms": "mentions; mentioned; mentioning",
           "meanings": "提及；说起；简要说明；提名表扬",
           "contexts": {
             "Use the feature provided by some search engines that enables you to receive automatic notification   of any new mention of your name or other personal information.": {
               "translation": "提及",
+              "pos": "n."
+            },
+            "prevent any new mention of your name or other personal information": {
+              "translation": "提及",
+              "pos": "n."
+            },
+            "find out any new mention of your name or other personal information.": {
+              "translation": "提及",
+              "pos": "n."
+            },
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "提及",
+              "pos": "n."
+            },
+            "stop the spread of any new mention of your name or other personal information": {
+              "translation": "提及",
+              "pos": "n."
+            }
+          }
+        },
+        "passage": {
+          "lemma": "passage",
+          "translation": "段落",
+          "pos": "n.",
+          "forms": "passages",
+          "meanings": "段落；通道；走廊；段落；通行权",
+          "contexts": {
+            "The passage mainly gives us advice on   _  .": {
+              "translation": "段落",
+              "pos": "n."
+            }
+          }
+        },
+        "mainly": {
+          "lemma": "mainly",
+          "translation": "主要地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "主要地；大部分；通常；基本上",
+          "contexts": {
+            "The passage mainly gives us advice on   _  .": {
+              "translation": "主要地",
+              "pos": "adv."
+            }
+          }
+        },
+        "gives": {
+          "lemma": "give",
+          "translation": "提供",
+          "pos": "v.",
+          "forms": "give; gives; gave; given; giving",
+          "meanings": "提供；给予；赠送；产生；分配",
+          "contexts": {
+            "The passage mainly gives us advice on   _  .": {
+              "translation": "提供",
+              "pos": "v."
+            }
+          }
+        },
+        "us": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "我们（宾格）；我们；对我们",
+          "contexts": {
+            "The passage mainly gives us advice on   _  .": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "advice": {
+          "lemma": "advice",
+          "translation": "建议",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "建议；忠告；通知；劝告",
+          "contexts": {
+            "The passage mainly gives us advice on   _  .": {
+              "translation": "建议",
+              "pos": "n."
+            }
+          }
+        },
+        "how": {
+          "lemma": "how",
+          "translation": "如何",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "如何；多少；多么；状况",
+          "contexts": {
+            "how to google ourselves": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "how to monitor our online reputation": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "how to use different search engines": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "how to protect our online reputation": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "check out how popular you are with your friends and  s": {
+              "translation": "多么；有多",
+              "pos": "adv."
+            }
+          }
+        },
+        "google": {
+          "lemma": "google",
+          "translation": "用谷歌搜索",
+          "pos": "v.",
+          "forms": "googles, googled, googling",
+          "meanings": "用谷歌搜索；搜索信息",
+          "contexts": {
+            "how to google ourselves": {
+              "translation": "用谷歌搜索",
+              "pos": "v."
+            }
+          }
+        },
+        "ourselves": {
+          "lemma": "ourselves",
+          "translation": "我们自己",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "我们自己；我们亲自",
+          "contexts": {
+            "how to google ourselves": {
+              "translation": "我们自己",
+              "pos": "pron."
+            }
+          }
+        },
+        "our": {
+          "lemma": "our",
+          "translation": "我们的",
+          "pos": "pron.",
+          "forms": "ours",
+          "meanings": "我们的；属于我们的",
+          "contexts": {
+            "how to monitor our online reputation": {
+              "translation": "我们的",
+              "pos": "pron."
+            },
+            "how to protect our online reputation": {
+              "translation": "我们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "protect": {
+          "lemma": "protect",
+          "translation": "保护",
+          "pos": "v.",
+          "forms": "protects, protecting, protected",
+          "meanings": "保护；防卫；防护",
+          "contexts": {
+            "how to protect our online reputation": {
+              "translation": "保护",
+              "pos": "v."
+            }
+          }
+        },
+        "when": {
+          "lemma": "when",
+          "translation": "当……时",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "在……时；当……时；既然；考虑到",
+          "contexts": {
+            "If you put quotation marks around your name when you search online, you will   _  .": {
+              "translation": "当……时",
+              "pos": "conj."
+            }
+          }
+        },
+        "will": {
+          "lemma": "will",
+          "translation": "将要",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将要；会；愿意；意志（名词）",
+          "contexts": {
+            "If you put quotation marks around your name when you search online, you will   _  .": {
+              "translation": "将要",
+              "pos": "modal v."
+            }
+          }
+        },
+        "general": {
+          "lemma": "general",
+          "translation": "一般的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "总的；普遍的；一般的；首席的；全面地",
+          "contexts": {
+            "get general information about yourself": {
+              "translation": "一般的",
+              "pos": "adj."
+            }
+          }
+        },
+        "yourself": {
+          "lemma": "yourself",
+          "translation": "你自己",
+          "pos": "pron.",
+          "forms": "yourselves",
+          "meanings": "你自己；你亲自；你本人",
+          "contexts": {
+            "get general information about yourself": {
+              "translation": "你自己",
+              "pos": "pron."
+            }
+          }
+        },
+        "still": {
+          "lemma": "still",
+          "translation": "仍然",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仍然；尽管如此；更；静止的",
+          "contexts": {
+            "still get other people's information": {
+              "translation": "仍然",
+              "pos": "adv."
+            }
+          }
+        },
+        "people's": {
+          "lemma": "people",
+          "translation": "人们的",
+          "pos": "pron.",
+          "forms": "peoples",
+          "meanings": "人；人民；人们；民族",
+          "contexts": {
+            "still get other people's information": {
+              "translation": "人们的",
+              "pos": "pron."
+            }
+          }
+        },
+        "most": {
+          "lemma": "most",
+          "translation": "大多数",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "大多数；最；极度；绝大部分",
+          "contexts": {
+            "get most information about others": {
+              "translation": "大多数",
+              "pos": "det."
+            }
+          }
+        },
+        "others": {
+          "lemma": "other",
+          "translation": "其他人",
+          "pos": "pron.",
+          "forms": "others",
+          "meanings": "其他人；别的人；其余的人；另外的人",
+          "contexts": {
+            "get most information about others": {
+              "translation": "其他人",
+              "pos": "pron."
+            },
+            "check out if others are writing about you or posting pictures of you": {
+              "translation": "其他人",
+              "pos": "pron."
+            },
+            "ask others not to disclose your personal information and picture": {
+              "translation": "其他人",
+              "pos": "pron."
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "哪一个",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
+          "contexts": {
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "哪一个",
+              "pos": "pron."
+            }
+          }
+        },
+        "correct": {
+          "lemma": "correct",
+          "translation": "正确的",
+          "pos": "adj.",
+          "forms": "corrects, corrected, correcting",
+          "meanings": "正确的；纠正；恰当的；准确的",
+          "contexts": {
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "正确的",
+              "pos": "adj."
+            }
+          }
+        },
+        "way": {
+          "lemma": "way",
+          "translation": "方式",
+          "pos": "n.",
+          "forms": "ways",
+          "meanings": "方式；道路；方向；程度",
+          "contexts": {
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "方式",
+              "pos": "n."
+            }
+          }
+        },
+        "eliminate": {
+          "lemma": "eliminate",
+          "translation": "消除",
+          "pos": "v.",
+          "forms": "eliminates, eliminated, eliminating",
+          "meanings": "消除；排除；剔除；淘汰",
+          "contexts": {
+            "Which is the correct way to search if you want to eliminate many false hits?": {
+              "translation": "消除",
+              "pos": "v."
+            }
+          }
+        },
+        "jim": {
+          "lemma": "Jim",
+          "translation": "吉姆（人名）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "吉姆；詹姆斯的昵称",
+          "contexts": {
+            "\"Jim Allan Green \"": {
+              "translation": "吉姆（人名）",
+              "pos": "n."
+            },
+            "Jim Green": {
+              "translation": "吉姆（人名）",
+              "pos": "n."
+            },
+            "\"Jim Green\"": {
+              "translation": "吉姆（人名）",
+              "pos": "n."
+            },
+            "\"Jim Green\"---gardening.": {
+              "translation": "吉姆（人名）",
+              "pos": "n."
+            }
+          }
+        },
+        "allan": {
+          "lemma": "allan",
+          "translation": "人名",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "艾伦（人名）",
+          "contexts": {
+            "\"Jim Allan Green \"": {
+              "translation": "人名",
+              "pos": "n."
+            }
+          }
+        },
+        "green": {
+          "lemma": "green",
+          "translation": "人名",
+          "pos": "n.",
+          "forms": "greens",
+          "meanings": "绿色的；新手；草地；人名；环保的",
+          "contexts": {
+            "\"Jim Allan Green \"": {
+              "translation": "人名",
+              "pos": "n."
+            },
+            "Jim Green": {
+              "translation": "人名",
+              "pos": "n."
+            },
+            "\"Jim Green\"": {
+              "translation": "人名",
+              "pos": "n."
+            },
+            "\"Jim Green\"---gardening.": {
+              "translation": "人名",
+              "pos": "n."
+            }
+          }
+        },
+        "gardening": {
+          "lemma": "gardening",
+          "translation": "园艺",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "园艺；花园工作；种植；园林工作；庭院护理",
+          "contexts": {
+            "\"Jim Green\"---gardening.": {
+              "translation": "园艺",
+              "pos": "n."
+            }
+          }
+        },
+        "advised": {
+          "lemma": "advise",
+          "translation": "建议",
+          "pos": "v.",
+          "forms": "advise, advises, advising, adviser, advisor",
+          "meanings": "建议；劝告；通知；咨询；提醒",
+          "contexts": {
+            "You are advised to go blogging to   _  .": {
+              "translation": "建议",
+              "pos": "v."
+            }
+          }
+        },
+        "better": {
+          "lemma": "good",
+          "translation": "更好的",
+          "pos": "adj.",
+          "forms": "best",
+          "meanings": "更好的；更优秀的；改善；胜过；更好地",
+          "contexts": {
+            "have a better communication with your friends and family members": {
+              "translation": "更好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "communication": {
+          "lemma": "communication",
+          "translation": "交流",
+          "pos": "n.",
+          "forms": "communications",
+          "meanings": "通讯；交流；传达；通信系统；沟通",
+          "contexts": {
+            "have a better communication with your friends and family members": {
+              "translation": "交流",
+              "pos": "n."
+            }
+          }
+        },
+        "with": {
+          "lemma": "with",
+          "translation": "和",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "和……一起；使用；带有；由于；关于",
+          "contexts": {
+            "have a better communication with your friends and family members": {
+              "translation": "和……一起",
+              "pos": "prep."
+            },
+            "check out how popular you are with your friends and  s": {
+              "translation": "和……一起",
+              "pos": "prep."
+            }
+          }
+        },
+        "s": {
+          "lemma": "s",
+          "translation": "所有格符号",
+          "pos": "suffix",
+          "forms": "无常见变形",
+          "meanings": "所有格符号；复数词尾；表示缩写；第三人称单数词尾",
+          "contexts": {
+            "It's in your interest to be aware of your online reputation and to take the necessary actions to make it what you want it to be.": {
+              "translation": "所有格符号",
+              "pos": "suffix"
+            },
+            "still get other people's information": {
+              "translation": "所有格符号",
+              "pos": "suffix"
+            },
+            "check out how popular you are with your friends and  s": {
+              "translation": "所有格符号",
+              "pos": "suffix"
+            }
+          }
+        },
+        "ask": {
+          "lemma": "ask",
+          "translation": "要求",
+          "pos": "v.",
+          "forms": "asks, asked, asking",
+          "meanings": "询问；要求；请求；邀请；索要",
+          "contexts": {
+            "ask others not to disclose your personal information and picture": {
+              "translation": "要求",
+              "pos": "v."
+            }
+          }
+        },
+        "disclose": {
+          "lemma": "disclose",
+          "translation": "披露",
+          "pos": "v.",
+          "forms": "discloses, disclosed, disclosing",
+          "meanings": "披露；泄露；揭示；透露；公开",
+          "contexts": {
+            "ask others not to disclose your personal information and picture": {
+              "translation": "泄露",
+              "pos": "v."
+            }
+          }
+        },
+        "picture": {
+          "lemma": "picture",
+          "translation": "照片；图片",
+          "pos": "n.",
+          "forms": "pictures",
+          "meanings": "照片；图片；画；电影；景象",
+          "contexts": {
+            "ask others not to disclose your personal information and picture": {
+              "translation": "照片；图片",
+              "pos": "n."
+            }
+          }
+        },
+        "help": {
+          "lemma": "help",
+          "translation": "帮助",
+          "pos": "v.",
+          "forms": "helps, helped, helping",
+          "meanings": "帮助；协助；救助；有助于；援助",
+          "contexts": {
+            "The feature provided by some search engines can help you to": {
+              "translation": "帮助；有助于",
+              "pos": "v."
+            }
+          }
+        },
+        "prevent": {
+          "lemma": "prevent",
+          "translation": "阻止；防止",
+          "pos": "v.",
+          "forms": "prevents, prevented, preventing",
+          "meanings": "阻止；防止；妨碍；预防",
+          "contexts": {
+            "prevent any new mention of your name or other personal information": {
+              "translation": "阻止；防止",
+              "pos": "v."
+            }
+          }
+        },
+        "know": {
+          "lemma": "know",
+          "translation": "知道",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉；掌握",
+          "contexts": {
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "知道；了解",
+              "pos": "v."
+            }
+          }
+        },
+        "quickly": {
+          "lemma": "quick",
+          "translation": "快速地",
+          "pos": "adv.",
+          "forms": "quick, quicker, quickest",
+          "meanings": "快速地；迅速地；敏捷地；立即；不久",
+          "contexts": {
+            "know quickly any new mention of your name or other personal information": {
+              "translation": "快速地；迅速地",
+              "pos": "adv."
+            }
+          }
+        },
+        "stop": {
+          "lemma": "stop",
+          "translation": "停止；阻止",
+          "pos": "v.",
+          "forms": "stops, stopped, stopping",
+          "meanings": "停止；阻止；逗留；车站；站点",
+          "contexts": {
+            "stop the spread of any new mention of your name or other personal information": {
+              "translation": "阻止；制止",
+              "pos": "v."
+            }
+          }
+        },
+        "spread": {
+          "lemma": "spread",
+          "translation": "传播；蔓延",
+          "pos": "n.",
+          "forms": "spreads, spread, spreading",
+          "meanings": "传播；蔓延；展开；涂抹；范围",
+          "contexts": {
+            "stop the spread of any new mention of your name or other personal information": {
+              "translation": "传播；蔓延",
               "pos": "n."
             }
           }
