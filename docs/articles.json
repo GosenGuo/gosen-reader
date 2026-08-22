@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T13:09:07.870Z",
+  "generatedAt": "2026-08-22T13:09:44.869Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -123497,6 +123497,10 @@
             "What do those countries have in common?": {
               "translation": "那些",
               "pos": "pron."
+            },
+            "People in those countries fight each other because  _": {
+              "translation": "那些",
+              "pos": "pron."
             }
           }
         },
@@ -123510,13 +123514,17 @@
             "What do those countries have in common?": {
               "translation": "国家",
               "pos": "n."
+            },
+            "People in those countries fight each other because  _": {
+              "translation": "国家",
+              "pos": "n."
             }
           }
         },
         "have": {
           "lemma": "have",
           "translation": "有",
-          "pos": "aux.",
+          "pos": "v.",
           "forms": "has, had, having",
           "meanings": "有；经历；吃；（完成时态助动词）",
           "contexts": {
@@ -123525,34 +123533,46 @@
               "pos": "v."
             },
             "We come in different colors: red, black, white, yellow and brown; we have a variety of political systems, social systems, religious views or none at all; We are different in mind, have different educational systems, different economic classes.": {
-              "translation": "拥有",
-              "pos": "v."
-            },
-            "We speak different languages, and have different customs and dresses.": {
-              "translation": "拥有",
-              "pos": "v."
-            },
-            "If we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other.": {
-              "translation": "拥有",
-              "pos": "v."
-            },
-            "I say they appear to be different, because most of what have been listed stand for what we see or hear, not what is true of human.": {
-              "translation": "（完成时态助动词）",
-              "pos": "aux."
-            },
-            "It is only where he lives, when he lives there, with whom he lives there, and al the others that have effect on how he lives, that is, what he believes, what he wears, his customs, his language and so on.": {
               "translation": "有",
               "pos": "v."
             },
+            "We speak different languages, and have different customs and dresses.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "If we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "I say they appear to be different, because most of what have been listed stand for what we see or hear, not what is true of human.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "It is only where he lives, when he lives there, with whom he lives there, and al the others that have effect on how he lives, that is, what he believes, what he wears, his customs, his language and so on.": {
+              "translation": "有（影响）",
+              "pos": "v."
+            },
             "It means only that differences have been made by society.": {
-              "translation": "经历",
+              "translation": "造成",
+              "pos": "v."
+            },
+            "They have different colors.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "They have different customs and dresses.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "They have different education systems.": {
+              "translation": "有",
               "pos": "v."
             }
           }
         },
         "in": {
           "lemma": "in",
-          "translation": "在……方面",
+          "translation": "在……之内",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
@@ -123567,6 +123587,10 @@
             },
             "We come in different colors: red, black, white, yellow and brown; we have a variety of political systems, social systems, religious views or none at all; We are different in mind, have different educational systems, different economic classes.": {
               "translation": "在……方面",
+              "pos": "prep."
+            },
+            "People in those countries fight each other because  _": {
+              "translation": "在……之内",
               "pos": "prep."
             }
           }
@@ -123598,6 +123622,14 @@
             "Very simple, in each of these, one group of people believes another group is different from them and dangerous to them.": {
               "translation": "人们",
               "pos": "n."
+            },
+            "People in those countries fight each other because  _": {
+              "translation": "人们",
+              "pos": "n."
+            },
+            "People don't know how differences are caused.": {
+              "translation": "人们",
+              "pos": "n."
             }
           }
         },
@@ -123609,7 +123641,7 @@
           "meanings": "是；有；在；位于；成为",
           "contexts": {
             "People are killing each other or drive others out of their homes.": {
-              "translation": "正在（构成进行时）",
+              "translation": "是",
               "pos": "v."
             },
             "How different are humans from each other?": {
@@ -123631,6 +123663,14 @@
             "The truth is that we are much more same than different.": {
               "translation": "是",
               "pos": "v."
+            },
+            "They think that others are different and harmful.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "People don't know how differences are caused.": {
+              "translation": "是",
+              "pos": "v."
             }
           }
         },
@@ -123650,7 +123690,7 @@
         "each": {
           "lemma": "each",
           "translation": "每个",
-          "pos": "adj./det.",
+          "pos": "det.",
           "forms": "无常见变形",
           "meanings": "每个；各自的；每人；每",
           "contexts": {
@@ -123667,7 +123707,7 @@
               "pos": "pron."
             },
             "If we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other.": {
-              "translation": "每一个",
+              "translation": "每个",
               "pos": "det."
             },
             "These are man-made facts that each group develops over tome, living together, facing the same problems, needing and desiring the same things.": {
@@ -123675,6 +123715,14 @@
               "pos": "det."
             },
             "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.": {
+              "translation": "彼此",
+              "pos": "pron."
+            },
+            "People in those countries fight each other because  _": {
+              "translation": "彼此",
+              "pos": "pron."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
               "translation": "彼此",
               "pos": "pron."
             }
@@ -123688,19 +123736,27 @@
           "meanings": "其他的；另外的；另一方的；其余的",
           "contexts": {
             "People are killing each other or drive others out of their homes.": {
-              "translation": "另一个人",
+              "translation": "其他人",
               "pos": "pron."
             },
             "How different are humans from each other?": {
-              "translation": "另一个",
+              "translation": "其他人",
               "pos": "pron."
             },
             "If we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other.": {
-              "translation": "其他的",
-              "pos": "adj."
+              "translation": "其他人",
+              "pos": "pron."
             },
             "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.": {
-              "translation": "另一个人",
+              "translation": "其他人",
+              "pos": "pron."
+            },
+            "People in those countries fight each other because  _": {
+              "translation": "其他人",
+              "pos": "pron."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
+              "translation": "其他人",
               "pos": "pron."
             }
           }
@@ -123747,7 +123803,7 @@
           "lemma": "other",
           "translation": "其他人",
           "pos": "pron.",
-          "forms": "others",
+          "forms": "其他形式见other",
           "meanings": "其他人；别的人；其余的人；另外的人",
           "contexts": {
             "People are killing each other or drive others out of their homes.": {
@@ -123755,10 +123811,14 @@
               "pos": "pron."
             },
             "It is only where he lives, when he lives there, with whom he lives there, and al the others that have effect on how he lives, that is, what he believes, what he wears, his customs, his language and so on.": {
-              "translation": "其他所有事物",
+              "translation": "其他因素",
               "pos": "pron."
             },
             "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.": {
+              "translation": "其他人",
+              "pos": "pron."
+            },
+            "They think that others are different and harmful.": {
               "translation": "其他人",
               "pos": "pron."
             }
@@ -123793,7 +123853,7 @@
               "pos": "prep."
             },
             "Very simple, in each of these, one group of people believes another group is different from them and dangerous to them.": {
-              "translation": "……中的",
+              "translation": "……的",
               "pos": "prep."
             },
             "We come in different colors: red, black, white, yellow and brown; we have a variety of political systems, social systems, religious views or none at all; We are different in mind, have different educational systems, different economic classes.": {
@@ -123805,18 +123865,22 @@
               "pos": "prep."
             },
             "I say they appear to be different, because most of what have been listed stand for what we see or hear, not what is true of human.": {
-              "translation": "……的",
+              "translation": "对于",
               "pos": "prep."
             },
             "If you wear one type of clothing and I wear another, we both wear some kind of clothing.": {
-              "translation": "……的",
+              "translation": "的（种类）",
               "pos": "prep."
             },
             "If we understood our differences as the ones of culture, then we could make our world more peaceful.": {
-              "translation": "关于，属于",
+              "translation": "……的",
               "pos": "prep."
             },
             "Differences produce variety of thoughts, work out human problems peacefully.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Which of the following is the best tile for this passage?": {
               "translation": "……的",
               "pos": "prep."
             }
@@ -123869,7 +123933,7 @@
           "meanings": "是；存在；等于；位于；是……的情况",
           "contexts": {
             "Why is this happening?": {
-              "translation": "正在发生",
+              "translation": "是",
               "pos": "v."
             },
             "Very simple, in each of these, one group of people believes another group is different from them and dangerous to them.": {
@@ -123893,7 +123957,19 @@
               "pos": "v."
             },
             "Nothing is gained by giving too many differences, but much is lost.": {
-              "translation": "被",
+              "translation": "是",
+              "pos": "v."
+            },
+            "Which of the following is the best tile for this passage?": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "It is only differences that can solve man's problems.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Man is man everywhere but not woman.": {
+              "translation": "是",
               "pos": "v."
             }
           }
@@ -123907,6 +123983,14 @@
           "contexts": {
             "Why is this happening?": {
               "translation": "这",
+              "pos": "pron."
+            },
+            "Which of the following is the best tile for this passage?": {
+              "translation": "这篇",
+              "pos": "pron."
+            },
+            "From this passage it can be inferred that   _  .": {
+              "translation": "这篇",
               "pos": "pron."
             }
           }
@@ -124063,7 +124147,7 @@
               "pos": "adj."
             },
             "We come in different colors: red, black, white, yellow and brown; we have a variety of political systems, social systems, religious views or none at all; We are different in mind, have different educational systems, different economic classes.": {
-              "translation": "各种各样的",
+              "translation": "不同的",
               "pos": "adj."
             },
             "We speak different languages, and have different customs and dresses.": {
@@ -124081,12 +124165,28 @@
             "The truth is that we are much more same than different.": {
               "translation": "不同的",
               "pos": "adj."
+            },
+            "They have different colors.": {
+              "translation": "不同的",
+              "pos": "adj."
+            },
+            "They have different customs and dresses.": {
+              "translation": "不同的",
+              "pos": "adj."
+            },
+            "They have different education systems.": {
+              "translation": "不同的",
+              "pos": "adj."
+            },
+            "They think that others are different and harmful.": {
+              "translation": "不同的",
+              "pos": "adj."
             }
           }
         },
         "from": {
           "lemma": "from",
-          "translation": "与……不同",
+          "translation": "从",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "从；离；来自；因为；起始",
@@ -124096,11 +124196,15 @@
               "pos": "prep."
             },
             "How different are humans from each other?": {
-              "translation": "与……不同",
+              "translation": "相比",
               "pos": "prep."
             },
             "If we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other.": {
               "translation": "与……不同",
+              "pos": "prep."
+            },
+            "From this passage it can be inferred that   _  .": {
+              "translation": "从",
               "pos": "prep."
             }
           }
@@ -124120,13 +124224,13 @@
         },
         "and": {
           "lemma": "and",
-          "translation": "并且",
+          "translation": "和",
           "pos": "conj.",
           "forms": "无常见变形",
           "meanings": "和；而且；然后；接着",
           "contexts": {
             "Very simple, in each of these, one group of people believes another group is different from them and dangerous to them.": {
-              "translation": "并且",
+              "translation": "和",
               "pos": "conj."
             },
             "We come in different colors: red, black, white, yellow and brown; we have a variety of political systems, social systems, religious views or none at all; We are different in mind, have different educational systems, different economic classes.": {
@@ -124134,7 +124238,7 @@
               "pos": "conj."
             },
             "We speak different languages, and have different customs and dresses.": {
-              "translation": "并且",
+              "translation": "和",
               "pos": "conj."
             },
             "If we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other.": {
@@ -124146,7 +124250,7 @@
               "pos": "conj."
             },
             "These are man-made facts that each group develops over tome, living together, facing the same problems, needing and desiring the same things.": {
-              "translation": "并且",
+              "translation": "和",
               "pos": "conj."
             },
             "If you wear one type of clothing and I wear another, we both wear some kind of clothing.": {
@@ -124154,6 +124258,18 @@
               "pos": "conj."
             },
             "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "They have different customs and dresses.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "They think that others are different and harmful.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
               "translation": "和",
               "pos": "conj."
             }
@@ -124174,38 +124290,42 @@
         },
         "to": {
           "lemma": "to",
-          "translation": "对于",
+          "translation": "用于构成不定式",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "用于构成不定式；对于；向；给；到",
           "contexts": {
             "Very simple, in each of these, one group of people believes another group is different from them and dangerous to them.": {
-              "translation": "对于",
+              "translation": "对",
               "pos": "prep."
             },
             "If we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other.": {
               "translation": "用于构成不定式",
-              "pos": "particle"
+              "pos": "prep."
             },
             "I say they appear to be different, because most of what have been listed stand for what we see or hear, not what is true of human.": {
               "translation": "用于构成不定式",
-              "pos": "particle"
+              "pos": "prep."
+            },
+            "If you pay much attention to differences,   _  .": {
+              "translation": "对",
+              "pos": "prep."
             }
           }
         },
         "it": {
           "lemma": "it",
-          "translation": "这种情况",
+          "translation": "它",
           "pos": "pron.",
           "forms": "its, itself",
           "meanings": "它；这；（指代前文提到的事物或状况）；（作形式主语）；（作形式宾语）",
           "contexts": {
             "It has been thus through history.": {
-              "translation": "这种情况",
+              "translation": "这",
               "pos": "pron."
             },
             "It is only where he lives, when he lives there, with whom he lives there, and al the others that have effect on how he lives, that is, what he believes, what he wears, his customs, his language and so on.": {
-              "translation": "这",
+              "translation": "这（形式主语）",
               "pos": "pron."
             },
             "Our culture demands it.": {
@@ -124213,7 +124333,15 @@
               "pos": "pron."
             },
             "It means only that differences have been made by society.": {
-              "translation": "它",
+              "translation": "这",
+              "pos": "pron."
+            },
+            "From this passage it can be inferred that   _  .": {
+              "translation": "这",
+              "pos": "pron."
+            },
+            "It is only differences that can solve man's problems.": {
+              "translation": "这（形式主语）",
               "pos": "pron."
             }
           }
@@ -124293,16 +124421,20 @@
         },
         "how": {
           "lemma": "how",
-          "translation": "如何",
+          "translation": "多么",
           "pos": "adv.",
           "forms": "无常见变形",
           "meanings": "如何；多少；多么；状况",
           "contexts": {
             "How different are humans from each other?": {
-              "translation": "如何",
+              "translation": "多么",
               "pos": "adv."
             },
             "It is only where he lives, when he lives there, with whom he lives there, and al the others that have effect on how he lives, that is, what he believes, what he wears, his customs, his language and so on.": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "People don't know how differences are caused.": {
               "translation": "如何",
               "pos": "adv."
             }
@@ -124320,6 +124452,10 @@
               "pos": "n."
             },
             "If we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other.": {
+              "translation": "人类",
+              "pos": "n."
+            },
+            "Humans": {
               "translation": "人类",
               "pos": "n."
             }
@@ -124363,6 +124499,22 @@
             "If we understood our differences as the ones of culture, then we could make our world more peaceful.": {
               "translation": "我们",
               "pos": "pron."
+            },
+            "we will get something.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "we will produce problem.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "we will develop further.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
+              "translation": "我们",
+              "pos": "pron."
             }
           }
         },
@@ -124387,6 +124539,10 @@
           "meanings": "颜色；色彩；肤色；颜料",
           "contexts": {
             "We come in different colors: red, black, white, yellow and brown; we have a variety of political systems, social systems, religious views or none at all; We are different in mind, have different educational systems, different economic classes.": {
+              "translation": "颜色",
+              "pos": "n."
+            },
+            "They have different colors.": {
               "translation": "颜色",
               "pos": "n."
             }
@@ -124506,12 +124662,16 @@
         },
         "systems": {
           "lemma": "system",
-          "translation": "系统",
+          "translation": "制度",
           "pos": "n.",
-          "forms": "system",
+          "forms": "systems",
           "meanings": "系统；制度；体制；方法；身体机能",
           "contexts": {
             "We come in different colors: red, black, white, yellow and brown; we have a variety of political systems, social systems, religious views or none at all; We are different in mind, have different educational systems, different economic classes.": {
+              "translation": "制度",
+              "pos": "n."
+            },
+            "They have different education systems.": {
               "translation": "制度",
               "pos": "n."
             }
@@ -124691,6 +124851,14 @@
             "It is only where he lives, when he lives there, with whom he lives there, and al the others that have effect on how he lives, that is, what he believes, what he wears, his customs, his language and so on.": {
               "translation": "习俗",
               "pos": "n."
+            },
+            "Customs.": {
+              "translation": "习俗",
+              "pos": "n."
+            },
+            "They have different customs and dresses.": {
+              "translation": "习俗",
+              "pos": "n."
             }
           }
         },
@@ -124702,6 +124870,10 @@
           "meanings": "服饰；服装；连衣裙；穿衣；打扮",
           "contexts": {
             "We speak different languages, and have different customs and dresses.": {
+              "translation": "服饰",
+              "pos": "n."
+            },
+            "They have different customs and dresses.": {
               "translation": "服饰",
               "pos": "n."
             }
@@ -124727,6 +124899,14 @@
               "pos": "conj."
             },
             "If we understood our differences as the ones of culture, then we could make our world more peaceful.": {
+              "translation": "如果",
+              "pos": "conj."
+            },
+            "If you pay much attention to differences,   _  .": {
+              "translation": "如果",
+              "pos": "conj."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
               "translation": "如果",
               "pos": "conj."
             }
@@ -124768,18 +124948,26 @@
             "If we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other.": {
               "translation": "进一步地",
               "pos": "adv."
+            },
+            "we will develop further.": {
+              "translation": "进一步地",
+              "pos": "adv."
             }
           }
         },
         "would": {
           "lemma": "will",
-          "translation": "将",
+          "translation": "会",
           "pos": "modal v.",
           "forms": "无常见变形",
           "meanings": "将；会；愿意；总是",
           "contexts": {
             "If we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other.": {
-              "translation": "将",
+              "translation": "会",
+              "pos": "modal v."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
+              "translation": "会",
               "pos": "modal v."
             }
           }
@@ -124857,26 +125045,38 @@
           "meanings": "引导从句；那个；那；如此",
           "contexts": {
             "If we were to break each of these further, we would have quite a long list of qualities and characteristics that make humans appears to be different from each other.": {
-              "translation": "引导定语从句",
-              "pos": "pron."
+              "translation": "引导从句",
+              "pos": "conj."
             },
             "It is only where he lives, when he lives there, with whom he lives there, and al the others that have effect on how he lives, that is, what he believes, what he wears, his customs, his language and so on.": {
-              "translation": "引导定语从句",
-              "pos": "pron."
+              "translation": "引导从句",
+              "pos": "conj."
             },
             "These are man-made facts that each group develops over tome, living together, facing the same problems, needing and desiring the same things.": {
-              "translation": "引导定语从句",
-              "pos": "pron."
+              "translation": "引导从句",
+              "pos": "conj."
             },
             "The truth is that we are much more same than different.": {
               "translation": "引导从句",
               "pos": "conj."
             },
             "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.": {
-              "translation": "以便",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "It means only that differences have been made by society.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "They think that others are different and harmful.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "From this passage it can be inferred that   _  .": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "It is only differences that can solve man's problems.": {
               "translation": "引导从句",
               "pos": "conj."
             }
@@ -124924,6 +125124,18 @@
               "pos": "v."
             },
             "I say they appear to be different, because most of what have been listed stand for what we see or hear, not what is true of human.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Nothing will be lost.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "From this passage it can be inferred that   _  .": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
               "translation": "是",
               "pos": "v."
             }
@@ -124977,6 +125189,22 @@
             "They are his culture.": {
               "translation": "它们",
               "pos": "pron."
+            },
+            "They have different colors.": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "They have different customs and dresses.": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "They have different education systems.": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "They think that others are different and harmful.": {
+              "translation": "他们",
+              "pos": "pron."
             }
           }
         },
@@ -124998,9 +125226,13 @@
           "translation": "因为",
           "pos": "conj.",
           "forms": "无常见变形",
-          "meanings": "因为；由于",
+          "meanings": "因为；由于；既然；为了",
           "contexts": {
             "I say they appear to be different, because most of what have been listed stand for what we see or hear, not what is true of human.": {
+              "translation": "因为",
+              "pos": "conj."
+            },
+            "People in those countries fight each other because  _": {
               "translation": "因为",
               "pos": "conj."
             }
@@ -125047,13 +125279,17 @@
         },
         "for": {
           "lemma": "for",
-          "translation": "代表",
+          "translation": "为",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "为了；支持；因为；对……而言；代表",
           "contexts": {
             "I say they appear to be different, because most of what have been listed stand for what we see or hear, not what is true of human.": {
               "translation": "代表",
+              "pos": "prep."
+            },
+            "Which of the following is the best tile for this passage?": {
+              "translation": "为",
               "pos": "prep."
             }
           }
@@ -125089,13 +125325,17 @@
           "translation": "不",
           "pos": "adv.",
           "forms": "无常见变形",
-          "meanings": "不；没；不是；绝非",
+          "meanings": "不；没；不是；绝非；并非",
           "contexts": {
             "I say they appear to be different, because most of what have been listed stand for what we see or hear, not what is true of human.": {
-              "translation": "不",
+              "translation": "而不是",
               "pos": "adv."
             },
             "Differences does not mean better or worse, right or wrong.": {
+              "translation": "不是",
+              "pos": "adv."
+            },
+            "Man is man everywhere but not woman.": {
               "translation": "不",
               "pos": "adv."
             }
@@ -125143,8 +125383,16 @@
               "pos": "n."
             },
             "These are man-made facts that each group develops over tome, living together, facing the same problems, needing and desiring the same things.": {
-              "translation": "人为的",
-              "pos": "adj."
+              "translation": "人类",
+              "pos": "n."
+            },
+            "It is only differences that can solve man's problems.": {
+              "translation": "人类",
+              "pos": "n."
+            },
+            "Man is man everywhere but not woman.": {
+              "translation": "男人",
+              "pos": "n."
             }
           }
         },
@@ -125153,9 +125401,13 @@
           "translation": "到处",
           "pos": "adv.",
           "forms": "无常见变形",
-          "meanings": "到处；各处；无论哪里",
+          "meanings": "到处；各处；无论哪里；四处",
           "contexts": {
             "Man is man everywhere.": {
+              "translation": "到处",
+              "pos": "adv."
+            },
+            "Man is man everywhere but not woman.": {
               "translation": "到处",
               "pos": "adv."
             }
@@ -125166,14 +125418,18 @@
           "translation": "仅仅",
           "pos": "adv.",
           "forms": "无常见变形",
-          "meanings": "仅仅；只；才；唯一的",
+          "meanings": "仅仅；只；才；唯一的；仅有的",
           "contexts": {
             "It is only where he lives, when he lives there, with whom he lives there, and al the others that have effect on how he lives, that is, what he believes, what he wears, his customs, his language and so on.": {
               "translation": "仅仅",
               "pos": "adv."
             },
             "It means only that differences have been made by society.": {
-              "translation": "仅仅",
+              "translation": "只",
+              "pos": "adv."
+            },
+            "It is only differences that can solve man's problems.": {
+              "translation": "只有",
               "pos": "adv."
             }
           }
@@ -125245,17 +125501,21 @@
         },
         "with": {
           "lemma": "with",
-          "translation": "和……一起",
+          "translation": "和",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "和……一起；使用；带有；由于；关于",
           "contexts": {
             "It is only where he lives, when he lives there, with whom he lives there, and al the others that have effect on how he lives, that is, what he believes, what he wears, his customs, his language and so on.": {
-              "translation": "和……一起",
+              "translation": "和",
               "pos": "prep."
             },
             "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.": {
-              "translation": "和……一起",
+              "translation": "与",
+              "pos": "prep."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
+              "translation": "与",
               "pos": "prep."
             }
           }
@@ -125288,25 +125548,29 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "这（些）",
+          "translation": "这；那",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这；那；（用于特指）；（用于最高级前）",
           "contexts": {
             "It is only where he lives, when he lives there, with whom he lives there, and al the others that have effect on how he lives, that is, what he believes, what he wears, his customs, his language and so on.": {
-              "translation": "这些",
+              "translation": "那些",
               "pos": "art."
             },
             "These are man-made facts that each group develops over tome, living together, facing the same problems, needing and desiring the same things.": {
-              "translation": "这些",
+              "translation": "那些",
               "pos": "art."
             },
             "The truth is that we are much more same than different.": {
-              "translation": "这",
+              "translation": "那",
               "pos": "art."
             },
             "If we understood our differences as the ones of culture, then we could make our world more peaceful.": {
               "translation": "那些",
+              "pos": "art."
+            },
+            "Which of the following is the best tile for this passage?": {
+              "translation": "这篇",
               "pos": "art."
             }
           }
@@ -125531,13 +125795,17 @@
           "translation": "问题",
           "pos": "n.",
           "forms": "problems",
-          "meanings": "问题；难题；困境；习题",
+          "meanings": "问题；难题；困境；习题；麻烦",
           "contexts": {
             "These are man-made facts that each group develops over tome, living together, facing the same problems, needing and desiring the same things.": {
               "translation": "问题",
               "pos": "n."
             },
             "Differences produce variety of thoughts, work out human problems peacefully.": {
+              "translation": "问题",
+              "pos": "n."
+            },
+            "It is only differences that can solve man's problems.": {
               "translation": "问题",
               "pos": "n."
             }
@@ -125618,35 +125886,43 @@
         },
         "much": {
           "lemma": "much",
-          "translation": "非常",
+          "translation": "很多",
           "pos": "adv.",
           "forms": "more, most",
-          "meanings": "非常；很多；多；大量",
+          "meanings": "非常；很多；多；大量；许多",
           "contexts": {
             "The truth is that we are much more same than different.": {
-              "translation": "真相是，我们之间的相同点远多于不同点。",
+              "translation": "很",
               "pos": "adv."
             },
             "Nothing is gained by giving too many differences, but much is lost.": {
-              "translation": "列举太多的不同点不仅毫无益处，反而损失巨大。",
+              "translation": "很多",
+              "pos": "adv."
+            },
+            "If you pay much attention to differences,   _  .": {
+              "translation": "很多",
               "pos": "adv."
             }
           }
         },
         "more": {
           "lemma": "more",
-          "translation": "更多",
+          "translation": "更多的",
           "pos": "adj.",
           "forms": "无常见变形",
           "meanings": "更多的；较大程度地；更；额外；附加的",
           "contexts": {
             "The truth is that we are much more same than different.": {
-              "translation": "真相是，我们之间的相同点远多于不同点。",
+              "translation": "更多的",
               "pos": "adj."
             },
             "If we understood our differences as the ones of culture, then we could make our world more peaceful.": {
-              "translation": "如果我们能把分歧理解为文化上的差异，那么我们就能使世界变得更和平。",
-              "pos": "adj."
+              "translation": "更加",
+              "pos": "adv."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
+              "translation": "更加",
+              "pos": "adv."
             }
           }
         },
@@ -125671,11 +125947,15 @@
           "meanings": "你；你们；人们（泛指）；本人",
           "contexts": {
             "If you wear one type of clothing and I wear another, we both wear some kind of clothing.": {
-              "translation": "如果你穿某种衣服而我穿另一种，我们都是在穿某种衣服。",
+              "translation": "你",
               "pos": "pron."
             },
             "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.": {
-              "translation": "如果你说一种语言而我说另一种，我们说话都是为了让别人听懂；我们必须彼此沟通。",
+              "translation": "你",
+              "pos": "pron."
+            },
+            "If you pay much attention to differences,   _  .": {
+              "translation": "你",
               "pos": "pron."
             }
           }
@@ -125776,6 +126056,10 @@
             "If we understood our differences as the ones of culture, then we could make our world more peaceful.": {
               "translation": "我们的",
               "pos": "pron."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
+              "translation": "我们的",
+              "pos": "pron."
             }
           }
         },
@@ -125800,7 +126084,23 @@
           "meanings": "将要；会；愿意；意志（名词）",
           "contexts": {
             "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.": {
-              "translation": "将要",
+              "translation": "会",
+              "pos": "modal v."
+            },
+            "we will get something.": {
+              "translation": "将会",
+              "pos": "modal v."
+            },
+            "we will produce problem.": {
+              "translation": "将会",
+              "pos": "modal v."
+            },
+            "we will develop further.": {
+              "translation": "将会",
+              "pos": "modal v."
+            },
+            "Nothing will be lost.": {
+              "translation": "将会",
               "pos": "modal v."
             }
           }
@@ -125813,6 +126113,10 @@
           "meanings": "理解；明白；懂得；体谅",
           "contexts": {
             "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.": {
+              "translation": "理解",
+              "pos": "v."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
               "translation": "理解",
               "pos": "v."
             }
@@ -125854,6 +126158,10 @@
             "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.": {
               "translation": "交流",
               "pos": "v."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
+              "translation": "交流",
+              "pos": "v."
             }
           }
         },
@@ -125865,6 +126173,10 @@
           "meanings": "没有什么；无事；不重要的事",
           "contexts": {
             "Nothing is gained by giving too many differences, but much is lost.": {
+              "translation": "没有什么",
+              "pos": "pron."
+            },
+            "Nothing will be lost.": {
               "translation": "没有什么",
               "pos": "pron."
             }
@@ -125965,6 +126277,22 @@
             "Differences produce variety of thoughts, work out human problems peacefully.": {
               "translation": "差异",
               "pos": "n."
+            },
+            "Differences.": {
+              "translation": "差异",
+              "pos": "n."
+            },
+            "If you pay much attention to differences,   _  .": {
+              "translation": "差异",
+              "pos": "n."
+            },
+            "People don't know how differences are caused.": {
+              "translation": "差异",
+              "pos": "n."
+            },
+            "It is only differences that can solve man's problems.": {
+              "translation": "差异",
+              "pos": "n."
             }
           }
         },
@@ -125978,18 +126306,26 @@
             "Nothing is gained by giving too many differences, but much is lost.": {
               "translation": "但是",
               "pos": "conj."
+            },
+            "Man is man everywhere but not woman.": {
+              "translation": "但是",
+              "pos": "conj."
             }
           }
         },
         "lost": {
           "lemma": "lose",
-          "translation": "损失",
+          "translation": "失去",
           "pos": "v.",
           "forms": "lost, losing, loses",
           "meanings": "失去；丢失；输掉；迷失；损失",
           "contexts": {
             "Nothing is gained by giving too many differences, but much is lost.": {
-              "translation": "损失",
+              "translation": "失去",
+              "pos": "v."
+            },
+            "Nothing will be lost.": {
+              "translation": "失去",
               "pos": "v."
             }
           }
@@ -126069,6 +126405,10 @@
             "If we understood our differences as the ones of culture, then we could make our world more peaceful.": {
               "translation": "世界",
               "pos": "n."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
+              "translation": "世界",
+              "pos": "n."
             }
           }
         },
@@ -126080,6 +126420,10 @@
           "meanings": "和平的；安宁的；平静的；爱好和平的",
           "contexts": {
             "If we understood our differences as the ones of culture, then we could make our world more peaceful.": {
+              "translation": "和平的",
+              "pos": "adj."
+            },
+            "Our world would be more peaceful if we understand and communicate with each other.": {
               "translation": "和平的",
               "pos": "adj."
             }
@@ -126192,13 +126536,17 @@
         "produce": {
           "lemma": "produce",
           "translation": "产生",
-          "pos": "verb",
+          "pos": "v.",
           "forms": "produces, produced, producing",
           "meanings": "产生；制造；生产；出示；引起",
           "contexts": {
             "Differences produce variety of thoughts, work out human problems peacefully.": {
               "translation": "产生",
-              "pos": "verb"
+              "pos": "v."
+            },
+            "we will produce problem.": {
+              "translation": "产生",
+              "pos": "v."
             }
           }
         },
@@ -126238,6 +126586,326 @@
             "Differences produce variety of thoughts, work out human problems peacefully.": {
               "translation": "和平地",
               "pos": "adverb"
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "哪一个",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
+          "contexts": {
+            "Which of the following is the best tile for this passage?": {
+              "translation": "哪一个",
+              "pos": "pron."
+            }
+          }
+        },
+        "following": {
+          "lemma": "follow",
+          "translation": "接下来的",
+          "pos": "adj.",
+          "forms": "followed, following",
+          "meanings": "接下来的；跟随；遵循；听懂；下列的",
+          "contexts": {
+            "Which of the following is the best tile for this passage?": {
+              "translation": "接下来的",
+              "pos": "adj."
+            }
+          }
+        },
+        "best": {
+          "lemma": "best",
+          "translation": "最好的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "最好的；最优秀的；最合适的",
+          "contexts": {
+            "Which of the following is the best tile for this passage?": {
+              "translation": "最好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "tile": {
+          "lemma": "title",
+          "translation": "标题",
+          "pos": "n.",
+          "forms": "tiles, titled",
+          "meanings": "标题；题目；标签；铺瓦",
+          "contexts": {
+            "Which of the following is the best tile for this passage?": {
+              "translation": "标题",
+              "pos": "n."
+            }
+          }
+        },
+        "passage": {
+          "lemma": "passage",
+          "translation": "文章",
+          "pos": "n.",
+          "forms": "passages",
+          "meanings": "文章；段落；通道；走廊；通行权",
+          "contexts": {
+            "Which of the following is the best tile for this passage?": {
+              "translation": "文章",
+              "pos": "n."
+            },
+            "From this passage it can be inferred that   _  .": {
+              "translation": "文章",
+              "pos": "n."
+            }
+          }
+        },
+        "cultures": {
+          "lemma": "culture",
+          "translation": "文化",
+          "pos": "n.",
+          "forms": "cultures",
+          "meanings": "文化；文明；教养；栽培",
+          "contexts": {
+            "Cultures.": {
+              "translation": "文化",
+              "pos": "n."
+            }
+          }
+        },
+        "fight": {
+          "lemma": "fight",
+          "translation": "对抗",
+          "pos": "v.",
+          "forms": "fought, fighting, fights",
+          "meanings": "对抗；斗争；打架；争论",
+          "contexts": {
+            "People in those countries fight each other because  _": {
+              "translation": "对抗",
+              "pos": "v."
+            }
+          }
+        },
+        "education": {
+          "lemma": "education",
+          "translation": "教育",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "教育；培养；教学；教育学",
+          "contexts": {
+            "They have different education systems.": {
+              "translation": "教育制度",
+              "pos": "n."
+            }
+          }
+        },
+        "think": {
+          "lemma": "think",
+          "translation": "认为",
+          "pos": "v.",
+          "forms": "thinks, thought, thinking",
+          "meanings": "认为；想；思考；考虑",
+          "contexts": {
+            "They think that others are different and harmful.": {
+              "translation": "认为",
+              "pos": "v."
+            }
+          }
+        },
+        "harmful": {
+          "lemma": "harmful",
+          "translation": "有害的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "有害的；致伤的；危险的",
+          "contexts": {
+            "They think that others are different and harmful.": {
+              "translation": "有害的",
+              "pos": "adj."
+            }
+          }
+        },
+        "pay": {
+          "lemma": "pay",
+          "translation": "给予",
+          "pos": "v.",
+          "forms": "paying, paid, pays",
+          "meanings": "支付；偿还；给予；注意；值得",
+          "contexts": {
+            "If you pay much attention to differences,   _  .": {
+              "translation": "给予（注意）",
+              "pos": "v."
+            }
+          }
+        },
+        "attention": {
+          "lemma": "attention",
+          "translation": "注意",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "注意；专心；关注；照料；注意力",
+          "contexts": {
+            "If you pay much attention to differences,   _  .": {
+              "translation": "注意",
+              "pos": "n."
+            }
+          }
+        },
+        "get": {
+          "lemma": "get",
+          "translation": "获得",
+          "pos": "v.",
+          "forms": "gets, got, gotten, getting",
+          "meanings": "获得；变得；到达；理解；使得",
+          "contexts": {
+            "we will get something.": {
+              "translation": "获得",
+              "pos": "v."
+            }
+          }
+        },
+        "something": {
+          "lemma": "something",
+          "translation": "某物",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "某事；某物；重要的人或事；什么东西",
+          "contexts": {
+            "we will get something.": {
+              "translation": "某物",
+              "pos": "pron."
+            }
+          }
+        },
+        "problem": {
+          "lemma": "problem",
+          "translation": "问题",
+          "pos": "n.",
+          "forms": "problems",
+          "meanings": "问题；难题；困境；习题；麻烦",
+          "contexts": {
+            "we will produce problem.": {
+              "translation": "问题",
+              "pos": "n."
+            }
+          }
+        },
+        "develop": {
+          "lemma": "develop",
+          "translation": "发展",
+          "pos": "v.",
+          "forms": "develops, developed, developing",
+          "meanings": "培养；发展；开发；研制；患（病）",
+          "contexts": {
+            "we will develop further.": {
+              "translation": "发展",
+              "pos": "v."
+            }
+          }
+        },
+        "can": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal v.",
+          "forms": "could",
+          "meanings": "能够；可以；可能；罐头；装罐",
+          "contexts": {
+            "From this passage it can be inferred that   _  .": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "It is only differences that can solve man's problems.": {
+              "translation": "能够",
+              "pos": "modal v."
+            }
+          }
+        },
+        "inferred": {
+          "lemma": "infer",
+          "translation": "推断",
+          "pos": "v.",
+          "forms": "infers, inferred, inferring",
+          "meanings": "推断；推论；暗示；推定；推测",
+          "contexts": {
+            "From this passage it can be inferred that   _  .": {
+              "translation": "推断",
+              "pos": "v."
+            }
+          }
+        },
+        "don't": {
+          "lemma": "do",
+          "translation": "不",
+          "pos": "aux.",
+          "forms": "无常见变形",
+          "meanings": "不（助动词否定形式）；不做；进行；表现",
+          "contexts": {
+            "People don't know how differences are caused.": {
+              "translation": "不",
+              "pos": "aux."
+            }
+          }
+        },
+        "know": {
+          "lemma": "know",
+          "translation": "知道",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉",
+          "contexts": {
+            "People don't know how differences are caused.": {
+              "translation": "知道",
+              "pos": "v."
+            }
+          }
+        },
+        "caused": {
+          "lemma": "cause",
+          "translation": "导致",
+          "pos": "v.",
+          "forms": "causes, caused, causing",
+          "meanings": "导致；引起；使发生；缘故",
+          "contexts": {
+            "People don't know how differences are caused.": {
+              "translation": "导致",
+              "pos": "v."
+            }
+          }
+        },
+        "solve": {
+          "lemma": "solve",
+          "translation": "解决",
+          "pos": "v.",
+          "forms": "solves, solved, solving",
+          "meanings": "解决；处理；破解；消除",
+          "contexts": {
+            "It is only differences that can solve man's problems.": {
+              "translation": "解决",
+              "pos": "v."
+            }
+          }
+        },
+        "man's": {
+          "lemma": "man",
+          "translation": "人类的",
+          "pos": "n.",
+          "forms": "men",
+          "meanings": "人；男人；人类；个人；丈夫",
+          "contexts": {
+            "It is only differences that can solve man's problems.": {
+              "translation": "人类的",
+              "pos": "n."
+            }
+          }
+        },
+        "woman": {
+          "lemma": "woman",
+          "translation": "女人",
+          "pos": "n.",
+          "forms": "women",
+          "meanings": "妇女；女人；成年女子；女性；女士",
+          "contexts": {
+            "Man is man everywhere but not woman.": {
+              "translation": "女人",
+              "pos": "n."
             }
           }
         }
