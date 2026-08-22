@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T13:06:13.338Z",
+      "generatedAt": "2026-08-22T13:06:50.140Z",
       "requestedArticles": 40,
-      "acceptedArticles": 28,
+      "acceptedArticles": 29,
       "completed": false,
       "usage": {
-        "requests": 235,
-        "inputTokens": 480266,
-        "outputTokens": 276621,
-        "totalTokens": 756887,
+        "requests": 243,
+        "inputTokens": 496010,
+        "outputTokens": 286369,
+        "totalTokens": 782379,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.05217439,
+        "estimatedCostCny": 0.05397994,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 235,
-            "inputTokens": 480266,
-            "outputTokens": 276621,
-            "totalTokens": 756887,
+            "requests": 243,
+            "inputTokens": 496010,
+            "outputTokens": 286369,
+            "totalTokens": 782379,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.05217439
+            "estimatedCostCny": 0.05397994
           }
         }
       },
@@ -2534,6 +2534,25 @@
               "totalTokens": 35338,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00242967
+            }
+          }
+        },
+        {
+          "articleId": "web-78c5365878759c41",
+          "title": "RACE 高中英语阅读 high4155",
+          "requests": 8,
+          "inputTokens": 15744,
+          "outputTokens": 9748,
+          "totalTokens": 25492,
+          "estimatedCostCny": 0.00180555,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 8,
+              "inputTokens": 15744,
+              "outputTokens": 9748,
+              "totalTokens": 25492,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00180555
             }
           }
         }

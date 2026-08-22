@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T13:06:13.338Z",
+  "generatedAt": "2026-08-22T13:06:50.140Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -107128,29 +107128,49 @@
       "glossary": {
         "the": {
           "lemma": "the",
-          "translation": "（用于特指）",
+          "translation": "这；那",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这；那；（用于特指）；（用于最高级前）",
           "contexts": {
             "The weather is getting hotter.": {
-              "translation": "（特指天气）",
+              "translation": "（用于特指）",
               "pos": "art."
             },
             "A cold drink may be just the thing.": {
-              "translation": "（特指某事物）",
+              "translation": "（用于特指）",
               "pos": "art."
             },
             "There are plenty of \"energy drinks\" on the market.": {
-              "translation": "（特指市场）",
+              "translation": "那些",
               "pos": "art."
             },
             "The lists on them tell you they are helpful to your health.": {
-              "translation": "（特指配料表）",
+              "translation": "那些",
               "pos": "art."
             },
             "Because of this, the International Olympic Committee(IOC) has limited  its use.": {
-              "translation": "（特指奥委会）",
+              "translation": "该；那个",
+              "pos": "art."
+            },
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "以下",
+              "pos": "art."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "主要",
+              "pos": "art."
+            },
+            "From the passage we can know that   _  .": {
+              "translation": "从本文",
+              "pos": "art."
+            },
+            "Which of the following can be the best title of the passage?   _": {
+              "translation": "最好的",
+              "pos": "art."
+            },
+            "What's the Use of Energy Drinks?": {
+              "translation": "能源饮料的用途",
               "pos": "art."
             }
           }
@@ -107173,14 +107193,18 @@
           "translation": "是",
           "pos": "v.",
           "forms": "am, are, was, were, being, been",
-          "meanings": "是；存在；等于；位于",
+          "meanings": "是；存在；等于；位于；成为",
           "contexts": {
             "The weather is getting hotter.": {
-              "translation": "是（连系动词）",
+              "translation": "是",
               "pos": "v."
             },
             "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.": {
-              "translation": "是（连系动词）",
+              "translation": "是",
+              "pos": "v."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "是",
               "pos": "v."
             }
           }
@@ -107194,6 +107218,10 @@
           "contexts": {
             "The weather is getting hotter.": {
               "translation": "变得",
+              "pos": "v."
+            },
+            "advertisements are important in getting people to buy energy drinks": {
+              "translation": "促使；使……",
               "pos": "v."
             }
           }
@@ -107252,23 +107280,39 @@
           "meanings": "是；有；在；位于；成为",
           "contexts": {
             "You are thirsty playing basketball or riding home from school.": {
-              "translation": "是（系动词）",
+              "translation": "是",
               "pos": "v."
             },
             "But be careful what you are drinking.": {
-              "translation": "正在（进行时助动词）",
+              "translation": "正在",
               "pos": "v."
             },
             "There are plenty of \"energy drinks\" on the market.": {
-              "translation": "有（存在）",
+              "translation": "有",
               "pos": "v."
             },
             "The lists on them tell you they are helpful to your health.": {
-              "translation": "是（系动词）",
+              "translation": "是",
               "pos": "v."
             },
             "These drinks are especially aimed at young people, students, busy people and sports players.": {
-              "translation": "是（系动词）",
+              "translation": "是",
+              "pos": "v."
+            },
+            "they are said to be helpful to health": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "advertisements are important in getting people to buy energy drinks": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "energy drinks are helpful to teenagers' study": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "energy drinks are especially aimed at teenagers": {
+              "translation": "是",
               "pos": "v."
             }
           }
@@ -107357,7 +107401,7 @@
         },
         "from": {
           "lemma": "from",
-          "translation": "从",
+          "translation": "从；来自",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "从；离；来自；因为；起始",
@@ -107368,6 +107412,10 @@
             },
             "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.": {
               "translation": "远离；避免",
+              "pos": "prep."
+            },
+            "From the passage we can know that   _  .": {
+              "translation": "从……中",
               "pos": "prep."
             }
           }
@@ -107397,15 +107445,19 @@
               "pos": "art."
             },
             "But after a careful check you may find that most energy drinks have lots of caffeine in them.": {
-              "translation": "一次",
+              "translation": "一次；仔细的",
               "pos": "art."
             },
             "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.": {
-              "translation": "一个",
+              "translation": "一杯",
               "pos": "art."
             },
             "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.": {
-              "translation": "一种",
+              "translation": "很多",
+              "pos": "art."
+            },
+            "sports players need to drink a lot of energy drinks": {
+              "translation": "大量的",
               "pos": "art."
             }
           }
@@ -107425,8 +107477,8 @@
         },
         "drink": {
           "lemma": "drink",
-          "translation": "饮料",
-          "pos": "n.",
+          "translation": "喝",
+          "pos": "v.",
           "forms": "drinks, drank, drunk, drinking",
           "meanings": "喝；饮；饮料；酒；喝酒",
           "contexts": {
@@ -107439,8 +107491,20 @@
               "pos": "v."
             },
             "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.": {
-              "translation": "饮料",
-              "pos": "n."
+              "translation": "喝；饮用",
+              "pos": "v."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "喝",
+              "pos": "v."
+            },
+            "sports players need to drink a lot of energy drinks": {
+              "translation": "喝",
+              "pos": "v."
+            },
+            "Who Can Drink Energy Drinks?": {
+              "translation": "喝",
+              "pos": "v."
             }
           }
         },
@@ -107460,6 +107524,10 @@
               "pos": "modal v."
             },
             "But after a careful check you may find that most energy drinks have lots of caffeine in them.": {
+              "translation": "可能",
+              "pos": "modal v."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
               "translation": "可能",
               "pos": "modal v."
             }
@@ -107489,7 +107557,15 @@
               "pos": "v."
             },
             "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.": {
-              "translation": "被（构成被动语态）",
+              "translation": "避免",
+              "pos": "v."
+            },
+            "they are said to be helpful to health": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Which of the following can be the best title of the passage?   _": {
+              "translation": "是",
               "pos": "v."
             }
           }
@@ -107568,13 +107644,21 @@
         },
         "what": {
           "lemma": "what",
-          "translation": "……的事物",
+          "translation": "什么",
           "pos": "pron.",
           "forms": "无常见变形",
           "meanings": "什么；……的事物；多么；究竟是什么",
           "contexts": {
             "But be careful what you are drinking.": {
-              "translation": "……的事物",
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "What's the Use of Energy Drinks?": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "What's That in Energy Drinks?": {
+              "translation": "什么",
               "pos": "pron."
             }
           }
@@ -107583,11 +107667,15 @@
           "lemma": "drink",
           "translation": "喝",
           "pos": "v.",
-          "forms": "drinks, drank, drunk",
+          "forms": "drinks, drank, drunk, drinking",
           "meanings": "喝；饮酒；吸收；举杯祝酒",
           "contexts": {
             "But be careful what you are drinking.": {
               "translation": "喝",
+              "pos": "v."
+            },
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "饮用",
               "pos": "v."
             }
           }
@@ -107611,26 +107699,42 @@
         },
         "that": {
           "lemma": "that",
-          "translation": "引导从句",
+          "translation": "那",
           "pos": "conj.",
           "forms": "those",
-          "meanings": "引导从句；那个；那；如此",
+          "meanings": "引导从句；那个；那；如此；那样",
           "contexts": {
             "Something that looks cool may not be good for your health.": {
-              "translation": "引导从句",
-              "pos": "pron."
+              "translation": "那样的",
+              "pos": "adj."
             },
             "But after a careful check you may find that most energy drinks have lots of caffeine in them.": {
-              "translation": "引导从句",
+              "translation": "那",
               "pos": "conj."
             },
             "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.": {
-              "translation": "那（指代事物）",
-              "pos": "pron."
+              "translation": "那样的",
+              "pos": "adj."
             },
             "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.": {
-              "translation": "引导从句",
+              "translation": "那",
               "pos": "conj."
+            },
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "那",
+              "pos": "conj."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "那",
+              "pos": "conj."
+            },
+            "From the passage we can know that   _  .": {
+              "translation": "那",
+              "pos": "conj."
+            },
+            "What's That in Energy Drinks?": {
+              "translation": "那",
+              "pos": "pron."
             }
           }
         },
@@ -107651,15 +107755,19 @@
           "lemma": "cool",
           "translation": "很酷的",
           "pos": "adj.",
-          "forms": "cooler, coolest",
-          "meanings": "凉爽的；很酷的；冷静的；冷淡的",
+          "forms": "cooler, coolest, coolly",
+          "meanings": "凉爽的；很酷的；冷静的；冷淡的；了不起的",
           "contexts": {
             "Something that looks cool may not be good for your health.": {
-              "translation": "很酷的",
+              "translation": "酷的",
               "pos": "adj."
             },
             "Most of them have beautiful colors and cool names.": {
-              "translation": "很酷的",
+              "translation": "酷的",
+              "pos": "adj."
+            },
+            "they have beautiful colors and cool names": {
+              "translation": "酷的",
               "pos": "adj."
             }
           }
@@ -107669,13 +107777,17 @@
           "translation": "不",
           "pos": "adv.",
           "forms": "无常见变形",
-          "meanings": "不；没；不是；绝非",
+          "meanings": "不；没；不是；绝非；否定",
           "contexts": {
             "Something that looks cool may not be good for your health.": {
               "translation": "不",
               "pos": "adv."
             },
             "But be careful not to drink too much.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
               "translation": "不",
               "pos": "adv."
             }
@@ -107696,13 +107808,17 @@
         },
         "for": {
           "lemma": "for",
-          "translation": "对……而言",
+          "translation": "为了",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "为了；支持；因为；给；长达",
           "contexts": {
             "Something that looks cool may not be good for your health.": {
-              "translation": "对……而言",
+              "translation": "对于",
+              "pos": "prep."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "给",
               "pos": "prep."
             }
           }
@@ -107732,8 +107848,8 @@
           "lemma": "health",
           "translation": "健康",
           "pos": "n.",
-          "forms": "healthy (adj)",
-          "meanings": "健康；卫生；保健；身体状况",
+          "forms": "healthy (adj.), healthily (adv.), unhealthy (adj.)",
+          "meanings": "健康；卫生；保健；身体状况；健康状态",
           "contexts": {
             "Something that looks cool may not be good for your health.": {
               "translation": "健康",
@@ -107744,6 +107860,14 @@
               "pos": "n."
             },
             "Possible health dangers have something to do with energy drinks.": {
+              "translation": "健康",
+              "pos": "n."
+            },
+            "they are said to be helpful to health": {
+              "translation": "健康",
+              "pos": "n."
+            },
+            "possible health dangers": {
               "translation": "健康",
               "pos": "n."
             }
@@ -107795,11 +107919,11 @@
               "pos": "prep."
             },
             "Because of this, the International Olympic Committee(IOC) has limited  its use.": {
-              "translation": "……的",
+              "translation": "因为",
               "pos": "prep."
             },
             "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.": {
-              "translation": "……的",
+              "translation": "在……中",
               "pos": "prep."
             },
             "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.": {
@@ -107809,6 +107933,26 @@
             "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.": {
               "translation": "……的",
               "pos": "prep."
+            },
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "因为",
+              "pos": "prep."
+            },
+            "they have lots of caffeine": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "sports players need to drink a lot of energy drinks": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Which of the following can be the best title of the passage?   _": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "What's the Use of Energy Drinks?": {
+              "translation": "……的",
+              "pos": "prep."
             }
           }
         },
@@ -107816,7 +107960,7 @@
           "lemma": "energy",
           "translation": "能量",
           "pos": "n.",
-          "forms": "energetic (adj.)",
+          "forms": "energetic (adj.), energetically (adv.), energize (v.)",
           "meanings": "活力；精力；能量；能源；动能",
           "contexts": {
             "There are plenty of \"energy drinks\" on the market.": {
@@ -107838,6 +107982,46 @@
             "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.": {
               "translation": "能量",
               "pos": "n."
+            },
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "能量",
+              "pos": "n."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "能量",
+              "pos": "n."
+            },
+            "advertisements are important in getting people to buy energy drinks": {
+              "translation": "能量",
+              "pos": "n."
+            },
+            "energy drinks are helpful to teenagers' study": {
+              "translation": "能量",
+              "pos": "n."
+            },
+            "sports players need to drink a lot of energy drinks": {
+              "translation": "能量",
+              "pos": "n."
+            },
+            "energy drinks are especially aimed at teenagers": {
+              "translation": "能量",
+              "pos": "n."
+            },
+            "What's the Use of Energy Drinks?": {
+              "translation": "能量",
+              "pos": "n."
+            },
+            "Who Can Drink Energy Drinks?": {
+              "translation": "能量",
+              "pos": "n."
+            },
+            "What's That in Energy Drinks?": {
+              "translation": "能量",
+              "pos": "n."
+            },
+            "Why Can't We Buy Energy Drinks?": {
+              "translation": "能量",
+              "pos": "n."
             }
           }
         },
@@ -107846,7 +108030,7 @@
           "translation": "饮料",
           "pos": "n.",
           "forms": "drink, drinks, drank, drunk, drinking",
-          "meanings": "饮料；酒；喝酒；喝",
+          "meanings": "饮料；酒；喝酒；喝；饮品",
           "contexts": {
             "There are plenty of \"energy drinks\" on the market.": {
               "translation": "饮料",
@@ -107873,6 +108057,46 @@
               "pos": "n."
             },
             "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.": {
+              "translation": "饮料",
+              "pos": "n."
+            },
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "饮料",
+              "pos": "n."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "饮料",
+              "pos": "n."
+            },
+            "advertisements are important in getting people to buy energy drinks": {
+              "translation": "饮料",
+              "pos": "n."
+            },
+            "energy drinks are helpful to teenagers' study": {
+              "translation": "饮料",
+              "pos": "n."
+            },
+            "sports players need to drink a lot of energy drinks": {
+              "translation": "饮料",
+              "pos": "n."
+            },
+            "energy drinks are especially aimed at teenagers": {
+              "translation": "饮料",
+              "pos": "n."
+            },
+            "What's the Use of Energy Drinks?": {
+              "translation": "饮料",
+              "pos": "n."
+            },
+            "Who Can Drink Energy Drinks?": {
+              "translation": "饮料",
+              "pos": "n."
+            },
+            "What's That in Energy Drinks?": {
+              "translation": "饮料",
+              "pos": "n."
+            },
+            "Why Can't We Buy Energy Drinks?": {
               "translation": "饮料",
               "pos": "n."
             }
@@ -107934,22 +108158,26 @@
           "translation": "它们",
           "pos": "pron.",
           "forms": "they, their, theirs, themselves",
-          "meanings": "它们；他们；她们",
+          "meanings": "它们；他们；她们；那些人",
           "contexts": {
             "Most of them have beautiful colors and cool names.": {
-              "translation": "它们（指代饮料）",
+              "translation": "它们",
               "pos": "pron."
             },
             "The lists on them tell you they are helpful to your health.": {
-              "translation": "它们（指代饮料）",
+              "translation": "它们",
               "pos": "pron."
             },
             "But after a careful check you may find that most energy drinks have lots of caffeine in them.": {
-              "translation": "它们（指代饮料）",
+              "translation": "它们",
               "pos": "pron."
             },
             "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.": {
-              "translation": "它们（指代饮料）",
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "they can keep them awake and better at sports": {
+              "translation": "他们",
               "pos": "pron."
             }
           }
@@ -107970,11 +108198,19 @@
               "pos": "v."
             },
             "Possible health dangers have something to do with energy drinks.": {
-              "translation": "有",
+              "translation": "与……有关",
               "pos": "v."
             },
             "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.": {
-              "translation": "经历；遭受",
+              "translation": "有",
+              "pos": "v."
+            },
+            "they have beautiful colors and cool names": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "they have lots of caffeine": {
+              "translation": "含有",
               "pos": "v."
             }
           }
@@ -107989,6 +108225,10 @@
             "Most of them have beautiful colors and cool names.": {
               "translation": "美丽的",
               "pos": "adj."
+            },
+            "they have beautiful colors and cool names": {
+              "translation": "美丽的",
+              "pos": "adj."
             }
           }
         },
@@ -108000,6 +108240,10 @@
           "meanings": "颜色；色彩；肤色；颜料",
           "contexts": {
             "Most of them have beautiful colors and cool names.": {
+              "translation": "颜色",
+              "pos": "n."
+            },
+            "they have beautiful colors and cool names": {
               "translation": "颜色",
               "pos": "n."
             }
@@ -108017,15 +108261,23 @@
               "pos": "conj."
             },
             "These drinks are especially aimed at young people, students, busy people and sports players.": {
-              "translation": "以及；和",
+              "translation": "和",
               "pos": "conj."
             },
             "Makers sometimes say their drinks make you better at sports and can keep you awake.": {
-              "translation": "并且",
+              "translation": "和",
               "pos": "conj."
             },
             "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.": {
-              "translation": "并且；然后",
+              "translation": "和",
+              "pos": "conj."
+            },
+            "they have beautiful colors and cool names": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "they can keep them awake and better at sports": {
+              "translation": "和",
               "pos": "conj."
             }
           }
@@ -108038,7 +108290,11 @@
           "meanings": "名字；名称；名声；给……取名",
           "contexts": {
             "Most of them have beautiful colors and cool names.": {
-              "translation": "名称",
+              "translation": "名字",
+              "pos": "n."
+            },
+            "they have beautiful colors and cool names": {
+              "translation": "名字",
               "pos": "n."
             }
           }
@@ -108079,6 +108335,26 @@
             "The lists on them tell you they are helpful to your health.": {
               "translation": "它们",
               "pos": "pron."
+            },
+            "they have beautiful colors and cool names": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "they have lots of caffeine": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "they can keep them awake and better at sports": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "they are said to be helpful to health": {
+              "translation": "它们",
+              "pos": "pron."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "它们",
+              "pos": "pron."
             }
           }
         },
@@ -108090,6 +108366,14 @@
           "meanings": "有帮助的；有益的；有用的；乐于助人的",
           "contexts": {
             "The lists on them tell you they are helpful to your health.": {
+              "translation": "有益的",
+              "pos": "adj."
+            },
+            "they are said to be helpful to health": {
+              "translation": "有益的",
+              "pos": "adj."
+            },
+            "energy drinks are helpful to teenagers' study": {
               "translation": "有帮助的",
               "pos": "adj."
             }
@@ -108103,15 +108387,35 @@
           "meanings": "对于；用于构成不定式；向；给；到",
           "contexts": {
             "The lists on them tell you they are helpful to your health.": {
-              "translation": "对于",
+              "translation": "对",
               "pos": "prep."
             },
             "But be careful not to drink too much.": {
               "translation": "用于构成不定式",
-              "pos": "particle"
+              "pos": "prep."
             },
             "Possible health dangers have something to do with energy drinks.": {
-              "translation": "与...有关",
+              "translation": "与……有关",
+              "pos": "prep."
+            },
+            "they are said to be helpful to health": {
+              "translation": "对",
+              "pos": "prep."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
+            },
+            "advertisements are important in getting people to buy energy drinks": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
+            },
+            "energy drinks are helpful to teenagers' study": {
+              "translation": "对",
+              "pos": "prep."
+            },
+            "sports players need to drink a lot of energy drinks": {
+              "translation": "用于构成不定式",
               "pos": "prep."
             }
           }
@@ -108183,14 +108487,18 @@
         },
         "lots": {
           "lemma": "lot",
-          "translation": "许多",
-          "pos": "pron.",
+          "translation": "大量",
+          "pos": "n.",
           "forms": "lots",
           "meanings": "许多；大量；签；场地",
           "contexts": {
             "But after a careful check you may find that most energy drinks have lots of caffeine in them.": {
-              "translation": "许多",
-              "pos": "pron."
+              "translation": "大量",
+              "pos": "n."
+            },
+            "they have lots of caffeine": {
+              "translation": "大量",
+              "pos": "n."
             }
           }
         },
@@ -108216,6 +108524,10 @@
             "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.": {
               "translation": "咖啡因",
               "pos": "n."
+            },
+            "they have lots of caffeine": {
+              "translation": "咖啡因",
+              "pos": "n."
             }
           }
         },
@@ -108229,12 +108541,16 @@
             "These drinks are especially aimed at young people, students, busy people and sports players.": {
               "translation": "特别",
               "pos": "adv."
+            },
+            "energy drinks are especially aimed at teenagers": {
+              "translation": "特别",
+              "pos": "adv."
             }
           }
         },
         "sports": {
           "lemma": "sport",
-          "translation": "运动",
+          "translation": "体育运动",
           "pos": "n.",
           "forms": "sports",
           "meanings": "体育运动；体育活动；游戏；消遣；运动的",
@@ -108244,6 +108560,14 @@
               "pos": "n."
             },
             "Makers sometimes say their drinks make you better at sports and can keep you awake.": {
+              "translation": "体育运动",
+              "pos": "n."
+            },
+            "they can keep them awake and better at sports": {
+              "translation": "体育运动",
+              "pos": "n."
+            },
+            "sports players need to drink a lot of energy drinks": {
               "translation": "体育运动",
               "pos": "n."
             }
@@ -108257,6 +108581,10 @@
           "meanings": "运动员；比赛者；玩家；参与者；播放器",
           "contexts": {
             "These drinks are especially aimed at young people, students, busy people and sports players.": {
+              "translation": "运动员",
+              "pos": "n."
+            },
+            "sports players need to drink a lot of energy drinks": {
               "translation": "运动员",
               "pos": "n."
             }
@@ -108345,6 +108673,10 @@
             "Makers sometimes say their drinks make you better at sports and can keep you awake.": {
               "translation": "更好",
               "pos": "adj."
+            },
+            "they can keep them awake and better at sports": {
+              "translation": "更好",
+              "pos": "adj."
             }
           }
         },
@@ -108362,6 +108694,26 @@
             "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.": {
               "translation": "能够",
               "pos": "modal verb"
+            },
+            "they can keep them awake and better at sports": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "From the passage we can know that   _  .": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "Which of the following can be the best title of the passage?   _": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "Who Can Drink Energy Drinks?": {
+              "translation": "能够",
+              "pos": "modal verb"
+            },
+            "Why Can't We Buy Energy Drinks?": {
+              "translation": "能够",
+              "pos": "modal verb"
             }
           }
         },
@@ -108375,44 +108727,60 @@
             "Makers sometimes say their drinks make you better at sports and can keep you awake.": {
               "translation": "保持",
               "pos": "v."
+            },
+            "they can keep them awake and better at sports": {
+              "translation": "保持",
+              "pos": "v."
             }
           }
         },
         "awake": {
           "lemma": "awake",
-          "translation": "清醒的",
+          "translation": "保持清醒",
           "pos": "adj.",
           "forms": "awoke, awoken, awaking",
           "meanings": "醒着；清醒的；唤醒；觉醒；意识到",
           "contexts": {
             "Makers sometimes say their drinks make you better at sports and can keep you awake.": {
-              "translation": "清醒的",
+              "translation": "保持清醒的",
+              "pos": "adj."
+            },
+            "they can keep them awake and better at sports": {
+              "translation": "保持清醒",
               "pos": "adj."
             }
           }
         },
         "too": {
           "lemma": "too",
-          "translation": "太",
+          "translation": "太多",
           "pos": "adv.",
           "forms": "无常见变形",
           "meanings": "也；太；过于；很",
           "contexts": {
             "But be careful not to drink too much.": {
-              "translation": "太",
+              "translation": "太多",
+              "pos": "adv."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "过量的",
               "pos": "adv."
             }
           }
         },
         "much": {
           "lemma": "much",
-          "translation": "多",
+          "translation": "很多",
           "pos": "pron.",
           "forms": "more, most",
           "meanings": "很多；大量；多；非常；经常",
           "contexts": {
             "But be careful not to drink too much.": {
-              "translation": "多",
+              "translation": "很多",
+              "pos": "pron."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "太多",
               "pos": "pron."
             }
           }
@@ -108442,6 +108810,10 @@
               "pos": "n."
             },
             "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.": {
+              "translation": "心脏",
+              "pos": "n."
+            },
+            "heart problems": {
               "translation": "心脏",
               "pos": "n."
             }
@@ -108475,13 +108847,17 @@
         },
         "because": {
           "lemma": "because",
-          "translation": "由于",
+          "translation": "因为",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "因为；由于",
           "contexts": {
             "Because of this, the International Olympic Committee(IOC) has limited  its use.": {
-              "translation": "由于",
+              "translation": "因为",
+              "pos": "prep."
+            },
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "因为",
               "pos": "prep."
             }
           }
@@ -108600,6 +108976,10 @@
             "Because of this, the International Olympic Committee(IOC) has limited  its use.": {
               "translation": "使用",
               "pos": "n."
+            },
+            "What's the Use of Energy Drinks?": {
+              "translation": "用处；作用",
+              "pos": "n."
             }
           }
         },
@@ -108691,6 +109071,10 @@
             "Possible health dangers have something to do with energy drinks.": {
               "translation": "可能的",
               "pos": "adj."
+            },
+            "possible health dangers": {
+              "translation": "可能的",
+              "pos": "adj."
             }
           }
         },
@@ -108702,6 +109086,10 @@
           "meanings": "危险；威胁；危险境地",
           "contexts": {
             "Possible health dangers have something to do with energy drinks.": {
+              "translation": "危险",
+              "pos": "n."
+            },
+            "possible health dangers": {
               "translation": "危险",
               "pos": "n."
             }
@@ -108786,18 +109174,26 @@
             "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.": {
               "translation": "困难",
               "pos": "n."
+            },
+            "sleeping difficulty": {
+              "translation": "困难",
+              "pos": "n."
             }
           }
         },
         "sleeping": {
           "lemma": "sleep",
-          "translation": "入睡",
+          "translation": "睡眠",
           "pos": "v.",
           "forms": "sleeps, slept, sleeping",
           "meanings": "睡觉；睡眠；安息",
           "contexts": {
             "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.": {
-              "translation": "入睡",
+              "translation": "睡眠",
+              "pos": "v."
+            },
+            "sleeping difficulty": {
+              "translation": "睡眠",
               "pos": "v."
             }
           }
@@ -108825,6 +109221,10 @@
             "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.": {
               "translation": "引起",
               "pos": "v."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "导致",
+              "pos": "v."
             }
           }
         },
@@ -108836,6 +109236,10 @@
           "meanings": "问题；难题；困境；习题",
           "contexts": {
             "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.": {
+              "translation": "问题",
+              "pos": "n."
+            },
+            "heart problems": {
               "translation": "问题",
               "pos": "n."
             }
@@ -108862,6 +109266,14 @@
           "meanings": "青少年；十三到十九岁的人",
           "contexts": {
             "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.": {
+              "translation": "青少年",
+              "pos": "n."
+            },
+            "energy drinks are helpful to teenagers' study": {
+              "translation": "青少年",
+              "pos": "n."
+            },
+            "energy drinks are especially aimed at teenagers": {
               "translation": "青少年",
               "pos": "n."
             }
@@ -108895,14 +109307,18 @@
         },
         "lot": {
           "lemma": "lot",
-          "translation": "许多",
-          "pos": "pron.",
+          "translation": "大量",
+          "pos": "n.",
           "forms": "lots",
           "meanings": "许多；大量；地皮；命运",
           "contexts": {
             "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.": {
-              "translation": "许多",
-              "pos": "pron."
+              "translation": "大量",
+              "pos": "n."
+            },
+            "sports players need to drink a lot of energy drinks": {
+              "translation": "大量",
+              "pos": "n."
             }
           }
         },
@@ -108918,11 +109334,19 @@
               "pos": "prep."
             },
             "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.": {
-              "translation": "在……之内",
+              "translation": "在……方面",
               "pos": "prep."
             },
             "Scientists say that teenagers should be _ from taking drinks with a lot of caffeine in them.": {
-              "translation": "在……之中",
+              "translation": "摄入",
+              "pos": "prep."
+            },
+            "advertisements are important in getting people to buy energy drinks": {
+              "translation": "在……方面",
+              "pos": "prep."
+            },
+            "What's That in Energy Drinks?": {
+              "translation": "在",
               "pos": "prep."
             }
           }
@@ -108950,6 +109374,10 @@
             "These drinks are especially aimed at young people, students, busy people and sports players.": {
               "translation": "针对",
               "pos": "v."
+            },
+            "energy drinks are especially aimed at teenagers": {
+              "translation": "针对",
+              "pos": "v."
             }
           }
         },
@@ -108965,11 +109393,19 @@
               "pos": "prep."
             },
             "Makers sometimes say their drinks make you better at sports and can keep you awake.": {
-              "translation": "以（某种程度）",
+              "translation": "在……方面",
               "pos": "prep."
             },
             "Caffeine in most energy drinks is at least as strong as that in a cup of coffee or tea.": {
-              "translation": "在（某种程度/数值）",
+              "translation": "达到",
+              "pos": "prep."
+            },
+            "they can keep them awake and better at sports": {
+              "translation": "在……方面",
+              "pos": "prep."
+            },
+            "energy drinks are especially aimed at teenagers": {
+              "translation": "针对",
               "pos": "prep."
             }
           }
@@ -108995,6 +109431,18 @@
           "meanings": "人们；民族；人；国民",
           "contexts": {
             "These drinks are especially aimed at young people, students, busy people and sports players.": {
+              "translation": "人们",
+              "pos": "n."
+            },
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "人们",
+              "pos": "n."
+            },
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "人们",
+              "pos": "n."
+            },
+            "advertisements are important in getting people to buy energy drinks": {
               "translation": "人们",
               "pos": "n."
             }
@@ -109023,6 +109471,325 @@
             "These drinks are especially aimed at young people, students, busy people and sports players.": {
               "translation": "忙碌的",
               "pos": "adj."
+            }
+          }
+        },
+        "many": {
+          "lemma": "many",
+          "translation": "许多",
+          "pos": "adj.",
+          "forms": "more, most",
+          "meanings": "许多；大量；许多人",
+          "contexts": {
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "许多",
+              "pos": "adj."
+            }
+          }
+        },
+        "like": {
+          "lemma": "like",
+          "translation": "喜欢",
+          "pos": "v.",
+          "forms": "likes, liked, liking",
+          "meanings": "喜欢；像；如同；例如",
+          "contexts": {
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "喜欢",
+              "pos": "v."
+            }
+          }
+        },
+        "following": {
+          "lemma": "follow",
+          "translation": "接下来的",
+          "pos": "adj.",
+          "forms": "followed, following",
+          "meanings": "接下来的；跟随；遵循；听懂",
+          "contexts": {
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "接下来的",
+              "pos": "adj."
+            },
+            "Which of the following can be the best title of the passage?   _": {
+              "translation": "接下来的",
+              "pos": "adj."
+            }
+          }
+        },
+        "except": {
+          "lemma": "except",
+          "translation": "除……之外",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "除……之外；要不是；把……除外；除……之外（还）",
+          "contexts": {
+            "Many people like drinking energy drinks because of the following EXCEPT that   _  .": {
+              "translation": "除……之外",
+              "pos": "prep."
+            }
+          }
+        },
+        "said": {
+          "lemma": "say",
+          "translation": "声称",
+          "pos": "v.",
+          "forms": "says, saying, said",
+          "meanings": "说；讲；陈述；表达；声称",
+          "contexts": {
+            "they are said to be helpful to health": {
+              "translation": "声称",
+              "pos": "v."
+            }
+          }
+        },
+        "main": {
+          "lemma": "main",
+          "translation": "主要的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "主要的；最重要的；最大的",
+          "contexts": {
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "主要的",
+              "pos": "adj."
+            }
+          }
+        },
+        "reason": {
+          "lemma": "reason",
+          "translation": "原因",
+          "pos": "n.",
+          "forms": "reasons",
+          "meanings": "原因；理性；推断；理智",
+          "contexts": {
+            "The main reason for people not to drink too much energy drinks is that they may cause   _  .": {
+              "translation": "原因",
+              "pos": "n."
+            }
+          }
+        },
+        "nervousness": {
+          "lemma": "nervousness",
+          "translation": "紧张；神经过敏",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "紧张；神经过敏；不安；焦虑",
+          "contexts": {
+            "nervousness": {
+              "translation": "紧张",
+              "pos": "n."
+            }
+          }
+        },
+        "passage": {
+          "lemma": "passage",
+          "translation": "文章",
+          "pos": "n.",
+          "forms": "passages",
+          "meanings": "文章；段落；通道；走廊；通行权",
+          "contexts": {
+            "From the passage we can know that   _  .": {
+              "translation": "文章",
+              "pos": "n."
+            },
+            "Which of the following can be the best title of the passage?   _": {
+              "translation": "文章",
+              "pos": "n."
+            }
+          }
+        },
+        "we": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "us; our; ours",
+          "meanings": "我们；大家；咱们",
+          "contexts": {
+            "From the passage we can know that   _  .": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "Why Can't We Buy Energy Drinks?": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "know": {
+          "lemma": "know",
+          "translation": "了解",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉",
+          "contexts": {
+            "From the passage we can know that   _  .": {
+              "translation": "了解",
+              "pos": "v."
+            }
+          }
+        },
+        "advertisements": {
+          "lemma": "advertisements",
+          "translation": "广告",
+          "pos": "n.",
+          "forms": "advertisement",
+          "meanings": "广告；布告；公告；宣传",
+          "contexts": {
+            "advertisements are important in getting people to buy energy drinks": {
+              "translation": "广告",
+              "pos": "n."
+            }
+          }
+        },
+        "important": {
+          "lemma": "important",
+          "translation": "重要的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "重要的；有影响力的；重大的；尊贵的",
+          "contexts": {
+            "advertisements are important in getting people to buy energy drinks": {
+              "translation": "重要的",
+              "pos": "adj."
+            }
+          }
+        },
+        "buy": {
+          "lemma": "buy",
+          "translation": "购买",
+          "pos": "v.",
+          "forms": "buys, bought, buying",
+          "meanings": "购买；买下；收买",
+          "contexts": {
+            "advertisements are important in getting people to buy energy drinks": {
+              "translation": "购买",
+              "pos": "v."
+            },
+            "Why Can't We Buy Energy Drinks?": {
+              "translation": "购买",
+              "pos": "v."
+            }
+          }
+        },
+        "study": {
+          "lemma": "study",
+          "translation": "学习",
+          "pos": "n.",
+          "forms": "studies, studying, studied",
+          "meanings": "学习；研究；细看；书房；自习",
+          "contexts": {
+            "energy drinks are helpful to teenagers' study": {
+              "translation": "学习",
+              "pos": "n."
+            }
+          }
+        },
+        "need": {
+          "lemma": "need",
+          "translation": "需要",
+          "pos": "v.",
+          "forms": "needs, needed, needing",
+          "meanings": "需要；必须；有必要；缺乏",
+          "contexts": {
+            "sports players need to drink a lot of energy drinks": {
+              "translation": "需要",
+              "pos": "v."
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "哪一个",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个；（用于非限制性定语从句）这一点",
+          "contexts": {
+            "Which of the following can be the best title of the passage?   _": {
+              "translation": "哪一个",
+              "pos": "pron."
+            }
+          }
+        },
+        "best": {
+          "lemma": "best",
+          "translation": "最好的",
+          "pos": "adj.",
+          "forms": "better, best",
+          "meanings": "最好的；最优秀的；最合适的；最佳的；最有效的",
+          "contexts": {
+            "Which of the following can be the best title of the passage?   _": {
+              "translation": "最好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "title": {
+          "lemma": "title",
+          "translation": "标题",
+          "pos": "n.",
+          "forms": "titles",
+          "meanings": "标题；题目；称号；头衔；冠军",
+          "contexts": {
+            "Which of the following can be the best title of the passage?   _": {
+              "translation": "标题",
+              "pos": "n."
+            }
+          }
+        },
+        "what's": {
+          "lemma": "what is",
+          "translation": "是什么",
+          "pos": "pron.+v.",
+          "forms": "无常见变形",
+          "meanings": "是什么；……的东西；怎样；有什么",
+          "contexts": {
+            "What's the Use of Energy Drinks?": {
+              "translation": "是什么",
+              "pos": "pron.+v."
+            },
+            "What's That in Energy Drinks?": {
+              "translation": "是什么",
+              "pos": "pron.+v."
+            }
+          }
+        },
+        "who": {
+          "lemma": "who",
+          "translation": "谁",
+          "pos": "pron.",
+          "forms": "whom, whose",
+          "meanings": "谁；……的人；（引导定语从句）那个人；任何人",
+          "contexts": {
+            "Who Can Drink Energy Drinks?": {
+              "translation": "谁",
+              "pos": "pron."
+            }
+          }
+        },
+        "why": {
+          "lemma": "why",
+          "translation": "为什么",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "为什么；……的原因；为何；何故；为什么不",
+          "contexts": {
+            "Why Can't We Buy Energy Drinks?": {
+              "translation": "为什么",
+              "pos": "adv."
+            }
+          }
+        },
+        "can't": {
+          "lemma": "can",
+          "translation": "不能",
+          "pos": "modal verb",
+          "forms": "cannot, can, could",
+          "meanings": "不能；不可以；无法；不可能；不会",
+          "contexts": {
+            "Why Can't We Buy Energy Drinks?": {
+              "translation": "不能",
+              "pos": "modal verb"
             }
           }
         }
