@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T12:54:33.935Z",
+      "generatedAt": "2026-08-22T12:55:24.035Z",
       "requestedArticles": 40,
-      "acceptedArticles": 14,
+      "acceptedArticles": 15,
       "completed": false,
       "usage": {
-        "requests": 102,
-        "inputTokens": 211326,
-        "outputTokens": 123569,
-        "totalTokens": 334895,
+        "requests": 114,
+        "inputTokens": 231456,
+        "outputTokens": 136368,
+        "totalTokens": 367824,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.02321679,
+        "estimatedCostCny": 0.02557229,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 102,
-            "inputTokens": 211326,
-            "outputTokens": 123569,
-            "totalTokens": 334895,
+            "requests": 114,
+            "inputTokens": 231456,
+            "outputTokens": 136368,
+            "totalTokens": 367824,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.02321679
+            "estimatedCostCny": 0.02557229
           }
         }
       },
@@ -2268,6 +2268,25 @@
               "totalTokens": 16566,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00109407
+            }
+          }
+        },
+        {
+          "articleId": "web-f335b4849447798b",
+          "title": "RACE 高中英语阅读 high4099",
+          "requests": 12,
+          "inputTokens": 20130,
+          "outputTokens": 12799,
+          "totalTokens": 32929,
+          "estimatedCostCny": 0.0023555,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 12,
+              "inputTokens": 20130,
+              "outputTokens": 12799,
+              "totalTokens": 32929,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.0023555
             }
           }
         }
