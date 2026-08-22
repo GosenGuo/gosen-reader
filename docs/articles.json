@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:55:24.035Z",
+  "generatedAt": "2026-08-22T12:56:11.563Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -54152,13 +54152,17 @@
       "glossary": {
         "last": {
           "lemma": "last",
-          "translation": "昨晚的",
+          "translation": "上一个",
           "pos": "adj.",
           "forms": "lasts, lasted, lasting",
           "meanings": "最后的；上一个；最终；持续；姓",
           "contexts": {
             "Last night's meteor   shower left many people in the community dissatisfied and demanding answers.": {
-              "translation": "昨晚的",
+              "translation": "上一个（晚上的）",
+              "pos": "adj."
+            },
+            "It happened last night that   _  .": {
+              "translation": "上一个（晚上）",
               "pos": "adj."
             }
           }
@@ -54181,9 +54185,21 @@
           "translation": "流星",
           "pos": "n.",
           "forms": "meteors",
-          "meanings": "流星；大气现象",
+          "meanings": "流星；陨星；大气现象；大变动的事物",
           "contexts": {
             "Last night's meteor   shower left many people in the community dissatisfied and demanding answers.": {
+              "translation": "流星",
+              "pos": "n."
+            },
+            "the city's lights affected the meteor watching": {
+              "translation": "流星",
+              "pos": "n."
+            },
+            "the meteor watching ended up a social outing": {
+              "translation": "流星",
+              "pos": "n."
+            },
+            "Meteor showers occur less often than before.": {
               "translation": "流星",
               "pos": "n."
             }
@@ -54220,9 +54236,13 @@
           "translation": "许多",
           "pos": "adj.",
           "forms": "more, most",
-          "meanings": "许多；大量；许多人",
+          "meanings": "许多；大量；许多人；多数",
           "contexts": {
             "Last night's meteor   shower left many people in the community dissatisfied and demanding answers.": {
+              "translation": "许多",
+              "pos": "adj."
+            },
+            "the city light show attracted many people": {
               "translation": "许多",
               "pos": "adj."
             }
@@ -54233,7 +54253,7 @@
           "translation": "人们",
           "pos": "n.",
           "forms": "peoples",
-          "meanings": "人们；民族；人；国民",
+          "meanings": "人们；民族；人；国民；人口",
           "contexts": {
             "Last night's meteor   shower left many people in the community dissatisfied and demanding answers.": {
               "translation": "人们",
@@ -54248,6 +54268,10 @@
               "pos": "n."
             },
             "Clearly, people enjoy the benefits of lighting their evenings.": {
+              "translation": "人们",
+              "pos": "n."
+            },
+            "the city light show attracted many people": {
               "translation": "人们",
               "pos": "n."
             }
@@ -54258,79 +54282,119 @@
           "translation": "在……之内",
           "pos": "prep.",
           "forms": "无常见变形",
-          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用",
           "contexts": {
             "Last night's meteor   shower left many people in the community dissatisfied and demanding answers.": {
               "translation": "在……之内",
               "pos": "prep."
             },
             "According to Gabe Rothschild, Emerald Valley's mayor, people gathered in the suburbs of the city, carrying heavy telescopes, expecting to watch the brightly burning meteors passing through the sky.": {
-              "translation": "在……之内",
+              "translation": "在",
               "pos": "prep."
             },
             "They say that light pollution prevents them from seeing objects in the sky that they could see quite easily in the past.": {
-              "translation": "在……之内",
+              "translation": "在……中",
               "pos": "prep."
             },
             "According to the International Dark-Sky Association, \"100 million birds a year throughout North America die in crashes with lighted buildings and towers.": {
-              "translation": "在……之内",
+              "translation": "在",
               "pos": "prep."
             },
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
-              "translation": "在……之内",
+              "translation": "在",
+              "pos": "prep."
+            },
+            "Their observation equipment is in poor repair.": {
+              "translation": "处于",
+              "pos": "prep."
+            },
+            "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "enable all creatures to live in harmony": {
+              "translation": "在……之中",
               "pos": "prep."
             }
           }
         },
         "the": {
           "lemma": "the",
-          "translation": "这，那",
+          "translation": "这；那",
           "pos": "art.",
           "forms": "无常见变形",
-          "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
+          "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）；（用于独一无二的事物前）",
           "contexts": {
             "Last night's meteor   shower left many people in the community dissatisfied and demanding answers.": {
-              "translation": "（用于特指）",
+              "translation": "（特指）",
               "pos": "art."
             },
             "According to Gabe Rothschild, Emerald Valley's mayor, people gathered in the suburbs of the city, carrying heavy telescopes, expecting to watch the brightly burning meteors passing through the sky.": {
-              "translation": "（用于特指）",
+              "translation": "（特指）",
               "pos": "art."
             },
             "What they found instead was a sky so brightened by the city's lights that it darkened the light of the meteors passing overhead.": {
-              "translation": "（用于特指）",
+              "translation": "（特指）",
               "pos": "art."
             },
             "They say that light pollution prevents them from seeing objects in the sky that they could see quite easily in the past.": {
-              "translation": "（用于特指）",
+              "translation": "（特指）",
               "pos": "art."
             },
             "They call on people and the government to take measures to fight against it.": {
-              "translation": "（用于特指）",
+              "translation": "（特指）",
               "pos": "art."
             },
             "According to the International Dark-Sky Association, \"100 million birds a year throughout North America die in crashes with lighted buildings and towers.": {
-              "translation": "（用于特指）",
+              "translation": "（特指）",
               "pos": "art."
             },
             "\"\nCountless more animal casualties   result from the use of artificial lighting.": {
-              "translation": "（用于特指）",
+              "translation": "（特指）",
               "pos": "art."
             },
             "Clearly, people enjoy the benefits of lighting their evenings.": {
-              "translation": "（用于特指）",
+              "translation": "（特指）",
               "pos": "art."
             },
             "Emerald Valley is only one community that is becoming aware of the negative effects of light pollution.": {
-              "translation": "（用于特指）",
+              "translation": "（特指）",
               "pos": "art."
             },
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
-              "translation": "（用于特指）",
+              "translation": "（特指）",
               "pos": "art."
             },
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
-              "translation": "（用于特指）",
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "the city's lights affected the meteor watching": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "the meteors flew past before being noticed": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "the city light show attracted many people": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "the meteor watching ended up a social outing": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "What do the astronomers complain about?": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "lessen the chance of getting cancer": {
+              "translation": "（特指）",
+              "pos": "art."
+            },
+            "What message does the author most want to give us?": {
+              "translation": "（特指）",
               "pos": "art."
             }
           }
@@ -54443,29 +54507,29 @@
         },
         "to": {
           "lemma": "to",
-          "translation": "向",
+          "translation": "向；给；到",
           "pos": "prep.",
           "forms": "无常见变形",
-          "meanings": "向；给；到；构成不定式",
+          "meanings": "向；给；到；构成不定式；直到；根据；对于",
           "contexts": {
             "According to Gabe Rothschild, Emerald Valley's mayor, people gathered in the suburbs of the city, carrying heavy telescopes, expecting to watch the brightly burning meteors passing through the sky.": {
-              "translation": "据",
+              "translation": "构成不定式",
               "pos": "prep."
             },
             "\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.": {
-              "translation": "为了",
+              "translation": "构成不定式",
               "pos": "prep."
             },
             "They call on people and the government to take measures to fight against it.": {
-              "translation": "向",
+              "translation": "构成不定式",
               "pos": "prep."
             },
             "According to the International Dark-Sky Association, \"100 million birds a year throughout North America die in crashes with lighted buildings and towers.": {
-              "translation": "据",
+              "translation": "在……中",
               "pos": "prep."
             },
             "They worry that exposure to light while sleeping can increase a person's chances of getting cancer.": {
-              "translation": "对于",
+              "translation": "在……中",
               "pos": "prep."
             },
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
@@ -54473,7 +54537,27 @@
               "pos": "prep."
             },
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
+              "translation": "构成不定式",
+              "pos": "prep."
+            },
+            "Their eyesight is failing due to artificial lighting.": {
+              "translation": "由于",
+              "pos": "prep."
+            },
+            "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .": {
               "translation": "为了",
+              "pos": "prep."
+            },
+            "enable all creatures to live in harmony": {
+              "translation": "构成不定式",
+              "pos": "prep."
+            },
+            "What message does the author most want to give us?": {
+              "translation": "给",
+              "pos": "prep."
+            },
+            "Great efforts should be made to save energy.": {
+              "translation": "应该",
               "pos": "prep."
             }
           }
@@ -54578,14 +54662,14 @@
           "translation": "……的",
           "pos": "prep.",
           "forms": "无常见变形",
-          "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
+          "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）；由于",
           "contexts": {
             "According to Gabe Rothschild, Emerald Valley's mayor, people gathered in the suburbs of the city, carrying heavy telescopes, expecting to watch the brightly burning meteors passing through the sky.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "What they found instead was a sky so brightened by the city's lights that it darkened the light of the meteors passing overhead.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "This population consists of birds, bats, frogs, snakes, etc.": {
@@ -54593,19 +54677,23 @@
               "pos": "prep."
             },
             "\"\nCountless more animal casualties   result from the use of artificial lighting.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "Clearly, people enjoy the benefits of lighting their evenings.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "They worry that exposure to light while sleeping can increase a person's chances of getting cancer.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "Emerald Valley is only one community that is becoming aware of the negative effects of light pollution.": {
-              "translation": "关于",
+              "translation": "的",
+              "pos": "prep."
+            },
+            "lessen the chance of getting cancer": {
+              "translation": "的",
               "pos": "prep."
             }
           }
@@ -54615,7 +54703,7 @@
           "translation": "城市",
           "pos": "n.",
           "forms": "cities",
-          "meanings": "城市；都市；全市居民",
+          "meanings": "城市；都市；全市居民；市区",
           "contexts": {
             "According to Gabe Rothschild, Emerald Valley's mayor, people gathered in the suburbs of the city, carrying heavy telescopes, expecting to watch the brightly burning meteors passing through the sky.": {
               "translation": "城市",
@@ -54626,6 +54714,14 @@
               "pos": "n."
             },
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
+              "translation": "城市",
+              "pos": "n."
+            },
+            "the city's lights affected the meteor watching": {
+              "translation": "城市",
+              "pos": "n."
+            },
+            "the city light show attracted many people": {
               "translation": "城市",
               "pos": "n."
             }
@@ -54727,13 +54823,17 @@
           "translation": "流星",
           "pos": "n.",
           "forms": "meteors",
-          "meanings": "流星；陨星；大变动的事物",
+          "meanings": "流星；陨星；大气现象；大变动的事物",
           "contexts": {
             "According to Gabe Rothschild, Emerald Valley's mayor, people gathered in the suburbs of the city, carrying heavy telescopes, expecting to watch the brightly burning meteors passing through the sky.": {
               "translation": "流星",
               "pos": "n."
             },
             "What they found instead was a sky so brightened by the city's lights that it darkened the light of the meteors passing overhead.": {
+              "translation": "流星",
+              "pos": "n."
+            },
+            "the meteors flew past before being noticed": {
               "translation": "流星",
               "pos": "n."
             }
@@ -54796,14 +54896,22 @@
         },
         "what": {
           "lemma": "what",
-          "translation": "……的事物",
+          "translation": "什么",
           "pos": "pronoun",
           "forms": "无常见变形",
           "meanings": "什么；……的事物；多么；究竟是什么",
           "contexts": {
             "What they found instead was a sky so brightened by the city's lights that it darkened the light of the meteors passing overhead.": {
-              "translation": "……的事物",
-              "pos": "pron."
+              "translation": "什么",
+              "pos": "pronoun"
+            },
+            "What do the astronomers complain about?": {
+              "translation": "什么",
+              "pos": "pronoun"
+            },
+            "What message does the author most want to give us?": {
+              "translation": "什么",
+              "pos": "pronoun"
             }
           }
         },
@@ -54887,7 +54995,7 @@
               "pos": "art."
             },
             "\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.": {
-              "translation": "一次",
+              "translation": "一个",
               "pos": "art."
             },
             "There is yet a population besides professional and amateur star observers that suffers even more from light pollution.": {
@@ -54903,7 +55011,15 @@
               "pos": "art."
             },
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
-              "translation": "一项",
+              "translation": "一个",
+              "pos": "art."
+            },
+            "the meteor watching ended up a social outing": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "ensure citizens a good sleep at night": {
+              "translation": "一个",
               "pos": "art."
             }
           }
@@ -54965,6 +55081,10 @@
             "What they found instead was a sky so brightened by the city's lights that it darkened the light of the meteors passing overhead.": {
               "translation": "城市的",
               "pos": "n."
+            },
+            "the city's lights affected the meteor watching": {
+              "translation": "城市的",
+              "pos": "n."
             }
           }
         },
@@ -54980,40 +55100,48 @@
               "pos": "n."
             },
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
-              "translation": "灯",
+              "translation": "灯光",
+              "pos": "n."
+            },
+            "the city's lights affected the meteor watching": {
+              "translation": "灯光",
               "pos": "n."
             }
           }
         },
         "that": {
           "lemma": "that",
-          "translation": "引导结果状语从句",
+          "translation": "引导从句",
           "pos": "conj.",
           "forms": "those",
           "meanings": "引导从句；那个；那；因为",
           "contexts": {
             "What they found instead was a sky so brightened by the city's lights that it darkened the light of the meteors passing overhead.": {
-              "translation": "引导结果状语从句",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "They say that light pollution prevents them from seeing objects in the sky that they could see quite easily in the past.": {
-              "translation": "引导宾语从句",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "There is yet a population besides professional and amateur star observers that suffers even more from light pollution.": {
-              "translation": "引导定语从句",
-              "pos": "pron."
+              "translation": "引导从句",
+              "pos": "conj."
             },
             "They worry that exposure to light while sleeping can increase a person's chances of getting cancer.": {
-              "translation": "引导宾语从句",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "Emerald Valley is only one community that is becoming aware of the negative effects of light pollution.": {
-              "translation": "引导定语从句",
-              "pos": "pron."
+              "translation": "引导从句",
+              "pos": "conj."
             },
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
-              "translation": "引导目的状语从句",
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "It happened last night that   _  .": {
+              "translation": "引导从句",
               "pos": "conj."
             }
           }
@@ -55040,6 +55168,10 @@
             "But some scientists think it can be harmful for humans, too.": {
               "translation": "它",
               "pos": "pron."
+            },
+            "It happened last night that   _  .": {
+              "translation": "这",
+              "pos": "pron."
             }
           }
         },
@@ -55058,7 +55190,7 @@
         },
         "light": {
           "lemma": "light",
-          "translation": "光；光线",
+          "translation": "光线",
           "pos": "n.",
           "forms": "lights, lit/lighted",
           "meanings": "光线；灯；点燃；明亮的；轻松的",
@@ -55068,19 +55200,27 @@
               "pos": "n."
             },
             "They say that light pollution prevents them from seeing objects in the sky that they could see quite easily in the past.": {
-              "translation": "光",
+              "translation": "光污染",
               "pos": "n."
             },
             "There is yet a population besides professional and amateur star observers that suffers even more from light pollution.": {
-              "translation": "光",
+              "translation": "光污染",
               "pos": "n."
             },
             "They worry that exposure to light while sleeping can increase a person's chances of getting cancer.": {
-              "translation": "光",
+              "translation": "光线",
               "pos": "n."
             },
             "Emerald Valley is only one community that is becoming aware of the negative effects of light pollution.": {
-              "translation": "光",
+              "translation": "光污染",
+              "pos": "n."
+            },
+            "the city light show attracted many people": {
+              "translation": "灯光",
+              "pos": "n."
+            },
+            "Light pollution has remained unsolved for years.": {
+              "translation": "光污染",
               "pos": "n."
             }
           }
@@ -55276,6 +55416,10 @@
             "\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.": {
               "translation": "一个",
               "pos": "art."
+            },
+            "create an ideal observation condition": {
+              "translation": "一个",
+              "pos": "art."
             }
           }
         },
@@ -55294,13 +55438,17 @@
         },
         "outing": {
           "lemma": "outing",
-          "translation": "远足",
+          "translation": "郊游",
           "pos": "n.",
           "forms": "outings",
           "meanings": "远足；短途旅游；郊游；外出活动",
           "contexts": {
             "\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.": {
-              "translation": "远足",
+              "translation": "郊游",
+              "pos": "n."
+            },
+            "the meteor watching ended up a social outing": {
+              "translation": "郊游",
               "pos": "n."
             }
           }
@@ -55356,11 +55504,23 @@
           "meanings": "是；位于；成为；（构成进行时或被动语态）",
           "contexts": {
             "\"My family was so frustrated,\" admitted town resident Duane Cosby, \"We wanted to make this an unforgettable family outing, but it turned out to be a huge disappointment.": {
-              "translation": "成为，变成",
+              "translation": "是",
               "pos": "v."
             },
             "But some scientists think it can be harmful for humans, too.": {
               "translation": "是",
+              "pos": "v."
+            },
+            "Great efforts should be made to save energy.": {
+              "translation": "（构成被动语态）",
+              "pos": "v."
+            },
+            "Human activities should be environmentally friendly.": {
+              "translation": "（构成被动语态）",
+              "pos": "v."
+            },
+            "New equipment should be introduced for space study..": {
+              "translation": "（构成被动语态）",
               "pos": "v."
             }
           }
@@ -55396,13 +55556,17 @@
           "translation": "天文学家",
           "pos": "n.",
           "forms": "astronomers",
-          "meanings": "天文学家；观星者",
+          "meanings": "天文学家；观星者；星象学家；天体观测者",
           "contexts": {
             "\"\nAstronomers--scientists who study stars and planets--have been complaining about this problem for decades.": {
               "translation": "天文学家",
               "pos": "n."
             },
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
+              "translation": "天文学家",
+              "pos": "n."
+            },
+            "What do the astronomers complain about?": {
               "translation": "天文学家",
               "pos": "n."
             }
@@ -55448,6 +55612,10 @@
             "\"\nAstronomers--scientists who study stars and planets--have been complaining about this problem for decades.": {
               "translation": "研究",
               "pos": "v."
+            },
+            "New equipment should be introduced for space study..": {
+              "translation": "研究",
+              "pos": "n."
             }
           }
         },
@@ -55529,9 +55697,13 @@
           "translation": "关于",
           "pos": "prep.",
           "forms": "无常见变形",
-          "meanings": "关于；大约；在……周围；忙于",
+          "meanings": "关于；大约；在……周围；忙于；将要",
           "contexts": {
             "\"\nAstronomers--scientists who study stars and planets--have been complaining about this problem for decades.": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "What do the astronomers complain about?": {
               "translation": "关于",
               "pos": "prep."
             }
@@ -55552,13 +55724,13 @@
         },
         "for": {
           "lemma": "for",
-          "translation": "（持续）了……之久",
+          "translation": "为了",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "为了；支持；因为；给；对于",
           "contexts": {
             "\"\nAstronomers--scientists who study stars and planets--have been complaining about this problem for decades.": {
-              "translation": "（持续）了……之久",
+              "translation": "持续",
               "pos": "prep."
             },
             "For example, outdoor lighting severely affects migrating   birds.": {
@@ -55570,7 +55742,15 @@
               "pos": "prep."
             },
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
-              "translation": "持续（一段时间）",
+              "translation": "多年来",
+              "pos": "prep."
+            },
+            "Light pollution has remained unsolved for years.": {
+              "translation": "多年来",
+              "pos": "prep."
+            },
+            "New equipment should be introduced for space study..": {
+              "translation": "为了",
               "pos": "prep."
             }
           }
@@ -55606,18 +55786,22 @@
           "translation": "污染",
           "pos": "n.",
           "forms": "无常见变形",
-          "meanings": "污染；污染物；环境污染",
+          "meanings": "污染；污染物；环境污染；光污染",
           "contexts": {
             "They say that light pollution prevents them from seeing objects in the sky that they could see quite easily in the past.": {
-              "translation": "污染",
+              "translation": "光污染",
               "pos": "n."
             },
             "There is yet a population besides professional and amateur star observers that suffers even more from light pollution.": {
-              "translation": "污染",
+              "translation": "光污染",
               "pos": "n."
             },
             "Emerald Valley is only one community that is becoming aware of the negative effects of light pollution.": {
-              "translation": "污染",
+              "translation": "光污染",
+              "pos": "n."
+            },
+            "Light pollution has remained unsolved for years.": {
+              "translation": "光污染",
               "pos": "n."
             }
           }
@@ -55756,11 +55940,15 @@
           "translation": "过去",
           "pos": "n.",
           "forms": "无常见变形",
-          "meanings": "过去；往事；（时间）过；经过",
+          "meanings": "过去；往事；时间过去；经过；超越",
           "contexts": {
             "They say that light pollution prevents them from seeing objects in the sky that they could see quite easily in the past.": {
               "translation": "过去",
               "pos": "n."
+            },
+            "the meteors flew past before being noticed": {
+              "translation": "经过",
+              "pos": "prep."
             }
           }
         },
@@ -55873,10 +56061,10 @@
           "translation": "是",
           "pos": "v.",
           "forms": "am, are, was, were, being, been",
-          "meanings": "是；存在；等于；位于",
+          "meanings": "是；存在；等于；位于；发生",
           "contexts": {
             "There is yet a population besides professional and amateur star observers that suffers even more from light pollution.": {
-              "translation": "存在",
+              "translation": "有",
               "pos": "v."
             },
             "Emerald Valley is only one community that is becoming aware of the negative effects of light pollution.": {
@@ -55884,6 +56072,18 @@
               "pos": "v."
             },
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
+              "translation": "正在进行",
+              "pos": "v."
+            },
+            "Their observation equipment is in poor repair.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Their eyesight is failing due to artificial lighting.": {
+              "translation": "正在",
+              "pos": "v."
+            },
+            "Saving wildlife is saving ourselves.": {
               "translation": "是",
               "pos": "v."
             }
@@ -56144,21 +56344,29 @@
           "translation": "照明",
           "pos": "n.",
           "forms": "无常见变形",
-          "meanings": "照明；灯光；光线；点火",
+          "meanings": "照明；灯光；光线；点火；光照",
           "contexts": {
             "For example, outdoor lighting severely affects migrating   birds.": {
               "translation": "照明",
               "pos": "n."
             },
             "\"\nCountless more animal casualties   result from the use of artificial lighting.": {
-              "translation": "灯光",
+              "translation": "照明",
               "pos": "n."
             },
             "Clearly, people enjoy the benefits of lighting their evenings.": {
               "translation": "照明",
-              "pos": "v.-ing/n."
+              "pos": "n."
             },
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
+              "translation": "照明",
+              "pos": "n."
+            },
+            "Their eyesight is failing due to artificial lighting.": {
+              "translation": "照明",
+              "pos": "n."
+            },
+            "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .": {
               "translation": "照明",
               "pos": "n."
             }
@@ -56455,10 +56663,14 @@
           "translation": "人造的",
           "pos": "adj.",
           "forms": "无常见变形",
-          "meanings": "人造的；人工的；虚伪的；仿造的",
+          "meanings": "人造的；人工的；虚伪的；仿造的；不自然的",
           "contexts": {
             "\"\nCountless more animal casualties   result from the use of artificial lighting.": {
-              "translation": "人造的",
+              "translation": "人工的",
+              "pos": "adj."
+            },
+            "Their eyesight is failing due to artificial lighting.": {
+              "translation": "人工的",
               "pos": "adj."
             }
           }
@@ -56507,9 +56719,17 @@
           "translation": "他们的",
           "pos": "pron.",
           "forms": "theirs",
-          "meanings": "他们的；她们的；它们的",
+          "meanings": "他们的；她们的；它们的；其",
           "contexts": {
             "Clearly, people enjoy the benefits of lighting their evenings.": {
+              "translation": "他们的",
+              "pos": "pron."
+            },
+            "Their observation equipment is in poor repair.": {
+              "translation": "他们的",
+              "pos": "pron."
+            },
+            "Their eyesight is failing due to artificial lighting.": {
               "translation": "他们的",
               "pos": "pron."
             }
@@ -56715,6 +56935,10 @@
             "They worry that exposure to light while sleeping can increase a person's chances of getting cancer.": {
               "translation": "患上",
               "pos": "v."
+            },
+            "lessen the chance of getting cancer": {
+              "translation": "患上",
+              "pos": "v."
             }
           }
         },
@@ -56726,6 +56950,10 @@
           "meanings": "癌症；弊端",
           "contexts": {
             "They worry that exposure to light while sleeping can increase a person's chances of getting cancer.": {
+              "translation": "癌症",
+              "pos": "n."
+            },
+            "lessen the chance of getting cancer": {
               "translation": "癌症",
               "pos": "n."
             }
@@ -56836,6 +57064,10 @@
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
               "translation": "年",
               "pos": "n."
+            },
+            "Light pollution has remained unsolved for years.": {
+              "translation": "年",
+              "pos": "n."
             }
           }
         },
@@ -56847,7 +57079,11 @@
           "meanings": "弗拉格斯塔夫（地名）；旗杆",
           "contexts": {
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
-              "translation": "弗拉格斯塔夫（地名）",
+              "translation": "弗拉格斯塔夫",
+              "pos": "n."
+            },
+            "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .": {
+              "translation": "弗拉格斯塔夫",
               "pos": "n."
             }
           }
@@ -56862,6 +57098,10 @@
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
               "translation": "亚利桑那州",
               "pos": "n."
+            },
+            "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .": {
+              "translation": "亚利桑那州",
+              "pos": "n."
             }
           }
         },
@@ -56873,6 +57113,10 @@
           "meanings": "已经（构成完成时）；有；经历；吃；使",
           "contexts": {
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
+              "translation": "已经",
+              "pos": "v."
+            },
+            "Light pollution has remained unsolved for years.": {
               "translation": "已经",
               "pos": "v."
             }
@@ -56893,13 +57137,17 @@
         },
         "regulations": {
           "lemma": "regulation",
-          "translation": "规章",
+          "translation": "规则",
           "pos": "n.",
           "forms": "regulations",
           "meanings": "规则；条例；管理；调节",
           "contexts": {
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
-              "translation": "规章",
+              "translation": "规则",
+              "pos": "n."
+            },
+            "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .": {
+              "translation": "规则",
               "pos": "n."
             }
           }
@@ -56951,6 +57199,10 @@
           "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）；向；针对",
           "contexts": {
             "For years, Flagstaff, Arizona, has enforced lighting regulations in its city in order to assist astronomers at the Lowell Observatory.": {
+              "translation": "在",
+              "pos": "prep."
+            },
+            "ensure citizens a good sleep at night": {
               "translation": "在",
               "pos": "prep."
             }
@@ -57005,18 +57257,26 @@
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
               "translation": "努力",
               "pos": "n."
+            },
+            "Great efforts should be made to save energy.": {
+              "translation": "努力",
+              "pos": "n."
             }
           }
         },
         "made": {
           "lemma": "make",
-          "translation": "做出",
+          "translation": "进行",
           "pos": "v.",
           "forms": "making, made, makes",
           "meanings": "制造；使；做出；赚取",
           "contexts": {
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
-              "translation": "做出",
+              "translation": "进行",
+              "pos": "v."
+            },
+            "Great efforts should be made to save energy.": {
+              "translation": "进行",
               "pos": "v."
             }
           }
@@ -57078,9 +57338,13 @@
           "translation": "我们",
           "pos": "pron.",
           "forms": "无常见变形",
-          "meanings": "我们（宾格）",
+          "meanings": "我们（主格）；我们（宾格）；咱们",
           "contexts": {
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "What message does the author most want to give us?": {
               "translation": "我们",
               "pos": "pron."
             }
@@ -57135,6 +57399,10 @@
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
               "translation": "是",
               "pos": "v."
+            },
+            "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .": {
+              "translation": "是",
+              "pos": "v."
             }
           }
         },
@@ -57187,6 +57455,10 @@
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
               "translation": "生物",
               "pos": "n."
+            },
+            "enable all creatures to live in harmony": {
+              "translation": "生物",
+              "pos": "n."
             }
           }
         },
@@ -57216,6 +57488,870 @@
             },
             "Similar efforts have been made worldwide, and a movement is underway to remind us to turn off lights when we are not using them, so that other creatures can share the night.": {
               "translation": "夜晚",
+              "pos": "n."
+            },
+            "It happened last night that   _  .": {
+              "translation": "夜晚",
+              "pos": "n."
+            },
+            "ensure citizens a good sleep at night": {
+              "translation": "夜间",
+              "pos": "n."
+            }
+          }
+        },
+        "happened": {
+          "lemma": "happen",
+          "translation": "发生",
+          "pos": "v.",
+          "forms": "happened, happening, happens",
+          "meanings": "发生；碰巧；恰好",
+          "contexts": {
+            "It happened last night that   _  .": {
+              "translation": "发生",
+              "pos": "v."
+            }
+          }
+        },
+        "affected": {
+          "lemma": "affect",
+          "translation": "影响",
+          "pos": "v.",
+          "forms": "affected, affecting, affects",
+          "meanings": "影响；感染；感动；假装；喜欢",
+          "contexts": {
+            "the city's lights affected the meteor watching": {
+              "translation": "影响",
+              "pos": "v."
+            }
+          }
+        },
+        "watching": {
+          "lemma": "watch",
+          "translation": "观看",
+          "pos": "v.",
+          "forms": "watched, watching, watches",
+          "meanings": "关注；观看；注视；守候",
+          "contexts": {
+            "the city's lights affected the meteor watching": {
+              "translation": "观看",
+              "pos": "v."
+            },
+            "the meteor watching ended up a social outing": {
+              "translation": "观看",
+              "pos": "n."
+            }
+          }
+        },
+        "flew": {
+          "lemma": "fly",
+          "translation": "飞",
+          "pos": "v.",
+          "forms": "flew, flying, flies, flown",
+          "meanings": "飞；飞行；逃跑；飘动；疾驰",
+          "contexts": {
+            "the meteors flew past before being noticed": {
+              "translation": "飞过",
+              "pos": "v."
+            }
+          }
+        },
+        "before": {
+          "lemma": "before",
+          "translation": "在……之前",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之前；以前；在……前面；宁可……也不",
+          "contexts": {
+            "the meteors flew past before being noticed": {
+              "translation": "在……之前",
+              "pos": "prep."
+            },
+            "Meteor showers occur less often than before.": {
+              "translation": "以前；从前",
+              "pos": "adv."
+            }
+          }
+        },
+        "being": {
+          "lemma": "be",
+          "translation": "被",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, been, being",
+          "meanings": "存在；处于某种状态；表现；成为；作为",
+          "contexts": {
+            "the meteors flew past before being noticed": {
+              "translation": "被",
+              "pos": "v."
+            }
+          }
+        },
+        "noticed": {
+          "lemma": "notice",
+          "translation": "被注意到",
+          "pos": "v.",
+          "forms": "notices, noticed, noticing",
+          "meanings": "注意；察觉；留意；被注意到；评论",
+          "contexts": {
+            "the meteors flew past before being noticed": {
+              "translation": "被注意到",
+              "pos": "v."
+            }
+          }
+        },
+        "show": {
+          "lemma": "show",
+          "translation": "演出；表演",
+          "pos": "n.",
+          "forms": "shows, showed, shown/showed, showing",
+          "meanings": "展示；显示；说明；带领；演出；表演",
+          "contexts": {
+            "the city light show attracted many people": {
+              "translation": "演出；表演",
+              "pos": "n."
+            }
+          }
+        },
+        "attracted": {
+          "lemma": "attract",
+          "translation": "吸引",
+          "pos": "v.",
+          "forms": "attracts, attracted, attracting",
+          "meanings": "吸引；引起；诱惑；具有吸引力",
+          "contexts": {
+            "the city light show attracted many people": {
+              "translation": "吸引",
+              "pos": "v."
+            }
+          }
+        },
+        "ended": {
+          "lemma": "end",
+          "translation": "结束；最后成为",
+          "pos": "v.",
+          "forms": "ends, ended, ending",
+          "meanings": "结束；终止；终结；使停止；最后变成",
+          "contexts": {
+            "the meteor watching ended up a social outing": {
+              "translation": "结束；最后成为（与up连用）",
+              "pos": "v."
+            }
+          }
+        },
+        "up": {
+          "lemma": "up",
+          "translation": "完成；彻底",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "到（up to）；完成；彻底；向上；出现",
+          "contexts": {
+            "the meteor watching ended up a social outing": {
+              "translation": "完成；最后成为",
+              "pos": "adv."
+            }
+          }
+        },
+        "social": {
+          "lemma": "social",
+          "translation": "社交的；社会性的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "社会的；社交的；群居的；联谊的；公共的",
+          "contexts": {
+            "the meteor watching ended up a social outing": {
+              "translation": "社交的",
+              "pos": "adj."
+            }
+          }
+        },
+        "do": {
+          "lemma": "do",
+          "translation": "做；进行",
+          "pos": "aux.v.",
+          "forms": "did, done, doing, does",
+          "meanings": "做；干；进行；引起；行动；表现",
+          "contexts": {
+            "What do the astronomers complain about?": {
+              "translation": "做（助动词，用于构成疑问句）",
+              "pos": "aux.v."
+            }
+          }
+        },
+        "complain": {
+          "lemma": "complain",
+          "translation": "抱怨；诉苦",
+          "pos": "v.",
+          "forms": "complains, complained, complaining",
+          "meanings": "抱怨；诉苦；投诉；申述；发牢骚",
+          "contexts": {
+            "What do the astronomers complain about?": {
+              "translation": "抱怨",
+              "pos": "v."
+            }
+          }
+        },
+        "showers": {
+          "lemma": "shower",
+          "translation": "流星雨",
+          "pos": "n.",
+          "forms": "shower, showers, showered, showering",
+          "meanings": "淋浴；阵雨；流星雨；大量；喷洒",
+          "contexts": {
+            "Meteor showers occur less often than before.": {
+              "translation": "流星雨",
+              "pos": "n."
+            }
+          }
+        },
+        "occur": {
+          "lemma": "occur",
+          "translation": "发生；出现",
+          "pos": "v.",
+          "forms": "occurs, occurred, occurring",
+          "meanings": "发生；出现；存在；想到；发现",
+          "contexts": {
+            "Meteor showers occur less often than before.": {
+              "translation": "发生",
+              "pos": "v."
+            }
+          }
+        },
+        "less": {
+          "lemma": "less",
+          "translation": "较少",
+          "pos": "adj.",
+          "forms": "little, least",
+          "meanings": "较少的；更少的；较小的；不太；减去",
+          "contexts": {
+            "Meteor showers occur less often than before.": {
+              "translation": "较少",
+              "pos": "adj."
+            }
+          }
+        },
+        "often": {
+          "lemma": "often",
+          "translation": "经常",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "经常；往往；屡次；多次",
+          "contexts": {
+            "Meteor showers occur less often than before.": {
+              "translation": "经常",
+              "pos": "adv."
+            }
+          }
+        },
+        "than": {
+          "lemma": "than",
+          "translation": "比",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "比；除……之外；与之相比",
+          "contexts": {
+            "Meteor showers occur less often than before.": {
+              "translation": "比",
+              "pos": "conj."
+            }
+          }
+        },
+        "observation": {
+          "lemma": "observation",
+          "translation": "观测",
+          "pos": "n.",
+          "forms": "observe, observer, observing",
+          "meanings": "观测；观察；注意；评论；言论",
+          "contexts": {
+            "Their observation equipment is in poor repair.": {
+              "translation": "观测",
+              "pos": "n."
+            },
+            "create an ideal observation condition": {
+              "translation": "观测",
+              "pos": "n."
+            }
+          }
+        },
+        "equipment": {
+          "lemma": "equipment",
+          "translation": "设备",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "设备；器材；装备；用具",
+          "contexts": {
+            "Their observation equipment is in poor repair.": {
+              "translation": "设备",
+              "pos": "n."
+            },
+            "New equipment should be introduced for space study..": {
+              "translation": "设备",
+              "pos": "n."
+            }
+          }
+        },
+        "poor": {
+          "lemma": "poor",
+          "translation": "破旧的",
+          "pos": "adj.",
+          "forms": "poorly, poorness",
+          "meanings": "贫穷的；破旧的；不好的；低质的；可怜的",
+          "contexts": {
+            "Their observation equipment is in poor repair.": {
+              "translation": "破旧的",
+              "pos": "adj."
+            }
+          }
+        },
+        "repair": {
+          "lemma": "repair",
+          "translation": "维修",
+          "pos": "n.",
+          "forms": "repaired, repairing, repairman",
+          "meanings": "维修；修理；修复；恢复",
+          "contexts": {
+            "Their observation equipment is in poor repair.": {
+              "translation": "维修",
+              "pos": "n."
+            }
+          }
+        },
+        "remained": {
+          "lemma": "remain",
+          "translation": "保持",
+          "pos": "v.",
+          "forms": "remain, remains, remaining",
+          "meanings": "保持；仍然；剩余；遗留；残留",
+          "contexts": {
+            "Light pollution has remained unsolved for years.": {
+              "translation": "保持",
+              "pos": "v."
+            }
+          }
+        },
+        "unsolved": {
+          "lemma": "unsolved",
+          "translation": "未解决的",
+          "pos": "adj.",
+          "forms": "solve, solved, solving",
+          "meanings": "未解决的；悬而未决的；神秘的",
+          "contexts": {
+            "Light pollution has remained unsolved for years.": {
+              "translation": "未解决的",
+              "pos": "adj."
+            }
+          }
+        },
+        "eyesight": {
+          "lemma": "eyesight",
+          "translation": "视力",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "视力；视觉；看见",
+          "contexts": {
+            "Their eyesight is failing due to artificial lighting.": {
+              "translation": "视力",
+              "pos": "n."
+            }
+          }
+        },
+        "failing": {
+          "lemma": "fail",
+          "translation": "衰退；减弱",
+          "pos": "v.",
+          "forms": "fails, failing, failed",
+          "meanings": "失败；衰退；减弱；不及格；破产；辜负",
+          "contexts": {
+            "Their eyesight is failing due to artificial lighting.": {
+              "translation": "衰退；减弱",
+              "pos": "v."
+            }
+          }
+        },
+        "due": {
+          "lemma": "due",
+          "translation": "由于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "由于；预期的；应得的；到期的",
+          "contexts": {
+            "Their eyesight is failing due to artificial lighting.": {
+              "translation": "由于",
+              "pos": "prep."
+            }
+          }
+        },
+        "put": {
+          "lemma": "put",
+          "translation": "使……处于（某种位置/状态）",
+          "pos": "v.",
+          "forms": "puts, putting, put",
+          "meanings": "放置；投入；安放；表达；使处于",
+          "contexts": {
+            "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .": {
+              "translation": "使……处于（生效状态）",
+              "pos": "v."
+            }
+          }
+        },
+        "into": {
+          "lemma": "into",
+          "translation": "进入到",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "进入；进入到；处于某状态；变成；分成",
+          "contexts": {
+            "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .": {
+              "translation": "进入到",
+              "pos": "prep."
+            }
+          }
+        },
+        "effect": {
+          "lemma": "effect",
+          "translation": "生效",
+          "pos": "n.",
+          "forms": "effects",
+          "meanings": "影响；效果；结果；效力；生效",
+          "contexts": {
+            "Lighting regulations in Flagstaff, Arizona are put into effect to   _  .": {
+              "translation": "生效",
+              "pos": "n."
+            }
+          }
+        },
+        "lessen": {
+          "lemma": "lessen",
+          "translation": "减少；降低",
+          "pos": "v.",
+          "forms": "lessens, lessened, lessening",
+          "meanings": "减少；降低；减弱；缩小",
+          "contexts": {
+            "lessen the chance of getting cancer": {
+              "translation": "减少；降低",
+              "pos": "v."
+            }
+          }
+        },
+        "chance": {
+          "lemma": "chance",
+          "translation": "可能性",
+          "pos": "n.",
+          "forms": "chances",
+          "meanings": "机会；可能性；偶然；际遇；概率",
+          "contexts": {
+            "lessen the chance of getting cancer": {
+              "translation": "可能性",
+              "pos": "n."
+            }
+          }
+        },
+        "create": {
+          "lemma": "create",
+          "translation": "创造；创建",
+          "pos": "v.",
+          "forms": "creates, created, creating",
+          "meanings": "创作；创造；引起；造成；创建",
+          "contexts": {
+            "create an ideal observation condition": {
+              "translation": "创造；创建",
+              "pos": "v."
+            }
+          }
+        },
+        "ideal": {
+          "lemma": "ideal",
+          "translation": "理想的；完美的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "理想的；完美的；理想；理想人物；理想状态",
+          "contexts": {
+            "create an ideal observation condition": {
+              "translation": "理想的；完美的",
+              "pos": "adj."
+            }
+          }
+        },
+        "condition": {
+          "lemma": "condition",
+          "translation": "条件",
+          "pos": "n.",
+          "forms": "conditions",
+          "meanings": "社会状况；条件；环境；身体健康状况",
+          "contexts": {
+            "create an ideal observation condition": {
+              "translation": "条件；环境",
+              "pos": "n."
+            }
+          }
+        },
+        "ensure": {
+          "lemma": "ensure",
+          "translation": "确保",
+          "pos": "v.",
+          "forms": "ensures, ensured, ensuring",
+          "meanings": "确保；保证；担保；使……获得",
+          "contexts": {
+            "ensure citizens a good sleep at night": {
+              "translation": "确保",
+              "pos": "v."
+            }
+          }
+        },
+        "citizens": {
+          "lemma": "citizen",
+          "translation": "公民",
+          "pos": "n.",
+          "forms": "citizens",
+          "meanings": "公民；市民；居民；国民",
+          "contexts": {
+            "ensure citizens a good sleep at night": {
+              "translation": "公民",
+              "pos": "n."
+            }
+          }
+        },
+        "good": {
+          "lemma": "good",
+          "translation": "好",
+          "pos": "adj.",
+          "forms": "better, best",
+          "meanings": "好；愉快的；优良的；有效的",
+          "contexts": {
+            "ensure citizens a good sleep at night": {
+              "translation": "充分的",
+              "pos": "adj."
+            }
+          }
+        },
+        "sleep": {
+          "lemma": "sleep",
+          "translation": "睡眠",
+          "pos": "n.",
+          "forms": "sleeps, slept, sleeping",
+          "meanings": "睡觉；睡眠；卧；休眠",
+          "contexts": {
+            "ensure citizens a good sleep at night": {
+              "translation": "睡眠",
+              "pos": "n."
+            }
+          }
+        },
+        "enable": {
+          "lemma": "enable",
+          "translation": "使能够",
+          "pos": "v.",
+          "forms": "enables, enabled, enabling",
+          "meanings": "使能够；使成为可能；给予……权利",
+          "contexts": {
+            "enable all creatures to live in harmony": {
+              "translation": "使能够",
+              "pos": "v."
+            }
+          }
+        },
+        "all": {
+          "lemma": "all",
+          "translation": "所有",
+          "pos": "det.",
+          "forms": "无常见变形",
+          "meanings": "全部；所有；总共；整个",
+          "contexts": {
+            "enable all creatures to live in harmony": {
+              "translation": "所有",
+              "pos": "det."
+            }
+          }
+        },
+        "live": {
+          "lemma": "live",
+          "translation": "生活",
+          "pos": "v.",
+          "forms": "lives, lived, living",
+          "meanings": "居住；生存；生活；现场的",
+          "contexts": {
+            "enable all creatures to live in harmony": {
+              "translation": "生活",
+              "pos": "v."
+            }
+          }
+        },
+        "harmony": {
+          "lemma": "harmony",
+          "translation": "和谐",
+          "pos": "n.",
+          "forms": "harmonies",
+          "meanings": "和谐；协调；融洽；一致",
+          "contexts": {
+            "enable all creatures to live in harmony": {
+              "translation": "和谐",
+              "pos": "n."
+            }
+          }
+        },
+        "message": {
+          "lemma": "message",
+          "translation": "信息",
+          "pos": "n.",
+          "forms": "messages",
+          "meanings": "信息；消息；信件；要旨",
+          "contexts": {
+            "What message does the author most want to give us?": {
+              "translation": "信息",
+              "pos": "n."
+            }
+          }
+        },
+        "does": {
+          "lemma": "do",
+          "translation": "（助动词，用于构成疑问句）",
+          "pos": "aux.v.",
+          "forms": "do, does, did, doing, done",
+          "meanings": "做；进行；行动；表现",
+          "contexts": {
+            "What message does the author most want to give us?": {
+              "translation": "（助动词，用于构成疑问句）",
+              "pos": "aux.v."
+            }
+          }
+        },
+        "author": {
+          "lemma": "author",
+          "translation": "作者",
+          "pos": "n.",
+          "forms": "authors",
+          "meanings": "作者；创始人；发起人",
+          "contexts": {
+            "What message does the author most want to give us?": {
+              "translation": "作者",
+              "pos": "n."
+            }
+          }
+        },
+        "most": {
+          "lemma": "most",
+          "translation": "最",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大多数；最；极度；绝大部分",
+          "contexts": {
+            "What message does the author most want to give us?": {
+              "translation": "最",
+              "pos": "adv."
+            }
+          }
+        },
+        "want": {
+          "lemma": "want",
+          "translation": "想要",
+          "pos": "v.",
+          "forms": "wanted, wanting, wants",
+          "meanings": "想要；希望；需要；缺乏",
+          "contexts": {
+            "What message does the author most want to give us?": {
+              "translation": "想要",
+              "pos": "v."
+            }
+          }
+        },
+        "give": {
+          "lemma": "give",
+          "translation": "传达",
+          "pos": "v.",
+          "forms": "gave, given, giving",
+          "meanings": "给予；放弃；提供；传达",
+          "contexts": {
+            "What message does the author most want to give us?": {
+              "translation": "传达",
+              "pos": "v."
+            }
+          }
+        },
+        "saving": {
+          "lemma": "save",
+          "translation": "拯救",
+          "pos": "v.",
+          "forms": "saves, saved, saving",
+          "meanings": "节省；挽救；保存；储蓄",
+          "contexts": {
+            "Saving wildlife is saving ourselves.": {
+              "translation": "拯救",
+              "pos": "v."
+            }
+          }
+        },
+        "wildlife": {
+          "lemma": "wildlife",
+          "translation": "野生动物",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "野生动物；野生生物",
+          "contexts": {
+            "Saving wildlife is saving ourselves.": {
+              "translation": "野生动物",
+              "pos": "n."
+            }
+          }
+        },
+        "ourselves": {
+          "lemma": "ourselves",
+          "translation": "我们自己",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "我们自己；我们亲自",
+          "contexts": {
+            "Saving wildlife is saving ourselves.": {
+              "translation": "我们自己",
+              "pos": "pron."
+            }
+          }
+        },
+        "great": {
+          "lemma": "great",
+          "translation": "巨大的",
+          "pos": "adj.",
+          "forms": "greater, greatest",
+          "meanings": "巨大的；极好的；伟大的；非常",
+          "contexts": {
+            "Great efforts should be made to save energy.": {
+              "translation": "巨大的",
+              "pos": "adj."
+            }
+          }
+        },
+        "should": {
+          "lemma": "should",
+          "translation": "应该",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "应该；会；可能；将要",
+          "contexts": {
+            "Great efforts should be made to save energy.": {
+              "translation": "应该",
+              "pos": "modal v."
+            },
+            "Human activities should be environmentally friendly.": {
+              "translation": "应该",
+              "pos": "modal v."
+            },
+            "New equipment should be introduced for space study..": {
+              "translation": "应该",
+              "pos": "modal v."
+            }
+          }
+        },
+        "save": {
+          "lemma": "save",
+          "translation": "节省",
+          "pos": "v.",
+          "forms": "saves, saved, saving",
+          "meanings": "节省；存钱；拯救；保存",
+          "contexts": {
+            "Great efforts should be made to save energy.": {
+              "translation": "节省",
+              "pos": "v."
+            }
+          }
+        },
+        "energy": {
+          "lemma": "energy",
+          "translation": "能源",
+          "pos": "n.",
+          "forms": "energetic (adj.)",
+          "meanings": "活力；精力；能量；能源；动能",
+          "contexts": {
+            "Great efforts should be made to save energy.": {
+              "translation": "能源",
+              "pos": "n."
+            }
+          }
+        },
+        "human": {
+          "lemma": "human",
+          "translation": "人类的",
+          "pos": "adj.",
+          "forms": "humans (n.)",
+          "meanings": "人类的；人的；有人性的",
+          "contexts": {
+            "Human activities should be environmentally friendly.": {
+              "translation": "人类的",
+              "pos": "adj."
+            }
+          }
+        },
+        "activities": {
+          "lemma": "activity",
+          "translation": "活动",
+          "pos": "n.",
+          "forms": "activity, active (adj.), actively (adv.)",
+          "meanings": "活动；活跃；行动；消遣",
+          "contexts": {
+            "Human activities should be environmentally friendly.": {
+              "translation": "活动",
+              "pos": "n."
+            }
+          }
+        },
+        "environmentally": {
+          "lemma": "environmental",
+          "translation": "环保地",
+          "pos": "adv.",
+          "forms": "environment (n.), environmental (adj.), environmentalist (n.)",
+          "meanings": "环保地；从环境角度；生态地",
+          "contexts": {
+            "Human activities should be environmentally friendly.": {
+              "translation": "环保地",
+              "pos": "adv."
+            }
+          }
+        },
+        "friendly": {
+          "lemma": "friendly",
+          "translation": "友好的",
+          "pos": "adj.",
+          "forms": "friendlier, friendliest",
+          "meanings": "友好的；易于使用的；乐于助人的",
+          "contexts": {
+            "Human activities should be environmentally friendly.": {
+              "translation": "友好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "new": {
+          "lemma": "new",
+          "translation": "新的",
+          "pos": "adj.",
+          "forms": "newer, newest",
+          "meanings": "新的；刚出现的；新鲜的；新式的",
+          "contexts": {
+            "New equipment should be introduced for space study..": {
+              "translation": "新的",
+              "pos": "adj."
+            }
+          }
+        },
+        "introduced": {
+          "lemma": "introduce",
+          "translation": "引入",
+          "pos": "v.",
+          "forms": "introduces, introducing, introduction (n.), introductory (adj.)",
+          "meanings": "引入；介绍；采用；引见",
+          "contexts": {
+            "New equipment should be introduced for space study..": {
+              "translation": "引入",
+              "pos": "v."
+            }
+          }
+        },
+        "space": {
+          "lemma": "space",
+          "translation": "太空",
+          "pos": "n.",
+          "forms": "spaces, spacious (adj.), spacecraft (n.)",
+          "meanings": "空间；太空；地方；距离",
+          "contexts": {
+            "New equipment should be introduced for space study..": {
+              "translation": "太空",
               "pos": "n."
             }
           }
