@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:57:41.141Z",
+  "generatedAt": "2026-08-22T12:58:07.093Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -62680,6 +62680,14 @@
             "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
               "translation": "（用于特指）",
               "pos": "art."
+            },
+            "What can we know from the passage about the writer?": {
+              "translation": "（用于特指）",
+              "pos": "art."
+            },
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "（用于特指）",
+              "pos": "art."
             }
           }
         },
@@ -63170,6 +63178,10 @@
             "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
               "translation": "是",
               "pos": "v."
+            },
+            "She lost her husband, who was as old as she.": {
+              "translation": "是",
+              "pos": "v."
             }
           }
         },
@@ -63201,50 +63213,58 @@
         },
         "to": {
           "lemma": "to",
-          "translation": "构成不定式",
+          "translation": "向；给；到",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "向；给；到；构成不定式；对于",
           "contexts": {
             "This was not supposed to happen.": {
               "translation": "构成不定式",
-              "pos": "particle"
+              "pos": "prep."
             },
             "We were going to raise our children, travel the world, and grow old together.": {
               "translation": "构成不定式",
-              "pos": "particle"
+              "pos": "prep."
             },
             "The faces of so many people confuse me as they come to pay their last respects.": {
-              "translation": "去（某处/做某事）",
+              "translation": "构成不定式",
               "pos": "prep."
             },
             "The others seem to just say, \"I told you so.": {
               "translation": "构成不定式",
-              "pos": "particle"
+              "pos": "prep."
             },
             "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
-              "translation": "为了",
+              "translation": "构成不定式",
               "pos": "prep."
             },
             "I want to scream and wake up but I can't do anything but sit there.": {
               "translation": "构成不定式",
-              "pos": "particle"
+              "pos": "prep."
             },
             "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
-              "translation": "对于",
+              "translation": "构成不定式",
               "pos": "prep."
             },
             "I remember our first child was a big surprise to both of us.": {
-              "translation": "对……而言",
+              "translation": "给",
               "pos": "prep."
             },
             "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
-              "translation": "作为",
+              "translation": "构成不定式",
               "pos": "prep."
             },
             "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
               "translation": "构成不定式",
-              "pos": "particle"
+              "pos": "prep."
+            },
+            "She is going to give birth to their second child.": {
+              "translation": "构成不定式",
+              "pos": "prep."
+            },
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "构成不定式",
+              "pos": "prep."
             }
           }
         },
@@ -63279,6 +63299,10 @@
             "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
               "translation": "……的事物",
               "pos": "pron."
+            },
+            "What can we know from the passage about the writer?": {
+              "translation": "什么",
+              "pos": "pron."
             }
           }
         },
@@ -63290,6 +63314,10 @@
           "meanings": "关于；大约；在……周围；忙于",
           "contexts": {
             "What about our dreams, or our plans?": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "What can we know from the passage about the writer?": {
               "translation": "关于",
               "pos": "prep."
             }
@@ -63381,6 +63409,10 @@
             "We were going to raise our children, travel the world, and grow old together.": {
               "translation": "我们",
               "pos": "pron."
+            },
+            "What can we know from the passage about the writer?": {
+              "translation": "我们",
+              "pos": "pron."
             }
           }
         },
@@ -63405,7 +63437,11 @@
           "meanings": "打算；进行；走；去",
           "contexts": {
             "We were going to raise our children, travel the world, and grow old together.": {
-              "translation": "打算（be going to 结构）",
+              "translation": "打算",
+              "pos": "v."
+            },
+            "She is going to give birth to their second child.": {
+              "translation": "打算",
               "pos": "v."
             }
           }
@@ -63493,6 +63529,10 @@
             "We were going to raise our children, travel the world, and grow old together.": {
               "translation": "年老的",
               "pos": "adj."
+            },
+            "She lost her husband, who was as old as she.": {
+              "translation": "年老的",
+              "pos": "adj."
             }
           }
         },
@@ -63563,7 +63603,7 @@
               "pos": "art."
             },
             "He was retired from the Navy and a gentleman.": {
-              "translation": "一位",
+              "translation": "一个",
               "pos": "art."
             },
             "I remember our first child was a big surprise to both of us.": {
@@ -63579,6 +63619,10 @@
               "pos": "art."
             },
             "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "She married a man much older than she.": {
               "translation": "一个",
               "pos": "art."
             }
@@ -63633,6 +63677,10 @@
             "I don't know if I can do all this alone--two children, no father.": {
               "translation": "知道",
               "pos": "v."
+            },
+            "What can we know from the passage about the writer?": {
+              "translation": "了解",
+              "pos": "v."
             }
           }
         },
@@ -63661,11 +63709,11 @@
               "pos": "modal verb"
             },
             "Some have real sorrow; I can see it in their eyes.": {
-              "translation": "能够",
+              "translation": "能",
               "pos": "modal verb"
             },
             "How I can't stand them.": {
-              "translation": "能够",
+              "translation": "能",
               "pos": "modal verb"
             },
             "I want to scream and wake up but I can't do anything but sit there.": {
@@ -63673,7 +63721,15 @@
               "pos": "modal verb"
             },
             "How can they be so blind?": {
-              "translation": "能够",
+              "translation": "怎样能",
+              "pos": "modal verb"
+            },
+            "What can we know from the passage about the writer?": {
+              "translation": "能",
+              "pos": "modal verb"
+            },
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "能",
               "pos": "modal verb"
             }
           }
@@ -63764,6 +63820,10 @@
             "I don't know if I can do all this alone--two children, no father.": {
               "translation": "父亲",
               "pos": "n."
+            },
+            "She lost her father, whom she loved deeply.": {
+              "translation": "父亲",
+              "pos": "n."
             }
           }
         },
@@ -63809,19 +63869,23 @@
           "meanings": "……的；关于；属于；由……组成；（表示数量或部分）",
           "contexts": {
             "The faces of so many people confuse me as they come to pay their last respects.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "He was sensitive to others' needs, the kind of man that knew what to do or say, how to humor any situation and calm everyone's fears.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "I remember our first child was a big surprise to both of us.": {
-              "translation": "……的",
+              "translation": "的",
+              "pos": "prep."
+            },
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "的",
               "pos": "prep."
             }
           }
@@ -63910,12 +63974,16 @@
               "pos": "conj."
             },
             "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
-              "translation": "当……时",
-              "pos": "conj."
+              "translation": "作为",
+              "pos": "prep."
             },
             "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
               "translation": "作为",
               "pos": "prep."
+            },
+            "She lost her husband, who was as old as she.": {
+              "translation": "像……一样",
+              "pos": "conj."
             }
           }
         },
@@ -63974,6 +64042,10 @@
               "pos": "pron."
             },
             "Some have real sorrow; I can see it in their eyes.": {
+              "translation": "他们的",
+              "pos": "pron."
+            },
+            "She is going to give birth to their second child.": {
               "translation": "他们的",
               "pos": "pron."
             }
@@ -64256,17 +64328,21 @@
         "can't": {
           "lemma": "can",
           "translation": "不能",
-          "pos": "v. modal",
+          "pos": "modal verb",
           "forms": "cannot",
           "meanings": "不能；不可以；无法；不可能",
           "contexts": {
             "How I can't stand them.": {
               "translation": "不能",
-              "pos": "v. modal"
+              "pos": "modal verb"
             },
             "I want to scream and wake up but I can't do anything but sit there.": {
               "translation": "不能",
-              "pos": "v. modal"
+              "pos": "modal verb"
+            },
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "不能",
+              "pos": "modal verb"
             }
           }
         },
@@ -64382,7 +64458,11 @@
           "meanings": "为了；支持；因为；给；持续（一段时间）",
           "contexts": {
             "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.": {
-              "translation": "为了",
+              "translation": "为了让",
+              "pos": "prep."
+            },
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "对于",
               "pos": "prep."
             }
           }
@@ -64492,6 +64572,10 @@
             "How can they be so blind?": {
               "translation": "是",
               "pos": "v."
+            },
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "是",
+              "pos": "v."
             }
           }
         },
@@ -64583,6 +64667,14 @@
               "pos": "n."
             },
             "Flowers, the American flag and his VFW comrades surround him, paying tribute to him as the man he really was.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "She married a man much older than she.": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
               "translation": "男人",
               "pos": "n."
             }
@@ -64724,6 +64816,10 @@
           "meanings": "从；来自；因为；由于；起始",
           "contexts": {
             "He was retired from the Navy and a gentleman.": {
+              "translation": "从……退休",
+              "pos": "prep."
+            },
+            "What can we know from the passage about the writer?": {
               "translation": "从",
               "pos": "prep."
             }
@@ -64927,6 +65023,10 @@
           "meanings": "孩子；儿童；子女",
           "contexts": {
             "I remember our first child was a big surprise to both of us.": {
+              "translation": "孩子",
+              "pos": "n."
+            },
+            "She is going to give birth to their second child.": {
               "translation": "孩子",
               "pos": "n."
             }
@@ -65322,6 +65422,10 @@
             "A man, thirty years older than I, lies in a coffin.": {
               "translation": "年长的",
               "pos": "adj."
+            },
+            "She married a man much older than she.": {
+              "translation": "年长的",
+              "pos": "adj."
             }
           }
         },
@@ -65333,6 +65437,10 @@
           "meanings": "比；除……之外；与之相比；宁可",
           "contexts": {
             "A man, thirty years older than I, lies in a coffin.": {
+              "translation": "比",
+              "pos": "conj."
+            },
+            "She married a man much older than she.": {
               "translation": "比",
               "pos": "conj."
             }
@@ -65517,6 +65625,10 @@
             "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
               "translation": "是",
               "pos": "v."
+            },
+            "She is going to give birth to their second child.": {
+              "translation": "是",
+              "pos": "v."
             }
           }
         },
@@ -65569,6 +65681,10 @@
             "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
               "translation": "充满爱意的",
               "pos": "adj."
+            },
+            "Loving.": {
+              "translation": "充满爱意的",
+              "pos": "adj."
             }
           }
         },
@@ -65595,6 +65711,342 @@
             "And I sit alone here, with our two children, in silence, praying that this cold morning at church is only a nightmare and I will awake to his loving arms again.": {
               "translation": "再一次",
               "pos": "adv."
+            }
+          }
+        },
+        "passage": {
+          "lemma": "passage",
+          "translation": "文章",
+          "pos": "n.",
+          "forms": "passages",
+          "meanings": "文章；段落；通道；走廊；通行权",
+          "contexts": {
+            "What can we know from the passage about the writer?": {
+              "translation": "文章",
+              "pos": "n."
+            }
+          }
+        },
+        "writer": {
+          "lemma": "writer",
+          "translation": "作者",
+          "pos": "n.",
+          "forms": "writers",
+          "meanings": "作者；作家；撰稿人；书写者",
+          "contexts": {
+            "What can we know from the passage about the writer?": {
+              "translation": "作者",
+              "pos": "n."
+            },
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "作者",
+              "pos": "n."
+            }
+          }
+        },
+        "she": {
+          "lemma": "she",
+          "translation": "她",
+          "pos": "pron.",
+          "forms": "her, hers, herself",
+          "meanings": "她",
+          "contexts": {
+            "She married a man much older than she.": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "She is going to give birth to their second child.": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "She lost her husband, who was as old as she.": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "She lost her father, whom she loved deeply.": {
+              "translation": "她",
+              "pos": "pron."
+            }
+          }
+        },
+        "married": {
+          "lemma": "marry",
+          "translation": "与……结婚",
+          "pos": "v.",
+          "forms": "marries, married, marrying",
+          "meanings": "与……结婚；娶；嫁给；结合",
+          "contexts": {
+            "She married a man much older than she.": {
+              "translation": "与……结婚",
+              "pos": "v."
+            }
+          }
+        },
+        "much": {
+          "lemma": "much",
+          "translation": "很",
+          "pos": "adv.",
+          "forms": "more, most",
+          "meanings": "很；非常；多；大量",
+          "contexts": {
+            "She married a man much older than she.": {
+              "translation": "很",
+              "pos": "adv."
+            }
+          }
+        },
+        "give": {
+          "lemma": "give",
+          "translation": "生育",
+          "pos": "v.",
+          "forms": "gave, given, giving",
+          "meanings": "给予；放弃；提供；传达；生育",
+          "contexts": {
+            "She is going to give birth to their second child.": {
+              "translation": "生育",
+              "pos": "v."
+            }
+          }
+        },
+        "birth": {
+          "lemma": "birth",
+          "translation": "分娩",
+          "pos": "n.",
+          "forms": "births",
+          "meanings": "出生；分娩；血统；起源；出身",
+          "contexts": {
+            "She is going to give birth to their second child.": {
+              "translation": "分娩",
+              "pos": "n."
+            }
+          }
+        },
+        "second": {
+          "lemma": "second",
+          "translation": "第二",
+          "pos": "adj.",
+          "forms": "seconds",
+          "meanings": "第二；秒；瞬间；第二名",
+          "contexts": {
+            "She is going to give birth to their second child.": {
+              "translation": "第二",
+              "pos": "adj."
+            }
+          }
+        },
+        "lost": {
+          "lemma": "lose",
+          "translation": "失去",
+          "pos": "v.",
+          "forms": "lost, losing, loses",
+          "meanings": "失去；丢失；输掉；迷失；损失",
+          "contexts": {
+            "She lost her husband, who was as old as she.": {
+              "translation": "失去",
+              "pos": "v."
+            },
+            "She lost her father, whom she loved deeply.": {
+              "translation": "失去",
+              "pos": "v."
+            }
+          }
+        },
+        "her": {
+          "lemma": "she",
+          "translation": "她的",
+          "pos": "pron.",
+          "forms": "hers, herself",
+          "meanings": "她的；她（宾格）",
+          "contexts": {
+            "She lost her husband, who was as old as she.": {
+              "translation": "她的",
+              "pos": "pron."
+            },
+            "She lost her father, whom she loved deeply.": {
+              "translation": "她的",
+              "pos": "pron."
+            }
+          }
+        },
+        "husband": {
+          "lemma": "husband",
+          "translation": "丈夫",
+          "pos": "n.",
+          "forms": "husbands",
+          "meanings": "丈夫",
+          "contexts": {
+            "She lost her husband, who was as old as she.": {
+              "translation": "丈夫",
+              "pos": "n."
+            }
+          }
+        },
+        "who": {
+          "lemma": "who",
+          "translation": "……的人",
+          "pos": "pron.",
+          "forms": "whom, whose",
+          "meanings": "谁；……的人；（引导定语从句）",
+          "contexts": {
+            "She lost her husband, who was as old as she.": {
+              "translation": "……的人",
+              "pos": "pron."
+            }
+          }
+        },
+        "whom": {
+          "lemma": "who",
+          "translation": "谁（宾格）",
+          "pos": "pron.",
+          "forms": "who, whose, whom",
+          "meanings": "谁（宾格）；与之相对的人；……的人",
+          "contexts": {
+            "She lost her father, whom she loved deeply.": {
+              "translation": "谁（宾格）",
+              "pos": "pron."
+            }
+          }
+        },
+        "loved": {
+          "lemma": "love",
+          "translation": "热爱",
+          "pos": "v.",
+          "forms": "loves, loved, loving",
+          "meanings": "爱；热爱；喜欢；钟情于",
+          "contexts": {
+            "She lost her father, whom she loved deeply.": {
+              "translation": "热爱",
+              "pos": "v."
+            }
+          }
+        },
+        "deeply": {
+          "lemma": "deeply",
+          "translation": "深深地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "深刻地；深深地；极度；程度深地；彻底地",
+          "contexts": {
+            "She lost her father, whom she loved deeply.": {
+              "translation": "深深地",
+              "pos": "adv."
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "哪一个",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
+          "contexts": {
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "哪一个",
+              "pos": "pron."
+            }
+          }
+        },
+        "following": {
+          "lemma": "follow",
+          "translation": "接下来的",
+          "pos": "adj.",
+          "forms": "followed, following",
+          "meanings": "接下来的；跟随；遵循；接着；听懂",
+          "contexts": {
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "接下来的",
+              "pos": "adj."
+            }
+          }
+        },
+        "used": {
+          "lemma": "use",
+          "translation": "被使用",
+          "pos": "v.",
+          "forms": "using, used, uses",
+          "meanings": "使用；被使用；利用；习惯于；曾（过去常做某事）",
+          "contexts": {
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "被使用",
+              "pos": "v."
+            }
+          }
+        },
+        "describe": {
+          "lemma": "describe",
+          "translation": "描述",
+          "pos": "v.",
+          "forms": "describes, described, describing",
+          "meanings": "描述；形容；说明；描绘",
+          "contexts": {
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "形容",
+              "pos": "v."
+            }
+          }
+        },
+        "writer's": {
+          "lemma": "writer",
+          "translation": "作者的",
+          "pos": "n.",
+          "forms": "writers, writer's, writers'",
+          "meanings": "作者；写手；作家",
+          "contexts": {
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "作者的",
+              "pos": "n."
+            }
+          }
+        },
+        "feelings": {
+          "lemma": "feeling",
+          "translation": "感受",
+          "pos": "n.",
+          "forms": "feeling, feelings",
+          "meanings": "感受；感觉；情感；触觉；感情",
+          "contexts": {
+            "Which of the following can't be used to describe the writer's feelings for the man?": {
+              "translation": "感受",
+              "pos": "n."
+            }
+          }
+        },
+        "sad": {
+          "lemma": "sad",
+          "translation": "悲伤的",
+          "pos": "adj.",
+          "forms": "sadder, saddest",
+          "meanings": "悲伤的；难过的；令人遗憾的；阴郁的",
+          "contexts": {
+            "Sad.": {
+              "translation": "悲伤的",
+              "pos": "adj."
+            }
+          }
+        },
+        "inseparable": {
+          "lemma": "inseparable",
+          "translation": "不可分离的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "不可分离的；不能分开的；形影不离的",
+          "contexts": {
+            "Inseparable": {
+              "translation": "不可分离的",
+              "pos": "adj."
+            }
+          }
+        },
+        "complaining": {
+          "lemma": "complain",
+          "translation": "抱怨",
+          "pos": "v.",
+          "forms": "complains, complained, complaining",
+          "meanings": "抱怨；投诉；发牢骚；诉说（痛苦等）",
+          "contexts": {
+            "Complaining.": {
+              "translation": "抱怨",
+              "pos": "v."
             }
           }
         }
