@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T12:53:31.557Z",
+      "generatedAt": "2026-08-22T12:54:07.547Z",
       "requestedArticles": 40,
-      "acceptedArticles": 12,
+      "acceptedArticles": 13,
       "completed": false,
       "usage": {
-        "requests": 90,
-        "inputTokens": 185224,
-        "outputTokens": 109276,
-        "totalTokens": 294500,
+        "requests": 97,
+        "inputTokens": 200387,
+        "outputTokens": 117942,
+        "totalTokens": 318329,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.02048491,
+        "estimatedCostCny": 0.02212272,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 90,
-            "inputTokens": 185224,
-            "outputTokens": 109276,
-            "totalTokens": 294500,
+            "requests": 97,
+            "inputTokens": 200387,
+            "outputTokens": 117942,
+            "totalTokens": 318329,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.02048491
+            "estimatedCostCny": 0.02212272
           }
         }
       },
@@ -2230,6 +2230,25 @@
               "totalTokens": 29867,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00210456
+            }
+          }
+        },
+        {
+          "articleId": "web-f328bfb9843d2dfa",
+          "title": "RACE 高中英语阅读 high4092",
+          "requests": 7,
+          "inputTokens": 15163,
+          "outputTokens": 8666,
+          "totalTokens": 23829,
+          "estimatedCostCny": 0.0016378,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 7,
+              "inputTokens": 15163,
+              "outputTokens": 8666,
+              "totalTokens": 23829,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.0016378
             }
           }
         }

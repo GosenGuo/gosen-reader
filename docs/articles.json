@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:53:31.557Z",
+  "generatedAt": "2026-08-22T12:54:07.547Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -43156,11 +43156,15 @@
           "meanings": "当……时；在……时候；既然；考虑到",
           "contexts": {
             "When I was a baby, I entertained you and made you laugh.": {
-              "translation": "当我还是个婴儿时",
+              "translation": "当……时",
               "pos": "conj."
             },
             "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
-              "translation": "在……的时候",
+              "translation": "在……时候",
+              "pos": "conj."
+            },
+            "Which is true about the dog when it lived at the pound?": {
+              "translation": "当……时",
               "pos": "conj."
             }
           }
@@ -43276,6 +43280,14 @@
             "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
               "translation": "是",
               "pos": "v."
+            },
+            "He was moving into a new building.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "It was excited about the pound.": {
+              "translation": "是",
+              "pos": "v."
             }
           }
         },
@@ -43325,6 +43337,30 @@
             "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
               "translation": "一个",
               "pos": "art."
+            },
+            "A dog.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "A child.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "A dog's owner.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "A dog trainer.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "He had a newborn baby.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "He was moving into a new building.": {
+              "translation": "一个",
+              "pos": "art."
             }
           }
         },
@@ -43336,6 +43372,10 @@
           "meanings": "婴儿；幼崽；乖乖（昵称）",
           "contexts": {
             "When I was a baby, I entertained you and made you laugh.": {
+              "translation": "婴儿",
+              "pos": "n."
+            },
+            "He had a newborn baby.": {
               "translation": "婴儿",
               "pos": "n."
             }
@@ -43422,7 +43462,11 @@
               "pos": "pron."
             },
             "I hope you receive more faithfulness from your family than you showed to me.": {
-              "translation": "你",
+              "translation": "你们",
+              "pos": "pron."
+            },
+            "Be faithful to those who love you": {
+              "translation": "你们",
               "pos": "pron."
             }
           }
@@ -43620,6 +43664,10 @@
             "I hope you receive more faithfulness from your family than you showed to me.": {
               "translation": "你的",
               "pos": "pron."
+            },
+            "Never complain about your life.": {
+              "translation": "你的",
+              "pos": "pron."
             }
           }
         },
@@ -43638,13 +43686,13 @@
         },
         "at": {
           "lemma": "at",
-          "translation": "对（某人）",
+          "translation": "在",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）；向；针对",
           "contexts": {
             "Whenever I was \"bad\", you'd shake your finger at me and ask, \"How could you?": {
-              "translation": "针对",
+              "translation": "向",
               "pos": "prep."
             },
             "I took long naps in the sun waiting for you to come home at the end of the day.": {
@@ -43660,7 +43708,11 @@
               "pos": "prep."
             },
             "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
-              "translation": "在……时",
+              "translation": "在",
+              "pos": "prep."
+            },
+            "Which is true about the dog when it lived at the pound?": {
+              "translation": "在",
               "pos": "prep."
             }
           }
@@ -43855,11 +43907,11 @@
           "meanings": "为了；支持；因为；给；对于",
           "contexts": {
             "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
-              "translation": "用于目的，为了（获得）",
+              "translation": "为了",
               "pos": "prep."
             },
             "We went for long walks, runs in the park and car rides.": {
-              "translation": "进行（某项活动）",
+              "translation": "为了",
               "pos": "prep."
             },
             "We stopped for ice cream.": {
@@ -43867,11 +43919,11 @@
               "pos": "prep."
             },
             "I took long naps in the sun waiting for you to come home at the end of the day.": {
-              "translation": "等待（某人）",
+              "translation": "为了",
               "pos": "prep."
             },
             "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
-              "translation": "寻找（某人/某物）",
+              "translation": "用于",
               "pos": "prep."
             },
             "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
@@ -43879,11 +43931,15 @@
               "pos": "prep."
             },
             "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
-              "translation": "给……找到（住所）",
+              "translation": "为了",
               "pos": "prep."
             },
             "My beloved master, I will think of you and wait for you forever.": {
-              "translation": "等待（某人）",
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "Be ready for changes.": {
+              "translation": "为了",
               "pos": "prep."
             }
           }
@@ -43966,6 +44022,10 @@
             "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
               "translation": "生活",
               "pos": "n."
+            },
+            "Never complain about your life.": {
+              "translation": "生活",
+              "pos": "n."
             }
           }
         },
@@ -43981,10 +44041,18 @@
               "pos": "adv."
             },
             "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
-              "translation": "不",
+              "translation": "不是",
               "pos": "adv."
             },
             "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "His wife did not like the dog.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "It did not trust humans any more.": {
               "translation": "不",
               "pos": "adv."
             }
@@ -44002,7 +44070,19 @@
               "pos": "v."
             },
             "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
-              "translation": "将要（表将来）",
+              "translation": "将要",
+              "pos": "v."
+            },
+            "It hoped to be adopted by another family": {
+              "translation": "被",
+              "pos": "v."
+            },
+            "Be ready for changes.": {
+              "translation": "做好准备",
+              "pos": "v."
+            },
+            "Be faithful to those who love you": {
+              "translation": "对……忠诚",
               "pos": "v."
             }
           }
@@ -44017,27 +44097,35 @@
             "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
               "translation": "任何",
               "pos": "det."
+            },
+            "It did not trust humans any more.": {
+              "translation": "再",
+              "pos": "adv."
             }
           }
         },
         "more": {
           "lemma": "more",
-          "translation": "更",
+          "translation": "更多",
           "pos": "adv.",
           "forms": "无常见变形",
           "meanings": "更多；较大程度；额外；再",
           "contexts": {
             "\"--but then you'd give up, and roll me over for a belly scratch and I believed that life could not be any more perfect.": {
-              "translation": "更",
+              "translation": "更加",
               "pos": "adv."
             },
             "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
-              "translation": "更多",
-              "pos": "adj."
+              "translation": "更多的",
+              "pos": "adv."
             },
             "I hope you receive more faithfulness from your family than you showed to me.": {
-              "translation": "更多",
-              "pos": "adj."
+              "translation": "更多的",
+              "pos": "adv."
+            },
+            "It did not trust humans any more.": {
+              "translation": "再",
+              "pos": "adv."
             }
           }
         },
@@ -44338,39 +44426,63 @@
           "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
           "contexts": {
             "We went for long walks, runs in the park and car rides.": {
-              "translation": "（特指公园）",
+              "translation": "那",
               "pos": "art."
             },
             "I took long naps in the sun waiting for you to come home at the end of the day.": {
-              "translation": "（特指阳光）",
+              "translation": "这",
               "pos": "art."
             },
             "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
-              "translation": "（特指人类婴儿）",
+              "translation": "这",
               "pos": "art."
             },
             "You've made the right decision for your \"family\", but there was a time when I was your only family.": {
-              "translation": "（特指决定）",
+              "translation": "那",
               "pos": "art."
             },
             "I was excited about the car ride until we arrived at the dog pound.": {
-              "translation": "（特指乘车）",
+              "translation": "那",
               "pos": "art."
             },
             "You filled out the paperwork and said, \"I know you will find a good home for her\".": {
-              "translation": "（特指文件）",
+              "translation": "这",
               "pos": "art."
             },
             "The children were in tears as they waved me goodbye.": {
-              "translation": "（特指孩子们）",
+              "translation": "那",
               "pos": "art."
             },
             "\" were the only three words that swept over my mind.": {
-              "translation": "（特指想法）",
+              "translation": "这些",
               "pos": "art."
             },
             "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
-              "translation": "（特指围栏）",
+              "translation": "这",
+              "pos": "art."
+            },
+            "Why did the dog's owner take his dog to the pound?": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "His wife did not like the dog.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "He thought the dog too troublesome.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "Which is true about the dog when it lived at the pound?": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "It was excited about the pound.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "What is the theme of the story?": {
+              "translation": "这",
               "pos": "art."
             }
           }
@@ -44511,37 +44623,53 @@
         },
         "to": {
           "lemma": "to",
-          "translation": "构成不定式",
+          "translation": "到",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "到；向；给；构成不定式",
           "contexts": {
             "I took long naps in the sun waiting for you to come home at the end of the day.": {
               "translation": "构成不定式",
-              "pos": "particle"
+              "pos": "part."
             },
             "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
               "translation": "构成不定式",
-              "pos": "particle"
+              "pos": "part."
             },
             "But nevertheless, as they began to grow, I became their friend.": {
               "translation": "构成不定式",
-              "pos": "particle"
+              "pos": "part."
             },
             "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
-              "translation": "构成不定式",
-              "pos": "particle"
+              "translation": "到",
+              "pos": "prep."
             },
             "Is it better to live with hope or without hope?": {
               "translation": "构成不定式",
-              "pos": "particle"
+              "pos": "part."
             },
             "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
-              "translation": "向",
-              "pos": "prep."
+              "translation": "构成不定式",
+              "pos": "part."
             },
             "I hope you receive more faithfulness from your family than you showed to me.": {
-              "translation": "对",
+              "translation": "给",
+              "pos": "prep."
+            },
+            "Why did the dog's owner take his dog to the pound?": {
+              "translation": "到",
+              "pos": "prep."
+            },
+            "It hoped to be adopted by another family": {
+              "translation": "构成不定式",
+              "pos": "part."
+            },
+            "It continued to love its former owner.": {
+              "translation": "构成不定式",
+              "pos": "part."
+            },
+            "Be faithful to those who love you": {
+              "translation": "给",
               "pos": "prep."
             }
           }
@@ -44601,15 +44729,19 @@
           "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
           "contexts": {
             "I took long naps in the sun waiting for you to come home at the end of the day.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "It smelled of dogs and cats, of fear, of hopelessness.": {
-              "translation": "（表示特征）",
+              "translation": "的",
               "pos": "prep."
             },
             "My beloved master, I will think of you and wait for you forever.": {
               "translation": "关于",
+              "pos": "prep."
+            },
+            "What is the theme of the story?": {
+              "translation": "的",
               "pos": "prep."
             }
           }
@@ -44771,14 +44903,22 @@
         },
         "love": {
           "lemma": "love",
-          "translation": "恋爱",
-          "pos": "n.",
+          "translation": "爱",
+          "pos": "v.",
           "forms": "loves, loved, loving",
           "meanings": "爱；恋爱；热爱；喜爱的东西",
           "contexts": {
             "Eventually, you fell in love.": {
-              "translation": "最终，你坠入了爱河。",
-              "pos": "n."
+              "translation": "爱上，恋爱",
+              "pos": "v."
+            },
+            "It continued to love its former owner.": {
+              "translation": "爱，热爱",
+              "pos": "v."
+            },
+            "Be faithful to those who love you": {
+              "translation": "爱",
+              "pos": "v."
             }
           }
         },
@@ -44824,7 +44964,11 @@
               "pos": "n."
             },
             "Your wife was afraid I would bite them.": {
-              "translation": "你的妻子担心我会咬他们。",
+              "translation": "妻子",
+              "pos": "n."
+            },
+            "His wife did not like the dog.": {
+              "translation": "妻子",
               "pos": "n."
             }
           }
@@ -44841,7 +44985,15 @@
               "pos": "v."
             },
             "Is it better to live with hope or without hope?": {
-              "translation": "（活着）是带着希望生活更好，还是没有希望生活更好？",
+              "translation": "是否",
+              "pos": "v."
+            },
+            "Which is true about the dog when it lived at the pound?": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "What is the theme of the story?": {
+              "translation": "是",
               "pos": "v."
             }
           }
@@ -44858,7 +45010,35 @@
               "pos": "n."
             },
             "I was excited about the car ride until we arrived at the dog pound.": {
-              "translation": "收容所",
+              "translation": "狗",
+              "pos": "n."
+            },
+            "A dog.": {
+              "translation": "狗",
+              "pos": "n."
+            },
+            "A dog's owner.": {
+              "translation": "狗的",
+              "pos": "n."
+            },
+            "A dog trainer.": {
+              "translation": "狗",
+              "pos": "n."
+            },
+            "Why did the dog's owner take his dog to the pound?": {
+              "translation": "狗",
+              "pos": "n."
+            },
+            "His wife did not like the dog.": {
+              "translation": "狗",
+              "pos": "n."
+            },
+            "He thought the dog too troublesome.": {
+              "translation": "狗",
+              "pos": "n."
+            },
+            "Which is true about the dog when it lived at the pound?": {
+              "translation": "狗",
               "pos": "n."
             }
           }
@@ -44927,6 +45107,10 @@
           "meanings": "进入；进入到；处于（某状态）；变成",
           "contexts": {
             "She, now your wife, is not a dog person, but I still welcomed her into our home.": {
+              "translation": "进入",
+              "pos": "prep."
+            },
+            "He was moving into a new building.": {
               "translation": "进入",
               "pos": "prep."
             }
@@ -45044,6 +45228,10 @@
           "meanings": "通过；被；凭借；在……旁边",
           "contexts": {
             "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
+              "translation": "被",
+              "pos": "prep."
+            },
+            "It hoped to be adopted by another family": {
               "translation": "被",
               "pos": "prep."
             }
@@ -45177,6 +45365,14 @@
           "contexts": {
             "Then the human babies came along and I shared your excitement, I was fascinated by their pinkness, how they smelled, and I wanted to mother them too.": {
               "translation": "也",
+              "pos": "adv."
+            },
+            "He thought the dog too troublesome.": {
+              "translation": "太",
+              "pos": "adv."
+            },
+            "Never expect too much.": {
+              "translation": "太",
               "pos": "adv."
             }
           }
@@ -45312,6 +45508,10 @@
             "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
               "translation": "新的",
               "pos": "adj."
+            },
+            "He was moving into a new building.": {
+              "translation": "新的",
+              "pos": "adj."
             }
           }
         },
@@ -45330,13 +45530,17 @@
         },
         "another": {
           "lemma": "another",
-          "translation": "另一",
+          "translation": "另一个",
           "pos": "det.",
           "forms": "无常见变形",
           "meanings": "另一；又一；另一个",
           "contexts": {
             "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
-              "translation": "另一",
+              "translation": "另一个",
+              "pos": "det."
+            },
+            "It hoped to be adopted by another family": {
+              "translation": "另一个",
               "pos": "det."
             }
           }
@@ -45384,6 +45588,10 @@
           "contexts": {
             "Now, you have a new job in another city and you and they will be moving to an apartment that does not allow pets.": {
               "translation": "搬家",
+              "pos": "v."
+            },
+            "He was moving into a new building.": {
+              "translation": "搬进",
               "pos": "v."
             }
           }
@@ -45506,6 +45714,10 @@
             "I hope you receive more faithfulness from your family than you showed to me.": {
               "translation": "家人",
               "pos": "n."
+            },
+            "It hoped to be adopted by another family": {
+              "translation": "家庭",
+              "pos": "n."
             }
           }
         },
@@ -45541,13 +45753,17 @@
         },
         "excited": {
           "lemma": "excite",
-          "translation": "激动的",
+          "translation": "兴奋的",
           "pos": "adj.",
           "forms": "exciting, excitement",
           "meanings": "激动的；兴奋的；活跃的",
           "contexts": {
             "I was excited about the car ride until we arrived at the dog pound.": {
-              "translation": "激动的",
+              "translation": "兴奋的",
+              "pos": "adj."
+            },
+            "It was excited about the pound.": {
+              "translation": "兴奋的",
               "pos": "adj."
             }
           }
@@ -45560,6 +45776,18 @@
           "meanings": "关于；大约；在……周围；忙于",
           "contexts": {
             "I was excited about the car ride until we arrived at the dog pound.": {
+              "translation": "对于",
+              "pos": "prep."
+            },
+            "Which is true about the dog when it lived at the pound?": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "It was excited about the pound.": {
+              "translation": "对于",
+              "pos": "prep."
+            },
+            "Never complain about your life.": {
               "translation": "关于",
               "pos": "prep."
             }
@@ -45606,13 +45834,25 @@
         },
         "pound": {
           "lemma": "pound",
-          "translation": "（流浪动物）收容所",
+          "translation": "收容所",
           "pos": "n.",
           "forms": "pounds",
           "meanings": "（流浪动物）收容所；英镑；磅；猛击",
           "contexts": {
             "I was excited about the car ride until we arrived at the dog pound.": {
-              "translation": "（流浪动物）收容所",
+              "translation": "收容所",
+              "pos": "n."
+            },
+            "Why did the dog's owner take his dog to the pound?": {
+              "translation": "收容所",
+              "pos": "n."
+            },
+            "Which is true about the dog when it lived at the pound?": {
+              "translation": "收容所",
+              "pos": "n."
+            },
+            "It was excited about the pound.": {
+              "translation": "收容所",
               "pos": "n."
             }
           }
@@ -45629,11 +45869,31 @@
               "pos": "pron."
             },
             "Is it better to live with hope or without hope?": {
-              "translation": "（形式主语）",
+              "translation": "它",
               "pos": "pron."
             },
             "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
-              "translation": "它（指代之前提到的某人或某物）",
+              "translation": "它",
+              "pos": "pron."
+            },
+            "Which is true about the dog when it lived at the pound?": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "It hoped to be adopted by another family": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "It continued to love its former owner.": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "It did not trust humans any more.": {
+              "translation": "它",
+              "pos": "pron."
+            },
+            "It was excited about the pound.": {
+              "translation": "它",
               "pos": "pron."
             }
           }
@@ -46124,6 +46384,10 @@
             "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
               "translation": "已经",
               "pos": "aux."
+            },
+            "He had a newborn baby.": {
+              "translation": "有",
+              "pos": "v."
             }
           }
         },
@@ -46148,7 +46412,11 @@
           "meanings": "这；这个；这种情况；此",
           "contexts": {
             "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.": {
-              "translation": "这（指代前文所述的情况）",
+              "translation": "这一切",
+              "pos": "pron."
+            },
+            "Who tells this story?": {
+              "translation": "这个",
               "pos": "pron."
             }
           }
@@ -46319,6 +46587,531 @@
             "Gradually, you began spending more time at work and on your career, and more time searching for a human mate.": {
               "translation": "花费（时间、精力等）",
               "pos": "v. (gerund)"
+            }
+          }
+        },
+        "who": {
+          "lemma": "who",
+          "translation": "谁",
+          "pos": "pron.",
+          "forms": "whom, whose",
+          "meanings": "谁；……的人；（引导定语从句）",
+          "contexts": {
+            "Who tells this story?": {
+              "translation": "谁",
+              "pos": "pron."
+            },
+            "Be faithful to those who love you": {
+              "translation": "……的人",
+              "pos": "pron."
+            }
+          }
+        },
+        "tells": {
+          "lemma": "tell",
+          "translation": "讲述",
+          "pos": "v.",
+          "forms": "tells, told, telling",
+          "meanings": "告诉；讲述；吩咐；辨别",
+          "contexts": {
+            "Who tells this story?": {
+              "translation": "讲述",
+              "pos": "v."
+            }
+          }
+        },
+        "story": {
+          "lemma": "story",
+          "translation": "故事",
+          "pos": "n.",
+          "forms": "stories",
+          "meanings": "故事；传说；报道；楼层",
+          "contexts": {
+            "Who tells this story?": {
+              "translation": "故事",
+              "pos": "n."
+            },
+            "What is the theme of the story?": {
+              "translation": "故事",
+              "pos": "n."
+            }
+          }
+        },
+        "child": {
+          "lemma": "child",
+          "translation": "孩子",
+          "pos": "n.",
+          "forms": "children",
+          "meanings": "孩子；儿童；子女",
+          "contexts": {
+            "A child.": {
+              "translation": "孩子",
+              "pos": "n."
+            }
+          }
+        },
+        "dog's": {
+          "lemma": "dog",
+          "translation": "狗的",
+          "pos": "n.",
+          "forms": "dogs, dog's",
+          "meanings": "狗；犬；卑鄙的人；家伙",
+          "contexts": {
+            "A dog's owner.": {
+              "translation": "狗的",
+              "pos": "n."
+            },
+            "Why did the dog's owner take his dog to the pound?": {
+              "translation": "狗的",
+              "pos": "n."
+            }
+          }
+        },
+        "owner": {
+          "lemma": "owner",
+          "translation": "主人",
+          "pos": "n.",
+          "forms": "owners",
+          "meanings": "主人；拥有者；物主；所有者；业主",
+          "contexts": {
+            "A dog's owner.": {
+              "translation": "主人",
+              "pos": "n."
+            },
+            "Why did the dog's owner take his dog to the pound?": {
+              "translation": "主人",
+              "pos": "n."
+            },
+            "It continued to love its former owner.": {
+              "translation": "主人",
+              "pos": "n."
+            }
+          }
+        },
+        "trainer": {
+          "lemma": "trainer",
+          "translation": "训练员",
+          "pos": "n.",
+          "forms": "trainers",
+          "meanings": "训练员；教练；运动鞋；驯兽师",
+          "contexts": {
+            "A dog trainer.": {
+              "translation": "训练员",
+              "pos": "n."
+            }
+          }
+        },
+        "why": {
+          "lemma": "why",
+          "translation": "为什么",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "为什么；……的原因；为何；什么原因",
+          "contexts": {
+            "Why did the dog's owner take his dog to the pound?": {
+              "translation": "为什么",
+              "pos": "adv."
+            }
+          }
+        },
+        "did": {
+          "lemma": "do",
+          "translation": "（助动词，无实义）",
+          "pos": "v.",
+          "forms": "does, did, done, doing",
+          "meanings": "做；进行；行动；强调谓语；（助动词）",
+          "contexts": {
+            "Why did the dog's owner take his dog to the pound?": {
+              "translation": "（助动词，无实义）",
+              "pos": "v."
+            },
+            "His wife did not like the dog.": {
+              "translation": "（助动词，无实义）",
+              "pos": "v."
+            },
+            "It did not trust humans any more.": {
+              "translation": "（助动词，无实义）",
+              "pos": "v."
+            }
+          }
+        },
+        "take": {
+          "lemma": "take",
+          "translation": "带走",
+          "pos": "v.",
+          "forms": "took, taken, taking, takes",
+          "meanings": "采取；拿；带走；花费；乘坐",
+          "contexts": {
+            "Why did the dog's owner take his dog to the pound?": {
+              "translation": "带走",
+              "pos": "v."
+            }
+          }
+        },
+        "his": {
+          "lemma": "he",
+          "translation": "他的",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他的；属于他的",
+          "contexts": {
+            "Why did the dog's owner take his dog to the pound?": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "His wife did not like the dog.": {
+              "translation": "他的",
+              "pos": "pron."
+            }
+          }
+        },
+        "he": {
+          "lemma": "he",
+          "translation": "他",
+          "pos": "pron.",
+          "forms": "him, his, himself",
+          "meanings": "他；某人；那个人；指代男性",
+          "contexts": {
+            "He had a newborn baby.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He was moving into a new building.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He thought the dog too troublesome.": {
+              "translation": "他",
+              "pos": "pron."
+            }
+          }
+        },
+        "newborn": {
+          "lemma": "newborn",
+          "translation": "新生的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "新生的；刚出生的；新生儿",
+          "contexts": {
+            "He had a newborn baby.": {
+              "translation": "新生的",
+              "pos": "adj."
+            }
+          }
+        },
+        "like": {
+          "lemma": "like",
+          "translation": "喜欢",
+          "pos": "v.",
+          "forms": "likes, liked, liking",
+          "meanings": "喜欢；喜爱；像；如同；例如",
+          "contexts": {
+            "His wife did not like the dog.": {
+              "translation": "喜欢",
+              "pos": "v."
+            }
+          }
+        },
+        "building": {
+          "lemma": "build",
+          "translation": "建筑物",
+          "pos": "n.",
+          "forms": "builds, built, building",
+          "meanings": "建筑物；建造；建立；开发",
+          "contexts": {
+            "He was moving into a new building.": {
+              "translation": "建筑物",
+              "pos": "n."
+            }
+          }
+        },
+        "thought": {
+          "lemma": "think",
+          "translation": "认为",
+          "pos": "v.",
+          "forms": "thought, thinking, thinks",
+          "meanings": "认为；想；思考；打算；思想",
+          "contexts": {
+            "He thought the dog too troublesome.": {
+              "translation": "认为",
+              "pos": "v."
+            }
+          }
+        },
+        "troublesome": {
+          "lemma": "troublesome",
+          "translation": "麻烦的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "麻烦的；烦人的；令人厌烦的；困扰的",
+          "contexts": {
+            "He thought the dog too troublesome.": {
+              "translation": "麻烦的",
+              "pos": "adj."
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "哪一个",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
+          "contexts": {
+            "Which is true about the dog when it lived at the pound?": {
+              "translation": "哪一个",
+              "pos": "pron."
+            }
+          }
+        },
+        "true": {
+          "lemma": "true",
+          "translation": "真实的",
+          "pos": "adj.",
+          "forms": "truer, truest",
+          "meanings": "真实的；正确的；忠实的；真正的",
+          "contexts": {
+            "Which is true about the dog when it lived at the pound?": {
+              "translation": "真实的",
+              "pos": "adj."
+            }
+          }
+        },
+        "lived": {
+          "lemma": "live",
+          "translation": "生活",
+          "pos": "v.",
+          "forms": "lives, living, lived",
+          "meanings": "居住；生存；生活；经历",
+          "contexts": {
+            "Which is true about the dog when it lived at the pound?": {
+              "translation": "生活",
+              "pos": "v."
+            }
+          }
+        },
+        "hoped": {
+          "lemma": "hope",
+          "translation": "希望",
+          "pos": "v.",
+          "forms": "hopes, hoping, hoped",
+          "meanings": "希望；期望；寄希望于",
+          "contexts": {
+            "It hoped to be adopted by another family": {
+              "translation": "希望",
+              "pos": "v."
+            }
+          }
+        },
+        "adopted": {
+          "lemma": "adopt",
+          "translation": "收养",
+          "pos": "v.",
+          "forms": "adopts, adopted, adopting",
+          "meanings": "采用；收养；采纳；领养",
+          "contexts": {
+            "It hoped to be adopted by another family": {
+              "translation": "收养",
+              "pos": "v."
+            }
+          }
+        },
+        "continued": {
+          "lemma": "continue",
+          "translation": "继续",
+          "pos": "v.",
+          "forms": "continues, continuing, continued",
+          "meanings": "继续；持续；保持；延续",
+          "contexts": {
+            "It continued to love its former owner.": {
+              "translation": "继续",
+              "pos": "v."
+            }
+          }
+        },
+        "its": {
+          "lemma": "it",
+          "translation": "它的",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "它的；属于它的",
+          "contexts": {
+            "It continued to love its former owner.": {
+              "translation": "它的",
+              "pos": "pron."
+            }
+          }
+        },
+        "former": {
+          "lemma": "former",
+          "translation": "前任的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "前任的；以前的；（两者中的）前者",
+          "contexts": {
+            "It continued to love its former owner.": {
+              "translation": "前任的",
+              "pos": "adj."
+            }
+          }
+        },
+        "trust": {
+          "lemma": "trust",
+          "translation": "信任",
+          "pos": "v.",
+          "forms": "trusts, trusted, trusting",
+          "meanings": "信任；信赖；相信；委托",
+          "contexts": {
+            "It did not trust humans any more.": {
+              "translation": "信任",
+              "pos": "v."
+            }
+          }
+        },
+        "humans": {
+          "lemma": "human",
+          "translation": "人类",
+          "pos": "n.",
+          "forms": "humans",
+          "meanings": "人类；人；人类的",
+          "contexts": {
+            "It did not trust humans any more.": {
+              "translation": "人类",
+              "pos": "n."
+            }
+          }
+        },
+        "what": {
+          "lemma": "what",
+          "translation": "什么",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "什么；……的事物；多么；究竟是什么",
+          "contexts": {
+            "What is the theme of the story?": {
+              "translation": "什么",
+              "pos": "pron."
+            }
+          }
+        },
+        "theme": {
+          "lemma": "theme",
+          "translation": "主题",
+          "pos": "n.",
+          "forms": "themes",
+          "meanings": "主题；题目；主旋律；论文",
+          "contexts": {
+            "What is the theme of the story?": {
+              "translation": "主题",
+              "pos": "n."
+            }
+          }
+        },
+        "ready": {
+          "lemma": "ready",
+          "translation": "准备好的",
+          "pos": "adj.",
+          "forms": "readier, readiest",
+          "meanings": "准备好的；现成的；乐意的；敏捷的；即将",
+          "contexts": {
+            "Be ready for changes.": {
+              "translation": "准备好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "changes": {
+          "lemma": "change",
+          "translation": "改变",
+          "pos": "v.",
+          "forms": "changed, changing, changes",
+          "meanings": "改变；变化；找零；更换",
+          "contexts": {
+            "Be ready for changes.": {
+              "translation": "变化",
+              "pos": "n."
+            }
+          }
+        },
+        "never": {
+          "lemma": "never",
+          "translation": "从不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "从不；绝不；决非",
+          "contexts": {
+            "Never expect too much.": {
+              "translation": "绝不",
+              "pos": "adv."
+            },
+            "Never complain about your life.": {
+              "translation": "永远不",
+              "pos": "adv."
+            }
+          }
+        },
+        "expect": {
+          "lemma": "expect",
+          "translation": "期望",
+          "pos": "v.",
+          "forms": "expects, expected, expecting",
+          "meanings": "期望；预期；指望；等待",
+          "contexts": {
+            "Never expect too much.": {
+              "translation": "期望",
+              "pos": "v."
+            }
+          }
+        },
+        "much": {
+          "lemma": "much",
+          "translation": "很",
+          "pos": "adv.",
+          "forms": "more, most",
+          "meanings": "很；非常；多；大量",
+          "contexts": {
+            "Never expect too much.": {
+              "translation": "太多",
+              "pos": "adv."
+            }
+          }
+        },
+        "complain": {
+          "lemma": "complain",
+          "translation": "抱怨",
+          "pos": "v.",
+          "forms": "complains, complained, complaining",
+          "meanings": "抱怨；诉苦；投诉；申述",
+          "contexts": {
+            "Never complain about your life.": {
+              "translation": "抱怨",
+              "pos": "v."
+            }
+          }
+        },
+        "faithful": {
+          "lemma": "faithful",
+          "translation": "忠诚的",
+          "pos": "adj.",
+          "forms": "more faithful, most faithful",
+          "meanings": "忠诚的；忠实的；可靠的；准确的",
+          "contexts": {
+            "Be faithful to those who love you": {
+              "translation": "忠诚的",
+              "pos": "adj."
+            }
+          }
+        },
+        "those": {
+          "lemma": "those",
+          "translation": "那些",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "那些；（特指）那部分人",
+          "contexts": {
+            "Be faithful to those who love you": {
+              "translation": "那些（人）",
+              "pos": "pron."
             }
           }
         }
