@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T13:02:22.333Z",
+      "generatedAt": "2026-08-22T13:03:26.516Z",
       "requestedArticles": 40,
-      "acceptedArticles": 24,
+      "acceptedArticles": 25,
       "completed": false,
       "usage": {
-        "requests": 186,
-        "inputTokens": 383633,
-        "outputTokens": 218211,
-        "totalTokens": 601844,
+        "requests": 200,
+        "inputTokens": 409755,
+        "outputTokens": 234269,
+        "totalTokens": 644024,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.04129126,
+        "estimatedCostCny": 0.0442708,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 186,
-            "inputTokens": 383633,
-            "outputTokens": 218211,
-            "totalTokens": 601844,
+            "requests": 200,
+            "inputTokens": 409755,
+            "outputTokens": 234269,
+            "totalTokens": 644024,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.04129126
+            "estimatedCostCny": 0.0442708
           }
         }
       },
@@ -2460,9 +2460,33 @@
               "estimatedCostCny": 0.00175837
             }
           }
+        },
+        {
+          "articleId": "web-f2b1ff9fd84cfda6",
+          "title": "RACE 高中英语阅读 high4141",
+          "requests": 5,
+          "inputTokens": 9640,
+          "outputTokens": 6795,
+          "totalTokens": 16435,
+          "estimatedCostCny": 0.00122122,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 5,
+              "inputTokens": 9640,
+              "outputTokens": 6795,
+              "totalTokens": 16435,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00122122
+            }
+          }
         }
       ],
-      "failures": []
+      "failures": [
+        {
+          "articleId": "web-489568c736b8b700",
+          "error": "glossary repair left 4 word(s): negative, supportive, doubtful, unclear"
+        }
+      ]
     }
   ]
 }
