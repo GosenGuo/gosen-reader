@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T13:05:22.139Z",
+  "generatedAt": "2026-08-22T13:06:13.338Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -102887,14 +102887,18 @@
         },
         "out": {
           "lemma": "out",
-          "translation": "离开（工作岗位）",
-          "pos": "adv.",
+          "translation": "失业的；没有工作",
+          "pos": "adj.",
           "forms": "无常见变形",
-          "meanings": "彻底地；向外；离开；（与动词连用表示完成）",
+          "meanings": "彻底地；向外；离开；（与动词连用表示完成）；失业的",
           "contexts": {
             "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer.": {
-              "translation": "离开（工作）",
-              "pos": "adv."
+              "translation": "失业的",
+              "pos": "adj."
+            },
+            "he wants to help the mimic who is out of work": {
+              "translation": "失业的",
+              "pos": "adj."
             }
           }
         },
@@ -102910,23 +102914,35 @@
               "pos": "prep."
             },
             "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.": {
-              "translation": "（嘲笑）……",
+              "translation": "对……进行嘲笑",
               "pos": "prep."
             },
             "However,eventually the crowds tire of him and he tires of just swinging on wires.": {
-              "translation": "对……（感到厌倦）",
+              "translation": "厌倦",
               "pos": "prep."
             },
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
-              "translation": "……的",
+              "translation": "从……的顶部",
               "pos": "prep."
             },
             "Of course,this makes the lion very angry,but the crowd loves it.": {
-              "translation": "……的",
+              "translation": "当然；显然",
               "pos": "prep."
             },
             "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.": {
+              "translation": "在……的结束时；照顾",
+              "pos": "prep."
+            },
+            "take care of the dying gorilla": {
+              "translation": "照顾",
+              "pos": "prep."
+            },
+            "he wants to help the mimic who is out of work": {
               "translation": "……的",
+              "pos": "prep."
+            },
+            "he wants to attract the attention of his audience": {
+              "translation": "吸引……的注意",
               "pos": "prep."
             }
           }
@@ -102941,18 +102957,22 @@
             "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer.": {
               "translation": "工作",
               "pos": "n."
+            },
+            "he wants to help the mimic who is out of work": {
+              "translation": "工作",
+              "pos": "n."
             }
           }
         },
         "mimic": {
           "lemma": "mimic",
-          "translation": "哑剧演员",
+          "translation": "模仿者；哑剧演员",
           "pos": "n.",
           "forms": "mimics, mimicked, mimicking",
-          "meanings": "模仿者；哑剧演员；模仿；装作",
+          "meanings": "模仿者；哑剧演员；模仿；装作；表演者",
           "contexts": {
             "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer.": {
-              "translation": "哑剧演员",
+              "translation": "哑剧演员；模仿表演者",
               "pos": "n."
             },
             "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.": {
@@ -102998,15 +103018,59 @@
             "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!": {
               "translation": "哑剧演员",
               "pos": "n."
+            },
+            "The mimic visits the zoo to  _  .": {
+              "translation": "哑剧演员",
+              "pos": "n."
+            },
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "哑剧演员",
+              "pos": "n."
+            },
+            "he likes the mimic's performance": {
+              "translation": "哑剧演员",
+              "pos": "n."
+            },
+            "he wants to help the mimic who is out of work": {
+              "translation": "哑剧演员",
+              "pos": "n."
+            },
+            "What does the mimic feel about the new job at first?": {
+              "translation": "哑剧演员",
+              "pos": "n."
+            },
+            "He likes it but he prefers to working as a mimic.": {
+              "translation": "哑剧演员",
+              "pos": "n."
+            },
+            "The mimic climbs to the lion's cage because  _  .": {
+              "translation": "哑剧演员",
+              "pos": "n."
+            },
+            "The mimic and his job": {
+              "translation": "哑剧演员",
+              "pos": "n."
+            },
+            "The mimic and his success": {
+              "translation": "哑剧演员",
+              "pos": "n."
+            },
+            "The actor and the mimic": {
+              "translation": "哑剧演员",
+              "pos": "n."
+            },
+            "The mimic and his animals": {
+              "translation": "哑剧演员",
+              "pos": "n."
             }
           }
         },
         "is": {
           "lemma": "be",
-          "translation": "正在（进行）",
+          "translation": "是",
           "pos": "v.",
           "forms": "am, are, was, were, being, been",
-          "meanings": "是；存在；等于；位于",
+          "meanings": "是；存在；等于；位于；表示状态",
           "contexts": {
             "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer.": {
               "translation": "正在",
@@ -103025,6 +103089,14 @@
               "pos": "v."
             },
             "\"But the lion is quick and attacks.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "it is more expensive to hire a real gorilla": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "he wants to help the mimic who is out of work": {
               "translation": "是",
               "pos": "v."
             }
@@ -103045,85 +103117,157 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "（特指）",
+          "translation": "这；那",
           "pos": "art.",
           "forms": "无常见变形",
-          "meanings": "这；那；（用于特指）；（用于最高级前）",
+          "meanings": "这；那；（用于特指）；（用于最高级前）；定冠词",
           "contexts": {
             "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer.": {
-              "translation": "（特指）动物园",
+              "translation": "那个",
               "pos": "art."
             },
             "As soon as he starts to draw the crowd,a zoo keeper grabs him and drags him into his office.": {
-              "translation": "（特指）人群",
+              "translation": "那个",
               "pos": "art."
             },
             "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.": {
-              "translation": "（特指）动物园",
+              "translation": "那个",
               "pos": "art."
             },
             "He offers the mimic a job to dress up as the gorilla until they can get another one.": {
-              "translation": "（特指）哑剧演员",
+              "translation": "那个",
               "pos": "art."
             },
             "The mimic accepts.": {
-              "translation": "（特指）哑剧演员",
+              "translation": "那个",
               "pos": "art."
             },
             "So the next morning the mimic puts on the gorilla suit and enters the cage before the crowd comes.": {
-              "translation": "（特指）人群",
+              "translation": "那个",
               "pos": "art."
             },
             "However,eventually the crowds tire of him and he tires of just swinging on wires.": {
-              "translation": "（特指）人群",
+              "translation": "那个",
               "pos": "art."
             },
             "He begins to notice that the people are paying more attention to the lion in the cage next to his.": {
-              "translation": "（特指）狮子",
+              "translation": "那个",
               "pos": "art."
             },
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
-              "translation": "（特指）观众",
+              "translation": "那个",
               "pos": "art."
             },
             "Of course,this makes the lion very angry,but the crowd loves it.": {
-              "translation": "（特指）狮子",
+              "translation": "那个",
               "pos": "art."
             },
             "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.": {
-              "translation": "（特指）饲养员",
+              "translation": "那个",
               "pos": "art."
             },
             "Well,this goes on for some time-the mimic keeps taunting the lion,the crowds grow larger,and his salary keeps going up.": {
-              "translation": "（特指）哑剧演员",
+              "translation": "那个",
               "pos": "art."
             },
             "Then one terrible day when he is dangling over the angry lion he slips and falls.": {
-              "translation": "（特指）狮子",
+              "translation": "那个",
               "pos": "art."
             },
             "The mimic is terrified.": {
-              "translation": "（特指）哑剧演员",
+              "translation": "那个",
               "pos": "art."
             },
             "The lion gathers itself and prepares to attack.": {
-              "translation": "（特指）狮子",
+              "translation": "那个",
               "pos": "art."
             },
             "The mimic is so scared that he begins to run round and round the cage with the lion close behind.": {
-              "translation": "（特指）哑剧演员",
+              "translation": "那个",
               "pos": "art."
             },
             "Finally,the mimic starts screaming and yelling,\"Help me,help me!": {
-              "translation": "（特指）哑剧演员",
+              "translation": "那个",
               "pos": "art."
             },
             "\"But the lion is quick and attacks.": {
-              "translation": "（特指）狮子",
+              "translation": "那个",
               "pos": "art."
             },
             "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!": {
-              "translation": "（特指）哑剧演员",
+              "translation": "那个",
+              "pos": "art."
+            },
+            "The mimic visits the zoo to  _  .": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "take care of the dying gorilla": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "beg some money from the zoo keeper": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "he likes the mimic's performance": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "he wants to help the mimic who is out of work": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "What does the mimic feel about the new job at first?": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "He likes it because he has enough freedom in the job.": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "The mimic climbs to the lion's cage because  _  .": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "he finds it more interesting to climb the cage": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "he wants to play with the lion": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "he wants to attract the attention of his audience": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "What does the passage mainly tell us?": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "The mimic and his job": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "The mimic and his success": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "The actor and the mimic": {
+              "translation": "那个",
+              "pos": "art."
+            },
+            "The mimic and his animals": {
+              "translation": "那个",
               "pos": "art."
             }
           }
@@ -103150,15 +103294,27 @@
             "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.": {
               "translation": "动物园",
               "pos": "n."
+            },
+            "The mimic visits the zoo to  _  .": {
+              "translation": "动物园",
+              "pos": "n."
+            },
+            "beg some money from the zoo keeper": {
+              "translation": "动物园",
+              "pos": "n."
+            },
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "动物园",
+              "pos": "n."
             }
           }
         },
         "and": {
           "lemma": "and",
-          "translation": "和",
+          "translation": "和；而且",
           "pos": "conj.",
           "forms": "无常见变形",
-          "meanings": "和；而且；然后；接着",
+          "meanings": "和；而且；然后；接着；表示顺接",
           "contexts": {
             "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer.": {
               "translation": "和",
@@ -103173,19 +103329,19 @@
               "pos": "conj."
             },
             "So the next morning the mimic puts on the gorilla suit and enters the cage before the crowd comes.": {
-              "translation": "然后",
+              "translation": "和",
               "pos": "conj."
             },
             "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.": {
-              "translation": "并且",
+              "translation": "和",
               "pos": "conj."
             },
             "However,eventually the crowds tire of him and he tires of just swinging on wires.": {
-              "translation": "并且",
+              "translation": "和",
               "pos": "conj."
             },
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
-              "translation": "以及",
+              "translation": "和",
               "pos": "conj."
             },
             "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.": {
@@ -103193,15 +103349,15 @@
               "pos": "conj."
             },
             "Well,this goes on for some time-the mimic keeps taunting the lion,the crowds grow larger,and his salary keeps going up.": {
-              "translation": "且",
+              "translation": "和",
               "pos": "conj."
             },
             "Then one terrible day when he is dangling over the angry lion he slips and falls.": {
-              "translation": "而且",
+              "translation": "和",
               "pos": "conj."
             },
             "The lion gathers itself and prepares to attack.": {
-              "translation": "并且",
+              "translation": "和",
               "pos": "conj."
             },
             "The mimic is so scared that he begins to run round and round the cage with the lion close behind.": {
@@ -103209,14 +103365,34 @@
               "pos": "conj."
             },
             "Finally,the mimic starts screaming and yelling,\"Help me,help me!": {
-              "translation": "并且",
+              "translation": "和",
               "pos": "conj."
             },
             "\"But the lion is quick and attacks.": {
-              "translation": "而且",
+              "translation": "和",
               "pos": "conj."
             },
             "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "perform and earn some money there": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "The mimic and his job": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "The mimic and his success": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "The actor and the mimic": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "The mimic and his animals": {
               "translation": "和",
               "pos": "conj."
             }
@@ -103237,8 +103413,8 @@
         },
         "to": {
           "lemma": "to",
-          "translation": "用于构成不定式",
-          "pos": "particle",
+          "translation": "用于构成不定式；向；给",
+          "pos": "particle/prep.",
           "forms": "无常见变形",
           "meanings": "用于构成不定式；向；给；到；对于",
           "contexts": {
@@ -103247,11 +103423,11 @@
               "pos": "particle"
             },
             "As soon as he starts to draw the crowd,a zoo keeper grabs him and drags him into his office.": {
-              "translation": "用于构成不定式",
-              "pos": "particle"
+              "translation": "向",
+              "pos": "prep."
             },
             "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.": {
-              "translation": "向",
+              "translation": "向；给",
               "pos": "prep."
             },
             "He offers the mimic a job to dress up as the gorilla until they can get another one.": {
@@ -103259,12 +103435,12 @@
               "pos": "particle"
             },
             "He begins to notice that the people are paying more attention to the lion in the cage next to his.": {
-              "translation": "对于",
+              "translation": "向",
               "pos": "prep."
             },
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
-              "translation": "用于构成不定式",
-              "pos": "particle"
+              "translation": "向",
+              "pos": "prep."
             },
             "The lion gathers itself and prepares to attack.": {
               "translation": "用于构成不定式",
@@ -103277,17 +103453,61 @@
             "Do you want to get us both fired?": {
               "translation": "用于构成不定式",
               "pos": "particle"
+            },
+            "The mimic visits the zoo to  _  .": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "it is more expensive to hire a real gorilla": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "he wants to help the mimic who is out of work": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "He likes it but he prefers to working as a mimic.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "The mimic climbs to the lion's cage because  _  .": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "he finds it more interesting to climb the cage": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "he wants to play with the lion": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
+            },
+            "he wants to attract the attention of his audience": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
             }
           }
         },
         "earn": {
           "lemma": "earn",
-          "translation": "挣钱",
+          "translation": "挣钱；获得",
           "pos": "v.",
           "forms": "earns, earned, earning",
-          "meanings": "获得；挣钱；博得；赚取",
+          "meanings": "获得；挣钱；博得；赚取；赢得",
           "contexts": {
             "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer.": {
+              "translation": "挣钱",
+              "pos": "v."
+            },
+            "perform and earn some money there": {
               "translation": "挣钱",
               "pos": "v."
             }
@@ -103307,6 +103527,14 @@
             "Well,this goes on for some time-the mimic keeps taunting the lion,the crowds grow larger,and his salary keeps going up.": {
               "translation": "一段时间",
               "pos": "adj."
+            },
+            "beg some money from the zoo keeper": {
+              "translation": "一些",
+              "pos": "adj."
+            },
+            "perform and earn some money there": {
+              "translation": "一些",
+              "pos": "adj."
             }
           }
         },
@@ -103318,6 +103546,14 @@
           "meanings": "钱；资金；货币；财产",
           "contexts": {
             "One day an out of work mimic  is visiting the zoo and attempts to earn some money as a street performer.": {
+              "translation": "钱",
+              "pos": "n."
+            },
+            "beg some money from the zoo keeper": {
+              "translation": "钱",
+              "pos": "n."
+            },
+            "perform and earn some money there": {
               "translation": "钱",
               "pos": "n."
             }
@@ -103335,7 +103571,7 @@
               "pos": "prep."
             },
             "As soon as he starts to draw the crowd,a zoo keeper grabs him and drags him into his office.": {
-              "translation": "当……时",
+              "translation": "一……就",
               "pos": "conj."
             },
             "He offers the mimic a job to dress up as the gorilla until they can get another one.": {
@@ -103343,6 +103579,14 @@
               "pos": "prep."
             },
             "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.": {
+              "translation": "作为",
+              "pos": "prep."
+            },
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "作为",
+              "pos": "prep."
+            },
+            "He likes it but he prefers to working as a mimic.": {
               "translation": "作为",
               "pos": "prep."
             }
@@ -103360,7 +103604,7 @@
               "pos": "art."
             },
             "As soon as he starts to draw the crowd,a zoo keeper grabs him and drags him into his office.": {
-              "translation": "一位",
+              "translation": "一个",
               "pos": "art."
             },
             "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.": {
@@ -103368,7 +103612,7 @@
               "pos": "art."
             },
             "He offers the mimic a job to dress up as the gorilla until they can get another one.": {
-              "translation": "一份",
+              "translation": "一个",
               "pos": "art."
             },
             "He discovers that it's a great job.": {
@@ -103376,7 +103620,7 @@
               "pos": "art."
             },
             "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.": {
-              "translation": "一位",
+              "translation": "一个",
               "pos": "art."
             },
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
@@ -103384,6 +103628,26 @@
               "pos": "art."
             },
             "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "ask for a job there": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "it is more expensive to hire a real gorilla": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "He likes it but he prefers to working as a mimic.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "he has never seen a lion before": {
               "translation": "一个",
               "pos": "art."
             }
@@ -103474,6 +103738,46 @@
             "The mimic is so scared that he begins to run round and round the cage with the lion close behind.": {
               "translation": "他",
               "pos": "pron."
+            },
+            "he likes the mimic's performance": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "he wants to help the mimic who is out of work": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He likes it because he has enough freedom in the job.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He likes it but he prefers to working as a mimic.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He doesn't like it for people do not respect him.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He doesn't like it because he gets little pay.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "he finds it more interesting to climb the cage": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "he wants to play with the lion": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "he wants to attract the attention of his audience": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "he has never seen a lion before": {
+              "translation": "他",
+              "pos": "pron."
             }
           }
         },
@@ -103536,15 +103840,27 @@
           "meanings": "饲养员；保管人；守护者；看守人",
           "contexts": {
             "As soon as he starts to draw the crowd,a zoo keeper grabs him and drags him into his office.": {
-              "translation": "动物园管理员",
+              "translation": "饲养员",
               "pos": "n."
             },
             "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.": {
-              "translation": "管理员",
+              "translation": "饲养员",
               "pos": "n."
             },
             "At the end of the day the zoo keeper comes and gives the mimic a raise for being such a good attraction.": {
-              "translation": "管理员",
+              "translation": "饲养员",
+              "pos": "n."
+            },
+            "beg some money from the zoo keeper": {
+              "translation": "饲养员",
+              "pos": "n."
+            },
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "饲养员",
+              "pos": "n."
+            },
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "饲养员",
               "pos": "n."
             }
           }
@@ -103574,6 +103890,10 @@
               "pos": "pron."
             },
             "However,eventually the crowds tire of him and he tires of just swinging on wires.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He doesn't like it for people do not respect him.": {
               "translation": "他",
               "pos": "pron."
             }
@@ -103629,6 +103949,22 @@
               "pos": "pron."
             },
             "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "he wants to attract the attention of his audience": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "The mimic and his job": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "The mimic and his success": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "The mimic and his animals": {
               "translation": "他的",
               "pos": "pron."
             }
@@ -103759,6 +104095,22 @@
             "So the next morning the mimic puts on the gorilla suit and enters the cage before the crowd comes.": {
               "translation": "大猩猩",
               "pos": "n."
+            },
+            "take care of the dying gorilla": {
+              "translation": "大猩猩",
+              "pos": "n."
+            },
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "大猩猩",
+              "pos": "n."
+            },
+            "it is more expensive to hire a real gorilla": {
+              "translation": "大猩猩",
+              "pos": "n."
+            },
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "大猩猩",
+              "pos": "n."
             }
           }
         },
@@ -103772,6 +104124,14 @@
             "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.": {
               "translation": "已经",
               "pos": "aux."
+            },
+            "He likes it because he has enough freedom in the job.": {
+              "translation": "有",
+              "pos": "v."
+            },
+            "he has never seen a lion before": {
+              "translation": "曾经",
+              "pos": "aux."
             }
           }
         },
@@ -103783,6 +104143,10 @@
           "meanings": "死亡；凋谢；消失；熄灭",
           "contexts": {
             "The zoo keeper explains to the mimic that the zoo's most popular attraction,a gorilla ,has died suddenly and the keeper fears that attendance at the zoo will fall off.": {
+              "translation": "死亡",
+              "pos": "v."
+            },
+            "the real gorilla died but the keeper does not want to lose its visitors": {
               "translation": "死亡",
               "pos": "v."
             }
@@ -103843,7 +104207,11 @@
               "pos": "prep."
             },
             "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!": {
-              "translation": "对着",
+              "translation": "在",
+              "pos": "prep."
+            },
+            "What does the mimic feel about the new job at first?": {
+              "translation": "在",
               "pos": "prep."
             }
           }
@@ -103897,6 +104265,10 @@
             "He offers the mimic a job to dress up as the gorilla until they can get another one.": {
               "translation": "提供",
               "pos": "v."
+            },
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "提供",
+              "pos": "v."
             }
           }
         },
@@ -103912,6 +104284,26 @@
               "pos": "n."
             },
             "He discovers that it's a great job.": {
+              "translation": "工作",
+              "pos": "n."
+            },
+            "ask for a job there": {
+              "translation": "工作",
+              "pos": "n."
+            },
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "工作",
+              "pos": "n."
+            },
+            "What does the mimic feel about the new job at first?": {
+              "translation": "工作",
+              "pos": "n."
+            },
+            "He likes it because he has enough freedom in the job.": {
+              "translation": "工作",
+              "pos": "n."
+            },
+            "The mimic and his job": {
               "translation": "工作",
               "pos": "n."
             }
@@ -104170,6 +104562,14 @@
             "The mimic is so scared that he begins to run round and round the cage with the lion close behind.": {
               "translation": "笼子",
               "pos": "n."
+            },
+            "The mimic climbs to the lion's cage because  _  .": {
+              "translation": "笼子",
+              "pos": "n."
+            },
+            "he finds it more interesting to climb the cage": {
+              "translation": "笼子",
+              "pos": "n."
             }
           }
         },
@@ -104182,6 +104582,10 @@
           "contexts": {
             "So the next morning the mimic puts on the gorilla suit and enters the cage before the crowd comes.": {
               "translation": "在……之前",
+              "pos": "prep."
+            },
+            "he has never seen a lion before": {
+              "translation": "以前",
               "pos": "prep."
             }
           }
@@ -104278,6 +104682,18 @@
             "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.": {
               "translation": "想要",
               "pos": "v."
+            },
+            "he wants to help the mimic who is out of work": {
+              "translation": "想要",
+              "pos": "v."
+            },
+            "he wants to play with the lion": {
+              "translation": "想要",
+              "pos": "v."
+            },
+            "he wants to attract the attention of his audience": {
+              "translation": "想要",
+              "pos": "v."
             }
           }
         },
@@ -104289,6 +104705,10 @@
           "meanings": "玩耍；参加（比赛）；演奏（乐器）；戏剧；播放",
           "contexts": {
             "He can sleep all he wants,play and make fun of people and he draws bigger crowds than he ever did as a mimic.": {
+              "translation": "玩耍",
+              "pos": "v."
+            },
+            "he wants to play with the lion": {
               "translation": "玩耍",
               "pos": "v."
             }
@@ -104332,6 +104752,10 @@
               "pos": "n."
             },
             "He begins to notice that the people are paying more attention to the lion in the cage next to his.": {
+              "translation": "人们",
+              "pos": "n."
+            },
+            "He doesn't like it for people do not respect him.": {
               "translation": "人们",
               "pos": "n."
             }
@@ -104572,12 +104996,20 @@
         },
         "more": {
           "lemma": "more",
-          "translation": "更多",
+          "translation": "更多的",
           "pos": "adv.",
           "forms": "无常见变形",
           "meanings": "更多的；较大程度地；更；额外；附加的",
           "contexts": {
             "He begins to notice that the people are paying more attention to the lion in the cage next to his.": {
+              "translation": "更多的",
+              "pos": "adv."
+            },
+            "it is more expensive to hire a real gorilla": {
+              "translation": "更",
+              "pos": "adv."
+            },
+            "he finds it more interesting to climb the cage": {
               "translation": "更",
               "pos": "adv."
             }
@@ -104595,7 +105027,11 @@
               "pos": "n."
             },
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
-              "translation": "注意力",
+              "translation": "注意",
+              "pos": "n."
+            },
+            "he wants to attract the attention of his audience": {
+              "translation": "注意",
               "pos": "n."
             }
           }
@@ -104612,7 +105048,7 @@
               "pos": "n."
             },
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
-              "translation": "狮子",
+              "translation": "狮子笼",
               "pos": "n."
             },
             "Of course,this makes the lion very angry,but the crowd loves it.": {
@@ -104642,18 +105078,34 @@
             "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!": {
               "translation": "狮子",
               "pos": "n."
+            },
+            "The mimic climbs to the lion's cage because  _  .": {
+              "translation": "狮子笼",
+              "pos": "n."
+            },
+            "he wants to play with the lion": {
+              "translation": "狮子",
+              "pos": "n."
+            },
+            "he has never seen a lion before": {
+              "translation": "狮子",
+              "pos": "n."
             }
           }
         },
         "in": {
           "lemma": "in",
-          "translation": "在...里",
+          "translation": "在……之内",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
           "contexts": {
             "He begins to notice that the people are paying more attention to the lion in the cage next to his.": {
-              "translation": "在……里",
+              "translation": "在……之内",
+              "pos": "prep."
+            },
+            "He likes it because he has enough freedom in the job.": {
+              "translation": "在……方面",
               "pos": "prep."
             }
           }
@@ -104666,6 +105118,14 @@
           "meanings": "不；没；不是；绝非",
           "contexts": {
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "不",
+              "pos": "adv."
+            },
+            "He doesn't like it for people do not respect him.": {
               "translation": "不",
               "pos": "adv."
             }
@@ -104694,6 +105154,10 @@
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
               "translation": "失去",
               "pos": "v."
+            },
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "失去",
+              "pos": "v."
             }
           }
         },
@@ -104707,6 +105171,10 @@
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
               "translation": "观众",
               "pos": "n."
+            },
+            "he wants to attract the attention of his audience": {
+              "translation": "观众",
+              "pos": "n."
             }
           }
         },
@@ -104718,6 +105186,10 @@
           "meanings": "攀登；爬；爬上；上升",
           "contexts": {
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
+              "translation": "攀登",
+              "pos": "v."
+            },
+            "The mimic climbs to the lion's cage because  _  .": {
               "translation": "攀登",
               "pos": "v."
             }
@@ -104796,20 +105268,28 @@
           "meanings": "从；离；来自；因为；起始",
           "contexts": {
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
-              "translation": "从……悬挂下来",
+              "translation": "从",
+              "pos": "prep."
+            },
+            "beg some money from the zoo keeper": {
+              "translation": "从",
               "pos": "prep."
             }
           }
         },
         "lion's": {
           "lemma": "lion",
-          "translation": "狮子的",
+          "translation": "狮子笼",
           "pos": "n.",
           "forms": "lions",
-          "meanings": "狮子；（动物园里的）狮子笼；狮子般的；有勇气的",
+          "meanings": "狮子；狮子笼；狮子般的；有勇气的",
           "contexts": {
             "Not wanting to lose the attention of his audience,he climbs to the top of his cage,crawls across a partition ,and dangles from the top to the lion's cage.": {
-              "translation": "狮子的",
+              "translation": "狮子笼",
+              "pos": "n."
+            },
+            "The mimic climbs to the lion's cage because  _  .": {
+              "translation": "狮子笼",
               "pos": "n."
             }
           }
@@ -104905,6 +105385,14 @@
             "\"But the lion is quick and attacks.": {
               "translation": "但是",
               "pos": "conj."
+            },
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "但是",
+              "pos": "conj."
+            },
+            "He likes it but he prefers to working as a mimic.": {
+              "translation": "但是",
+              "pos": "conj."
             }
           }
         },
@@ -104923,17 +105411,41 @@
         },
         "it": {
           "lemma": "it",
-          "translation": "它",
+          "translation": "这份工作",
           "pos": "pron.",
           "forms": "its, itself",
           "meanings": "它；这；（指代前文提到的事物或状况）；（作形式主语）；（作形式宾语）",
           "contexts": {
             "He discovers that it's a great job.": {
-              "translation": "它",
+              "translation": "这份工作",
               "pos": "pron."
             },
             "Of course,this makes the lion very angry,but the crowd loves it.": {
-              "translation": "它",
+              "translation": "这种表演",
+              "pos": "pron."
+            },
+            "it is more expensive to hire a real gorilla": {
+              "translation": "雇用真正的大猩猩",
+              "pos": "pron."
+            },
+            "He likes it because he has enough freedom in the job.": {
+              "translation": "这份工作",
+              "pos": "pron."
+            },
+            "He likes it but he prefers to working as a mimic.": {
+              "translation": "做模仿演员这份工作",
+              "pos": "pron."
+            },
+            "He doesn't like it for people do not respect him.": {
+              "translation": "这份工作",
+              "pos": "pron."
+            },
+            "He doesn't like it because he gets little pay.": {
+              "translation": "这份工作",
+              "pos": "pron."
+            },
+            "he finds it more interesting to climb the cage": {
+              "translation": "爬笼子这件事",
               "pos": "pron."
             }
           }
@@ -104989,7 +105501,15 @@
               "pos": "prep."
             },
             "Well,this goes on for some time-the mimic keeps taunting the lion,the crowds grow larger,and his salary keeps going up.": {
-              "translation": "长达",
+              "translation": "持续",
+              "pos": "prep."
+            },
+            "ask for a job there": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "He doesn't like it for people do not respect him.": {
+              "translation": "因为",
               "pos": "prep."
             }
           }
@@ -105347,13 +105867,17 @@
         },
         "with": {
           "lemma": "with",
-          "translation": "带有",
+          "translation": "跟随",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "与……一起；使用；带有；由于；关于",
           "contexts": {
             "The mimic is so scared that he begins to run round and round the cage with the lion close behind.": {
-              "translation": "带有",
+              "translation": "跟随；紧随",
+              "pos": "prep."
+            },
+            "he wants to play with the lion": {
+              "translation": "与……一起",
               "pos": "prep."
             }
           }
@@ -105425,12 +105949,16 @@
         },
         "help": {
           "lemma": "help",
-          "translation": "帮助",
+          "translation": "救我",
           "pos": "v.",
           "forms": "helps, helped, helping",
           "meanings": "帮助；协助；救助；有助于",
           "contexts": {
             "Finally,the mimic starts screaming and yelling,\"Help me,help me!": {
+              "translation": "救我",
+              "pos": "v."
+            },
+            "he wants to help the mimic who is out of work": {
               "translation": "帮助",
               "pos": "v."
             }
@@ -105477,13 +106005,17 @@
         },
         "finds": {
           "lemma": "find",
-          "translation": "发现",
+          "translation": "发现自己",
           "pos": "v.",
           "forms": "finds, found, finding",
           "meanings": "发现；查明；找到；发觉",
           "contexts": {
             "The mimic soon finds himself flat on his back looking up at the angry lion and the lion says,\"Shut up,you idiot!": {
-              "translation": "发现",
+              "translation": "发现自己",
+              "pos": "v."
+            },
+            "he finds it more interesting to climb the cage": {
+              "translation": "认为；觉得",
               "pos": "v."
             }
           }
@@ -105604,7 +106136,11 @@
           "meanings": "做；干；进行；引起",
           "contexts": {
             "Do you want to get us both fired?": {
-              "translation": "做（某事）",
+              "translation": "做；引起",
+              "pos": "v."
+            },
+            "He doesn't like it for people do not respect him.": {
+              "translation": "做；表现",
               "pos": "v."
             }
           }
@@ -105619,6 +106155,10 @@
             "Do you want to get us both fired?": {
               "translation": "想要",
               "pos": "v."
+            },
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "想要；希望",
+              "pos": "v."
             }
           }
         },
@@ -105630,6 +106170,10 @@
           "meanings": "我们（宾格）",
           "contexts": {
             "Do you want to get us both fired?": {
+              "translation": "我们两个",
+              "pos": "pron."
+            },
+            "What does the passage mainly tell us?": {
               "translation": "我们",
               "pos": "pron."
             }
@@ -105658,6 +106202,652 @@
             "Do you want to get us both fired?": {
               "translation": "被解雇",
               "pos": "v."
+            }
+          }
+        },
+        "visits": {
+          "lemma": "visit",
+          "translation": "拜访；参观",
+          "pos": "v.",
+          "forms": "visited, visiting, visits",
+          "meanings": "拜访；参观；视察；访问",
+          "contexts": {
+            "The mimic visits the zoo to  _  .": {
+              "translation": "拜访；参观",
+              "pos": "v."
+            }
+          }
+        },
+        "take": {
+          "lemma": "take",
+          "translation": "照顾",
+          "pos": "v.",
+          "forms": "took, taken, taking, takes",
+          "meanings": "移开；采取；拿；花费；乘坐；修读",
+          "contexts": {
+            "take care of the dying gorilla": {
+              "translation": "照顾；照看",
+              "pos": "v."
+            }
+          }
+        },
+        "care": {
+          "lemma": "care",
+          "translation": "照顾",
+          "pos": "v.",
+          "forms": "cares, cared, caring",
+          "meanings": "照顾；照料；小心；忧虑；关注",
+          "contexts": {
+            "take care of the dying gorilla": {
+              "translation": "照顾",
+              "pos": "v."
+            }
+          }
+        },
+        "dying": {
+          "lemma": "die",
+          "translation": "垂死的",
+          "pos": "adj.",
+          "forms": "dies, died, dying",
+          "meanings": "死亡；垂死；衰退；渴望",
+          "contexts": {
+            "take care of the dying gorilla": {
+              "translation": "垂死的",
+              "pos": "adj."
+            }
+          }
+        },
+        "beg": {
+          "lemma": "beg",
+          "translation": "乞讨",
+          "pos": "v.",
+          "forms": "begs, begged, begging",
+          "meanings": "乞讨；恳求；请求；讨好",
+          "contexts": {
+            "beg some money from the zoo keeper": {
+              "translation": "乞讨",
+              "pos": "v."
+            }
+          }
+        },
+        "ask": {
+          "lemma": "ask",
+          "translation": "请求",
+          "pos": "v.",
+          "forms": "asks, asked, asking",
+          "meanings": "询问；要求；请求；邀请",
+          "contexts": {
+            "ask for a job there": {
+              "translation": "请求",
+              "pos": "v."
+            }
+          }
+        },
+        "there": {
+          "lemma": "there",
+          "translation": "在那里",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "有（引导there be句型）；在那里；向那里；到那里",
+          "contexts": {
+            "ask for a job there": {
+              "translation": "在那里",
+              "pos": "adv."
+            },
+            "perform and earn some money there": {
+              "translation": "在那里",
+              "pos": "adv."
+            }
+          }
+        },
+        "perform": {
+          "lemma": "perform",
+          "translation": "表演",
+          "pos": "v.",
+          "forms": "performs, performed, performing",
+          "meanings": "表演；执行；表现；运作",
+          "contexts": {
+            "perform and earn some money there": {
+              "translation": "表演",
+              "pos": "v."
+            }
+          }
+        },
+        "act": {
+          "lemma": "act",
+          "translation": "扮演",
+          "pos": "v.",
+          "forms": "acts, acted, acting",
+          "meanings": "行动；扮演；表现；法案",
+          "contexts": {
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "扮演",
+              "pos": "v."
+            }
+          }
+        },
+        "because": {
+          "lemma": "because",
+          "translation": "因为",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "因为；由于",
+          "contexts": {
+            "The zoo keeper offers the mimic a job to act as the gorilla because  _  .": {
+              "translation": "因为",
+              "pos": "conj."
+            },
+            "He likes it because he has enough freedom in the job.": {
+              "translation": "因为",
+              "pos": "conj."
+            },
+            "He doesn't like it because he gets little pay.": {
+              "translation": "因为",
+              "pos": "conj."
+            },
+            "The mimic climbs to the lion's cage because  _  .": {
+              "translation": "因为",
+              "pos": "conj."
+            }
+          }
+        },
+        "expensive": {
+          "lemma": "expensive",
+          "translation": "昂贵的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "昂贵的；高价的；费钱的",
+          "contexts": {
+            "it is more expensive to hire a real gorilla": {
+              "translation": "昂贵的",
+              "pos": "adj."
+            }
+          }
+        },
+        "hire": {
+          "lemma": "hire",
+          "translation": "雇用",
+          "pos": "v.",
+          "forms": "hires, hired, hiring",
+          "meanings": "雇用；租用；聘请；出租",
+          "contexts": {
+            "it is more expensive to hire a real gorilla": {
+              "translation": "雇用",
+              "pos": "v."
+            }
+          }
+        },
+        "real": {
+          "lemma": "real",
+          "translation": "真正的",
+          "pos": "adj.",
+          "forms": "really",
+          "meanings": "真实的；真正的；实实在在的；确实的；真实存在的",
+          "contexts": {
+            "it is more expensive to hire a real gorilla": {
+              "translation": "真正的",
+              "pos": "adj."
+            },
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "真正的",
+              "pos": "adj."
+            }
+          }
+        },
+        "does": {
+          "lemma": "do",
+          "translation": "做（助动词，与not连用表示否定）",
+          "pos": "v.",
+          "forms": "do, does, did, doing, done",
+          "meanings": "做；进行；行动；表现；（助动词）",
+          "contexts": {
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "做（助动词，与not连用表示否定）",
+              "pos": "aux.v."
+            },
+            "What does the mimic feel about the new job at first?": {
+              "translation": "（助动词，用于构成疑问句）",
+              "pos": "aux.v."
+            },
+            "What does the passage mainly tell us?": {
+              "translation": "（助动词，用于构成疑问句）",
+              "pos": "aux.v."
+            }
+          }
+        },
+        "its": {
+          "lemma": "it",
+          "translation": "它的",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "它的；属于它的",
+          "contexts": {
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "它的",
+              "pos": "pron."
+            }
+          }
+        },
+        "visitors": {
+          "lemma": "visitor",
+          "translation": "参观者",
+          "pos": "n.",
+          "forms": "visitors",
+          "meanings": "访问者；参观者；客人；来访者",
+          "contexts": {
+            "the real gorilla died but the keeper does not want to lose its visitors": {
+              "translation": "参观者",
+              "pos": "n."
+            }
+          }
+        },
+        "likes": {
+          "lemma": "like",
+          "translation": "喜欢",
+          "pos": "v.",
+          "forms": "likes, liked, liking",
+          "meanings": "喜欢；喜爱；想要；可能",
+          "contexts": {
+            "he likes the mimic's performance": {
+              "translation": "喜欢",
+              "pos": "v."
+            },
+            "He likes it because he has enough freedom in the job.": {
+              "translation": "喜欢",
+              "pos": "v."
+            },
+            "He likes it but he prefers to working as a mimic.": {
+              "translation": "喜欢",
+              "pos": "v."
+            }
+          }
+        },
+        "mimic's": {
+          "lemma": "mimic",
+          "translation": "模仿者的",
+          "pos": "n.",
+          "forms": "mimics, mimicked, mimicking",
+          "meanings": "模仿者；模仿；模仿秀演员；惟妙惟肖地模仿",
+          "contexts": {
+            "he likes the mimic's performance": {
+              "translation": "模仿者的",
+              "pos": "n."
+            }
+          }
+        },
+        "performance": {
+          "lemma": "performance",
+          "translation": "表演",
+          "pos": "n.",
+          "forms": "performances",
+          "meanings": "表演；表现；执行；履行；成绩",
+          "contexts": {
+            "he likes the mimic's performance": {
+              "translation": "表演",
+              "pos": "n."
+            }
+          }
+        },
+        "who": {
+          "lemma": "who",
+          "translation": "……的人",
+          "pos": "pron.",
+          "forms": "whom, whose",
+          "meanings": "谁；……的人；（引导定语从句）那个人；任何人",
+          "contexts": {
+            "he wants to help the mimic who is out of work": {
+              "translation": "（引导定语从句）那个",
+              "pos": "pron."
+            }
+          }
+        },
+        "what": {
+          "lemma": "what",
+          "translation": "什么",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "什么；……的事物；多么；究竟是什么；任何东西",
+          "contexts": {
+            "What does the mimic feel about the new job at first?": {
+              "translation": "什么",
+              "pos": "pron."
+            },
+            "What does the passage mainly tell us?": {
+              "translation": "什么",
+              "pos": "pron."
+            }
+          }
+        },
+        "feel": {
+          "lemma": "feel",
+          "translation": "感到",
+          "pos": "v.",
+          "forms": "feels, felt, feeling",
+          "meanings": "感到；触摸；认为；有……感觉；摸起来",
+          "contexts": {
+            "What does the mimic feel about the new job at first?": {
+              "translation": "感到",
+              "pos": "v."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围；正要",
+          "contexts": {
+            "What does the mimic feel about the new job at first?": {
+              "translation": "关于",
+              "pos": "prep."
+            }
+          }
+        },
+        "new": {
+          "lemma": "new",
+          "translation": "新的",
+          "pos": "adj.",
+          "forms": "newer, newest",
+          "meanings": "新的；刚出现的；新鲜的；新式的",
+          "contexts": {
+            "What does the mimic feel about the new job at first?": {
+              "translation": "新的",
+              "pos": "adj."
+            }
+          }
+        },
+        "first": {
+          "lemma": "first",
+          "translation": "最初",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "第一；首要的；最初；首先",
+          "contexts": {
+            "What does the mimic feel about the new job at first?": {
+              "translation": "最初",
+              "pos": "adj."
+            }
+          }
+        },
+        "enough": {
+          "lemma": "enough",
+          "translation": "足够的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "足够的；充分的；足够地；果然；够了",
+          "contexts": {
+            "He likes it because he has enough freedom in the job.": {
+              "translation": "足够的",
+              "pos": "adj."
+            }
+          }
+        },
+        "freedom": {
+          "lemma": "freedom",
+          "translation": "自由",
+          "pos": "n.",
+          "forms": "freedoms",
+          "meanings": "自由；自主；豁免；随意",
+          "contexts": {
+            "He likes it because he has enough freedom in the job.": {
+              "translation": "自由",
+              "pos": "n."
+            }
+          }
+        },
+        "prefers": {
+          "lemma": "prefer",
+          "translation": "更喜欢",
+          "pos": "v.",
+          "forms": "prefer, prefers, preferred, preferring",
+          "meanings": "更喜欢；偏好；宁愿；提出",
+          "contexts": {
+            "He likes it but he prefers to working as a mimic.": {
+              "translation": "更喜欢",
+              "pos": "v."
+            }
+          }
+        },
+        "working": {
+          "lemma": "work",
+          "translation": "工作",
+          "pos": "v.",
+          "forms": "works, worked, working",
+          "meanings": "致力于；工作；运作；经营",
+          "contexts": {
+            "He likes it but he prefers to working as a mimic.": {
+              "translation": "工作",
+              "pos": "v."
+            }
+          }
+        },
+        "doesn't": {
+          "lemma": "do",
+          "translation": "不",
+          "pos": "aux.",
+          "forms": "do, does, did, doing, done",
+          "meanings": "不；没（用于构成否定句）；（用于强调）",
+          "contexts": {
+            "He doesn't like it for people do not respect him.": {
+              "translation": "不",
+              "pos": "aux."
+            },
+            "He doesn't like it because he gets little pay.": {
+              "translation": "不",
+              "pos": "aux."
+            }
+          }
+        },
+        "like": {
+          "lemma": "like",
+          "translation": "喜欢",
+          "pos": "v.",
+          "forms": "likes, liked, liking",
+          "meanings": "喜欢；像；如同；例如",
+          "contexts": {
+            "He doesn't like it for people do not respect him.": {
+              "translation": "喜欢",
+              "pos": "v."
+            },
+            "He doesn't like it because he gets little pay.": {
+              "translation": "喜欢",
+              "pos": "v."
+            }
+          }
+        },
+        "respect": {
+          "lemma": "respect",
+          "translation": "尊重",
+          "pos": "v.",
+          "forms": "respects, respected, respecting",
+          "meanings": "尊重；敬重；关系到；涉及",
+          "contexts": {
+            "He doesn't like it for people do not respect him.": {
+              "translation": "尊重",
+              "pos": "v."
+            }
+          }
+        },
+        "gets": {
+          "lemma": "get",
+          "translation": "获得",
+          "pos": "v.",
+          "forms": "gets, getting, got, gotten",
+          "meanings": "获得；变成；收到；到达",
+          "contexts": {
+            "He doesn't like it because he gets little pay.": {
+              "translation": "获得（收入）",
+              "pos": "v."
+            }
+          }
+        },
+        "little": {
+          "lemma": "little",
+          "translation": "少量的",
+          "pos": "adj.",
+          "forms": "less, least",
+          "meanings": "幼小的；小的；少量的；短暂的",
+          "contexts": {
+            "He doesn't like it because he gets little pay.": {
+              "translation": "少量的",
+              "pos": "adj."
+            }
+          }
+        },
+        "pay": {
+          "lemma": "pay",
+          "translation": "支付",
+          "pos": "v.",
+          "forms": "paying, paid, pays",
+          "meanings": "支付；偿还；给予；划算",
+          "contexts": {
+            "He doesn't like it because he gets little pay.": {
+              "translation": "薪酬；报酬",
+              "pos": "n."
+            }
+          }
+        },
+        "interesting": {
+          "lemma": "interesting",
+          "translation": "有趣的",
+          "pos": "adj.",
+          "forms": "more interesting, most interesting",
+          "meanings": "有趣的；引起兴趣的；令人关注的",
+          "contexts": {
+            "he finds it more interesting to climb the cage": {
+              "translation": "有趣的",
+              "pos": "adj."
+            }
+          }
+        },
+        "climb": {
+          "lemma": "climb",
+          "translation": "爬；攀登",
+          "pos": "v.",
+          "forms": "climbs, climbing, climbed",
+          "meanings": "爬；攀登；上升；晋升",
+          "contexts": {
+            "he finds it more interesting to climb the cage": {
+              "translation": "爬；攀登",
+              "pos": "v."
+            }
+          }
+        },
+        "attract": {
+          "lemma": "attract",
+          "translation": "吸引",
+          "pos": "v.",
+          "forms": "attracts, attracted, attracting",
+          "meanings": "吸引；引起；招引",
+          "contexts": {
+            "he wants to attract the attention of his audience": {
+              "translation": "吸引",
+              "pos": "v."
+            }
+          }
+        },
+        "never": {
+          "lemma": "never",
+          "translation": "从不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "从不；绝不；决非；从来没有",
+          "contexts": {
+            "he has never seen a lion before": {
+              "translation": "从不；从来不",
+              "pos": "adv."
+            }
+          }
+        },
+        "seen": {
+          "lemma": "see",
+          "translation": "看见",
+          "pos": "v.",
+          "forms": "saw, seen, seeing, sees",
+          "meanings": "看见；领会；理解；被看待",
+          "contexts": {
+            "he has never seen a lion before": {
+              "translation": "看见",
+              "pos": "v."
+            }
+          }
+        },
+        "passage": {
+          "lemma": "passage",
+          "translation": "文章",
+          "pos": "n.",
+          "forms": "passages",
+          "meanings": "文章；段落；通道；走廊；通行权",
+          "contexts": {
+            "What does the passage mainly tell us?": {
+              "translation": "文章",
+              "pos": "n."
+            }
+          }
+        },
+        "mainly": {
+          "lemma": "mainly",
+          "translation": "主要地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "主要地；大部分；通常；基本上",
+          "contexts": {
+            "What does the passage mainly tell us?": {
+              "translation": "主要地",
+              "pos": "adv."
+            }
+          }
+        },
+        "tell": {
+          "lemma": "tell",
+          "translation": "讲述",
+          "pos": "v.",
+          "forms": "tells, told, telling",
+          "meanings": "看出；讲述；告诉；吩咐",
+          "contexts": {
+            "What does the passage mainly tell us?": {
+              "translation": "讲述",
+              "pos": "v."
+            }
+          }
+        },
+        "success": {
+          "lemma": "success",
+          "translation": "成功",
+          "pos": "n.",
+          "forms": "succeed (v.), successful (adj.)",
+          "meanings": "成功；成就；成功的人或事；发迹",
+          "contexts": {
+            "The mimic and his success": {
+              "translation": "成功",
+              "pos": "n."
+            }
+          }
+        },
+        "actor": {
+          "lemma": "actor",
+          "translation": "演员",
+          "pos": "n.",
+          "forms": "actors",
+          "meanings": "演员；行动者；参与者",
+          "contexts": {
+            "The actor and the mimic": {
+              "translation": "演员",
+              "pos": "n."
+            }
+          }
+        },
+        "animals": {
+          "lemma": "animal",
+          "translation": "动物",
+          "pos": "n.",
+          "forms": "animals",
+          "meanings": "动物；野兽；生物",
+          "contexts": {
+            "The mimic and his animals": {
+              "translation": "动物",
+              "pos": "n."
             }
           }
         }
