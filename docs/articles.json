@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:48:22.627Z",
+  "generatedAt": "2026-08-22T12:48:57.019Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -15117,48 +15117,80 @@
           "meanings": "杰克（男子名）；起重机；插孔；（扑克牌中的）J",
           "contexts": {
             "Jack Andraka from Maryland won the grand prize at the 2012 Intel International Science and Engineering Fair.": {
-              "translation": "杰克",
+              "translation": "杰克（人名）",
               "pos": "n."
             },
             "Jack Andraka invented a test for pancreatic cancer  .": {
-              "translation": "杰克",
+              "translation": "杰克（人名）",
               "pos": "n."
             },
             "Jack's success wouldn't have been possible without Anirban Maitra, a professor at Johns Hopkins.": {
-              "translation": "杰克的",
+              "translation": "杰克（人名）",
               "pos": "n."
             },
             "He was the only person among the 200 researchers Jack wrote to who showed interest in his project.": {
-              "translation": "杰克",
+              "translation": "杰克（人名）",
               "pos": "n."
             },
             "\"\nJack worked in Professor Maitra's laboratory, completing his project in 7 months.": {
-              "translation": "杰克",
+              "translation": "杰克（人名）",
               "pos": "n."
             },
             "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.": {
-              "translation": "杰克",
+              "translation": "杰克（人名）",
+              "pos": "n."
+            },
+            "What made Jack Andraka research pancreatic cancer?": {
+              "translation": "杰克（人名）",
+              "pos": "n."
+            },
+            "Jack Andraka's research on pancreatic cancer   _  .": {
+              "translation": "杰克（人名）",
+              "pos": "n."
+            },
+            "We can infer from the text that Jack Andraka   _  .": {
+              "translation": "杰克（人名）",
+              "pos": "n."
+            },
+            "Jack Andraka's Fights Against Cancer": {
+              "translation": "杰克（人名）",
               "pos": "n."
             }
           }
         },
         "andraka": {
           "lemma": "andraka",
-          "translation": "安德拉卡（人名）",
+          "translation": "安德拉卡（姓氏）",
           "pos": "n.",
           "forms": "无常见变形",
           "meanings": "安德拉卡（姓氏）",
           "contexts": {
             "Jack Andraka from Maryland won the grand prize at the 2012 Intel International Science and Engineering Fair.": {
-              "translation": "安德拉卡",
+              "translation": "安德拉卡（姓氏）",
               "pos": "n."
             },
             "Jack Andraka invented a test for pancreatic cancer  .": {
-              "translation": "安德拉卡",
+              "translation": "安德拉卡（姓氏）",
               "pos": "n."
             },
             "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.": {
-              "translation": "安德拉卡的",
+              "translation": "安德拉卡（姓氏）",
+              "pos": "n."
+            },
+            "What made Jack Andraka research pancreatic cancer?": {
+              "translation": "安德拉卡（姓氏）",
+              "pos": "n."
+            },
+            "Jack Andraka's research on pancreatic cancer   _  .": {
+              "translation": "安德拉卡（姓氏）",
+              "pos": "n."
+            },
+            "We can infer from the text that Jack Andraka   _  .": {
+              "translation": "安德拉卡（姓氏）",
+              "pos": "n."
+            },
+            "Jack Andraka's Fights Against Cancer": {
+              "translation": "安德拉卡（姓氏）",
               "pos": "n."
             }
           }
@@ -15175,33 +15207,45 @@
               "pos": "prep."
             },
             "He was chosen from among 1,500 students in 70 countries.": {
-              "translation": "从……之中",
+              "translation": "来自",
+              "pos": "prep."
+            },
+            "We can infer from the text that Jack Andraka   _  .": {
+              "translation": "从",
+              "pos": "prep."
+            },
+            "got support from others easily": {
+              "translation": "从",
               "pos": "prep."
             }
           }
         },
         "maryland": {
           "lemma": "maryland",
-          "translation": "马里兰州",
+          "translation": "马里兰（美国州名）",
           "pos": "n.",
           "forms": "无常见变形",
           "meanings": "马里兰（美国州名）",
           "contexts": {
             "Jack Andraka from Maryland won the grand prize at the 2012 Intel International Science and Engineering Fair.": {
-              "translation": "马里兰州",
+              "translation": "马里兰（美国州名）",
               "pos": "n."
             },
             "The Maryland teenager is the youngest winner of the $75,000 prize.": {
-              "translation": "马里兰州的",
-              "pos": "adj."
+              "translation": "马里兰（美国州名）",
+              "pos": "n."
             },
             "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.": {
-              "translation": "马里兰州的",
-              "pos": "adj."
+              "translation": "马里兰（美国州名）",
+              "pos": "n."
             },
             "The government has given the Maryland teenager patent rights to the pancreatic cancer test.": {
-              "translation": "马里兰州的",
-              "pos": "adj."
+              "translation": "马里兰（美国州名）",
+              "pos": "n."
+            },
+            "was finished at the high school of Maryland": {
+              "translation": "马里兰（美国州名）",
+              "pos": "n."
             }
           }
         },
@@ -15220,61 +15264,77 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "这，那（特指）",
+          "translation": "这；那",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这，那；特指；用于最高级前；专有名词前",
           "contexts": {
             "Jack Andraka from Maryland won the grand prize at the 2012 Intel International Science and Engineering Fair.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "It is the largest high school science competition in the world.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "The Maryland teenager is the youngest winner of the $75,000 prize.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "He started to learn it after losing a close family friend to the disease.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "'\" He found that early discovery is important to increasing the chances of surviving the disease.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "There he developed a simple paper test, which can recognize the disease in a single drop of blood.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "His test has proved correct 90% of the time.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "He was the only person among the 200 researchers Jack wrote to who showed interest in his project.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "The government has given the Maryland teenager patent rights to the pancreatic cancer test.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "He is now talking with companies about developing the test into a simple product.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
               "pos": "art."
             },
             "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.": {
-              "translation": "（定冠词）",
+              "translation": "这；那",
+              "pos": "art."
+            },
+            "Doubts about the present test.": {
+              "translation": "这；那",
+              "pos": "art."
+            },
+            "was finished at the high school of Maryland": {
+              "translation": "这；那",
+              "pos": "art."
+            },
+            "We can infer from the text that Jack Andraka   _  .": {
+              "translation": "这；那",
+              "pos": "art."
+            },
+            "What's the best title for the text?": {
+              "translation": "这；那",
               "pos": "art."
             }
           }
@@ -15317,28 +15377,36 @@
           "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）",
           "contexts": {
             "Jack Andraka from Maryland won the grand prize at the 2012 Intel International Science and Engineering Fair.": {
-              "translation": "在",
+              "translation": "在（地点）",
               "pos": "prep."
             },
             "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.": {
-              "translation": "在",
+              "translation": "在（地点）",
               "pos": "prep."
             },
             "Jack's success wouldn't have been possible without Anirban Maitra, a professor at Johns Hopkins.": {
-              "translation": "在",
+              "translation": "在（地点）",
+              "pos": "prep."
+            },
+            "was finished at the high school of Maryland": {
+              "translation": "在（地点）",
               "pos": "prep."
             }
           }
         },
         "intel": {
           "lemma": "intel",
-          "translation": "英特尔",
+          "translation": "英特尔（公司名）",
           "pos": "n.",
           "forms": "无常见变形",
           "meanings": "英特尔（科技公司名）；情报",
           "contexts": {
             "Jack Andraka from Maryland won the grand prize at the 2012 Intel International Science and Engineering Fair.": {
-              "translation": "英特尔",
+              "translation": "英特尔（公司名）",
+              "pos": "n."
+            },
+            "Intel International Science and Engineering Fair": {
+              "translation": "英特尔（公司名）",
               "pos": "n."
             }
           }
@@ -15351,6 +15419,10 @@
           "meanings": "国际的；跨国的；国际性的",
           "contexts": {
             "Jack Andraka from Maryland won the grand prize at the 2012 Intel International Science and Engineering Fair.": {
+              "translation": "国际的",
+              "pos": "adj."
+            },
+            "Intel International Science and Engineering Fair": {
               "translation": "国际的",
               "pos": "adj."
             }
@@ -15370,6 +15442,10 @@
             "It is the largest high school science competition in the world.": {
               "translation": "科学",
               "pos": "n."
+            },
+            "Intel International Science and Engineering Fair": {
+              "translation": "科学",
+              "pos": "n."
             }
           }
         },
@@ -15385,19 +15461,23 @@
               "pos": "conj."
             },
             "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.": {
-              "translation": "而且",
+              "translation": "和",
               "pos": "conj."
             },
             "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.": {
-              "translation": "并且",
+              "translation": "和",
               "pos": "conj."
             },
             "\"It costs 3 cents per test, and then it takes only 5 minutes to run,\" he said.": {
-              "translation": "并且",
+              "translation": "和",
               "pos": "conj."
             },
             "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .": {
-              "translation": "并且",
+              "translation": "而且",
+              "pos": "conj."
+            },
+            "Intel International Science and Engineering Fair": {
+              "translation": "和",
               "pos": "conj."
             }
           }
@@ -15412,18 +15492,26 @@
             "Jack Andraka from Maryland won the grand prize at the 2012 Intel International Science and Engineering Fair.": {
               "translation": "工程学",
               "pos": "n."
+            },
+            "Intel International Science and Engineering Fair": {
+              "translation": "工程学",
+              "pos": "n."
             }
           }
         },
         "fair": {
           "lemma": "fair",
-          "translation": "展览会",
+          "translation": "博览会",
           "pos": "n.",
           "forms": "fairs",
           "meanings": "博览会；交易会；公平的；白皙的",
           "contexts": {
             "Jack Andraka from Maryland won the grand prize at the 2012 Intel International Science and Engineering Fair.": {
-              "translation": "展览会",
+              "translation": "博览会",
+              "pos": "n."
+            },
+            "Intel International Science and Engineering Fair": {
+              "translation": "博览会",
               "pos": "n."
             }
           }
@@ -15509,6 +15597,14 @@
             "It is the largest high school science competition in the world.": {
               "translation": "高中的",
               "pos": "adj."
+            },
+            "A high school task.": {
+              "translation": "高中的",
+              "pos": "adj."
+            },
+            "was finished at the high school of Maryland": {
+              "translation": "高中的",
+              "pos": "adj."
             }
           }
         },
@@ -15520,6 +15616,14 @@
           "meanings": "学校；学院；上学；学派",
           "contexts": {
             "It is the largest high school science competition in the world.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "A high school task.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "was finished at the high school of Maryland": {
               "translation": "学校",
               "pos": "n."
             }
@@ -15602,6 +15706,10 @@
             "The government has given the Maryland teenager patent rights to the pancreatic cancer test.": {
               "translation": "青少年",
               "pos": "n."
+            },
+            "Teenager Cancer Researcher": {
+              "translation": "青少年",
+              "pos": "n."
             }
           }
         },
@@ -15643,19 +15751,35 @@
               "pos": "prep."
             },
             "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.": {
-              "translation": "……的",
+              "translation": "（用于表示百分比）",
               "pos": "prep."
             },
             "'\" He found that early discovery is important to increasing the chances of surviving the disease.": {
-              "translation": "……的",
+              "translation": "关于",
               "pos": "prep."
             },
             "There he developed a simple paper test, which can recognize the disease in a single drop of blood.": {
-              "translation": "……的",
+              "translation": "的",
               "pos": "prep."
             },
             "His test has proved correct 90% of the time.": {
-              "translation": "……的",
+              "translation": "的",
+              "pos": "prep."
+            },
+            "gave patients a 90% chance of survival": {
+              "translation": "的",
+              "pos": "prep."
+            },
+            "was finished at the high school of Maryland": {
+              "translation": "的",
+              "pos": "prep."
+            },
+            "was thought highly of by companies": {
+              "translation": "被",
+              "pos": "prep."
+            },
+            "wasn't afraid of failure": {
+              "translation": "对于",
               "pos": "prep."
             }
           }
@@ -15707,29 +15831,41 @@
         },
         "was": {
           "lemma": "be",
-          "translation": "是（过去式）",
+          "translation": "是",
           "pos": "v.",
           "forms": "am, is, are, was, were, being, been",
           "meanings": "是；位于；在；存在",
           "contexts": {
             "He was chosen from among 1,500 students in 70 countries.": {
-              "translation": "被（用于被动语态）",
+              "translation": "是",
               "pos": "v."
             },
             "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.": {
-              "translation": "是（过去式）",
+              "translation": "在",
               "pos": "v."
             },
             "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.": {
-              "translation": "被（用于被动语态）",
+              "translation": "被",
               "pos": "v."
             },
             "He was the only person among the 200 researchers Jack wrote to who showed interest in his project.": {
-              "translation": "是（过去式）",
+              "translation": "是",
               "pos": "v."
             },
             "\"I was very surprised that this was a 15-year-old who was writing this.": {
-              "translation": "是（过去式）",
+              "translation": "是",
+              "pos": "v."
+            },
+            "was 100 times cheaper than other tests": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "was finished at the high school of Maryland": {
+              "translation": "被",
+              "pos": "v."
+            },
+            "was thought highly of by companies": {
+              "translation": "被",
               "pos": "v."
             }
           }
@@ -15827,7 +15963,7 @@
               "pos": "article"
             },
             "Jack's success wouldn't have been possible without Anirban Maitra, a professor at Johns Hopkins.": {
-              "translation": "一位",
+              "translation": "一个",
               "pos": "article"
             },
             "\"I was very surprised that this was a 15-year-old who was writing this.": {
@@ -15835,6 +15971,26 @@
               "pos": "article"
             },
             "He is now talking with companies about developing the test into a simple product.": {
+              "translation": "一个",
+              "pos": "article"
+            },
+            "A high school task.": {
+              "translation": "一个",
+              "pos": "article"
+            },
+            "A professor's encouragement.": {
+              "translation": "一个",
+              "pos": "article"
+            },
+            "Losing a friend.": {
+              "translation": "一个",
+              "pos": "article"
+            },
+            "gave patients a 90% chance of survival": {
+              "translation": "一个",
+              "pos": "article"
+            },
+            "left a deep impression on Professor Maitra": {
               "translation": "一个",
               "pos": "article"
             }
@@ -15870,22 +16026,30 @@
             "He is now talking with companies about developing the test into a simple product.": {
               "translation": "检测",
               "pos": "n."
+            },
+            "Doubts about the present test.": {
+              "translation": "检测",
+              "pos": "n."
             }
           }
         },
         "for": {
           "lemma": "for",
-          "translation": "用于……的",
+          "translation": "为了",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "为了；给；支持；因为；代表",
           "contexts": {
             "Jack Andraka invented a test for pancreatic cancer  .": {
-              "translation": "用于……的",
+              "translation": "对于",
               "pos": "prep."
             },
             "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .": {
               "translation": "为了",
+              "pos": "prep."
+            },
+            "What's the best title for the text?": {
+              "translation": "对于",
               "pos": "prep."
             }
           }
@@ -15908,6 +16072,18 @@
             "The government has given the Maryland teenager patent rights to the pancreatic cancer test.": {
               "translation": "胰腺的",
               "pos": "adj."
+            },
+            "What made Jack Andraka research pancreatic cancer?": {
+              "translation": "胰腺的",
+              "pos": "adj."
+            },
+            "Jack Andraka's research on pancreatic cancer   _  .": {
+              "translation": "胰腺的",
+              "pos": "adj."
+            },
+            "Research on Pancreatic Cancer": {
+              "translation": "胰腺的",
+              "pos": "adj."
             }
           }
         },
@@ -15916,13 +16092,33 @@
           "translation": "癌症",
           "pos": "n.",
           "forms": "cancers",
-          "meanings": "癌症；弊端",
+          "meanings": "癌症；恶性肿瘤；弊端；祸害",
           "contexts": {
             "Jack Andraka invented a test for pancreatic cancer  .": {
               "translation": "癌症",
               "pos": "n."
             },
             "The government has given the Maryland teenager patent rights to the pancreatic cancer test.": {
+              "translation": "癌症",
+              "pos": "n."
+            },
+            "What made Jack Andraka research pancreatic cancer?": {
+              "translation": "癌症",
+              "pos": "n."
+            },
+            "Jack Andraka's research on pancreatic cancer   _  .": {
+              "translation": "癌症",
+              "pos": "n."
+            },
+            "Jack Andraka's Fights Against Cancer": {
+              "translation": "癌症",
+              "pos": "n."
+            },
+            "Research on Pancreatic Cancer": {
+              "translation": "癌症",
+              "pos": "n."
+            },
+            "Teenager Cancer Researcher": {
               "translation": "癌症",
               "pos": "n."
             }
@@ -15949,16 +16145,16 @@
           "meanings": "（构成不定式）；对……而言；去；向；到",
           "contexts": {
             "He started to learn it after losing a close family friend to the disease.": {
-              "translation": "（构成不定式）",
-              "pos": "particle"
+              "translation": "到；向",
+              "pos": "prep."
             },
             "We should be able to do something.": {
               "translation": "（构成不定式）",
               "pos": "particle"
             },
             "'\" He found that early discovery is important to increasing the chances of surviving the disease.": {
-              "translation": "对……而言",
-              "pos": "preposition"
+              "translation": "（构成不定式）",
+              "pos": "particle"
             },
             "The Maryland teenager asked to work in a laboratory at Johns Hopkins University in Baltimore and was allowed.": {
               "translation": "（构成不定式）",
@@ -15969,20 +16165,24 @@
               "pos": "particle"
             },
             "He was the only person among the 200 researchers Jack wrote to who showed interest in his project.": {
-              "translation": "向",
-              "pos": "preposition"
+              "translation": "（构成不定式）",
+              "pos": "particle"
             },
             "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .": {
               "translation": "（构成不定式）",
               "pos": "particle"
             },
             "The government has given the Maryland teenager patent rights to the pancreatic cancer test.": {
-              "translation": "给（予）",
-              "pos": "preposition"
+              "translation": "（构成不定式）",
+              "pos": "particle"
             },
             "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.": {
-              "translation": "在……期间",
-              "pos": "preposition"
+              "translation": "（时间段）",
+              "pos": "prep."
+            },
+            "proved to be very successful": {
+              "translation": "（构成不定式）",
+              "pos": "particle"
             }
           }
         },
@@ -16017,9 +16217,13 @@
           "translation": "失去",
           "pos": "verb",
           "forms": "lost, losing",
-          "meanings": "失去；丢失；输掉；迷失",
+          "meanings": "失去；丢失；输掉；迷失；错过",
           "contexts": {
             "He started to learn it after losing a close family friend to the disease.": {
+              "translation": "失去",
+              "pos": "verb"
+            },
+            "Losing a friend.": {
               "translation": "失去",
               "pos": "verb"
             }
@@ -16056,11 +16260,15 @@
           "translation": "朋友",
           "pos": "noun",
           "forms": "friends",
-          "meanings": "朋友；支持者；伙伴",
+          "meanings": "朋友；支持者；伙伴；熟人",
           "contexts": {
             "He started to learn it after losing a close family friend to the disease.": {
               "translation": "朋友",
-              "pos": "noun"
+              "pos": "n."
+            },
+            "Losing a friend.": {
+              "translation": "朋友",
+              "pos": "n."
             }
           }
         },
@@ -16124,11 +16332,23 @@
           "translation": "通过（媒介）",
           "pos": "preposition",
           "forms": "无常见变形",
-          "meanings": "通过（媒介）；在……之上；关于；在（时间）",
+          "meanings": "通过（媒介）；在……之上；关于；在（时间）；依靠",
           "contexts": {
             "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.": {
               "translation": "通过（媒介）",
-              "pos": "preposition"
+              "pos": "prep."
+            },
+            "Jack Andraka's research on pancreatic cancer   _  .": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "left a deep impression on Professor Maitra": {
+              "translation": "对……留下",
+              "pos": "prep."
+            },
+            "Research on Pancreatic Cancer": {
+              "translation": "关于",
+              "pos": "prep."
             }
           }
         },
@@ -16167,19 +16387,23 @@
           "translation": "引导从句",
           "pos": "conjunction",
           "forms": "those",
-          "meanings": "引导从句；那个；那",
+          "meanings": "引导从句；那个；那；那样的",
           "contexts": {
             "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.": {
               "translation": "引导从句",
-              "pos": "conjunction"
+              "pos": "conj."
             },
             "'\" He found that early discovery is important to increasing the chances of surviving the disease.": {
               "translation": "引导从句",
-              "pos": "conjunction"
+              "pos": "conj."
             },
             "\"I was very surprised that this was a 15-year-old who was writing this.": {
               "translation": "引导从句",
-              "pos": "conjunction"
+              "pos": "conj."
+            },
+            "We can infer from the text that Jack Andraka   _  .": {
+              "translation": "引导从句",
+              "pos": "conj."
             }
           }
         },
@@ -16309,6 +16533,10 @@
             "It also is 100 times more sensitive than other tests.": {
               "translation": "比",
               "pos": "conj."
+            },
+            "was 100 times cheaper than other tests": {
+              "translation": "比",
+              "pos": "conj."
             }
           }
         },
@@ -16317,22 +16545,30 @@
           "translation": "机会",
           "pos": "n.",
           "forms": "chances",
-          "meanings": "机会；可能性；偶然；际遇",
+          "meanings": "机会；可能性；偶然；际遇；概率",
           "contexts": {
             "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.": {
               "translation": "可能性",
+              "pos": "n."
+            },
+            "gave patients a 90% chance of survival": {
+              "translation": "机会",
               "pos": "n."
             }
           }
         },
         "survival": {
           "lemma": "survival",
-          "translation": "幸存",
+          "translation": "生存",
           "pos": "n.",
           "forms": "survive, survivor",
-          "meanings": "幸存；生存；残留物",
+          "meanings": "生存；幸存；残留物；生存者",
           "contexts": {
             "\"I went on the Internet and I found that 85%of all pancreatic cancers are found late, when someone has less than 2% chance of survival , \" he says, \"and I was thinking,' That's not right.": {
+              "translation": "生存",
+              "pos": "n."
+            },
+            "gave patients a 90% chance of survival": {
               "translation": "生存",
               "pos": "n."
             }
@@ -16408,13 +16644,17 @@
           "translation": "我们",
           "pos": "pron.",
           "forms": "us, our, ours",
-          "meanings": "我们",
+          "meanings": "我们；咱们；人们；大家",
           "contexts": {
             "We should be able to do something.": {
               "translation": "我们",
               "pos": "pron."
             },
             "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "We can infer from the text that Jack Andraka   _  .": {
               "translation": "我们",
               "pos": "pron."
             }
@@ -16441,11 +16681,15 @@
           "meanings": "是；存在；等于；位于；发生",
           "contexts": {
             "We should be able to do something.": {
-              "translation": "是",
+              "translation": "是（能够做）",
               "pos": "v."
             },
             "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.": {
               "translation": "是",
+              "pos": "v."
+            },
+            "proved to be very successful": {
+              "translation": "是；被证明是",
               "pos": "v."
             }
           }
@@ -16762,6 +17006,10 @@
             "There he developed a simple paper test, which can recognize the disease in a single drop of blood.": {
               "translation": "能够",
               "pos": "modal v."
+            },
+            "We can infer from the text that Jack Andraka   _  .": {
+              "translation": "能够",
+              "pos": "modal v."
             }
           }
         },
@@ -16840,13 +17088,17 @@
         },
         "proved": {
           "lemma": "prove",
-          "translation": "证明是",
+          "translation": "证实",
           "pos": "v.",
           "forms": "proves, proving, proved, proven",
           "meanings": "证明；证实；结果是；显示出",
           "contexts": {
             "His test has proved correct 90% of the time.": {
-              "translation": "证明是",
+              "translation": "证实；被证明",
+              "pos": "v."
+            },
+            "proved to be very successful": {
+              "translation": "证明是；被证明是",
               "pos": "v."
             }
           }
@@ -16895,9 +17147,13 @@
           "translation": "倍",
           "pos": "n.",
           "forms": "无常见变形",
-          "meanings": "倍；次；时期",
+          "meanings": "倍；次；时期；时代",
           "contexts": {
             "It also is 100 times more sensitive than other tests.": {
+              "translation": "倍",
+              "pos": "n."
+            },
+            "was 100 times cheaper than other tests": {
               "translation": "倍",
               "pos": "n."
             }
@@ -16939,6 +17195,10 @@
             "It also is 100 times more sensitive than other tests.": {
               "translation": "其他的",
               "pos": "adj."
+            },
+            "was 100 times cheaper than other tests": {
+              "translation": "其他的",
+              "pos": "adj."
             }
           }
         },
@@ -16950,7 +17210,11 @@
           "meanings": "测试；试验；检验；考验",
           "contexts": {
             "It also is 100 times more sensitive than other tests.": {
-              "translation": "测试",
+              "translation": "测试；检验",
+              "pos": "n."
+            },
+            "was 100 times cheaper than other tests": {
+              "translation": "测试；检验",
               "pos": "n."
             }
           }
@@ -17195,13 +17459,21 @@
         },
         "what": {
           "lemma": "what",
-          "translation": "……的事物",
+          "translation": "什么",
           "pos": "pronoun",
           "forms": "无常见变形",
           "meanings": "什么；……的事物；多么",
           "contexts": {
             "I wanted to meet this clever young man and see what he wanted to talk about and so I called him over for an interview .": {
-              "translation": "……的事物",
+              "translation": "什么",
+              "pos": "pronoun"
+            },
+            "What made Jack Andraka research pancreatic cancer?": {
+              "translation": "什么",
+              "pos": "pronoun"
+            },
+            "What's the best title for the text?": {
+              "translation": "什么样的",
               "pos": "pronoun"
             }
           }
@@ -17231,6 +17503,10 @@
               "pos": "prep."
             },
             "He is now talking with companies about developing the test into a simple product.": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "Doubts about the present test.": {
               "translation": "关于",
               "pos": "prep."
             }
@@ -17471,6 +17747,10 @@
             "He is now talking with companies about developing the test into a simple product.": {
               "translation": "公司",
               "pos": "n."
+            },
+            "was thought highly of by companies": {
+              "translation": "公司",
+              "pos": "n."
             }
           }
         },
@@ -17554,12 +17834,20 @@
         },
         "andraka's": {
           "lemma": "Andraka",
-          "translation": "安德拉卡（人名）",
+          "translation": "安德拉卡的",
           "pos": "n.",
           "forms": "无常见变形",
           "meanings": "安德拉卡（姓氏）；安德拉卡的",
           "contexts": {
             "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.": {
+              "translation": "安德拉卡的",
+              "pos": "n."
+            },
+            "Jack Andraka's research on pancreatic cancer   _  .": {
+              "translation": "安德拉卡的",
+              "pos": "n."
+            },
+            "Jack Andraka's Fights Against Cancer": {
               "translation": "安德拉卡的",
               "pos": "n."
             }
@@ -17749,17 +18037,21 @@
         },
         "maitra": {
           "lemma": "maitra",
-          "translation": "迈特拉（人名）",
+          "translation": "迈特拉",
           "pos": "n.",
           "forms": "无常见变形",
           "meanings": "迈特拉（姓氏）",
           "contexts": {
             "Jack's success wouldn't have been possible without Anirban Maitra, a professor at Johns Hopkins.": {
-              "translation": "迈特拉",
+              "translation": "迈特拉（人名）",
               "pos": "n."
             },
             "\"\nJack worked in Professor Maitra's laboratory, completing his project in 7 months.": {
-              "translation": "迈特拉",
+              "translation": "迈特拉（人名）",
+              "pos": "n."
+            },
+            "left a deep impression on Professor Maitra": {
+              "translation": "迈特拉（人名）",
               "pos": "n."
             }
           }
@@ -17780,6 +18072,14 @@
               "pos": "n."
             },
             "Whatever happens, the professor believes Jack Andraka's name is one we will be hearing again over the next 10 to 20 years.": {
+              "translation": "教授",
+              "pos": "n."
+            },
+            "A professor's encouragement.": {
+              "translation": "教授",
+              "pos": "n."
+            },
+            "left a deep impression on Professor Maitra": {
               "translation": "教授",
               "pos": "n."
             }
@@ -17894,6 +18194,10 @@
             "\"I was very surprised that this was a 15-year-old who was writing this.": {
               "translation": "非常",
               "pos": "adv."
+            },
+            "proved to be very successful": {
+              "translation": "非常",
+              "pos": "adv."
             }
           }
         },
@@ -17936,6 +18240,447 @@
           "contexts": {
             "\"I was very surprised that this was a 15-year-old who was writing this.": {
               "translation": "年",
+              "pos": "n."
+            }
+          }
+        },
+        "made": {
+          "lemma": "make",
+          "translation": "促使",
+          "pos": "v.",
+          "forms": "making, made, makes",
+          "meanings": "制造；使；做出；赚取；创作",
+          "contexts": {
+            "What made Jack Andraka research pancreatic cancer?": {
+              "translation": "促使",
+              "pos": "v."
+            }
+          }
+        },
+        "research": {
+          "lemma": "research",
+          "translation": "研究",
+          "pos": "v.",
+          "forms": "researched, researching, researches",
+          "meanings": "研究；调查；探讨；研究工作",
+          "contexts": {
+            "What made Jack Andraka research pancreatic cancer?": {
+              "translation": "研究",
+              "pos": "v."
+            },
+            "Jack Andraka's research on pancreatic cancer   _  .": {
+              "translation": "研究",
+              "pos": "n."
+            },
+            "Research on Pancreatic Cancer": {
+              "translation": "研究",
+              "pos": "n."
+            }
+          }
+        },
+        "task": {
+          "lemma": "task",
+          "translation": "任务",
+          "pos": "n.",
+          "forms": "tasks",
+          "meanings": "任务；工作；课题；艰巨工作",
+          "contexts": {
+            "A high school task.": {
+              "translation": "任务",
+              "pos": "n."
+            }
+          }
+        },
+        "professor's": {
+          "lemma": "professor",
+          "translation": "教授的",
+          "pos": "n.",
+          "forms": "professors",
+          "meanings": "教授；教师；声称者；声言者",
+          "contexts": {
+            "A professor's encouragement.": {
+              "translation": "教授的",
+              "pos": "n."
+            }
+          }
+        },
+        "encouragement": {
+          "lemma": "encouragement",
+          "translation": "鼓励",
+          "pos": "n.",
+          "forms": "encouragements",
+          "meanings": "鼓励；激励；支持；促进",
+          "contexts": {
+            "A professor's encouragement.": {
+              "translation": "鼓励",
+              "pos": "n."
+            }
+          }
+        },
+        "doubts": {
+          "lemma": "doubt",
+          "translation": "怀疑",
+          "pos": "n.",
+          "forms": "doubted, doubting, doubts",
+          "meanings": "怀疑；疑虑；不信任；困惑",
+          "contexts": {
+            "Doubts about the present test.": {
+              "translation": "怀疑；质疑",
+              "pos": "n."
+            }
+          }
+        },
+        "present": {
+          "lemma": "present",
+          "translation": "目前的",
+          "pos": "adj.",
+          "forms": "presents, presented, presenting",
+          "meanings": "目前的；出席的；现在的；礼物",
+          "contexts": {
+            "Doubts about the present test.": {
+              "translation": "目前的",
+              "pos": "adj."
+            }
+          }
+        },
+        "successful": {
+          "lemma": "successful",
+          "translation": "成功的",
+          "pos": "adj.",
+          "forms": "successfully (adv.)",
+          "meanings": "成功的；圆满的；有成就的",
+          "contexts": {
+            "proved to be very successful": {
+              "translation": "成功的",
+              "pos": "adj."
+            }
+          }
+        },
+        "cheaper": {
+          "lemma": "cheap",
+          "translation": "更便宜的",
+          "pos": "adj.",
+          "forms": "cheaper, cheapest",
+          "meanings": "便宜的；低廉的；更便宜的",
+          "contexts": {
+            "was 100 times cheaper than other tests": {
+              "translation": "更便宜的",
+              "pos": "adj."
+            }
+          }
+        },
+        "gave": {
+          "lemma": "give",
+          "translation": "给予",
+          "pos": "v.",
+          "forms": "gives, gave, given, giving",
+          "meanings": "给予；提供；交给；举办；产生",
+          "contexts": {
+            "gave patients a 90% chance of survival": {
+              "translation": "给予",
+              "pos": "v."
+            }
+          }
+        },
+        "patients": {
+          "lemma": "patient",
+          "translation": "患者",
+          "pos": "n.",
+          "forms": "patients",
+          "meanings": "患者；病人；忍耐的；耐心的",
+          "contexts": {
+            "gave patients a 90% chance of survival": {
+              "translation": "患者",
+              "pos": "n."
+            }
+          }
+        },
+        "finished": {
+          "lemma": "finish",
+          "translation": "完成",
+          "pos": "v.",
+          "forms": "finishes, finished, finishing",
+          "meanings": "完成；结束；做完；最后处理",
+          "contexts": {
+            "was finished at the high school of Maryland": {
+              "translation": "完成",
+              "pos": "v."
+            }
+          }
+        },
+        "infer": {
+          "lemma": "infer",
+          "translation": "推断",
+          "pos": "v.",
+          "forms": "infers, inferred, inferring",
+          "meanings": "推断；推论；暗示；推导",
+          "contexts": {
+            "We can infer from the text that Jack Andraka   _  .": {
+              "translation": "推断",
+              "pos": "v."
+            }
+          }
+        },
+        "text": {
+          "lemma": "text",
+          "translation": "文本",
+          "pos": "n.",
+          "forms": "texts",
+          "meanings": "文本；正文；课文；短信；段落",
+          "contexts": {
+            "We can infer from the text that Jack Andraka   _  .": {
+              "translation": "文本",
+              "pos": "n."
+            },
+            "What's the best title for the text?": {
+              "translation": "文本",
+              "pos": "n."
+            }
+          }
+        },
+        "left": {
+          "lemma": "leave",
+          "translation": "留下",
+          "pos": "v.",
+          "forms": "leaves, leaving, left",
+          "meanings": "离开；丢下；留下；遗留；使处于某种状态",
+          "contexts": {
+            "left a deep impression on Professor Maitra": {
+              "translation": "留下",
+              "pos": "v."
+            }
+          }
+        },
+        "deep": {
+          "lemma": "deep",
+          "translation": "深刻的",
+          "pos": "adj.",
+          "forms": "deeper, deepest",
+          "meanings": "深的；深重的；深刻的；深奥的",
+          "contexts": {
+            "left a deep impression on Professor Maitra": {
+              "translation": "深刻的",
+              "pos": "adj."
+            }
+          }
+        },
+        "impression": {
+          "lemma": "impression",
+          "translation": "印象",
+          "pos": "n.",
+          "forms": "impressions",
+          "meanings": "印象；印记；压痕；感触",
+          "contexts": {
+            "left a deep impression on Professor Maitra": {
+              "translation": "印象",
+              "pos": "n."
+            }
+          }
+        },
+        "thought": {
+          "lemma": "think",
+          "translation": "被认为",
+          "pos": "v.",
+          "forms": "thought, thinking, thinks",
+          "meanings": "认为；想；思考；打算",
+          "contexts": {
+            "was thought highly of by companies": {
+              "translation": "被认为",
+              "pos": "v."
+            }
+          }
+        },
+        "highly": {
+          "lemma": "highly",
+          "translation": "高度地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "高度地；极；非常；大大地",
+          "contexts": {
+            "was thought highly of by companies": {
+              "translation": "高度地",
+              "pos": "adv."
+            }
+          }
+        },
+        "by": {
+          "lemma": "by",
+          "translation": "被",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "通过；被；凭借；在……旁边",
+          "contexts": {
+            "was thought highly of by companies": {
+              "translation": "被",
+              "pos": "prep."
+            }
+          }
+        },
+        "got": {
+          "lemma": "get",
+          "translation": "得到",
+          "pos": "v.",
+          "forms": "got, gotten/got, getting",
+          "meanings": "得到；变成；到达；明白",
+          "contexts": {
+            "got support from others easily": {
+              "translation": "得到",
+              "pos": "v."
+            }
+          }
+        },
+        "support": {
+          "lemma": "support",
+          "translation": "支持",
+          "pos": "n.",
+          "forms": "supports, supported, supporting",
+          "meanings": "支持；支撑；赡养；维持；拥护",
+          "contexts": {
+            "got support from others easily": {
+              "translation": "支持",
+              "pos": "n."
+            }
+          }
+        },
+        "others": {
+          "lemma": "other",
+          "translation": "其他人",
+          "pos": "pron.",
+          "forms": "others",
+          "meanings": "其他人；别的人；其余的人；另外的人",
+          "contexts": {
+            "got support from others easily": {
+              "translation": "其他人",
+              "pos": "pron."
+            }
+          }
+        },
+        "easily": {
+          "lemma": "easily",
+          "translation": "容易地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "容易地；轻易地；无疑地",
+          "contexts": {
+            "got support from others easily": {
+              "translation": "容易地",
+              "pos": "adv."
+            }
+          }
+        },
+        "wasn't": {
+          "lemma": "be",
+          "translation": "不是",
+          "pos": "v.",
+          "forms": "am, is, are, was, were, been, being",
+          "meanings": "是；存在；在；（构成进行时或被动语态）",
+          "contexts": {
+            "wasn't afraid of failure": {
+              "translation": "不是",
+              "pos": "v."
+            }
+          }
+        },
+        "afraid": {
+          "lemma": "afraid",
+          "translation": "害怕的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "害怕的；担心的；不敢的；恐怕",
+          "contexts": {
+            "wasn't afraid of failure": {
+              "translation": "害怕的",
+              "pos": "adj."
+            }
+          }
+        },
+        "failure": {
+          "lemma": "failure",
+          "translation": "失败",
+          "pos": "n.",
+          "forms": "failures",
+          "meanings": "失败；失败的人或事；衰竭；故障",
+          "contexts": {
+            "wasn't afraid of failure": {
+              "translation": "失败",
+              "pos": "n."
+            }
+          }
+        },
+        "what's": {
+          "lemma": "what is",
+          "translation": "是什么",
+          "pos": "pron.+v.",
+          "forms": "无常见变形",
+          "meanings": "是什么；……的东西",
+          "contexts": {
+            "What's the best title for the text?": {
+              "translation": "是什么",
+              "pos": "pron.+v."
+            }
+          }
+        },
+        "best": {
+          "lemma": "best",
+          "translation": "最好的",
+          "pos": "adj.",
+          "forms": "better, best",
+          "meanings": "最好的；最佳的；最好地；最",
+          "contexts": {
+            "What's the best title for the text?": {
+              "translation": "最好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "title": {
+          "lemma": "title",
+          "translation": "标题",
+          "pos": "n.",
+          "forms": "titles",
+          "meanings": "标题；题目；称号；头衔；冠军",
+          "contexts": {
+            "What's the best title for the text?": {
+              "translation": "标题",
+              "pos": "n."
+            }
+          }
+        },
+        "fights": {
+          "lemma": "fight",
+          "translation": "战斗；对抗",
+          "pos": "n.",
+          "forms": "fight, fights, fought, fighting",
+          "meanings": "战斗；搏斗；对抗；争吵；战斗精神",
+          "contexts": {
+            "Jack Andraka's Fights Against Cancer": {
+              "translation": "对抗；战斗",
+              "pos": "n."
+            }
+          }
+        },
+        "against": {
+          "lemma": "against",
+          "translation": "反对；对抗",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "反对；对抗；倚靠；预防；对照",
+          "contexts": {
+            "Jack Andraka's Fights Against Cancer": {
+              "translation": "对抗",
+              "pos": "prep."
+            }
+          }
+        },
+        "researcher": {
+          "lemma": "researcher",
+          "translation": "研究员",
+          "pos": "n.",
+          "forms": "researchers",
+          "meanings": "研究员；调查人员",
+          "contexts": {
+            "Teenager Cancer Researcher": {
+              "translation": "研究员",
               "pos": "n."
             }
           }
