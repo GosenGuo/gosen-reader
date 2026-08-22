@@ -2793,6 +2793,57 @@
         }
       ],
       "failures": []
+    },
+    {
+      "runId": "32575382936-quality",
+      "kind": "quality-backfill",
+      "startedAt": "2026-08-22T13:18:31.166Z",
+      "generatedAt": "2026-08-22T13:19:15.521Z",
+      "requestedArticles": 1,
+      "acceptedArticles": 1,
+      "completed": false,
+      "usage": {
+        "requests": 9,
+        "inputTokens": 20517,
+        "outputTokens": 11260,
+        "totalTokens": 31777,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": 0.00215088,
+        "reportedCosts": {},
+        "pricingComplete": true,
+        "models": {
+          "claude-haiku-4-5-20251001": {
+            "requests": 9,
+            "inputTokens": 20517,
+            "outputTokens": 11260,
+            "totalTokens": 31777,
+            "estimatedCostUsd": null,
+            "estimatedCostCny": 0.00215088
+          }
+        }
+      },
+      "articles": [
+        {
+          "articleId": "web-c5114d8c96e4f03b",
+          "title": "RACE 高中英语阅读 high11554",
+          "requests": 9,
+          "inputTokens": 20517,
+          "outputTokens": 11260,
+          "totalTokens": 31777,
+          "estimatedCostCny": 0.00215088,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 9,
+              "inputTokens": 20517,
+              "outputTokens": 11260,
+              "totalTokens": 31777,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00215088
+            }
+          }
+        }
+      ],
+      "failures": []
     }
   ]
 }
