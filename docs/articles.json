@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:58:07.093Z",
+  "generatedAt": "2026-08-22T12:58:40.669Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -66442,7 +66442,11 @@
           "meanings": "恒星；星；明星；主角",
           "contexts": {
             "Most people watching Jeremy Lin these past two months saw Jeremy Lin, New York Knicks star; but I, watching him, saw someone else.": {
-              "translation": "明星",
+              "translation": "明星（著名运动员）",
+              "pos": "n."
+            },
+            "Bob could also have been a sport star.": {
+              "translation": "体育明星",
               "pos": "n."
             }
           }
@@ -66546,13 +66550,13 @@
         },
         "that": {
           "lemma": "that",
-          "translation": "那",
+          "translation": "那个",
           "pos": "pron.",
           "forms": "those",
           "meanings": "那个；那；引导从句；因为",
           "contexts": {
             "That was my elder brother, Bob, who is athletic and energetic.": {
-              "translation": "那",
+              "translation": "那个人",
               "pos": "pron."
             },
             "We did watch some of his marathons, but that wasn't until he was in his 20s.": {
@@ -66560,12 +66564,16 @@
               "pos": "pron."
             },
             "It wasn't until my younger sister came along that someone in the family finally wore a white coat.": {
-              "translation": "引导从句",
+              "translation": "直到……才；引导强调句",
               "pos": "conj."
             },
             "How is it that Jeremy Lin's immigrant father in particular, Gie-Ming Lin, encouraged his son to follow such an untraditional path?": {
-              "translation": "引导从句",
-              "pos": "conj."
+              "translation": "怎样；为什么",
+              "pos": "adv."
+            },
+            "From the passage we can tell that Bob is   _  .": {
+              "translation": "那",
+              "pos": "pron."
             }
           }
         },
@@ -66573,7 +66581,7 @@
           "lemma": "be",
           "translation": "是",
           "pos": "v.",
-          "forms": "am, is, are, was, were, being, been",
+          "forms": "am, is, are, were, being, been",
           "meanings": "是；位于；在；存在；成为",
           "contexts": {
             "That was my elder brother, Bob, who is athletic and energetic.": {
@@ -66581,7 +66589,7 @@
               "pos": "v."
             },
             "He could never sit still when he was in second grade; he had to get up every now and then and run around the room.": {
-              "translation": "处于",
+              "translation": "在；处于",
               "pos": "v."
             },
             "He was a Nike-endorsed marathoner, too, and reached the top of Mt.": {
@@ -66589,15 +66597,35 @@
               "pos": "v."
             },
             "We did watch some of his marathons, but that wasn't until he was in his 20s.": {
-              "translation": "是",
+              "translation": "在；处于",
               "pos": "v."
             },
             "When Bob was in his glory days, our Shanghainese-born parents were bent on getting him into medical school.": {
-              "translation": "处于",
+              "translation": "在；处于",
               "pos": "v."
             },
             "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.": {
-              "translation": "存在",
+              "translation": "有",
+              "pos": "v."
+            },
+            "when he was doing well in math": {
+              "translation": "在；处于",
+              "pos": "v."
+            },
+            "when he was in second grade": {
+              "translation": "在；处于",
+              "pos": "v."
+            },
+            "when he was made mayor of his building": {
+              "translation": "被选为",
+              "pos": "v."
+            },
+            "Bob was always ignored by his parents": {
+              "translation": "被",
+              "pos": "v."
+            },
+            "Nobody in the author's family was a doctor.": {
+              "translation": "是",
               "pos": "v."
             }
           }
@@ -66695,6 +66723,26 @@
             "No one sees Bob without leaving with a laugh.": {
               "translation": "鲍勃（人名）",
               "pos": "n."
+            },
+            "Bob's glory days were those   _  .": {
+              "translation": "鲍勃（人名）",
+              "pos": "n."
+            },
+            "From the passage we can tell that Bob is   _  .": {
+              "translation": "鲍勃（人名）",
+              "pos": "n."
+            },
+            "Bob was always ignored by his parents": {
+              "translation": "鲍勃（人名）",
+              "pos": "n."
+            },
+            "Bob could also have been a sport star.": {
+              "translation": "鲍勃（人名）",
+              "pos": "n."
+            },
+            "Bob's parents often watched his games.": {
+              "translation": "鲍勃（人名）",
+              "pos": "n."
             }
           }
         },
@@ -66727,6 +66775,14 @@
               "pos": "v."
             },
             "How is it that Jeremy Lin's immigrant father in particular, Gie-Ming Lin, encouraged his son to follow such an untraditional path?": {
+              "translation": "怎样是；为什么是",
+              "pos": "v."
+            },
+            "From the passage we can tell that Bob is   _  .": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Which of the following statements is probably TRUE?": {
               "translation": "是",
               "pos": "v."
             }
@@ -66753,11 +66809,11 @@
           "meanings": "和；而且；然后；接着",
           "contexts": {
             "That was my elder brother, Bob, who is athletic and energetic.": {
-              "translation": "和",
+              "translation": "和；而且",
               "pos": "conj."
             },
             "He could never sit still when he was in second grade; he had to get up every now and then and run around the room.": {
-              "translation": "并且",
+              "translation": "而且；然后",
               "pos": "conj."
             },
             "And sure enough, he grew up to be a starting player for an N.": {
@@ -66765,15 +66821,15 @@
               "pos": "conj."
             },
             "He was a Nike-endorsed marathoner, too, and reached the top of Mt.": {
-              "translation": "并且",
+              "translation": "而且",
               "pos": "conj."
             },
             "And yet my family never watched his lacrosse games.": {
-              "translation": "然而",
+              "translation": "而且；反而",
               "pos": "conj."
             },
             "Bob never did become a doctor, though; and neither did I.": {
-              "translation": "并且",
+              "translation": "而且",
               "pos": "conj."
             },
             "And, like Jeremy Lin, he's charming.": {
@@ -66781,19 +66837,35 @@
               "pos": "conj."
             },
             "He sometimes jokes he could be mayor of his building, and it's true.": {
-              "translation": "并且",
+              "translation": "而且",
               "pos": "conj."
             },
             "And yet my parents did not cheer for him.": {
-              "translation": "然而",
+              "translation": "而且",
               "pos": "conj."
             },
             "What if my father had played videos of athletes for my brother to watch and imitate?": {
-              "translation": "并且",
+              "translation": "和",
               "pos": "conj."
             },
             "And how did Jeremy Lin's parents manage to do these remarkable things?": {
-              "translation": "并且",
+              "translation": "而且",
+              "pos": "conj."
+            },
+            "active and optimistic": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "clever and determined": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "brave and helpful": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "considerate and independent": {
+              "translation": "和",
               "pos": "conj."
             }
           }
@@ -66819,7 +66891,7 @@
           "meanings": "他；（指代男性）；某人；那个人",
           "contexts": {
             "He could never sit still when he was in second grade; he had to get up every now and then and run around the room.": {
-              "translation": "他（指代该男生）",
+              "translation": "他",
               "pos": "pron."
             },
             "And sure enough, he grew up to be a starting player for an N.": {
@@ -66831,7 +66903,7 @@
               "pos": "pron."
             },
             "We did watch some of his marathons, but that wasn't until he was in his 20s.": {
-              "translation": "他",
+              "translation": "他的",
               "pos": "pron."
             },
             "His doctor estimates his biological age at 35; he's still climbing big mountains in the Himalayas.": {
@@ -66845,6 +66917,22 @@
             "He sometimes jokes he could be mayor of his building, and it's true.": {
               "translation": "他",
               "pos": "pron."
+            },
+            "when he was doing well in math": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "when he was in second grade": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "when he was made mayor of his building": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "when he showed his talents in sports": {
+              "translation": "他",
+              "pos": "pron."
             }
           }
         },
@@ -66856,15 +66944,19 @@
           "meanings": "能够；可能；可以；用于疑问句表示惊讶或困惑",
           "contexts": {
             "He could never sit still when he was in second grade; he had to get up every now and then and run around the room.": {
-              "translation": "能够（过去的能力）",
+              "translation": "能够；从不",
               "pos": "modal v."
             },
             "Bob today could be the fittest 58-year-old on the planet.": {
-              "translation": "可能",
+              "translation": "可能是；可以是",
               "pos": "modal v."
             },
             "He sometimes jokes he could be mayor of his building, and it's true.": {
-              "translation": "可能",
+              "translation": "可能是；可以是",
+              "pos": "modal v."
+            },
+            "Bob could also have been a sport star.": {
+              "translation": "本可以；曾可能",
               "pos": "modal v."
             }
           }
@@ -66928,10 +67020,26 @@
           "meanings": "当……时；在……时候；既然；考虑到",
           "contexts": {
             "He could never sit still when he was in second grade; he had to get up every now and then and run around the room.": {
-              "translation": "当……时",
+              "translation": "当……时；在……时候",
               "pos": "conj."
             },
             "When Bob was in his glory days, our Shanghainese-born parents were bent on getting him into medical school.": {
+              "translation": "当……时；在……时候",
+              "pos": "conj."
+            },
+            "when he was doing well in math": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "when he was in second grade": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "when he was made mayor of his building": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "when he showed his talents in sports": {
               "translation": "当……时",
               "pos": "conj."
             }
@@ -66945,35 +67053,51 @@
           "meanings": "在……之内；在……方面；在……期间；处于（某种状态）",
           "contexts": {
             "He could never sit still when he was in second grade; he had to get up every now and then and run around the room.": {
-              "translation": "在……期间（年级）",
+              "translation": "在……时候；在（某个年级）",
               "pos": "prep."
             },
             "Everest, unguided, in his 50s.": {
-              "translation": "在……期间（年龄段）",
+              "translation": "在……时；在（某个年纪）",
               "pos": "prep."
             },
             "We did watch some of his marathons, but that wasn't until he was in his 20s.": {
-              "translation": "在……期间（年龄段）",
+              "translation": "在（某个年纪）",
               "pos": "prep."
             },
             "When Bob was in his glory days, our Shanghainese-born parents were bent on getting him into medical school.": {
-              "translation": "在……期间（年龄段）",
+              "translation": "在……时期；在（某个时候）",
               "pos": "prep."
             },
             "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.": {
-              "translation": "在……里",
+              "translation": "在；在……地方",
               "pos": "prep."
             },
             "It wasn't until my younger sister came along that someone in the family finally wore a white coat.": {
-              "translation": "在……之中",
+              "translation": "在；在……中",
               "pos": "prep."
             },
             "His doctor estimates his biological age at 35; he's still climbing big mountains in the Himalayas.": {
-              "translation": "在……里",
+              "translation": "在；在……地方",
               "pos": "prep."
             },
             "How is it that Jeremy Lin's immigrant father in particular, Gie-Ming Lin, encouraged his son to follow such an untraditional path?": {
-              "translation": "在……之中",
+              "translation": "特别是；尤其是",
+              "pos": "prep."
+            },
+            "when he was doing well in math": {
+              "translation": "在；在……方面",
+              "pos": "prep."
+            },
+            "when he was in second grade": {
+              "translation": "在；在（某个年级）",
+              "pos": "prep."
+            },
+            "when he showed his talents in sports": {
+              "translation": "在；在……方面",
+              "pos": "prep."
+            },
+            "Nobody in the author's family was a doctor.": {
+              "translation": "在；在……中",
               "pos": "prep."
             }
           }
@@ -66986,7 +67110,11 @@
           "meanings": "第二；秒；瞬间；第二名",
           "contexts": {
             "He could never sit still when he was in second grade; he had to get up every now and then and run around the room.": {
-              "translation": "第二（年级）",
+              "translation": "第二",
+              "pos": "adj."
+            },
+            "when he was in second grade": {
+              "translation": "第二",
               "pos": "adj."
             }
           }
@@ -66999,6 +67127,10 @@
           "meanings": "年级；等级；成绩；分级",
           "contexts": {
             "He could never sit still when he was in second grade; he had to get up every now and then and run around the room.": {
+              "translation": "年级",
+              "pos": "n."
+            },
+            "when he was in second grade": {
               "translation": "年级",
               "pos": "n."
             }
@@ -67163,41 +67295,53 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "这/那",
+          "translation": "这；那",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这；那；（用于特指）；（用于最高级前）；（专有名词前）",
           "contexts": {
             "He could never sit still when he was in second grade; he had to get up every now and then and run around the room.": {
-              "translation": "（用于特指房间）",
+              "translation": "这（表特指）",
               "pos": "art."
             },
             "He was a Nike-endorsed marathoner, too, and reached the top of Mt.": {
-              "translation": "（用于特指顶端）",
+              "translation": "这（表特指）",
               "pos": "art."
             },
             "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.": {
-              "translation": "（用于特指黑板/阁楼）",
+              "translation": "那个（表特指）",
               "pos": "art."
             },
             "It wasn't until my younger sister came along that someone in the family finally wore a white coat.": {
-              "translation": "（用于特指家庭）",
+              "translation": "这个（表特指）",
               "pos": "art."
             },
             "Bob today could be the fittest 58-year-old on the planet.": {
-              "translation": "（用于特指星球）",
+              "translation": "最（用于最高级前）",
               "pos": "art."
             },
             "His doctor estimates his biological age at 35; he's still climbing big mountains in the Himalayas.": {
-              "translation": "（用于特指医生/山脉）",
+              "translation": "这（表特指）",
               "pos": "art."
             },
             "What if my mother had sat on the sidelines with her statistics, like Jeremy Lin's mother?": {
-              "translation": "（用于特指母亲）",
+              "translation": "这个（表特指）",
               "pos": "art."
             },
             "Amy Chua, the tiger mother, recalls her immigrant father beating the kids whenever they mispronounced a Chinese word.": {
-              "translation": "（用于特指老虎母亲）",
+              "translation": "那个（表特指）",
+              "pos": "art."
+            },
+            "From the passage we can tell that Bob is   _  .": {
+              "translation": "这（表特指）",
+              "pos": "art."
+            },
+            "Which of the following statements is probably TRUE?": {
+              "translation": "这个（表特指）",
+              "pos": "art."
+            },
+            "Nobody in the author's family was a doctor.": {
+              "translation": "这个（表特指）",
               "pos": "art."
             }
           }
@@ -67295,7 +67439,7 @@
               "pos": "art."
             },
             "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.": {
-              "translation": "一个",
+              "translation": "一个（表爱好的方面）",
               "pos": "art."
             },
             "Bob never did become a doctor, though; and neither did I.": {
@@ -67311,6 +67455,14 @@
               "pos": "art."
             },
             "Amy Chua, the tiger mother, recalls her immigrant father beating the kids whenever they mispronounced a Chinese word.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Bob could also have been a sport star.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Nobody in the author's family was a doctor.": {
               "translation": "一个",
               "pos": "art."
             }
@@ -67539,19 +67691,27 @@
           "meanings": "……的；关于；属于；由……组成；（表示数量或部分）",
           "contexts": {
             "He was a Nike-endorsed marathoner, too, and reached the top of Mt.": {
-              "translation": "……的",
+              "translation": "……的（表属地）",
               "pos": "prep."
             },
             "We did watch some of his marathons, but that wasn't until he was in his 20s.": {
-              "translation": "……中的一部分",
+              "translation": "（表示数量或部分）",
               "pos": "prep."
             },
             "He sometimes jokes he could be mayor of his building, and it's true.": {
-              "translation": "……的",
+              "translation": "……的（表属地）",
               "pos": "prep."
             },
             "What if my father had played videos of athletes for my brother to watch and imitate?": {
-              "translation": "关于，含有……内容的",
+              "translation": "（表示动作或活动的对象）",
+              "pos": "prep."
+            },
+            "when he was made mayor of his building": {
+              "translation": "……的（表属地）",
+              "pos": "prep."
+            },
+            "Which of the following statements is probably TRUE?": {
+              "translation": "……的",
               "pos": "prep."
             }
           }
@@ -67629,30 +67789,46 @@
             "How is it that Jeremy Lin's immigrant father in particular, Gie-Ming Lin, encouraged his son to follow such an untraditional path?": {
               "translation": "他的",
               "pos": "pron."
+            },
+            "when he was made mayor of his building": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "when he showed his talents in sports": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "Bob was always ignored by his parents": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "Bob's parents often watched his games.": {
+              "translation": "他的",
+              "pos": "pron."
             }
           }
         },
         "s": {
           "lemma": "s",
-          "translation": "（用于构成复数、所有格或缩写）",
+          "translation": "复数词尾",
           "pos": "suffix",
           "forms": "无常见变形",
           "meanings": "复数词尾；所有格符号；表示缩写",
           "contexts": {
             "Everest, unguided, in his 50s.": {
-              "translation": "复数词尾（表示年代）",
+              "translation": "所有格符号",
               "pos": "suffix"
             },
             "We did watch some of his marathons, but that wasn't until he was in his 20s.": {
-              "translation": "复数词尾（表示年代）",
+              "translation": "复数词尾",
               "pos": "suffix"
             },
             "His doctor estimates his biological age at 35; he's still climbing big mountains in the Himalayas.": {
-              "translation": "缩写（he is）",
+              "translation": "所有格符号",
               "pos": "suffix"
             },
             "And, like Jeremy Lin, he's charming.": {
-              "translation": "缩写（he is）",
+              "translation": "所有格符号",
               "pos": "suffix"
             },
             "He sometimes jokes he could be mayor of his building, and it's true.": {
@@ -67664,7 +67840,7 @@
               "pos": "suffix"
             },
             "It's hard not to wonder.": {
-              "translation": "缩写（it is）",
+              "translation": "所有格符号",
               "pos": "suffix"
             },
             "And how did Jeremy Lin's parents manage to do these remarkable things?": {
@@ -67672,6 +67848,18 @@
               "pos": "suffix"
             },
             "How is it that Jeremy Lin's immigrant father in particular, Gie-Ming Lin, encouraged his son to follow such an untraditional path?": {
+              "translation": "所有格符号",
+              "pos": "suffix"
+            },
+            "Bob's glory days were those   _  .": {
+              "translation": "所有格符号",
+              "pos": "suffix"
+            },
+            "Bob's parents often watched his games.": {
+              "translation": "所有格符号",
+              "pos": "suffix"
+            },
+            "Nobody in the author's family was a doctor.": {
               "translation": "所有格符号",
               "pos": "suffix"
             }
@@ -67708,6 +67896,10 @@
             "It wasn't until my younger sister came along that someone in the family finally wore a white coat.": {
               "translation": "家庭",
               "pos": "n."
+            },
+            "Nobody in the author's family was a doctor.": {
+              "translation": "家庭",
+              "pos": "n."
             }
           }
         },
@@ -67719,6 +67911,10 @@
           "meanings": "观看；注视；看守；当心",
           "contexts": {
             "And yet my family never watched his lacrosse games.": {
+              "translation": "观看",
+              "pos": "v."
+            },
+            "Bob's parents often watched his games.": {
               "translation": "观看",
               "pos": "v."
             }
@@ -67734,6 +67930,10 @@
             "And yet my family never watched his lacrosse games.": {
               "translation": "比赛",
               "pos": "n."
+            },
+            "Bob's parents often watched his games.": {
+              "translation": "比赛",
+              "pos": "n."
             }
           }
         },
@@ -67745,6 +67945,10 @@
           "meanings": "我们；大家；本人；咱们",
           "contexts": {
             "We did watch some of his marathons, but that wasn't until he was in his 20s.": {
+              "translation": "我们",
+              "pos": "pron."
+            },
+            "From the passage we can tell that Bob is   _  .": {
               "translation": "我们",
               "pos": "pron."
             }
@@ -67860,7 +68064,11 @@
           "meanings": "辉煌；光荣；荣誉；极大的赞美",
           "contexts": {
             "When Bob was in his glory days, our Shanghainese-born parents were bent on getting him into medical school.": {
-              "translation": "辉煌",
+              "translation": "辉煌时期",
+              "pos": "n."
+            },
+            "Bob's glory days were those   _  .": {
+              "translation": "辉煌时期",
               "pos": "n."
             }
           }
@@ -67873,6 +68081,10 @@
           "meanings": "时期；天；白天；日子",
           "contexts": {
             "When Bob was in his glory days, our Shanghainese-born parents were bent on getting him into medical school.": {
+              "translation": "时期",
+              "pos": "n."
+            },
+            "Bob's glory days were those   _  .": {
               "translation": "时期",
               "pos": "n."
             }
@@ -67935,6 +68147,14 @@
             "And how did Jeremy Lin's parents manage to do these remarkable things?": {
               "translation": "父母",
               "pos": "n."
+            },
+            "Bob was always ignored by his parents": {
+              "translation": "父母",
+              "pos": "n."
+            },
+            "Bob's parents often watched his games.": {
+              "translation": "父母",
+              "pos": "n."
             }
           }
         },
@@ -67946,6 +68166,10 @@
           "meanings": "是；位于；存在；变为",
           "contexts": {
             "When Bob was in his glory days, our Shanghainese-born parents were bent on getting him into medical school.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Bob's glory days were those   _  .": {
               "translation": "是",
               "pos": "v."
             }
@@ -68115,6 +68339,10 @@
             "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.": {
               "translation": "能够",
               "pos": "modal verb"
+            },
+            "From the passage we can tell that Bob is   _  .": {
+              "translation": "能够",
+              "pos": "modal verb"
             }
           }
         },
@@ -68192,6 +68420,10 @@
             "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.": {
               "translation": "数学",
               "pos": "n."
+            },
+            "when he was doing well in math": {
+              "translation": "数学",
+              "pos": "n."
             }
           }
         },
@@ -68244,13 +68476,17 @@
         },
         "by": {
           "lemma": "by",
-          "translation": "逐一地",
+          "translation": "通过",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "通过；被；凭借；在……旁边；逐……地",
           "contexts": {
             "There was a loving aspect to it: I can remember my father working through math books with him, lesson by lesson, at the big blackboard in the attic.": {
               "translation": "逐……地",
+              "pos": "prep."
+            },
+            "Bob was always ignored by his parents": {
+              "translation": "被",
               "pos": "prep."
             }
           }
@@ -68340,6 +68576,10 @@
               "pos": "n."
             },
             "His doctor estimates his biological age at 35; he's still climbing big mountains in the Himalayas.": {
+              "translation": "医生",
+              "pos": "n."
+            },
+            "Nobody in the author's family was a doctor.": {
               "translation": "医生",
               "pos": "n."
             }
@@ -68779,18 +69019,26 @@
             "He sometimes jokes he could be mayor of his building, and it's true.": {
               "translation": "市长",
               "pos": "n."
+            },
+            "when he was made mayor of his building": {
+              "translation": "市长",
+              "pos": "n."
             }
           }
         },
         "building": {
           "lemma": "building",
-          "translation": "建筑物",
+          "translation": "楼房",
           "pos": "n.",
           "forms": "buildings",
           "meanings": "建筑物；楼房；建筑业；建造",
           "contexts": {
             "He sometimes jokes he could be mayor of his building, and it's true.": {
-              "translation": "建筑物",
+              "translation": "楼房",
+              "pos": "n."
+            },
+            "when he was made mayor of his building": {
+              "translation": "楼房",
               "pos": "n."
             }
           }
@@ -68821,6 +69069,10 @@
           "contexts": {
             "He sometimes jokes he could be mayor of his building, and it's true.": {
               "translation": "真实的",
+              "pos": "adj."
+            },
+            "Which of the following statements is probably TRUE?": {
+              "translation": "正确的",
               "pos": "adj."
             }
           }
@@ -69421,6 +69673,426 @@
             "How is it that Jeremy Lin's immigrant father in particular, Gie-Ming Lin, encouraged his son to follow such an untraditional path?": {
               "translation": "道路",
               "pos": "n."
+            }
+          }
+        },
+        "bob's": {
+          "lemma": "bob",
+          "translation": "鲍勃的（所有格）",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "鲍勃（人名）；轻快地上下摇动；鲍勃发型",
+          "contexts": {
+            "Bob's glory days were those   _  .": {
+              "translation": "鲍勃的",
+              "pos": "n."
+            },
+            "Bob's parents often watched his games.": {
+              "translation": "鲍勃的",
+              "pos": "n."
+            }
+          }
+        },
+        "those": {
+          "lemma": "those",
+          "translation": "那些",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "那些；（特指）那部分人；那样的",
+          "contexts": {
+            "Bob's glory days were those   _  .": {
+              "translation": "那些",
+              "pos": "pron."
+            }
+          }
+        },
+        "doing": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "v.",
+          "forms": "does, did, done, doing",
+          "meanings": "做；干；从事；表现；进行",
+          "contexts": {
+            "when he was doing well in math": {
+              "translation": "做得",
+              "pos": "v."
+            }
+          }
+        },
+        "well": {
+          "lemma": "well",
+          "translation": "很好地",
+          "pos": "adv.",
+          "forms": "better, best",
+          "meanings": "很好地；完全地；适当地；同样地；也",
+          "contexts": {
+            "when he was doing well in math": {
+              "translation": "很好地",
+              "pos": "adv."
+            }
+          }
+        },
+        "made": {
+          "lemma": "make",
+          "translation": "被选为",
+          "pos": "v.",
+          "forms": "making, made, makes",
+          "meanings": "制造；使；做出；赚取；被选为",
+          "contexts": {
+            "when he was made mayor of his building": {
+              "translation": "被选为",
+              "pos": "v."
+            }
+          }
+        },
+        "showed": {
+          "lemma": "show",
+          "translation": "表现出",
+          "pos": "v.",
+          "forms": "shows, showing, showed, shown/showed",
+          "meanings": "显示；表现出；展示；引路；证明",
+          "contexts": {
+            "when he showed his talents in sports": {
+              "translation": "表现出",
+              "pos": "v."
+            }
+          }
+        },
+        "talents": {
+          "lemma": "talent",
+          "translation": "天赋",
+          "pos": "n.",
+          "forms": "talents",
+          "meanings": "天赋；天才；人才；才能",
+          "contexts": {
+            "when he showed his talents in sports": {
+              "translation": "天赋",
+              "pos": "n."
+            }
+          }
+        },
+        "sports": {
+          "lemma": "sport",
+          "translation": "体育运动",
+          "pos": "n.",
+          "forms": "sports",
+          "meanings": "体育运动；体育活动；游戏；消遣；运动员",
+          "contexts": {
+            "when he showed his talents in sports": {
+              "translation": "体育运动",
+              "pos": "n."
+            }
+          }
+        },
+        "from": {
+          "lemma": "from",
+          "translation": "从",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "从；来自；因为；由于；起始",
+          "contexts": {
+            "From the passage we can tell that Bob is   _  .": {
+              "translation": "从",
+              "pos": "prep."
+            }
+          }
+        },
+        "passage": {
+          "lemma": "passage",
+          "translation": "文章",
+          "pos": "n.",
+          "forms": "passages",
+          "meanings": "文章；段落；通道；走廊；通行权",
+          "contexts": {
+            "From the passage we can tell that Bob is   _  .": {
+              "translation": "文章",
+              "pos": "n."
+            }
+          }
+        },
+        "tell": {
+          "lemma": "tell",
+          "translation": "看出",
+          "pos": "v.",
+          "forms": "tells, told, telling",
+          "meanings": "看出；讲述；告诉；吩咐",
+          "contexts": {
+            "From the passage we can tell that Bob is   _  .": {
+              "translation": "看出",
+              "pos": "v."
+            }
+          }
+        },
+        "active": {
+          "lemma": "active",
+          "translation": "积极的",
+          "pos": "adj.",
+          "forms": "actively; activeness",
+          "meanings": "有效的；活跃的；积极的；主动的",
+          "contexts": {
+            "active and optimistic": {
+              "translation": "积极的",
+              "pos": "adj."
+            }
+          }
+        },
+        "optimistic": {
+          "lemma": "optimistic",
+          "translation": "乐观的",
+          "pos": "adj.",
+          "forms": "optimistically; optimism",
+          "meanings": "乐观的；乐观主义的",
+          "contexts": {
+            "active and optimistic": {
+              "translation": "乐观的",
+              "pos": "adj."
+            }
+          }
+        },
+        "clever": {
+          "lemma": "clever",
+          "translation": "聪明的",
+          "pos": "adj.",
+          "forms": "cleverer, cleverest",
+          "meanings": "聪明的；机灵的；巧妙的",
+          "contexts": {
+            "clever and determined": {
+              "translation": "聪明的",
+              "pos": "adj."
+            }
+          }
+        },
+        "determined": {
+          "lemma": "determined",
+          "translation": "坚定的",
+          "pos": "adj.",
+          "forms": "determinedly; determination",
+          "meanings": "坚定的；有决心的；果断的",
+          "contexts": {
+            "clever and determined": {
+              "translation": "坚定的",
+              "pos": "adj."
+            }
+          }
+        },
+        "brave": {
+          "lemma": "brave",
+          "translation": "勇敢的",
+          "pos": "adj.",
+          "forms": "braver, bravest; bravely",
+          "meanings": "勇敢的；大胆的；英勇的",
+          "contexts": {
+            "brave and helpful": {
+              "translation": "勇敢的",
+              "pos": "adj."
+            }
+          }
+        },
+        "helpful": {
+          "lemma": "helpful",
+          "translation": "有帮助的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "有帮助的；有益的；有用的；乐于助人的",
+          "contexts": {
+            "brave and helpful": {
+              "translation": "有帮助的",
+              "pos": "adj."
+            }
+          }
+        },
+        "considerate": {
+          "lemma": "considerate",
+          "translation": "体贴的",
+          "pos": "adj.",
+          "forms": "considerately; consideration",
+          "meanings": "体贴的；周到的；体谅的；深思熟虑的",
+          "contexts": {
+            "considerate and independent": {
+              "translation": "体贴的",
+              "pos": "adj."
+            }
+          }
+        },
+        "independent": {
+          "lemma": "independent",
+          "translation": "独立的",
+          "pos": "adj.",
+          "forms": "independently, independence",
+          "meanings": "独立的；自主的；不依赖他人的；自立的",
+          "contexts": {
+            "considerate and independent": {
+              "translation": "独立的",
+              "pos": "adj."
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "哪一个",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
+          "contexts": {
+            "Which of the following statements is probably TRUE?": {
+              "translation": "哪一个",
+              "pos": "pron."
+            }
+          }
+        },
+        "following": {
+          "lemma": "follow",
+          "translation": "接下来的",
+          "pos": "adj.",
+          "forms": "followed, following",
+          "meanings": "接下来的；跟随；遵循；听懂",
+          "contexts": {
+            "Which of the following statements is probably TRUE?": {
+              "translation": "接下来的",
+              "pos": "adj."
+            }
+          }
+        },
+        "statements": {
+          "lemma": "statement",
+          "translation": "说法",
+          "pos": "n.",
+          "forms": "statement, statements",
+          "meanings": "陈述；说法；表述；声明；表白",
+          "contexts": {
+            "Which of the following statements is probably TRUE?": {
+              "translation": "说法",
+              "pos": "n."
+            }
+          }
+        },
+        "probably": {
+          "lemma": "probably",
+          "translation": "大概",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大概；很可能；或许；可能地；大半",
+          "contexts": {
+            "Which of the following statements is probably TRUE?": {
+              "translation": "大概",
+              "pos": "adv."
+            }
+          }
+        },
+        "always": {
+          "lemma": "always",
+          "translation": "总是",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "总是；一直；永远；始终；总之",
+          "contexts": {
+            "Bob was always ignored by his parents": {
+              "translation": "总是",
+              "pos": "adv."
+            }
+          }
+        },
+        "ignored": {
+          "lemma": "ignore",
+          "translation": "忽视",
+          "pos": "v.",
+          "forms": "ignore, ignores, ignored, ignoring",
+          "meanings": "忽视；不理睬；忽略；漠视",
+          "contexts": {
+            "Bob was always ignored by his parents": {
+              "translation": "忽视",
+              "pos": "v."
+            }
+          }
+        },
+        "also": {
+          "lemma": "also",
+          "translation": "也",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "也；同样；并且；而且；亦",
+          "contexts": {
+            "Bob could also have been a sport star.": {
+              "translation": "也",
+              "pos": "adv."
+            }
+          }
+        },
+        "have": {
+          "lemma": "have",
+          "translation": "已经",
+          "pos": "aux.",
+          "forms": "has, had, having",
+          "meanings": "有；经历；吃；已经；获得",
+          "contexts": {
+            "Bob could also have been a sport star.": {
+              "translation": "已经（构成完成时态）",
+              "pos": "aux."
+            }
+          }
+        },
+        "been": {
+          "lemma": "be",
+          "translation": "被",
+          "pos": "aux.",
+          "forms": "am, is, are, being, was, were",
+          "meanings": "是；成为；存在；被；一直是",
+          "contexts": {
+            "Bob could also have been a sport star.": {
+              "translation": "被（构成被动语态）",
+              "pos": "aux."
+            }
+          }
+        },
+        "sport": {
+          "lemma": "sport",
+          "translation": "运动",
+          "pos": "n.",
+          "forms": "sports",
+          "meanings": "运动；体育活动；游戏；消遣",
+          "contexts": {
+            "Bob could also have been a sport star.": {
+              "translation": "运动",
+              "pos": "n."
+            }
+          }
+        },
+        "often": {
+          "lemma": "often",
+          "translation": "经常",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "经常；往往；屡次；多次",
+          "contexts": {
+            "Bob's parents often watched his games.": {
+              "translation": "经常",
+              "pos": "adv."
+            }
+          }
+        },
+        "nobody": {
+          "lemma": "nobody",
+          "translation": "没有人",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "没有人；无名小卒",
+          "contexts": {
+            "Nobody in the author's family was a doctor.": {
+              "translation": "没有人",
+              "pos": "pron."
+            }
+          }
+        },
+        "author's": {
+          "lemma": "author",
+          "translation": "作者的",
+          "pos": "n. poss.",
+          "forms": "authors, authors'",
+          "meanings": "作者；创作者；著者；原因",
+          "contexts": {
+            "Nobody in the author's family was a doctor.": {
+              "translation": "作者的",
+              "pos": "n. poss."
             }
           }
         }
