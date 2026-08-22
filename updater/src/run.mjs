@@ -88,14 +88,14 @@ for (const [index, candidate] of attemptedCandidates.entries()) {
     }
     const enriched = await enrichArticle(extracted, page);
     const article = normalizeArticle(enriched, page);
-    const preliminaryErrors = validateArticle(article)
+    const preliminaryErrors = validateArticle(article, { requireQuestionGlossary: true })
       .filter(error => !error.startsWith("glossary incomplete"));
     if (preliminaryErrors.length) {
       console.log(`  rejected before glossary: ${preliminaryErrors.join("; ")}`);
       continue;
     }
     await repairArticleGlossary(article, bulkAi, wordBank);
-    const errors = validateArticle(article);
+    const errors = validateArticle(article, { requireQuestionGlossary: true });
     if (seenIds.has(article.id) || errors.length) {
       console.log(`  rejected: ${seenIds.has(article.id) ? "duplicate" : errors.join("; ")}`);
       continue;

@@ -1,5 +1,6 @@
 import crypto from "node:crypto";
 import {
+  extractArticleWords,
   extractUniqueWords,
   findIncompleteWords
 } from "./word-bank.mjs";
@@ -139,8 +140,12 @@ export function validateArticle(article, options = {}) {
   if (translated < Math.max(1, Math.floor(sentences.length * 0.85))) {
     errors.push("sentence translations cover less than 85%");
   }
-  const uniqueWords = extractUniqueWords(article.body);
-  const incompleteWords = findIncompleteWords(article);
+  const requireQuestionGlossary = options.requireQuestionGlossary === true;
+  const uniqueWords = requireQuestionGlossary
+    ? extractArticleWords(article) : extractUniqueWords(article.body);
+  const incompleteWords = findIncompleteWords(article, {
+    includeQuestions: requireQuestionGlossary
+  });
   if (!article.source.startsWith("内置示例") && incompleteWords.length > 0) {
     errors.push(
       `glossary incomplete for ${incompleteWords.length}/${uniqueWords.length} word(s): `

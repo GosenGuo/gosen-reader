@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   findIncompleteWords,
+  findArticleWordContexts,
   findWordSentences,
   mergeArticleIntoWordBank,
   repairArticleGlossary,
@@ -91,6 +92,8 @@ test("repairs every sentence context and updates the reusable word bank once", a
   assert.deepEqual(findWordSentences(article.body, "figure"), sentences.slice(0, 2));
   assert.equal(article.glossary.figure.contexts[sentences[0]].translation, "数字");
   assert.equal(article.glossary.figure.contexts[sentences[1]].translation, "认为");
+  assert.equal(article.glossary.figure.contexts["A figure"].translation, "数字");
+  assert.ok(findArticleWordContexts(article, "figure").includes("A figure"));
   assert.deepEqual(validateArticle(article), []);
 
   mergeArticleIntoWordBank(article, wordBank);

@@ -43,7 +43,7 @@ export async function repairArticleGlossary(article, minimax, wordBank) {
     for (const group of chunks(batches, GLOSSARY_CONCURRENCY)) {
       const completed = await Promise.all(group.map(async batch => {
         const requested = batch.map(word => {
-          const sentences = findWordSentences(article.body, word);
+          const sentences = findArticleWordContexts(article, word);
           return {
             word,
             contexts: sentences.map((sentence, index) => ({ id: `s${index}`, sentence })),
@@ -91,8 +91,8 @@ Return a contexts item for every supplied context id. Determine each meaning fro
 
 export function mergeArticleIntoWordBank(article, wordBank) {
   const now = new Date().toISOString();
-  for (const word of extractUniqueWords(article.body)) {
-    const sentences = findWordSentences(article.body, word);
+  for (const word of extractArticleWords(article)) {
+    const sentences = findArticleWordContexts(article, word);
     const entry = normalizeGlossaryEntry(article.glossary?.[word]);
     if (!isCompleteGlossaryEntry(entry, sentences)) continue;
 
@@ -128,12 +128,17 @@ export function mergeArticleIntoWordBank(article, wordBank) {
   wordBank.generatedAt = now;
 }
 
-export function findIncompleteWords(article) {
+export function findIncompleteWords(article, options = {}) {
   const glossary = isPlainObject(article.glossary) ? article.glossary : {};
-  return extractUniqueWords(article.body)
+  const includeQuestions = options.includeQuestions !== false;
+  const words = includeQuestions
+    ? extractArticleWords(article) : extractUniqueWords(article.body);
+  return words
     .filter(word => !isCompleteGlossaryEntry(
       glossary[word],
-      findWordSentences(article.body, word)
+      includeQuestions
+        ? findArticleWordContexts(article, word)
+        : findWordSentences(article.body, word)
     ));
 }
 
@@ -180,6 +185,19 @@ export function extractUniqueWords(body) {
   )];
 }
 
+export function extractArticleWords(article) {
+  return [...new Set(articleTextContexts(article)
+    .flatMap(value => extractUniqueWords(value)))];
+}
+
+export function findArticleWordContexts(article, word) {
+  const contexts = [...findWordSentences(article?.body, word)];
+  for (const value of questionTextContexts(article)) {
+    if (containsWord(value, word) && !contexts.includes(value)) contexts.push(value);
+  }
+  return contexts;
+}
+
 export function findWordSentences(body, word) {
   const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const matcher = new RegExp(`(^|[^A-Za-z])(${escaped})(?=[^A-Za-z]|$)`, "gi");
@@ -197,6 +215,29 @@ export function findWordSentences(body, word) {
     if (sentence && !sentences.includes(sentence)) sentences.push(sentence);
   }
   return sentences;
+}
+
+function articleTextContexts(article) {
+  return [String(article?.body || ""), ...questionTextContexts(article)];
+}
+
+function questionTextContexts(article) {
+  const contexts = [];
+  for (const question of Array.isArray(article?.questions) ? article.questions : []) {
+    const prompt = String(question?.prompt || "").trim();
+    if (prompt) contexts.push(prompt);
+    for (const option of Array.isArray(question?.options) ? question.options : []) {
+      const value = String(option || "").trim();
+      if (value) contexts.push(value);
+    }
+  }
+  return contexts;
+}
+
+function containsWord(value, word) {
+  const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`(^|[^A-Za-z])${escaped}(?=[^A-Za-z]|$)`, "i")
+    .test(String(value));
 }
 
 function normalizeGlossaryEntry(value) {

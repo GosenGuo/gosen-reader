@@ -12,11 +12,18 @@ import {
   reviewQuestions
 } from "./learning-enrichment.mjs";
 import { validatePackage } from "./schema.mjs";
+import {
+  findIncompleteWords,
+  loadWordBank,
+  mergeArticleIntoWordBank,
+  repairArticleGlossary
+} from "./word-bank.mjs";
 
 const outputPath = path.resolve(process.env.OUTPUT_PATH || "./dist/articles.json");
 const ledgerPath = path.resolve(
   process.env.GENERATION_LEDGER_PATH || "./dist/generation-ledger.json"
 );
+const wordBankPath = path.resolve(process.env.WORD_BANK_PATH || "./dist/word-bank.json");
 const runId = `${process.env.GENERATION_RUN_ID || process.env.GITHUB_RUN_ID || `local-${Date.now()}`}-quality`;
 const checkpointEachArticle = process.env.CHECKPOINT_EACH_ARTICLE === "true"
   || (process.env.CHECKPOINT_EACH_ARTICLE !== "false" && process.env.GITHUB_ACTIONS === "true");
@@ -30,6 +37,7 @@ const bulkAi = new AiClient({
 }, { usageEntries: ai.usageEntries });
 
 const payload = JSON.parse(await fs.readFile(outputPath, "utf8"));
+const wordBank = await loadWordBank(wordBankPath);
 const startedAt = new Date().toISOString();
 const repaired = [];
 const failures = [];
@@ -59,6 +67,7 @@ const targets = payload.articles.filter(article =>
   !hasCompleteQuestionLearningMetadata(article)
   || !Array.isArray(article.phrases)
   || article.phrases.length < 3
+  || findIncompleteWords(article).length > 0
 );
 console.log(`Quality backfill: ${targets.length}/${payload.articles.length} article(s) need enrichment`);
 
@@ -67,6 +76,9 @@ for (const [index, article] of targets.entries()) {
   console.log(`[${index + 1}/${targets.length}] Enriching ${article.title}`);
   try {
     const updated = structuredClone(article);
+    if (findIncompleteWords(updated).length > 0) {
+      await repairArticleGlossary(updated, bulkAi, wordBank);
+    }
     if (!hasCompleteQuestionLearningMetadata(updated)) {
       await retrySemantic("question diagnostics", async () => {
         const candidate = structuredClone(updated);
@@ -90,6 +102,7 @@ for (const [index, article] of targets.entries()) {
       });
     }
     Object.assign(article, updated);
+    mergeArticleIntoWordBank(article, wordBank);
     const usage = ai.usageSince(usageStart);
     repaired.push({
       articleId: article.id,
@@ -103,7 +116,7 @@ for (const [index, article] of targets.entries()) {
     });
     await saveProgress(false);
     if (checkpointEachArticle) await commitCheckpoint(article);
-    console.log(`  enriched with ${article.phrases.length} phrase(s)`);
+    console.log(`  enriched with ${article.phrases.length} phrase(s) and complete clickable text`);
   } catch (error) {
     failures.push({ articleId: article.id, error: error.message });
     console.warn(`  failed: ${error.message}`);
@@ -135,9 +148,13 @@ async function retrySemantic(label, operation) {
 
 async function saveProgress(completed) {
   payload.generatedAt = new Date().toISOString();
-  const errors = validatePackage(payload, { requireLearningMetadata: completed });
+  const errors = validatePackage(payload, {
+    requireLearningMetadata: completed,
+    requireQuestionGlossary: completed
+  });
   if (errors.length) throw new Error(`Backfilled package is invalid:\n${errors.join("\n")}`);
   await fs.writeFile(outputPath, JSON.stringify(payload, null, 2), "utf8");
+  await fs.writeFile(wordBankPath, JSON.stringify(wordBank, null, 2), "utf8");
 
   let ledger = { schemaVersion: 1, runs: [] };
   try {
@@ -166,7 +183,8 @@ async function saveProgress(completed) {
 async function commitCheckpoint(article) {
   const repositoryPath = process.env.GITHUB_WORKSPACE?.trim();
   if (!repositoryPath) return;
-  const files = [outputPath, ledgerPath].map(file => path.relative(repositoryPath, file));
+  const files = [outputPath, wordBankPath, ledgerPath]
+    .map(file => path.relative(repositoryPath, file));
   const git = args => execFileAsync("git", args, {
     cwd: repositoryPath,
     maxBuffer: 10 * 1024 * 1024
