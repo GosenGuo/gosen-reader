@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:58:40.669Z",
+  "generatedAt": "2026-08-22T12:59:24.396Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -70322,6 +70322,14 @@
             "Maggie's children secretly stared at their uncle.": {
               "translation": "玛吉",
               "pos": "n."
+            },
+            "Maggie never prepared anything special for James because   _  .": {
+              "translation": "玛吉",
+              "pos": "n."
+            },
+            "Maggie felt pleased when   _  .": {
+              "translation": "玛吉",
+              "pos": "n."
             }
           }
         },
@@ -70341,7 +70349,7 @@
               "pos": "v."
             },
             "He took no notice of them, as if he was unable to see children, at least until the time came for him to go.": {
-              "translation": "处于",
+              "translation": "是",
               "pos": "v."
             },
             "\" Such was his regard for her.": {
@@ -70349,10 +70357,38 @@
               "pos": "v."
             },
             "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.": {
-              "translation": "正在",
+              "translation": "是",
               "pos": "v."
             },
             "That gave her some satisfaction, for James, though rich, was mean.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "he was a man difficult to please": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "she never knew when he was coming": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "she was too busy looking after her children": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "He was a kind man, with love for the family.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "He was generous, especially towards his brother.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "He was anxious to please the family, especially the kids.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "He was rude to his sister-in-law.": {
               "translation": "是",
               "pos": "v."
             }
@@ -70390,42 +70426,46 @@
         },
         "that": {
           "lemma": "that",
-          "translation": "引导从句",
+          "translation": "那个",
           "pos": "conj.",
           "forms": "those",
           "meanings": "那个；那；引导从句；因为",
           "contexts": {
             "Maggie was very glad that James was not a frequent visitor to the house.": {
-              "translation": "引导宾语从句",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "So far as the children were concerned, they had a mystery about him that stirred their imagination.": {
-              "translation": "引导定语从句",
+              "translation": "那个",
               "pos": "pron."
             },
             "He stirred Maggie's anger, however, so that she often said to her husband, \"It's mercy that brother of yours doesn't come oftener.": {
-              "translation": "以至于（引导结果状语从句）",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "His arrival was a signal to the children that their bedtime would be delayed.": {
-              "translation": "引导宾语从句",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "Not that he ever spoke to them or played with them.": {
-              "translation": "并非（Not that...）",
-              "pos": "conj."
+              "translation": "那样的",
+              "pos": "det."
             },
             "That gave her some satisfaction, for James, though rich, was mean.": {
-              "translation": "那个（指示代词）",
+              "translation": "那",
               "pos": "pron."
             },
             "They could not forget that he had, in their mother's words, \"lost two wives and taken a third, \" They wondered about those two unfortunate lost ladies.": {
-              "translation": "引导宾语从句",
+              "translation": "引导从句",
               "pos": "conj."
             },
             "The children decided that he must be so frightened of losing her that he never allowed her outside the door.": {
-              "translation": "引导宾语从句",
+              "translation": "引导从句",
               "pos": "conj."
+            },
+            "she paid James the money that she owed him": {
+              "translation": "引导定语从句",
+              "pos": "pron."
             }
           }
         },
@@ -70461,6 +70501,30 @@
               "pos": "n."
             },
             "James never brought his third wife with him nor ever mentioned her.": {
+              "translation": "詹姆斯",
+              "pos": "n."
+            },
+            "Maggie never prepared anything special for James because   _  .": {
+              "translation": "詹姆斯",
+              "pos": "n."
+            },
+            "What do we know about James' behavior?": {
+              "translation": "詹姆斯",
+              "pos": "n."
+            },
+            "she paid James the money that she owed him": {
+              "translation": "詹姆斯",
+              "pos": "n."
+            },
+            "James gave some money to the children": {
+              "translation": "詹姆斯",
+              "pos": "n."
+            },
+            "she had to wake James up to catch his train": {
+              "translation": "詹姆斯",
+              "pos": "n."
+            },
+            "James thanked her for the nice supper": {
               "translation": "詹姆斯",
               "pos": "n."
             }
@@ -70503,7 +70567,7 @@
               "pos": "art."
             },
             "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.": {
-              "translation": "一年（表示每一）",
+              "translation": "一年一次",
               "pos": "art."
             },
             "His arrival was a signal to the children that their bedtime would be delayed.": {
@@ -70515,10 +70579,22 @@
               "pos": "art."
             },
             "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.": {
-              "translation": "一个",
+              "translation": "一",
               "pos": "art."
             },
             "They could not forget that he had, in their mother's words, \"lost two wives and taken a third, \" They wondered about those two unfortunate lost ladies.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "he was a man difficult to please": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "he never stayed long enough for a meal": {
+              "translation": "一顿",
+              "pos": "art."
+            },
+            "He was a kind man, with love for the family.": {
               "translation": "一个",
               "pos": "art."
             }
@@ -70552,90 +70628,130 @@
         },
         "to": {
           "lemma": "to",
-          "translation": "朝，向",
+          "translation": "向",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "向；给；到；构成不定式；对于",
           "contexts": {
             "Maggie was very glad that James was not a frequent visitor to the house.": {
-              "translation": "前往（某地）",
+              "translation": "到",
               "pos": "prep."
             },
             "He stirred Maggie's anger, however, so that she often said to her husband, \"It's mercy that brother of yours doesn't come oftener.": {
-              "translation": "对……说",
+              "translation": "对",
               "pos": "prep."
             },
             "His arrival was a signal to the children that their bedtime would be delayed.": {
-              "translation": "对于……的信号",
+              "translation": "对",
               "pos": "prep."
             },
             "Not that he ever spoke to them or played with them.": {
-              "translation": "对……说话",
+              "translation": "对",
               "pos": "prep."
             },
             "He took no notice of them, as if he was unable to see children, at least until the time came for him to go.": {
-              "translation": "（构成不定式）去……",
-              "pos": "particle"
+              "translation": "构成不定式",
+              "pos": "part."
             },
             "Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.": {
-              "translation": "（构成不定式）去……",
-              "pos": "particle"
+              "translation": "构成不定式",
+              "pos": "part."
             },
             "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.": {
-              "translation": "（构成不定式）去……",
-              "pos": "particle"
+              "translation": "构成不定式",
+              "pos": "part."
             },
             "Very late, they dropped off to sleep in their chairs.": {
-              "translation": "（构成不定式）去……",
-              "pos": "particle"
+              "translation": "构成不定式",
+              "pos": "part."
             },
             "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.": {
-              "translation": "（构成不定式）去……",
-              "pos": "particle"
+              "translation": "构成不定式",
+              "pos": "part."
+            },
+            "he was a man difficult to please": {
+              "translation": "构成不定式",
+              "pos": "part."
+            },
+            "He was anxious to please the family, especially the kids.": {
+              "translation": "构成不定式",
+              "pos": "part."
+            },
+            "He was rude to his sister-in-law.": {
+              "translation": "对",
+              "pos": "prep."
+            },
+            "James gave some money to the children": {
+              "translation": "给",
+              "pos": "prep."
+            },
+            "she had to wake James up to catch his train": {
+              "translation": "构成不定式",
+              "pos": "part."
             }
           }
         },
         "the": {
           "lemma": "the",
-          "translation": "这，那",
+          "translation": "这",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这；那；（用于特指）；（用于最高级前）；（专有名词前）",
           "contexts": {
             "Maggie was very glad that James was not a frequent visitor to the house.": {
-              "translation": "这（特指某人的家）",
+              "translation": "这",
               "pos": "art."
             },
             "So far as the children were concerned, they had a mystery about him that stirred their imagination.": {
-              "translation": "那些（特指孩子们）",
+              "translation": "这",
               "pos": "art."
             },
             "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.": {
-              "translation": "在（八点）",
+              "translation": "这",
               "pos": "art."
             },
             "His arrival was a signal to the children that their bedtime would be delayed.": {
-              "translation": "（特指孩子们）",
+              "translation": "这",
               "pos": "art."
             },
             "He took no notice of them, as if he was unable to see children, at least until the time came for him to go.": {
-              "translation": "（特指孩子们）",
+              "translation": "这",
               "pos": "art."
             },
             "Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.": {
-              "translation": "（特指晚饭）",
+              "translation": "这",
               "pos": "art."
             },
             "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.": {
-              "translation": "（特指孩子们）",
+              "translation": "这",
               "pos": "art."
             },
             "He always went home by the last train, just after two o'clock.": {
-              "translation": "（特指末班车）",
+              "translation": "这",
               "pos": "art."
             },
             "The children decided that he must be so frightened of losing her that he never allowed her outside the door.": {
-              "translation": "（特指大门）",
+              "translation": "这",
+              "pos": "art."
+            },
+            "He was a kind man, with love for the family.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "He was anxious to please the family, especially the kids.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "she paid James the money that she owed him": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "James gave some money to the children": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "James thanked her for the nice supper": {
+              "translation": "这",
               "pos": "art."
             }
           }
@@ -70710,33 +70826,41 @@
         },
         "children": {
           "lemma": "child",
-          "translation": "孩子们",
+          "translation": "孩子",
           "pos": "n.",
           "forms": "children, child's, children's",
           "meanings": "孩子；子女；儿童；产物",
           "contexts": {
             "So far as the children were concerned, they had a mystery about him that stirred their imagination.": {
-              "translation": "孩子们",
+              "translation": "孩子",
               "pos": "n."
             },
             "His arrival was a signal to the children that their bedtime would be delayed.": {
-              "translation": "孩子们",
+              "translation": "孩子",
               "pos": "n."
             },
             "He took no notice of them, as if he was unable to see children, at least until the time came for him to go.": {
-              "translation": "孩子们",
+              "translation": "孩子",
               "pos": "n."
             },
             "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.": {
-              "translation": "孩子们",
+              "translation": "孩子",
               "pos": "n."
             },
             "Maggie's children secretly stared at their uncle.": {
-              "translation": "孩子们",
+              "translation": "孩子",
               "pos": "n."
             },
             "The children decided that he must be so frightened of losing her that he never allowed her outside the door.": {
-              "translation": "孩子们",
+              "translation": "孩子",
+              "pos": "n."
+            },
+            "she was too busy looking after her children": {
+              "translation": "孩子",
+              "pos": "n."
+            },
+            "James gave some money to the children": {
+              "translation": "孩子",
               "pos": "n."
             }
           }
@@ -70813,14 +70937,30 @@
           "lemma": "she",
           "translation": "她",
           "pos": "pron.",
-          "forms": "her, hers, herself",
-          "meanings": "她",
+          "forms": "she, her, hers, herself",
+          "meanings": "她；某个女人；那个女人",
           "contexts": {
             "He stirred Maggie's anger, however, so that she often said to her husband, \"It's mercy that brother of yours doesn't come oftener.": {
               "translation": "她",
               "pos": "pron."
             },
             "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "she never knew when he was coming": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "she was too busy looking after her children": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "she paid James the money that she owed him": {
+              "translation": "她",
+              "pos": "pron."
+            },
+            "she had to wake James up to catch his train": {
               "translation": "她",
               "pos": "pron."
             }
@@ -70860,8 +71000,8 @@
           "lemma": "she",
           "translation": "她的",
           "pos": "pron.",
-          "forms": "hers, herself",
-          "meanings": "她的；她（宾格）",
+          "forms": "she, her, hers, herself",
+          "meanings": "她的；她（宾格）；属于她的",
           "contexts": {
             "He stirred Maggie's anger, however, so that she often said to her husband, \"It's mercy that brother of yours doesn't come oftener.": {
               "translation": "她的",
@@ -70888,6 +71028,14 @@
               "pos": "pron."
             },
             "The children decided that he must be so frightened of losing her that he never allowed her outside the door.": {
+              "translation": "她；她的",
+              "pos": "pron."
+            },
+            "she was too busy looking after her children": {
+              "translation": "她的",
+              "pos": "pron."
+            },
+            "James thanked her for the nice supper": {
               "translation": "她",
               "pos": "pron."
             }
@@ -70937,13 +71085,17 @@
           "translation": "兄弟",
           "pos": "n.",
           "forms": "brothers",
-          "meanings": "兄弟；同胞；教友",
+          "meanings": "兄弟；同胞；男性朋友；教友",
           "contexts": {
             "He stirred Maggie's anger, however, so that she often said to her husband, \"It's mercy that brother of yours doesn't come oftener.": {
               "translation": "兄弟",
               "pos": "n."
             },
             "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.": {
+              "translation": "兄弟",
+              "pos": "n."
+            },
+            "He was generous, especially towards his brother.": {
               "translation": "兄弟",
               "pos": "n."
             }
@@ -71036,25 +71188,29 @@
         },
         "in": {
           "lemma": "in",
-          "translation": "在……里",
+          "translation": "在……之内",
           "pos": "prep.",
           "forms": "无常见变形",
-          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（语言）",
           "contexts": {
             "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.": {
-              "translation": "在……（时间点）",
+              "translation": "在",
               "pos": "prep."
             },
             "Maggie paid him back in her own way.": {
-              "translation": "用（方式）",
+              "translation": "用；以",
               "pos": "prep."
             },
             "Very late, they dropped off to sleep in their chairs.": {
-              "translation": "在……里",
+              "translation": "在",
               "pos": "prep."
             },
             "They could not forget that he had, in their mother's words, \"lost two wives and taken a third, \" They wondered about those two unfortunate lost ladies.": {
-              "translation": "用（某种言辞）",
+              "translation": "根据；按照",
+              "pos": "prep."
+            },
+            "He was rude to his sister-in-law.": {
+              "translation": "在……之中",
               "pos": "prep."
             }
           }
@@ -71221,10 +71377,14 @@
           "lemma": "stay",
           "translation": "停留",
           "pos": "v.",
-          "forms": "stays, staying, stayed",
-          "meanings": "停留；待在；保持（状态）；暂住",
+          "forms": "stay, stays, staying, stayed",
+          "meanings": "停留；待在；保持；暂住；停顿",
           "contexts": {
             "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.": {
+              "translation": "停留",
+              "pos": "v."
+            },
+            "he never stayed long enough for a meal": {
               "translation": "停留",
               "pos": "v."
             }
@@ -71232,25 +71392,41 @@
         },
         "for": {
           "lemma": "for",
-          "translation": "持续（一段时间）",
+          "translation": "为了",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "为了；支持；因为；给；持续（一段时间）",
           "contexts": {
             "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.": {
-              "translation": "持续（一段时间）",
+              "translation": "持续",
               "pos": "prep."
             },
             "He took no notice of them, as if he was unable to see children, at least until the time came for him to go.": {
-              "translation": "为了",
+              "translation": "以便",
               "pos": "prep."
             },
             "\" Such was his regard for her.": {
-              "translation": "对……（的）",
+              "translation": "对于",
               "pos": "prep."
             },
             "That gave her some satisfaction, for James, though rich, was mean.": {
               "translation": "因为",
+              "pos": "conj."
+            },
+            "Maggie never prepared anything special for James because   _  .": {
+              "translation": "给",
+              "pos": "prep."
+            },
+            "he never stayed long enough for a meal": {
+              "translation": "足以进行",
+              "pos": "prep."
+            },
+            "He was a kind man, with love for the family.": {
+              "translation": "对于",
+              "pos": "prep."
+            },
+            "James thanked her for the nice supper": {
+              "translation": "因为；对于",
               "pos": "prep."
             }
           }
@@ -71312,26 +71488,30 @@
           "translation": "与……一起",
           "pos": "prep.",
           "forms": "无常见变形",
-          "meanings": "与……一起；使用；带有；由于；关于",
+          "meanings": "与……一起；用；带有；由于；关于",
           "contexts": {
             "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.": {
-              "translation": "和……一起",
+              "translation": "与……一起",
               "pos": "prep."
             },
             "Not that he ever spoke to them or played with them.": {
-              "translation": "和……一起",
+              "translation": "和",
               "pos": "prep."
             },
             "Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.": {
-              "translation": "关于；进行",
+              "translation": "和",
               "pos": "prep."
             },
             "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.": {
-              "translation": "与……分开",
+              "translation": "从……分离；交出",
               "pos": "prep."
             },
             "James never brought his third wife with him nor ever mentioned her.": {
-              "translation": "和……一起",
+              "translation": "和；带着",
+              "pos": "prep."
+            },
+            "He was a kind man, with love for the family.": {
+              "translation": "带有；具有",
               "pos": "prep."
             }
           }
@@ -71340,7 +71520,7 @@
           "lemma": "he",
           "translation": "他的",
           "pos": "pron.",
-          "forms": "him, his, himself",
+          "forms": "he, him, his, himself",
           "meanings": "他的；属于他的",
           "contexts": {
             "\"\nIn fact James came once a year, unexpectedly, around eight o'clock in the evening, and he stayed for six hours of close discussion with his brother.": {
@@ -71360,6 +71540,18 @@
               "pos": "pron."
             },
             "James never brought his third wife with him nor ever mentioned her.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "He was generous, especially towards his brother.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "He was rude to his sister-in-law.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "she had to wake James up to catch his train": {
               "translation": "他的",
               "pos": "pron."
             }
@@ -71734,9 +71926,13 @@
           "translation": "晚餐",
           "pos": "n.",
           "forms": "suppers",
-          "meanings": "晚餐；晚饭；宵夜",
+          "meanings": "晚餐；晚饭；宵夜；夜间小食",
           "contexts": {
             "Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.": {
+              "translation": "晚餐",
+              "pos": "n."
+            },
+            "James thanked her for the nice supper": {
               "translation": "晚餐",
               "pos": "n."
             }
@@ -71773,10 +71969,14 @@
           "translation": "报答",
           "pos": "v.",
           "forms": "pays, paid, paying",
-          "meanings": "支付；付钱；给予；报答",
+          "meanings": "支付；付钱；给予；报答；偿还",
           "contexts": {
             "Maggie paid him back in her own way.": {
-              "translation": "报答",
+              "translation": "报答；回报",
+              "pos": "v."
+            },
+            "she paid James the money that she owed him": {
+              "translation": "付钱；支付",
               "pos": "v."
             }
           }
@@ -71835,17 +72035,21 @@
         },
         "up": {
           "lemma": "up",
-          "translation": "未睡",
+          "translation": "起床；不睡",
           "pos": "adv.",
           "forms": "无常见变形",
           "meanings": "未睡；起床；完成；彻底；向上",
           "contexts": {
             "She kept the children up, the four of them, to keep her company, she said, but of course they sang and made a noise and broke the endless sound of James's voice.": {
-              "translation": "未睡",
+              "translation": "不睡；起床",
               "pos": "adv."
             },
             "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.": {
-              "translation": "起床",
+              "translation": "起床；唤醒",
+              "pos": "adv."
+            },
+            "she had to wake James up to catch his train": {
+              "translation": "起床；唤醒",
               "pos": "adv."
             }
           }
@@ -72106,9 +72310,17 @@
           "translation": "当……时",
           "pos": "conj.",
           "forms": "无常见变形",
-          "meanings": "当……时；在……时候；既然；考虑到",
+          "meanings": "当……时；在……时候；既然；考虑到；什么时候",
           "contexts": {
             "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.": {
+              "translation": "当……时；那时",
+              "pos": "conj."
+            },
+            "she never knew when he was coming": {
+              "translation": "什么时候",
+              "pos": "adv."
+            },
+            "Maggie felt pleased when   _  .": {
               "translation": "当……时",
               "pos": "conj."
             }
@@ -72220,26 +72432,34 @@
         },
         "gave": {
           "lemma": "give",
-          "translation": "给予",
+          "translation": "给予；提供",
           "pos": "v.",
           "forms": "gives, gave, given, giving",
           "meanings": "给予；提供；交给；举办；产生",
           "contexts": {
             "That gave her some satisfaction, for James, though rich, was mean.": {
-              "translation": "给予",
+              "translation": "给予；提供",
+              "pos": "v."
+            },
+            "James gave some money to the children": {
+              "translation": "给予；给",
               "pos": "v."
             }
           }
         },
         "some": {
           "lemma": "some",
-          "translation": "一些",
+          "translation": "一些；某些",
           "pos": "adj.",
           "forms": "无常见变形",
-          "meanings": "一些；某些；若干；相当数量",
+          "meanings": "一些；某些；若干；相当数量；某个",
           "contexts": {
             "That gave her some satisfaction, for James, though rich, was mean.": {
-              "translation": "一些",
+              "translation": "某种；一定程度的",
+              "pos": "adj."
+            },
+            "James gave some money to the children": {
+              "translation": "一些；若干",
               "pos": "adj."
             }
           }
@@ -72369,6 +72589,10 @@
           "meanings": "火车；行列；训练；培养；瞄准",
           "contexts": {
             "He always went home by the last train, just after two o'clock.": {
+              "translation": "火车",
+              "pos": "n."
+            },
+            "she had to wake James up to catch his train": {
               "translation": "火车",
               "pos": "n."
             }
@@ -72648,13 +72872,17 @@
         },
         "what": {
           "lemma": "what",
-          "translation": "……的事物",
+          "translation": "什么",
           "pos": "pron.",
           "forms": "无常见变形",
-          "meanings": "什么；……的事物；多么；究竟是什么",
+          "meanings": "什么；……的事物；多么；究竟是什么；什么东西",
           "contexts": {
             "They asked each other what their fate had been, and if neither could ever be found again.": {
-              "translation": "……的事物",
+              "translation": "什么；什么事情",
+              "pos": "pron."
+            },
+            "What do we know about James' behavior?": {
+              "translation": "什么；哪些方面",
               "pos": "pron."
             }
           }
@@ -72729,14 +72957,26 @@
           "translation": "从不",
           "pos": "adv.",
           "forms": "无常见变形",
-          "meanings": "从不；绝不；决非",
+          "meanings": "从不；绝不；决非；一次也不",
           "contexts": {
             "James never brought his third wife with him nor ever mentioned her.": {
-              "translation": "从不",
+              "translation": "从不；从来不",
               "pos": "adv."
             },
             "The children decided that he must be so frightened of losing her that he never allowed her outside the door.": {
-              "translation": "从不",
+              "translation": "从不；绝不",
+              "pos": "adv."
+            },
+            "Maggie never prepared anything special for James because   _  .": {
+              "translation": "从不；没有",
+              "pos": "adv."
+            },
+            "she never knew when he was coming": {
+              "translation": "从不；从来不",
+              "pos": "adv."
+            },
+            "he never stayed long enough for a meal": {
+              "translation": "从不；没有",
               "pos": "adv."
             }
           }
@@ -72896,12 +73136,16 @@
               "pos": "v."
             },
             "They could not forget that he had, in their mother's words, \"lost two wives and taken a third, \" They wondered about those two unfortunate lost ladies.": {
-              "translation": "已经（过去完成时助动词）",
-              "pos": "aux."
+              "translation": "已经",
+              "pos": "v."
             },
             "They asked each other what their fate had been, and if neither could ever be found again.": {
-              "translation": "（曾）经",
-              "pos": "aux."
+              "translation": "已经",
+              "pos": "v."
+            },
+            "she had to wake James up to catch his train": {
+              "translation": "不得不",
+              "pos": "v."
             }
           }
         },
@@ -72931,9 +73175,13 @@
             },
             "Then, when James was about to go, Maggie woke them up and so more or less forced him to part with four shillings before he left.": {
               "translation": "正要",
-              "pos": "adv."
+              "pos": "prep."
             },
             "They could not forget that he had, in their mother's words, \"lost two wives and taken a third, \" They wondered about those two unfortunate lost ladies.": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "What do we know about James' behavior?": {
               "translation": "关于",
               "pos": "prep."
             }
@@ -72941,10 +73189,10 @@
         },
         "him": {
           "lemma": "he",
-          "translation": "他",
+          "translation": "他（宾格）",
           "pos": "pron.",
-          "forms": "he, his, him",
-          "meanings": "他（宾格）；他（自己）",
+          "forms": "he, his, him, himself",
+          "meanings": "他（宾格）；他自己；某人",
           "contexts": {
             "So far as the children were concerned, they had a mystery about him that stirred their imagination.": {
               "translation": "他",
@@ -72963,6 +73211,10 @@
               "pos": "pron."
             },
             "James never brought his third wife with him nor ever mentioned her.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "she paid James the money that she owed him": {
               "translation": "他",
               "pos": "pron."
             }
@@ -73035,8 +73287,8 @@
           "lemma": "he",
           "translation": "他",
           "pos": "pron.",
-          "forms": "him, his, himself",
-          "meanings": "他；（指代男性）；某人；那个人",
+          "forms": "he, him, his, himself",
+          "meanings": "他；某人；那个人",
           "contexts": {
             "He stirred Maggie's anger, however, so that she often said to her husband, \"It's mercy that brother of yours doesn't come oftener.": {
               "translation": "他",
@@ -73067,6 +73319,34 @@
               "pos": "pron."
             },
             "The children decided that he must be so frightened of losing her that he never allowed her outside the door.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "he was a man difficult to please": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "she never knew when he was coming": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "he never stayed long enough for a meal": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He was a kind man, with love for the family.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He was generous, especially towards his brother.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He was anxious to please the family, especially the kids.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "He was rude to his sister-in-law.": {
               "translation": "他",
               "pos": "pron."
             }
@@ -73193,7 +73473,7 @@
           "translation": "在……之后",
           "pos": "prep.",
           "forms": "无常见变形",
-          "meanings": "在……之后；后来；跟随",
+          "meanings": "在……之后；后来；跟随；在……后面；追求",
           "contexts": {
             "Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.": {
               "translation": "在……之后",
@@ -73201,6 +73481,10 @@
             },
             "He always went home by the last train, just after two o'clock.": {
               "translation": "在……之后",
+              "pos": "prep."
+            },
+            "she was too busy looking after her children": {
+              "translation": "照看；关照",
               "pos": "prep."
             }
           }
@@ -73240,6 +73524,520 @@
           "contexts": {
             "Instead, after his first greeting and a careless kiss, James took no notice of Maggie either, except to add, \"You'll be getting on with the supper, Maggie.": {
               "translation": "随意的",
+              "pos": "adj."
+            }
+          }
+        },
+        "prepared": {
+          "lemma": "prepare",
+          "translation": "准备",
+          "pos": "v.",
+          "forms": "prepares, prepared, preparing",
+          "meanings": "准备；筹备；预备；调制",
+          "contexts": {
+            "Maggie never prepared anything special for James because   _  .": {
+              "translation": "准备",
+              "pos": "v."
+            }
+          }
+        },
+        "anything": {
+          "lemma": "anything",
+          "translation": "任何事物",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "任何事物；某事；(用于疑问或否定句)什么事",
+          "contexts": {
+            "Maggie never prepared anything special for James because   _  .": {
+              "translation": "任何事物",
+              "pos": "pron."
+            }
+          }
+        },
+        "special": {
+          "lemma": "special",
+          "translation": "特别的",
+          "pos": "adj.",
+          "forms": "specially",
+          "meanings": "特别的；特殊的；专门的；额外的",
+          "contexts": {
+            "Maggie never prepared anything special for James because   _  .": {
+              "translation": "特别的",
+              "pos": "adj."
+            }
+          }
+        },
+        "because": {
+          "lemma": "because",
+          "translation": "因为",
+          "pos": "conj.",
+          "forms": "无常见变形",
+          "meanings": "因为；由于",
+          "contexts": {
+            "Maggie never prepared anything special for James because   _  .": {
+              "translation": "因为",
+              "pos": "conj."
+            }
+          }
+        },
+        "man": {
+          "lemma": "man",
+          "translation": "男人",
+          "pos": "n.",
+          "forms": "men",
+          "meanings": "男人；男子；人类；人",
+          "contexts": {
+            "he was a man difficult to please": {
+              "translation": "男人",
+              "pos": "n."
+            },
+            "He was a kind man, with love for the family.": {
+              "translation": "男人",
+              "pos": "n."
+            }
+          }
+        },
+        "difficult": {
+          "lemma": "difficult",
+          "translation": "困难的",
+          "pos": "adj.",
+          "forms": "more difficult, most difficult",
+          "meanings": "困难的；艰难的；难对付的；复杂的",
+          "contexts": {
+            "he was a man difficult to please": {
+              "translation": "难对付的",
+              "pos": "adj."
+            }
+          }
+        },
+        "please": {
+          "lemma": "please",
+          "translation": "使高兴",
+          "pos": "v.",
+          "forms": "pleased, pleasing, pleases",
+          "meanings": "请；使高兴；使满意；喜欢",
+          "contexts": {
+            "he was a man difficult to please": {
+              "translation": "使满意",
+              "pos": "v."
+            },
+            "He was anxious to please the family, especially the kids.": {
+              "translation": "使高兴",
+              "pos": "v."
+            }
+          }
+        },
+        "knew": {
+          "lemma": "know",
+          "translation": "知道",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉",
+          "contexts": {
+            "she never knew when he was coming": {
+              "translation": "知道",
+              "pos": "v."
+            }
+          }
+        },
+        "coming": {
+          "lemma": "come",
+          "translation": "来到",
+          "pos": "v.",
+          "forms": "comes, came, come, coming",
+          "meanings": "来；到达；出现；发生",
+          "contexts": {
+            "she never knew when he was coming": {
+              "translation": "来到",
+              "pos": "v."
+            }
+          }
+        },
+        "too": {
+          "lemma": "too",
+          "translation": "太",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "也；太；过于；很",
+          "contexts": {
+            "she was too busy looking after her children": {
+              "translation": "太",
+              "pos": "adv."
+            }
+          }
+        },
+        "busy": {
+          "lemma": "busy",
+          "translation": "忙碌的",
+          "pos": "adj.",
+          "forms": "busier, busiest",
+          "meanings": "忙碌的；繁忙的；热闹的",
+          "contexts": {
+            "she was too busy looking after her children": {
+              "translation": "忙碌的",
+              "pos": "adj."
+            }
+          }
+        },
+        "looking": {
+          "lemma": "look",
+          "translation": "照看",
+          "pos": "v.",
+          "forms": "looks, looked, looking",
+          "meanings": "看起来；注视；照看；寻找；面容",
+          "contexts": {
+            "she was too busy looking after her children": {
+              "translation": "照看",
+              "pos": "v."
+            }
+          }
+        },
+        "long": {
+          "lemma": "long",
+          "translation": "长时间的",
+          "pos": "adj.",
+          "forms": "longer, longest",
+          "meanings": "漫长的；长期的；长时间的；远久的",
+          "contexts": {
+            "he never stayed long enough for a meal": {
+              "translation": "长时间的",
+              "pos": "adj."
+            }
+          }
+        },
+        "enough": {
+          "lemma": "enough",
+          "translation": "足够地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "足够的；充分的；足够地；果然；够了",
+          "contexts": {
+            "he never stayed long enough for a meal": {
+              "translation": "足够地",
+              "pos": "adv."
+            }
+          }
+        },
+        "meal": {
+          "lemma": "meal",
+          "translation": "一顿饭",
+          "pos": "n.",
+          "forms": "meals",
+          "meanings": "进餐；一顿饭；饲料；餐",
+          "contexts": {
+            "he never stayed long enough for a meal": {
+              "translation": "一顿饭",
+              "pos": "n."
+            }
+          }
+        },
+        "do": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "aux.v.",
+          "forms": "did, done, doing, does",
+          "meanings": "做；干；进行；引起；构成疑问句的助动词",
+          "contexts": {
+            "What do we know about James' behavior?": {
+              "translation": "构成疑问句的助动词",
+              "pos": "aux.v."
+            }
+          }
+        },
+        "we": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "us, our, ours",
+          "meanings": "我们；大家；本人；咱们",
+          "contexts": {
+            "What do we know about James' behavior?": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "know": {
+          "lemma": "know",
+          "translation": "了解",
+          "pos": "v.",
+          "forms": "knows, knew, known, knowing",
+          "meanings": "知道；了解；认识；熟悉",
+          "contexts": {
+            "What do we know about James' behavior?": {
+              "translation": "了解",
+              "pos": "v."
+            }
+          }
+        },
+        "behavior": {
+          "lemma": "behavior",
+          "translation": "行为",
+          "pos": "n.",
+          "forms": "behaviors",
+          "meanings": "行为；举止；表现；行动",
+          "contexts": {
+            "What do we know about James' behavior?": {
+              "translation": "行为",
+              "pos": "n."
+            }
+          }
+        },
+        "kind": {
+          "lemma": "kind",
+          "translation": "仁慈的",
+          "pos": "adj.",
+          "forms": "kinder, kindest",
+          "meanings": "仁慈的；亲切的；种类；类型",
+          "contexts": {
+            "He was a kind man, with love for the family.": {
+              "translation": "仁慈的",
+              "pos": "adj."
+            }
+          }
+        },
+        "love": {
+          "lemma": "love",
+          "translation": "爱",
+          "pos": "n.",
+          "forms": "loves, loved, loving",
+          "meanings": "爱；恋爱；热爱；喜爱的东西",
+          "contexts": {
+            "He was a kind man, with love for the family.": {
+              "translation": "爱",
+              "pos": "n."
+            }
+          }
+        },
+        "family": {
+          "lemma": "family",
+          "translation": "家庭",
+          "pos": "n.",
+          "forms": "families",
+          "meanings": "家庭；家人；亲属；家族",
+          "contexts": {
+            "He was a kind man, with love for the family.": {
+              "translation": "家庭",
+              "pos": "n."
+            },
+            "He was anxious to please the family, especially the kids.": {
+              "translation": "家庭",
+              "pos": "n."
+            }
+          }
+        },
+        "generous": {
+          "lemma": "generous",
+          "translation": "慷慨的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "慷慨的；大方的；丰富的；宽宏大量的",
+          "contexts": {
+            "He was generous, especially towards his brother.": {
+              "translation": "慷慨的",
+              "pos": "adj."
+            }
+          }
+        },
+        "especially": {
+          "lemma": "especially",
+          "translation": "特别",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "特别；尤其；专门；格外",
+          "contexts": {
+            "He was generous, especially towards his brother.": {
+              "translation": "尤其",
+              "pos": "adv."
+            },
+            "He was anxious to please the family, especially the kids.": {
+              "translation": "特别",
+              "pos": "adv."
+            }
+          }
+        },
+        "towards": {
+          "lemma": "towards",
+          "translation": "朝；向",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "朝；向；对于；为了；接近",
+          "contexts": {
+            "He was generous, especially towards his brother.": {
+              "translation": "向",
+              "pos": "prep."
+            }
+          }
+        },
+        "anxious": {
+          "lemma": "anxious",
+          "translation": "急切的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "焦虑的；不安的；渴望的；急切的",
+          "contexts": {
+            "He was anxious to please the family, especially the kids.": {
+              "translation": "急切的",
+              "pos": "adj."
+            }
+          }
+        },
+        "kids": {
+          "lemma": "kid",
+          "translation": "孩子",
+          "pos": "n.",
+          "forms": "kids",
+          "meanings": "小孩；年轻人；孩子",
+          "contexts": {
+            "He was anxious to please the family, especially the kids.": {
+              "translation": "孩子",
+              "pos": "n."
+            }
+          }
+        },
+        "rude": {
+          "lemma": "rude",
+          "translation": "粗鲁的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "粗鲁的；不礼貌的；无礼的；突然的",
+          "contexts": {
+            "He was rude to his sister-in-law.": {
+              "translation": "粗鲁的",
+              "pos": "adj."
+            }
+          }
+        },
+        "sister": {
+          "lemma": "sister",
+          "translation": "姐妹",
+          "pos": "n.",
+          "forms": "sisters",
+          "meanings": "姐妹；修女；护士长；同行",
+          "contexts": {
+            "He was rude to his sister-in-law.": {
+              "translation": "姐妹",
+              "pos": "n."
+            }
+          }
+        },
+        "law": {
+          "lemma": "law",
+          "translation": "法律",
+          "pos": "n.",
+          "forms": "laws",
+          "meanings": "法律；法规；规律；法学",
+          "contexts": {
+            "He was rude to his sister-in-law.": {
+              "translation": "法律",
+              "pos": "n."
+            }
+          }
+        },
+        "felt": {
+          "lemma": "feel",
+          "translation": "感觉",
+          "pos": "v.",
+          "forms": "felt, feeling, feels",
+          "meanings": "感觉；觉得；触碰；认为",
+          "contexts": {
+            "Maggie felt pleased when   _  .": {
+              "translation": "感到",
+              "pos": "v."
+            }
+          }
+        },
+        "pleased": {
+          "lemma": "pleased",
+          "translation": "高兴的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "高兴的；满意的；愉快的",
+          "contexts": {
+            "Maggie felt pleased when   _  .": {
+              "translation": "高兴的",
+              "pos": "adj."
+            }
+          }
+        },
+        "money": {
+          "lemma": "money",
+          "translation": "钱",
+          "pos": "n.",
+          "forms": "monies",
+          "meanings": "钱；资金；货币；财产",
+          "contexts": {
+            "she paid James the money that she owed him": {
+              "translation": "钱",
+              "pos": "n."
+            },
+            "James gave some money to the children": {
+              "translation": "钱",
+              "pos": "n."
+            }
+          }
+        },
+        "owed": {
+          "lemma": "owe",
+          "translation": "欠",
+          "pos": "v.",
+          "forms": "owes, owed, owing",
+          "meanings": "欠；感谢；应该",
+          "contexts": {
+            "she paid James the money that she owed him": {
+              "translation": "欠",
+              "pos": "v."
+            }
+          }
+        },
+        "wake": {
+          "lemma": "wake",
+          "translation": "醒来",
+          "pos": "v.",
+          "forms": "wakes, woke, woken, waking",
+          "meanings": "醒来；叫醒；唤起",
+          "contexts": {
+            "she had to wake James up to catch his train": {
+              "translation": "叫醒",
+              "pos": "v."
+            }
+          }
+        },
+        "catch": {
+          "lemma": "catch",
+          "translation": "赶上",
+          "pos": "v.",
+          "forms": "catches, caught, catching",
+          "meanings": "赶上；抓住；接住；染上（疾病）",
+          "contexts": {
+            "she had to wake James up to catch his train": {
+              "translation": "赶上",
+              "pos": "v."
+            }
+          }
+        },
+        "thanked": {
+          "lemma": "thank",
+          "translation": "感谢",
+          "pos": "v.",
+          "forms": "thanks, thanked, thanking",
+          "meanings": "感谢；谢谢；表示感谢",
+          "contexts": {
+            "James thanked her for the nice supper": {
+              "translation": "感谢",
+              "pos": "v."
+            }
+          }
+        },
+        "nice": {
+          "lemma": "nice",
+          "translation": "好的",
+          "pos": "adj.",
+          "forms": "nicer, nicest",
+          "meanings": "好的；友好的；亲切的；令人愉快的",
+          "contexts": {
+            "James thanked her for the nice supper": {
+              "translation": "好的",
               "pos": "adj."
             }
           }
