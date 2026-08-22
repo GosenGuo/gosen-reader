@@ -2723,6 +2723,57 @@
           "error": "glossary repair left 1 word(s): spend"
         }
       ]
+    },
+    {
+      "runId": "32575123230-quality",
+      "kind": "quality-backfill",
+      "startedAt": "2026-08-22T13:13:27.004Z",
+      "generatedAt": "2026-08-22T13:14:00.544Z",
+      "requestedArticles": 3,
+      "acceptedArticles": 1,
+      "completed": false,
+      "usage": {
+        "requests": 8,
+        "inputTokens": 16601,
+        "outputTokens": 8955,
+        "totalTokens": 25556,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": 0.00171853,
+        "reportedCosts": {},
+        "pricingComplete": true,
+        "models": {
+          "claude-haiku-4-5-20251001": {
+            "requests": 8,
+            "inputTokens": 16601,
+            "outputTokens": 8955,
+            "totalTokens": 25556,
+            "estimatedCostUsd": null,
+            "estimatedCostCny": 0.00171853
+          }
+        }
+      },
+      "articles": [
+        {
+          "articleId": "web-489568c736b8b700",
+          "title": "RACE 高中英语阅读 high4138",
+          "requests": 8,
+          "inputTokens": 16601,
+          "outputTokens": 8955,
+          "totalTokens": 25556,
+          "estimatedCostCny": 0.00171853,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 8,
+              "inputTokens": 16601,
+              "outputTokens": 8955,
+              "totalTokens": 25556,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00171853
+            }
+          }
+        }
+      ],
+      "failures": []
     }
   ]
 }
