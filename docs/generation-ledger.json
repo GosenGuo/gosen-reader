@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T12:49:25.765Z",
+      "generatedAt": "2026-08-22T12:50:03.332Z",
       "requestedArticles": 40,
-      "acceptedArticles": 6,
+      "acceptedArticles": 7,
       "completed": false,
       "usage": {
-        "requests": 41,
-        "inputTokens": 87063,
-        "outputTokens": 48765,
-        "totalTokens": 135828,
+        "requests": 48,
+        "inputTokens": 98214,
+        "outputTokens": 57852,
+        "totalTokens": 156066,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.00926486,
+        "estimatedCostCny": 0.01084927,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 41,
-            "inputTokens": 87063,
-            "outputTokens": 48765,
-            "totalTokens": 135828,
+            "requests": 48,
+            "inputTokens": 98214,
+            "outputTokens": 57852,
+            "totalTokens": 156066,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.00926486
+            "estimatedCostCny": 0.01084927
           }
         }
       },
@@ -2116,6 +2116,25 @@
               "totalTokens": 20136,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00130435
+            }
+          }
+        },
+        {
+          "articleId": "web-2e315a8a858c375d",
+          "title": "RACE 高中英语阅读 high17052",
+          "requests": 7,
+          "inputTokens": 11151,
+          "outputTokens": 9087,
+          "totalTokens": 20238,
+          "estimatedCostCny": 0.00158441,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 7,
+              "inputTokens": 11151,
+              "outputTokens": 9087,
+              "totalTokens": 20238,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00158441
             }
           }
         }
