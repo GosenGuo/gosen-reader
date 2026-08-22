@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T13:09:44.869Z",
+  "generatedAt": "2026-08-22T13:10:15.522Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -127144,21 +127144,37 @@
       "glossary": {
         "by": {
           "lemma": "by",
-          "translation": "经由",
+          "translation": "通过",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "被；通过；凭借；在……旁边；在……之前",
           "contexts": {
             "By Road Around the World\nNickname: Walker\nEmail: ragwani@hotmail.": {
-              "translation": "经由",
+              "translation": "通过",
               "pos": "prep."
             },
             "From my childhood, have this dream to go around the world by hitch hiking.": {
-              "translation": "通过（搭便车）",
+              "translation": "通过",
               "pos": "prep."
             },
             "However this is now changed and I want to go by road.": {
-              "translation": "经由（公路）",
+              "translation": "通过",
+              "pos": "prep."
+            },
+            "By plane.": {
+              "translation": "通过",
+              "pos": "prep."
+            },
+            "By road.": {
+              "translation": "通过",
+              "pos": "prep."
+            },
+            "By water.": {
+              "translation": "通过",
+              "pos": "prep."
+            },
+            "By hitch hiking.": {
+              "translation": "通过",
               "pos": "prep."
             }
           }
@@ -127175,6 +127191,10 @@
               "pos": "n."
             },
             "However this is now changed and I want to go by road.": {
+              "translation": "公路",
+              "pos": "n."
+            },
+            "By road.": {
               "translation": "公路",
               "pos": "n."
             }
@@ -127199,25 +127219,33 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "（用于专有名词或特指）",
+          "translation": "这",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这；那；（用于特指）；（用于最高级前）",
           "contexts": {
             "By Road Around the World\nNickname: Walker\nEmail: ragwani@hotmail.": {
-              "translation": "（特指世界）",
+              "translation": "这",
               "pos": "art."
             },
             "From my childhood, have this dream to go around the world by hitch hiking.": {
-              "translation": "（特指世界）",
+              "translation": "这",
               "pos": "art."
             },
             "My travel plans: Going throughout the world and study various people, culture, habits.": {
-              "translation": "（特指世界）",
+              "translation": "这",
               "pos": "art."
             },
             "My travel plans: I will be traveling to Europe cities, then the world!": {
-              "translation": "（特指世界）",
+              "translation": "这",
+              "pos": "art."
+            },
+            "Stream will probably travel to   _   according to the ad.": {
+              "translation": "这",
+              "pos": "art."
+            },
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "这",
               "pos": "art."
             }
           }
@@ -127274,13 +127302,21 @@
         },
         "walker": {
           "lemma": "walker",
-          "translation": "沃克（人名/昵称）",
+          "translation": "步行者",
           "pos": "n.",
           "forms": "walkers",
           "meanings": "步行者；助行器；沃克",
           "contexts": {
             "By Road Around the World\nNickname: Walker\nEmail: ragwani@hotmail.": {
-              "translation": "沃克",
+              "translation": "步行者",
+              "pos": "n."
+            },
+            "What way would Walker like to choose for his travel this time?": {
+              "translation": "步行者",
+              "pos": "n."
+            },
+            "Walker": {
+              "translation": "步行者",
               "pos": "n."
             }
           }
@@ -127307,17 +127343,25 @@
             "Fun and maybe more\nNickname: Sunnygirl\nEmail: sunnygirl2008@yahoo.": {
               "translation": "电子邮件",
               "pos": "n."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "电子邮件",
+              "pos": "n."
             }
           }
         },
         "ragwani": {
           "lemma": "ragwani",
-          "translation": "拉格瓦尼（姓氏）",
+          "translation": "拉格瓦尼",
           "pos": "n.",
           "forms": "无常见变形",
           "meanings": "拉格瓦尼",
           "contexts": {
             "By Road Around the World\nNickname: Walker\nEmail: ragwani@hotmail.": {
+              "translation": "拉格瓦尼",
+              "pos": "n."
+            },
+            "ragwani@hotmail.com": {
               "translation": "拉格瓦尼",
               "pos": "n."
             }
@@ -127335,6 +127379,14 @@
               "pos": "n."
             },
             "22yr old Australian looking for travel companion\nNickname: Angela\nEmail: alyssia _ europe@hotmail.": {
+              "translation": "Hotmail邮箱",
+              "pos": "n."
+            },
+            "alyssia _ europe@hotmail.com": {
+              "translation": "Hotmail邮箱",
+              "pos": "n."
+            },
+            "ragwani@hotmail.com": {
               "translation": "Hotmail邮箱",
               "pos": "n."
             }
@@ -127356,6 +127408,18 @@
               "pos": "n."
             },
             "com\nWhen to travel: Jun2011-Aug2011\nWho am I: Slender African girl in her late 20's.": {
+              "translation": "商业网站后缀",
+              "pos": "n."
+            },
+            "sunnygirl@yahoo.com": {
+              "translation": "商业网站后缀",
+              "pos": "n."
+            },
+            "alyssia _ europe@hotmail.com": {
+              "translation": "商业网站后缀",
+              "pos": "n."
+            },
+            "ragwani@hotmail.com": {
               "translation": "商业网站后缀",
               "pos": "n."
             }
@@ -127432,6 +127496,22 @@
             "My travel plans: Nothing in mind for sure, just looking to come with you.": {
               "translation": "用于构成不定式",
               "pos": "prep."
+            },
+            "What way would Walker like to choose for his travel this time?": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
+            },
+            "Stream will probably travel to   _   according to the ad.": {
+              "translation": "到",
+              "pos": "prep."
+            },
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "用于构成不定式",
+              "pos": "prep."
             }
           }
         },
@@ -127448,7 +127528,7 @@
             },
             "My travel plans: Going throughout the world and study various people, culture, habits.": {
               "translation": "旅行",
-              "pos": "v."
+              "pos": "n."
             },
             "uk\nWhen to travel: Jan 2011-Dec 2011\nWho am I: Young slim girl, looking to see Asia with anyone who wants to travel.": {
               "translation": "旅行",
@@ -127464,7 +127544,7 @@
             },
             "com\nWhen to travel: March 2011\nWho am I: a lovely girl, with fun, honest, caring.": {
               "translation": "旅行",
-              "pos": "v."
+              "pos": "n."
             },
             "My travel plans: I will be traveling to Europe cities, then the world!": {
               "translation": "旅行",
@@ -127476,11 +127556,27 @@
             },
             "com\nWhen to travel: Jun2011-Aug2011\nWho am I: Slender African girl in her late 20's.": {
               "translation": "旅行",
-              "pos": "v."
+              "pos": "n."
             },
             "My travel plans: Nothing in mind for sure, just looking to come with you.": {
               "translation": "旅行",
+              "pos": "n."
+            },
+            "What way would Walker like to choose for his travel this time?": {
+              "translation": "旅行",
+              "pos": "n."
+            },
+            "Stream will probably travel to   _   according to the ad.": {
+              "translation": "旅行",
               "pos": "v."
+            },
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "旅行",
+              "pos": "v."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "旅行",
+              "pos": "n."
             }
           }
         },
@@ -127530,11 +127626,11 @@
               "pos": "pron."
             },
             "uk\nWhen to travel: Jan 2011-Dec 2011\nWho am I: Young slim girl, looking to see Asia with anyone who wants to travel.": {
-              "translation": "……的人",
+              "translation": "谁",
               "pos": "pron."
             },
             "My travel plans: I most prefer a white man in his late30's to have fun with me as he travels either on business or leisure trips\nWhom am I looking for: Someone who is honest, friendly; good sense of humor, adventurous.": {
-              "translation": "……的人",
+              "translation": "谁",
               "pos": "pron."
             },
             "com\nWhen to travel: March 2011\nWho am I: a lovely girl, with fun, honest, caring.": {
@@ -127542,7 +127638,7 @@
               "pos": "pron."
             },
             "Who am I looking for:  An extremely fun and entertaining male/female, middle-aged, someone that I can enjoy every travel moment with.": {
-              "translation": "……的人",
+              "translation": "谁",
               "pos": "pron."
             },
             "com\nWhen to travel: Jun2011-Aug2011\nWho am I: Slender African girl in her late 20's.": {
@@ -127550,7 +127646,11 @@
               "pos": "pron."
             },
             "Whom am I looking for: Looking for a white male between 40-50 years, someone who is full of energy and lively.": {
-              "translation": "……的人",
+              "translation": "谁",
+              "pos": "pron."
+            },
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "谁",
               "pos": "pron."
             }
           }
@@ -127655,6 +127755,10 @@
             "From my childhood, have this dream to go around the world by hitch hiking.": {
               "translation": "从",
               "pos": "prep."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "从",
+              "pos": "prep."
             }
           }
         },
@@ -127723,17 +127827,21 @@
         },
         "this": {
           "lemma": "this",
-          "translation": "这",
+          "translation": "这个",
           "pos": "pron.",
           "forms": "these",
           "meanings": "这；这个；这种情况；此",
           "contexts": {
             "From my childhood, have this dream to go around the world by hitch hiking.": {
               "translation": "这个",
-              "pos": "det."
+              "pos": "pron."
             },
             "However this is now changed and I want to go by road.": {
-              "translation": "这种情况",
+              "translation": "这",
+              "pos": "pron."
+            },
+            "What way would Walker like to choose for his travel this time?": {
+              "translation": "这一次",
               "pos": "pron."
             }
           }
@@ -127778,6 +127886,10 @@
             "From my childhood, have this dream to go around the world by hitch hiking.": {
               "translation": "搭便车",
               "pos": "v."
+            },
+            "By hitch hiking.": {
+              "translation": "搭便车",
+              "pos": "v."
             }
           }
         },
@@ -127789,6 +127901,10 @@
           "meanings": "徒步旅行；远足；上涨",
           "contexts": {
             "From my childhood, have this dream to go around the world by hitch hiking.": {
+              "translation": "徒步旅行",
+              "pos": "n."
+            },
+            "By hitch hiking.": {
               "translation": "徒步旅行",
               "pos": "n."
             }
@@ -128055,13 +128171,13 @@
         },
         "for": {
           "lemma": "for",
-          "translation": "寻找（搭配look for）",
+          "translation": "为了",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "为了；支持；因为；对……而言；代表",
           "contexts": {
             "Who am I looking for: A female companion, and she must have similar interest as me.": {
-              "translation": "寻找（搭配look for）",
+              "translation": "寻找",
               "pos": "prep."
             },
             "Just for fun\nNickname: Stream\nEmail: qrutta@yahoo.": {
@@ -128069,23 +128185,31 @@
               "pos": "prep."
             },
             "My travel plans: I most prefer a white man in his late30's to have fun with me as he travels either on business or leisure trips\nWhom am I looking for: Someone who is honest, friendly; good sense of humor, adventurous.": {
-              "translation": "寻找（搭配look for）",
+              "translation": "寻找",
               "pos": "prep."
             },
             "22yr old Australian looking for travel companion\nNickname: Angela\nEmail: alyssia _ europe@hotmail.": {
-              "translation": "寻找（搭配look for）",
+              "translation": "寻找",
               "pos": "prep."
             },
             "Who am I looking for:  An extremely fun and entertaining male/female, middle-aged, someone that I can enjoy every travel moment with.": {
-              "translation": "寻找（搭配look for）",
+              "translation": "寻找",
               "pos": "prep."
             },
             "My travel plans: Nothing in mind for sure, just looking to come with you.": {
-              "translation": "寻找（搭配look for）",
+              "translation": "为了",
               "pos": "prep."
             },
             "Whom am I looking for: Looking for a white male between 40-50 years, someone who is full of energy and lively.": {
-              "translation": "寻找（搭配look for）",
+              "translation": "寻找",
+              "pos": "prep."
+            },
+            "What way would Walker like to choose for his travel this time?": {
+              "translation": "对于",
+              "pos": "prep."
+            },
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "为了",
               "pos": "prep."
             }
           }
@@ -128110,6 +128234,14 @@
               "pos": "art."
             },
             "Whom am I looking for: Looking for a white male between 40-50 years, someone who is full of energy and lively.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
               "translation": "一个",
               "pos": "art."
             }
@@ -128144,6 +128276,14 @@
               "pos": "n."
             },
             "22yr old Australian looking for travel companion\nNickname: Angela\nEmail: alyssia _ europe@hotmail.": {
+              "translation": "同伴",
+              "pos": "n."
+            },
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "同伴",
+              "pos": "n."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
               "translation": "同伴",
               "pos": "n."
             }
@@ -128287,69 +128427,97 @@
         },
         "stream": {
           "lemma": "stream",
-          "translation": "溪流",
+          "translation": "昵称",
           "pos": "n.",
           "forms": "streams",
-          "meanings": "溪流；一股；流出；连续不断",
+          "meanings": "溪流；一股；流出；连续不断；昵称",
           "contexts": {
             "Just for fun\nNickname: Stream\nEmail: qrutta@yahoo.": {
-              "translation": "溪流（此处为网名）",
+              "translation": "昵称",
+              "pos": "n."
+            },
+            "Stream will probably travel to   _   according to the ad.": {
+              "translation": "昵称",
+              "pos": "n."
+            },
+            "Stream": {
+              "translation": "昵称",
               "pos": "n."
             }
           }
         },
         "qrutta": {
           "lemma": "qrutta",
-          "translation": "无意义（邮箱地址部分）",
+          "translation": "电子邮箱账户名",
           "pos": "n.",
           "forms": "无常见变形",
-          "meanings": "无常见含义；专有名词",
+          "meanings": "无常见含义；电子邮件地址的用户名部分",
           "contexts": {
             "Just for fun\nNickname: Stream\nEmail: qrutta@yahoo.": {
-              "translation": "（邮箱地址一部分）",
+              "translation": "电子邮箱账户名",
+              "pos": "n."
+            },
+            "qrutta@yahoo.co.uk": {
+              "translation": "电子邮箱账户名",
               "pos": "n."
             }
           }
         },
         "yahoo": {
           "lemma": "yahoo",
-          "translation": "雅虎（电子邮箱服务商）",
+          "translation": "雅虎（公司名）",
           "pos": "n.",
           "forms": "无常见变形",
           "meanings": "雅虎（公司名）；大喊大叫的人",
           "contexts": {
             "Just for fun\nNickname: Stream\nEmail: qrutta@yahoo.": {
-              "translation": "雅虎",
+              "translation": "雅虎邮箱",
               "pos": "n."
             },
             "Fun and maybe more\nNickname: Sunnygirl\nEmail: sunnygirl2008@yahoo.": {
-              "translation": "雅虎",
+              "translation": "雅虎邮箱",
+              "pos": "n."
+            },
+            "sunnygirl@yahoo.com": {
+              "translation": "雅虎邮箱",
+              "pos": "n."
+            },
+            "qrutta@yahoo.co.uk": {
+              "translation": "雅虎邮箱",
               "pos": "n."
             }
           }
         },
         "co": {
           "lemma": "co-",
-          "translation": "共同",
+          "translation": "共同；联合",
           "pos": "prefix",
           "forms": "无常见变形",
           "meanings": "共同；联合；辅助",
           "contexts": {
             "co.": {
-              "translation": "公司（缩写）",
+              "translation": "商业顶级域名",
+              "pos": "n."
+            },
+            "qrutta@yahoo.co.uk": {
+              "translation": "商业顶级域名",
               "pos": "n."
             }
           }
         },
         "uk": {
           "lemma": "uk",
-          "translation": "英国",
+          "translation": "英国（缩写）",
           "pos": "n.",
           "forms": "无常见变形",
           "meanings": "英国（缩写）；联合王国",
           "contexts": {
             "uk\nWhen to travel: Jan 2011-Dec 2011\nWho am I: Young slim girl, looking to see Asia with anyone who wants to travel.": {
               "translation": "英国",
+              "pos": "n."
+            },
+            "qrutta@yahoo.co.uk": {
+              "translation": "英国（域名后缀）",
               "pos": "n."
             }
           }
@@ -128414,7 +128582,7 @@
           "meanings": "女孩；姑娘；女儿；女朋友",
           "contexts": {
             "uk\nWhen to travel: Jan 2011-Dec 2011\nWho am I: Young slim girl, looking to see Asia with anyone who wants to travel.": {
-              "translation": "女孩",
+              "translation": "年轻女孩",
               "pos": "n."
             },
             "com\nWhen to travel: March 2011\nWho am I: a lovely girl, with fun, honest, caring.": {
@@ -128422,6 +128590,10 @@
               "pos": "n."
             },
             "com\nWhen to travel: Jun2011-Aug2011\nWho am I: Slender African girl in her late 20's.": {
+              "translation": "女孩",
+              "pos": "n."
+            },
+            "Sunny girl": {
               "translation": "女孩",
               "pos": "n."
             }
@@ -128469,7 +128641,7 @@
               "pos": "prep."
             },
             "com\nWhen to travel: March 2011\nWho am I: a lovely girl, with fun, honest, caring.": {
-              "translation": "具有",
+              "translation": "具有；带有",
               "pos": "prep."
             },
             "Who am I looking for:  An extremely fun and entertaining male/female, middle-aged, someone that I can enjoy every travel moment with.": {
@@ -128477,11 +128649,15 @@
               "pos": "prep."
             },
             "Quite charming, loving, pretty,fun to be with.": {
-              "translation": "和……在一起",
+              "translation": "和……相处",
               "pos": "prep."
             },
             "My travel plans: Nothing in mind for sure, just looking to come with you.": {
-              "translation": "随同",
+              "translation": "和……一起",
+              "pos": "prep."
+            },
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "和……一起",
               "pos": "prep."
             }
           }
@@ -128507,6 +128683,10 @@
           "meanings": "想要；希望；需要；打算",
           "contexts": {
             "uk\nWhen to travel: Jan 2011-Dec 2011\nWho am I: Young slim girl, looking to see Asia with anyone who wants to travel.": {
+              "translation": "想要；打算",
+              "pos": "v."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
               "translation": "想要",
               "pos": "v."
             }
@@ -128565,26 +128745,34 @@
             "My travel plans: I most prefer a white man in his late30's to have fun with me as he travels either on business or leisure trips\nWhom am I looking for: Someone who is honest, friendly; good sense of humor, adventurous.": {
               "translation": "男人",
               "pos": "n."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "男人",
+              "pos": "n."
             }
           }
         },
         "in": {
           "lemma": "in",
-          "translation": "处于（某种状态）",
+          "translation": "在……之内",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
           "contexts": {
             "My travel plans: I most prefer a white man in his late30's to have fun with me as he travels either on business or leisure trips\nWhom am I looking for: Someone who is honest, friendly; good sense of humor, adventurous.": {
-              "translation": "处于（某种状态）",
+              "translation": "处于（某种年龄阶段）",
               "pos": "prep."
             },
             "com\nWhen to travel: Jun2011-Aug2011\nWho am I: Slender African girl in her late 20's.": {
-              "translation": "处于（某种状态）",
+              "translation": "处于（某种年龄阶段）",
               "pos": "prep."
             },
             "My travel plans: Nothing in mind for sure, just looking to come with you.": {
-              "translation": "在……之内",
+              "translation": "在脑子里",
+              "pos": "prep."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "在……期间；时间范围内",
               "pos": "prep."
             }
           }
@@ -128597,6 +128785,10 @@
           "meanings": "他的；属于他的；其；自己人的",
           "contexts": {
             "My travel plans: I most prefer a white man in his late30's to have fun with me as he travels either on business or leisure trips\nWhom am I looking for: Someone who is honest, friendly; good sense of humor, adventurous.": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "What way would Walker like to choose for his travel this time?": {
               "translation": "他的",
               "pos": "pron."
             }
@@ -128633,6 +128825,10 @@
             "com\nWhen to travel: Jun2011-Aug2011\nWho am I: Slender African girl in her late 20's.": {
               "translation": "所有格符号",
               "pos": "suffix"
+            },
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "所有格符号",
+              "pos": "suffix"
             }
           }
         },
@@ -128644,6 +128840,10 @@
           "meanings": "他；（指代男性）；那个人",
           "contexts": {
             "My travel plans: I most prefer a white man in his late30's to have fun with me as he travels either on business or leisure trips\nWhom am I looking for: Someone who is honest, friendly; good sense of humor, adventurous.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
               "translation": "他",
               "pos": "pron."
             }
@@ -128918,12 +129118,16 @@
         },
         "angela": {
           "lemma": "angela",
-          "translation": "安吉拉（人名）",
+          "translation": "安吉拉",
           "pos": "n.",
           "forms": "无常见变形",
           "meanings": "安吉拉（人名）",
           "contexts": {
             "22yr old Australian looking for travel companion\nNickname: Angela\nEmail: alyssia _ europe@hotmail.": {
+              "translation": "安吉拉（昵称）",
+              "pos": "n."
+            },
+            "Angela": {
               "translation": "安吉拉（人名）",
               "pos": "n."
             }
@@ -128931,12 +129135,16 @@
         },
         "alyssia": {
           "lemma": "alyssia",
-          "translation": "艾莉西亚（人名）",
+          "translation": "艾莉西亚",
           "pos": "n.",
           "forms": "无常见变形",
           "meanings": "艾莉西亚（人名）",
           "contexts": {
             "22yr old Australian looking for travel companion\nNickname: Angela\nEmail: alyssia _ europe@hotmail.": {
+              "translation": "艾莉西亚（人名）",
+              "pos": "n."
+            },
+            "alyssia _ europe@hotmail.com": {
               "translation": "艾莉西亚（人名）",
               "pos": "n."
             }
@@ -128954,6 +129162,10 @@
               "pos": "n."
             },
             "My travel plans: I will be traveling to Europe cities, then the world!": {
+              "translation": "欧洲",
+              "pos": "n."
+            },
+            "alyssia _ europe@hotmail.com": {
               "translation": "欧洲",
               "pos": "n."
             }
@@ -129007,6 +129219,10 @@
           "contexts": {
             "My travel plans: I will be traveling to Europe cities, then the world!": {
               "translation": "将要",
+              "pos": "modal v."
+            },
+            "Stream will probably travel to   _   according to the ad.": {
+              "translation": "可能会",
               "pos": "modal v."
             }
           }
@@ -129077,6 +129293,10 @@
             "Who am I looking for:  An extremely fun and entertaining male/female, middle-aged, someone that I can enjoy every travel moment with.": {
               "translation": "一个",
               "pos": "art."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "一个",
+              "pos": "art."
             }
           }
         },
@@ -129128,9 +129348,13 @@
           "translation": "中年的",
           "pos": "adj.",
           "forms": "无常见变形",
-          "meanings": "中间的；中部的；中间部分；中部",
+          "meanings": "中间的；中部的；中年的；中部",
           "contexts": {
             "Who am I looking for:  An extremely fun and entertaining male/female, middle-aged, someone that I can enjoy every travel moment with.": {
+              "translation": "中年的",
+              "pos": "adj."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
               "translation": "中年的",
               "pos": "adj."
             }
@@ -129144,7 +129368,11 @@
           "meanings": "处于……年龄的；老年的；具有……年纪的",
           "contexts": {
             "Who am I looking for:  An extremely fun and entertaining male/female, middle-aged, someone that I can enjoy every travel moment with.": {
-              "translation": "处于……年龄的",
+              "translation": "处于中年的",
+              "pos": "adj."
+            },
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "处于中年的",
               "pos": "adj."
             }
           }
@@ -129248,7 +129476,11 @@
           "meanings": "阳光女孩（昵称）",
           "contexts": {
             "Fun and maybe more\nNickname: Sunnygirl\nEmail: sunnygirl2008@yahoo.": {
-              "translation": "阳光女孩",
+              "translation": "阳光女孩（昵称）",
+              "pos": "n."
+            },
+            "sunnygirl@yahoo.com": {
+              "translation": "阳光女孩（昵称）",
               "pos": "n."
             }
           }
@@ -129484,6 +129716,309 @@
             "Whom am I looking for: Looking for a white male between 40-50 years, someone who is full of energy and lively.": {
               "translation": "充满活力的",
               "pos": "adj."
+            }
+          }
+        },
+        "what": {
+          "lemma": "what",
+          "translation": "什么",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "什么；……的事物；多么；究竟是什么",
+          "contexts": {
+            "What way would Walker like to choose for his travel this time?": {
+              "translation": "什么方式",
+              "pos": "pron."
+            }
+          }
+        },
+        "way": {
+          "lemma": "way",
+          "translation": "方式",
+          "pos": "n.",
+          "forms": "ways",
+          "meanings": "方式；道路；方向；程度",
+          "contexts": {
+            "What way would Walker like to choose for his travel this time?": {
+              "translation": "方式",
+              "pos": "n."
+            }
+          }
+        },
+        "would": {
+          "lemma": "will",
+          "translation": "会",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "将；会；愿意；总是",
+          "contexts": {
+            "What way would Walker like to choose for his travel this time?": {
+              "translation": "会",
+              "pos": "modal v."
+            }
+          }
+        },
+        "like": {
+          "lemma": "like",
+          "translation": "喜欢",
+          "pos": "v.",
+          "forms": "likes, liked, liking",
+          "meanings": "喜欢；像；如同；例如",
+          "contexts": {
+            "What way would Walker like to choose for his travel this time?": {
+              "translation": "喜欢",
+              "pos": "v."
+            }
+          }
+        },
+        "choose": {
+          "lemma": "choose",
+          "translation": "选择",
+          "pos": "v.",
+          "forms": "chooses, chose, chosen, choosing",
+          "meanings": "选择；决定；挑选；选定",
+          "contexts": {
+            "What way would Walker like to choose for his travel this time?": {
+              "translation": "选择",
+              "pos": "v."
+            }
+          }
+        },
+        "time": {
+          "lemma": "time",
+          "translation": "时间",
+          "pos": "n.",
+          "forms": "times",
+          "meanings": "时间；时候；次数；时代；倍数",
+          "contexts": {
+            "What way would Walker like to choose for his travel this time?": {
+              "translation": "时间",
+              "pos": "n."
+            },
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "时间",
+              "pos": "n."
+            }
+          }
+        },
+        "plane": {
+          "lemma": "plane",
+          "translation": "飞机",
+          "pos": "n.",
+          "forms": "planes",
+          "meanings": "飞机；平面；水平；刨子",
+          "contexts": {
+            "By plane.": {
+              "translation": "飞机",
+              "pos": "n."
+            }
+          }
+        },
+        "water": {
+          "lemma": "water",
+          "translation": "水",
+          "pos": "n.",
+          "forms": "waters, watered, watering",
+          "meanings": "水；水域；给…浇水；流口水",
+          "contexts": {
+            "By water.": {
+              "translation": "水",
+              "pos": "n."
+            }
+          }
+        },
+        "probably": {
+          "lemma": "probably",
+          "translation": "大概",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大概；很可能；或许；可能地；大半",
+          "contexts": {
+            "Stream will probably travel to   _   according to the ad.": {
+              "translation": "大概",
+              "pos": "adv."
+            }
+          }
+        },
+        "according": {
+          "lemma": "according",
+          "translation": "根据",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "据……所说；依照；视……而定",
+          "contexts": {
+            "Stream will probably travel to   _   according to the ad.": {
+              "translation": "根据",
+              "pos": "prep."
+            }
+          }
+        },
+        "ad": {
+          "lemma": "ad",
+          "translation": "广告",
+          "pos": "n.",
+          "forms": "ads",
+          "meanings": "广告；公告；宣传",
+          "contexts": {
+            "Stream will probably travel to   _   according to the ad.": {
+              "translation": "广告",
+              "pos": "n."
+            }
+          }
+        },
+        "france": {
+          "lemma": "france",
+          "translation": "法国",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "法国；法兰西",
+          "contexts": {
+            "France": {
+              "translation": "法国",
+              "pos": "n."
+            }
+          }
+        },
+        "egypt": {
+          "lemma": "egypt",
+          "translation": "埃及",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "埃及；埃及文明",
+          "contexts": {
+            "Egypt": {
+              "translation": "埃及",
+              "pos": "n."
+            }
+          }
+        },
+        "japan": {
+          "lemma": "japan",
+          "translation": "日本",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "日本；日本文化",
+          "contexts": {
+            "Japan": {
+              "translation": "日本",
+              "pos": "n."
+            }
+          }
+        },
+        "australia": {
+          "lemma": "australia",
+          "translation": "澳大利亚",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "澳大利亚",
+          "contexts": {
+            "Australia": {
+              "translation": "澳大利亚",
+              "pos": "n."
+            }
+          }
+        },
+        "who's": {
+          "lemma": "who",
+          "translation": "谁",
+          "pos": "pron.",
+          "forms": "who, whom, whose, who's",
+          "meanings": "谁；什么人；哪个",
+          "contexts": {
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "谁",
+              "pos": "pron."
+            }
+          }
+        },
+        "shortest": {
+          "lemma": "short",
+          "translation": "最短的",
+          "pos": "adj.",
+          "forms": "short, shorter, shortest",
+          "meanings": "短的；最短的；缺少的；不足的",
+          "contexts": {
+            "Who's to travel for the shortest time with a companion?": {
+              "translation": "最短的",
+              "pos": "adj."
+            }
+          }
+        },
+        "sunny": {
+          "lemma": "sunny",
+          "translation": "阳光充足的",
+          "pos": "adj.",
+          "forms": "sunny, sunnier, sunniest",
+          "meanings": "晴朗的；充满阳光的；开朗的；乐观的",
+          "contexts": {
+            "Sunny girl": {
+              "translation": "阳光充足的",
+              "pos": "adj."
+            }
+          }
+        },
+        "june": {
+          "lemma": "june",
+          "translation": "六月",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "六月",
+          "contexts": {
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "六月",
+              "pos": "n."
+            }
+          }
+        },
+        "august": {
+          "lemma": "august",
+          "translation": "八月",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "八月；威严的；宏伟的",
+          "contexts": {
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "八月",
+              "pos": "n."
+            }
+          }
+        },
+        "should": {
+          "lemma": "should",
+          "translation": "应该",
+          "pos": "modal v.",
+          "forms": "无常见变形",
+          "meanings": "应该；会；可能；应当",
+          "contexts": {
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "应该",
+              "pos": "modal v."
+            }
+          }
+        },
+        "send": {
+          "lemma": "send",
+          "translation": "发送",
+          "pos": "v.",
+          "forms": "sends, sent, sending",
+          "meanings": "发送；寄送；派遣；打发",
+          "contexts": {
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "发送",
+              "pos": "v."
+            }
+          }
+        },
+        "find": {
+          "lemma": "find",
+          "translation": "找到",
+          "pos": "v.",
+          "forms": "found, finding, finds",
+          "meanings": "发现；找到；认为；发觉",
+          "contexts": {
+            "A middle-aged man wants to travel from June to August in 2011, he should send an email to   _   to find a travel companion.": {
+              "translation": "找到",
+              "pos": "v."
             }
           }
         }
