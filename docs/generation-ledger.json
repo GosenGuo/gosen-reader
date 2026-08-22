@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T12:54:07.547Z",
+      "generatedAt": "2026-08-22T12:54:33.935Z",
       "requestedArticles": 40,
-      "acceptedArticles": 13,
+      "acceptedArticles": 14,
       "completed": false,
       "usage": {
-        "requests": 97,
-        "inputTokens": 200387,
-        "outputTokens": 117942,
-        "totalTokens": 318329,
+        "requests": 102,
+        "inputTokens": 211326,
+        "outputTokens": 123569,
+        "totalTokens": 334895,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.02212272,
+        "estimatedCostCny": 0.02321679,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 97,
-            "inputTokens": 200387,
-            "outputTokens": 117942,
-            "totalTokens": 318329,
+            "requests": 102,
+            "inputTokens": 211326,
+            "outputTokens": 123569,
+            "totalTokens": 334895,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.02212272
+            "estimatedCostCny": 0.02321679
           }
         }
       },
@@ -2249,6 +2249,25 @@
               "totalTokens": 23829,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.0016378
+            }
+          }
+        },
+        {
+          "articleId": "web-a0a23c816fc997da",
+          "title": "RACE 高中英语阅读 high4094",
+          "requests": 5,
+          "inputTokens": 10939,
+          "outputTokens": 5627,
+          "totalTokens": 16566,
+          "estimatedCostCny": 0.00109407,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 5,
+              "inputTokens": 10939,
+              "outputTokens": 5627,
+              "totalTokens": 16566,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00109407
             }
           }
         }

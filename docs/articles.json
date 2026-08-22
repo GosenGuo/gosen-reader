@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:54:07.547Z",
+  "generatedAt": "2026-08-22T12:54:33.935Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -47312,53 +47312,85 @@
       "glossary": {
         "the": {
           "lemma": "the",
-          "translation": "（特指）",
+          "translation": "这，那（指定特定的人或物）",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这，那；（用于特指）；（用于最高级前）；（专有名词前）",
           "contexts": {
             "The baby is just one day old and has not yet left hospital.": {
-              "translation": "这（名婴儿）",
+              "translation": "（定冠词，特指）",
               "pos": "art."
             },
             "A researcher removes the card and replaces it by another, this time with the spots differently spaced.": {
-              "translation": "这张（卡片）",
+              "translation": "（定冠词，特指）",
               "pos": "art."
             },
             "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.": {
-              "translation": "那（卡片）",
+              "translation": "（定冠词，特指）",
               "pos": "art."
             },
             "Her gaze returns; she looks at it for twice as long as she did at the previous card.": {
-              "translation": "那（前一张卡片）",
+              "translation": "（定冠词，特指）",
               "pos": "art."
             },
             "Can she tell that the number two is different from three, just 24 hours after coming into the world?": {
-              "translation": "这个（数字2）",
+              "translation": "（定冠词，特指）",
               "pos": "art."
             },
             "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.": {
-              "translation": "相同的（实验）",
+              "translation": "（定冠词，特指）",
               "pos": "art."
             },
             "Perhaps it is just the newness?": {
-              "translation": "那种（新奇感）",
+              "translation": "（定冠词，特指）",
               "pos": "art."
             },
             "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.": {
-              "translation": "那些（物体）",
+              "translation": "（定冠词，特指）",
               "pos": "art."
             },
             "Could it be the pattern that two things make, as opposed to three?": {
-              "translation": "那种（模式）",
+              "translation": "（定冠词，特指）",
               "pos": "art."
             },
             "The effect even crosses between senses.": {
-              "translation": "这种（影响）",
+              "translation": "（定冠词，特指）",
               "pos": "art."
             },
             "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.": {
-              "translation": "那些（研究人员）",
+              "translation": "（定冠词，特指）",
+              "pos": "art."
+            },
+            "Babies are sensitive to the change in   _  .": {
+              "translation": "（定冠词，特指）",
+              "pos": "art."
+            },
+            "the size of cards.": {
+              "translation": "（定冠词，特指）",
+              "pos": "art."
+            },
+            "the colour of pictures.": {
+              "translation": "（定冠词，特指）",
+              "pos": "art."
+            },
+            "the shape of patterns.": {
+              "translation": "（定冠词，特指）",
+              "pos": "art."
+            },
+            "the number of objects.": {
+              "translation": "（定冠词，特指）",
+              "pos": "art."
+            },
+            "Why did the researchers test the babies with drumbeats?": {
+              "translation": "（定冠词，特指）",
+              "pos": "art."
+            },
+            "To reduce the difficulty of the experiment.": {
+              "translation": "（定冠词，特指）",
+              "pos": "art."
+            },
+            "To keep the babies' interest.": {
+              "translation": "（定冠词，特指）",
               "pos": "art."
             }
           }
@@ -47659,29 +47691,33 @@
         },
         "from": {
           "lemma": "from",
-          "translation": "从",
+          "translation": "从；来自",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "从；来自；因为；由于；起始",
           "contexts": {
             "Twenty centimeters from her face researchers have placed a white card with two black spots on it.": {
-              "translation": "距离",
+              "translation": "距离；距...有...远",
               "pos": "prep."
             },
             "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.": {
-              "translation": "从",
+              "translation": "从...到...（表示变化过程）",
               "pos": "prep."
             },
             "Can she tell that the number two is different from three, just 24 hours after coming into the world?": {
-              "translation": "与……不同",
+              "translation": "与...不同",
               "pos": "prep."
             },
             "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.": {
-              "translation": "与……分开",
+              "translation": "与...分开",
               "pos": "prep."
             },
             "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.": {
-              "translation": "从",
+              "translation": "从...到...（表示数量变化）",
+              "pos": "prep."
+            },
+            "Where does this text probably come from?": {
+              "translation": "来自；出自",
               "pos": "prep."
             }
           }
@@ -47728,11 +47764,15 @@
           "meanings": "研究人员；调查员；探究者",
           "contexts": {
             "Twenty centimeters from her face researchers have placed a white card with two black spots on it.": {
-              "translation": "研究人员",
+              "translation": "研究人员；研究者",
               "pos": "n."
             },
             "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.": {
-              "translation": "研究人员",
+              "translation": "研究人员；研究者",
+              "pos": "n."
+            },
+            "Why did the researchers test the babies with drumbeats?": {
+              "translation": "研究人员；研究者",
               "pos": "n."
             }
           }
@@ -47765,29 +47805,33 @@
         },
         "a": {
           "lemma": "a",
-          "translation": "一个",
+          "translation": "一个（不定冠词）",
           "pos": "art.",
           "forms": "an",
           "meanings": "一个；每一；任何；一种",
           "contexts": {
             "Twenty centimeters from her face researchers have placed a white card with two black spots on it.": {
-              "translation": "一个",
+              "translation": "一个（表示单数）",
               "pos": "art."
             },
             "A researcher removes the card and replaces it by another, this time with the spots differently spaced.": {
-              "translation": "一个",
+              "translation": "一个（表示单数）",
               "pos": "art."
             },
             "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.": {
-              "translation": "一个",
+              "translation": "一个（表示单数）",
               "pos": "art."
             },
             "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.": {
-              "translation": "一个",
+              "translation": "一个（表示单数）",
               "pos": "art."
             },
             "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.": {
-              "translation": "一个",
+              "translation": "一个（表示单数）",
+              "pos": "art."
+            },
+            "A science report.": {
+              "translation": "一个（表示单数）",
               "pos": "art."
             }
           }
@@ -47828,33 +47872,37 @@
         },
         "with": {
           "lemma": "with",
-          "translation": "带有",
+          "translation": "与...一起；带有；使用",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "与……一起；使用；带有；由于；关于",
           "contexts": {
             "Twenty centimeters from her face researchers have placed a white card with two black spots on it.": {
-              "translation": "带有",
+              "translation": "有；带有；具有",
               "pos": "prep."
             },
             "A researcher removes the card and replaces it by another, this time with the spots differently spaced.": {
-              "translation": "带有",
+              "translation": "有；带有；具有",
               "pos": "prep."
             },
             "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.": {
-              "translation": "带有",
+              "translation": "有；带有；具有",
               "pos": "prep."
             },
             "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.": {
-              "translation": "带有",
+              "translation": "有；带有；具有",
               "pos": "prep."
             },
             "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.": {
-              "translation": "带有",
+              "translation": "有；带有；具有",
               "pos": "prep."
             },
             "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.": {
-              "translation": "带有",
+              "translation": "与；用",
+              "pos": "prep."
+            },
+            "Why did the researchers test the babies with drumbeats?": {
+              "translation": "用；利用",
               "pos": "prep."
             }
           }
@@ -48102,13 +48150,17 @@
         },
         "this": {
           "lemma": "this",
-          "translation": "这次",
+          "translation": "这；这个",
           "pos": "det.",
           "forms": "these",
           "meanings": "这；这个；这种情况；此",
           "contexts": {
             "A researcher removes the card and replaces it by another, this time with the spots differently spaced.": {
-              "translation": "这次",
+              "translation": "这一次；此时",
+              "pos": "det."
+            },
+            "Where does this text probably come from?": {
+              "translation": "这；这篇",
               "pos": "det."
             }
           }
@@ -48177,58 +48229,86 @@
           "lemma": "card",
           "translation": "卡片",
           "pos": "n.",
-          "forms": "card",
-          "meanings": "卡片；名片；纸牌",
+          "forms": "card, cards",
+          "meanings": "卡片；名片；纸牌；卡",
           "contexts": {
             "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.": {
-              "translation": "卡片",
+              "translation": "卡片；纸牌",
               "pos": "n."
             },
             "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.": {
-              "translation": "卡片",
+              "translation": "卡片；纸牌",
+              "pos": "n."
+            },
+            "the size of cards.": {
+              "translation": "卡片；纸牌",
               "pos": "n."
             }
           }
         },
         "change": {
           "lemma": "change",
-          "translation": "变化",
+          "translation": "改变；变化",
           "pos": "v.",
           "forms": "changes, changed, changing",
-          "meanings": "改变；更换；零钱",
+          "meanings": "改变；更换；零钱；变化",
           "contexts": {
             "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.": {
-              "translation": "变化",
+              "translation": "变化；改变",
               "pos": "v."
+            },
+            "Babies are sensitive to the change in   _  .": {
+              "translation": "变化；改变",
+              "pos": "n."
             }
           }
         },
         "to": {
           "lemma": "to",
-          "translation": "到",
+          "translation": "到；向；朝向",
           "pos": "prep.",
           "forms": "无常见变形",
-          "meanings": "到；向；给；构成不定式",
+          "meanings": "到；向；给；构成不定式；直到；对于",
           "contexts": {
             "As the cards change from one to the other, her gaze  starts to lose its focus - until a third, with three black spots, is presented.": {
-              "translation": "到",
+              "translation": "到；向",
               "pos": "prep."
             },
             "Or do newborns simply prefer more to fewer?": {
-              "translation": "对……相比",
+              "translation": "比...更喜欢",
               "pos": "prep."
             },
             "Could it be the pattern that two things make, as opposed to three?": {
-              "translation": "与……相对",
+              "translation": "相对于；与...相比",
               "pos": "prep."
             },
             "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.": {
-              "translation": "到",
+              "translation": "从...到...；变成",
               "pos": "prep."
             },
             "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.": {
-              "translation": "到",
+              "translation": "到；向",
               "pos": "prep."
+            },
+            "Babies are sensitive to the change in   _  .": {
+              "translation": "在；对于",
+              "pos": "prep."
+            },
+            "To reduce the difficulty of the experiment.": {
+              "translation": "为了（表示目的）",
+              "pos": "inf."
+            },
+            "To see how babies recognize sounds.": {
+              "translation": "为了（表示目的）",
+              "pos": "inf."
+            },
+            "To carry their experiment further.": {
+              "translation": "为了（表示目的）",
+              "pos": "inf."
+            },
+            "To keep the babies' interest.": {
+              "translation": "为了（表示目的）",
+              "pos": "inf."
             }
           }
         },
@@ -48453,13 +48533,17 @@
         },
         "did": {
           "lemma": "do",
-          "translation": "做（替代前面的动词）",
+          "translation": "做；进行（过去式）",
           "pos": "v.",
           "forms": "does, did, done, doing",
-          "meanings": "做；进行；行动；强调谓语",
+          "meanings": "做；进行；行动；强调谓语；完成",
           "contexts": {
             "Her gaze returns; she looks at it for twice as long as she did at the previous card.": {
-              "translation": "做（替代前面的动词）",
+              "translation": "做；进行（过去式，用于强调）",
+              "pos": "v."
+            },
+            "Why did the researchers test the babies with drumbeats?": {
+              "translation": "做；进行（过去式）",
               "pos": "v."
             }
           }
@@ -48525,7 +48609,7 @@
           "translation": "数字",
           "pos": "n.",
           "forms": "numbering, numbered, numbers",
-          "meanings": "编号；号码；数字；数量",
+          "meanings": "数字；编号；号码；数量",
           "contexts": {
             "Can she tell that the number two is different from three, just 24 hours after coming into the world?": {
               "translation": "数字",
@@ -48540,6 +48624,10 @@
               "pos": "n."
             },
             "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.": {
+              "translation": "数量",
+              "pos": "n."
+            },
+            "the number of objects.": {
               "translation": "数量",
               "pos": "n."
             }
@@ -48749,6 +48837,14 @@
             "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.": {
               "translation": "实验",
               "pos": "n."
+            },
+            "To reduce the difficulty of the experiment.": {
+              "translation": "实验",
+              "pos": "n."
+            },
+            "To carry their experiment further.": {
+              "translation": "实验",
+              "pos": "n."
             }
           }
         },
@@ -48826,6 +48922,26 @@
             "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.": {
               "translation": "……的",
               "pos": "prep."
+            },
+            "the size of cards.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "the colour of pictures.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "the shape of patterns.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "the number of objects.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "To reduce the difficulty of the experiment.": {
+              "translation": "……的",
+              "pos": "prep."
             }
           }
         },
@@ -48837,6 +48953,10 @@
           "meanings": "兴趣；利益；利息；嗜好",
           "contexts": {
             "The same experiment, but with three spots shown before two, shows the same return of interest when the number of spots changes.": {
+              "translation": "兴趣",
+              "pos": "n."
+            },
+            "To keep the babies' interest.": {
               "translation": "兴趣",
               "pos": "n."
             }
@@ -48950,6 +49070,22 @@
             "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.": {
               "translation": "婴儿",
               "pos": "n."
+            },
+            "Babies are sensitive to the change in   _  .": {
+              "translation": "婴儿",
+              "pos": "n."
+            },
+            "Why did the researchers test the babies with drumbeats?": {
+              "translation": "婴儿",
+              "pos": "n."
+            },
+            "To see how babies recognize sounds.": {
+              "translation": "婴儿",
+              "pos": "n."
+            },
+            "To keep the babies' interest.": {
+              "translation": "婴儿",
+              "pos": "n."
             }
           }
         },
@@ -48980,6 +49116,10 @@
             "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.": {
               "translation": "图画",
               "pos": "n."
+            },
+            "the colour of pictures.": {
+              "translation": "图画",
+              "pos": "n."
             }
           }
         },
@@ -48991,6 +49131,10 @@
           "meanings": "物体；目标；宾语；反对",
           "contexts": {
             "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.": {
+              "translation": "物体",
+              "pos": "n."
+            },
+            "the number of objects.": {
               "translation": "物体",
               "pos": "n."
             }
@@ -49030,6 +49174,10 @@
           "meanings": "一个；任何；每一",
           "contexts": {
             "When slightly older babies were shown cards with pictures of objects(a comb, a key, an orange and so on), changing the number of objects had an effect separate from changing the objects themselves.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "An advertisement.": {
               "translation": "一个",
               "pos": "art."
             }
@@ -49322,6 +49470,10 @@
             "Babies paid more attention to squares moving randomly on a screen when their number changed from two to three, or three to two.": {
               "translation": "他们的",
               "pos": "pron."
+            },
+            "To carry their experiment further.": {
+              "translation": "他们的",
+              "pos": "pron."
             }
           }
         },
@@ -49486,9 +49638,13 @@
           "translation": "鼓声",
           "pos": "n.",
           "forms": "drumbeats",
-          "meanings": "鼓声；击鼓声",
+          "meanings": "鼓声；击鼓声；心跳声",
           "contexts": {
             "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.": {
+              "translation": "鼓声",
+              "pos": "n."
+            },
+            "Why did the researchers test the babies with drumbeats?": {
               "translation": "鼓声",
               "pos": "n."
             }
@@ -49543,6 +49699,387 @@
             "Babies who were repeatedly shown two spots became more excited when they then heard three drumbeats than when they heard just two; likewise  when the researchers started with drumbeats and moved to spots.": {
               "translation": "转移到",
               "pos": "v."
+            }
+          }
+        },
+        "are": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, is, were, been, being",
+          "meanings": "是；在；存在；等于",
+          "contexts": {
+            "Babies are sensitive to the change in   _  .": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "sensitive": {
+          "lemma": "sensitive",
+          "translation": "灵敏的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "灵敏的；敏感的；易受伤害的；体贴的",
+          "contexts": {
+            "Babies are sensitive to the change in   _  .": {
+              "translation": "灵敏的",
+              "pos": "adj."
+            }
+          }
+        },
+        "in": {
+          "lemma": "in",
+          "translation": "在……之内",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "在……之内；在……方面；在……期间；处于（某种状态）",
+          "contexts": {
+            "Babies are sensitive to the change in   _  .": {
+              "translation": "在……之内",
+              "pos": "prep."
+            }
+          }
+        },
+        "size": {
+          "lemma": "size",
+          "translation": "大小",
+          "pos": "n.",
+          "forms": "sizes",
+          "meanings": "大小；尺寸；规模；体型",
+          "contexts": {
+            "the size of cards.": {
+              "translation": "大小",
+              "pos": "n."
+            }
+          }
+        },
+        "colour": {
+          "lemma": "colour",
+          "translation": "颜色",
+          "pos": "n.",
+          "forms": "colours",
+          "meanings": "颜色；色彩；色调；特性",
+          "contexts": {
+            "the colour of pictures.": {
+              "translation": "颜色",
+              "pos": "n."
+            }
+          }
+        },
+        "shape": {
+          "lemma": "shape",
+          "translation": "形状",
+          "pos": "n.",
+          "forms": "shapes",
+          "meanings": "形状；轮廓；状态；身材",
+          "contexts": {
+            "the shape of patterns.": {
+              "translation": "形状",
+              "pos": "n."
+            }
+          }
+        },
+        "patterns": {
+          "lemma": "pattern",
+          "translation": "图案",
+          "pos": "n.",
+          "forms": "patterns",
+          "meanings": "图案；模式；样式；模板",
+          "contexts": {
+            "the shape of patterns.": {
+              "translation": "图案",
+              "pos": "n."
+            }
+          }
+        },
+        "why": {
+          "lemma": "why",
+          "translation": "为什么",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "为什么；原因；为何；什么原因",
+          "contexts": {
+            "Why did the researchers test the babies with drumbeats?": {
+              "translation": "为什么",
+              "pos": "adv."
+            }
+          }
+        },
+        "test": {
+          "lemma": "test",
+          "translation": "检测",
+          "pos": "v.",
+          "forms": "tests, tested, testing",
+          "meanings": "检测；考试；测验；考验；试验",
+          "contexts": {
+            "Why did the researchers test the babies with drumbeats?": {
+              "translation": "检测",
+              "pos": "v."
+            }
+          }
+        },
+        "reduce": {
+          "lemma": "reduce",
+          "translation": "减少",
+          "pos": "v.",
+          "forms": "reduces, reduced, reducing",
+          "meanings": "减少；降低；缩小；使处于某种状态",
+          "contexts": {
+            "To reduce the difficulty of the experiment.": {
+              "translation": "减少",
+              "pos": "v."
+            }
+          }
+        },
+        "difficulty": {
+          "lemma": "difficulty",
+          "translation": "困难",
+          "pos": "n.",
+          "forms": "difficulties",
+          "meanings": "困难；难题；费劲；困境",
+          "contexts": {
+            "To reduce the difficulty of the experiment.": {
+              "translation": "困难",
+              "pos": "n."
+            }
+          }
+        },
+        "see": {
+          "lemma": "see",
+          "translation": "了解",
+          "pos": "v.",
+          "forms": "saw, seen, seeing",
+          "meanings": "看见；查看；理解；拜访",
+          "contexts": {
+            "To see how babies recognize sounds.": {
+              "translation": "了解",
+              "pos": "v."
+            }
+          }
+        },
+        "how": {
+          "lemma": "how",
+          "translation": "如何",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "如何；以何种方式；多么；状况",
+          "contexts": {
+            "To see how babies recognize sounds.": {
+              "translation": "如何",
+              "pos": "adv."
+            }
+          }
+        },
+        "recognize": {
+          "lemma": "recognize",
+          "translation": "识别",
+          "pos": "v.",
+          "forms": "recognizes, recognized, recognizing",
+          "meanings": "识别；认识到；承认；认出",
+          "contexts": {
+            "To see how babies recognize sounds.": {
+              "translation": "识别",
+              "pos": "v."
+            }
+          }
+        },
+        "sounds": {
+          "lemma": "sound",
+          "translation": "声音",
+          "pos": "n.",
+          "forms": "sounded, sounding",
+          "meanings": "声音；听起来；音调；音响",
+          "contexts": {
+            "To see how babies recognize sounds.": {
+              "translation": "声音",
+              "pos": "n."
+            }
+          }
+        },
+        "carry": {
+          "lemma": "carry",
+          "translation": "进行",
+          "pos": "v.",
+          "forms": "carries, carried, carrying",
+          "meanings": "携带；运送；进行；承载；传播",
+          "contexts": {
+            "To carry their experiment further.": {
+              "translation": "进行",
+              "pos": "v."
+            }
+          }
+        },
+        "further": {
+          "lemma": "further",
+          "translation": "进一步地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "进一步地；更远地；此外",
+          "contexts": {
+            "To carry their experiment further.": {
+              "translation": "进一步地",
+              "pos": "adv."
+            }
+          }
+        },
+        "keep": {
+          "lemma": "keep",
+          "translation": "保持",
+          "pos": "v.",
+          "forms": "keeps, kept, keeping",
+          "meanings": "保持；维持；保存；饲养；陪伴",
+          "contexts": {
+            "To keep the babies' interest.": {
+              "translation": "保持",
+              "pos": "v."
+            }
+          }
+        },
+        "where": {
+          "lemma": "where",
+          "translation": "在……的地方",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在何处；去哪里；在……的地方",
+          "contexts": {
+            "Where does this text probably come from?": {
+              "translation": "在……的地方",
+              "pos": "adv."
+            }
+          }
+        },
+        "does": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "v.",
+          "forms": "do, does, did, doing, done",
+          "meanings": "做；进行；行动；表现",
+          "contexts": {
+            "Where does this text probably come from?": {
+              "translation": "（助动词，用于构成疑问句）",
+              "pos": "aux.v."
+            }
+          }
+        },
+        "text": {
+          "lemma": "text",
+          "translation": "文本",
+          "pos": "n.",
+          "forms": "texts",
+          "meanings": "文本；正文；课文；短信；段落",
+          "contexts": {
+            "Where does this text probably come from?": {
+              "translation": "文本",
+              "pos": "n."
+            }
+          }
+        },
+        "probably": {
+          "lemma": "probably",
+          "translation": "大概",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大概；很可能；或许",
+          "contexts": {
+            "Where does this text probably come from?": {
+              "translation": "大概",
+              "pos": "adv."
+            }
+          }
+        },
+        "come": {
+          "lemma": "come",
+          "translation": "来自",
+          "pos": "v.",
+          "forms": "came, coming, comes",
+          "meanings": "来；到达；出现；开始",
+          "contexts": {
+            "Where does this text probably come from?": {
+              "translation": "来自",
+              "pos": "v."
+            }
+          }
+        },
+        "science": {
+          "lemma": "science",
+          "translation": "科学",
+          "pos": "n.",
+          "forms": "sciences",
+          "meanings": "科学；自然科学；理科；学科",
+          "contexts": {
+            "Science fiction.": {
+              "translation": "科学",
+              "pos": "n."
+            },
+            "A science report.": {
+              "translation": "科学",
+              "pos": "n."
+            }
+          }
+        },
+        "fiction": {
+          "lemma": "fiction",
+          "translation": "小说；虚构作品",
+          "pos": "n.",
+          "forms": "fictions",
+          "meanings": "小说；虚构作品；虚构",
+          "contexts": {
+            "Science fiction.": {
+              "translation": "虚构作品",
+              "pos": "n."
+            }
+          }
+        },
+        "children's": {
+          "lemma": "child",
+          "translation": "儿童的",
+          "pos": "adj.",
+          "forms": "children's",
+          "meanings": "儿童的；孩子们的",
+          "contexts": {
+            "Children's literature.": {
+              "translation": "儿童的",
+              "pos": "adj."
+            }
+          }
+        },
+        "literature": {
+          "lemma": "literature",
+          "translation": "文学",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "文学；文献；文选",
+          "contexts": {
+            "Children's literature.": {
+              "translation": "文学",
+              "pos": "n."
+            }
+          }
+        },
+        "advertisement": {
+          "lemma": "advertisement",
+          "translation": "广告",
+          "pos": "n.",
+          "forms": "advertisements",
+          "meanings": "广告；登广告；公告",
+          "contexts": {
+            "An advertisement.": {
+              "translation": "广告",
+              "pos": "n."
+            }
+          }
+        },
+        "report": {
+          "lemma": "report",
+          "translation": "报告",
+          "pos": "n.",
+          "forms": "reports, reported, reporting",
+          "meanings": "报告；报道；公布；告发；记叙",
+          "contexts": {
+            "A science report.": {
+              "translation": "报告",
+              "pos": "n."
             }
           }
         }
