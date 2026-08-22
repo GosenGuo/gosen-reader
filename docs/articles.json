@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:47:46.489Z",
+  "generatedAt": "2026-08-22T12:48:22.627Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -11140,6 +11140,10 @@
             "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.": {
               "translation": "专业的",
               "pos": "adj."
+            },
+            "People can get a Specialized Associate Degree by   _  .": {
+              "translation": "专业的",
+              "pos": "adj."
             }
           }
         },
@@ -11151,7 +11155,7 @@
           "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
           "contexts": {
             "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.": {
-              "translation": "……的",
+              "translation": "（用于表示所属关系）",
               "pos": "prep."
             },
             "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!": {
@@ -11163,7 +11167,7 @@
               "pos": "prep."
             },
             "Prepare for promotions, pay raises, or even start a business of your own.": {
-              "translation": "属于",
+              "translation": "……的",
               "pos": "prep."
             },
             "Then, write in the name and number of the program you're most interested in, and mail it today.": {
@@ -11171,7 +11175,11 @@
               "pos": "prep."
             },
             "We'll rush your free information about how you can take advantage of the opportunities.": {
-              "translation": "关于",
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "What kind of people will probably answer this advertisement?": {
+              "translation": "……的",
               "pos": "prep."
             }
           }
@@ -11272,6 +11280,18 @@
             "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.": {
               "translation": "大学",
               "pos": "n."
+            },
+            "College students preparing to study for a degree.": {
+              "translation": "大学",
+              "pos": "n."
+            },
+            "College students preparing to work in some big companies.": {
+              "translation": "大学",
+              "pos": "n."
+            },
+            "High school graduates preparing for college entrance examination.": {
+              "translation": "大学",
+              "pos": "n."
             }
           }
         },
@@ -11283,6 +11303,10 @@
           "meanings": "全职的；满的；完全的；充实的",
           "contexts": {
             "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.": {
+              "translation": "全职的",
+              "pos": "adj."
+            },
+            "doing full-time learning at school": {
               "translation": "全职的",
               "pos": "adj."
             }
@@ -11302,6 +11326,14 @@
             "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.": {
               "translation": "时间",
               "pos": "n."
+            },
+            "doing full-time learning at school": {
+              "translation": "时间",
+              "pos": "n."
+            },
+            "studying in their spare time": {
+              "translation": "时间",
+              "pos": "n."
             }
           }
         },
@@ -11315,39 +11347,55 @@
             "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.": {
               "translation": "学习",
               "pos": "v."
+            },
+            "College students preparing to study for a degree.": {
+              "translation": "学习",
+              "pos": "v."
             }
           }
         },
         "at": {
           "lemma": "at",
-          "translation": "在",
+          "translation": "在（某地点）",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）",
           "contexts": {
             "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.": {
-              "translation": "在",
+              "translation": "在（某地点）",
               "pos": "prep."
             },
             "Send today for FREE information about Harcourt at-home training!": {
-              "translation": "在",
+              "translation": "在（某地点）",
+              "pos": "prep."
+            },
+            "High school graduates preparing to have at-home training.": {
+              "translation": "在（某地点）",
+              "pos": "prep."
+            },
+            "doing full-time learning at school": {
+              "translation": "在（某地点）",
               "pos": "prep."
             }
           }
         },
         "home": {
           "lemma": "home",
-          "translation": "家",
-          "pos": "n./adv.",
+          "translation": "家里",
+          "pos": "n.",
           "forms": "homes",
           "meanings": "家；住宅；故乡；在家里",
           "contexts": {
             "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.": {
-              "translation": "家",
+              "translation": "家里",
               "pos": "n."
             },
             "Send today for FREE information about Harcourt at-home training!": {
-              "translation": "家",
+              "translation": "家里",
+              "pos": "n."
+            },
+            "High school graduates preparing to have at-home training.": {
+              "translation": "家里",
               "pos": "n."
             }
           }
@@ -11360,6 +11408,10 @@
           "meanings": "闲暇的；多余的；备用的；腾出",
           "contexts": {
             "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.": {
+              "translation": "闲暇的",
+              "pos": "adj."
+            },
+            "studying in their spare time": {
               "translation": "闲暇的",
               "pos": "adj."
             }
@@ -11476,6 +11528,18 @@
               "pos": "prep."
             },
             "Send today for FREE information about Harcourt at-home training!": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "College students preparing to study for a degree.": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "High school graduates preparing for college entrance examination.": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "studying abroad for two years": {
               "translation": "为了",
               "pos": "prep."
             }
@@ -11765,6 +11829,10 @@
             "Send today for FREE information about Harcourt at-home training!": {
               "translation": "培训",
               "pos": "n."
+            },
+            "High school graduates preparing to have at-home training.": {
+              "translation": "培训",
+              "pos": "n."
             }
           }
         },
@@ -12019,41 +12087,45 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "这/那（定冠词）",
+          "translation": "该",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这，那；特指；用于最高级前；专有名词前",
           "contexts": {
             "Books, lessons, learning aids---even professional-quality tools and equipment --- everything you need to master your training and move ahead to a new career is included in the low tuition   price you pay.": {
-              "translation": "（定冠词）",
+              "translation": "该",
               "pos": "art."
             },
             "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!": {
-              "translation": "（定冠词）",
+              "translation": "该",
               "pos": "art."
             },
             "The career of your dreams is closer than you think!": {
-              "translation": "（定冠词）",
+              "translation": "该",
               "pos": "art."
             },
             "Simply fill in your name and address on the coupon   above.": {
-              "translation": "（定冠词）",
+              "translation": "该",
               "pos": "art."
             },
             "Then, write in the name and number of the program you're most interested in, and mail it today.": {
-              "translation": "（定冠词）",
+              "translation": "该",
               "pos": "art."
             },
             "We'll rush your free information about how you can take advantage of the opportunities.": {
-              "translation": "（定冠词）",
+              "translation": "该",
               "pos": "art."
             },
             "In the field you've chosen.": {
-              "translation": "（定冠词）",
+              "translation": "该",
               "pos": "art."
             },
             "Or call the number below 1-800-372-1589.": {
-              "translation": "（定冠词）",
+              "translation": "该",
+              "pos": "art."
+            },
+            "By visiting the office on weekdays.": {
+              "translation": "该",
               "pos": "art."
             }
           }
@@ -12178,6 +12250,14 @@
               "pos": "n."
             },
             "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!": {
+              "translation": "公司",
+              "pos": "n."
+            },
+            "College students preparing to work in some big companies.": {
+              "translation": "公司",
+              "pos": "n."
+            },
+            "working in some big famous companies": {
               "translation": "公司",
               "pos": "n."
             }
@@ -12340,6 +12420,10 @@
             "Nearly 2,000 American companies --- including General Electric, IBM, Mobil, General Motors, Ford, and many others --- have used our training for their employees.": {
               "translation": "他们的",
               "pos": "pron."
+            },
+            "studying in their spare time": {
+              "translation": "他们的",
+              "pos": "pron."
             }
           }
         },
@@ -12428,7 +12512,15 @@
               "pos": "modal v."
             },
             "We'll rush your free information about how you can take advantage of the opportunities.": {
-              "translation": "可以",
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "People can get a Specialized Associate Degree by   _  .": {
+              "translation": "能够",
+              "pos": "modal v."
+            },
+            "How can you contact Harcourt Learning Direct?": {
+              "translation": "能够",
               "pos": "modal v."
             }
           }
@@ -12493,7 +12585,11 @@
           "meanings": "将要；愿意；会；意志（名词）",
           "contexts": {
             "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!": {
-              "translation": "会",
+              "translation": "将要",
+              "pos": "modal v."
+            },
+            "What kind of people will probably answer this advertisement?": {
+              "translation": "将要",
               "pos": "modal v."
             }
           }
@@ -12552,13 +12648,17 @@
         },
         "two": {
           "lemma": "two",
-          "translation": "二",
+          "translation": "两个",
           "pos": "num.",
           "forms": "无常见变形",
           "meanings": "二；两个",
           "contexts": {
             "Earn your degree in as little as two years!": {
-              "translation": "二",
+              "translation": "两个",
+              "pos": "num."
+            },
+            "studying abroad for two years": {
+              "translation": "两个",
               "pos": "num."
             }
           }
@@ -12571,6 +12671,10 @@
           "meanings": "年；年份；岁数；一年的时间",
           "contexts": {
             "Earn your degree in as little as two years!": {
+              "translation": "年",
+              "pos": "n."
+            },
+            "studying abroad for two years": {
               "translation": "年",
               "pos": "n."
             }
@@ -12742,6 +12846,26 @@
             "Step-by-step lessons make learning easy.": {
               "translation": "通过",
               "pos": "prep."
+            },
+            "People can get a Specialized Associate Degree by   _  .": {
+              "translation": "通过",
+              "pos": "prep."
+            },
+            "By visiting the office on weekdays.": {
+              "translation": "通过",
+              "pos": "prep."
+            },
+            "By sending an e-mail.": {
+              "translation": "通过",
+              "pos": "prep."
+            },
+            "By making a call on weekdays only.": {
+              "translation": "通过",
+              "pos": "prep."
+            },
+            "By sending a letter not later than today.": {
+              "translation": "通过",
+              "pos": "prep."
             }
           }
         },
@@ -12857,12 +12981,12 @@
           "meanings": "今天；现今；当代",
           "contexts": {
             "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.": {
-              "translation": "现今",
-              "pos": "adv."
+              "translation": "当代",
+              "pos": "n."
             },
             "Even if you have no experience before, you can get valuable job skills in today's hottest fields!": {
-              "translation": "现今",
-              "pos": "adv."
+              "translation": "当代",
+              "pos": "n."
             },
             "Send today for FREE information about Harcourt at-home training!": {
               "translation": "今天",
@@ -12877,6 +13001,10 @@
               "pos": "adv."
             },
             "Mail coupon today!": {
+              "translation": "今天",
+              "pos": "adv."
+            },
+            "By sending a letter not later than today.": {
               "translation": "今天",
               "pos": "adv."
             }
@@ -12998,6 +13126,14 @@
           "contexts": {
             "Simply fill in your name and address on the coupon   above.": {
               "translation": "在……之上",
+              "pos": "prep."
+            },
+            "By visiting the office on weekdays.": {
+              "translation": "在（时间）",
+              "pos": "prep."
+            },
+            "By making a call on weekdays only.": {
+              "translation": "在（时间）",
               "pos": "prep."
             }
           }
@@ -13145,6 +13281,10 @@
             "com \nE-mail: Harcourt@learning.": {
               "translation": "邮件",
               "pos": "n."
+            },
+            "By sending an e-mail.": {
+              "translation": "邮件",
+              "pos": "n."
             }
           }
         },
@@ -13182,26 +13322,30 @@
           "meanings": "有；经历；吃；使（某人做某事）；辅助动词（完成时态）",
           "contexts": {
             "Have you ever wondered what a Degree might be worth to you in your job or career?": {
-              "translation": "有",
+              "translation": "拥有",
               "pos": "verb"
             },
             "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.": {
-              "translation": "不得不",
+              "translation": "放弃",
               "pos": "verb"
             },
             "Nearly 2,000 American companies --- including General Electric, IBM, Mobil, General Motors, Ford, and many others --- have used our training for their employees.": {
-              "translation": "已经",
-              "pos": "auxiliary verb"
+              "translation": "使用过",
+              "pos": "verb"
             },
             "Even if you have no experience before, you can get valuable job skills in today's hottest fields!": {
-              "translation": "有",
+              "translation": "拥有",
+              "pos": "verb"
+            },
+            "High school graduates preparing to have at-home training.": {
+              "translation": "接受",
               "pos": "verb"
             }
           }
         },
         "you": {
           "lemma": "you",
-          "translation": "你",
+          "translation": "你；你们",
           "pos": "pronoun",
           "forms": "your; yours; yourself",
           "meanings": "你；你们；人们（泛指）",
@@ -13249,6 +13393,10 @@
             "In the field you've chosen.": {
               "translation": "你",
               "pos": "pronoun"
+            },
+            "How can you contact Harcourt Learning Direct?": {
+              "translation": "你",
+              "pos": "pronoun"
             }
           }
         },
@@ -13288,6 +13436,10 @@
             "Have you ever wondered what a Degree might be worth to you in your job or career?": {
               "translation": "什么",
               "pos": "pronoun"
+            },
+            "What kind of people will probably answer this advertisement?": {
+              "translation": "什么样的",
+              "pos": "pronoun"
             }
           }
         },
@@ -13303,7 +13455,7 @@
               "pos": "article"
             },
             "It means a lot.": {
-              "translation": "一个",
+              "translation": "很",
               "pos": "article"
             },
             "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.": {
@@ -13331,7 +13483,23 @@
               "pos": "article"
             },
             "Call anytime, 24 hours a day, 7 days a week.": {
-              "translation": "每一（天）",
+              "translation": "一个",
+              "pos": "article"
+            },
+            "College students preparing to study for a degree.": {
+              "translation": "一个",
+              "pos": "article"
+            },
+            "People can get a Specialized Associate Degree by   _  .": {
+              "translation": "一个",
+              "pos": "article"
+            },
+            "By making a call on weekdays only.": {
+              "translation": "一个",
+              "pos": "article"
+            },
+            "By sending a letter not later than today.": {
+              "translation": "一个",
               "pos": "article"
             }
           }
@@ -13356,6 +13524,14 @@
               "pos": "noun"
             },
             "Earn your degree in as little as two years!": {
+              "translation": "学位",
+              "pos": "noun"
+            },
+            "College students preparing to study for a degree.": {
+              "translation": "学位",
+              "pos": "noun"
+            },
+            "People can get a Specialized Associate Degree by   _  .": {
               "translation": "学位",
               "pos": "noun"
             }
@@ -13417,15 +13593,27 @@
             },
             "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.": {
               "translation": "（构成不定式）",
-              "pos": "particle"
+              "pos": "infinitive marker"
             },
             "With Harcourt, you study at home, in your spare time so you don't have to give up your present job while you train for a better one.": {
               "translation": "（构成不定式）",
-              "pos": "particle"
+              "pos": "infinitive marker"
             },
             "Books, lessons, learning aids---even professional-quality tools and equipment --- everything you need to master your training and move ahead to a new career is included in the low tuition   price you pay.": {
               "translation": "（构成不定式）",
-              "pos": "particle"
+              "pos": "infinitive marker"
+            },
+            "High school graduates preparing to have at-home training.": {
+              "translation": "（构成不定式）",
+              "pos": "infinitive marker"
+            },
+            "College students preparing to study for a degree.": {
+              "translation": "（构成不定式）",
+              "pos": "infinitive marker"
+            },
+            "College students preparing to work in some big companies.": {
+              "translation": "（构成不定式）",
+              "pos": "infinitive marker"
             }
           }
         },
@@ -13441,7 +13629,7 @@
               "pos": "preposition"
             },
             "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.": {
-              "translation": "在……之内",
+              "translation": "在……期间",
               "pos": "preposition"
             },
             "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.": {
@@ -13453,35 +13641,47 @@
               "pos": "preposition"
             },
             "Books, lessons, learning aids---even professional-quality tools and equipment --- everything you need to master your training and move ahead to a new career is included in the low tuition   price you pay.": {
-              "translation": "在……内",
-              "pos": "preposition"
-            },
-            "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!": {
-              "translation": "在……内",
-              "pos": "preposition"
-            },
-            "Earn your degree in as little as two years!": {
               "translation": "在……之内",
               "pos": "preposition"
             },
+            "If companies like these recognize the value of our training, you can be sure that employers in your area will, too!": {
+              "translation": "在……地区",
+              "pos": "preposition"
+            },
+            "Earn your degree in as little as two years!": {
+              "translation": "在……时间内",
+              "pos": "preposition"
+            },
             "Get a career diploma in just six months!": {
-              "translation": "在……内",
+              "translation": "在……领域",
               "pos": "preposition"
             },
             "Even if you have no experience before, you can get valuable job skills in today's hottest fields!": {
-              "translation": "在……方面",
+              "translation": "在……领域",
               "pos": "preposition"
             },
             "Simply fill in your name and address on the coupon   above.": {
-              "translation": "填入",
+              "translation": "填写",
               "pos": "preposition"
             },
             "Then, write in the name and number of the program you're most interested in, and mail it today.": {
-              "translation": "在……内",
+              "translation": "填写",
               "pos": "preposition"
             },
             "In the field you've chosen.": {
               "translation": "在……领域",
+              "pos": "preposition"
+            },
+            "College students preparing to work in some big companies.": {
+              "translation": "在……公司",
+              "pos": "preposition"
+            },
+            "working in some big famous companies": {
+              "translation": "在……公司",
+              "pos": "preposition"
+            },
+            "studying in their spare time": {
+              "translation": "在……期间",
               "pos": "preposition"
             }
           }
@@ -13682,30 +13882,38 @@
         "an": {
           "lemma": "an",
           "translation": "一个",
-          "pos": "art.",
+          "pos": "article",
           "forms": "无常见变形",
           "meanings": "一个；任何；每一",
           "contexts": {
             "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.": {
               "translation": "一个",
-              "pos": "art."
+              "pos": "article"
+            },
+            "By sending an e-mail.": {
+              "translation": "一个",
+              "pos": "article"
             }
           }
         },
         "associate": {
           "lemma": "associate",
-          "translation": "副学士（学位）的",
-          "pos": "adj.",
+          "translation": "副学士学位的",
+          "pos": "adjective",
           "forms": "associates, associated, associating",
           "meanings": "副学士学位的；准的；联合的；结交",
           "contexts": {
             "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.": {
               "translation": "副学士学位的",
-              "pos": "adj."
+              "pos": "adjective"
             },
             "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.": {
               "translation": "副学士学位的",
-              "pos": "adj."
+              "pos": "adjective"
+            },
+            "People can get a Specialized Associate Degree by   _  .": {
+              "translation": "副学士学位的",
+              "pos": "adjective"
             }
           }
         },
@@ -13785,17 +13993,21 @@
         "than": {
           "lemma": "than",
           "translation": "比",
-          "pos": "conj.",
+          "pos": "conjunction",
           "forms": "无常见变形",
           "meanings": "比；除……之外",
           "contexts": {
             "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.": {
               "translation": "比",
-              "pos": "conj."
+              "pos": "conjunction"
             },
             "The career of your dreams is closer than you think!": {
               "translation": "比",
-              "pos": "conj."
+              "pos": "conjunction"
+            },
+            "By sending a letter not later than today.": {
+              "translation": "比",
+              "pos": "conjunction"
             }
           }
         },
@@ -13839,6 +14051,14 @@
             "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.": {
               "translation": "高中的",
               "pos": "adj."
+            },
+            "High school graduates preparing to have at-home training.": {
+              "translation": "高中的",
+              "pos": "adj."
+            },
+            "High school graduates preparing for college entrance examination.": {
+              "translation": "高中的",
+              "pos": "adj."
             }
           }
         },
@@ -13850,6 +14070,18 @@
           "meanings": "学校；学院；上学；学派",
           "contexts": {
             "Americans with an Associate Degree average nearly $10,000 more in yearly earnings than those with just a High School Diploma.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "High school graduates preparing to have at-home training.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "High school graduates preparing for college entrance examination.": {
+              "translation": "学校",
+              "pos": "n."
+            },
+            "doing full-time learning at school": {
               "translation": "学校",
               "pos": "n."
             }
@@ -13898,6 +14130,10 @@
             "com \nE-mail: Harcourt@learning.": {
               "translation": "哈考特（机构名）",
               "pos": "n."
+            },
+            "How can you contact Harcourt Learning Direct?": {
+              "translation": "哈考特（机构名）",
+              "pos": "n."
             }
           }
         },
@@ -13927,6 +14163,14 @@
             "com \nE-mail: Harcourt@learning.": {
               "translation": "学习",
               "pos": "n."
+            },
+            "doing full-time learning at school": {
+              "translation": "学习",
+              "pos": "n."
+            },
+            "How can you contact Harcourt Learning Direct?": {
+              "translation": "学习",
+              "pos": "n."
             }
           }
         },
@@ -13938,7 +14182,11 @@
           "meanings": "直接的；直率的；指导；指挥",
           "contexts": {
             "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.": {
-              "translation": "直接（命名的一部分）",
+              "translation": "直接的",
+              "pos": "adj."
+            },
+            "How can you contact Harcourt Learning Direct?": {
+              "translation": "直接的",
               "pos": "adj."
             }
           }
@@ -13987,6 +14235,10 @@
             "Even if you have no experience before, you can get valuable job skills in today's hottest fields!": {
               "translation": "获得",
               "pos": "v."
+            },
+            "People can get a Specialized Associate Degree by   _  .": {
+              "translation": "获得",
+              "pos": "v."
             }
           }
         },
@@ -13998,6 +14250,10 @@
           "meanings": "如何；以何种方式；多么；状况",
           "contexts": {
             "We'll rush your free information about how you can take advantage of the opportunities.": {
+              "translation": "如何",
+              "pos": "adv."
+            },
+            "How can you contact Harcourt Learning Direct?": {
               "translation": "如何",
               "pos": "adv."
             }
@@ -14108,6 +14364,10 @@
             "Call anytime, 24 hours a day, 7 days a week.": {
               "translation": "打电话",
               "pos": "v."
+            },
+            "By making a call on weekdays only.": {
+              "translation": "打电话",
+              "pos": "n."
             }
           }
         },
@@ -14221,14 +14481,439 @@
         },
         "e": {
           "lemma": "e",
-          "translation": "电子",
+          "translation": "电子的（缩写）",
           "pos": "adj.",
           "forms": "无常见变形",
           "meanings": "电子的（缩写）",
           "contexts": {
             "com \nE-mail: Harcourt@learning.": {
-              "translation": "电子的",
+              "translation": "电子邮件",
+              "pos": "n."
+            },
+            "By sending an e-mail.": {
+              "translation": "电子邮件",
+              "pos": "n."
+            }
+          }
+        },
+        "kind": {
+          "lemma": "kind",
+          "translation": "种类",
+          "pos": "n.",
+          "forms": "kinds",
+          "meanings": "种类；类型；仁慈的；亲切的",
+          "contexts": {
+            "What kind of people will probably answer this advertisement?": {
+              "translation": "什么种类的人",
+              "pos": "n."
+            }
+          }
+        },
+        "people": {
+          "lemma": "people",
+          "translation": "人们",
+          "pos": "n.",
+          "forms": "peoples",
+          "meanings": "人们；民族；人；国民",
+          "contexts": {
+            "What kind of people will probably answer this advertisement?": {
+              "translation": "人",
+              "pos": "n."
+            },
+            "People can get a Specialized Associate Degree by   _  .": {
+              "translation": "人",
+              "pos": "n."
+            }
+          }
+        },
+        "probably": {
+          "lemma": "probably",
+          "translation": "大概",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "大概；很可能；或许",
+          "contexts": {
+            "What kind of people will probably answer this advertisement?": {
+              "translation": "大概",
+              "pos": "adv."
+            }
+          }
+        },
+        "answer": {
+          "lemma": "answer",
+          "translation": "回答",
+          "pos": "v.",
+          "forms": "answers, answered, answering",
+          "meanings": "回答；接（电话）；应门；符合",
+          "contexts": {
+            "What kind of people will probably answer this advertisement?": {
+              "translation": "回答",
+              "pos": "v."
+            }
+          }
+        },
+        "this": {
+          "lemma": "this",
+          "translation": "这个",
+          "pos": "det.",
+          "forms": "these",
+          "meanings": "这；这个；这种；此",
+          "contexts": {
+            "What kind of people will probably answer this advertisement?": {
+              "translation": "这个",
+              "pos": "det."
+            }
+          }
+        },
+        "advertisement": {
+          "lemma": "advertisement",
+          "translation": "广告",
+          "pos": "n.",
+          "forms": "advertisements",
+          "meanings": "广告；登广告；公告",
+          "contexts": {
+            "What kind of people will probably answer this advertisement?": {
+              "translation": "广告",
+              "pos": "n."
+            }
+          }
+        },
+        "graduates": {
+          "lemma": "graduate",
+          "translation": "毕业生",
+          "pos": "n.",
+          "forms": "graduates",
+          "meanings": "毕业生；研究生；度量衡标尺",
+          "contexts": {
+            "High school graduates preparing to have at-home training.": {
+              "translation": "高中毕业生",
+              "pos": "n."
+            },
+            "High school graduates preparing for college entrance examination.": {
+              "translation": "高中毕业生",
+              "pos": "n."
+            }
+          }
+        },
+        "preparing": {
+          "lemma": "prepare",
+          "translation": "准备",
+          "pos": "v.",
+          "forms": "prepares, prepared, preparing",
+          "meanings": "准备；筹备；预备；配置",
+          "contexts": {
+            "High school graduates preparing to have at-home training.": {
+              "translation": "准备接受",
+              "pos": "v."
+            },
+            "College students preparing to study for a degree.": {
+              "translation": "准备",
+              "pos": "v."
+            },
+            "College students preparing to work in some big companies.": {
+              "translation": "准备",
+              "pos": "v."
+            },
+            "High school graduates preparing for college entrance examination.": {
+              "translation": "准备",
+              "pos": "v."
+            }
+          }
+        },
+        "students": {
+          "lemma": "student",
+          "translation": "学生",
+          "pos": "n.",
+          "forms": "students",
+          "meanings": "学生；学者；研究者",
+          "contexts": {
+            "College students preparing to study for a degree.": {
+              "translation": "大学生",
+              "pos": "n."
+            },
+            "College students preparing to work in some big companies.": {
+              "translation": "大学生",
+              "pos": "n."
+            }
+          }
+        },
+        "work": {
+          "lemma": "work",
+          "translation": "工作",
+          "pos": "v.",
+          "forms": "works, worked, working",
+          "meanings": "工作；运作；起作用；致力于",
+          "contexts": {
+            "College students preparing to work in some big companies.": {
+              "translation": "工作",
+              "pos": "v."
+            }
+          }
+        },
+        "some": {
+          "lemma": "some",
+          "translation": "一些",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "一些；某个；一部分；大约",
+          "contexts": {
+            "College students preparing to work in some big companies.": {
+              "translation": "一些",
               "pos": "adj."
+            },
+            "working in some big famous companies": {
+              "translation": "一些",
+              "pos": "adj."
+            }
+          }
+        },
+        "big": {
+          "lemma": "big",
+          "translation": "大的",
+          "pos": "adj.",
+          "forms": "bigger, biggest",
+          "meanings": "大的；年长的；重大的；大城市的",
+          "contexts": {
+            "College students preparing to work in some big companies.": {
+              "translation": "大的",
+              "pos": "adj."
+            },
+            "working in some big famous companies": {
+              "translation": "大的",
+              "pos": "adj."
+            }
+          }
+        },
+        "entrance": {
+          "lemma": "entrance",
+          "translation": "入学",
+          "pos": "n.",
+          "forms": "entrances",
+          "meanings": "入口；进入；入学；费用",
+          "contexts": {
+            "High school graduates preparing for college entrance examination.": {
+              "translation": "入学",
+              "pos": "n."
+            }
+          }
+        },
+        "examination": {
+          "lemma": "examination",
+          "translation": "考试",
+          "pos": "n.",
+          "forms": "examinations",
+          "meanings": "考试；检查；审查；详细检查",
+          "contexts": {
+            "High school graduates preparing for college entrance examination.": {
+              "translation": "考试",
+              "pos": "n."
+            }
+          }
+        },
+        "doing": {
+          "lemma": "do",
+          "translation": "做",
+          "pos": "v.",
+          "forms": "does, did, done, doing",
+          "meanings": "做；干；从事；表现",
+          "contexts": {
+            "doing full-time learning at school": {
+              "translation": "做",
+              "pos": "v."
+            }
+          }
+        },
+        "working": {
+          "lemma": "work",
+          "translation": "工作",
+          "pos": "v.",
+          "forms": "works, worked, working",
+          "meanings": "工作；运作；起作用；致力于",
+          "contexts": {
+            "working in some big famous companies": {
+              "translation": "工作",
+              "pos": "v."
+            }
+          }
+        },
+        "famous": {
+          "lemma": "famous",
+          "translation": "著名的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "著名的；出名的；有名的；极好的；标志性的",
+          "contexts": {
+            "working in some big famous companies": {
+              "translation": "著名的",
+              "pos": "adj."
+            }
+          }
+        },
+        "studying": {
+          "lemma": "study",
+          "translation": "学习",
+          "pos": "v.",
+          "forms": "studies, studied, studying",
+          "meanings": "学习；研读；研究；审视",
+          "contexts": {
+            "studying in their spare time": {
+              "translation": "学习",
+              "pos": "v."
+            },
+            "studying abroad for two years": {
+              "translation": "学习",
+              "pos": "v."
+            }
+          }
+        },
+        "abroad": {
+          "lemma": "abroad",
+          "translation": "在国外",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "在国外；到国外；广为流传",
+          "contexts": {
+            "studying abroad for two years": {
+              "translation": "在国外",
+              "pos": "adv."
+            }
+          }
+        },
+        "contact": {
+          "lemma": "contact",
+          "translation": "联系",
+          "pos": "v.",
+          "forms": "contacts, contacted, contacting",
+          "meanings": "联系；接触；触点；交往",
+          "contexts": {
+            "How can you contact Harcourt Learning Direct?": {
+              "translation": "联系",
+              "pos": "v."
+            }
+          }
+        },
+        "visiting": {
+          "lemma": "visit",
+          "translation": "参观",
+          "pos": "v.",
+          "forms": "visits, visited, visiting",
+          "meanings": "拜访；参观；探望；视察",
+          "contexts": {
+            "By visiting the office on weekdays.": {
+              "translation": "参观",
+              "pos": "v."
+            }
+          }
+        },
+        "office": {
+          "lemma": "office",
+          "translation": "办公室",
+          "pos": "n.",
+          "forms": "offices",
+          "meanings": "办公室；办公地点；职务；部门",
+          "contexts": {
+            "By visiting the office on weekdays.": {
+              "translation": "办公室",
+              "pos": "n."
+            }
+          }
+        },
+        "weekdays": {
+          "lemma": "weekday",
+          "translation": "工作日",
+          "pos": "n.",
+          "forms": "weekdays",
+          "meanings": "工作日；平日；星期一至星期五",
+          "contexts": {
+            "By visiting the office on weekdays.": {
+              "translation": "工作日",
+              "pos": "n."
+            },
+            "By making a call on weekdays only.": {
+              "translation": "工作日",
+              "pos": "n."
+            }
+          }
+        },
+        "sending": {
+          "lemma": "send",
+          "translation": "发送",
+          "pos": "v.",
+          "forms": "sends, sent, sending",
+          "meanings": "发送；寄送；派遣；发出",
+          "contexts": {
+            "By sending an e-mail.": {
+              "translation": "发送",
+              "pos": "v."
+            },
+            "By sending a letter not later than today.": {
+              "translation": "寄送",
+              "pos": "v."
+            }
+          }
+        },
+        "making": {
+          "lemma": "make",
+          "translation": "进行",
+          "pos": "v.",
+          "forms": "makes, made, making",
+          "meanings": "制作；赚取；做；使得；进行",
+          "contexts": {
+            "By making a call on weekdays only.": {
+              "translation": "进行",
+              "pos": "v."
+            }
+          }
+        },
+        "only": {
+          "lemma": "only",
+          "translation": "仅仅",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "仅仅；只；才；唯一",
+          "contexts": {
+            "By making a call on weekdays only.": {
+              "translation": "仅仅",
+              "pos": "adv."
+            }
+          }
+        },
+        "letter": {
+          "lemma": "letter",
+          "translation": "信件",
+          "pos": "n.",
+          "forms": "letters",
+          "meanings": "信件；字母；文字；证书",
+          "contexts": {
+            "By sending a letter not later than today.": {
+              "translation": "信件",
+              "pos": "n."
+            }
+          }
+        },
+        "not": {
+          "lemma": "not",
+          "translation": "不",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "不；不是；没",
+          "contexts": {
+            "By sending a letter not later than today.": {
+              "translation": "不",
+              "pos": "adv."
+            }
+          }
+        },
+        "later": {
+          "lemma": "later",
+          "translation": "不迟于",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "后来；稍后；以后；不迟于",
+          "contexts": {
+            "By sending a letter not later than today.": {
+              "translation": "不迟于",
+              "pos": "adv."
             }
           }
         }
