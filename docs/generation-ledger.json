@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T13:03:26.516Z",
+      "generatedAt": "2026-08-22T13:04:49.394Z",
       "requestedArticles": 40,
-      "acceptedArticles": 25,
+      "acceptedArticles": 26,
       "completed": false,
       "usage": {
-        "requests": 200,
-        "inputTokens": 409755,
-        "outputTokens": 234269,
-        "totalTokens": 644024,
+        "requests": 218,
+        "inputTokens": 443201,
+        "outputTokens": 255180,
+        "totalTokens": 698381,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.0442708,
+        "estimatedCostCny": 0.04813483,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 200,
-            "inputTokens": 409755,
-            "outputTokens": 234269,
-            "totalTokens": 644024,
+            "requests": 218,
+            "inputTokens": 443201,
+            "outputTokens": 255180,
+            "totalTokens": 698381,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.0442708
+            "estimatedCostCny": 0.04813483
           }
         }
       },
@@ -2479,12 +2479,35 @@
               "estimatedCostCny": 0.00122122
             }
           }
+        },
+        {
+          "articleId": "web-c07f29846f6c48f3",
+          "title": "RACE 高中英语阅读 high4148",
+          "requests": 9,
+          "inputTokens": 16993,
+          "outputTokens": 10747,
+          "totalTokens": 27740,
+          "estimatedCostCny": 0.00198038,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 9,
+              "inputTokens": 16993,
+              "outputTokens": 10747,
+              "totalTokens": 27740,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00198038
+            }
+          }
         }
       ],
       "failures": [
         {
           "articleId": "web-489568c736b8b700",
           "error": "glossary repair left 4 word(s): negative, supportive, doubtful, unclear"
+        },
+        {
+          "articleId": "web-2003500b566de45c",
+          "error": "glossary repair left 3 word(s): her, to, treat"
         }
       ]
     }
