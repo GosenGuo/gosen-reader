@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T12:56:11.563Z",
+      "generatedAt": "2026-08-22T12:57:41.141Z",
       "requestedArticles": 40,
-      "acceptedArticles": 16,
+      "acceptedArticles": 17,
       "completed": false,
       "usage": {
-        "requests": 125,
-        "inputTokens": 253089,
-        "outputTokens": 148157,
-        "totalTokens": 401246,
+        "requests": 135,
+        "inputTokens": 276460,
+        "outputTokens": 159610,
+        "totalTokens": 436070,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.02782847,
+        "estimatedCostCny": 0.03008628,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 125,
-            "inputTokens": 253089,
-            "outputTokens": 148157,
-            "totalTokens": 401246,
+            "requests": 135,
+            "inputTokens": 276460,
+            "outputTokens": 159610,
+            "totalTokens": 436070,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.02782847
+            "estimatedCostCny": 0.03008628
           }
         }
       },
@@ -2306,6 +2306,25 @@
               "totalTokens": 33422,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00225618
+            }
+          }
+        },
+        {
+          "articleId": "web-9164814709a91049",
+          "title": "RACE 高中英语阅读 high4111",
+          "requests": 10,
+          "inputTokens": 23371,
+          "outputTokens": 11453,
+          "totalTokens": 34824,
+          "estimatedCostCny": 0.00225781,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 10,
+              "inputTokens": 23371,
+              "outputTokens": 11453,
+              "totalTokens": 34824,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00225781
             }
           }
         }
