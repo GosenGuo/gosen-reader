@@ -1,43 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:47:26.173Z",
+  "generatedAt": "2026-08-22T12:47:46.485Z",
   "words": {
     "on": {
       "lemma": "on",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "在……之上；关于；通过（工具、媒介）；在（某一天或时刻）",
+      "meanings": "在……之上；关于；通过（媒介）；在（时间）",
       "senses": [
-        {
-          "translation": "在……上",
-          "pos": "prep.",
-          "example": "The goal was to let farmers precisely target pesticide spraying rather than rain poison on a whole field, which invariably includes plants that don't have pest problems.",
-          "sourceArticleId": "web-473b3be3fe52d4fc"
-        },
-        {
-          "translation": "在……上",
-          "pos": "prep.",
-          "example": "Mounted on a plane flown at 3,000 feet at night, an infrared scanner measured the heat emitted by crops.",
-          "sourceArticleId": "web-473b3be3fe52d4fc"
-        },
-        {
-          "translation": "关于",
-          "pos": "prep.",
-          "example": "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.",
-          "sourceArticleId": "web-473b3be3fe52d4fc"
-        },
-        {
-          "translation": "在……上",
-          "pos": "prep.",
-          "example": "\"This technique can be used on 75 percent of agricultural land in the United States, \" says George Oerther of Texas A & M.",
-          "sourceArticleId": "web-473b3be3fe52d4fc"
-        },
-        {
-          "translation": "关于",
-          "pos": "prep.",
-          "example": "But executives of The New York Times Company said they could not yet answer fundamental questions about the plan, like how much it would cost or what the limit would be on free reading.",
-          "sourceArticleId": "web-e5460a9523607192"
-        },
         {
           "translation": "关于",
           "pos": "prep.",
@@ -79,6 +49,36 @@
           "pos": "prep.",
           "example": "\"Through Andrea's efforts these kids have helped to put Granite Falls,Washington,on the map for musical talents.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "她说：“我喜欢看看山的那边有什么。”",
+          "pos": "prep.",
+          "example": "She says,\"I like to see what's on the other side of the hill.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "旅行的最后一周，她每天靠一把坚果和一点水维持生命。",
+          "pos": "prep.",
+          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "在网站上，她分享了自己的冒险经历，以激励学生们。",
+          "pos": "prep.",
+          "example": "On the site,she shared her adventures in order to inspire students.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "1996年，她承担了另一项挑战——撒哈拉沙漠。",
+          "pos": "prep.",
+          "example": "In 1996,she took on another challenge--the Sahara Desert.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "2001年，她和比尔徒步从西向东穿越了蒙古的戈壁沙漠。",
+          "pos": "prep.",
+          "example": "In 2001,she and Bill travelled on foot from west to east through the Gobi Desert in Mongolia.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -120,7 +120,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 36,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "web": {
       "lemma": "web",
@@ -245,85 +245,85 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "the": {
       "lemma": "the",
       "pos": "art.",
       "forms": "无常见变形",
-      "meanings": "这，那；特指；用于最高级前",
+      "meanings": "这，那；特指；用于最高级前；专有名词前",
       "senses": [
         {
-          "translation": "特指",
+          "translation": "另一边",
           "pos": "art.",
-          "example": "stop the spread of any new mention of your name or other personal information",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
+          "example": "She says,\"I like to see what's on the other side of the hill.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "特指",
+          "translation": "北极",
           "pos": "art.",
-          "example": "Growing up the daughter of an outstanding educator,Andrea Peterson knew at a young age that she wanted to serve others.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "特指",
+          "translation": "旅程结束",
           "pos": "art.",
-          "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "Near the end of her trip,a forceful wind blew away the majority of her supplies.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "特指",
+          "translation": "最后一周",
           "pos": "art.",
-          "example": "The growth of the music program in Granite Falls School District has encouraged students to participate in country,state and national music competitions,and won numerous prizes for the district.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "特指",
+          "translation": "网站上",
           "pos": "art.",
-          "example": "The most visible benefit from their success in music is their increased confidence and selfesteem,\" Peterson said.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "On the site,she shared her adventures in order to inspire students.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "特指",
+          "translation": "世界",
           "pos": "art.",
-          "example": "\"However,I don't believe it is the only benefit,nor the most powerful.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "特指",
+          "translation": "父母的",
           "pos": "art.",
-          "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "特指",
+          "translation": "最高的山峰",
           "pos": "art.",
-          "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "Later,she climbed the highest  mountains in North and South America,the former  USSR and New Zealand.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "特指",
+          "translation": "撒哈拉沙漠",
           "pos": "art.",
-          "example": "\"Through Andrea's efforts these kids have helped to put Granite Falls,Washington,on the map for musical talents.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "In 1996,she took on another challenge--the Sahara Desert.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "特指",
+          "translation": "戈壁沙漠",
           "pos": "art.",
-          "example": "Parents,staff and community members continue to be in awe of what she is able to bring forth from the children,\"said Debra Rose Howell,a colleague of Peterson's at Monte Crisco Elementary School.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "In 2001,she and Bill travelled on foot from west to east through the Gobi Desert in Mongolia.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "特指",
+          "translation": "文本",
           "pos": "art.",
-          "example": "Which of the following is NOT a benefit the students get from Andrea Peterson's class?",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "Which is the best title for the text?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "特指",
+          "translation": "定冠词",
           "pos": "art.",
-          "example": "What is most special about the way Andrea Peterson teaches?",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "The Woman Who loves Adventures",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -369,7 +369,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "internet": {
       "lemma": "internet",
@@ -722,42 +722,6 @@
         {
           "translation": "一个",
           "pos": "art.",
-          "example": "You can add keywords that apply only to you; for example your city, your employer, or a hobby.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "have a better communication with your friends and family members",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "Growing up the daughter of an outstanding educator,Andrea Peterson knew at a young age that she wanted to serve others.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "It was with this mindset that she started to pursue a degree in medicine.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "Teaching music is only a part of Peterson's instruction-it serves as a vehicle to other areas.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
-          "example": "\" With this philosophy,Peterson introduced a crosscurriculum program,wherein she takes lessons taught in other classes,such as English and math,and expands upon them in an eightweek unit.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "一个",
-          "pos": "art.",
           "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
         },
@@ -790,6 +754,42 @@
           "pos": "art.",
           "example": "She comes from a family of professional educators.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Near the end of her trip,a forceful wind blew away the majority of her supplies.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "一把",
+          "pos": "art.",
+          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "Before her Arctic journey,she started a website called Adventure Classroom.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "A Famous Woman",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "一个",
+          "pos": "art.",
+          "example": "A Woman Mountain Climber",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -835,7 +835,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "variety": {
       "lemma": "variety",
@@ -880,56 +880,8 @@
       "lemma": "of",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "……的；关于；由……组成；属于",
+      "meanings": "……的；关于；由……组成；属于；（用于表示数量或部分）",
       "senses": [
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "find out any new mention of your name or other personal information.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "know quickly any new mention of your name or other personal information",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "stop the spread of any new mention of your name or other personal information",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Growing up the daughter of an outstanding educator,Andrea Peterson knew at a young age that she wanted to serve others.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "The growth of the music program in Granite Falls School District has encouraged students to participate in country,state and national music competitions,and won numerous prizes for the district.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Teaching music is only a part of Peterson's instruction-it serves as a vehicle to other areas.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "……的",
-          "pos": "prep.",
-          "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
         {
           "translation": "……的",
           "pos": "prep.",
@@ -953,6 +905,54 @@
           "pos": "prep.",
           "example": "She comes from a family of professional educators.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "海伦·泰尔是20世纪最伟大的探险家之一。",
+          "pos": "prep.",
+          "example": "Helen Thayer, one of the greatest explorers of the 20th century, loves challenges.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她说：“我喜欢看看山的那边有什么。”",
+          "pos": "prep.",
+          "example": "She says,\"I like to see what's on the other side of the hill.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "1988年，在50岁时，她成为了第一个独自前往北极的女性。",
+          "pos": "prep.",
+          "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她拉着自己装有160磅补给的雪橇，在旅行期间没有人带给她新鲜的补给。",
+          "pos": "prep.",
+          "example": "She pulled her own sled piled with 160 pounds of supplies,and during her trip no one brought her fresh supplies.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "事实上，当其中一只（熊）袭击她时，查理救了她的命。",
+          "pos": "prep.",
+          "example": "In fact,Charlie saved her life when one of  them attacked her.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "在行程接近尾声时，一阵强风吹走了她大部分的补给。",
+          "pos": "prep.",
+          "example": "Near the end of her trip,a forceful wind blew away the majority of her supplies.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "旅行的最后一周，她每天靠一把坚果和一点水维持生命。",
+          "pos": "prep.",
+          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "追随父母的榜样，她在九岁时爬了第一座山。",
+          "pos": "prep.",
+          "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -998,7 +998,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "information": {
       "lemma": "information",
@@ -1364,62 +1364,8 @@
       "lemma": "in",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "在……之内；在……方面；进入；处于",
+      "meanings": "在……期间；在……之内；在……方面；处于（某种状态）",
       "senses": [
-        {
-          "translation": "在……之内",
-          "pos": "prep.",
-          "example": "It's in your interest to be aware of your online reputation and to take the necessary actions to make it what you want it to be.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "在……方面",
-          "pos": "prep.",
-          "example": "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "在……之内",
-          "pos": "prep.",
-          "example": "Begin by typing your first and last name into several popular search engines to see where you are mentioned and in what context.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "在……之内",
-          "pos": "prep.",
-          "example": "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "在……方面",
-          "pos": "prep.",
-          "example": "It was with this mindset that she started to pursue a degree in medicine.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "在……之内",
-          "pos": "prep.",
-          "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "在……方面",
-          "pos": "prep.",
-          "example": "The growth of the music program in Granite Falls School District has encouraged students to participate in country,state and national music competitions,and won numerous prizes for the district.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "在……方面",
-          "pos": "prep.",
-          "example": "The most visible benefit from their success in music is their increased confidence and selfesteem,\" Peterson said.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "在……之内",
-          "pos": "prep.",
-          "example": "\" With this philosophy,Peterson introduced a crosscurriculum program,wherein she takes lessons taught in other classes,such as English and math,and expands upon them in an eightweek unit.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
         {
           "translation": "在……方面",
           "pos": "prep.",
@@ -1437,6 +1383,60 @@
           "pos": "prep.",
           "example": "Ability in learning other subjects.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "在……期间",
+          "pos": "prep.",
+          "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "在……方面",
+          "pos": "prep.",
+          "example": "In fact,Charlie saved her life when one of  them attacked her.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "在……之内",
+          "pos": "prep.",
+          "example": "On the site,she shared her adventures in order to inspire students.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "以……方式",
+          "pos": "prep.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "在……地方",
+          "pos": "prep.",
+          "example": "\"\nHelen grew up in New Zealand.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "在……范围内",
+          "pos": "prep.",
+          "example": "Later,she climbed the highest  mountains in North and South America,the former  USSR and New Zealand.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "在……期间",
+          "pos": "prep.",
+          "example": "In 1996,she took on another challenge--the Sahara Desert.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "在……中",
+          "pos": "prep.",
+          "example": "In 2001,she and Bill travelled on foot from west to east through the Gobi Desert in Mongolia.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "进入",
+          "pos": "prep.",
+          "example": "They hope to travel in mainland China into Sichuan and Tibet to study pandas.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -1481,7 +1481,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 39,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "your": {
       "lemma": "your",
@@ -1631,79 +1631,79 @@
       "lemma": "to",
       "pos": "prep./part.",
       "forms": "无常见变形",
-      "meanings": "为了；向；到；对于",
+      "meanings": "为了；去；向；到；（构成不定式）",
       "senses": [
         {
-          "translation": "向；为了",
+          "translation": "不定式标记",
           "pos": "part.",
-          "example": "Growing up the daughter of an outstanding educator,Andrea Peterson knew at a young age that she wanted to serve others.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "She says,\"I like to see what's on the other side of the hill.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
           "translation": "为了",
-          "pos": "part.",
-          "example": "It was with this mindset that she started to pursue a degree in medicine.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "为了",
-          "pos": "part.",
-          "example": "However,while visiting her brothers who were away at college studying music education,she realized that she was drawn to teach music,too.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "到",
           "pos": "prep.",
-          "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "\" She has gone almost everywhere to do that.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "参加",
+          "translation": "不定式标记",
+          "pos": "part.",
+          "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "去",
           "pos": "prep.",
-          "example": "The growth of the music program in Granite Falls School District has encouraged students to participate in country,state and national music competitions,and won numerous prizes for the district.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "Helen goes to challenging places not only for  adventures,but also for education.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "为",
+          "translation": "为了",
           "pos": "prep.",
-          "example": "Teaching music is only a part of Peterson's instruction-it serves as a vehicle to other areas.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "On the site,she shared her adventures in order to inspire students.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "为了",
+          "translation": "不定式标记",
           "pos": "part.",
-          "example": "\"Music is an amazing tool to unlock students' potential.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "为了",
-          "pos": "part.",
-          "example": "It is truly exciting to see how my music teaching can transfer to other classrooms.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "translation": "从",
+          "pos": "prep.",
+          "example": "In 2001,she and Bill travelled on foot from west to east through the Gobi Desert in Mongolia.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "为了",
+          "translation": "不定式标记",
           "pos": "part.",
-          "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "They hope to travel in mainland China into Sichuan and Tibet to study pandas.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "为了",
+          "translation": "不定式标记",
           "pos": "part.",
-          "example": "\"Through Andrea's efforts these kids have helped to put Granite Falls,Washington,on the map for musical talents.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "Helen plans to continue taking trips.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "为了",
+          "translation": "不定式标记",
           "pos": "part.",
-          "example": "Parents,staff and community members continue to be in awe of what she is able to bring forth from the children,\"said Debra Rose Howell,a colleague of Peterson's at Monte Crisco Elementary School.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "为了",
+          "translation": "不定式标记",
           "pos": "part.",
-          "example": "Initially Andrea Peterson planned to work as a(n)   _  .",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "She wants to inspire her students to never stop facing challenges.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "去",
+          "pos": "prep.",
+          "example": "Why does Helen travel to different places worldwide?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -1749,7 +1749,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "be": {
       "lemma": "be",
@@ -2048,68 +2048,8 @@
       "lemma": "and",
       "pos": "conj.",
       "forms": "无常见变形",
-      "meanings": "和；而且；然后；接着；与此同时",
+      "meanings": "和；而且；然后；接着",
       "senses": [
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "have a better communication with your friends and family members",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "check out how popular you are with your friends and  s",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "ask others not to disclose your personal information and picture",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "而且",
-          "pos": "conj.",
-          "example": "The growth of the music program in Granite Falls School District has encouraged students to participate in country,state and national music competitions,and won numerous prizes for the district.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "The most visible benefit from their success in music is their increased confidence and selfesteem,\" Peterson said.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "\" With this philosophy,Peterson introduced a crosscurriculum program,wherein she takes lessons taught in other classes,such as English and math,and expands upon them in an eightweek unit.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "和",
-          "pos": "conj.",
-          "example": "Parents,staff and community members continue to be in awe of what she is able to bring forth from the children,\"said Debra Rose Howell,a colleague of Peterson's at Monte Crisco Elementary School.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
         {
           "translation": "和",
           "pos": "conj.",
@@ -2121,6 +2061,66 @@
           "pos": "conj.",
           "example": "She makes her classes lively and interesting.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "She pulled her own sled piled with 160 pounds of supplies,and during her trip no one brought her fresh supplies.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Her parents  were athletes and mountain climbers.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "Later,she climbed the highest  mountains in North and South America,the former  USSR and New Zealand.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "She and her husband,Bill,walked 2,400 miles across it.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "In 2001,she and Bill travelled on foot from west to east through the Gobi Desert in Mongolia.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "They hope to travel in mainland China into Sichuan and Tibet to study pandas.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "和",
+          "pos": "conj.",
+          "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -2166,7 +2166,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 40,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "take": {
       "lemma": "take",
@@ -2425,12 +2425,6 @@
         {
           "translation": "它",
           "pos": "pron.",
-          "example": "\"There's more of a prize for getting it right.",
-          "sourceArticleId": "web-e5460a9523607192"
-        },
-        {
-          "translation": "它",
-          "pos": "pron.",
           "example": "When you get a job interview, it is the chance that you impress them employer and prove you really are the right person for the job.",
           "sourceArticleId": "web-c3ef658275687753"
         },
@@ -2493,6 +2487,12 @@
           "pos": "pron.",
           "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "它（指代撒哈拉沙漠）",
+          "pos": "pron.",
+          "example": "She and her husband,Bill,walked 2,400 miles across it.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -2524,7 +2524,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 26,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "what": {
       "lemma": "what",
@@ -2724,18 +2724,6 @@
       "meanings": "第一；首先；首要的；最初",
       "senses": [
         {
-          "translation": "起初",
-          "pos": "adv.",
-          "example": "At first, whenever anyone passed my pen  , I rushed to the front, hoping it was you, that you had changed your mind and that this was all a bad dream.",
-          "sourceArticleId": "web-f328bfb9843d2dfa"
-        },
-        {
-          "translation": "第一",
-          "pos": "adj.",
-          "example": "There are 9 Chinese including Chinese first lady--Peng Liyuan.",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
           "translation": "第一",
           "pos": "adj.",
           "example": "The United States first lady Michel (wife of Obama) in 2010 in the first, from 2012 second drop to fourth.",
@@ -2794,6 +2782,18 @@
           "pos": "n.",
           "example": "Begin by typing your first and last name into several popular search engines to see where you are mentioned and in what context.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "第一",
+          "pos": "adj.",
+          "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "第一",
+          "pos": "adj.",
+          "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -2811,7 +2811,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 12,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "step": {
       "lemma": "step",
@@ -3012,12 +3012,6 @@
         {
           "translation": "是",
           "pos": "v.",
-          "example": "The first step in protecting or improving your online reputation is to find out what information is already posted on the Internet and to assess the impression it leaves on people.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
-        {
-          "translation": "是",
-          "pos": "v.",
           "example": "If you have ever used a different name, if you use your middle name or initial, if you use a nickname, or if your name is frequently misspelled, search all variations to make sure you don't miss anything important.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
         },
@@ -3080,6 +3074,12 @@
           "pos": "v.",
           "example": "What is most special about the way Andrea Peterson teaches?",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "是",
+          "pos": "v.",
+          "example": "Which is the best title for the text?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -3116,10 +3116,11 @@
         "web-6f0dbb98f7323216",
         "web-473b3be3fe52d4fc",
         "web-e5460a9523607192",
-        "web-c3ef658275687753"
+        "web-c3ef658275687753",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 34,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "articleCount": 35,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "find": {
       "lemma": "find",
@@ -3847,14 +3848,8 @@
       "lemma": "by",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "被；通过；凭借；在…旁边",
+      "meanings": "被；通过；凭借；在……旁边",
       "senses": [
-        {
-          "translation": "通过（搭便车）",
-          "pos": "prep.",
-          "example": "From my childhood, have this dream to go around the world by hitch hiking.",
-          "sourceArticleId": "web-6f0dbb98f7323216"
-        },
         {
           "translation": "经由（公路）",
           "pos": "prep.",
@@ -3920,6 +3915,12 @@
           "pos": "prep.",
           "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "被",
+          "pos": "prep.",
+          "example": "Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -3951,7 +3952,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 26,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "typing": {
       "lemma": "type",
@@ -3975,15 +3976,9 @@
     "last": {
       "lemma": "last",
       "pos": "adj.",
-      "forms": "无常见变形",
-      "meanings": "最后的；姓；上一个；持续",
+      "forms": "lasts/lasted/lasting",
+      "meanings": "最后的；上一个；持续；姓",
       "senses": [
-        {
-          "translation": "最后的",
-          "pos": "adj.",
-          "example": "\"Over the last 60 to 70 years.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
         {
           "translation": "昨晚的",
           "pos": "adj.",
@@ -4049,6 +4044,12 @@
           "pos": "adj.",
           "example": "Begin by typing your first and last name into several popular search engines to see where you are mentioned and in what context.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "最后的",
+          "pos": "adj.",
+          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -4067,7 +4068,7 @@
         "web-b9d326f381c855fe"
       ],
       "articleCount": 13,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "into": {
       "lemma": "into",
@@ -4075,12 +4076,6 @@
       "forms": "无常见变形",
       "meanings": "进入；进入到；处于（某状态）",
       "senses": [
-        {
-          "translation": "进入",
-          "pos": "prep.",
-          "example": "When John Weston awoke that morning, he remembered that his mother was going into hospital.",
-          "sourceArticleId": "web-2003500b566de45c"
-        },
         {
           "translation": "进入",
           "pos": "prep.",
@@ -4146,6 +4141,12 @@
           "pos": "prep.",
           "example": "Begin by typing your first and last name into several popular search engines to see where you are mentioned and in what context.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "进入到",
+          "pos": "prep.",
+          "example": "They hope to travel in mainland China into Sichuan and Tibet to study pandas.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -4166,7 +4167,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 15,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "several": {
       "lemma": "several",
@@ -4418,18 +4419,6 @@
         {
           "translation": "看见",
           "pos": "v.",
-          "example": "They say that light pollution prevents them from seeing objects in the sky that they could see quite easily in the past.",
-          "sourceArticleId": "web-59b629f92c1e91fb"
-        },
-        {
-          "translation": "看出",
-          "pos": "v.",
-          "example": "Some have real sorrow; I can see it in their eyes.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "看见",
-          "pos": "v.",
           "example": "And the pointing fingers as so-called family and so-called friends pick me out of the crowd for others to see.",
           "sourceArticleId": "web-f39e7f5b1b236779"
         },
@@ -4486,6 +4475,18 @@
           "pos": "v.",
           "example": "It is truly exciting to see how my music teaching can transfer to other classrooms.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "她说：“我喜欢看看山的那边有什么。”",
+          "pos": "v.",
+          "example": "She says,\"I like to see what's on the other side of the hill.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她解释说：“尽管孩子们经常以消极的方式看待世界，对未来没有希望，但我们努力激励他们设定目标，为成功做计划并永不放弃。”",
+          "pos": "v.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -4505,7 +4506,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 14,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "where": {
       "lemma": "where",
@@ -5370,16 +5371,10 @@
     },
     "that": {
       "lemma": "that",
-      "pos": "conj.",
+      "pos": "pron./conj.",
       "forms": "those",
-      "meanings": "引导从句；那个；那种",
+      "meanings": "那个；那；引导从句；（指代）那件事",
       "senses": [
-        {
-          "translation": "引导从句",
-          "pos": "conj.",
-          "example": "They stressed that the amount of free access could change with time, in response to economic conditions and reader demand.",
-          "sourceArticleId": "web-e5460a9523607192"
-        },
         {
           "translation": "引导从句",
           "pos": "conj.",
@@ -5445,6 +5440,12 @@
           "pos": "conj.",
           "example": "Students work together to choose the music that best fits with the overall feel of the play and then perform it for the greater community.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "那",
+          "pos": "pron.",
+          "example": "\" She has gone almost everywhere to do that.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -5485,7 +5486,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 35,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "engine": {
       "lemma": "engine",
@@ -5665,16 +5666,10 @@
     },
     "not": {
       "lemma": "not",
-      "pos": "adv.",
+      "pos": "adverb",
       "forms": "无常见变形",
       "meanings": "不；不是；没",
       "senses": [
-        {
-          "translation": "不",
-          "pos": "adv.",
-          "example": "It's important--if not always easy--to make sure you get at least some physical activity each and every day.",
-          "sourceArticleId": "web-721dea8f3b5f4d9e"
-        },
         {
           "translation": "不",
           "pos": "adv.",
@@ -5740,6 +5735,12 @@
           "pos": "adv.",
           "example": "Which of the following is NOT a benefit the students get from Andrea Peterson's class?",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "不",
+          "pos": "adverb",
+          "example": "Helen goes to challenging places not only for  adventures,but also for education.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -5772,7 +5773,7 @@
         "web-cda4f9a292f21a6c"
       ],
       "articleCount": 27,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "two": {
       "lemma": "two",
@@ -6240,22 +6241,29 @@
     },
     "text": {
       "lemma": "text",
-      "pos": "noun",
+      "pos": "n.",
       "forms": "texts",
-      "meanings": "文本；正文；课文；短信",
+      "meanings": "文本；正文；课文；短信；段落",
       "senses": [
         {
           "translation": "文本",
           "pos": "noun",
           "example": "To get moreprecise  results, put quotation marks around your name, so that the search engine reads your name as a phrase and not as two or more unrelated words that just happen to appear in the text.",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "文本",
+          "pos": "n.",
+          "example": "Which is the best title for the text?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
-        "web-c46072fb88fa1c7b"
+        "web-c46072fb88fa1c7b",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "all": {
       "lemma": "all",
@@ -6730,16 +6738,10 @@
     },
     "different": {
       "lemma": "different",
-      "pos": "adjective",
+      "pos": "adj.",
       "forms": "无常见变形",
       "meanings": "不同的；各种各样的；异类的",
       "senses": [
-        {
-          "translation": "不同的",
-          "pos": "adj.",
-          "example": "Zones\nThe library is divided into different zones.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
         {
           "translation": "不同的",
           "pos": "adj.",
@@ -6805,6 +6807,12 @@
           "pos": "adjective",
           "example": "how to use different search engines",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "不同的",
+          "pos": "adj.",
+          "example": "Why does Helen travel to different places worldwide?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -6814,23 +6822,18 @@
         "web-f335b4849447798b",
         "web-b08fa6a6e65a8840",
         "web-f2b1ff9fd84cfda6",
-        "web-6eef5352ebcffaba"
+        "web-6eef5352ebcffaba",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 7,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "articleCount": 8,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "use": {
       "lemma": "use",
-      "pos": "verb",
+      "pos": "v.",
       "forms": "uses, used, using",
       "meanings": "使用；利用；消耗；习惯于",
       "senses": [
-        {
-          "translation": "使用",
-          "pos": "v.",
-          "example": "California cannot require schools to use the digital textbooks.",
-          "sourceArticleId": "web-83aed36829bb66d0"
-        },
         {
           "translation": "使用",
           "pos": "n.",
@@ -6896,6 +6899,12 @@
           "pos": "verb",
           "example": "how to use different search engines",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "利用",
+          "pos": "v.",
+          "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -6912,7 +6921,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 11,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "middle": {
       "lemma": "middle",
@@ -7530,18 +7539,6 @@
       "meanings": "向上；完全；结束；出现",
       "senses": [
         {
-          "translation": "向上",
-          "pos": "adv.",
-          "example": "As its participants dash around a city, they may jump over fences, run up walls and even move from rooftop to rooftop.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "（作为动词短语的一部分）",
-          "pos": "adv.",
-          "example": "He offers the mimic a job to dress up as the gorilla until they can get another one.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
-        {
           "translation": "向上（表示数值增加）",
           "pos": "adv.",
           "example": "Well,this goes on for some time-the mimic keeps taunting the lion,the crowds grow larger,and his salary keeps going up.",
@@ -7600,6 +7597,18 @@
           "pos": "adv.",
           "example": "Growing up the daughter of an outstanding educator,Andrea Peterson knew at a young age that she wanted to serve others.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "完成/彻底（放弃）",
+          "pos": "adv.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "长大/成熟",
+          "pos": "adv.",
+          "example": "\"\nHelen grew up in New Zealand.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -7628,20 +7637,14 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 23,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "other": {
       "lemma": "other",
       "pos": "adj.",
       "forms": "others",
-      "meanings": "其他的；另外的；另一方的；不同的",
+      "meanings": "其他的；另外的；另一方的",
       "senses": [
-        {
-          "translation": "其他的",
-          "pos": "adjective",
-          "example": "If your search turns up information about other people who share your name, you caneliminate  many false hits by using keywords.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
         {
           "translation": "其他的",
           "pos": "adjective",
@@ -7707,6 +7710,12 @@
           "pos": "adj.",
           "example": "She combines her music class with other subjects.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "她说：“我喜欢看看山的那边有什么。”",
+          "pos": "adj.",
+          "example": "She says,\"I like to see what's on the other side of the hill.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -7728,20 +7737,14 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 16,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "who": {
       "lemma": "who",
       "pos": "pron.",
       "forms": "whom, whose",
-      "meanings": "谁；……的人（引导定语从句）",
+      "meanings": "谁；……的人；（引导定语从句）……的那个人",
       "senses": [
-        {
-          "translation": "……的人",
-          "pos": "pron.",
-          "example": "After all, any man who enjoys his football is someone after my own heart.",
-          "sourceArticleId": "web-b9d326f381c855fe"
-        },
         {
           "translation": "谁",
           "pos": "pron.",
@@ -7807,6 +7810,12 @@
           "pos": "pron.",
           "example": "However,while visiting her brothers who were away at college studying music education,she realized that she was drawn to teach music,too.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "引导定语从句，指先行词",
+          "pos": "pron.",
+          "example": "The Woman Who loves Adventures",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -7827,10 +7836,11 @@
         "web-c5114d8c96e4f03b",
         "web-b9d326f381c855fe",
         "web-6f0dbb98f7323216",
-        "web-473b3be3fe52d4fc"
+        "web-473b3be3fe52d4fc",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 18,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "articleCount": 19,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "share": {
       "lemma": "share",
@@ -8178,18 +8188,6 @@
         {
           "translation": "仅仅",
           "pos": "adv.",
-          "example": "The state police responding to her 911 call said the family was only minutes from death, judging by the amount of poisonous gas in the house.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "仅仅",
-          "pos": "adv.",
-          "example": "It is the art of using only your body to navigate from Point A to B in the least time possible, which involves besides leaping, climbing and sprinting, various unusual and complex movements to overcome barriers.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
-          "translation": "仅仅",
-          "pos": "adv.",
           "example": "Yes, that's pork-our, an extreme street sport aimed at moving from one point to another as quickly as possible, getting over all the obstacles in the path using only the abilities of the human body.",
           "sourceArticleId": "web-20d7ec6e8708c103"
         },
@@ -8246,6 +8244,18 @@
           "pos": "adj.",
           "example": "\"However,I don't believe it is the only benefit,nor the most powerful.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "仅仅",
+          "pos": "adv.",
+          "example": "Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "只",
+          "pos": "adv.",
+          "example": "Helen goes to challenging places not only for  adventures,but also for education.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -8269,7 +8279,7 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 18,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "for": {
       "lemma": "for",
@@ -8277,54 +8287,6 @@
       "forms": "无常见变形",
       "meanings": "为了；给；支持；因为；代表",
       "senses": [
-        {
-          "translation": "作为……的回报",
-          "pos": "prep.",
-          "example": "\"There's no prize for getting it quick,\" said Janet L.",
-          "sourceArticleId": "web-e5460a9523607192"
-        },
-        {
-          "translation": "作为……的回报",
-          "pos": "prep.",
-          "example": "\"There's more of a prize for getting it right.",
-          "sourceArticleId": "web-e5460a9523607192"
-        },
-        {
-          "translation": "（目标）为了，用于",
-          "pos": "prep.",
-          "example": "When you get a job interview, it is the chance that you impress them employer and prove you really are the right person for the job.",
-          "sourceArticleId": "web-c3ef658275687753"
-        },
-        {
-          "translation": "为了（准备）",
-          "pos": "prep.",
-          "example": "Interview Questions\nAll this preparation work will go a long way to helping you for questions you might be asked during the interview.",
-          "sourceArticleId": "web-c3ef658275687753"
-        },
-        {
-          "translation": "为……做准备",
-          "pos": "prep.",
-          "example": "As well as preparing for the standard questions, you also need to come up with relevant questions to ask the interviewer about the company and your role.",
-          "sourceArticleId": "web-c3ef658275687753"
-        },
-        {
-          "translation": "请求（某事物）",
-          "pos": "prep.",
-          "example": "Ask for feedback from the interviewer.",
-          "sourceArticleId": "web-c3ef658275687753"
-        },
-        {
-          "translation": "给，供（某人）",
-          "pos": "prep.",
-          "example": "This will improve your future interview success chances; the interviewer might consider you for future vacancies at the company based on this action alone",
-          "sourceArticleId": "web-c3ef658275687753"
-        },
-        {
-          "translation": "例如",
-          "pos": "prep.",
-          "example": "You can add keywords that apply only to you; for example your city, your employer, or a hobby.",
-          "sourceArticleId": "web-c46072fb88fa1c7b"
-        },
         {
           "translation": "为",
           "pos": "prep.",
@@ -8348,6 +8310,54 @@
           "pos": "prep.",
           "example": "Prizes for English and maths.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "为了",
+          "pos": "prep.",
+          "example": "Helen goes to challenging places not only for  adventures,but also for education.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "对于",
+          "pos": "prep.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "为",
+          "pos": "prep.",
+          "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "为了",
+          "pos": "prep.",
+          "example": "For fun.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "为了",
+          "pos": "prep.",
+          "example": "For education.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "为了",
+          "pos": "prep.",
+          "example": "For money.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "为了",
+          "pos": "prep.",
+          "example": "For fame.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "最好的标题",
+          "pos": "prep.",
+          "example": "Which is the best title for the text?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -8390,7 +8400,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 37,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "city": {
       "lemma": "city",
@@ -9220,18 +9230,6 @@
       "meanings": "它们；他们；她们",
       "senses": [
         {
-          "translation": "它们（指代苹果）",
-          "pos": "pron.",
-          "example": "\"Normally I peel them, but I read in Good Housekeeping Magazine that the skin has all the nutrients, so I ate the skin, and that's what caused me to choke,\" she recalled.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "它们（指代障碍）",
-          "pos": "pron.",
-          "example": "You must determine your destination, go straight, jump over all the barriers as if in park-our and never fall back from them in your life to reach the destination successfully.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
-        {
           "translation": "它们（指代饮料）",
           "pos": "pron.",
           "example": "Most of them have beautiful colors and cool names.",
@@ -9290,6 +9288,18 @@
           "pos": "pron.",
           "example": "\" With this philosophy,Peterson introduced a crosscurriculum program,wherein she takes lessons taught in other classes,such as English and math,and expands upon them in an eightweek unit.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "它们",
+          "pos": "pron.",
+          "example": "In fact,Charlie saved her life when one of  them attacked her.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -9313,7 +9323,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 18,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "from": {
       "lemma": "from",
@@ -9321,12 +9331,6 @@
       "forms": "无常见变形",
       "meanings": "从；来自；因为；由于；起始",
       "senses": [
-        {
-          "translation": "距离",
-          "pos": "prep.",
-          "example": "But unlike human, plants can have their temperature taken from 3,000 feet away--straight up.",
-          "sourceArticleId": "web-473b3be3fe52d4fc"
-        },
         {
           "translation": "从（某部门）退休",
           "pos": "prep.",
@@ -9392,6 +9396,12 @@
           "pos": "prep.",
           "example": "She comes from a family of professional educators.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "从",
+          "pos": "prep.",
+          "example": "In 2001,she and Bill travelled on foot from west to east through the Gobi Desert in Mongolia.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -9428,7 +9438,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 31,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "time": {
       "lemma": "time",
@@ -9544,12 +9554,6 @@
         {
           "translation": "它们",
           "pos": "pron.",
-          "example": "'\nEmily Blackwell -- who conducted the research uncovered tonight on Channel 4's Dogs: Their Secret Lives - said dogs often enjoy playing so much that they slow down or change strategy to make the fun last longer.",
-          "sourceArticleId": "web-c5114d8c96e4f03b"
-        },
-        {
-          "translation": "它们",
-          "pos": "pron.",
           "example": "For instance,they may slow down when playing 'chase', allowing their owner to catch up with them and the game to continue.",
           "sourceArticleId": "web-c5114d8c96e4f03b"
         },
@@ -9612,6 +9616,12 @@
           "pos": "pron.",
           "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "他们",
+          "pos": "pron.",
+          "example": "They hope to travel in mainland China into Sichuan and Tibet to study pandas.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -9643,13 +9653,13 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 26,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "writing": {
       "lemma": "write",
-      "pos": "v.",
-      "forms": "writes, wrote, written",
-      "meanings": "写；书写；创作；写信",
+      "pos": "n.",
+      "forms": "writes; wrote; written",
+      "meanings": "写；书写；创作；写信；写作",
       "senses": [
         {
           "translation": "写",
@@ -9702,7 +9712,7 @@
         "web-4a99bc1fb2af7921"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "posting": {
       "lemma": "post",
@@ -10059,21 +10069,9 @@
     "new": {
       "lemma": "new",
       "pos": "adj.",
-      "forms": "newer; newest",
+      "forms": "newer, newest",
       "meanings": "新的；刚出现的；新鲜的；新式的",
       "senses": [
-        {
-          "translation": "新的",
-          "pos": "adj.",
-          "example": "There are 15 new this year, including South Korean President Park Geun-hye .",
-          "sourceArticleId": "web-9164814709a91049"
-        },
-        {
-          "translation": "新的",
-          "pos": "adj.",
-          "example": "Most people watching Jeremy Lin these past two months saw Jeremy Lin, New York Knicks star; but I, watching him, saw someone else.",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
         {
           "translation": "新的",
           "pos": "adj.",
@@ -10133,6 +10131,18 @@
           "pos": "adj.",
           "example": "stop the spread of any new mention of your name or other personal information",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "新的",
+          "pos": "adj.",
+          "example": "\"\nHelen grew up in New Zealand.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "新的",
+          "pos": "adj.",
+          "example": "Later,she climbed the highest  mountains in North and South America,the former  USSR and New Zealand.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -10152,7 +10162,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 14,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "mention": {
       "lemma": "mention",
@@ -10603,20 +10613,8 @@
       "lemma": "at",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "在；在……方面；以……（速度/价格）",
+      "meanings": "在（某时间/年龄）；在（某地点）；以（某种速度/程度）",
       "senses": [
-        {
-          "translation": "以（某种程度/数值）",
-          "pos": "prep.",
-          "example": "It's important--if not always easy--to make sure you get at least some physical activity each and every day.",
-          "sourceArticleId": "web-721dea8f3b5f4d9e"
-        },
-        {
-          "translation": "针对",
-          "pos": "prep.",
-          "example": "A study of 4,000 dog owners has found a clear link between limited playtime and behaviour problems, such as being nervous when left alone, disobedience and snapping at other animals.",
-          "sourceArticleId": "web-c5114d8c96e4f03b"
-        },
         {
           "translation": "针对",
           "pos": "prep.",
@@ -10676,6 +10674,18 @@
           "pos": "prep.",
           "example": "Parents,staff and community members continue to be in awe of what she is able to bring forth from the children,\"said Debra Rose Howell,a colleague of Peterson's at Monte Crisco Elementary School.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "在（某年龄）",
+          "pos": "prep.",
+          "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "在（某年龄）",
+          "pos": "prep.",
+          "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -10713,7 +10723,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 32,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "young": {
       "lemma": "young",
@@ -10765,8 +10775,8 @@
     "age": {
       "lemma": "age",
       "pos": "n.",
-      "forms": "ages",
-      "meanings": "年龄；时代；长时间",
+      "forms": "ages, aged, ageing",
+      "meanings": "年龄；时代；长时间；老年",
       "senses": [
         {
           "translation": "年纪",
@@ -10806,7 +10816,7 @@
         "web-0ada4954aa4da897"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "she": {
       "lemma": "she",
@@ -10815,76 +10825,76 @@
       "meanings": "她",
       "senses": [
         {
-          "translation": "她",
+          "translation": "仅有她的狗查理陪同，她经受住了严寒和与北极熊的相遇。",
           "pos": "pron.",
-          "example": "\"Normally I peel them, but I read in Good Housekeeping Magazine that the skin has all the nutrients, so I ate the skin, and that's what caused me to choke,\" she recalled.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
+          "example": "Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "她",
+          "translation": "旅行的最后一周，她每天靠一把坚果和一点水维持生命。",
           "pos": "pron.",
-          "example": "Who am I looking for: A female companion, and she must have similar interest as me.",
-          "sourceArticleId": "web-6f0dbb98f7323216"
+          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "她",
+          "translation": "在北极之旅前，她创办了一个名为“冒险课堂”的网站。",
           "pos": "pron.",
-          "example": "Growing up the daughter of an outstanding educator,Andrea Peterson knew at a young age that she wanted to serve others.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "Before her Arctic journey,she started a website called Adventure Classroom.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "她",
+          "translation": "在网站上，她分享了自己的冒险经历，以激励学生们。",
           "pos": "pron.",
-          "example": "It was with this mindset that she started to pursue a degree in medicine.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "On the site,she shared her adventures in order to inspire students.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "她",
+          "translation": "她解释说：“尽管孩子们经常以消极的方式看待世界，对未来没有希望，但我们努力激励他们设定目标，为成功做计划并永不放弃。”",
           "pos": "pron.",
-          "example": "However,while visiting her brothers who were away at college studying music education,she realized that she was drawn to teach music,too.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "她",
+          "translation": "追随父母的榜样，她在九岁时爬了第一座山。",
           "pos": "pron.",
-          "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "她",
+          "translation": "后来，她攀登了北美和南美、前苏联和新西兰的最高峰。",
           "pos": "pron.",
-          "example": "\" With this philosophy,Peterson introduced a crosscurriculum program,wherein she takes lessons taught in other classes,such as English and math,and expands upon them in an eightweek unit.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "Later,she climbed the highest  mountains in North and South America,the former  USSR and New Zealand.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "她",
+          "translation": "1996年，她承担了另一项挑战——撒哈拉沙漠。",
           "pos": "pron.",
-          "example": "Parents,staff and community members continue to be in awe of what she is able to bring forth from the children,\"said Debra Rose Howell,a colleague of Peterson's at Monte Crisco Elementary School.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "In 1996,she took on another challenge--the Sahara Desert.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "她",
+          "translation": "她和她的丈夫比尔步行了2400英里横穿了它。",
           "pos": "pron.",
-          "example": "She has a special way of teaching music.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "She and her husband,Bill,walked 2,400 miles across it.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "她",
+          "translation": "2001年，她和比尔徒步从西向东穿越了蒙古的戈壁沙漠。",
           "pos": "pron.",
-          "example": "She makes her classes lively and interesting.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "In 2001,she and Bill travelled on foot from west to east through the Gobi Desert in Mongolia.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "她",
+          "translation": "她将利用她的探险、写作、摄影和环境工作为她的“冒险课堂”网站创建项目。",
           "pos": "pron.",
-          "example": "She combines her music class with other subjects.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         },
         {
-          "translation": "她",
+          "translation": "她想激励她的学生永不停止面对挑战。",
           "pos": "pron.",
-          "example": "She comes from a family of professional educators.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
+          "example": "She wants to inspire her students to never stop facing challenges.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -10900,7 +10910,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 10,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "wanted": {
       "lemma": "want",
@@ -11182,20 +11192,8 @@
       "lemma": "with",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "带有；用；与……在一起；由于",
+      "meanings": "带有；用；与……在一起；由于；处理",
       "senses": [
-        {
-          "translation": "由于",
-          "pos": "prep.",
-          "example": "But with the renewed concern about pesticides on produce, and refinements in infrared scanning, Paley hopes to get back into operation.",
-          "sourceArticleId": "web-473b3be3fe52d4fc"
-        },
-        {
-          "translation": "随着",
-          "pos": "prep.",
-          "example": "They stressed that the amount of free access could change with time, in response to economic conditions and reader demand.",
-          "sourceArticleId": "web-e5460a9523607192"
-        },
         {
           "translation": "带有",
           "pos": "prep.",
@@ -11255,6 +11253,18 @@
           "pos": "prep.",
           "example": "She combines her music class with other subjects.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "装有",
+          "pos": "prep.",
+          "example": "She pulled her own sled piled with 160 pounds of supplies,and during her trip no one brought her fresh supplies.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "与……相遇",
+          "pos": "prep.",
+          "example": "Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -11296,7 +11306,7 @@
         "web-c46072fb88fa1c7b"
       ],
       "articleCount": 36,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "this": {
       "lemma": "this",
@@ -11478,7 +11488,7 @@
         "web-20d7ec6e8708c103"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "pursue": {
       "lemma": "pursue",
@@ -11734,79 +11744,79 @@
       "lemma": "she",
       "pos": "pron.",
       "forms": "hers, herself",
-      "meanings": "她的（形容词性物主代词）；她（宾格）；她自己",
+      "meanings": "她的（形容词性物主代词）；她（宾格）",
       "senses": [
-        {
-          "translation": "她的",
-          "pos": "pron.",
-          "example": "During the weeks since then the pains had come even more frequently, and the narrowed eyes became an almost permanent part of her expression.",
-          "sourceArticleId": "web-2003500b566de45c"
-        },
-        {
-          "translation": "她的",
-          "pos": "pron.",
-          "example": "Always rather sharp, she began losing her temper over little things so that John's father kept his thoughts to himself more and more.",
-          "sourceArticleId": "web-2003500b566de45c"
-        },
-        {
-          "translation": "她的",
-          "pos": "pron.",
-          "example": "Apart from missing his mother(and he was glad she was going away because they would make her better), he wasn't very fond of his Aunt Daisy because she was even more bad-tempered than his mother.",
-          "sourceArticleId": "web-2003500b566de45c"
-        },
-        {
-          "translation": "她的",
-          "pos": "pron.",
-          "example": "As Amy Paul choked  on a piece of apple at her home, her dog jumped up, landing hard on her chest and forcing the piece in her throat out.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "她（宾格）",
-          "pos": "pron.",
-          "example": "Both pets were rescued by their owners in _ -----Toby as a 4-week-old thrown into a garbage bin to die, and Winnie as a week-old orphan hiding under a barn, so helpless that Cathy's husband, Eric, had to feed her milk with an eyedropper.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "她的",
-          "pos": "pron.",
-          "example": "The state police responding to her 911 call said the family was only minutes from death, judging by the amount of poisonous gas in the house.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
-          "translation": "她（宾格）",
-          "pos": "pron.",
-          "example": "This will enable her to firmly establish whether lack of play is affecting dogs' moods - or if their emotional problems put their owners off spending time with them.",
-          "sourceArticleId": "web-c5114d8c96e4f03b"
-        },
-        {
-          "translation": "她的",
-          "pos": "pron.",
-          "example": "com\nWhen to travel: Jun2011-Aug2011\nWho am I: Slender African girl in her late 20's.",
-          "sourceArticleId": "web-6f0dbb98f7323216"
-        },
-        {
-          "translation": "她的",
-          "pos": "形容词性物主代词",
-          "example": "However,while visiting her brothers who were away at college studying music education,she realized that she was drawn to teach music,too.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "她的",
-          "pos": "形容词性物主代词",
-          "example": "In her ten years at Granite Falls,she has revitalized the music programs at both the elementary and high school levels,to the extent that an additional music faculty member was hired by the district to assist with the workload.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
-        {
-          "translation": "她的",
-          "pos": "形容词性物主代词",
-          "example": "She makes her classes lively and interesting.",
-          "sourceArticleId": "web-cda4f9a292f21a6c"
-        },
         {
           "translation": "她的",
           "pos": "形容词性物主代词",
           "example": "She combines her music class with other subjects.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "She pulled her own sled piled with 160 pounds of supplies,and during her trip no one brought her fresh supplies.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "Accompanied only by her dog Charlie,she  survived cold weather and meetings with polar bears.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她（宾格）",
+          "pos": "pron.",
+          "example": "In fact,Charlie saved her life when one of  them attacked her.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "Near the end of her trip,a forceful wind blew away the majority of her supplies.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "Before her Arctic journey,she started a website called Adventure Classroom.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "On the site,she shared her adventures in order to inspire students.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "Her parents  were athletes and mountain climbers.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "She and her husband,Bill,walked 2,400 miles across it.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她的",
+          "pos": "pron.",
+          "example": "She wants to inspire her students to never stop facing challenges.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -11824,7 +11834,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 12,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "brothers": {
       "lemma": "brother",
@@ -11851,12 +11861,6 @@
       "forms": "am, is, are, was, were, being, been",
       "meanings": "是；位于（复数形式）",
       "senses": [
-        {
-          "translation": "曾经（助动词，表示过去进行时）",
-          "pos": "v.",
-          "example": "We were going to raise our children, travel the world, and grow old together.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
         {
           "translation": "是",
           "pos": "v.",
@@ -11922,6 +11926,12 @@
           "pos": "v.",
           "example": "However,while visiting her brothers who were away at college studying music education,she realized that she was drawn to teach music,too.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "是（复数过去式）",
+          "pos": "v.",
+          "example": "Her parents  were athletes and mountain climbers.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -11945,7 +11955,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 18,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "away": {
       "lemma": "away",
@@ -11999,7 +12009,7 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "college": {
       "lemma": "college",
@@ -12181,6 +12191,18 @@
           "pos": "n.",
           "example": "Susan Martimo, a California Department of Education official, says she does not expect widespread use right away.",
           "sourceArticleId": "web-83aed36829bb66d0"
+        },
+        {
+          "translation": "教育；学习",
+          "pos": "n.",
+          "example": "Helen goes to challenging places not only for  adventures,but also for education.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "教育",
+          "pos": "n.",
+          "example": "For education.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -12190,7 +12212,7 @@
         "web-83aed36829bb66d0"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "realized": {
       "lemma": "realize",
@@ -12554,14 +12576,8 @@
       "lemma": "have",
       "pos": "v.",
       "forms": "has, had, having",
-      "meanings": "已经（完成时辅助词）；有；吃；使；拥有",
+      "meanings": "已经（完成时辅助词）；有；吃；使；经历",
       "senses": [
-        {
-          "translation": "已经",
-          "pos": "aux.",
-          "example": "A park-our lover said, \"I love park-our, because its philosophy has become my life, my way to do everything.",
-          "sourceArticleId": "web-20d7ec6e8708c103"
-        },
         {
           "translation": "已经",
           "pos": "aux.",
@@ -12627,6 +12643,12 @@
           "pos": "v.",
           "example": "She has a special way of teaching music.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "已经",
+          "pos": "v.",
+          "example": "\" She has gone almost everywhere to do that.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -12650,7 +12672,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 18,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "revitalized": {
       "lemma": "revitalize",
@@ -12695,7 +12717,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "both": {
       "lemma": "both",
@@ -13233,20 +13255,8 @@
       "lemma": "student",
       "pos": "n.",
       "forms": "students",
-      "meanings": "学生；学者；研究者；求学者",
+      "meanings": "学生；学者；研究者",
       "senses": [
-        {
-          "translation": "学生",
-          "pos": "n.",
-          "example": "Having students dressed in uniforms may teach them how to present themselves in a neat and professional manner.",
-          "sourceArticleId": "web-489568c736b8b700"
-        },
-        {
-          "translation": "学生",
-          "pos": "n.",
-          "example": "It gives students the opportunity to learn how to dress like young ladies and gentleman.",
-          "sourceArticleId": "web-489568c736b8b700"
-        },
         {
           "translation": "学生",
           "pos": "n.",
@@ -13306,6 +13316,18 @@
           "pos": "n.",
           "example": "Which of the following is NOT a benefit the students get from Andrea Peterson's class?",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "学生",
+          "pos": "n.",
+          "example": "On the site,she shared her adventures in order to inspire students.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "学生",
+          "pos": "n.",
+          "example": "She wants to inspire her students to never stop facing challenges.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -13320,7 +13342,7 @@
         "web-78c5365878759c41"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "participate": {
       "lemma": "participate",
@@ -14080,12 +14102,6 @@
       "meanings": "他们的；她们的；它们的",
       "senses": [
         {
-          "translation": "它们的",
-          "pos": "pron.",
-          "example": "Both pets were rescued by their owners in _ -----Toby as a 4-week-old thrown into a garbage bin to die, and Winnie as a week-old orphan hiding under a barn, so helpless that Cathy's husband, Eric, had to feed her milk with an eyedropper.",
-          "sourceArticleId": "web-c07f29846f6c48f3"
-        },
-        {
           "translation": "他们的",
           "pos": "pron.",
           "example": "\"\nBoth Toby and Winnie accompanied their owners to the awards luncheon.",
@@ -14150,6 +14166,12 @@
           "pos": "pron.",
           "example": "The most visible benefit from their success in music is their increased confidence and selfesteem,\" Peterson said.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "他们的",
+          "pos": "pron.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -14177,7 +14199,7 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 22,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "success": {
       "lemma": "success",
@@ -14217,7 +14239,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "increased": {
       "lemma": "increase",
@@ -14400,12 +14422,6 @@
         {
           "translation": "我",
           "pos": "pron.",
-          "example": "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.",
-          "sourceArticleId": "web-6eef5352ebcffaba"
-        },
-        {
-          "translation": "我",
-          "pos": "pron.",
           "example": "com\nWhen to travel: May 2011-Aug 2011\nWho am I: I am 55.",
           "sourceArticleId": "web-6f0dbb98f7323216"
         },
@@ -14468,6 +14484,12 @@
           "pos": "pron.",
           "example": "\"However,I don't believe it is the only benefit,nor the most powerful.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "她说：“我喜欢看看山的那边有什么。”",
+          "pos": "pron.",
+          "example": "She says,\"I like to see what's on the other side of the hill.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -14487,7 +14509,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 14,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "believe": {
       "lemma": "believe",
@@ -15403,26 +15425,8 @@
       "lemma": "one",
       "pos": "pron.",
       "forms": "ones",
-      "meanings": "一个；某人；单一的",
+      "meanings": "一个；某人；单一的；（指代前文提到的事物）",
       "senses": [
-        {
-          "translation": "一个",
-          "pos": "num.",
-          "example": "Just one box of energy drink can make you nervous, have difficulty sleeping and can even cause heart problems.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
-        {
-          "translation": "一",
-          "pos": "num.",
-          "example": "More than one-third of adults in the United States are obese .",
-          "sourceArticleId": "web-721dea8f3b5f4d9e"
-        },
-        {
-          "translation": "一位",
-          "pos": "pron.",
-          "example": "In fact,over obesity has reached such proportions that one big-city mayor has gone about banning large-sized,sugary soft drinks and the First Lady has been on a campaign to control the dietary offerings in public schools.",
-          "sourceArticleId": "web-721dea8f3b5f4d9e"
-        },
         {
           "translation": "一个",
           "pos": "pron.",
@@ -15476,6 +15480,24 @@
           "pos": "pron.",
           "example": "One of the most popular projects in Peterson's classes is the creation and performance of a musical,and whereby students create a play from one of the books they have read in another class.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "海伦·泰尔是20世纪最伟大的探险家之一。",
+          "pos": "pron.",
+          "example": "Helen Thayer, one of the greatest explorers of the 20th century, loves challenges.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "她拉着自己装有160磅补给的雪橇，在旅行期间没有人带给她新鲜的补给。",
+          "pos": "pron.",
+          "example": "She pulled her own sled piled with 160 pounds of supplies,and during her trip no one brought her fresh supplies.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "事实上，当其中一只（熊）袭击她时，查理救了她的命。",
+          "pos": "pron.",
+          "example": "In fact,Charlie saved her life when one of  them attacked her.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -15503,7 +15525,7 @@
         "web-6eef5352ebcffaba"
       ],
       "articleCount": 22,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "projects": {
       "lemma": "project",
@@ -15610,7 +15632,7 @@
       "lemma": "create",
       "pos": "v.",
       "forms": "creates, created, creating",
-      "meanings": "创作；创造；引起；造成",
+      "meanings": "创作；创造；引起；造成；创建",
       "senses": [
         {
           "translation": "创作",
@@ -15644,7 +15666,7 @@
         "web-7504f64bec4e74a7"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "books": {
       "lemma": "book",
@@ -15843,7 +15865,7 @@
         "web-6eef5352ebcffaba"
       ],
       "articleCount": 8,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "class": {
       "lemma": "class",
@@ -15919,14 +15941,8 @@
       "lemma": "work",
       "pos": "v.",
       "forms": "works, worked, working",
-      "meanings": "工作；运作；起作用；致力于；劳动",
+      "meanings": "工作；运作；起作用；致力于",
       "senses": [
-        {
-          "translation": "工作",
-          "pos": "n.",
-          "example": "Here you can find sofas and armchairs for group work.",
-          "sourceArticleId": "web-f335b4849447798b"
-        },
         {
           "translation": "起作用",
           "pos": "v.",
@@ -15992,6 +16008,12 @@
           "pos": "v.",
           "example": "Initially Andrea Peterson planned to work as a(n)   _  .",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "致力于",
+          "pos": "v.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -16013,7 +16035,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 16,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "together": {
       "lemma": "together",
@@ -16103,9 +16125,9 @@
     },
     "best": {
       "lemma": "best",
-      "pos": "adv.",
-      "forms": "无常见变形",
-      "meanings": "最好地；最；最佳",
+      "pos": "adj.",
+      "forms": "better, best",
+      "meanings": "最好的；最佳的；最好地；最",
       "senses": [
         {
           "translation": "最好地",
@@ -16136,6 +16158,12 @@
           "pos": "adj.",
           "example": "Even many adults who do not fit the clinic definition of obesity are still overweight,and a large percentage are looking for the best ways to lose weight.",
           "sourceArticleId": "web-721dea8f3b5f4d9e"
+        },
+        {
+          "translation": "最好的",
+          "pos": "adj.",
+          "example": "Which is the best title for the text?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -16143,10 +16171,11 @@
         "web-83aed36829bb66d0",
         "web-4a99bc1fb2af7921",
         "web-1db81bcdb0151def",
-        "web-721dea8f3b5f4d9e"
+        "web-721dea8f3b5f4d9e",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "fits": {
       "lemma": "fit",
@@ -16529,7 +16558,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 11,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "andrea's": {
       "lemma": "Andrea",
@@ -16607,7 +16636,7 @@
         "web-0ada4954aa4da897"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "helped": {
       "lemma": "help",
@@ -16774,7 +16803,7 @@
         "web-489568c736b8b700"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "staff": {
       "lemma": "staff",
@@ -16833,7 +16862,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "awe": {
       "lemma": "awe",
@@ -17159,13 +17188,43 @@
           "pos": "n.",
           "example": "Helen plans to continue taking trips.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "海伦（20世纪最伟大的探险家之一）",
+          "pos": "n.",
+          "example": "Helen Thayer, one of the greatest explorers of the 20th century, loves challenges.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "海伦",
+          "pos": "n.",
+          "example": "Helen goes to challenging places not only for  adventures,but also for education.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "海伦",
+          "pos": "n.",
+          "example": "\"\nHelen grew up in New Zealand.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "海伦",
+          "pos": "n.",
+          "example": "Helen plans to continue taking trips.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "海伦",
+          "pos": "n.",
+          "example": "Why does Helen travel to different places worldwide?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "thayer": {
       "lemma": "thayer",
@@ -17184,7 +17243,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "greatest": {
       "lemma": "great",
@@ -17217,7 +17276,7 @@
         "web-09421cfd6a2c44ad"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-03T11:37:17.030Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "explorers": {
       "lemma": "explorer",
@@ -17236,7 +17295,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "th": {
       "lemma": "th",
@@ -17262,7 +17321,7 @@
         "web-f2b1ff9fd84cfda6"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T15:02:38.322Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "century": {
       "lemma": "century",
@@ -17288,7 +17347,7 @@
         "web-f2b1ff9fd84cfda6"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T15:02:38.322Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "loves": {
       "lemma": "love",
@@ -17307,6 +17366,18 @@
           "pos": "v.",
           "example": "Of course,this makes the lion very angry,but the crowd loves it.",
           "sourceArticleId": "web-a524105e021f666c"
+        },
+        {
+          "translation": "热爱",
+          "pos": "v.",
+          "example": "Helen Thayer, one of the greatest explorers of the 20th century, loves challenges.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "热爱",
+          "pos": "v.",
+          "example": "The Woman Who loves Adventures",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -17314,13 +17385,13 @@
         "web-a524105e021f666c"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "challenges": {
       "lemma": "challenge",
-      "pos": "v.",
-      "forms": "challenges, challenged, challenging",
-      "meanings": "挑战；质问；怀疑；具有挑战性的任务",
+      "pos": "n.",
+      "forms": "challenges",
+      "meanings": "挑战；质问；具有挑战性的任务",
       "senses": [
         {
           "translation": "海伦·泰尔是20世纪最伟大的探险家之一，她热爱挑战。",
@@ -17346,13 +17417,13 @@
         "web-eecaaca1e069e103"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-02T12:04:45.834Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "says": {
       "lemma": "say",
       "pos": "v.",
       "forms": "said, saying",
-      "meanings": "说；讲；陈述；写道",
+      "meanings": "说；讲；写道；陈述",
       "senses": [
         {
           "translation": "她说：“我喜欢看看山的那边有什么。”",
@@ -17438,20 +17509,14 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 8,
-      "updatedAt": "2026-08-04T07:56:54.344Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "like": {
       "lemma": "like",
-      "pos": "prep.",
-      "forms": "likes, liked, liking",
-      "meanings": "像；如同；例如；喜欢",
+      "pos": "v.",
+      "forms": "liked, liking",
+      "meanings": "喜欢；想要；像……一样",
       "senses": [
-        {
-          "translation": "像",
-          "pos": "prep.",
-          "example": "English language holidays are taken in English-speaking countries like England, the USA or Australia.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
         {
           "translation": "像",
           "pos": "prep.",
@@ -17517,6 +17582,12 @@
           "pos": "prep.",
           "example": "Print out directions and maps from sites like Google Maps and make sure you should he there without any problems\nAfter the Interview\nIf you're unsuccessful, use it as an opportunity to improve.",
           "sourceArticleId": "web-c3ef658275687753"
+        },
+        {
+          "translation": "她说：“我喜欢看看山的那边有什么。”",
+          "pos": "v.",
+          "example": "She says,\"I like to see what's on the other side of the hill.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -17532,7 +17603,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 10,
-      "updatedAt": "2026-08-05T04:42:16.341Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "what's": {
       "lemma": "what is",
@@ -17558,7 +17629,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-05T04:42:16.341Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "side": {
       "lemma": "side",
@@ -17577,7 +17648,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "hill": {
       "lemma": "hill",
@@ -17596,13 +17667,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "gone": {
       "lemma": "go",
       "pos": "v.",
       "forms": "went, gone, going, goes",
-      "meanings": "去；走；着手；运行；离去",
+      "meanings": "去；走；变为；运行；离去",
       "senses": [
         {
           "translation": "去",
@@ -17629,7 +17700,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-04T07:52:35.676Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "almost": {
       "lemma": "almost",
@@ -17689,7 +17760,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-04T07:57:35.405Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "everywhere": {
       "lemma": "everywhere",
@@ -17715,20 +17786,14 @@
         "web-6eef5352ebcffaba"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:55:43.059Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "do": {
       "lemma": "do",
       "pos": "v.",
       "forms": "did, done, doing, does",
-      "meanings": "做；干；进行；引起；起到……作用",
+      "meanings": "做；干；行动；进行；引起",
       "senses": [
-        {
-          "translation": "做",
-          "pos": "v.",
-          "example": "And how did Jeremy Lin's parents manage to do these remarkable things?",
-          "sourceArticleId": "web-0ada4954aa4da897"
-        },
         {
           "translation": "做",
           "pos": "v.",
@@ -17794,6 +17859,12 @@
           "pos": "aux.",
           "example": "What do those countries have in common?",
           "sourceArticleId": "web-6eef5352ebcffaba"
+        },
+        {
+          "translation": "做",
+          "pos": "v.",
+          "example": "\" She has gone almost everywhere to do that.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -17814,7 +17885,7 @@
         "web-6eef5352ebcffaba"
       ],
       "articleCount": 15,
-      "updatedAt": "2026-08-04T07:55:43.059Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "became": {
       "lemma": "become",
@@ -17868,7 +17939,7 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-04T07:56:54.344Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "woman": {
       "lemma": "woman",
@@ -17881,13 +17952,37 @@
           "pos": "n.",
           "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "The Woman Who loves Adventures",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "A Famous Woman",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "女人",
+          "pos": "n.",
+          "example": "A Woman Mountain Climber",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "travel": {
       "lemma": "travel",
@@ -17895,24 +17990,6 @@
       "forms": "traveled/travelled, traveling/travelling, travels",
       "meanings": "旅行；游历；行走；行进",
       "senses": [
-        {
-          "translation": "通勤",
-          "pos": "v.",
-          "example": "\"\nIn the years after World War Two,many Americans moved to suburban communities,just outside major cities,They decided to travel great distances to and from work in exchange for a home in the suburbs.",
-          "sourceArticleId": "web-1fac3b0d4f7569c5"
-        },
-        {
-          "translation": "旅行",
-          "pos": "v.",
-          "example": "We were going to raise our children, travel the world, and grow old together.",
-          "sourceArticleId": "web-f39e7f5b1b236779"
-        },
-        {
-          "translation": "旅行",
-          "pos": "v.",
-          "example": "com\nWhen to travel: May 2011-Aug 2011\nWho am I: I am 55.",
-          "sourceArticleId": "web-6f0dbb98f7323216"
-        },
         {
           "translation": "旅行",
           "pos": "v.",
@@ -17966,6 +18043,24 @@
           "pos": "v.",
           "example": "My travel plans: Nothing in mind for sure, just looking to come with you.",
           "sourceArticleId": "web-6f0dbb98f7323216"
+        },
+        {
+          "translation": "旅行",
+          "pos": "v.",
+          "example": "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "旅行",
+          "pos": "v.",
+          "example": "They hope to travel in mainland China into Sichuan and Tibet to study pandas.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "旅行",
+          "pos": "v.",
+          "example": "Why does Helen travel to different places worldwide?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -17975,7 +18070,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-04T07:56:18.639Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "alone": {
       "lemma": "alone",
@@ -18028,7 +18123,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-05T04:42:16.341Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "north": {
       "lemma": "north",
@@ -18060,7 +18155,7 @@
         "web-59b629f92c1e91fb"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "pole": {
       "lemma": "pole",
@@ -18079,7 +18174,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "pulled": {
       "lemma": "pull",
@@ -18098,13 +18193,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "own": {
       "lemma": "own",
       "pos": "adj.",
       "forms": "owns, owned, owning",
-      "meanings": "自己的；本人的；拥有；承认",
+      "meanings": "自己的；拥有；承认；（用于加强语气）本人",
       "senses": [
         {
           "translation": "自己的",
@@ -18185,7 +18280,7 @@
         "web-b9d326f381c855fe"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-04T07:54:54.987Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "sled": {
       "lemma": "sled",
@@ -18204,7 +18299,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "piled": {
       "lemma": "pile",
@@ -18223,7 +18318,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "pounds": {
       "lemma": "pound",
@@ -18249,7 +18344,7 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:52:35.676Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "supplies": {
       "lemma": "supply",
@@ -18274,13 +18369,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "during": {
       "lemma": "during",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "在……期间；在……过程中；在……的时候",
+      "meanings": "在……期间；在……过程中",
       "senses": [
         {
           "translation": "在……期间",
@@ -18328,7 +18423,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-05T04:42:16.341Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "trip": {
       "lemma": "trip",
@@ -18359,7 +18454,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "no": {
       "lemma": "no",
@@ -18367,12 +18462,6 @@
       "forms": "无常见变形",
       "meanings": "没有；不；禁止；一点也不",
       "senses": [
-        {
-          "translation": "没有",
-          "pos": "det.",
-          "example": "He took no notice of them, as if he was unable to see children, at least until the time came for him to go.",
-          "sourceArticleId": "web-14515232ae2b45c0"
-        },
         {
           "translation": "没有",
           "pos": "det.",
@@ -18438,6 +18527,12 @@
           "pos": "det.",
           "example": "\"There's no prize for getting it quick,\" said Janet L.",
           "sourceArticleId": "web-e5460a9523607192"
+        },
+        {
+          "translation": "没有",
+          "pos": "det.",
+          "example": "She pulled her own sled piled with 160 pounds of supplies,and during her trip no one brought her fresh supplies.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -18460,11 +18555,11 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 17,
-      "updatedAt": "2026-08-04T07:57:35.405Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "brought": {
       "lemma": "bring",
-      "pos": "verb",
+      "pos": "v.",
       "forms": "brings, brought, bringing",
       "meanings": "带来；拿来；导致；引起",
       "senses": [
@@ -18486,7 +18581,7 @@
         "web-14515232ae2b45c0"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T13:59:53.853Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "fresh": {
       "lemma": "fresh",
@@ -18505,7 +18600,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "accompanied": {
       "lemma": "accompany",
@@ -18538,7 +18633,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "dog": {
       "lemma": "dog",
@@ -18596,7 +18691,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-04T07:54:14.939Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "charlie": {
       "lemma": "Charlie",
@@ -18621,7 +18716,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "survived": {
       "lemma": "survive",
@@ -18646,7 +18741,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "cold": {
       "lemma": "cold",
@@ -18685,7 +18780,7 @@
         "web-78c5365878759c41"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-03T16:08:26.331Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "weather": {
       "lemma": "weather",
@@ -18718,7 +18813,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "meetings": {
       "lemma": "meeting",
@@ -18737,7 +18832,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "polar": {
       "lemma": "polar",
@@ -18756,7 +18851,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "bears": {
       "lemma": "bear",
@@ -18775,13 +18870,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "fact": {
       "lemma": "fact",
       "pos": "n.",
       "forms": "facts",
-      "meanings": "事实；真相；实际情况；真实性",
+      "meanings": "事实；真相；实际情况",
       "senses": [
         {
           "translation": "事实",
@@ -18815,12 +18910,12 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-04T07:52:35.676Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "saved": {
       "lemma": "save",
       "pos": "v.",
-      "forms": "saves, saved, saving",
+      "forms": "saves/saved/saving",
       "meanings": "救；挽救；节省；储存",
       "senses": [
         {
@@ -18841,13 +18936,13 @@
         "web-c07f29846f6c48f3"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T15:35:36.816Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "life": {
       "lemma": "life",
       "pos": "n.",
       "forms": "lives",
-      "meanings": "人生；生活；生命；生物",
+      "meanings": "生命；生活；人生；生物",
       "senses": [
         {
           "translation": "生命",
@@ -18925,20 +19020,14 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-04T07:54:14.939Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "when": {
       "lemma": "when",
       "pos": "conj.",
       "forms": "无常见变形",
-      "meanings": "在……时；当……时；既然；考虑到",
+      "meanings": "当……时；在……时候；既然；考虑到",
       "senses": [
-        {
-          "translation": "当……时",
-          "pos": "conj.",
-          "example": "Then one terrible day when he is dangling over the angry lion he slips and falls.",
-          "sourceArticleId": "web-a524105e021f666c"
-        },
         {
           "translation": "当……时",
           "pos": "conj.",
@@ -19004,6 +19093,12 @@
           "pos": "conj.",
           "example": "If you put quotation marks around your name when you search online, you will   _  .",
           "sourceArticleId": "web-c46072fb88fa1c7b"
+        },
+        {
+          "translation": "当……时",
+          "pos": "conj.",
+          "example": "In fact,Charlie saved her life when one of  them attacked her.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -19034,7 +19129,7 @@
         "web-c46072fb88fa1c7b"
       ],
       "articleCount": 25,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "attacked": {
       "lemma": "attack",
@@ -19053,7 +19148,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "near": {
       "lemma": "near",
@@ -19072,13 +19167,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "end": {
       "lemma": "end",
       "pos": "n.",
-      "forms": "ends, ended, ending",
-      "meanings": "末尾；结束；终点；目标；结尾",
+      "forms": "ends/ended/ending",
+      "meanings": "末尾；结束；终点；目标",
       "senses": [
         {
           "translation": "末尾",
@@ -19126,7 +19221,7 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-04T07:56:54.344Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "forceful": {
       "lemma": "forceful",
@@ -19145,7 +19240,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "wind": {
       "lemma": "wind",
@@ -19164,7 +19259,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "blew": {
       "lemma": "blow",
@@ -19183,7 +19278,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "majority": {
       "lemma": "majority",
@@ -19202,20 +19297,14 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "week": {
       "lemma": "week",
       "pos": "n.",
       "forms": "weeks",
-      "meanings": "周；星期；一星期时间",
+      "meanings": "周；星期",
       "senses": [
-        {
-          "translation": "周",
-          "pos": "n.",
-          "example": "A language holiday can be of any length - from one week to one year - but most are two or three weeks.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
         {
           "translation": "周",
           "pos": "n.",
@@ -19281,6 +19370,12 @@
           "pos": "n",
           "example": "Last week I saw the release of the second part, and _ does it shows.",
           "sourceArticleId": "web-b9d326f381c855fe"
+        },
+        {
+          "translation": "周",
+          "pos": "n.",
+          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -19295,7 +19390,7 @@
         "web-b9d326f381c855fe"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-04T07:54:54.987Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "handful": {
       "lemma": "handful",
@@ -19314,7 +19409,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "nuts": {
       "lemma": "nut",
@@ -19333,13 +19428,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "little": {
       "lemma": "little",
       "pos": "adj.",
       "forms": "less, least",
-      "meanings": "幼小的；小的；少量的；短暂的",
+      "meanings": "少量的；小的；幼小的；短暂的",
       "senses": [
         {
           "translation": "少量的",
@@ -19393,7 +19488,7 @@
         "web-2003500b566de45c"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-03T15:09:35.302Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "water": {
       "lemma": "water",
@@ -19419,20 +19514,14 @@
         "web-721dea8f3b5f4d9e"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:52:35.676Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "each": {
       "lemma": "each",
       "pos": "adj./det.",
       "forms": "无常见变形",
-      "meanings": "每个；各自的；每人；每",
+      "meanings": "每个；各自的；每人",
       "senses": [
-        {
-          "translation": "每个",
-          "pos": "adj./det.",
-          "example": "The dictionary was actually nothing more than a list of about 3, 000 difficult words, each followed by a one-word definition.",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
         {
           "translation": "每个",
           "pos": "adj./det.",
@@ -19498,6 +19587,12 @@
           "pos": "pron.",
           "example": "If you speak one language and I another, we both speak so that others will understand us; we must communicate with each other.",
           "sourceArticleId": "web-6eef5352ebcffaba"
+        },
+        {
+          "translation": "每个",
+          "pos": "adj.",
+          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -19508,20 +19603,14 @@
         "web-6eef5352ebcffaba"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-04T07:55:43.059Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "day": {
       "lemma": "day",
       "pos": "n.",
       "forms": "days",
-      "meanings": "天；白天；日子；时期；一日",
+      "meanings": "天；白天；日子；时期",
       "senses": [
-        {
-          "translation": "天",
-          "pos": "n.",
-          "example": "Application Dateline : Friday 18 June 2010\nPayment Dateline: Payment to be made to Harrow International School Beijing by first day of the course.",
-          "sourceArticleId": "web-4a99bc1fb2af7921"
-        },
         {
           "translation": "一天",
           "pos": "n.",
@@ -19587,6 +19676,12 @@
           "pos": "n.",
           "example": "Half play two or three times a day and 10 per cent have just one play session.",
           "sourceArticleId": "web-c5114d8c96e4f03b"
+        },
+        {
+          "translation": "天",
+          "pos": "n.",
+          "example": "The last week of the trip,she survived on a handful of nuts and a little water each day.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -19605,13 +19700,13 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 13,
-      "updatedAt": "2026-08-04T07:54:14.939Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "goes": {
       "lemma": "go",
       "pos": "v.",
       "forms": "goes, went, gone, going",
-      "meanings": "继续；去；走；变得；运行",
+      "meanings": "去；走；变得；运行",
       "senses": [
         {
           "translation": "去",
@@ -19631,7 +19726,7 @@
         "web-a524105e021f666c"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T15:54:58.911Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "challenging": {
       "lemma": "challenge",
@@ -19650,13 +19745,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "places": {
       "lemma": "place",
       "pos": "n.",
       "forms": "places, placed, placing",
-      "meanings": "地点；地方；位置；放置；座位",
+      "meanings": "地点；地方；位置；放置",
       "senses": [
         {
           "translation": "地点",
@@ -19687,6 +19782,18 @@
           "pos": "n.",
           "example": "Group-study Places\nIf you want to discuss freely without disturbing others, you can book a study room or sit at a table on the ground floor.",
           "sourceArticleId": "web-f335b4849447798b"
+        },
+        {
+          "translation": "地方",
+          "pos": "n.",
+          "example": "Helen goes to challenging places not only for  adventures,but also for education.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "地方",
+          "pos": "n.",
+          "example": "Why does Helen travel to different places worldwide?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -19694,7 +19801,7 @@
         "web-f335b4849447798b"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "adventures": {
       "lemma": "adventure",
@@ -19713,13 +19820,19 @@
           "pos": "n.",
           "example": "On the site,she shared her adventures in order to inspire students.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "冒险",
+          "pos": "n.",
+          "example": "The Woman Who loves Adventures",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "but": {
       "lemma": "but",
@@ -19727,12 +19840,6 @@
       "forms": "无常见变形",
       "meanings": "但是；可是；除了；只不过",
       "senses": [
-        {
-          "translation": "但是",
-          "pos": "conj.",
-          "example": "But be careful not to drink too much.",
-          "sourceArticleId": "web-78c5365878759c41"
-        },
         {
           "translation": "但是",
           "pos": "conj.",
@@ -19798,6 +19905,12 @@
           "pos": "conj.",
           "example": "But executives of The New York Times Company said they could not yet answer fundamental questions about the plan, like how much it would cost or what the limit would be on free reading.",
           "sourceArticleId": "web-e5460a9523607192"
+        },
+        {
+          "translation": "但是",
+          "pos": "conj.",
+          "example": "Helen goes to challenging places not only for  adventures,but also for education.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -19832,20 +19945,14 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 29,
-      "updatedAt": "2026-08-04T07:57:35.405Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "also": {
       "lemma": "also",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "也；同样；并且；而且",
+      "meanings": "也；同样；并且",
       "senses": [
-        {
-          "translation": "也",
-          "pos": "adv.",
-          "example": "He also gave good sentences to show how each word was actually used in speech and in writing.",
-          "sourceArticleId": "web-09421cfd6a2c44ad"
-        },
         {
           "translation": "而且",
           "pos": "adv.",
@@ -19911,6 +20018,12 @@
           "pos": "adv.",
           "example": "As well as preparing for the standard questions, you also need to come up with relevant questions to ask the interviewer about the company and your role.",
           "sourceArticleId": "web-c3ef658275687753"
+        },
+        {
+          "translation": "也",
+          "pos": "adv.",
+          "example": "Helen goes to challenging places not only for  adventures,but also for education.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -19929,13 +20042,13 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 13,
-      "updatedAt": "2026-08-05T04:42:16.341Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "before": {
       "lemma": "before",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "在……之前；以前；在……前面",
+      "meanings": "在...之前；以前；在...前面",
       "senses": [
         {
           "translation": "在...之前",
@@ -20011,7 +20124,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 10,
-      "updatedAt": "2026-08-05T04:42:16.341Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "arctic": {
       "lemma": "arctic",
@@ -20030,7 +20143,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "journey": {
       "lemma": "journey",
@@ -20049,7 +20162,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "website": {
       "lemma": "website",
@@ -20102,7 +20215,7 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-05T04:42:16.341Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "called": {
       "lemma": "call",
@@ -20156,7 +20269,7 @@
         "web-c07f29846f6c48f3"
       ],
       "articleCount": 6,
-      "updatedAt": "2026-08-03T15:35:36.816Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "adventure": {
       "lemma": "adventure",
@@ -20175,13 +20288,25 @@
           "pos": "n.",
           "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "冒险；探险活动",
+          "pos": "n.",
+          "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "冒险",
+          "pos": "n.",
+          "example": "Adventure Classroom Owner",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "classroom": {
       "lemma": "classroom",
@@ -20200,19 +20325,37 @@
           "pos": "n.",
           "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "教室；课堂",
+          "pos": "n.",
+          "example": "Before her Arctic journey,she started a website called Adventure Classroom.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "教室；课堂",
+          "pos": "n.",
+          "example": "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "教室",
+          "pos": "n.",
+          "example": "Adventure Classroom Owner",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "site": {
       "lemma": "site",
       "pos": "n.",
-      "forms": "sites, siting, sited",
-      "meanings": "地点；现场；场所；遗址；网站",
+      "forms": "sites",
+      "meanings": "地点；网站；场所；遗址",
       "senses": [
         {
           "translation": "网站",
@@ -20264,7 +20407,7 @@
         "web-e5460a9523607192"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-04T07:57:35.405Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "shared": {
       "lemma": "share",
@@ -20290,13 +20433,13 @@
         "web-f328bfb9843d2dfa"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T11:56:28.043Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "order": {
       "lemma": "order",
       "pos": "n.",
       "forms": "orders, ordered, ordering",
-      "meanings": "顺序；命令；秩序；目的；订购",
+      "meanings": "顺序；命令；秩序；目的",
       "senses": [
         {
           "translation": "为了（in order to）",
@@ -20323,7 +20466,7 @@
         "web-7504f64bec4e74a7"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-03T14:12:20.998Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "inspire": {
       "lemma": "inspire",
@@ -20354,7 +20497,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "explained": {
       "lemma": "explain",
@@ -20373,7 +20516,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "although": {
       "lemma": "although",
@@ -20406,7 +20549,7 @@
         "web-f2b1ff9fd84cfda6"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-03T15:02:38.322Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "often": {
       "lemma": "often",
@@ -20446,7 +20589,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-04T07:54:14.939Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "world": {
       "lemma": "world",
@@ -20454,12 +20597,6 @@
       "forms": "worlds",
       "meanings": "世界；地球；领域；世间",
       "senses": [
-        {
-          "translation": "世界",
-          "pos": "n.",
-          "example": "The list of Chinese women, including Chinese President Xi Jinping's wife Peng Liyuan, intelligent mobile phone maker HTC founder Wang Xuehong, chief executive of Chongqing Longhu real estate development limited company chairman Wu Yajun, SOHO China Ltd and co-founder Zhang Xin, the World Health Organization Director-General Chen Fengfuzhen (Margaret Chan), Huawei chairman Sun Yafang, the Li Jiacheng Foundation Director Zhou triumph, Baidu Inc chief financial officer Li Xinzhe, Sun Media Klc Holdings Ltd chairman Yang Lan.",
-          "sourceArticleId": "web-9164814709a91049"
-        },
         {
           "translation": "世界",
           "pos": "n.",
@@ -20525,6 +20662,12 @@
           "pos": "n.",
           "example": "My travel plans: I will be traveling to Europe cities, then the world!",
           "sourceArticleId": "web-6f0dbb98f7323216"
+        },
+        {
+          "translation": "世界",
+          "pos": "n.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -20544,13 +20687,13 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 14,
-      "updatedAt": "2026-08-04T07:56:18.639Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "negative": {
       "lemma": "negative",
       "pos": "adj.",
       "forms": "negatives",
-      "meanings": "负面的；消极的；否定的；反面的",
+      "meanings": "消极的；负面的；否定的",
       "senses": [
         {
           "translation": "消极的",
@@ -20570,20 +20713,14 @@
         "web-59b629f92c1e91fb"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T12:33:14.480Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "way": {
       "lemma": "way",
       "pos": "n.",
       "forms": "ways",
-      "meanings": "方式；道路；方向；程度；方法",
+      "meanings": "方式；道路；方向；程度",
       "senses": [
-        {
-          "translation": "方式；途径",
-          "pos": "n.",
-          "example": "Harcourt Learning Direct offers you a way to get a Specialized Associate Degree in 11 of today's growing fields - without having to go to college full-time.",
-          "sourceArticleId": "web-a41ebe4e54718747"
-        },
         {
           "translation": "方式",
           "pos": "n.",
@@ -20649,6 +20786,12 @@
           "pos": "n.",
           "example": "She has a special way of teaching music.",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "方式",
+          "pos": "n.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -20665,13 +20808,13 @@
         "web-cda4f9a292f21a6c"
       ],
       "articleCount": 11,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "without": {
       "lemma": "without",
       "pos": "prep.",
       "forms": "无常见变形",
-      "meanings": "没有；不；缺乏；免除",
+      "meanings": "没有；不；缺乏",
       "senses": [
         {
           "translation": "没有",
@@ -20726,13 +20869,13 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 7,
-      "updatedAt": "2026-08-05T04:42:16.341Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "hope": {
       "lemma": "hope",
-      "pos": "v.",
+      "pos": "n./v.",
       "forms": "hopes, hoped, hoping",
-      "meanings": "希望；期望；盼望；期待",
+      "meanings": "希望；期望；盼望",
       "senses": [
         {
           "translation": "希望",
@@ -20771,13 +20914,13 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "future": {
       "lemma": "future",
       "pos": "n.",
       "forms": "futures",
-      "meanings": "未来；前途；将来；远景",
+      "meanings": "未来；前途；将来",
       "senses": [
         {
           "translation": "未来",
@@ -20797,20 +20940,14 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-05T04:42:16.341Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "we": {
       "lemma": "we",
       "pos": "pron.",
       "forms": "us, our, ours",
-      "meanings": "我们；大家；咱们",
+      "meanings": "我们",
       "senses": [
-        {
-          "translation": "我们",
-          "pos": "pron.",
-          "example": "To help make the most of your experience at Auckland Zoo we suggest:\nPlan Your Day:\nPlan your day to learn more about your favorite zoo animals.",
-          "sourceArticleId": "web-1db81bcdb0151def"
-        },
         {
           "translation": "我们",
           "pos": "pron.",
@@ -20876,6 +21013,12 @@
           "pos": "pron.",
           "example": "If we understood our differences as the ones of culture, then we could make our world more peaceful.",
           "sourceArticleId": "web-6eef5352ebcffaba"
+        },
+        {
+          "translation": "我们",
+          "pos": "pron.",
+          "example": "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -20893,13 +21036,13 @@
         "web-6eef5352ebcffaba"
       ],
       "articleCount": 12,
-      "updatedAt": "2026-08-04T07:55:43.059Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "set": {
       "lemma": "set",
-      "pos": "n.",
-      "forms": "sets",
-      "meanings": "一套；设定；放置；安置；摆放",
+      "pos": "v.",
+      "forms": "set (过去式/过去分词), setting",
+      "meanings": "设定；放置；安置；安装；摆放",
       "senses": [
         {
           "translation": "设定",
@@ -20919,7 +21062,7 @@
         "web-489568c736b8b700"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T14:55:34.402Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "goals": {
       "lemma": "goal",
@@ -20938,13 +21081,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "plan": {
       "lemma": "plan",
       "pos": "v.",
-      "forms": "plans, planned, planning",
-      "meanings": "计划；方案；打算；设计",
+      "forms": "planned, planning",
+      "meanings": "计划；打算；设计；方案",
       "senses": [
         {
           "translation": "计划",
@@ -20978,13 +21121,13 @@
         "web-c3ef658275687753"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-05T04:42:16.341Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "never": {
       "lemma": "never",
       "pos": "adv.",
       "forms": "无常见变形",
-      "meanings": "从不；绝不；决非；从来没有",
+      "meanings": "从不；绝不；决非",
       "senses": [
         {
           "translation": "从不",
@@ -21069,13 +21212,13 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 7,
-      "updatedAt": "2026-08-04T07:54:14.939Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "give": {
       "lemma": "give",
       "pos": "v.",
-      "forms": "gave, given, giving",
-      "meanings": "给予；提供；分发；做出（某种姿态）；导致",
+      "forms": "gave (过去式), given (过去分词), giving",
+      "meanings": "给；提供；赋予；举办",
       "senses": [
         {
           "translation": "放弃（与up连用）",
@@ -21128,12 +21271,12 @@
         "web-b08fa6a6e65a8840"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-03T14:07:34.715Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "grew": {
       "lemma": "grow",
       "pos": "v.",
-      "forms": "grew, grown, growing",
+      "forms": "grew (过去式), grown (过去分词), growing",
       "meanings": "生长；成长；种植；变得",
       "senses": [
         {
@@ -21154,7 +21297,7 @@
         "web-0ada4954aa4da897"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "zealand": {
       "lemma": "Zealand",
@@ -21179,13 +21322,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "athletes": {
       "lemma": "athlete",
       "pos": "n.",
       "forms": "athletes",
-      "meanings": "运动员；体育家；运动健将",
+      "meanings": "运动员；体育家",
       "senses": [
         {
           "translation": "运动员",
@@ -21205,7 +21348,7 @@
         "web-0ada4954aa4da897"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "mountain": {
       "lemma": "mountain",
@@ -21224,13 +21367,25 @@
           "pos": "n.",
           "example": "Following her parents'example,she climbed her first mountain at the age of nine.",
           "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "山；山峰",
+          "pos": "n.",
+          "example": "Her parents  were athletes and mountain climbers.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        },
+        {
+          "translation": "山",
+          "pos": "n.",
+          "example": "A Woman Mountain Climber",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "climbers": {
       "lemma": "climber",
@@ -21249,13 +21404,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "following": {
       "lemma": "follow",
-      "pos": "adj.",
+      "pos": "prep./v.",
       "forms": "followed, following",
-      "meanings": "接下来的；下面的；以下的；随后的",
+      "meanings": "跟随；接着；听懂；遵循",
       "senses": [
         {
           "translation": "追随/遵循",
@@ -21282,7 +21437,7 @@
         "web-cda4f9a292f21a6c"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "parents'example": {
       "lemma": "parent's example",
@@ -21301,7 +21456,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "climbed": {
       "lemma": "climb",
@@ -21326,7 +21481,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "nine": {
       "lemma": "nine",
@@ -21352,7 +21507,7 @@
         "web-f335b4849447798b"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T12:25:35.076Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "later": {
       "lemma": "later",
@@ -21378,7 +21533,7 @@
         "web-f2b1ff9fd84cfda6"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T15:02:38.322Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "highest": {
       "lemma": "high",
@@ -21397,7 +21552,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "mountains": {
       "lemma": "mountain",
@@ -21423,11 +21578,11 @@
         "web-0ada4954aa4da897"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T13:42:07.858Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "south": {
       "lemma": "south",
-      "pos": "n.",
+      "pos": "adj.",
       "forms": "无常见变形",
       "meanings": "南方；南方的；向南；在南方的",
       "senses": [
@@ -21456,10 +21611,10 @@
         "web-b9d326f381c855fe"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-04T07:54:54.987Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "america": {
-      "lemma": "america",
+      "lemma": "America",
       "pos": "n.",
       "forms": "无常见变形",
       "meanings": "美国；美洲",
@@ -21489,7 +21644,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-03T12:46:42.837Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "former": {
       "lemma": "former",
@@ -21522,7 +21677,7 @@
         "web-c5114d8c96e4f03b"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-04T07:54:14.939Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "ussr": {
       "lemma": "USSR",
@@ -21541,13 +21696,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "took": {
       "lemma": "take",
       "pos": "v.",
       "forms": "took, taken, taking",
-      "meanings": "承担；拿；取；花费；进行（活动）",
+      "meanings": "承担；拿；取；花费；乘车",
       "senses": [
         {
           "translation": "承担",
@@ -21594,7 +21749,7 @@
         "web-c07f29846f6c48f3"
       ],
       "articleCount": 5,
-      "updatedAt": "2026-08-03T15:35:36.816Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "challenge": {
       "lemma": "challenge",
@@ -21613,7 +21768,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "sahara": {
       "lemma": "Sahara",
@@ -21632,7 +21787,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "desert": {
       "lemma": "desert",
@@ -21657,7 +21812,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "husband": {
       "lemma": "husband",
@@ -21696,13 +21851,13 @@
         "web-c07f29846f6c48f3"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-03T15:35:36.816Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "bill": {
       "lemma": "Bill",
       "pos": "n.",
       "forms": "无常见变形",
-      "meanings": "比尔（人名）；账单；法案；钞票",
+      "meanings": "比尔（人名）；账单；法案",
       "senses": [
         {
           "translation": "比尔（人名）",
@@ -21728,7 +21883,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T12:46:42.837Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "walked": {
       "lemma": "walk",
@@ -21754,7 +21909,7 @@
         "web-b9d326f381c855fe"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:54:54.987Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "miles": {
       "lemma": "mile",
@@ -21773,7 +21928,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "travelled": {
       "lemma": "travel",
@@ -21792,7 +21947,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "foot": {
       "lemma": "foot",
@@ -21811,7 +21966,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "west": {
       "lemma": "west",
@@ -21830,7 +21985,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "east": {
       "lemma": "east",
@@ -21856,7 +22011,7 @@
         "web-1fac3b0d4f7569c5"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T11:33:18.954Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "gobi": {
       "lemma": "gobi",
@@ -21875,7 +22030,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "mongolia": {
       "lemma": "mongolia",
@@ -21894,7 +22049,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "mainland": {
       "lemma": "mainland",
@@ -21913,7 +22068,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "china": {
       "lemma": "china",
@@ -21939,7 +22094,7 @@
         "web-9164814709a91049"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T12:46:42.837Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "sichuan": {
       "lemma": "sichuan",
@@ -21958,7 +22113,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "tibet": {
       "lemma": "tibet",
@@ -21977,20 +22132,14 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "study": {
       "lemma": "study",
       "pos": "v.",
       "forms": "studies, studying, studied",
-      "meanings": "研究；学习；细看；书房；自习",
+      "meanings": "学习；研究；细看；书房",
       "senses": [
-        {
-          "translation": "学习",
-          "pos": "v.",
-          "example": "While there, you study in a language school with students from many different countries.",
-          "sourceArticleId": "web-52737a111ab04db4"
-        },
         {
           "translation": "学习",
           "pos": "v.",
@@ -22056,6 +22205,12 @@
           "pos": "v.",
           "example": "My travel plans: Going throughout the world and study various people, culture, habits.",
           "sourceArticleId": "web-6f0dbb98f7323216"
+        },
+        {
+          "translation": "研究",
+          "pos": "v.",
+          "example": "They hope to travel in mainland China into Sichuan and Tibet to study pandas.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -22070,7 +22225,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 9,
-      "updatedAt": "2026-08-04T07:56:18.639Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "pandas": {
       "lemma": "panda",
@@ -22089,11 +22244,11 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "plans": {
       "lemma": "plan",
-      "pos": "n.",
+      "pos": "v.",
       "forms": "plans, planning, planned",
       "meanings": "计划；打算；设计；方案",
       "senses": [
@@ -22140,13 +22295,13 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-04T07:56:18.639Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "taking": {
       "lemma": "take",
       "pos": "v.",
       "forms": "takes, taking, took, taken",
-      "meanings": "拿；带走；摄入；进行",
+      "meanings": "拿；带走；进行；乘车",
       "senses": [
         {
           "translation": "进行",
@@ -22166,7 +22321,7 @@
         "web-78c5365878759c41"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-03T16:08:26.331Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "trips": {
       "lemma": "trip",
@@ -22192,7 +22347,7 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:56:18.639Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "she'll": {
       "lemma": "she",
@@ -22211,7 +22366,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "explorations": {
       "lemma": "exploration",
@@ -22230,7 +22385,7 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "photography": {
       "lemma": "photography",
@@ -22263,7 +22418,7 @@
         "web-1db81bcdb0151def"
       ],
       "articleCount": 3,
-      "updatedAt": "2026-08-03T16:23:58.435Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "environmental": {
       "lemma": "environmental",
@@ -22282,13 +22437,13 @@
         "web-ffeb0429c5817c0f"
       ],
       "articleCount": 1,
-      "updatedAt": "2026-08-02T11:54:15.635Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "works": {
       "lemma": "work",
-      "pos": "v.",
-      "forms": "works, worked, working",
-      "meanings": "作品；著作；工作；工程；起作用",
+      "pos": "n.",
+      "forms": "works",
+      "meanings": "作品；著作；工作；工程",
       "senses": [
         {
           "translation": "作品",
@@ -22308,13 +22463,13 @@
         "web-473b3be3fe52d4fc"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:56:54.344Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "wants": {
       "lemma": "want",
       "pos": "v.",
       "forms": "wants, wanted, wanting",
-      "meanings": "想要；希望；需要；打算",
+      "meanings": "想要；希望；需要",
       "senses": [
         {
           "translation": "想要",
@@ -22348,13 +22503,13 @@
         "web-6f0dbb98f7323216"
       ],
       "articleCount": 4,
-      "updatedAt": "2026-08-04T07:56:18.639Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "stop": {
       "lemma": "stop",
       "pos": "v.",
       "forms": "stops, stopped, stopping",
-      "meanings": "停止；阻止；逗留；车站；站点",
+      "meanings": "停止；阻止；逗留；车站",
       "senses": [
         {
           "translation": "停止",
@@ -22374,7 +22529,7 @@
         "web-c46072fb88fa1c7b"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-22T12:46:56.174Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "facing": {
       "lemma": "face",
@@ -22400,7 +22555,7 @@
         "web-6eef5352ebcffaba"
       ],
       "articleCount": 2,
-      "updatedAt": "2026-08-04T07:55:43.059Z"
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "wondered": {
       "lemma": "wonder",
@@ -29086,12 +29241,6 @@
       "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
       "senses": [
         {
-          "translation": "（引导定语从句，指代前面的化学物质）",
-          "pos": "pron.",
-          "example": "One theory is that caffeine reduces the  effect of the chemical adenosine  in the brain, which can make us feel sleepy by slowing down nerve cell activity.",
-          "sourceArticleId": "web-ee55c880f34e43f4"
-        },
-        {
           "translation": "（引导定语从句，指代前面的骨粉）",
           "pos": "pron.",
           "example": "There is no evidence that eating eggs raises cholesterol levels, and researchers found that eggs contain less cholesterol than in the past because hens are no longer given bone meal, which was banned in the 1990s after the BSE  cresis.",
@@ -29156,6 +29305,12 @@
           "pos": "pron.",
           "example": "Which of the following is NOT a benefit the students get from Andrea Peterson's class?",
           "sourceArticleId": "web-cda4f9a292f21a6c"
+        },
+        {
+          "translation": "哪一个",
+          "pos": "pron.",
+          "example": "Which is the best title for the text?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -29168,10 +29323,11 @@
         "web-b9d326f381c855fe",
         "web-473b3be3fe52d4fc",
         "web-c46072fb88fa1c7b",
-        "web-cda4f9a292f21a6c"
+        "web-cda4f9a292f21a6c",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 10,
-      "updatedAt": "2026-08-22T12:47:26.173Z"
+      "articleCount": 11,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "single": {
       "lemma": "single",
@@ -34706,6 +34862,12 @@
           "pos": "v.",
           "example": "Read through the company website to gain a thorough understanding of what\" does its values, clients or audience and any technologies it uses.",
           "sourceArticleId": "web-c3ef658275687753"
+        },
+        {
+          "translation": "（助动词，用于构成疑问句）",
+          "pos": "v.",
+          "example": "Why does Helen travel to different places worldwide?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -34716,10 +34878,11 @@
         "web-1db81bcdb0151def",
         "web-b9d326f381c855fe",
         "web-6eef5352ebcffaba",
-        "web-c3ef658275687753"
+        "web-c3ef658275687753",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 8,
-      "updatedAt": "2026-08-05T04:42:16.341Z"
+      "articleCount": 9,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "i'm": {
       "lemma": "i",
@@ -41172,16 +41335,23 @@
           "pos": "adv.",
           "example": "Why is this happening?",
           "sourceArticleId": "web-6eef5352ebcffaba"
+        },
+        {
+          "translation": "为什么",
+          "pos": "adv.",
+          "example": "Why does Helen travel to different places worldwide?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
         "web-1fac3b0d4f7569c5",
         "web-83aed36829bb66d0",
         "web-b08fa6a6e65a8840",
-        "web-6eef5352ebcffaba"
+        "web-6eef5352ebcffaba",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-04T07:55:43.059Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "bike": {
       "lemma": "bike",
@@ -41394,6 +41564,12 @@
           "pos": "n.",
           "example": "Still, publishers fear that money from digital subscriptions would not make up for the resulting loss of audience and advertising income.",
           "sourceArticleId": "web-e5460a9523607192"
+        },
+        {
+          "translation": "钱；资金",
+          "pos": "n.",
+          "example": "For money.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
@@ -41401,10 +41577,11 @@
         "web-83aed36829bb66d0",
         "web-7504f64bec4e74a7",
         "web-a524105e021f666c",
-        "web-e5460a9523607192"
+        "web-e5460a9523607192",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 5,
-      "updatedAt": "2026-08-04T07:57:35.405Z"
+      "articleCount": 6,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "coming": {
       "lemma": "come",
@@ -45695,16 +45872,23 @@
           "pos": "adj.",
           "example": "Quite charming, loving, pretty,fun to be with.",
           "sourceArticleId": "web-6f0dbb98f7323216"
+        },
+        {
+          "translation": "乐趣；享乐",
+          "pos": "n.",
+          "example": "For fun.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
         "web-83aed36829bb66d0",
         "web-a524105e021f666c",
         "web-c5114d8c96e4f03b",
-        "web-6f0dbb98f7323216"
+        "web-6f0dbb98f7323216",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 4,
-      "updatedAt": "2026-08-04T07:56:18.639Z"
+      "articleCount": 5,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "interactive": {
       "lemma": "interactive",
@@ -54937,14 +55121,21 @@
           "pos": "adv.",
           "example": "It is just because of Bond's wonderful performances that the sport has become popular worldwide.",
           "sourceArticleId": "web-20d7ec6e8708c103"
+        },
+        {
+          "translation": "在世界各地",
+          "pos": "adv.",
+          "example": "Why does Helen travel to different places worldwide?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
         "web-59b629f92c1e91fb",
-        "web-20d7ec6e8708c103"
+        "web-20d7ec6e8708c103",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 2,
-      "updatedAt": "2026-08-03T15:47:23.113Z"
+      "articleCount": 3,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "movement": {
       "lemma": "movement",
@@ -58289,7 +58480,7 @@
       "lemma": "famous",
       "pos": "adj.",
       "forms": "无常见变形",
-      "meanings": "著名的；出名的；极好的",
+      "meanings": "著名的；出名的；有名的；极好的；标志性的",
       "senses": [
         {
           "translation": "著名的",
@@ -58314,15 +58505,22 @@
           "pos": "adj.",
           "example": "It is famous for being a symbol, not only of a city, but a whole country and condition too.",
           "sourceArticleId": "web-f2b1ff9fd84cfda6"
+        },
+        {
+          "translation": "著名的",
+          "pos": "adj.",
+          "example": "A Famous Woman",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
         "web-f39e7f5b1b236779",
         "web-4a99bc1fb2af7921",
-        "web-f2b1ff9fd84cfda6"
+        "web-f2b1ff9fd84cfda6",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 3,
-      "updatedAt": "2026-08-03T15:02:38.322Z"
+      "articleCount": 4,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "can't": {
       "lemma": "can",
@@ -78986,20 +79184,27 @@
       "lemma": "owner",
       "pos": "n.",
       "forms": "owners",
-      "meanings": "主人；拥有者；物主",
+      "meanings": "主人；拥有者；物主；所有者；业主",
       "senses": [
         {
           "translation": "主人",
           "pos": "n.",
           "example": "For instance,they may slow down when playing 'chase', allowing their owner to catch up with them and the game to continue.",
           "sourceArticleId": "web-c5114d8c96e4f03b"
+        },
+        {
+          "translation": "主人",
+          "pos": "n.",
+          "example": "Adventure Classroom Owner",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
         }
       ],
       "articleIds": [
-        "web-c5114d8c96e4f03b"
+        "web-c5114d8c96e4f03b",
+        "web-ffeb0429c5817c0f"
       ],
-      "articleCount": 1,
-      "updatedAt": "2026-08-04T07:54:14.939Z"
+      "articleCount": 2,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     },
     "catch": {
       "lemma": "catch",
@@ -85817,6 +86022,63 @@
       ],
       "articleCount": 1,
       "updatedAt": "2026-08-22T12:47:26.173Z"
+    },
+    "fame": {
+      "lemma": "fame",
+      "pos": "n.",
+      "forms": "无常见变形",
+      "meanings": "名声；名誉；名气；出名；荣誉",
+      "senses": [
+        {
+          "translation": "名声",
+          "pos": "n.",
+          "example": "For fame.",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        }
+      ],
+      "articleIds": [
+        "web-ffeb0429c5817c0f"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
+    },
+    "title": {
+      "lemma": "title",
+      "pos": "n.",
+      "forms": "titles",
+      "meanings": "标题；题目；称号；头衔；冠军",
+      "senses": [
+        {
+          "translation": "标题",
+          "pos": "n.",
+          "example": "Which is the best title for the text?",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        }
+      ],
+      "articleIds": [
+        "web-ffeb0429c5817c0f"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
+    },
+    "climber": {
+      "lemma": "climber",
+      "pos": "n.",
+      "forms": "climbers",
+      "meanings": "登山者；攀登者；爬山者；攀岩者；向上爬的人",
+      "senses": [
+        {
+          "translation": "登山者",
+          "pos": "n.",
+          "example": "A Woman Mountain Climber",
+          "sourceArticleId": "web-ffeb0429c5817c0f"
+        }
+      ],
+      "articleIds": [
+        "web-ffeb0429c5817c0f"
+      ],
+      "articleCount": 1,
+      "updatedAt": "2026-08-22T12:47:46.485Z"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T12:47:26.179Z",
+  "generatedAt": "2026-08-22T12:47:46.489Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -7762,19 +7762,23 @@
           "meanings": "海伦（人名）",
           "contexts": {
             "Helen Thayer, one of the greatest explorers of the 20th century, loves challenges.": {
-              "translation": "海伦·泰尔是20世纪最伟大的探险家之一。",
+              "translation": "海伦（20世纪最伟大的探险家之一）",
               "pos": "n."
             },
             "Helen goes to challenging places not only for  adventures,but also for education.": {
-              "translation": "海伦去那些充满挑战的地方不仅是为了冒险，也是为了教育。",
+              "translation": "海伦",
               "pos": "n."
             },
             "\"\nHelen grew up in New Zealand.": {
-              "translation": "海伦在新西兰长大。",
+              "translation": "海伦",
               "pos": "n."
             },
             "Helen plans to continue taking trips.": {
-              "translation": "海伦计划继续旅行。",
+              "translation": "海伦",
+              "pos": "n."
+            },
+            "Why does Helen travel to different places worldwide?": {
+              "translation": "海伦",
               "pos": "n."
             }
           }
@@ -7856,53 +7860,61 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "这，那；特指",
+          "translation": "这；那",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这，那；特指；用于最高级前；专有名词前",
           "contexts": {
             "Helen Thayer, one of the greatest explorers of the 20th century, loves challenges.": {
-              "translation": "海伦·泰尔是20世纪最伟大的探险家之一。",
+              "translation": "定冠词",
               "pos": "art."
             },
             "She says,\"I like to see what's on the other side of the hill.": {
-              "translation": "她说：“我喜欢看看山的那边有什么。”",
+              "translation": "另一边",
               "pos": "art."
             },
             "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.": {
-              "translation": "1988年，在50岁时，她成为了第一个独自前往北极的女性。",
+              "translation": "北极",
               "pos": "art."
             },
             "Near the end of her trip,a forceful wind blew away the majority of her supplies.": {
-              "translation": "在行程接近尾声时，一阵强风吹走了她大部分的补给。",
+              "translation": "旅程结束",
               "pos": "art."
             },
             "The last week of the trip,she survived on a handful of nuts and a little water each day.": {
-              "translation": "旅行的最后一周，她每天靠一把坚果和一点水维持生命。",
+              "translation": "最后一周",
               "pos": "art."
             },
             "On the site,she shared her adventures in order to inspire students.": {
-              "translation": "在网站上，她分享了自己的冒险经历，以激励学生们。",
+              "translation": "网站上",
               "pos": "art."
             },
             "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.": {
-              "translation": "她解释说：“尽管孩子们经常以消极的方式看待世界，对未来没有希望，但我们努力激励他们设定目标，为成功做计划并永不放弃。”",
+              "translation": "世界",
               "pos": "art."
             },
             "Following her parents'example,she climbed her first mountain at the age of nine.": {
-              "translation": "追随父母的榜样，她在九岁时爬了第一座山。",
+              "translation": "父母的",
               "pos": "art."
             },
             "Later,she climbed the highest  mountains in North and South America,the former  USSR and New Zealand.": {
-              "translation": "后来，她攀登了北美和南美、前苏联和新西兰的最高峰。",
+              "translation": "最高的山峰",
               "pos": "art."
             },
             "In 1996,she took on another challenge--the Sahara Desert.": {
-              "translation": "1996年，她承担了另一项挑战——撒哈拉沙漠。",
+              "translation": "撒哈拉沙漠",
               "pos": "art."
             },
             "In 2001,she and Bill travelled on foot from west to east through the Gobi Desert in Mongolia.": {
-              "translation": "2001年，她和比尔徒步从西向东穿越了蒙古的戈壁沙漠。",
+              "translation": "戈壁沙漠",
+              "pos": "art."
+            },
+            "Which is the best title for the text?": {
+              "translation": "文本",
+              "pos": "art."
+            },
+            "The Woman Who loves Adventures": {
+              "translation": "定冠词",
               "pos": "art."
             }
           }
@@ -7967,7 +7979,11 @@
           "meanings": "热爱；喜爱；很喜欢；酷爱",
           "contexts": {
             "Helen Thayer, one of the greatest explorers of the 20th century, loves challenges.": {
-              "translation": "海伦·泰尔是20世纪最伟大的探险家之一，她热爱挑战。",
+              "translation": "热爱",
+              "pos": "v."
+            },
+            "The Woman Who loves Adventures": {
+              "translation": "热爱",
               "pos": "v."
             }
           }
@@ -8103,54 +8119,58 @@
         },
         "to": {
           "lemma": "to",
-          "translation": "为了；去；向；到",
+          "translation": "为了",
           "pos": "prep./part.",
           "forms": "无常见变形",
           "meanings": "为了；去；向；到；（构成不定式）",
           "contexts": {
             "She says,\"I like to see what's on the other side of the hill.": {
-              "translation": "她说：“我喜欢看看山的那边有什么。”",
+              "translation": "不定式标记",
               "pos": "part."
             },
             "\" She has gone almost everywhere to do that.": {
-              "translation": "为了做到这一点，她几乎去过所有地方。",
-              "pos": "part."
-            },
-            "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.": {
-              "translation": "1988年，在50岁时，她成为了第一个独自前往北极的女性。",
+              "translation": "为了",
               "pos": "prep."
             },
+            "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.": {
+              "translation": "不定式标记",
+              "pos": "part."
+            },
             "Helen goes to challenging places not only for  adventures,but also for education.": {
-              "translation": "海伦去那些充满挑战的地方不仅是为了冒险，也是为了教育。",
+              "translation": "去",
               "pos": "prep."
             },
             "On the site,she shared her adventures in order to inspire students.": {
-              "translation": "在网站上，她分享了自己的冒险经历，以激励学生们。",
-              "pos": "part."
+              "translation": "为了",
+              "pos": "prep."
             },
             "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.": {
-              "translation": "她解释说：“尽管孩子们经常以消极的方式看待世界，对未来没有希望，但我们努力激励他们设定目标，为成功做计划并永不放弃。”",
+              "translation": "不定式标记",
               "pos": "part."
             },
             "In 2001,she and Bill travelled on foot from west to east through the Gobi Desert in Mongolia.": {
-              "translation": "2001年，她和比尔徒步从西向东穿越了蒙古的戈壁沙漠。",
+              "translation": "从",
               "pos": "prep."
             },
             "They hope to travel in mainland China into Sichuan and Tibet to study pandas.": {
-              "translation": "他们希望去中国大陆的四川和西藏研究大熊猫。",
+              "translation": "不定式标记",
               "pos": "part."
             },
             "Helen plans to continue taking trips.": {
-              "translation": "海伦计划继续旅行。",
+              "translation": "不定式标记",
               "pos": "part."
             },
             "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.": {
-              "translation": "她将利用她的探险、写作、摄影和环境工作为她的“冒险课堂”网站创建项目。",
+              "translation": "不定式标记",
               "pos": "part."
             },
             "She wants to inspire her students to never stop facing challenges.": {
-              "translation": "她想激励她的学生永不停止面对挑战。",
+              "translation": "不定式标记",
               "pos": "part."
+            },
+            "Why does Helen travel to different places worldwide?": {
+              "translation": "去",
+              "pos": "prep."
             }
           }
         },
@@ -8441,13 +8461,25 @@
         },
         "woman": {
           "lemma": "woman",
-          "translation": "妇女",
+          "translation": "女人",
           "pos": "n.",
           "forms": "women",
           "meanings": "妇女；女人；成年女子",
           "contexts": {
             "In 1988,at the age of 50,she became the first woman to travel alone to the North Pole.": {
-              "translation": "妇女",
+              "translation": "女人",
+              "pos": "n."
+            },
+            "The Woman Who loves Adventures": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "A Famous Woman": {
+              "translation": "女人",
+              "pos": "n."
+            },
+            "A Woman Mountain Climber": {
+              "translation": "女人",
               "pos": "n."
             }
           }
@@ -8464,6 +8496,10 @@
               "pos": "v."
             },
             "They hope to travel in mainland China into Sichuan and Tibet to study pandas.": {
+              "translation": "旅行",
+              "pos": "v."
+            },
+            "Why does Helen travel to different places worldwide?": {
               "translation": "旅行",
               "pos": "v."
             }
@@ -9061,7 +9097,7 @@
               "pos": "art."
             },
             "The last week of the trip,she survived on a handful of nuts and a little water each day.": {
-              "translation": "一个",
+              "translation": "一把",
               "pos": "art."
             },
             "Before her Arctic journey,she started a website called Adventure Classroom.": {
@@ -9069,6 +9105,14 @@
               "pos": "art."
             },
             "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "A Famous Woman": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "A Woman Mountain Climber": {
               "translation": "一个",
               "pos": "art."
             }
@@ -9271,13 +9315,17 @@
         },
         "places": {
           "lemma": "place",
-          "translation": "地点",
+          "translation": "地方",
           "pos": "n.",
           "forms": "places, placed, placing",
           "meanings": "地点；地方；位置；放置",
           "contexts": {
             "Helen goes to challenging places not only for  adventures,but also for education.": {
-              "translation": "地点",
+              "translation": "地方",
+              "pos": "n."
+            },
+            "Why does Helen travel to different places worldwide?": {
+              "translation": "地方",
               "pos": "n."
             }
           }
@@ -9307,11 +9355,31 @@
               "pos": "prep."
             },
             "She explained,\"Although kids often see the world in a negative way,without hope for their future,we work to inspire them to set goals,plan for success and never give up.": {
-              "translation": "为了",
+              "translation": "对于",
               "pos": "prep."
             },
             "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.": {
+              "translation": "为",
+              "pos": "prep."
+            },
+            "For fun.": {
               "translation": "为了",
+              "pos": "prep."
+            },
+            "For education.": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "For money.": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "For fame.": {
+              "translation": "为了",
+              "pos": "prep."
+            },
+            "Which is the best title for the text?": {
+              "translation": "最好的标题",
               "pos": "prep."
             }
           }
@@ -9329,6 +9397,10 @@
             },
             "On the site,she shared her adventures in order to inspire students.": {
               "translation": "冒险经历",
+              "pos": "n."
+            },
+            "The Woman Who loves Adventures": {
+              "translation": "冒险",
               "pos": "n."
             }
           }
@@ -9367,6 +9439,10 @@
           "meanings": "教育；培养；教学；教育学",
           "contexts": {
             "Helen goes to challenging places not only for  adventures,but also for education.": {
+              "translation": "教育；学习",
+              "pos": "n."
+            },
+            "For education.": {
               "translation": "教育",
               "pos": "n."
             }
@@ -9466,6 +9542,10 @@
               "pos": "n."
             },
             "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.": {
+              "translation": "冒险；探险活动",
+              "pos": "n."
+            },
+            "Adventure Classroom Owner": {
               "translation": "冒险",
               "pos": "n."
             }
@@ -9479,10 +9559,14 @@
           "meanings": "教室；课堂；教学环境",
           "contexts": {
             "Before her Arctic journey,she started a website called Adventure Classroom.": {
-              "translation": "教室",
+              "translation": "教室；课堂",
               "pos": "n."
             },
             "She'll use her explorations,writing,photography and environmental works to create programs for her Adventure Classroom website.": {
+              "translation": "教室；课堂",
+              "pos": "n."
+            },
+            "Adventure Classroom Owner": {
               "translation": "教室",
               "pos": "n."
             }
@@ -9935,10 +10019,14 @@
           "meanings": "山；山脉；巨大数量",
           "contexts": {
             "Her parents  were athletes and mountain climbers.": {
-              "translation": "山",
+              "translation": "山；山峰",
               "pos": "n."
             },
             "Following her parents'example,she climbed her first mountain at the age of nine.": {
+              "translation": "山",
+              "pos": "n."
+            },
+            "A Woman Mountain Climber": {
               "translation": "山",
               "pos": "n."
             }
@@ -10668,6 +10756,214 @@
             "She wants to inspire her students to never stop facing challenges.": {
               "translation": "面对",
               "pos": "v."
+            }
+          }
+        },
+        "why": {
+          "lemma": "why",
+          "translation": "为什么",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "为什么；……的原因",
+          "contexts": {
+            "Why does Helen travel to different places worldwide?": {
+              "translation": "为什么",
+              "pos": "adv."
+            }
+          }
+        },
+        "does": {
+          "lemma": "do",
+          "translation": "（助动词，用于构成疑问句）",
+          "pos": "v.",
+          "forms": "do, does, did, doing, done",
+          "meanings": "做；进行；行动；表现；（助动词）",
+          "contexts": {
+            "Why does Helen travel to different places worldwide?": {
+              "translation": "（助动词，用于构成疑问句）",
+              "pos": "v."
+            }
+          }
+        },
+        "different": {
+          "lemma": "different",
+          "translation": "不同的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "不同的；各种各样的；异类的",
+          "contexts": {
+            "Why does Helen travel to different places worldwide?": {
+              "translation": "不同的",
+              "pos": "adj."
+            }
+          }
+        },
+        "worldwide": {
+          "lemma": "worldwide",
+          "translation": "在世界各地",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "全世界；在世界各地",
+          "contexts": {
+            "Why does Helen travel to different places worldwide?": {
+              "translation": "在世界各地",
+              "pos": "adv."
+            }
+          }
+        },
+        "fun": {
+          "lemma": "fun",
+          "translation": "乐趣",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "乐趣；享乐；有趣的；玩笑；快乐",
+          "contexts": {
+            "For fun.": {
+              "translation": "乐趣；享乐",
+              "pos": "n."
+            }
+          }
+        },
+        "money": {
+          "lemma": "money",
+          "translation": "钱",
+          "pos": "n.",
+          "forms": "monies",
+          "meanings": "资金；钱；货币；财产",
+          "contexts": {
+            "For money.": {
+              "translation": "钱；资金",
+              "pos": "n."
+            }
+          }
+        },
+        "fame": {
+          "lemma": "fame",
+          "translation": "名声",
+          "pos": "n.",
+          "forms": "无常见变形",
+          "meanings": "名声；名誉；名气；出名；荣誉",
+          "contexts": {
+            "For fame.": {
+              "translation": "名声",
+              "pos": "n."
+            }
+          }
+        },
+        "which": {
+          "lemma": "which",
+          "translation": "哪一个",
+          "pos": "pron.",
+          "forms": "无常见变形",
+          "meanings": "哪一个；哪一些；（引导定语从句）……的那个",
+          "contexts": {
+            "Which is the best title for the text?": {
+              "translation": "哪一个",
+              "pos": "pron."
+            }
+          }
+        },
+        "is": {
+          "lemma": "be",
+          "translation": "是",
+          "pos": "v.",
+          "forms": "am, are, was, were, been, being",
+          "meanings": "是；存在；等于；在；状态",
+          "contexts": {
+            "Which is the best title for the text?": {
+              "translation": "是",
+              "pos": "v."
+            }
+          }
+        },
+        "best": {
+          "lemma": "best",
+          "translation": "最好的",
+          "pos": "adj.",
+          "forms": "better, best",
+          "meanings": "最好的；最佳的；最好地；最",
+          "contexts": {
+            "Which is the best title for the text?": {
+              "translation": "最好的",
+              "pos": "adj."
+            }
+          }
+        },
+        "title": {
+          "lemma": "title",
+          "translation": "标题",
+          "pos": "n.",
+          "forms": "titles",
+          "meanings": "标题；题目；称号；头衔；冠军",
+          "contexts": {
+            "Which is the best title for the text?": {
+              "translation": "标题",
+              "pos": "n."
+            }
+          }
+        },
+        "text": {
+          "lemma": "text",
+          "translation": "文本",
+          "pos": "n.",
+          "forms": "texts",
+          "meanings": "文本；正文；课文；短信；段落",
+          "contexts": {
+            "Which is the best title for the text?": {
+              "translation": "文本",
+              "pos": "n."
+            }
+          }
+        },
+        "who": {
+          "lemma": "who",
+          "translation": "……的人",
+          "pos": "pron.",
+          "forms": "whom, whose",
+          "meanings": "谁；……的人；（引导定语从句）……的那个人",
+          "contexts": {
+            "The Woman Who loves Adventures": {
+              "translation": "引导定语从句，指先行词",
+              "pos": "pron."
+            }
+          }
+        },
+        "famous": {
+          "lemma": "famous",
+          "translation": "著名的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "著名的；出名的；有名的；极好的；标志性的",
+          "contexts": {
+            "A Famous Woman": {
+              "translation": "著名的",
+              "pos": "adj."
+            }
+          }
+        },
+        "climber": {
+          "lemma": "climber",
+          "translation": "登山者",
+          "pos": "n.",
+          "forms": "climbers",
+          "meanings": "登山者；攀登者；爬山者；攀岩者；向上爬的人",
+          "contexts": {
+            "A Woman Mountain Climber": {
+              "translation": "登山者",
+              "pos": "n."
+            }
+          }
+        },
+        "owner": {
+          "lemma": "owner",
+          "translation": "主人",
+          "pos": "n.",
+          "forms": "owners",
+          "meanings": "主人；拥有者；物主；所有者；业主",
+          "contexts": {
+            "Adventure Classroom Owner": {
+              "translation": "主人",
+              "pos": "n."
             }
           }
         }
