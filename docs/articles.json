@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T13:07:48.700Z",
+  "generatedAt": "2026-08-22T13:09:07.870Z",
   "articles": [
     {
       "id": "web-c46072fb88fa1c7b",
@@ -120147,6 +120147,10 @@
             "With its budget of $80 million , John Woo as director, and an all-star cast ,Red Cliffis the most expensive and ambitious Asian-financed film ever.": {
               "translation": "预算",
               "pos": "n."
+            },
+            "high budget": {
+              "translation": "预算",
+              "pos": "n."
             }
           }
         },
@@ -120162,7 +120166,7 @@
               "pos": "prep."
             },
             "Last week I saw the release of the second part, and _ does it shows.": {
-              "translation": "……的",
+              "translation": "表示某种情况或事实",
               "pos": "prep."
             },
             "Certainly after the opening scene, in which Cao Cao is seen watching a game of Cuju, an ancient Chinese variation of football, I knew who had my support.": {
@@ -120174,10 +120178,26 @@
               "pos": "prep."
             },
             "There is even enough to keep fans of more romantic entertainment happy too.": {
-              "translation": "……的",
+              "translation": "供……享受的",
               "pos": "prep."
             },
             "The characters' interaction provides some genuinely heart-warming moments in the middle of the battle.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "When he saw Cao Cao was watching a game of Cuju,": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "The following factors of the film are all mentioned in the passage except  _  .": {
+              "translation": "……的",
+              "pos": "prep."
+            },
+            "Cuju is the name of an ancient Chinese variation of football.": {
               "translation": "……的",
               "pos": "prep."
             }
@@ -120278,6 +120298,14 @@
             "This includes a charming relationship between a southern spy and an innocent northern soldier.": {
               "translation": "和",
               "pos": "conj."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
+              "translation": "和",
+              "pos": "conj."
+            },
+            "actors and actress": {
+              "translation": "和",
+              "pos": "conj."
             }
           }
         },
@@ -120299,23 +120327,31 @@
             "This includes a charming relationship between a southern spy and an innocent northern soldier.": {
               "translation": "一个",
               "pos": "art."
+            },
+            "Cuju is the name of an ancient Chinese variation of football.": {
+              "translation": "一个",
+              "pos": "art."
             }
           }
         },
         "all": {
           "lemma": "all",
-          "translation": "全部的",
+          "translation": "全部",
           "pos": "det.",
           "forms": "无常见变形",
           "meanings": "全部；所有；总共；整个；完全",
           "contexts": {
             "With its budget of $80 million , John Woo as director, and an all-star cast ,Red Cliffis the most expensive and ambitious Asian-financed film ever.": {
-              "translation": "汇聚了全部明星的",
+              "translation": "全部",
               "pos": "det."
             },
             "After all, any man who enjoys his football is someone after my own heart.": {
               "translation": "毕竟",
               "pos": "adv."
+            },
+            "The following factors of the film are all mentioned in the passage except  _  .": {
+              "translation": "全部",
+              "pos": "det."
             }
           }
         },
@@ -120355,6 +120391,10 @@
             "With its budget of $80 million , John Woo as director, and an all-star cast ,Red Cliffis the most expensive and ambitious Asian-financed film ever.": {
               "translation": "红色的",
               "pos": "adj."
+            },
+            "the film \nRed Cliff 2lasts about two hours.": {
+              "translation": "红色的",
+              "pos": "adj."
             }
           }
         },
@@ -120373,49 +120413,85 @@
         },
         "the": {
           "lemma": "the",
-          "translation": "这",
+          "translation": "（冠词，表特指）",
           "pos": "art.",
           "forms": "无常见变形",
           "meanings": "这；那；（用于特指）；（用于最高级前）",
           "contexts": {
             "With its budget of $80 million , John Woo as director, and an all-star cast ,Red Cliffis the most expensive and ambitious Asian-financed film ever.": {
-              "translation": "（最高级前）最",
+              "translation": "（冠词，表特指）",
               "pos": "art."
             },
             "Last week I saw the release of the second part, and _ does it shows.": {
-              "translation": "那",
+              "translation": "（冠词，表特指）",
               "pos": "art."
             },
             "But watching the film as a foreigner I felt I was missing out on something.": {
-              "translation": "那",
+              "translation": "（冠词，表特指）",
               "pos": "art."
             },
             "Certainly after the opening scene, in which Cao Cao is seen watching a game of Cuju, an ancient Chinese variation of football, I knew who had my support.": {
-              "translation": "那",
+              "translation": "（冠词，表特指）",
               "pos": "art."
             },
             "But after Cao Cao resorted to some evil strategies against his enemies in the south, I wasn't so sure he was the man I should be rooting for.": {
-              "translation": "那",
+              "translation": "（冠词，表特指）",
               "pos": "art."
             },
             "The film does not take itself too seriously.": {
-              "translation": "（特指）这部",
+              "translation": "（冠词，表特指）",
               "pos": "art."
             },
             "Conversations between leaders are littered with one-liners, many of which had the audience in laughter.": {
-              "translation": "那",
+              "translation": "（冠词，表特指）",
               "pos": "art."
             },
             "The characters' interaction provides some genuinely heart-warming moments in the middle of the battle.": {
-              "translation": "这些",
+              "translation": "（冠词，表特指）",
               "pos": "art."
             },
             "Clocking in at around two hours, the film certainly does justice to the history story.": {
-              "translation": "那",
+              "translation": "（冠词，表特指）",
               "pos": "art."
             },
             "When I walked out the cinema, I felt as drained  as Cao Cao's soldiers must have 1,800 years ago.": {
-              "translation": "那",
+              "translation": "（冠词，表特指）",
+              "pos": "art."
+            },
+            "When did the author change his attitude toward Cao Cao?": {
+              "translation": "（冠词，表特指）",
+              "pos": "art."
+            },
+            "When he read the history story about Cao Cao.": {
+              "translation": "（冠词，表特指）",
+              "pos": "art."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
+              "translation": "（冠词，表特指）",
+              "pos": "art."
+            },
+            "The following factors of the film are all mentioned in the passage except  _  .": {
+              "translation": "（冠词，表特指）",
+              "pos": "art."
+            },
+            "From the passage we can infer that  _  .": {
+              "translation": "（冠词，表特指）",
+              "pos": "art."
+            },
+            "the author is a football fan in a foreign country.": {
+              "translation": "（冠词，表特指）",
+              "pos": "art."
+            },
+            "Cuju is the name of an ancient Chinese variation of football.": {
+              "translation": "（冠词，表特指）",
+              "pos": "art."
+            },
+            "the film \nRed Cliff 2lasts about two hours.": {
+              "translation": "（冠词，表特指）",
+              "pos": "art."
+            },
+            "the author was very tired after about two hours' battle.": {
+              "translation": "（冠词，表特指）",
               "pos": "art."
             }
           }
@@ -120494,19 +120570,27 @@
           "contexts": {
             "With its budget of $80 million , John Woo as director, and an all-star cast ,Red Cliffis the most expensive and ambitious Asian-financed film ever.": {
               "translation": "电影",
-              "pos": "n"
+              "pos": "n."
             },
             "But watching the film as a foreigner I felt I was missing out on something.": {
               "translation": "电影",
-              "pos": "n"
+              "pos": "n."
             },
             "The film does not take itself too seriously.": {
               "translation": "电影",
-              "pos": "n"
+              "pos": "n."
             },
             "Clocking in at around two hours, the film certainly does justice to the history story.": {
               "translation": "电影",
-              "pos": "n"
+              "pos": "n."
+            },
+            "The following factors of the film are all mentioned in the passage except  _  .": {
+              "translation": "电影",
+              "pos": "n."
+            },
+            "the film \nRed Cliff 2lasts about two hours.": {
+              "translation": "电影",
+              "pos": "n."
             }
           }
         },
@@ -120584,14 +120668,22 @@
         },
         "saw": {
           "lemma": "see",
-          "translation": "见证",
+          "translation": "看见",
           "pos": "v.",
           "forms": "saw, seen, seeing",
           "meanings": "看见；见证；明白；考虑；领会",
           "contexts": {
             "Last week I saw the release of the second part, and _ does it shows.": {
-              "translation": "见证",
-              "pos": "v"
+              "translation": "看到",
+              "pos": "v."
+            },
+            "When he saw Cao Cao was watching a game of Cuju,": {
+              "translation": "看见",
+              "pos": "v."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
+              "translation": "看到",
+              "pos": "v."
             }
           }
         },
@@ -120712,6 +120804,10 @@
             "Certainly after the opening scene, in which Cao Cao is seen watching a game of Cuju, an ancient Chinese variation of football, I knew who had my support.": {
               "translation": "观看",
               "pos": "v."
+            },
+            "When he saw Cao Cao was watching a game of Cuju,": {
+              "translation": "观看",
+              "pos": "v."
             }
           }
         },
@@ -120731,10 +120827,22 @@
               "pos": "art."
             },
             "And there is a lot more toRed Cliff 2than just extravagant battle scenes.": {
-              "translation": "一；很多",
+              "translation": "一些",
               "pos": "art."
             },
             "This includes a charming relationship between a southern spy and an innocent northern soldier.": {
+              "translation": "一种",
+              "pos": "art."
+            },
+            "When he saw Cao Cao was watching a game of Cuju,": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
+              "translation": "一个",
+              "pos": "art."
+            },
+            "the author is a football fan in a foreign country.": {
               "translation": "一个",
               "pos": "art."
             }
@@ -120786,6 +120894,14 @@
               "pos": "v."
             },
             "But after Cao Cao resorted to some evil strategies against his enemies in the south, I wasn't so sure he was the man I should be rooting for.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "When he saw Cao Cao was watching a game of Cuju,": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "the author was very tired after about two hours' battle.": {
               "translation": "是",
               "pos": "v."
             }
@@ -120900,7 +121016,7 @@
         },
         "cao": {
           "lemma": "cao",
-          "translation": "曹（人名）",
+          "translation": "曹",
           "pos": "n.",
           "forms": "无常见变形",
           "meanings": "曹；（中国姓氏）",
@@ -120918,6 +121034,26 @@
               "pos": "n."
             },
             "When I walked out the cinema, I felt as drained  as Cao Cao's soldiers must have 1,800 years ago.": {
+              "translation": "曹",
+              "pos": "n."
+            },
+            "When did the author change his attitude toward Cao Cao?": {
+              "translation": "曹",
+              "pos": "n."
+            },
+            "When he read the history story about Cao Cao.": {
+              "translation": "曹",
+              "pos": "n."
+            },
+            "When he saw Cao Cao was watching a game of Cuju,": {
+              "translation": "曹",
+              "pos": "n."
+            },
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "曹",
+              "pos": "n."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
               "translation": "曹",
               "pos": "n."
             }
@@ -120942,12 +121078,16 @@
         },
         "from": {
           "lemma": "from",
-          "translation": "从……中",
+          "translation": "从",
           "pos": "prep.",
           "forms": "无常见变形",
           "meanings": "从；离；来自；因为；起始",
           "contexts": {
             "Not knowing my Cao Cao's from my Zhou Yu's, I was not even sure whom I wanted to win.": {
+              "translation": "区分",
+              "pos": "prep."
+            },
+            "From the passage we can infer that  _  .": {
               "translation": "从",
               "pos": "prep."
             }
@@ -121061,6 +121201,10 @@
             "Clocking in at around two hours, the film certainly does justice to the history story.": {
               "translation": "用于构成不定式",
               "pos": "particle"
+            },
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "用于构成不定式",
+              "pos": "particle"
             }
           }
         },
@@ -121106,10 +121250,14 @@
               "pos": "prep."
             },
             "After all, any man who enjoys his football is someone after my own heart.": {
-              "translation": "在……之后",
+              "translation": "符合",
               "pos": "prep."
             },
             "But after Cao Cao resorted to some evil strategies against his enemies in the south, I wasn't so sure he was the man I should be rooting for.": {
+              "translation": "在……之后",
+              "pos": "prep."
+            },
+            "the author was very tired after about two hours' battle.": {
               "translation": "在……之后",
               "pos": "prep."
             }
@@ -121149,15 +121297,15 @@
           "meanings": "在……之内；在……方面；在……期间；处于（某种状态）；用（某种语言或材料）",
           "contexts": {
             "Certainly after the opening scene, in which Cao Cao is seen watching a game of Cuju, an ancient Chinese variation of football, I knew who had my support.": {
-              "translation": "在……里",
+              "translation": "其中",
               "pos": "prep."
             },
             "But after Cao Cao resorted to some evil strategies against his enemies in the south, I wasn't so sure he was the man I should be rooting for.": {
-              "translation": "在……（方位）",
+              "translation": "在……之中",
               "pos": "prep."
             },
             "Conversations between leaders are littered with one-liners, many of which had the audience in laughter.": {
-              "translation": "在……（状态）中",
+              "translation": "处于",
               "pos": "prep."
             },
             "The characters' interaction provides some genuinely heart-warming moments in the middle of the battle.": {
@@ -121165,7 +121313,15 @@
               "pos": "prep."
             },
             "Clocking in at around two hours, the film certainly does justice to the history story.": {
-              "translation": "在……期间",
+              "translation": "大约",
+              "pos": "prep."
+            },
+            "The following factors of the film are all mentioned in the passage except  _  .": {
+              "translation": "在……之中",
+              "pos": "prep."
+            },
+            "the author is a football fan in a foreign country.": {
+              "translation": "在",
               "pos": "prep."
             }
           }
@@ -121203,11 +121359,19 @@
               "pos": "v."
             },
             "And there is a lot more toRed Cliff 2than just extravagant battle scenes.": {
-              "translation": "存在",
+              "translation": "是",
               "pos": "v."
             },
             "There is even enough to keep fans of more romantic entertainment happy too.": {
-              "translation": "存在",
+              "translation": "是",
+              "pos": "v."
+            },
+            "the author is a football fan in a foreign country.": {
+              "translation": "是",
+              "pos": "v."
+            },
+            "Cuju is the name of an ancient Chinese variation of football.": {
+              "translation": "是",
               "pos": "v."
             }
           }
@@ -121235,6 +121399,10 @@
             "Certainly after the opening scene, in which Cao Cao is seen watching a game of Cuju, an ancient Chinese variation of football, I knew who had my support.": {
               "translation": "比赛",
               "pos": "n."
+            },
+            "When he saw Cao Cao was watching a game of Cuju,": {
+              "translation": "比赛",
+              "pos": "n."
             }
           }
         },
@@ -121246,6 +121414,14 @@
           "meanings": "蹴鞠",
           "contexts": {
             "Certainly after the opening scene, in which Cao Cao is seen watching a game of Cuju, an ancient Chinese variation of football, I knew who had my support.": {
+              "translation": "蹴鞠",
+              "pos": "n."
+            },
+            "When he saw Cao Cao was watching a game of Cuju,": {
+              "translation": "蹴鞠",
+              "pos": "n."
+            },
+            "Cuju is the name of an ancient Chinese variation of football.": {
               "translation": "蹴鞠",
               "pos": "n."
             }
@@ -121261,6 +121437,10 @@
             "Certainly after the opening scene, in which Cao Cao is seen watching a game of Cuju, an ancient Chinese variation of football, I knew who had my support.": {
               "translation": "古代的",
               "pos": "adj."
+            },
+            "Cuju is the name of an ancient Chinese variation of football.": {
+              "translation": "古代的",
+              "pos": "adj."
             }
           }
         },
@@ -121274,6 +121454,10 @@
             "Certainly after the opening scene, in which Cao Cao is seen watching a game of Cuju, an ancient Chinese variation of football, I knew who had my support.": {
               "translation": "中国的",
               "pos": "adj."
+            },
+            "Cuju is the name of an ancient Chinese variation of football.": {
+              "translation": "中国的",
+              "pos": "adj."
             }
           }
         },
@@ -121285,6 +121469,10 @@
           "meanings": "变体；变化；差异；变种；变奏",
           "contexts": {
             "Certainly after the opening scene, in which Cao Cao is seen watching a game of Cuju, an ancient Chinese variation of football, I knew who had my support.": {
+              "translation": "变体",
+              "pos": "n."
+            },
+            "Cuju is the name of an ancient Chinese variation of football.": {
               "translation": "变体",
               "pos": "n."
             }
@@ -121302,6 +121490,14 @@
               "pos": "n."
             },
             "After all, any man who enjoys his football is someone after my own heart.": {
+              "translation": "足球",
+              "pos": "n."
+            },
+            "the author is a football fan in a foreign country.": {
+              "translation": "足球",
+              "pos": "n."
+            },
+            "Cuju is the name of an ancient Chinese variation of football.": {
               "translation": "足球",
               "pos": "n."
             }
@@ -121424,6 +121620,14 @@
             "But after Cao Cao resorted to some evil strategies against his enemies in the south, I wasn't so sure he was the man I should be rooting for.": {
               "translation": "他的",
               "pos": "pron."
+            },
+            "When did the author change his attitude toward Cao Cao?": {
+              "translation": "他的",
+              "pos": "pron."
+            },
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "他的",
+              "pos": "pron."
             }
           }
         },
@@ -121497,6 +121701,10 @@
             "The characters' interaction provides some genuinely heart-warming moments in the middle of the battle.": {
               "translation": "一些",
               "pos": "adj."
+            },
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "一些",
+              "pos": "adj."
             }
           }
         },
@@ -121549,6 +121757,10 @@
             "But after Cao Cao resorted to some evil strategies against his enemies in the south, I wasn't so sure he was the man I should be rooting for.": {
               "translation": "敌人",
               "pos": "n."
+            },
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "敌人",
+              "pos": "n."
             }
           }
         },
@@ -121599,6 +121811,22 @@
           "meanings": "他；（指代男性）；那个人",
           "contexts": {
             "But after Cao Cao resorted to some evil strategies against his enemies in the south, I wasn't so sure he was the man I should be rooting for.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "When he read the history story about Cao Cao.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "When he saw Cao Cao was watching a game of Cuju,": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "他",
+              "pos": "pron."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
               "translation": "他",
               "pos": "pron."
             }
@@ -121724,7 +121952,11 @@
           "meanings": "悬崖；峭壁；断崖",
           "contexts": {
             "And there is a lot more toRed Cliff 2than just extravagant battle scenes.": {
-              "translation": "《赤壁2》不仅仅有宏大的战争场面。",
+              "translation": "悬崖",
+              "pos": "n."
+            },
+            "the film \nRed Cliff 2lasts about two hours.": {
+              "translation": "悬崖",
               "pos": "n."
             }
           }
@@ -121776,11 +122008,15 @@
           "meanings": "战斗；交战；较量；争斗",
           "contexts": {
             "And there is a lot more toRed Cliff 2than just extravagant battle scenes.": {
-              "translation": "《赤壁2》不仅仅有宏大的战争场面。",
+              "translation": "战斗",
               "pos": "n."
             },
             "The characters' interaction provides some genuinely heart-warming moments in the middle of the battle.": {
-              "translation": "在战斗中间，角色们的互动提供了一些真正暖心的时刻。",
+              "translation": "战斗",
+              "pos": "n."
+            },
+            "the author was very tired after about two hours' battle.": {
+              "translation": "战斗",
               "pos": "n."
             }
           }
@@ -121856,13 +122092,17 @@
         },
         "conversations": {
           "lemma": "conversation",
-          "translation": "交谈",
+          "translation": "谈话",
           "pos": "n.",
           "forms": "conversations",
           "meanings": "交谈；谈话；会话；讨论",
           "contexts": {
             "Conversations between leaders are littered with one-liners, many of which had the audience in laughter.": {
-              "translation": "领导人之间的谈话充斥着俏皮话，其中许多引得观众哄堂大笑。",
+              "translation": "领导人之间的谈话",
+              "pos": "n."
+            },
+            "conversations": {
+              "translation": "谈话",
               "pos": "n."
             }
           }
@@ -121905,7 +122145,11 @@
           "meanings": "是；有；在；位于；成为",
           "contexts": {
             "Conversations between leaders are littered with one-liners, many of which had the audience in laughter.": {
-              "translation": "领导人之间的谈话充斥着俏皮话，其中许多引得观众哄堂大笑。",
+              "translation": "是",
+              "pos": "v."
+            },
+            "The following factors of the film are all mentioned in the passage except  _  .": {
+              "translation": "是",
               "pos": "v."
             }
           }
@@ -122037,6 +122281,10 @@
             "There is even enough to keep fans of more romantic entertainment happy too.": {
               "translation": "浪漫的",
               "pos": "adj."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
+              "translation": "浪漫的",
+              "pos": "adj."
             }
           }
         },
@@ -122128,6 +122376,10 @@
             "This includes a charming relationship between a southern spy and an innocent northern soldier.": {
               "translation": "南方的",
               "pos": "adj."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
+              "translation": "南方的",
+              "pos": "adj."
             }
           }
         },
@@ -122139,6 +122391,10 @@
           "meanings": "间谍；密探；暗中监视；察觉",
           "contexts": {
             "This includes a charming relationship between a southern spy and an innocent northern soldier.": {
+              "translation": "间谍",
+              "pos": "n."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
               "translation": "间谍",
               "pos": "n."
             }
@@ -122315,13 +122571,21 @@
         },
         "two": {
           "lemma": "two",
-          "translation": "二",
+          "translation": "两个",
           "pos": "num.",
           "forms": "无常见变形",
           "meanings": "二；两个；两个一组；二重奏",
           "contexts": {
             "Clocking in at around two hours, the film certainly does justice to the history story.": {
-              "translation": "二",
+              "translation": "两个小时",
+              "pos": "num."
+            },
+            "the film \nRed Cliff 2lasts about two hours.": {
+              "translation": "两个小时",
+              "pos": "num."
+            },
+            "the author was very tired after about two hours' battle.": {
+              "translation": "两个小时",
               "pos": "num."
             }
           }
@@ -122334,6 +122598,14 @@
           "meanings": "小时；时间；时刻",
           "contexts": {
             "Clocking in at around two hours, the film certainly does justice to the history story.": {
+              "translation": "小时",
+              "pos": "n."
+            },
+            "the film \nRed Cliff 2lasts about two hours.": {
+              "translation": "小时",
+              "pos": "n."
+            },
+            "the author was very tired after about two hours' battle.": {
               "translation": "小时",
               "pos": "n."
             }
@@ -122360,7 +122632,11 @@
           "meanings": "历史；历史学；来历；（某人的）经历",
           "contexts": {
             "Clocking in at around two hours, the film certainly does justice to the history story.": {
-              "translation": "历史",
+              "translation": "历史故事",
+              "pos": "n."
+            },
+            "When he read the history story about Cao Cao.": {
+              "translation": "历史故事",
               "pos": "n."
             }
           }
@@ -122375,6 +122651,14 @@
             "Clocking in at around two hours, the film certainly does justice to the history story.": {
               "translation": "故事",
               "pos": "n."
+            },
+            "When he read the history story about Cao Cao.": {
+              "translation": "故事",
+              "pos": "n."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
+              "translation": "爱情故事",
+              "pos": "n."
             }
           }
         },
@@ -122386,6 +122670,26 @@
           "meanings": "当……时；在……时候；既然；考虑到",
           "contexts": {
             "When I walked out the cinema, I felt as drained  as Cao Cao's soldiers must have 1,800 years ago.": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "When did the author change his attitude toward Cao Cao?": {
+              "translation": "何时",
+              "pos": "adv."
+            },
+            "When he read the history story about Cao Cao.": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "When he saw Cao Cao was watching a game of Cuju,": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "当……时",
+              "pos": "conj."
+            },
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
               "translation": "当……时",
               "pos": "conj."
             }
@@ -122492,6 +122796,472 @@
             "When I walked out the cinema, I felt as drained  as Cao Cao's soldiers must have 1,800 years ago.": {
               "translation": "以前",
               "pos": "adv."
+            }
+          }
+        },
+        "did": {
+          "lemma": "do",
+          "translation": "（过去式助动词，用于构成疑问句）",
+          "pos": "v.",
+          "forms": "does, did, done, doing",
+          "meanings": "做；进行；行动；强调谓语；（构成否定句的助动词）",
+          "contexts": {
+            "When did the author change his attitude toward Cao Cao?": {
+              "translation": "（过去式助动词，用于构成疑问句）",
+              "pos": "v."
+            }
+          }
+        },
+        "author": {
+          "lemma": "author",
+          "translation": "作者",
+          "pos": "n.",
+          "forms": "authors",
+          "meanings": "作者；创始人；发起人",
+          "contexts": {
+            "When did the author change his attitude toward Cao Cao?": {
+              "translation": "作者",
+              "pos": "n."
+            },
+            "the author is a football fan in a foreign country.": {
+              "translation": "作者",
+              "pos": "n."
+            },
+            "the author was very tired after about two hours' battle.": {
+              "translation": "作者",
+              "pos": "n."
+            }
+          }
+        },
+        "change": {
+          "lemma": "change",
+          "translation": "改变",
+          "pos": "v.",
+          "forms": "changes, changed, changing",
+          "meanings": "改变；更换；零钱；变化",
+          "contexts": {
+            "When did the author change his attitude toward Cao Cao?": {
+              "translation": "改变",
+              "pos": "v."
+            }
+          }
+        },
+        "attitude": {
+          "lemma": "attitude",
+          "translation": "态度",
+          "pos": "n.",
+          "forms": "attitudes",
+          "meanings": "态度；看法；姿态；风度",
+          "contexts": {
+            "When did the author change his attitude toward Cao Cao?": {
+              "translation": "态度",
+              "pos": "n."
+            }
+          }
+        },
+        "toward": {
+          "lemma": "toward",
+          "translation": "朝向",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "朝向；面向；对于；接近",
+          "contexts": {
+            "When did the author change his attitude toward Cao Cao?": {
+              "translation": "对于；对……的态度",
+              "pos": "prep."
+            }
+          }
+        },
+        "read": {
+          "lemma": "read",
+          "translation": "阅读",
+          "pos": "v.",
+          "forms": "read (past/participle), reading",
+          "meanings": "阅读；读到；读懂；显示；理解",
+          "contexts": {
+            "When he read the history story about Cao Cao.": {
+              "translation": "阅读",
+              "pos": "v."
+            }
+          }
+        },
+        "about": {
+          "lemma": "about",
+          "translation": "关于",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "关于；大约；在……周围；着手于；正要",
+          "contexts": {
+            "When he read the history story about Cao Cao.": {
+              "translation": "关于",
+              "pos": "prep."
+            },
+            "the film \nRed Cliff 2lasts about two hours.": {
+              "translation": "大约",
+              "pos": "prep."
+            },
+            "the author was very tired after about two hours' battle.": {
+              "translation": "大约",
+              "pos": "prep."
+            }
+          }
+        },
+        "realized": {
+          "lemma": "realize",
+          "translation": "意识到",
+          "pos": "v.",
+          "forms": "realizes, realized, realizing",
+          "meanings": "意识到；实现；了解；以……价格售出；认识到",
+          "contexts": {
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "意识到",
+              "pos": "v."
+            }
+          }
+        },
+        "that": {
+          "lemma": "that",
+          "translation": "引导从句",
+          "pos": "conj.",
+          "forms": "those",
+          "meanings": "引导从句；那个；那；如此；那么",
+          "contexts": {
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "引导从句",
+              "pos": "conj."
+            },
+            "From the passage we can infer that  _  .": {
+              "translation": "引导从句",
+              "pos": "conj."
+            }
+          }
+        },
+        "took": {
+          "lemma": "take",
+          "translation": "采取",
+          "pos": "v.",
+          "forms": "took, taken, taking",
+          "meanings": "承担；拿；取；花费；进行（活动）",
+          "contexts": {
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "采取；进行",
+              "pos": "v."
+            }
+          }
+        },
+        "bad": {
+          "lemma": "bad",
+          "translation": "糟糕的",
+          "pos": "adj.",
+          "forms": "worse, worst",
+          "meanings": "坏的；糟糕的；严重的；有害的",
+          "contexts": {
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "糟糕的",
+              "pos": "adj."
+            }
+          }
+        },
+        "measures": {
+          "lemma": "measure",
+          "translation": "措施",
+          "pos": "n.",
+          "forms": "measures",
+          "meanings": "措施；测量；程度；尺寸；判定",
+          "contexts": {
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "措施",
+              "pos": "n."
+            }
+          }
+        },
+        "beat": {
+          "lemma": "beat",
+          "translation": "打败",
+          "pos": "v.",
+          "forms": "beat, beaten/beat, beating",
+          "meanings": "跳动；敲打；打败；节奏；拍子",
+          "contexts": {
+            "When he realized that Cao Cao took some bad measures to beat his enemies.": {
+              "translation": "打败",
+              "pos": "v."
+            }
+          }
+        },
+        "love": {
+          "lemma": "love",
+          "translation": "爱情",
+          "pos": "n.",
+          "forms": "loves, loved, loving",
+          "meanings": "爱；热爱；喜欢；极其喜爱；爱情",
+          "contexts": {
+            "When he saw the romantic love story of Cao Cao and a southern spy.": {
+              "translation": "爱情",
+              "pos": "n."
+            }
+          }
+        },
+        "following": {
+          "lemma": "follow",
+          "translation": "接下来的",
+          "pos": "adj.",
+          "forms": "followed, following",
+          "meanings": "接下来的；跟随；遵循；听懂；下列的",
+          "contexts": {
+            "The following factors of the film are all mentioned in the passage except  _  .": {
+              "translation": "接下来的",
+              "pos": "adj."
+            }
+          }
+        },
+        "factors": {
+          "lemma": "factor",
+          "translation": "因素",
+          "pos": "n.",
+          "forms": "factors",
+          "meanings": "因素；要素；比例；因子；方面",
+          "contexts": {
+            "The following factors of the film are all mentioned in the passage except  _  .": {
+              "translation": "因素",
+              "pos": "n."
+            }
+          }
+        },
+        "mentioned": {
+          "lemma": "mention",
+          "translation": "提到",
+          "pos": "v.",
+          "forms": "mentions, mentioning, mentioned",
+          "meanings": "提到；提及；说起；写到；谈及",
+          "contexts": {
+            "The following factors of the film are all mentioned in the passage except  _  .": {
+              "translation": "提到",
+              "pos": "v."
+            }
+          }
+        },
+        "passage": {
+          "lemma": "passage",
+          "translation": "文章",
+          "pos": "n.",
+          "forms": "passages",
+          "meanings": "文章；段落；通道；走廊；通行权",
+          "contexts": {
+            "The following factors of the film are all mentioned in the passage except  _  .": {
+              "translation": "文章",
+              "pos": "n."
+            },
+            "From the passage we can infer that  _  .": {
+              "translation": "文章",
+              "pos": "n."
+            }
+          }
+        },
+        "except": {
+          "lemma": "except",
+          "translation": "除……之外",
+          "pos": "prep.",
+          "forms": "无常见变形",
+          "meanings": "除……之外；要不是；把……除外；除……之外（还）",
+          "contexts": {
+            "The following factors of the film are all mentioned in the passage except  _  .": {
+              "translation": "除……之外",
+              "pos": "prep."
+            }
+          }
+        },
+        "high": {
+          "lemma": "high",
+          "translation": "高的",
+          "pos": "adj.",
+          "forms": "higher, highest",
+          "meanings": "高的；高中的；高级的；强烈的；昂贵的",
+          "contexts": {
+            "high budget": {
+              "translation": "高的",
+              "pos": "adj."
+            }
+          }
+        },
+        "leading": {
+          "lemma": "leading",
+          "translation": "主要的；领先的",
+          "pos": "adj.",
+          "forms": "lead, leads, led, leading",
+          "meanings": "主要的；领先的；最初的；指导性的；导电的",
+          "contexts": {
+            "leading roles": {
+              "translation": "主要的",
+              "pos": "adj."
+            }
+          }
+        },
+        "roles": {
+          "lemma": "role",
+          "translation": "角色",
+          "pos": "n.",
+          "forms": "roles",
+          "meanings": "角色；作用；职责；部分；地位",
+          "contexts": {
+            "leading roles": {
+              "translation": "角色",
+              "pos": "n."
+            }
+          }
+        },
+        "actors": {
+          "lemma": "actor",
+          "translation": "演员",
+          "pos": "n.",
+          "forms": "actors",
+          "meanings": "演员；男演员；行动者；参与者",
+          "contexts": {
+            "actors and actress": {
+              "translation": "演员",
+              "pos": "n."
+            }
+          }
+        },
+        "actress": {
+          "lemma": "actress",
+          "translation": "女演员",
+          "pos": "n.",
+          "forms": "actresses",
+          "meanings": "女演员",
+          "contexts": {
+            "actors and actress": {
+              "translation": "女演员",
+              "pos": "n."
+            }
+          }
+        },
+        "we": {
+          "lemma": "we",
+          "translation": "我们",
+          "pos": "pron.",
+          "forms": "us, our, ours",
+          "meanings": "我们；大家；咱们",
+          "contexts": {
+            "From the passage we can infer that  _  .": {
+              "translation": "我们",
+              "pos": "pron."
+            }
+          }
+        },
+        "can": {
+          "lemma": "can",
+          "translation": "能够",
+          "pos": "modal verb",
+          "forms": "could",
+          "meanings": "能够；可以；可能；罐头",
+          "contexts": {
+            "From the passage we can infer that  _  .": {
+              "translation": "能够",
+              "pos": "modal verb"
+            }
+          }
+        },
+        "infer": {
+          "lemma": "infer",
+          "translation": "推断",
+          "pos": "v.",
+          "forms": "infers, inferred, inferring",
+          "meanings": "推断；推论；暗示；推导；表明",
+          "contexts": {
+            "From the passage we can infer that  _  .": {
+              "translation": "推断",
+              "pos": "v."
+            }
+          }
+        },
+        "fan": {
+          "lemma": "fan",
+          "translation": "迷；爱好者",
+          "pos": "n.",
+          "forms": "fans",
+          "meanings": "迷；爱好者；扇子；粉丝；风扇",
+          "contexts": {
+            "the author is a football fan in a foreign country.": {
+              "translation": "迷；爱好者",
+              "pos": "n."
+            }
+          }
+        },
+        "foreign": {
+          "lemma": "foreign",
+          "translation": "外国的",
+          "pos": "adj.",
+          "forms": "无常见变形",
+          "meanings": "外国的；外来的；不熟悉的；涉外的",
+          "contexts": {
+            "the author is a football fan in a foreign country.": {
+              "translation": "外国的",
+              "pos": "adj."
+            }
+          }
+        },
+        "country": {
+          "lemma": "country",
+          "translation": "国家",
+          "pos": "n.",
+          "forms": "countries",
+          "meanings": "国家；国土；农村；乡下",
+          "contexts": {
+            "the author is a football fan in a foreign country.": {
+              "translation": "国家",
+              "pos": "n."
+            }
+          }
+        },
+        "name": {
+          "lemma": "name",
+          "translation": "名字",
+          "pos": "n.",
+          "forms": "naming, named, names",
+          "meanings": "名字；给……命名；说出……的名字；提名",
+          "contexts": {
+            "Cuju is the name of an ancient Chinese variation of football.": {
+              "translation": "名字",
+              "pos": "n."
+            }
+          }
+        },
+        "lasts": {
+          "lemma": "last",
+          "translation": "持续",
+          "pos": "v.",
+          "forms": "lasting, lasted, lasts",
+          "meanings": "持续；持久；最后；继续",
+          "contexts": {
+            "the film \nRed Cliff 2lasts about two hours.": {
+              "translation": "持续",
+              "pos": "v."
+            }
+          }
+        },
+        "very": {
+          "lemma": "very",
+          "translation": "非常",
+          "pos": "adv.",
+          "forms": "无常见变形",
+          "meanings": "非常；很；极；正是",
+          "contexts": {
+            "the author was very tired after about two hours' battle.": {
+              "translation": "非常",
+              "pos": "adv."
+            }
+          }
+        },
+        "tired": {
+          "lemma": "tired",
+          "translation": "疲倦的",
+          "pos": "adj.",
+          "forms": "tiredly, tiredness",
+          "meanings": "疲倦的；累的；厌倦的；厌烦的",
+          "contexts": {
+            "the author was very tired after about two hours' battle.": {
+              "translation": "疲倦的",
+              "pos": "adj."
             }
           }
         }

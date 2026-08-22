@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T13:07:48.700Z",
+      "generatedAt": "2026-08-22T13:09:07.870Z",
       "requestedArticles": 40,
-      "acceptedArticles": 31,
+      "acceptedArticles": 32,
       "completed": false,
       "usage": {
-        "requests": 255,
-        "inputTokens": 518058,
-        "outputTokens": 299079,
-        "totalTokens": 817137,
+        "requests": 273,
+        "inputTokens": 555291,
+        "outputTokens": 319187,
+        "totalTokens": 874478,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.05637668,
+        "estimatedCostCny": 0.06023433,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 255,
-            "inputTokens": 518058,
-            "outputTokens": 299079,
-            "totalTokens": 817137,
+            "requests": 273,
+            "inputTokens": 555291,
+            "outputTokens": 319187,
+            "totalTokens": 874478,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.05637668
+            "estimatedCostCny": 0.06023433
           }
         }
       },
@@ -2593,6 +2593,25 @@
               "estimatedCostCny": 0.00135719
             }
           }
+        },
+        {
+          "articleId": "web-b9d326f381c855fe",
+          "title": "RACE 高中英语阅读 high11558",
+          "requests": 8,
+          "inputTokens": 15929,
+          "outputTokens": 8641,
+          "totalTokens": 24570,
+          "estimatedCostCny": 0.00165575,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 8,
+              "inputTokens": 15929,
+              "outputTokens": 8641,
+              "totalTokens": 24570,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00165575
+            }
+          }
         }
       ],
       "failures": [
@@ -2603,6 +2622,10 @@
         {
           "articleId": "web-2003500b566de45c",
           "error": "glossary repair left 3 word(s): her, to, treat"
+        },
+        {
+          "articleId": "web-c5114d8c96e4f03b",
+          "error": "glossary repair left 1 word(s): spend"
         }
       ]
     }
