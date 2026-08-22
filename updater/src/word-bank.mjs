@@ -10,7 +10,7 @@ const GLOSSARY_BATCH_SIZE = Math.max(
 );
 
 const WORD_PATTERN = /[A-Za-z]+(?:['’][A-Za-z]+)*/g;
-const PLACEHOLDER_PATTERN = /(待.{0,8}(补充|处理)|未知|暂无|处理中|todo|unknown|pending)/i;
+const PLACEHOLDER_PATTERN = /(待.{0,8}(补充|处理)|未知|暂无|处理中|\b(?:todo|unknown|pending)\b)/i;
 
 export async function loadWordBank(filePath) {
   try {
@@ -47,7 +47,7 @@ export async function repairArticleGlossary(article, minimax, wordBank) {
           return {
             word,
             contexts: sentences.map((sentence, index) => ({ id: `s${index}`, sentence })),
-            known: reusableWordData(article.glossary[word])
+            known: reusableWordData(findRelatedGlossaryEntry(article.glossary, word))
               || reusableWordData(wordBank.words[word])
           };
         });
@@ -83,10 +83,35 @@ Return a contexts item for every supplied context id. Determine each meaning fro
     }
   }
 
-  const unresolved = findIncompleteWords(article);
+  let unresolved = findIncompleteWords(article);
+  for (const word of unresolved) {
+    const related = normalizeGlossaryEntry(
+      findRelatedGlossaryEntry(article.glossary, word)
+    );
+    if (!related || normalizeWord(related.lemma) !== word) continue;
+    const contexts = {};
+    for (const sentence of findArticleWordContexts(article, word)) {
+      contexts[sentence] = {
+        translation: related.translation,
+        pos: related.pos
+      };
+    }
+    article.glossary[word] = { ...related, contexts };
+  }
+  unresolved = findIncompleteWords(article);
   if (unresolved.length) {
     throw new Error(`glossary repair left ${unresolved.length} word(s): ${unresolved.slice(0, 12).join(", ")}`);
   }
+}
+
+function findRelatedGlossaryEntry(glossary, word) {
+  if (!isPlainObject(glossary)) return null;
+  if (isPlainObject(glossary[word])) return glossary[word];
+  for (const entry of Object.values(glossary)) {
+    if (isPlainObject(entry)
+        && normalizeWord(String(entry.lemma || "")) === word) return entry;
+  }
+  return null;
 }
 
 export function mergeArticleIntoWordBank(article, wordBank) {

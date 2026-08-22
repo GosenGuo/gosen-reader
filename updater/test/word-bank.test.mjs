@@ -4,6 +4,7 @@ import {
   findIncompleteWords,
   findArticleWordContexts,
   findWordSentences,
+  isCompleteGlossaryEntry,
   mergeArticleIntoWordBank,
   repairArticleGlossary,
   validateWordBank
@@ -21,7 +22,8 @@ test("repairs every sentence context and updates the reusable word bank once", a
     "The experience showed that clear evidence can improve an explanation.",
     "It also showed why students should check an answer before sharing it.",
     "Their teacher then asked the group to describe what they had learned.",
-    "Each student used a complete sentence and supported it with details."
+    "Each student used a complete sentence and supported it with details.",
+    "They were spending enough time on careful practice."
   ];
   const article = {
     id: "web-test",
@@ -37,12 +39,25 @@ test("repairs every sentence context and updates the reusable word bank once", a
         pos: "",
         forms: "",
         meanings: ""
+      },
+      spending: {
+        lemma: "spend",
+        translation: "花费",
+        pos: "v.",
+        forms: "spends；spent；spending",
+        meanings: "花费；度过；用尽",
+        contexts: {
+          "They were spending enough time on careful practice.": {
+            translation: "花费",
+            pos: "v."
+          }
+        }
       }
     },
     questions: [
       {
         prompt: "What helped the students?",
-        options: ["A figure", "A song", "A game", "A trip"],
+        options: ["A figure", "They spend time", "A game", "A trip"],
         answer: 0,
         explanation: "首句提供了答案。"
       },
@@ -62,7 +77,8 @@ test("repairs every sentence context and updates the reusable word bank once", a
   const minimax = {
     async json(_system, user) {
       const request = JSON.parse(user);
-      return Object.fromEntries(request.words.map(({ word, contexts }) => {
+      return Object.fromEntries(request.words.flatMap(({ word, contexts }) => {
+        if (word === "spend") return [];
         const returnedContexts = Object.fromEntries(contexts.map(({ id, sentence }) => [
           id,
           {
@@ -74,19 +90,24 @@ test("repairs every sentence context and updates the reusable word bank once", a
               : "词性"
           }
         ]));
-        return [word, {
-          lemma: word,
+        return [[word, {
+          lemma: word === "spending" ? "spend" : word,
           translation: returnedContexts.s0.translation,
           pos: returnedContexts.s0.pos,
           forms: "无常见变形",
           meanings: "含义一；含义二；含义三",
           contexts: returnedContexts
-        }];
+        }]];
       }));
     }
   };
 
   assert.ok(findIncompleteWords(article).includes("figure"));
+  assert.deepEqual(findArticleWordContexts(article, "spending"), [sentences[10]]);
+  assert.equal(isCompleteGlossaryEntry(
+    article.glossary.spending,
+    findArticleWordContexts(article, "spending")
+  ), true);
   await repairArticleGlossary(article, minimax, wordBank);
   assert.deepEqual(findIncompleteWords(article), []);
   assert.deepEqual(findWordSentences(article.body, "figure"), sentences.slice(0, 2));
@@ -94,6 +115,8 @@ test("repairs every sentence context and updates the reusable word bank once", a
   assert.equal(article.glossary.figure.contexts[sentences[1]].translation, "认为");
   assert.equal(article.glossary.figure.contexts["A figure"].translation, "数字");
   assert.ok(findArticleWordContexts(article, "figure").includes("A figure"));
+  assert.equal(article.glossary.spend.lemma, "spend");
+  assert.equal(article.glossary.spend.contexts["They spend time"].pos, "v.");
   assert.deepEqual(validateArticle(article), []);
 
   mergeArticleIntoWordBank(article, wordBank);
