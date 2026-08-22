@@ -1980,27 +1980,27 @@
       "runId": "32573873852-quality",
       "kind": "quality-backfill",
       "startedAt": "2026-08-22T12:46:06.167Z",
-      "generatedAt": "2026-08-22T12:48:57.019Z",
+      "generatedAt": "2026-08-22T12:49:25.765Z",
       "requestedArticles": 40,
-      "acceptedArticles": 5,
+      "acceptedArticles": 6,
       "completed": false,
       "usage": {
-        "requests": 35,
-        "inputTokens": 73539,
-        "outputTokens": 42153,
-        "totalTokens": 115692,
+        "requests": 41,
+        "inputTokens": 87063,
+        "outputTokens": 48765,
+        "totalTokens": 135828,
         "estimatedCostUsd": null,
-        "estimatedCostCny": 0.00796051,
+        "estimatedCostCny": 0.00926486,
         "reportedCosts": {},
         "pricingComplete": true,
         "models": {
           "claude-haiku-4-5-20251001": {
-            "requests": 35,
-            "inputTokens": 73539,
-            "outputTokens": 42153,
-            "totalTokens": 115692,
+            "requests": 41,
+            "inputTokens": 87063,
+            "outputTokens": 48765,
+            "totalTokens": 135828,
             "estimatedCostUsd": null,
-            "estimatedCostCny": 0.00796051
+            "estimatedCostCny": 0.00926486
           }
         }
       },
@@ -2097,6 +2097,25 @@
               "totalTokens": 22963,
               "estimatedCostUsd": null,
               "estimatedCostCny": 0.00167348
+            }
+          }
+        },
+        {
+          "articleId": "web-91480225d160a6b6",
+          "title": "RACE 高中英语阅读 high1705",
+          "requests": 6,
+          "inputTokens": 13524,
+          "outputTokens": 6612,
+          "totalTokens": 20136,
+          "estimatedCostCny": 0.00130435,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 6,
+              "inputTokens": 13524,
+              "outputTokens": 6612,
+              "totalTokens": 20136,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00130435
             }
           }
         }
