@@ -1109,9 +1109,9 @@ public class MainActivity extends Activity {
         TextView body = label("", 19, INK, false);
         body.setTag("readingBody");
         body.setLineSpacing(dp(4), 1.12f);
-        body.setJustificationMode(android.text.Layout.JUSTIFICATION_MODE_INTER_WORD);
-        body.setBreakStrategy(android.text.Layout.BREAK_STRATEGY_HIGH_QUALITY);
-        body.setHyphenationFrequency(android.text.Layout.HYPHENATION_FREQUENCY_NORMAL);
+        body.setJustificationMode(android.text.Layout.JUSTIFICATION_MODE_NONE);
+        body.setBreakStrategy(android.text.Layout.BREAK_STRATEGY_SIMPLE);
+        body.setHyphenationFrequency(android.text.Layout.HYPHENATION_FREQUENCY_NONE);
         body.setTextLocale(Locale.US);
         body.setTextDirection(View.TEXT_DIRECTION_LTR);
         body.setTextIsSelectable(false);
@@ -1998,6 +1998,12 @@ public class MainActivity extends Activity {
 
     private TextView label(String value, int size, int color, boolean bold) {
         TextView view = new TextView(this) {
+            @Override protected void onSizeChanged(int width, int height, int oldWidth, int oldHeight) {
+                super.onSizeChanged(width, height, oldWidth, oldHeight);
+                if (width != oldWidth && "readingBody".equals(getTag())) {
+                    JustifiedWordSpacing.apply(this, width);
+                }
+            }
             @Override protected void onDraw(Canvas canvas) {
                 super.onDraw(canvas);
                 drawLookupMarks(this, canvas);

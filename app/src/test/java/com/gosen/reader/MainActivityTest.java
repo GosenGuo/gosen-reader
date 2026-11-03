@@ -152,7 +152,7 @@ public class MainActivityTest {
         a.put("body", source);
         page("showReader", a);
         android.widget.TextView body = activity.findViewById(android.R.id.content).findViewWithTag("readingBody");
-        assertEquals(android.text.Layout.JUSTIFICATION_MODE_INTER_WORD, body.getJustificationMode());
+        assertEquals(android.text.Layout.JUSTIFICATION_MODE_NONE, body.getJustificationMode());
         assertEquals(source, body.getText().toString());
         android.text.Spanned text = (android.text.Spanned) body.getText();
         assertEquals(2, text.getSpans(0, text.length(), MainActivity.CollapsedIndentSpan.class).length);
