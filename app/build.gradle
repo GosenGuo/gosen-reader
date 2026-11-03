@@ -12,10 +12,14 @@ android {
         targetSdk 35
         versionCode Integer.parseInt(project.findProperty("VERSION_CODE") ?: "2")
         versionName project.findProperty("VERSION_NAME") ?: "0.1.1"
+        if (project.hasProperty("PREVIEW")) applicationIdSuffix ".preview"
+        manifestPlaceholders = [appLabel: project.hasProperty("PREVIEW")
+                ? "每日英语阅读·试用" : "每日英语阅读"]
 
         def feedUrl = project.findProperty("CONTENT_FEED_URL") ?: ""
-        def updateManifestUrl = project.findProperty("UPDATE_MANIFEST_URL")
-                ?: "https://gosenguo.github.io/gosen-reader/app-update.json"
+        def updateManifestUrl = project.hasProperty("PREVIEW") ? "" :
+                (project.findProperty("UPDATE_MANIFEST_URL")
+                ?: "https://gosenguo.github.io/gosen-reader/app-update.json")
         def contentRefillUrl = project.findProperty("CONTENT_REFILL_URL") ?: ""
         def contentRefillToken = project.findProperty("CONTENT_REFILL_TOKEN") ?: ""
         buildConfigField "String", "CONTENT_FEED_URL", "\"${feedUrl}\""
@@ -26,6 +30,14 @@ android {
 
     buildFeatures {
         buildConfig true
+    }
+
+    testOptions {
+        unitTests.includeAndroidResources = true
+    }
+
+    if (project.hasProperty("PREVIEW")) {
+        sourceSets.main.assets.srcDirs = [layout.buildDirectory.dir("preview-assets")]
     }
 
     signingConfigs {
@@ -56,4 +68,17 @@ android {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.14.1'
+}
+
+if (project.hasProperty("PREVIEW")) {
+    tasks.register("preparePreviewAssets", Copy) {
+        from(rootProject.file("docs/articles.json"))
+        into(layout.buildDirectory.dir("preview-assets"))
+    }
+    tasks.named("preBuild").configure { dependsOn("preparePreviewAssets") }
 }

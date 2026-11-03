@@ -1,3 +1,5 @@
+import { exactSentences, groundEvidenceSentence, isEvidenceQuote, isUsefulExplanation } from "./evidence-quality.mjs";
+
 const QUESTION_TYPES = new Set([
   "细节理解", "推理判断", "主旨大意", "词义猜测", "作者态度", "篇章结构"
 ]);
@@ -7,7 +9,7 @@ export async function reviewQuestions(ai, article) {
     `Review existing high-school English multiple-choice reading questions for a Chinese high-school student.
 Return exactly one JSON object:
 {"questionReviews":[{"type":"细节理解","explanation":"brief Chinese explanation grounded in the passage","evidenceSentence":"one exact complete sentence copied verbatim from the passage","optionExplanations":["why option A is correct or wrong in Chinese","why option B is correct or wrong in Chinese","why option C is correct or wrong in Chinese","why option D is correct or wrong in Chinese"],"optionErrorTypes":["正确","偷换概念","推理过度","忽略否定或范围"]}]}
-Return one review for every question, in order, and one explanation and error type for every option. Type must be one of: 细节理解, 推理判断, 主旨大意, 词义猜测, 作者态度, 篇章结构. Error type must be one of: 正确, 没有定位证据句, 推理过度, 偷换概念, 忽略否定或范围, 把局部信息当成主旨, 单词或语境理解错误. Mark the correct option's error type as "正确". Evidence sentences must be exact verbatim sentences from the passage. Do not rewrite questions or return markdown or commentary.`,
+Return one review for every question, in order, and one explanation and error type for every option. Type must be one of: 细节理解, 推理判断, 主旨大意, 词义猜测, 作者态度, 篇章结构. Error type must be one of: 正确, 没有定位证据句, 推理过度, 偷换概念, 忽略否定或范围, 把局部信息当成主旨, 单词或语境理解错误. Mark the correct option's error type as "正确". Evidence must be an exact passage quote that supports the answer; use multiple consecutive sentences when the reasoning needs them. Include enough surrounding context for short dialogue. Never substitute a greeting, a fragment or a generic explanation for actual evidence. Do not rewrite questions or return markdown or commentary.`,
     JSON.stringify({
       body: article.body,
       questions: article.questions.map(question => ({
@@ -31,19 +33,6 @@ export function applyQuestionReviews(article, result) {
       review.optionErrorTypes || question.optionErrorTypes,
       question.options.length
     );
-    while (optionExplanations.length < question.options.length) {
-      const optionIndex = optionExplanations.length;
-      optionExplanations.push(optionIndex === question.answer
-        ? "该选项与原文证据及题目给定答案一致。"
-        : "该选项不能由原文证据支持。");
-    }
-    while (optionErrorTypes.length < question.options.length) {
-      optionErrorTypes.push("没有定位证据句");
-    }
-    for (let optionIndex = 0; optionIndex < optionErrorTypes.length; optionIndex += 1) {
-      if (optionIndex === question.answer) optionErrorTypes[optionIndex] = "正确";
-      else if (optionErrorTypes[optionIndex] === "正确") optionErrorTypes[optionIndex] = "偷换概念";
-    }
     return {
       ...question,
       type: QUESTION_TYPES.has(String(review.type || question.type || "").trim())
@@ -109,11 +98,10 @@ export function hasCompleteQuestionLearningMetadata(article) {
       const explanations = question.optionExplanations;
       const errorTypes = question.optionErrorTypes;
       return QUESTION_TYPES.has(question.type)
-        && Boolean(question.evidenceSentence)
-        && String(article.body || "").includes(question.evidenceSentence)
+        && isEvidenceQuote(article.body, question.evidenceSentence)
         && Array.isArray(explanations)
         && explanations.length === question.options.length
-        && explanations.every(Boolean)
+        && explanations.every(isUsefulExplanation)
         && Array.isArray(errorTypes)
         && errorTypes.length === question.options.length
         && errorTypes.every(Boolean)
@@ -135,64 +123,6 @@ function inferQuestionType(prompt) {
   if (/infer|imply|suggest|probably|why/.test(value)) return "推理判断";
   return "细节理解";
 }
-
-function groundEvidenceSentence(body, proposed, question) {
-  const text = String(body || "");
-  if (proposed && text.includes(proposed)) return proposed;
-  const sentences = exactSentences(text);
-  if (!sentences.length) return "";
-  const normalizedProposed = normalizeText(proposed);
-  if (normalizedProposed) {
-    const exactNormalized = sentences.find(sentence =>
-      normalizeText(sentence) === normalizedProposed
-    );
-    if (exactNormalized) return exactNormalized;
-    const closest = bestSentence(sentences, proposed);
-    if (closest.score >= 0.45) return closest.sentence;
-  }
-  const answer = Array.isArray(question?.options)
-    ? question.options[question.answer] || ""
-    : "";
-  return bestSentence(sentences, `${question?.prompt || ""} ${answer}`).sentence;
-}
-
-function exactSentences(body) {
-  return (String(body || "").match(/[^.!?\n]+[.!?]+["']?|[^.!?\n]+$/g) || [])
-    .map(value => value.trim())
-    .filter(value => value && String(body).includes(value));
-}
-
-function bestSentence(sentences, query) {
-  const queryWords = significantWords(query);
-  let best = { sentence: sentences[0] || "", score: 0 };
-  for (const sentence of sentences) {
-    const sentenceWords = significantWords(sentence);
-    if (!sentenceWords.size || !queryWords.size) continue;
-    let overlap = 0;
-    for (const word of queryWords) if (sentenceWords.has(word)) overlap += 1;
-    const coverage = overlap / queryWords.size;
-    const precision = overlap / sentenceWords.size;
-    const score = coverage * 0.75 + precision * 0.25;
-    if (score > best.score) best = { sentence, score };
-  }
-  return best;
-}
-
-function significantWords(value) {
-  const stop = new Set([
-    "the", "a", "an", "and", "or", "of", "to", "in", "on", "at", "for",
-    "with", "is", "are", "was", "were", "be", "been", "what", "which", "why",
-    "how", "passage", "following", "according", "does", "did", "do", "can", "could"
-  ]);
-  return new Set((String(value || "").toLowerCase().match(/[a-z]+(?:'[a-z]+)*/g) || [])
-    .filter(word => word.length > 2 && !stop.has(word)));
-}
-
-const normalizeText = value => String(value || "").toLowerCase()
-  .replace(/[“”‘’]/g, "'")
-  .replace(/\s+/g, " ")
-  .replace(/\s+([,.!?;:])/g, "$1")
-  .trim();
 
 function deriveKnownPhrases(body) {
   const known = [

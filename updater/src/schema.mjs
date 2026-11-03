@@ -1,3 +1,4 @@
+import { isEvidenceQuote, isUsefulExplanation } from "./evidence-quality.mjs";
 import crypto from "node:crypto";
 import {
   extractArticleWords,
@@ -94,11 +95,11 @@ export function validateArticle(article, options = {}) {
     );
     if (options.requireLearningMetadata || hasLearningMetadata) {
       if (!question.type) errors.push(`question ${index + 1} has no type`);
-      if (!question.evidenceSentence || !article.body.includes(question.evidenceSentence)) {
+      if (!isEvidenceQuote(article.body, question.evidenceSentence)) {
         errors.push(`question ${index + 1} evidence is not an exact passage sentence`);
       }
       if (optionExplanations.length !== 4
-          || optionExplanations.some(value => !value)) {
+          || optionExplanations.some(value => !isUsefulExplanation(value))) {
         errors.push(`question ${index + 1} option explanations are incomplete`);
       }
       if (optionErrorTypes.length !== 4

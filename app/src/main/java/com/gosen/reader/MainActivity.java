@@ -11,6 +11,9 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.SystemClock;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -64,9 +67,10 @@ public class MainActivity extends Activity {
     private AppUpdateManager updateManager;
     private ContentRefillManager refillManager;
     private LearningStore learningStore;
-    private long readingStartedAt;
-    private long activeReadingSeconds;
-    private int activeArticleClicks;
+    private ReadingSession session;
+    private boolean foreground;
+    private boolean onReadingFlow;
+    private boolean showingPassage;
     private boolean activeAssessment;
     private boolean darkMode;
     private int GREEN;
@@ -107,8 +111,18 @@ public class MainActivity extends Activity {
         repository = new ContentRepository(this);
         refillManager = new ContentRefillManager(this);
         learningStore = new LearningStore(prefs);
+        migrateArticleTotals();
         buildShell();
+        String resumeId = prefs.getString("resumeArticleId", "");
         showHome();
+        JSONObject unfinished = repository.getById(resumeId);
+        if (unfinished != null) {
+            openSession(unfinished);
+            String page = session.page;
+            if ("quiz".equals(page)) showQuiz(unfinished);
+            else if ("recall".equals(page)) showRecall(unfinished);
+            else showReader(unfinished);
+        }
         repository.checkForUpdates((success, changed) -> {
             if (changed && onHomeScreen) showHome();
             maybeRequestContentRefill();
@@ -144,9 +158,79 @@ public class MainActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
+        foreground = true;
+        if (showingPassage && session != null) session.resume(SystemClock.elapsedRealtime());
         if (updateManager != null) {
             updateManager.resumePendingInstall();
         }
+    }
+
+    @Override
+    protected void onPause() {
+        foreground = false;
+        if (session != null) session.pause(SystemClock.elapsedRealtime());
+        saveSession();
+        super.onPause();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle state) {
+        saveSession();
+        super.onSaveInstanceState(state);
+    }
+
+    private void openSession(JSONObject article) {
+        if (session == null || !session.articleId.equals(article.optString("id"))) {
+            if (session != null) session.pause(SystemClock.elapsedRealtime());
+            saveSession();
+            session = ReadingSession.restore(article.optString("id"),
+                    article.optJSONArray("questions").length(),
+                    prefs.getString("session:" + article.optString("id"), "{}"));
+        }
+        activeArticle = article;
+        activeAssessment = isCurrentAssessmentArticle(article);
+    }
+
+    private void enterReadingPage(JSONObject article, String page) {
+        openSession(article);
+        session.pause(SystemClock.elapsedRealtime());
+        session.page = page;
+        onReadingFlow = true;
+        showingPassage = "reader".equals(page);
+        if (foreground && showingPassage) session.resume(SystemClock.elapsedRealtime());
+        saveSession();
+    }
+
+    private void saveSession() {
+        if (session == null) return;
+        try {
+            SharedPreferences.Editor editor = prefs.edit().putString("session:" + session.articleId,
+                    session.snapshot(SystemClock.elapsedRealtime()).toString());
+            if (onReadingFlow) editor.putString("resumeArticleId", session.articleId);
+            editor.commit();
+        } catch (Exception ignored) { }
+    }
+
+    private long readingSeconds() {
+        return session == null ? 1 : session.seconds(SystemClock.elapsedRealtime());
+    }
+
+    private int readingClicks() { return session == null ? 0 : session.clicks; }
+
+    private void migrateArticleTotals() {
+        if (prefs.getBoolean("articleTotalsV2", false)) return;
+        Set<String> ids = prefs.getStringSet("completedIds", new HashSet<>());
+        int words = 0;
+        boolean allPresent = true;
+        for (String id : ids) {
+            JSONObject article = repository.getById(id);
+            if (article == null) allPresent = false;
+            else words += article.optInt("wordCount");
+        }
+        SharedPreferences.Editor editor = prefs.edit()
+                .putInt("totalArticles", ids.size()).putBoolean("articleTotalsV2", true);
+        editor.putInt("totalWords", allPresent ? words : Math.max(words, prefs.getInt("totalWords", 0)));
+        editor.apply();
     }
 
     @Override
@@ -242,6 +326,13 @@ public class MainActivity extends Activity {
     }
 
     private void setScreen(View view, boolean showNav) {
+        if (showNav) {
+            if (session != null) session.pause(SystemClock.elapsedRealtime());
+            saveSession();
+            showingPassage = false;
+            onReadingFlow = false;
+            prefs.edit().remove("resumeArticleId").apply();
+        }
         content.removeAllViews();
         content.addView(view, new FrameLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
@@ -736,7 +827,7 @@ public class MainActivity extends Activity {
         LinearLayout page = page();
         scroll.addView(page);
         page.addView(label("阅读统计", 28, INK, true));
-        page.addView(label("数据只保存在这台手机上。", 14, MUTED, false));
+        page.addView(label("数据只保存在这台手机上。累计篇数按不同文章计，正确率按首次作答计。", 14, MUTED, false));
         page.addView(space(20));
 
         LinearLayout grid = new LinearLayout(this);
@@ -873,11 +964,7 @@ public class MainActivity extends Activity {
 
     private void showReader(JSONObject article) {
         onHomeScreen = false;
-        activeArticle = article;
-        activeAssessment = isCurrentAssessmentArticle(article);
-        readingStartedAt = System.currentTimeMillis();
-        activeReadingSeconds = 0L;
-        activeArticleClicks = 0;
+        enterReadingPage(article, "reader");
         ScrollView scroll = screenScroll();
         LinearLayout page = page();
         scroll.addView(page);
@@ -902,6 +989,11 @@ public class MainActivity extends Activity {
         body.setHighlightColor(Color.TRANSPARENT);
         body.setMovementMethod(LinkMovementMethod.getInstance());
         body.setText(makeClickableArticle(article));
+        int savedScroll = session.readerScroll;
+        scroll.setOnScrollChangeListener((v, x, y, oldX, oldY) -> {
+            if (session != null) session.readerScroll = y;
+        });
+        scroll.post(() -> scroll.scrollTo(0, savedScroll));
         page.addView(body);
         page.addView(space(28));
 
@@ -914,10 +1006,7 @@ public class MainActivity extends Activity {
 
     private void showRecall(JSONObject article) {
         onHomeScreen = false;
-        if (activeReadingSeconds == 0L) {
-            activeReadingSeconds = Math.max(1,
-                    (System.currentTimeMillis() - readingStartedAt) / 1000L);
-        }
+        enterReadingPage(article, "recall");
         ScrollView scroll = screenScroll();
         LinearLayout page = page();
         scroll.addView(page);
@@ -931,6 +1020,14 @@ public class MainActivity extends Activity {
         LinearLayout recallCard = card(SURFACE);
         EditText recall = new EditText(this);
         recall.setHint("可以输入一句概括，也可以只在脑中回忆");
+        recall.setText(session.recall);
+        recall.addTextChangedListener(new TextWatcher() {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if (session != null) { session.recall = s.toString(); saveSession(); }
+            }
+            public void afterTextChanged(Editable value) { }
+        });
         recall.setHintTextColor(MUTED);
         recall.setTextColor(INK);
         recall.setTextSize(16);
@@ -1054,7 +1151,7 @@ public class MainActivity extends Activity {
         String meanings = entry == null ? translation : entry.optString("meanings", translation);
         JSONObject translations = article.optJSONObject("sentenceTranslations");
         String chinese = translations == null ? "" : translations.optString(sentence);
-        activeArticleClicks++;
+        if (showingPassage && session != null) { session.clicks++; saveSession(); }
         String senseKey = learningStore.recordWord(lemma, displayedWord, translation, pos, forms, meanings,
                 sentence, chinese, article.optString("id"), article.optString("title"), history);
         sheet.addView(label("词性  " + pos, 14, MUTED, false));
@@ -1230,6 +1327,7 @@ public class MainActivity extends Activity {
 
     private void showQuiz(JSONObject article) {
         onHomeScreen = false;
+        enterReadingPage(article, "quiz");
         JSONArray questions = article.optJSONArray("questions");
         ScrollView scroll = screenScroll();
         LinearLayout page = page();
@@ -1241,6 +1339,11 @@ public class MainActivity extends Activity {
                 14, MUTED, false));
         page.addView(space(18));
 
+        int savedQuizScroll = session.quizScroll;
+        scroll.setOnScrollChangeListener((v, x, y, oldX, oldY) -> {
+            if (session != null) session.quizScroll = y;
+        });
+        scroll.post(() -> scroll.scrollTo(0, savedQuizScroll));
         ArrayList<RadioGroup> groups = new ArrayList<>();
         for (int i = 0; i < questions.length(); i++) {
             JSONObject question = questions.optJSONObject(i);
@@ -1271,7 +1374,16 @@ public class MainActivity extends Activity {
                 option.setHighlightColor(Color.TRANSPARENT);
                 option.setMovementMethod(LinkMovementMethod.getInstance());
                 group.addView(option);
+                if (session.answers[i] == j) group.check(option.getId());
             }
+            final int questionIndex = i;
+            group.setOnCheckedChangeListener((radioGroup, checkedId) -> {
+                RadioButton checked = radioGroup.findViewById(checkedId);
+                if (session != null && checked != null) {
+                    session.answers[questionIndex] = (int) checked.getTag();
+                    saveSession();
+                }
+            });
             box.addView(group);
             groups.add(group);
             page.addView(box);
@@ -1289,6 +1401,7 @@ public class MainActivity extends Activity {
                 }
                 selected[i] = (int) checked.getTag();
             }
+            submit.setEnabled(false);
             markTodayComplete(article, selected);
             showResults(article, selected);
         });
@@ -1346,8 +1459,9 @@ public class MainActivity extends Activity {
             box.addView(space(8));
             box.addView(label(q.optString("explanation"), 14, MUTED, false));
             String evidence = q.optString("evidenceSentence");
-            if (evidence.isEmpty() || !article.optString("body").contains(evidence)) {
-                evidence = findEvidenceSentence(article, q);
+            if (evidence.isEmpty() || !article.optString("body").contains(evidence)
+                    || evidence.split("\\s+").length < 4) {
+                evidence = "";
             }
             if (!evidence.isEmpty()) {
                 box.addView(space(12));
@@ -1360,6 +1474,7 @@ public class MainActivity extends Activity {
                     box.addView(label(evidenceChinese, 14, MUTED, false));
                 }
             }
+            if (evidence.isEmpty()) box.addView(label("证据解析待补充", 14, MUTED, false));
             JSONArray optionExplanations = q.optJSONArray("optionExplanations");
             box.addView(space(12));
             box.addView(label("选项分析", 14, GREEN, true));
@@ -1367,9 +1482,9 @@ public class MainActivity extends Activity {
                 if (right && j != answer) continue;
                 if (!right && j != answer && j != selected[i]) continue;
                 String reason = optionExplanations == null ? "" : optionExplanations.optString(j);
-                if (reason.isEmpty()) {
-                    reason = j == answer ? q.optString("explanation")
-                            : "该选项与上方证据句或文章主旨不符。";
+                if (reason.isEmpty() || reason.equals("该选项不能由原文证据支持。")
+                        || reason.equals("该选项与原文证据及题目给定答案一致。")) {
+                    reason = "本选项解析待补充";
                 }
                 box.addView(label((char) ('A' + j) + ". " + reason,
                         14, j == answer ? GREEN : MUTED, false));
@@ -1381,36 +1496,12 @@ public class MainActivity extends Activity {
         home.setOnClickListener(view -> showHome());
         page.addView(home);
         page.addView(space(24));
+        onReadingFlow = false;
+        showingPassage = false;
+        prefs.edit().remove("session:" + article.optString("id"))
+                .remove("resumeArticleId").commit();
+        session = null;
         setScreen(scroll, false);
-    }
-
-    private String findEvidenceSentence(JSONObject article, JSONObject question) {
-        String body = article.optString("body");
-        JSONArray options = question.optJSONArray("options");
-        int answer = question.optInt("answer");
-        String query = question.optString("prompt") + " "
-                + (options == null ? "" : options.optString(answer));
-        Set<String> keywords = new HashSet<>();
-        String stopwords = "|the|a|an|and|or|but|is|are|was|were|be|been|to|of|in|on|at|for|"
-                + "with|from|by|that|this|it|its|what|which|who|why|how|according|passage|"
-                + "following|true|not|best|main|most|likely|can|could|would|should|";
-        Matcher queryWords = WORD_PATTERN.matcher(query.toLowerCase(Locale.ROOT));
-        while (queryWords.find()) {
-            String word = queryWords.group();
-            if (word.length() > 2 && !stopwords.contains("|" + word + "|")) keywords.add(word);
-        }
-        String best = "";
-        int bestScore = -1;
-        for (String sentence : body.split("(?<=[.!?])\\s+")) {
-            String lower = sentence.toLowerCase(Locale.ROOT);
-            int score = 0;
-            for (String keyword : keywords) if (lower.contains(keyword)) score++;
-            if (score > bestScore) {
-                best = sentence.trim();
-                bestScore = score;
-            }
-        }
-        return best;
     }
 
     private String diagnoseError(JSONObject question, int selected) {
@@ -1442,8 +1533,7 @@ public class MainActivity extends Activity {
             else errors.add(diagnoseError(question, selected[i]));
         }
         String week = weekKey();
-        long readingSeconds = activeReadingSeconds > 0 ? activeReadingSeconds : Math.max(1,
-                (System.currentTimeMillis() - readingStartedAt) / 1000L);
+        long readingSeconds = readingSeconds();
         SharedPreferences.Editor editor = prefs.edit()
                 .putBoolean(guard, true)
                 .putInt(week + ":articles", prefs.getInt(week + ":articles", 0) + 1)
@@ -1453,12 +1543,14 @@ public class MainActivity extends Activity {
                         + selected.length)
                 .putInt(week + ":correct", prefs.getInt(week + ":correct", 0) + correct)
                 .putInt(week + ":clicks", prefs.getInt(week + ":clicks", 0)
-                        + activeArticleClicks)
+                        + readingClicks())
                 .putLong(week + ":seconds", prefs.getLong(week + ":seconds", 0L)
                         + readingSeconds);
-        for (String error : errors) {
-            String key = week + ":error:" + error;
-            editor.putInt(key, prefs.getInt(key, 0) + 1);
+        Map<String, Integer> errorCounts = new HashMap<>();
+        for (String error : errors) errorCounts.put(error, errorCounts.getOrDefault(error, 0) + 1);
+        for (Map.Entry<String, Integer> error : errorCounts.entrySet()) {
+            String key = week + ":error:" + error.getKey();
+            editor.putInt(key, prefs.getInt(key, 0) + error.getValue());
         }
         editor.apply();
     }
@@ -1515,34 +1607,32 @@ public class MainActivity extends Activity {
     }
 
     private void markTodayComplete(JSONObject article, int[] selected) {
-        updateAdaptiveLevel(article, selected);
-        recordStudyAnalytics(article, selected);
-        if (activeAssessment) recordAssessmentResult(article, selected);
         String today = LocalDate.now().format(DATE_FORMAT);
         Set<String> dates = new HashSet<>(prefs.getStringSet("completedDates", new HashSet<>()));
         Set<String> ids = new HashSet<>(prefs.getStringSet("completedIds", new HashSet<>()));
-        ids.add(article.optString("id"));
-        if (!dates.contains(today)) {
-            String last = prefs.getString("lastCompletedDate", "");
-            int streak = prefs.getInt("streak", 0);
-            String yesterday = LocalDate.now().minusDays(1).format(DATE_FORMAT);
-            streak = yesterday.equals(last) ? streak + 1 : 1;
-            dates.add(today);
-            prefs.edit()
-                    .putStringSet("completedDates", dates)
-                    .putStringSet("completedIds", ids)
-                    .putString("lastCompletedDate", today)
-                    .putInt("streak", streak)
-                    .putInt("longestStreak", Math.max(streak, prefs.getInt("longestStreak", 0)))
-                    .putInt("totalArticles", prefs.getInt("totalArticles", 0) + 1)
-                    .putInt("totalWords", prefs.getInt("totalWords", 0)
-                            + article.optInt("wordCount", 0))
-                    .putString("lastArticleSource", article.optString("source"))
-                    .apply();
+        boolean firstAttempt = ids.add(article.optString("id"));
+        if (firstAttempt) {
+            updateAdaptiveLevel(article, selected);
+            recordStudyAnalytics(article, selected);
+            if (activeAssessment) recordAssessmentResult(article, selected);
         } else {
-            prefs.edit().putStringSet("completedIds", ids)
-                    .putString("lastArticleSource", article.optString("source")).apply();
+            prefs.edit().putInt("repeatAttempts", prefs.getInt("repeatAttempts", 0) + 1).apply();
         }
+        SharedPreferences.Editor editor = prefs.edit().putStringSet("completedIds", ids)
+                .putString("lastArticleSource", article.optString("source"));
+        if (firstAttempt) {
+            editor.putInt("totalArticles", prefs.getInt("totalArticles", 0) + 1)
+                    .putInt("totalWords", prefs.getInt("totalWords", 0) + article.optInt("wordCount", 0));
+        }
+        if (dates.add(today)) {
+            String yesterday = LocalDate.now().minusDays(1).format(DATE_FORMAT);
+            int streak = yesterday.equals(prefs.getString("lastCompletedDate", ""))
+                    ? prefs.getInt("streak", 0) + 1 : 1;
+            editor.putStringSet("completedDates", dates).putString("lastCompletedDate", today)
+                    .putInt("streak", streak)
+                    .putInt("longestStreak", Math.max(streak, prefs.getInt("longestStreak", 0)));
+        }
+        editor.commit();
         maybeRequestContentRefill();
     }
 
@@ -1555,10 +1645,9 @@ public class MainActivity extends Activity {
             if (question != null && selected[i] == question.optInt("answer")) correct++;
         }
         float accuracy = correct / (float) selected.length;
-        float clicksPerHundred = activeArticleClicks * 100f
+        float clicksPerHundred = readingClicks() * 100f
                 / Math.max(1, article.optInt("wordCount", 1));
-        long seconds = activeReadingSeconds > 0 ? activeReadingSeconds : Math.max(1,
-                (System.currentTimeMillis() - readingStartedAt) / 1000L);
+        long seconds = readingSeconds();
         float score = prefs.getFloat("abilityScore", 1f);
         float lookupPenalty = Math.max(0f, clicksPerHundred - 8f) / 24f;
         float observedLevel = articleLevel(article)
@@ -1583,8 +1672,7 @@ public class MainActivity extends Activity {
             JSONObject question = questions.optJSONObject(i);
             if (question != null && selected[i] == question.optInt("answer")) correct++;
         }
-        long seconds = activeReadingSeconds > 0 ? activeReadingSeconds : Math.max(1,
-                (System.currentTimeMillis() - readingStartedAt) / 1000L);
+        long seconds = readingSeconds();
         int words = Math.max(1, article.optInt("wordCount", 1));
         JSONObject result = new JSONObject();
         try {
@@ -1594,7 +1682,7 @@ public class MainActivity extends Activity {
             result.put("difficultyScore", article.optInt("difficultyScore", 42));
             result.put("wordCount", words);
             result.put("accuracyPercent", Math.round(correct * 100f / selected.length));
-            result.put("clicksPerHundred", Math.round(activeArticleClicks * 100f / words));
+            result.put("clicksPerHundred", Math.round(readingClicks() * 100f / words));
             result.put("wordsPerMinute", Math.round(words * 60f / seconds));
             result.put("readingSeconds", seconds);
         } catch (Exception ignored) { }
