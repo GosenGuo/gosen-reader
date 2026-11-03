@@ -14,6 +14,7 @@ import java.util.Locale;
 import java.util.Set;
 import java.util.Map;
 import java.util.WeakHashMap;
+import java.util.LinkedHashSet;
 
 final class LearningStore {
     static final int FORGOT = 0;
@@ -38,46 +39,11 @@ final class LearningStore {
                       String sentenceTranslation, String articleId, String articleTitle,
                       int clickCount) {
         String normalized = normalize(lemma);
-        String senseKey = senseKey(normalized, pos, translation);
+        String senseKey = normalized;
         try {
             JSONObject pool = load();
             JSONObject item = pool.optJSONObject(senseKey);
 
-            // Version 1 stored one record per lemma. Move that record into the
-            // first concrete sense encountered so existing learning data survives.
-            if (item == null) {
-                JSONObject legacy = pool.optJSONObject(normalized);
-                if (legacy != null && legacy.optString("senseKey").isEmpty()) {
-                    item = legacy;
-                    pool.remove(normalized);
-                }
-            }
-            if (item == null) {
-                JSONArray names = pool.names();
-                if (names != null) {
-                    for (int i = 0; i < names.length(); i++) {
-                        String candidateKey = names.optString(i);
-                        JSONObject candidate = pool.optJSONObject(candidateKey);
-                        if (candidate == null
-                                || !normalized.equals(normalize(candidate.optString("lemma")))
-                                || !normalize(pos).equals(normalize(candidate.optString("pos")))) {
-                            continue;
-                        }
-                        JSONArray candidateContexts = candidate.optJSONArray("contexts");
-                        if (candidateContexts == null) continue;
-                        for (int contextIndex = 0;
-                             contextIndex < candidateContexts.length(); contextIndex++) {
-                            JSONObject context = candidateContexts.optJSONObject(contextIndex);
-                            if (context != null && sentence.equals(context.optString("sentence"))) {
-                                senseKey = candidateKey;
-                                item = candidate;
-                                break;
-                            }
-                        }
-                        if (item != null) break;
-                    }
-                }
-            }
             if (item == null) {
                 item = new JSONObject();
                 item.put("createdDate", LocalDate.now().toString());
@@ -96,17 +62,17 @@ final class LearningStore {
             }
 
             item.put("senseKey", senseKey);
+            item.put("wordSchema", 2);
             item.put("lemma", normalized);
-            item.put("displayWord", displayWord);
-            item.put("translation", translation);
-            item.put("pos", pos);
-            item.put("forms", forms);
-            item.put("meanings", meanings);
+            item.put("displayWord", normalized);
+            addSense(item, translation, pos);
+            item.put("forms", joinText(item.optString("forms"), forms));
+            item.put("meanings", joinText(item.optString("meanings"), meanings));
             item.put("sentence", sentence);
             item.put("sentenceTranslation", sentenceTranslation);
             item.put("articleId", articleId);
             item.put("articleTitle", articleTitle);
-            item.put("clickCount", clickCount);
+            item.put("clickCount", Math.max(item.optInt("clickCount"), clickCount));
             item.put("lastSeenDate", LocalDate.now().toString());
 
             JSONArray contexts = item.optJSONArray("contexts");
@@ -114,7 +80,8 @@ final class LearningStore {
             boolean exists = false;
             for (int i = 0; i < contexts.length(); i++) {
                 JSONObject context = contexts.optJSONObject(i);
-                if (context != null && sentence.equals(context.optString("sentence"))) {
+                if (context != null && sentence.equals(context.optString("sentence"))
+                        && translation.equals(context.optString("meaning"))) {
                     exists = true;
                     break;
                 }
@@ -124,16 +91,10 @@ final class LearningStore {
                 context.put("sentence", sentence);
                 context.put("translation", sentenceTranslation);
                 context.put("meaning", translation);
+                context.put("pos", pos);
                 context.put("articleId", articleId);
                 context.put("date", LocalDate.now().toString());
                 contexts.put(context);
-                if (contexts.length() > 5) {
-                    JSONArray trimmed = new JSONArray();
-                    for (int i = contexts.length() - 5; i < contexts.length(); i++) {
-                        trimmed.put(contexts.optJSONObject(i));
-                    }
-                    contexts = trimmed;
-                }
             }
             item.put("contexts", contexts);
             item.put("contextCount", contexts.length());
@@ -252,16 +213,27 @@ final class LearningStore {
             JSONObject pool = load();
             JSONObject item = pool.optJSONObject(senseKey);
             if (item == null) return;
-            item.put("translation", corrected);
+            Set<String> previous = new HashSet<>();
             JSONArray contexts = item.optJSONArray("contexts");
             if (contexts != null) {
                 for (int i = 0; i < contexts.length(); i++) {
                     JSONObject context = contexts.optJSONObject(i);
                     if (context != null && sentence.equals(context.optString("sentence"))) {
+                        previous.add(context.optString("meaning"));
                         context.put("meaning", corrected);
                     }
                 }
             }
+            JSONArray senses = item.optJSONArray("senses");
+            boolean replaced = false;
+            if (senses != null) for (int i = 0; i < senses.length(); i++) {
+                JSONObject sense = senses.getJSONObject(i);
+                if (previous.contains(sense.optString("translation"))) {
+                    sense.put("translation", corrected);
+                    replaced = true;
+                }
+            }
+            addSense(item, replaced ? "" : corrected, replaced ? "" : item.optString("pos"));
             pool.put(senseKey, item);
             save(pool);
         } catch (Exception ignored) { }
@@ -375,10 +347,6 @@ final class LearningStore {
         return item.optInt("stage", 0) >= 3 ? "consolidating" : "learning";
     }
 
-    private String senseKey(String lemma, String pos, String translation) {
-        return lemma + "|" + normalize(pos) + "|" + normalize(translation);
-    }
-
     private String normalize(String value) {
         return value == null ? "" : value.trim().toLowerCase(Locale.ROOT)
                 .replaceAll("\\s+", " ");
@@ -393,7 +361,129 @@ final class LearningStore {
             cachedPool = new JSONObject();
         }
         cachedRaw = raw;
+        migrateDuplicateWords(raw);
         return cachedPool;
+    }
+
+    private String joinText(String first, String second) {
+        Set<String> parts = new LinkedHashSet<>();
+        for (String value : new String[]{first, second}) {
+            for (String part : value.split("[；;]")) {
+                if (!part.trim().isEmpty()) parts.add(part.trim());
+            }
+        }
+        return String.join("；", parts);
+    }
+
+    private void addSense(JSONObject item, String translation, String pos) throws Exception {
+        JSONArray senses = item.optJSONArray("senses");
+        if (senses == null) senses = new JSONArray();
+        boolean exists = false;
+        for (int i = 0; i < senses.length(); i++) {
+            JSONObject sense = senses.getJSONObject(i);
+            if (translation.equals(sense.optString("translation"))
+                    && pos.equals(sense.optString("pos"))) exists = true;
+        }
+        if (!exists && !translation.trim().isEmpty()) {
+            senses.put(new JSONObject().put("translation", translation).put("pos", pos));
+        }
+        item.put("senses", senses);
+        String translations = "", partsOfSpeech = "";
+        for (int i = 0; i < senses.length(); i++) {
+            JSONObject sense = senses.getJSONObject(i);
+            translations = joinText(translations, sense.optString("translation"));
+            partsOfSpeech = joinText(partsOfSpeech, sense.optString("pos"));
+        }
+        item.put("translation", translations);
+        item.put("pos", partsOfSpeech);
+    }
+
+    private void migrateDuplicateWords(String original) {
+        JSONArray keys = cachedPool.names();
+        if (keys == null) return;
+        boolean needsMigration = false;
+        for (int i = 0; i < keys.length(); i++) {
+            JSONObject item = cachedPool.optJSONObject(keys.optString(i));
+            if (item != null && (item.optInt("wordSchema") != 2
+                    || !keys.optString(i).equals(normalize(item.optString("lemma"))))) {
+                needsMigration = true;
+                break;
+            }
+        }
+        if (!needsMigration) return;
+        try {
+            JSONObject merged = new JSONObject();
+            for (int i = 0; i < keys.length(); i++) {
+                JSONObject source = cachedPool.optJSONObject(keys.optString(i));
+                if (source == null) continue;
+                String lemma = normalize(source.optString("lemma", keys.optString(i).split("\\|")[0]));
+                if (lemma.isEmpty()) lemma = keys.optString(i);
+                JSONObject item = merged.optJSONObject(lemma);
+                if (item == null) {
+                    item = new JSONObject(source.toString());
+                    item.put("senses", new JSONArray());
+                    item.put("contexts", new JSONArray());
+                } else {
+                    // Review counts are per sense; clickCount is a shared lifetime count.
+                    for (String field : new String[]{"reviewCount", "correctCount"}) {
+                        item.put(field, item.optInt(field) + source.optInt(field));
+                    }
+                    item.put("clickCount", Math.max(item.optInt("clickCount"), source.optInt("clickCount")));
+                    for (String field : new String[]{"intervalDays", "masteryScore", "consecutiveCorrect"}) {
+                        item.put(field, Math.min(item.optInt(field), source.optInt(field)));
+                    }
+                    for (String field : new String[]{"createdDate", "dueDate"}) {
+                        String value = source.optString(field);
+                        if (!value.isEmpty() && (item.optString(field).isEmpty()
+                                || value.compareTo(item.optString(field)) < 0)) item.put(field, value);
+                    }
+                    for (String field : new String[]{"lastSeenDate", "lastReviewedDate"}) {
+                        if (source.optString(field).compareTo(item.optString(field)) > 0) {
+                            item.put(field, source.optString(field));
+                        }
+                    }
+                    if (!"mastered".equals(normalizedStatus(source))) item.put("status", "learning");
+                }
+                JSONArray senses = source.optJSONArray("senses");
+                if (senses == null || senses.length() == 0) {
+                    addSense(item, source.optString("translation"), source.optString("pos"));
+                } else for (int j = 0; j < senses.length(); j++) {
+                    JSONObject sense = senses.getJSONObject(j);
+                    addSense(item, sense.optString("translation"), sense.optString("pos"));
+                }
+                item.put("forms", joinText(item.optString("forms"), source.optString("forms")));
+                item.put("meanings", joinText(item.optString("meanings"), source.optString("meanings")));
+                JSONArray contexts = item.getJSONArray("contexts");
+                JSONArray incoming = source.optJSONArray("contexts");
+                if (incoming == null || incoming.length() == 0) {
+                    incoming = new JSONArray().put(new JSONObject()
+                            .put("sentence", source.optString("sentence"))
+                            .put("translation", source.optString("sentenceTranslation"))
+                            .put("meaning", source.optString("translation"))
+                            .put("pos", source.optString("pos")));
+                }
+                for (int j = 0; j < incoming.length(); j++) {
+                    JSONObject context = incoming.getJSONObject(j);
+                    boolean duplicate = false;
+                    for (int k = 0; k < contexts.length(); k++) {
+                        JSONObject existing = contexts.getJSONObject(k);
+                        if (existing.optString("sentence").equals(context.optString("sentence"))
+                                && existing.optString("meaning").equals(context.optString("meaning"))) duplicate = true;
+                    }
+                    if (!duplicate) contexts.put(context);
+                }
+                item.put("lemma", lemma).put("displayWord", lemma).put("senseKey", lemma)
+                        .put("wordSchema", 2).put("contextCount", contexts.length());
+                item.put("clickCount", Math.max(item.optInt("clickCount"), prefs.getInt("click:" + lemma, 0)));
+                merged.put(lemma, item);
+            }
+            if (!prefs.contains("reviewPoolBeforeLemmaMerge")) {
+                prefs.edit().putString("reviewPoolBeforeLemmaMerge", original).apply();
+            }
+            save(merged);
+        } catch (Exception ignored) {
+            // Leave the original pool intact if migration cannot be completed.
+        }
     }
 
     private void save(JSONObject pool) {

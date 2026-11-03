@@ -652,7 +652,7 @@ public class MainActivity extends Activity {
             LinearLayout done = card(GREEN_LIGHT);
             done.addView(label("暂无生词", 21, GREEN, true));
             done.addView(space(6));
-            done.addView(label("生词本 " + learningStore.totalCount() + " 个词义 · 已掌握 "
+            done.addView(label("生词本 " + learningStore.totalCount() + " 个词 · 已掌握 "
                     + learningStore.statusCount("mastered") + " 个", 14, MUTED, false));
             page.addView(done);
             setScreen(scroll, true);
@@ -692,6 +692,10 @@ public class MainActivity extends Activity {
         TextView backMeaning = label(contextMeaning, 26, GREEN, true);
         backMeaning.setGravity(Gravity.CENTER);
         back.addView(backMeaning);
+        JSONArray senses = item.optJSONArray("senses");
+        if (senses != null && senses.length() > 1) {
+            back.addView(label(item.optString("translation"), 15, MUTED, false));
+        }
         back.addView(space(14));
         back.addView(label("词形：" + item.optString("forms", "—"), 14, MUTED, false));
         back.addView(space(10));
