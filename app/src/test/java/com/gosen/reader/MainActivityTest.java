@@ -84,6 +84,55 @@ public class MainActivityTest {
         assertEquals(5, ((ReadingSession) field("session")).clicks);
     }
 
+    @Test public void reviewContinuesBeyondDailyLimitAndIncludesFutureWords() throws Exception {
+        LearningStore store = (LearningStore) field("learningStore");
+        String key = store.recordWord("school", "school", "学校", "n.", "schools", "学校",
+                "The school is open.", "学校开门了。", "test", "Test", 1);
+        store.answer(key, LearningStore.VAGUE);
+        prefs.edit().putString("reviewDate", java.time.LocalDate.now().toString())
+                .putInt("reviewCountToday", 99).commit();
+        Method review = MainActivity.class.getDeclaredMethod("showReview");
+        review.setAccessible(true);
+        review.invoke(activity);
+        assertTrue(containsText(activity.findViewById(android.R.id.content), "school"));
+    }
+
+    private boolean containsText(View view, String value) {
+        if (view instanceof android.widget.TextView
+                && value.contentEquals(((android.widget.TextView) view).getText())) return true;
+        if (view instanceof ViewGroup) {
+            for (int i = 0; i < ((ViewGroup) view).getChildCount(); i++) {
+                if (containsText(((ViewGroup) view).getChildAt(i), value)) return true;
+            }
+        }
+        return false;
+    }
+
+    @Test public void firstLookupShowsBubbleAndSecondExpandsWithPersistentMarker() throws Exception {
+        JSONObject a = article(0);
+        Method clickable = MainActivity.class.getDeclaredMethod("makeClickableText",
+                JSONObject.class, String.class, String.class);
+        clickable.setAccessible(true);
+        android.text.SpannableString text = (android.text.SpannableString)
+                clickable.invoke(activity, a, "school", "school");
+        android.widget.TextView anchor = new android.widget.TextView(activity);
+        anchor.setText(text);
+        ((android.widget.FrameLayout) field("content")).addView(anchor);
+        anchor.measure(View.MeasureSpec.makeMeasureSpec(500, View.MeasureSpec.EXACTLY),
+                View.MeasureSpec.makeMeasureSpec(100, View.MeasureSpec.EXACTLY));
+        anchor.layout(0, 0, 500, 100);
+        android.text.style.ClickableSpan span = text.getSpans(0, text.length(),
+                android.text.style.ClickableSpan.class)[0];
+        span.onClick(anchor);
+        assertTrue(((android.widget.PopupWindow) field("wordBubble")).isShowing());
+        assertTrue(prefs.getBoolean("lookedUp:" + a.getString("id") + ":school", false));
+        assertEquals(1, prefs.getInt("click:school", 0));
+        span.onClick(anchor);
+        assertFalse(((android.widget.PopupWindow) field("wordBubble")).isShowing());
+        assertEquals(2, prefs.getInt("click:school", 0));
+        assertEquals(1, text.getSpans(0, text.length(), android.text.style.LineBackgroundSpan.class).length);
+    }
+
     @Test public void activityRecreationRestoresQuizAndAnswers() throws Exception {
         JSONObject a = article(0); page("showQuiz", a);
         RadioGroup group = groups().get(0); group.check(group.getChildAt(1).getId());

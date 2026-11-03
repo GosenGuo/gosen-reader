@@ -6,6 +6,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Path;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.GradientDrawable;
@@ -21,6 +23,7 @@ import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
 import android.text.style.LeadingMarginSpan;
+import android.text.style.LineBackgroundSpan;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
@@ -37,6 +40,7 @@ import android.widget.ScrollView;
 import android.widget.Space;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.PopupWindow;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -54,6 +58,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MainActivity extends Activity {
+    private PopupWindow wordBubble;
+    private String bubbleWord = "";
+    private final Set<String> reviewRound = new HashSet<>();
     private static final Pattern WORD_PATTERN =
             Pattern.compile("[A-Za-z]+(?:['’][A-Za-z]+)*");
     private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ISO_LOCAL_DATE;
@@ -133,20 +140,20 @@ public class MainActivity extends Activity {
 
     private void applyPalette() {
         if (darkMode) {
-            GREEN = Color.rgb(111, 210, 158);
-            PRIMARY = Color.rgb(38, 112, 77);
-            GREEN_LIGHT = Color.rgb(29, 53, 42);
-            CREAM = Color.rgb(16, 20, 18);
-            SURFACE = Color.rgb(27, 33, 30);
+            GREEN = Color.rgb(130, 169, 255);
+            PRIMARY = Color.rgb(57, 112, 240);
+            GREEN_LIGHT = Color.rgb(35, 45, 67);
+            CREAM = Color.rgb(12, 13, 17);
+            SURFACE = Color.rgb(26, 28, 34);
             INK = Color.rgb(235, 240, 236);
             MUTED = Color.rgb(164, 176, 168);
             GOLD = Color.rgb(238, 188, 87);
             DANGER = Color.rgb(242, 139, 126);
         } else {
-            GREEN = Color.rgb(47, 107, 79);
+            GREEN = Color.rgb(44, 103, 234);
             PRIMARY = GREEN;
-            GREEN_LIGHT = Color.rgb(229, 239, 232);
-            CREAM = Color.rgb(250, 248, 242);
+            GREEN_LIGHT = Color.rgb(232, 239, 255);
+            CREAM = Color.rgb(245, 246, 250);
             SURFACE = Color.WHITE;
             INK = Color.rgb(39, 43, 40);
             MUTED = Color.rgb(102, 107, 103);
@@ -167,6 +174,8 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onPause() {
+        if (wordBubble != null) wordBubble.dismiss();
+        bubbleWord = "";
         foreground = false;
         if (session != null) session.pause(SystemClock.elapsedRealtime());
         saveSession();
@@ -321,11 +330,13 @@ public class MainActivity extends Activity {
             button.setTextColor(selected ? GREEN : MUTED);
             button.setTypeface(Typeface.DEFAULT,
                     selected ? Typeface.BOLD : Typeface.NORMAL);
-            button.setBackground(rounded(selected ? GREEN_LIGHT : Color.TRANSPARENT, 12));
+            button.setBackground(rounded(selected ? GREEN_LIGHT : Color.TRANSPARENT, 24));
         }
     }
 
     private void setScreen(View view, boolean showNav) {
+        if (wordBubble != null) wordBubble.dismiss();
+        bubbleWord = "";
         if (showNav) {
             if (session != null) session.pause(SystemClock.elapsedRealtime());
             saveSession();
@@ -379,12 +390,12 @@ public class MainActivity extends Activity {
         page.addView(space(18));
 
         LinearLayout reviewCard = card(GREEN_LIGHT);
-        int due = Math.min(remainingDailyReviews(), learningStore.dueCount());
+        int due = learningStore.dueCount();
         reviewCard.addView(label("生词复习", 18, GREEN, true));
         reviewCard.addView(label(due > 0 ? "今天有 " + due + " 个词待复习"
                 : "今天的生词已复习完", 14, MUTED, false));
         reviewCard.addView(space(10));
-        Button review = secondaryButton(due > 0 ? "开始复习" : "查看生词本");
+        Button review = secondaryButton(due > 0 ? "开始复习" : "自由复习");
         review.setOnClickListener(view -> showReview());
         reviewCard.addView(review);
         page.addView(reviewCard);
@@ -587,7 +598,7 @@ public class MainActivity extends Activity {
         LinearLayout page = page();
         scroll.addView(page);
         page.addView(label("生词复习", 28, INK, true));
-        page.addView(label("点按卡片翻面；左滑表示认识并移除，右滑表示保留。每天最多 12 个。",
+        page.addView(label("点按翻面 · 左滑认识并移除 · 右滑保留。复习数量不限。",
                 14, MUTED, false));
         page.addView(space(10));
         Button manageVocabulary = secondaryButton("管理全部生词与释义");
@@ -595,13 +606,20 @@ public class MainActivity extends Activity {
         page.addView(manageVocabulary);
         page.addView(space(18));
 
-        int remaining = remainingDailyReviews();
-        ArrayList<JSONObject> dueWords = remaining == 0
-                ? new ArrayList<>() : new ArrayList<>(learningStore.dueWords(1));
+        ArrayList<JSONObject> dueWords = new ArrayList<>(learningStore.dueWords(Integer.MAX_VALUE));
+        Set<String> available = new HashSet<>();
+        for (JSONObject item : dueWords) available.add(item.optString("senseKey", item.optString("lemma")));
+        for (JSONObject item : learningStore.allWords(Integer.MAX_VALUE)) {
+            if (available.add(item.optString("senseKey", item.optString("lemma")))) dueWords.add(item);
+        }
+        dueWords.removeIf(item -> reviewRound.contains(item.optString("senseKey", item.optString("lemma"))));
+        if (dueWords.isEmpty() && learningStore.totalCount() > 0) {
+            reviewRound.clear();
+            dueWords.addAll(learningStore.allWords(Integer.MAX_VALUE));
+        }
         if (dueWords.isEmpty()) {
             LinearLayout done = card(GREEN_LIGHT);
-            done.addView(label(remaining == 0 ? "今日 12 个复习已完成 ✓"
-                    : "今天的到期生词已复习 ✓", 21, GREEN, true));
+            done.addView(label("生词本为空，去阅读中积累新词吧", 21, GREEN, true));
             done.addView(space(6));
             done.addView(label("生词本 " + learningStore.totalCount() + " 个词义 · 已掌握 "
                     + learningStore.statusCount("mastered") + " 个", 14, MUTED, false));
@@ -661,11 +679,13 @@ public class MainActivity extends Activity {
         flashcard.addView(back, new FrameLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         installFlashcardGestures(flashcard, front, back, () -> {
+            reviewRound.add(senseKey);
             learningStore.removeWord(senseKey);
             recordReviewToday();
             Toast.makeText(this, "已认识，已移出生词库", Toast.LENGTH_SHORT).show();
             showReview();
         }, () -> {
+            reviewRound.add(senseKey);
             learningStore.answer(senseKey, LearningStore.VAGUE);
             recordReviewToday();
             Toast.makeText(this, "已保留，之后继续复习", Toast.LENGTH_SHORT).show();
@@ -1084,7 +1104,13 @@ public class MainActivity extends Activity {
             text.setSpan(new ClickableSpan() {
                 @Override
                 public void onClick(View widget) {
-                    showWordCard(article, word, sentence);
+                    String token = article.optString("id") + ":" + word.toLowerCase(Locale.ROOT);
+                    boolean expand = token.equals(bubbleWord);
+                    if (wordBubble != null) wordBubble.dismiss();
+                    bubbleWord = expand ? "" : token;
+                    prefs.edit().putBoolean("lookedUp:" + token, true).apply();
+                    widget.invalidate();
+                    showWordCard(article, word, sentence, expand ? null : (TextView) widget, wordStart);
                 }
 
                 @Override
@@ -1093,6 +1119,33 @@ public class MainActivity extends Activity {
                     paint.setUnderlineText(false);
                     paint.setTypeface(Typeface.create(paint.getTypeface(), Typeface.NORMAL));
                 }
+            }, matcher.start(), matcher.end(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            final int wordEnd = matcher.end();
+            final String lookupKey = "lookedUp:" + article.optString("id") + ":"
+                    + word.toLowerCase(Locale.ROOT);
+            text.setSpan((LineBackgroundSpan) (canvas, paint, left, right, top, baseline,
+                    bottom, source, lineStart, lineEnd, lineNumber) -> {
+                if (!prefs.getBoolean(lookupKey, false)) return;
+                int start = Math.max(wordStart, lineStart);
+                int end = Math.min(wordEnd, lineEnd);
+                if (start >= end) return;
+                float x = left + paint.measureText(source, lineStart, start);
+                float finish = x + paint.measureText(source, start, end);
+                Paint wavePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+                wavePaint.setColor(GREEN);
+                wavePaint.setStyle(Paint.Style.STROKE);
+                wavePaint.setStrokeWidth(dp(1));
+                Path wave = new Path();
+                float y = baseline + dp(3);
+                wave.moveTo(x, y);
+                boolean up = true;
+                while (x < finish) {
+                    float next = Math.min(x + dp(4), finish);
+                    wave.quadTo((x + next) / 2, y + (up ? -dp(2) : dp(2)), next, y);
+                    x = next;
+                    up = !up;
+                }
+                canvas.drawPath(wave, wavePaint);
             }, matcher.start(), matcher.end(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         }
         return text;
@@ -1108,6 +1161,11 @@ public class MainActivity extends Activity {
     }
 
     private void showWordCard(JSONObject article, String displayedWord, String sentence) {
+        showWordCard(article, displayedWord, sentence, null, 0);
+    }
+
+    private void showWordCard(JSONObject article, String displayedWord, String sentence,
+                              TextView bubbleAnchor, int wordOffset) {
         JSONObject glossary = article.optJSONObject("glossary");
         String key = displayedWord.toLowerCase(Locale.ROOT).replace('’', '\'');
         JSONObject entry = glossary == null ? null : glossary.optJSONObject(key);
@@ -1154,6 +1212,11 @@ public class MainActivity extends Activity {
         if (showingPassage && session != null) { session.clicks++; saveSession(); }
         String senseKey = learningStore.recordWord(lemma, displayedWord, translation, pos, forms, meanings,
                 sentence, chinese, article.optString("id"), article.optString("title"), history);
+        if (bubbleAnchor != null) {
+            showTranslationBubble(bubbleAnchor, wordOffset, translation,
+                    () -> { bubbleWord = ""; showWordCard(article, displayedWord, sentence); });
+            return;
+        }
         sheet.addView(label("词性  " + pos, 14, MUTED, false));
         sheet.addView(space(14));
 
@@ -1258,6 +1321,36 @@ public class MainActivity extends Activity {
                     ViewGroup.LayoutParams.WRAP_CONTENT);
         });
         dialog.show();
+    }
+
+    private void showTranslationBubble(TextView anchor, int offset, String translation, Runnable expand) {
+        TextView tip = label(translation, 17, INK, true);
+        tip.setPadding(dp(18), dp(12), dp(18), dp(12));
+        tip.setMaxWidth(getResources().getDisplayMetrics().widthPixels - dp(40));
+        tip.setBackground(rounded(SURFACE, 20));
+        tip.measure(View.MeasureSpec.makeMeasureSpec(
+                getResources().getDisplayMetrics().widthPixels - dp(40), View.MeasureSpec.AT_MOST),
+                View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+        PopupWindow popup = new PopupWindow(tip, tip.getMeasuredWidth(), tip.getMeasuredHeight(), false);
+        popup.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        popup.setElevation(dp(10));
+        popup.setOutsideTouchable(true);
+        if (Build.VERSION.SDK_INT >= 29) popup.setTouchModal(false);
+        wordBubble = popup;
+        tip.setOnClickListener(v -> { popup.dismiss(); expand.run(); });
+        int[] location = new int[2];
+        anchor.getLocationOnScreen(location);
+        int line = anchor.getLayout().getLineForOffset(offset);
+        int x = location[0] + anchor.getTotalPaddingLeft()
+                + (int) anchor.getLayout().getPrimaryHorizontal(offset) - anchor.getScrollX();
+        int y = location[1] + anchor.getTotalPaddingTop()
+                + anchor.getLayout().getLineTop(line) - anchor.getScrollY() - tip.getMeasuredHeight() - dp(8);
+        android.graphics.Rect visible = new android.graphics.Rect();
+        anchor.getWindowVisibleDisplayFrame(visible);
+        if (y < visible.top) y = location[1] + anchor.getTotalPaddingTop()
+                + anchor.getLayout().getLineBottom(line) - anchor.getScrollY() + dp(8);
+        x = Math.max(dp(16), Math.min(x, visible.right - tip.getMeasuredWidth() - dp(16)));
+        popup.showAtLocation(anchor, Gravity.TOP | Gravity.LEFT, x, y);
     }
 
     private boolean phraseContainsWord(String phrase, String word) {
@@ -1591,13 +1684,6 @@ public class MainActivity extends Activity {
         return "每道错题必须指出一句原文证据，再说明错项错在哪里。";
     }
 
-    private int remainingDailyReviews() {
-        String today = LocalDate.now().format(DATE_FORMAT);
-        int completed = today.equals(prefs.getString("reviewDate", ""))
-                ? prefs.getInt("reviewCountToday", 0) : 0;
-        return Math.max(0, 12 - completed);
-    }
-
     private void recordReviewToday() {
         String today = LocalDate.now().format(DATE_FORMAT);
         int completed = today.equals(prefs.getString("reviewDate", ""))
@@ -1775,8 +1861,8 @@ public class MainActivity extends Activity {
         LinearLayout box = new LinearLayout(this);
         box.setOrientation(LinearLayout.VERTICAL);
         box.setPadding(dp(18), dp(18), dp(18), dp(18));
-        box.setBackground(rounded(color, 18));
-        box.setElevation(dp(1));
+        box.setBackground(rounded(color, 26));
+        box.setElevation(dp(2));
         return box;
     }
 
@@ -1793,6 +1879,7 @@ public class MainActivity extends Activity {
         view.setTextSize(size);
         view.setTextColor(color);
         view.setLineSpacing(dp(2), 1.08f);
+        view.setFontFeatureSettings("kern");
         if (bold) view.setTypeface(Typeface.DEFAULT, Typeface.BOLD);
         return view;
     }
@@ -1804,7 +1891,7 @@ public class MainActivity extends Activity {
         button.setTextColor(Color.WHITE);
         button.setTypeface(Typeface.DEFAULT, Typeface.BOLD);
         button.setAllCaps(false);
-        button.setBackground(rounded(PRIMARY, 14));
+        button.setBackground(rounded(PRIMARY, 26));
         button.setMinHeight(dp(52));
         return button;
     }
@@ -1815,7 +1902,7 @@ public class MainActivity extends Activity {
         button.setTextSize(16);
         button.setTextColor(GREEN);
         button.setAllCaps(false);
-        button.setBackground(rounded(GREEN_LIGHT, 14));
+        button.setBackground(rounded(GREEN_LIGHT, 26));
         button.setMinHeight(dp(50));
         return button;
     }
