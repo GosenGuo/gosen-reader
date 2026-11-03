@@ -39,6 +39,8 @@ import android.widget.Space;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.PopupWindow;
+import android.widget.ListView;
+import android.widget.BaseAdapter;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -54,10 +56,13 @@ import java.util.Map;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class MainActivity extends Activity {
     private PopupWindow wordBubble;
     private final Set<String> reviewRound = new HashSet<>();
+    private final ExecutorService recommendations = Executors.newSingleThreadExecutor();
     private static final Pattern WORD_PATTERN =
             Pattern.compile("[A-Za-z]+(?:['’][A-Za-z]+)*");
     private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ISO_LOCAL_DATE;
@@ -212,7 +217,7 @@ public class MainActivity extends Activity {
             SharedPreferences.Editor editor = prefs.edit().putString("session:" + session.articleId,
                     session.snapshot(SystemClock.elapsedRealtime()).toString());
             if (onReadingFlow) editor.putString("resumeArticleId", session.articleId);
-            editor.commit();
+            editor.apply();
         } catch (Exception ignored) { }
     }
 
@@ -240,6 +245,7 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onDestroy() {
+        recommendations.shutdownNow();
         if (updateManager != null) {
             updateManager.close();
         }
@@ -409,17 +415,34 @@ public class MainActivity extends Activity {
             empty.addView(label("请检查内置 articles.json 数据。", 14, MUTED, false));
             page.addView(empty);
         } else {
-            JSONObject article = todayArticle();
-            if (isCurrentAssessmentArticle(article)) {
-                LinearLayout assessmentNotice = card(GREEN_LIGHT);
-                assessmentNotice.addView(label("阶段检测已到期", 17, GREEN, true));
-                assessmentNotice.addView(label("每完成 10 篇安排一次同难度区间检测，用阅读速度、查词率和正确率判断真实进步。",
-                        13, MUTED, false));
-                page.addView(assessmentNotice);
-                page.addView(space(10));
-            }
-            LinearLayout articleCard = articleCard(article, true);
-            page.addView(articleCard);
+            LinearLayout recommendation = new LinearLayout(this);
+            recommendation.setOrientation(LinearLayout.VERTICAL);
+            recommendation.addView(label("正在挑选适合你的文章…", 15, MUTED, false));
+            page.addView(recommendation);
+            JSONObject assessment = assessmentArticleIfDue();
+            ArrayList<JSONObject> candidates = new ArrayList<>();
+            Set<String> completed = new HashSet<>(prefs.getStringSet("completedIds", new HashSet<>()));
+            for (int i = 0; i < repository.size(); i++) candidates.add(repository.get(i));
+            Set<String> learning = learningStore.learningLemmas();
+            float target = prefs.getFloat("abilityScore", 1f);
+            String lastSource = prefs.getString("lastArticleSource", "");
+            recommendations.execute(() -> {
+                JSONObject article = assessment != null ? assessment
+                        : todayArticle(candidates, completed, learning, target, lastSource);
+                runOnUiThread(() -> {
+                    if (isDestroyed() || content.getChildAt(0) != scroll) return;
+                    recommendation.removeAllViews();
+                    if (isCurrentAssessmentArticle(article)) {
+                        LinearLayout assessmentNotice = card(GREEN_LIGHT);
+                        assessmentNotice.addView(label("阶段检测已到期", 17, GREEN, true));
+                        assessmentNotice.addView(label("每完成 10 篇安排一次同难度区间检测，用阅读速度、查词率和正确率判断真实进步。",
+                                13, MUTED, false));
+                        recommendation.addView(assessmentNotice);
+                        recommendation.addView(space(10));
+                    }
+                    recommendation.addView(articleCard(article, true));
+                });
+            });
         }
 
         page.addView(space(20));
@@ -447,19 +470,15 @@ public class MainActivity extends Activity {
         setScreen(scroll, true);
     }
 
-    private JSONObject todayArticle() {
-        JSONObject assessment = assessmentArticleIfDue();
-        if (assessment != null) return assessment;
-        float target = prefs.getFloat("abilityScore", 1f);
+    private JSONObject todayArticle(ArrayList<JSONObject> candidates, Set<String> completed,
+                                    Set<String> learning, float target, String lastSource) {
         JSONObject best = null;
         float bestScore = -1f;
-        String lastSource = prefs.getString("lastArticleSource", "");
-        for (int i = 0; i < repository.size(); i++) {
-            JSONObject candidate = repository.get(i);
-            if (candidate == null || isCompleted(candidate.optString("id"))) continue;
+        for (JSONObject candidate : candidates) {
+            if (candidate == null || completed.contains(candidate.optString("id"))) continue;
             float difficultyFit = 1f - Math.min(1f,
                     Math.abs(articleLevel(candidate) - target) / 2f);
-            int learningWords = learningStore.learningWordCount(candidate);
+            int learningWords = learningStore.countLearningWords(candidate, learning);
             float vocabularyFit = Math.min(1f, learningWords / 10f);
             float variety = lastSource.equals(candidate.optString("source")) ? 0f : 1f;
             float score = difficultyFit * 40f + vocabularyFit * 35f + variety * 15f + 10f;
@@ -469,8 +488,8 @@ public class MainActivity extends Activity {
             }
         }
         if (best != null) return best;
-        int index = (LocalDate.now().getDayOfYear() - 1) % repository.size();
-        return repository.get(index);
+        int index = (LocalDate.now().getDayOfYear() - 1) % candidates.size();
+        return candidates.get(index);
     }
 
     private JSONObject assessmentArticleIfDue() {
@@ -534,7 +553,11 @@ public class MainActivity extends Activity {
     }
 
     private LinearLayout articleCard(JSONObject article, boolean prominent) {
-        LinearLayout box = card(SURFACE);
+        return articleCard(article, prominent, card(SURFACE));
+    }
+
+    private LinearLayout articleCard(JSONObject article, boolean prominent, LinearLayout box) {
+        box.removeAllViews();
         boolean assessment = isCurrentAssessmentArticle(article);
         if (assessment) {
             box.addView(label("阶段检测 · 固定难度对比", 13, GOLD, true));
@@ -567,9 +590,17 @@ public class MainActivity extends Activity {
     private void showLibrary() {
         onHomeScreen = false;
         selectNav("题库");
-        ScrollView scroll = screenScroll();
+        ListView list = new ListView(this);
+        list.setBackgroundColor(CREAM);
+        list.setPadding(dp(20), 0, dp(20), dp(28));
+        list.setClipToPadding(false);
+        list.setDivider(new ColorDrawable(Color.TRANSPARENT));
+        list.setDividerHeight(dp(12));
         LinearLayout page = page();
-        scroll.addView(page);
+        page.setPadding(0, dp(24), 0, dp(6));
+        list.addHeaderView(page, null, false);
+        ArrayList<JSONObject> articles = new ArrayList<>();
+        for (int i = 0; i < repository.size(); i++) articles.add(repository.get(i));
         page.addView(label("阅读题库", 28, INK, true));
         page.addView(label("当前共有 " + repository.size() + " 篇；未读少于 5 篇时会自动补充 30 篇。",
                 14, MUTED, false));
@@ -582,7 +613,7 @@ public class MainActivity extends Activity {
                 if (success) {
                     Toast.makeText(this, changed ? "题库已更新" : "当前已是最新题库",
                             Toast.LENGTH_SHORT).show();
-                    showLibrary();
+                    if (content.getChildAt(0) == list) showLibrary();
                 } else {
                     refresh.setEnabled(true);
                     refresh.setText("刷新题库");
@@ -593,11 +624,17 @@ public class MainActivity extends Activity {
         });
         page.addView(refresh);
         page.addView(space(18));
-        for (int i = 0; i < repository.size(); i++) {
-            page.addView(articleCard(repository.get(i), false));
-            page.addView(space(12));
-        }
-        setScreen(scroll, true);
+        list.setAdapter(new BaseAdapter() {
+            public int getCount() { return articles.size(); }
+            public JSONObject getItem(int position) { return articles.get(position); }
+            public long getItemId(int position) { return position; }
+            public View getView(int position, View recycled, ViewGroup parent) {
+                LinearLayout box = recycled instanceof LinearLayout
+                        ? (LinearLayout) recycled : card(SURFACE);
+                return articleCard(getItem(position), false, box);
+            }
+        });
+        setScreen(list, true);
     }
 
     private void showReview() {

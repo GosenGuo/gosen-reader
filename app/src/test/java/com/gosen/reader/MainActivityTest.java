@@ -158,6 +158,40 @@ public class MainActivityTest {
         assertFalse(containsText(activity.findViewById(android.R.id.content), "60 秒主动回忆"));
     }
 
+    @Test public void vocabularyMatchingCacheRefreshesAfterWordRemoval() throws Exception {
+        LearningStore store = (LearningStore) field("learningStore");
+        JSONObject passage = new JSONObject().put("glossary", new JSONObject()
+                .put("school", new JSONObject().put("lemma", "school")));
+        assertEquals(0, store.learningWordCount(passage));
+        String key = store.recordWord("school", "school", "学校", "n.", "schools", "学校",
+                "The school is open.", "学校开门了。", "test", "Test", 1);
+        assertEquals(1, store.learningWordCount(passage));
+        assertEquals(1, store.learningWordCount(passage));
+        store.removeWord(key);
+        assertEquals(0, store.learningWordCount(passage));
+    }
+
+    @Test public void libraryCreatesOnlyVisibleRowsForLargePackage() throws Exception {
+        ContentRepository repo = (ContentRepository) field("repository");
+        JSONObject passage = repo.get(0);
+        org.json.JSONArray articles = new org.json.JSONArray();
+        for (int i = 0; i < 100; i++) articles.put(passage);
+        Field data = ContentRepository.class.getDeclaredField("articles");
+        data.setAccessible(true);
+        data.set(repo, articles);
+        Method library = MainActivity.class.getDeclaredMethod("showLibrary");
+        library.setAccessible(true);
+        library.invoke(activity);
+        android.widget.ListView list = (android.widget.ListView)
+                ((android.widget.FrameLayout) field("content")).getChildAt(0);
+        list.measure(View.MeasureSpec.makeMeasureSpec(400, View.MeasureSpec.EXACTLY),
+                View.MeasureSpec.makeMeasureSpec(600, View.MeasureSpec.EXACTLY));
+        list.layout(0, 0, 400, 600);
+        assertEquals(101, list.getAdapter().getCount());
+        assertTrue(list.getChildCount() > 0);
+        assertTrue(list.getChildCount() < 100);
+    }
+
     @Test public void backgroundTimeIsExcludedFromReading() throws Exception {
         page("showReader", article(0));
         ShadowSystemClock.advanceBy(Duration.ofSeconds(20));

@@ -12,6 +12,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
+import java.util.Map;
+import java.util.WeakHashMap;
 
 final class LearningStore {
     static final int FORGOT = 0;
@@ -20,6 +22,11 @@ final class LearningStore {
 
     private static final String KEY = "reviewPool";
     private final SharedPreferences prefs;
+    private String cachedRaw;
+    private JSONObject cachedPool;
+    private String indexedRaw;
+    private Set<String> learningLemmas = Collections.emptySet();
+    private final Map<JSONObject, Set<String>> articleLemmas = new WeakHashMap<>();
 
     LearningStore(SharedPreferences prefs) {
         this.prefs = prefs;
@@ -288,29 +295,43 @@ final class LearningStore {
     }
 
     int learningWordCount(JSONObject article) {
-        Set<String> learningLemmas = new HashSet<>();
+        return countLearningWords(article, learningLemmas());
+    }
+
+    Set<String> learningLemmas() {
         JSONObject pool = load();
+        if (cachedRaw.equals(indexedRaw)) return learningLemmas;
+        Set<String> lemmas = new HashSet<>();
         JSONArray names = pool.names();
         if (names != null) {
             for (int i = 0; i < names.length(); i++) {
                 JSONObject item = pool.optJSONObject(names.optString(i));
                 if (item != null && !"mastered".equals(normalizedStatus(item))) {
-                    learningLemmas.add(normalize(item.optString("lemma")));
+                    lemmas.add(normalize(item.optString("lemma")));
                 }
             }
         }
-        if (learningLemmas.isEmpty()) return 0;
-        Set<String> matched = new HashSet<>();
-        JSONObject glossary = article.optJSONObject("glossary");
-        JSONArray words = glossary == null ? null : glossary.names();
-        if (words == null) return 0;
-        for (int i = 0; i < words.length(); i++) {
-            JSONObject entry = glossary.optJSONObject(words.optString(i));
-            if (entry == null) continue;
-            String lemma = normalize(entry.optString("lemma", words.optString(i)));
-            if (learningLemmas.contains(lemma)) matched.add(lemma);
+        learningLemmas = Collections.unmodifiableSet(lemmas);
+        indexedRaw = cachedRaw;
+        return learningLemmas;
+    }
+
+    synchronized int countLearningWords(JSONObject article, Set<String> learning) {
+        if (learning.isEmpty()) return 0;
+        Set<String> lemmas = articleLemmas.get(article);
+        if (lemmas == null) {
+            lemmas = new HashSet<>();
+            JSONObject glossary = article.optJSONObject("glossary");
+            JSONArray words = glossary == null ? null : glossary.names();
+            if (words != null) for (int i = 0; i < words.length(); i++) {
+                JSONObject entry = glossary.optJSONObject(words.optString(i));
+                if (entry != null) lemmas.add(normalize(entry.optString("lemma", words.optString(i))));
+            }
+            articleLemmas.put(article, lemmas);
         }
-        return matched.size();
+        int count = 0;
+        for (String lemma : learning) if (lemmas.contains(lemma)) count++;
+        return count;
     }
 
     String statusLabel(JSONObject item) {
@@ -338,14 +359,21 @@ final class LearningStore {
     }
 
     private JSONObject load() {
+        String raw = prefs.getString(KEY, "{}");
+        if (cachedPool != null && raw.equals(cachedRaw)) return cachedPool;
         try {
-            return new JSONObject(prefs.getString(KEY, "{}"));
+            cachedPool = new JSONObject(raw);
         } catch (Exception ignored) {
-            return new JSONObject();
+            cachedPool = new JSONObject();
         }
+        cachedRaw = raw;
+        return cachedPool;
     }
 
     private void save(JSONObject pool) {
-        prefs.edit().putString(KEY, pool.toString()).apply();
+        cachedRaw = pool.toString();
+        cachedPool = pool;
+        indexedRaw = null;
+        prefs.edit().putString(KEY, cachedRaw).apply();
     }
 }
