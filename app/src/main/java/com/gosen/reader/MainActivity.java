@@ -871,10 +871,14 @@ public class MainActivity extends Activity {
         if (learningStore.totalCount() > words.size()) {
             page.addView(label("当前只显示最近的 200 个词。", 13, MUTED, false));
         }
-        setScreen(scroll, false);
-        scroll.post(() -> {
-            if (content.getChildAt(0) == scroll) scroll.scrollTo(0, scrollY);
+        scroll.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
+            @Override public void onLayoutChange(View view, int left, int top, int right, int bottom,
+                                                  int oldLeft, int oldTop, int oldRight, int oldBottom) {
+                scroll.removeOnLayoutChangeListener(this);
+                if (content.getChildAt(0) == scroll) scroll.scrollTo(0, scrollY);
+            }
         });
+        setScreen(scroll, false);
     }
 
     private void showStats() {
