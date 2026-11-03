@@ -49,6 +49,8 @@ public class JustifiedWordSpacingTest {
         String source = "Alpha beta gamma delta epsilon zeta theta iota kappa lambda mu nu "
                 + "xi omicron pi rho sigma tau upsilon phi chi psi omega.";
         TextView view = new TextView(RuntimeEnvironment.getApplication());
+        view.setLayoutParams(new android.view.ViewGroup.LayoutParams(360,
+                android.view.ViewGroup.LayoutParams.WRAP_CONTENT));
         view.setTextSize(22);
         view.setBreakStrategy(Layout.BREAK_STRATEGY_SIMPLE);
         view.setHyphenationFrequency(Layout.HYPHENATION_FREQUENCY_NONE);
