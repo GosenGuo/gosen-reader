@@ -125,7 +125,8 @@ public class MainActivityTest {
                 android.text.style.ClickableSpan.class)[0];
         span.onClick(anchor);
         assertTrue(((android.widget.PopupWindow) field("wordBubble")).isShowing());
-        assertTrue(prefs.getBoolean("lookedUp:" + a.getString("id") + ":school", false));
+        String waveKey = "waveMark:" + a.getString("id") + ":school";
+        assertFalse(prefs.getBoolean(waveKey, false));
         assertEquals(1, prefs.getInt("click:school", 0));
         span.onClick(anchor);
         assertTrue(((android.widget.PopupWindow) field("wordBubble")).isShowing());
@@ -137,6 +138,33 @@ public class MainActivityTest {
         bubble.getContentView().performClick();
         assertFalse(bubble.isShowing());
         assertEquals(1, text.getSpans(0, text.length(), MainActivity.LookupMark.class).length);
+        android.app.Dialog details = org.robolectric.shadows.ShadowDialog.getLatestDialog();
+        android.widget.Switch toggle = findWaveToggle(details.findViewById(android.R.id.content));
+        assertNotNull(toggle);
+        assertFalse(toggle.isChecked());
+        toggle.setChecked(true);
+        assertTrue(prefs.getBoolean(waveKey, false));
+        details.dismiss();
+        span.onClick(anchor);
+        ((android.widget.PopupWindow) field("wordBubble")).getContentView().performClick();
+        details = org.robolectric.shadows.ShadowDialog.getLatestDialog();
+        toggle = findWaveToggle(details.findViewById(android.R.id.content));
+        assertTrue(toggle.isChecked());
+        toggle.setChecked(false);
+        assertFalse(prefs.getBoolean(waveKey, true));
+        details.dismiss();
+    }
+
+    private android.widget.Switch findWaveToggle(View view) {
+        if (view instanceof android.widget.Switch) return (android.widget.Switch) view;
+        if (view instanceof ViewGroup) {
+            ViewGroup group = (ViewGroup) view;
+            for (int i = 0; i < group.getChildCount(); i++) {
+                android.widget.Switch toggle = findWaveToggle(group.getChildAt(i));
+                if (toggle != null) return toggle;
+            }
+        }
+        return null;
     }
 
     @Test public void activityRecreationRestoresQuizAndAnswers() throws Exception {

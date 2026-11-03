@@ -388,7 +388,7 @@ public class MainActivity extends Activity {
                 GREEN, true);
         streak.setPadding(0, dp(4), 0, dp(4));
         streakCard.addView(streak);
-        String doneText = isTodayDone() ? "今日已打卡 ✓" : "今天也读一篇";
+        String doneText = isTodayDone() ? "今日已打卡 ✓" : "今日未打卡";
         streakCard.addView(label(doneText, 13, MUTED, false));
         widgets.addView(streakCard, new LinearLayout.LayoutParams(0,
                 ViewGroup.LayoutParams.MATCH_PARENT, 1));
@@ -412,7 +412,6 @@ public class MainActivity extends Activity {
         if (repository.size() == 0) {
             LinearLayout empty = card(SURFACE);
             empty.addView(label("题库暂时无法读取", 17, INK, true));
-            empty.addView(label("请检查内置 articles.json 数据。", 14, MUTED, false));
             page.addView(empty);
         } else {
             LinearLayout recommendation = new LinearLayout(this);
@@ -435,8 +434,6 @@ public class MainActivity extends Activity {
                     if (isCurrentAssessmentArticle(article)) {
                         LinearLayout assessmentNotice = card(GREEN_LIGHT);
                         assessmentNotice.addView(label("阶段检测已到期", 17, GREEN, true));
-                        assessmentNotice.addView(label("每完成 10 篇安排一次同难度区间检测，用阅读速度、查词率和正确率判断真实进步。",
-                                13, MUTED, false));
                         recommendation.addView(assessmentNotice);
                         recommendation.addView(space(10));
                     }
@@ -460,11 +457,8 @@ public class MainActivity extends Activity {
         progress.addView(monthProgress, new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, dp(8)));
         progress.addView(space(12));
-        TextView hint = label("目标：每天一篇 · 正确率不影响打卡", 14, MUTED, false);
-        progress.addView(hint);
-        progress.addView(space(8));
-        progress.addView(label("已缓存 " + repository.size() + " 篇，其中 "
-                + unreadCount() + " 篇未读；断网也可阅读。", 13, MUTED, false));
+        progress.addView(label(repository.size() + " 篇文章 · "
+                + unreadCount() + " 篇未读", 13, MUTED, false));
         page.addView(progress);
 
         setScreen(scroll, true);
@@ -602,7 +596,7 @@ public class MainActivity extends Activity {
         ArrayList<JSONObject> articles = new ArrayList<>();
         for (int i = 0; i < repository.size(); i++) articles.add(repository.get(i));
         page.addView(label("阅读题库", 28, INK, true));
-        page.addView(label("当前共有 " + repository.size() + " 篇；未读少于 5 篇时会自动补充 30 篇。",
+        page.addView(label(repository.size() + " 篇文章 · " + unreadCount() + " 篇未读",
                 14, MUTED, false));
         page.addView(space(12));
         Button refresh = secondaryButton("刷新题库");
@@ -644,8 +638,6 @@ public class MainActivity extends Activity {
         LinearLayout page = page();
         scroll.addView(page);
         page.addView(label("生词复习", 28, INK, true));
-        page.addView(label("点按翻面 · 左滑认识并移除 · 右滑保留。复习数量不限。",
-                14, MUTED, false));
         page.addView(space(10));
         Button manageVocabulary = secondaryButton("管理全部生词与释义");
         manageVocabulary.setOnClickListener(view -> showVocabularyManager());
@@ -665,7 +657,7 @@ public class MainActivity extends Activity {
         }
         if (dueWords.isEmpty()) {
             LinearLayout done = card(GREEN_LIGHT);
-            done.addView(label("生词本为空，去阅读中积累新词吧", 21, GREEN, true));
+            done.addView(label("暂无生词", 21, GREEN, true));
             done.addView(space(6));
             done.addView(label("生词本 " + learningStore.totalCount() + " 个词义 · 已掌握 "
                     + learningStore.statusCount("mastered") + " 个", 14, MUTED, false));
@@ -822,12 +814,10 @@ public class MainActivity extends Activity {
         page.addView(backRow("返回复习", this::showReview));
         page.addView(space(12));
         page.addView(label("生词本管理", 28, INK, true));
-        page.addView(label("可以修正 AI 释义，或删除已经认识和误点的词。",
-                14, MUTED, false));
         page.addView(space(16));
         ArrayList<JSONObject> words = new ArrayList<>(learningStore.allWords(200));
         if (words.isEmpty()) {
-            page.addView(label("生词本还是空的。阅读时点击单词后会自动加入。",
+            page.addView(label("暂无生词",
                     16, MUTED, false));
             setScreen(scroll, false);
             return;
@@ -893,7 +883,6 @@ public class MainActivity extends Activity {
         LinearLayout page = page();
         scroll.addView(page);
         page.addView(label("阅读统计", 28, INK, true));
-        page.addView(label("数据只保存在这台手机上。累计篇数按不同文章计，正确率按首次作答计。", 14, MUTED, false));
         page.addView(space(20));
 
         LinearLayout grid = new LinearLayout(this);
@@ -1093,10 +1082,7 @@ public class MainActivity extends Activity {
             text.setSpan(new ClickableSpan() {
                 @Override
                 public void onClick(View widget) {
-                    String token = article.optString("id") + ":" + word.toLowerCase(Locale.ROOT);
                     if (wordBubble != null) wordBubble.dismiss();
-                    prefs.edit().putBoolean("lookedUp:" + token, true).apply();
-                    widget.invalidate();
                     showWordCard(article, word, sentence, (TextView) widget, wordStart);
                 }
 
@@ -1107,8 +1093,8 @@ public class MainActivity extends Activity {
                     paint.setTypeface(Typeface.create(paint.getTypeface(), Typeface.NORMAL));
                 }
             }, matcher.start(), matcher.end(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            final String lookupKey = "lookedUp:" + article.optString("id") + ":"
-                    + word.toLowerCase(Locale.ROOT);
+            final String lookupKey = "waveMark:" + article.optString("id") + ":"
+                    + word.toLowerCase(Locale.ROOT).replace('’', '\'');
             text.setSpan(new LookupMark(lookupKey), matcher.start(), matcher.end(),
                     Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         }
@@ -1224,6 +1210,20 @@ public class MainActivity extends Activity {
                 15, GREEN, false));
         sheet.addView(space(18));
 
+        String waveKey = "waveMark:" + article.optString("id") + ":" + key;
+        android.widget.Switch waveToggle = new android.widget.Switch(this);
+        waveToggle.setText("波浪线标记");
+        waveToggle.setTextSize(16);
+        waveToggle.setTextColor(INK);
+        waveToggle.setPadding(0, dp(8), 0, dp(8));
+        waveToggle.setMinHeight(dp(48));
+        waveToggle.setChecked(prefs.getBoolean(waveKey, false));
+        waveToggle.setOnCheckedChangeListener((button, checked) -> {
+            prefs.edit().putBoolean(waveKey, checked).apply();
+            invalidateLookupMarks(content);
+        });
+        sheet.addView(waveToggle);
+        sheet.addView(space(12));
         Button close = secondaryButton("继续阅读");
         close.setOnClickListener(view -> dialog.dismiss());
         sheet.addView(close);
@@ -1382,8 +1382,6 @@ public class MainActivity extends Activity {
         page.addView(backRow("返回文章", () -> showReader(article)));
         page.addView(space(12));
         page.addView(label("完成题目", 28, INK, true));
-        page.addView(label("题目和选项里的英文单词也可以直接点击查词。提交后即可完成今日打卡。",
-                14, MUTED, false));
         page.addView(space(18));
 
         int savedQuizScroll = session.quizScroll;
@@ -1474,8 +1472,7 @@ public class MainActivity extends Activity {
         LinearLayout page = page();
         scroll.addView(page);
         page.addView(label("今日打卡完成 ✓", 28, GREEN, true));
-        page.addView(label("答对 " + correct + " / " + selected.length
-                + " 题。正确率用于复盘，不影响打卡。", 16, INK, false));
+        page.addView(label("答对 " + correct + " / " + selected.length + " 题", 16, INK, false));
         page.addView(space(20));
         if (activeAssessment) {
             JSONObject result = latestAssessment();
@@ -1835,6 +1832,14 @@ public class MainActivity extends Activity {
     static final class LookupMark {
         final String preferenceKey;
         LookupMark(String preferenceKey) { this.preferenceKey = preferenceKey; }
+    }
+
+    private void invalidateLookupMarks(View view) {
+        if (view instanceof TextView) view.invalidate();
+        if (view instanceof ViewGroup) {
+            ViewGroup group = (ViewGroup) view;
+            for (int i = 0; i < group.getChildCount(); i++) invalidateLookupMarks(group.getChildAt(i));
+        }
     }
 
     private void drawLookupMarks(TextView view, Canvas canvas) {
