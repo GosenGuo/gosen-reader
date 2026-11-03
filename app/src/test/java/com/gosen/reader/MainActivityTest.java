@@ -108,7 +108,7 @@ public class MainActivityTest {
         return false;
     }
 
-    @Test public void firstLookupShowsBubbleAndSecondExpandsWithPersistentMarker() throws Exception {
+    @Test public void wordAlwaysShowsBubbleAndOnlyBubbleExpands() throws Exception {
         JSONObject a = article(0);
         Method clickable = MainActivity.class.getDeclaredMethod("makeClickableText",
                 JSONObject.class, String.class, String.class);
@@ -128,9 +128,15 @@ public class MainActivityTest {
         assertTrue(prefs.getBoolean("lookedUp:" + a.getString("id") + ":school", false));
         assertEquals(1, prefs.getInt("click:school", 0));
         span.onClick(anchor);
-        assertFalse(((android.widget.PopupWindow) field("wordBubble")).isShowing());
+        assertTrue(((android.widget.PopupWindow) field("wordBubble")).isShowing());
         assertEquals(2, prefs.getInt("click:school", 0));
-        assertEquals(1, text.getSpans(0, text.length(), android.text.style.LineBackgroundSpan.class).length);
+        ((android.widget.PopupWindow) field("wordBubble")).dismiss();
+        span.onClick(anchor);
+        android.widget.PopupWindow bubble = (android.widget.PopupWindow) field("wordBubble");
+        assertTrue(bubble.isShowing());
+        bubble.getContentView().performClick();
+        assertFalse(bubble.isShowing());
+        assertEquals(1, text.getSpans(0, text.length(), MainActivity.LookupMark.class).length);
     }
 
     @Test public void activityRecreationRestoresQuizAndAnswers() throws Exception {

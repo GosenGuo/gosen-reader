@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.graphics.Color;
+import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Typeface;
@@ -23,7 +24,6 @@ import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
 import android.text.style.LeadingMarginSpan;
-import android.text.style.LineBackgroundSpan;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
@@ -59,7 +59,6 @@ import java.util.regex.Pattern;
 
 public class MainActivity extends Activity {
     private PopupWindow wordBubble;
-    private String bubbleWord = "";
     private final Set<String> reviewRound = new HashSet<>();
     private static final Pattern WORD_PATTERN =
             Pattern.compile("[A-Za-z]+(?:['’][A-Za-z]+)*");
@@ -140,9 +139,9 @@ public class MainActivity extends Activity {
 
     private void applyPalette() {
         if (darkMode) {
-            GREEN = Color.rgb(130, 169, 255);
-            PRIMARY = Color.rgb(57, 112, 240);
-            GREEN_LIGHT = Color.rgb(35, 45, 67);
+            GREEN = Color.rgb(111, 210, 158);
+            PRIMARY = Color.rgb(38, 112, 77);
+            GREEN_LIGHT = Color.rgb(29, 53, 42);
             CREAM = Color.rgb(12, 13, 17);
             SURFACE = Color.rgb(26, 28, 34);
             INK = Color.rgb(235, 240, 236);
@@ -150,9 +149,9 @@ public class MainActivity extends Activity {
             GOLD = Color.rgb(238, 188, 87);
             DANGER = Color.rgb(242, 139, 126);
         } else {
-            GREEN = Color.rgb(44, 103, 234);
+            GREEN = Color.rgb(47, 107, 79);
             PRIMARY = GREEN;
-            GREEN_LIGHT = Color.rgb(232, 239, 255);
+            GREEN_LIGHT = Color.rgb(229, 239, 232);
             CREAM = Color.rgb(245, 246, 250);
             SURFACE = Color.WHITE;
             INK = Color.rgb(39, 43, 40);
@@ -175,7 +174,6 @@ public class MainActivity extends Activity {
     @Override
     protected void onPause() {
         if (wordBubble != null) wordBubble.dismiss();
-        bubbleWord = "";
         foreground = false;
         if (session != null) session.pause(SystemClock.elapsedRealtime());
         saveSession();
@@ -336,7 +334,6 @@ public class MainActivity extends Activity {
 
     private void setScreen(View view, boolean showNav) {
         if (wordBubble != null) wordBubble.dismiss();
-        bubbleWord = "";
         if (showNav) {
             if (session != null) session.pause(SystemClock.elapsedRealtime());
             saveSession();
@@ -997,12 +994,6 @@ public class MainActivity extends Activity {
                 + article.optInt("wordCount") + " 词", 13, MUTED, false));
         page.addView(space(16));
 
-        LinearLayout instruction = card(GREEN_LIGHT);
-        instruction.setPadding(dp(15), dp(12), dp(15), dp(12));
-        instruction.addView(label("直接点击任何不认识的英文单词查看释义", 14, GREEN, true));
-        page.addView(instruction);
-        page.addView(space(18));
-
         TextView body = label("", 19, INK, false);
         body.setLineSpacing(dp(7), 1.05f);
         body.setTextIsSelectable(false);
@@ -1105,12 +1096,10 @@ public class MainActivity extends Activity {
                 @Override
                 public void onClick(View widget) {
                     String token = article.optString("id") + ":" + word.toLowerCase(Locale.ROOT);
-                    boolean expand = token.equals(bubbleWord);
                     if (wordBubble != null) wordBubble.dismiss();
-                    bubbleWord = expand ? "" : token;
                     prefs.edit().putBoolean("lookedUp:" + token, true).apply();
                     widget.invalidate();
-                    showWordCard(article, word, sentence, expand ? null : (TextView) widget, wordStart);
+                    showWordCard(article, word, sentence, (TextView) widget, wordStart);
                 }
 
                 @Override
@@ -1120,33 +1109,10 @@ public class MainActivity extends Activity {
                     paint.setTypeface(Typeface.create(paint.getTypeface(), Typeface.NORMAL));
                 }
             }, matcher.start(), matcher.end(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            final int wordEnd = matcher.end();
             final String lookupKey = "lookedUp:" + article.optString("id") + ":"
                     + word.toLowerCase(Locale.ROOT);
-            text.setSpan((LineBackgroundSpan) (canvas, paint, left, right, top, baseline,
-                    bottom, source, lineStart, lineEnd, lineNumber) -> {
-                if (!prefs.getBoolean(lookupKey, false)) return;
-                int start = Math.max(wordStart, lineStart);
-                int end = Math.min(wordEnd, lineEnd);
-                if (start >= end) return;
-                float x = left + paint.measureText(source, lineStart, start);
-                float finish = x + paint.measureText(source, start, end);
-                Paint wavePaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-                wavePaint.setColor(GREEN);
-                wavePaint.setStyle(Paint.Style.STROKE);
-                wavePaint.setStrokeWidth(dp(1));
-                Path wave = new Path();
-                float y = baseline + dp(3);
-                wave.moveTo(x, y);
-                boolean up = true;
-                while (x < finish) {
-                    float next = Math.min(x + dp(4), finish);
-                    wave.quadTo((x + next) / 2, y + (up ? -dp(2) : dp(2)), next, y);
-                    x = next;
-                    up = !up;
-                }
-                canvas.drawPath(wave, wavePaint);
-            }, matcher.start(), matcher.end(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            text.setSpan(new LookupMark(lookupKey), matcher.start(), matcher.end(),
+                    Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         }
         return text;
     }
@@ -1214,7 +1180,7 @@ public class MainActivity extends Activity {
                 sentence, chinese, article.optString("id"), article.optString("title"), history);
         if (bubbleAnchor != null) {
             showTranslationBubble(bubbleAnchor, wordOffset, translation,
-                    () -> { bubbleWord = ""; showWordCard(article, displayedWord, sentence); });
+                    () -> showWordCard(article, displayedWord, sentence));
             return;
         }
         sheet.addView(label("词性  " + pos, 14, MUTED, false));
@@ -1454,7 +1420,12 @@ public class MainActivity extends Activity {
             RadioGroup group = new RadioGroup(this);
             JSONArray options = question.optJSONArray("options");
             for (int j = 0; j < options.length(); j++) {
-                RadioButton option = new RadioButton(this);
+                RadioButton option = new RadioButton(this) {
+                    @Override protected void onDraw(Canvas canvas) {
+                        super.onDraw(canvas);
+                        drawLookupMarks(this, canvas);
+                    }
+                };
                 option.setId(View.generateViewId());
                 option.setTag(j);
                 String optionText = options.optString(j);
@@ -1873,8 +1844,56 @@ public class MainActivity extends Activity {
         return drawable;
     }
 
+    static final class LookupMark {
+        final String preferenceKey;
+        LookupMark(String preferenceKey) { this.preferenceKey = preferenceKey; }
+    }
+
+    private void drawLookupMarks(TextView view, Canvas canvas) {
+        if (!(view.getText() instanceof Spanned) || view.getLayout() == null) return;
+        Spanned text = (Spanned) view.getText();
+        android.text.Layout layout = view.getLayout();
+        Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        paint.setColor(GREEN);
+        paint.setStyle(Paint.Style.STROKE);
+        paint.setStrokeWidth(dp(1));
+        canvas.save();
+        canvas.translate(view.getTotalPaddingLeft(), view.getTotalPaddingTop());
+        for (LookupMark mark : text.getSpans(0, text.length(), LookupMark.class)) {
+            if (!prefs.getBoolean(mark.preferenceKey, false)) continue;
+            int start = text.getSpanStart(mark), end = text.getSpanEnd(mark);
+            for (int line = layout.getLineForOffset(start);
+                    line <= layout.getLineForOffset(end - 1); line++) {
+                int from = Math.max(start, layout.getLineStart(line));
+                int to = Math.min(end, layout.getLineEnd(line));
+                Path selection = new Path();
+                layout.getSelectionPath(from, to, selection);
+                android.graphics.RectF bounds = new android.graphics.RectF();
+                selection.computeBounds(bounds, true);
+                float x = bounds.left, finish = bounds.right;
+                float y = layout.getLineBaseline(line) + dp(3);
+                Path wave = new Path();
+                wave.moveTo(x, y);
+                boolean up = true;
+                while (x < finish) {
+                    float next = Math.min(x + dp(4), finish);
+                    wave.quadTo((x + next) / 2, y + (up ? -dp(2) : dp(2)), next, y);
+                    x = next;
+                    up = !up;
+                }
+                canvas.drawPath(wave, paint);
+            }
+        }
+        canvas.restore();
+    }
+
     private TextView label(String value, int size, int color, boolean bold) {
-        TextView view = new TextView(this);
+        TextView view = new TextView(this) {
+            @Override protected void onDraw(Canvas canvas) {
+                super.onDraw(canvas);
+                drawLookupMarks(this, canvas);
+            }
+        };
         view.setText(value);
         view.setTextSize(size);
         view.setTextColor(color);
