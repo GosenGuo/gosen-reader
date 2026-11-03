@@ -97,6 +97,26 @@ public class MainActivityTest {
         assertTrue(containsText(activity.findViewById(android.R.id.content), "school"));
     }
 
+    @Test public void completedVocabularyRoundShowsSummaryInsteadOfRestarting() throws Exception {
+        LearningStore store = (LearningStore) field("learningStore");
+        String key = store.recordWord("school", "school", "学校", "n.", "schools", "学校",
+                "The school is open.", "学校开门了。", "test", "Test", 1);
+        @SuppressWarnings("unchecked")
+        java.util.Set<String> round = (java.util.Set<String>) field("reviewRound");
+        round.add(key);
+        Method review = MainActivity.class.getDeclaredMethod("showReview");
+        review.setAccessible(true);
+        review.invoke(activity);
+        View root = activity.findViewById(android.R.id.content);
+        assertTrue(containsText(root, "本轮已完成"));
+        assertTrue(containsText(root, "已复习 1 个单词"));
+        assertTrue(containsText(root, "再来一轮"));
+        assertEquals(1, round.size());
+        store.removeWord(key);
+        review.invoke(activity);
+        assertTrue(containsText(activity.findViewById(android.R.id.content), "本轮已完成"));
+    }
+
     private boolean containsText(View view, String value) {
         if (view instanceof android.widget.TextView
                 && value.contentEquals(((android.widget.TextView) view).getText())) return true;

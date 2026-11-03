@@ -657,16 +657,30 @@ public class MainActivity extends Activity {
             if (available.add(item.optString("senseKey", item.optString("lemma")))) dueWords.add(item);
         }
         dueWords.removeIf(item -> reviewRound.contains(item.optString("senseKey", item.optString("lemma"))));
-        if (dueWords.isEmpty() && learningStore.totalCount() > 0) {
-            reviewRound.clear();
-            dueWords.addAll(learningStore.allWords(Integer.MAX_VALUE));
-        }
         if (dueWords.isEmpty()) {
             LinearLayout done = card(GREEN_LIGHT);
-            done.addView(label("暂无生词", 21, GREEN, true));
-            done.addView(space(6));
-            done.addView(label("生词本 " + learningStore.totalCount() + " 个词 · 已掌握 "
-                    + learningStore.statusCount("mastered") + " 个", 14, MUTED, false));
+            if (reviewRound.isEmpty()) {
+                done.addView(label("暂无生词", 21, GREEN, true));
+            } else {
+                TextView check = label("✓", 48, GREEN, true);
+                check.setGravity(Gravity.CENTER);
+                done.addView(check);
+                done.addView(space(12));
+                TextView title = label("本轮已完成", 23, GREEN, true);
+                title.setGravity(Gravity.CENTER);
+                done.addView(title);
+                TextView count = label("已复习 " + reviewRound.size() + " 个单词", 16, MUTED, false);
+                count.setGravity(Gravity.CENTER);
+                done.addView(count);
+                done.addView(space(20));
+                if (learningStore.totalCount() > 0) {
+                    Button again = primaryButton("再来一轮");
+                    again.setOnClickListener(view -> { reviewRound.clear(); showReview(); });
+                    done.addView(again);
+                }
+                animateEnter(check, 0.7f, 0);
+                done.setContentDescription("本轮已完成，已复习 " + reviewRound.size() + " 个单词");
+            }
             page.addView(done);
             setScreen(scroll, true);
             return;
