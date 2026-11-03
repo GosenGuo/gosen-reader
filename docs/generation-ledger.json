@@ -2982,6 +2982,75 @@
           }
         }
       ]
+    },
+    {
+      "runId": "41638051624",
+      "startedAt": "2026-11-03T12:43:39.588Z",
+      "generatedAt": "2026-11-03T12:44:53.562Z",
+      "requestedArticles": 30,
+      "acceptedArticles": 1,
+      "completed": false,
+      "usage": {
+        "requests": 34,
+        "inputTokens": 140166,
+        "outputTokens": 26062,
+        "totalTokens": 166228,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": 0.07848435,
+        "reportedCosts": {},
+        "pricingComplete": true,
+        "models": {
+          "claude-haiku-4-5-20251001": {
+            "requests": 12,
+            "inputTokens": 79439,
+            "outputTokens": 3014,
+            "totalTokens": 82453,
+            "estimatedCostUsd": null,
+            "estimatedCostCny": 0.00264625
+          },
+          "gemini-2.5-flash": {
+            "requests": 22,
+            "inputTokens": 60727,
+            "outputTokens": 23048,
+            "totalTokens": 83775,
+            "estimatedCostUsd": null,
+            "estimatedCostCny": 0.0758381
+          }
+        }
+      },
+      "articles": [
+        {
+          "articleId": "web-ab09e0f05574cc41",
+          "title": "RACE 高中英语阅读 high13846",
+          "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+          "requests": 27,
+          "inputTokens": 100693,
+          "outputTokens": 24024,
+          "totalTokens": 124717,
+          "estimatedCostUsd": null,
+          "estimatedCostCny": 0.07529637,
+          "reportedCosts": {},
+          "pricingComplete": true,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 6,
+              "inputTokens": 40839,
+              "outputTokens": 1637,
+              "totalTokens": 42476,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00137267
+            },
+            "gemini-2.5-flash": {
+              "requests": 21,
+              "inputTokens": 59854,
+              "outputTokens": 22387,
+              "totalTokens": 82241,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.0739237
+            }
+          }
+        }
+      ]
     }
   ]
 }
