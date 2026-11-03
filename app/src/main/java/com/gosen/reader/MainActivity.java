@@ -15,8 +15,6 @@ import android.graphics.drawable.GradientDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.SystemClock;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -126,7 +124,7 @@ public class MainActivity extends Activity {
             openSession(unfinished);
             String page = session.page;
             if ("quiz".equals(page)) showQuiz(unfinished);
-            else if ("recall".equals(page)) showRecall(unfinished);
+            else if ("recall".equals(page)) showQuiz(unfinished);
             else showReader(unfinished);
         }
         repository.checkForUpdates((success, changed) -> {
@@ -357,7 +355,7 @@ public class MainActivity extends Activity {
         LinearLayout header = new LinearLayout(this);
         header.setOrientation(LinearLayout.HORIZONTAL);
         header.setGravity(Gravity.CENTER_VERTICAL);
-        TextView greeting = label("你好，Gosen", 28, INK, true);
+        TextView greeting = label("每日阅读", 34, INK, true);
         header.addView(greeting, new LinearLayout.LayoutParams(0,
                 ViewGroup.LayoutParams.WRAP_CONTENT, 1));
         Button theme = secondaryButton(darkMode ? "浅色" : "深色");
@@ -371,32 +369,37 @@ public class MainActivity extends Activity {
         header.addView(theme, new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT, dp(40)));
         page.addView(header);
-        page.addView(label("每天读一篇，让阅读变成习惯。", 15, MUTED, false));
+        page.addView(space(6));
+        page.addView(label(LocalDate.now().format(DateTimeFormatter.ofPattern("M月d日 EEEE", Locale.CHINA))
+                + "  ·  你好，Gosen", 14, MUTED, false));
         page.addView(space(24));
 
-        LinearLayout streakCard = card(PRIMARY);
-        streakCard.addView(label("连续阅读", 14, Color.WHITE, false));
+        LinearLayout widgets = new LinearLayout(this);
+        widgets.setOrientation(LinearLayout.HORIZONTAL);
+        LinearLayout streakCard = card(SURFACE);
+        streakCard.addView(label("连续阅读", 14, MUTED, false));
         TextView streak = label(prefs.getInt("streak", 0) + " 天", 38,
-                Color.WHITE, true);
+                GREEN, true);
         streak.setPadding(0, dp(4), 0, dp(4));
         streakCard.addView(streak);
-        String doneText = isTodayDone() ? "今日学习闭环已完成 ✓"
-                : "复习 → 阅读 → 答题 → 复盘";
-        streakCard.addView(label(doneText, 14, Color.WHITE, false));
-        page.addView(streakCard);
-        page.addView(space(18));
+        String doneText = isTodayDone() ? "今日已打卡 ✓" : "今天也读一篇";
+        streakCard.addView(label(doneText, 13, MUTED, false));
+        widgets.addView(streakCard, new LinearLayout.LayoutParams(0,
+                ViewGroup.LayoutParams.MATCH_PARENT, 1));
 
         LinearLayout reviewCard = card(GREEN_LIGHT);
         int due = learningStore.dueCount();
-        reviewCard.addView(label("生词复习", 18, GREEN, true));
-        reviewCard.addView(label(due > 0 ? "今天有 " + due + " 个词待复习"
-                : "今天的生词已复习完", 14, MUTED, false));
-        reviewCard.addView(space(10));
-        Button review = secondaryButton(due > 0 ? "开始复习" : "自由复习");
-        review.setOnClickListener(view -> showReview());
-        reviewCard.addView(review);
-        page.addView(reviewCard);
-        page.addView(space(18));
+        reviewCard.addView(label("生词复习", 14, MUTED, false));
+        reviewCard.addView(label(String.valueOf(due), 38, GREEN, true));
+        reviewCard.addView(label(due > 0 ? "待复习  ·  开始 →" : "自由复习 →", 13, GREEN, true));
+        reviewCard.setOnClickListener(view -> showReview());
+        reviewCard.setContentDescription("生词复习，" + due + " 个到期词，点击开始");
+        LinearLayout.LayoutParams reviewParams = new LinearLayout.LayoutParams(0,
+                ViewGroup.LayoutParams.MATCH_PARENT, 1);
+        reviewParams.leftMargin = dp(12);
+        widgets.addView(reviewCard, reviewParams);
+        page.addView(widgets);
+        page.addView(space(28));
 
         page.addView(label("今日阅读", 20, INK, true));
         page.addView(space(10));
@@ -425,6 +428,15 @@ public class MainActivity extends Activity {
         LinearLayout progress = card(SURFACE);
         progress.addView(label("已完成 " + completedDaysThisMonth() + " 天", 18, INK, true));
         progress.addView(space(8));
+        android.widget.ProgressBar monthProgress = new android.widget.ProgressBar(this, null,
+                android.R.attr.progressBarStyleHorizontal);
+        monthProgress.setMax(LocalDate.now().lengthOfMonth());
+        monthProgress.setProgress(completedDaysThisMonth());
+        monthProgress.setProgressTintList(android.content.res.ColorStateList.valueOf(GREEN));
+        monthProgress.setProgressBackgroundTintList(android.content.res.ColorStateList.valueOf(GREEN_LIGHT));
+        progress.addView(monthProgress, new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, dp(8)));
+        progress.addView(space(12));
         TextView hint = label("目标：每天一篇 · 正确率不影响打卡", 14, MUTED, false);
         progress.addView(hint);
         progress.addView(space(8));
@@ -1008,61 +1020,10 @@ public class MainActivity extends Activity {
         page.addView(body);
         page.addView(space(28));
 
-        Button finish = primaryButton("完成阅读，先回忆主旨");
-        finish.setOnClickListener(view -> showRecall(article));
+        Button finish = primaryButton("完成阅读，开始答题");
+        finish.setOnClickListener(view -> showQuiz(article));
         page.addView(finish);
         page.addView(space(24));
-        setScreen(scroll, false);
-    }
-
-    private void showRecall(JSONObject article) {
-        onHomeScreen = false;
-        enterReadingPage(article, "recall");
-        ScrollView scroll = screenScroll();
-        LinearLayout page = page();
-        scroll.addView(page);
-        page.addView(backRow("返回文章", () -> showReader(article)));
-        page.addView(space(14));
-        page.addView(label("60 秒主动回忆", 28, INK, true));
-        page.addView(label("先不看原文，用一句话说出这篇文章主要讲了什么。",
-                16, MUTED, false));
-        page.addView(space(18));
-
-        LinearLayout recallCard = card(SURFACE);
-        EditText recall = new EditText(this);
-        recall.setHint("可以输入一句概括，也可以只在脑中回忆");
-        recall.setText(session.recall);
-        recall.addTextChangedListener(new TextWatcher() {
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (session != null) { session.recall = s.toString(); saveSession(); }
-            }
-            public void afterTextChanged(Editable value) { }
-        });
-        recall.setHintTextColor(MUTED);
-        recall.setTextColor(INK);
-        recall.setTextSize(16);
-        recall.setMinLines(3);
-        recall.setGravity(Gravity.TOP);
-        recall.setBackground(rounded(GREEN_LIGHT, 12));
-        recall.setPadding(dp(14), dp(12), dp(14), dp(12));
-        recallCard.addView(recall, new LinearLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-        recallCard.addView(space(14));
-        Button complete = primaryButton("我已回忆，开始答题");
-        complete.setOnClickListener(view -> {
-            String key = "recall:" + article.optString("id") + ":"
-                    + LocalDate.now().format(DATE_FORMAT);
-            prefs.edit().putBoolean(key, true)
-                    .putString(key + ":text", recall.getText().toString().trim()).apply();
-            showQuiz(article);
-        });
-        recallCard.addView(complete);
-        recallCard.addView(space(10));
-        Button forgot = secondaryButton("完全想不起来，返回文章");
-        forgot.setOnClickListener(view -> showReader(article));
-        recallCard.addView(forgot);
-        page.addView(recallCard);
         setScreen(scroll, false);
     }
 
@@ -1176,7 +1137,7 @@ public class MainActivity extends Activity {
         JSONObject translations = article.optJSONObject("sentenceTranslations");
         String chinese = translations == null ? "" : translations.optString(sentence);
         if (showingPassage && session != null) { session.clicks++; saveSession(); }
-        String senseKey = learningStore.recordWord(lemma, displayedWord, translation, pos, forms, meanings,
+        learningStore.recordWord(lemma, displayedWord, translation, pos, forms, meanings,
                 sentence, chinese, article.optString("id"), article.optString("title"), history);
         if (bubbleAnchor != null) {
             showTranslationBubble(bubbleAnchor, wordOffset, translation,
@@ -1226,48 +1187,6 @@ public class MainActivity extends Activity {
                 15, GREEN, false));
         sheet.addView(space(18));
 
-        Button correct = secondaryButton("释义不准确？手动修正");
-        EditText correction = new EditText(this);
-        correction.setText(translation);
-        correction.setTextColor(INK);
-        correction.setTextSize(16);
-        correction.setSingleLine(false);
-        correction.setVisibility(View.GONE);
-        correction.setBackground(rounded(GREEN_LIGHT, 12));
-        correction.setPadding(dp(12), dp(10), dp(12), dp(10));
-        Button saveCorrection = primaryButton("保存修正");
-        saveCorrection.setVisibility(View.GONE);
-        correct.setOnClickListener(view -> {
-            correction.setVisibility(View.VISIBLE);
-            saveCorrection.setVisibility(View.VISIBLE);
-            correct.setVisibility(View.GONE);
-        });
-        saveCorrection.setOnClickListener(view -> {
-            String corrected = correction.getText().toString().trim();
-            if (corrected.isEmpty()) {
-                Toast.makeText(this, "释义不能为空", Toast.LENGTH_SHORT).show();
-                return;
-            }
-            prefs.edit().putString(overrideKey, corrected).apply();
-            learningStore.correctMeaning(senseKey, corrected, sentence);
-            translationView.setText(corrected);
-            correction.setVisibility(View.GONE);
-            saveCorrection.setVisibility(View.GONE);
-            correct.setVisibility(View.VISIBLE);
-            Toast.makeText(this, "已保存你的释义", Toast.LENGTH_SHORT).show();
-        });
-        sheet.addView(correct);
-        sheet.addView(correction);
-        sheet.addView(saveCorrection);
-        sheet.addView(space(8));
-        Button remove = secondaryButton("我已认识 · 移出生词本");
-        remove.setOnClickListener(view -> {
-            learningStore.removeWord(senseKey);
-            Toast.makeText(this, "已移出生词本", Toast.LENGTH_SHORT).show();
-            dialog.dismiss();
-        });
-        sheet.addView(remove);
-        sheet.addView(space(8));
         Button close = secondaryButton("继续阅读");
         close.setOnClickListener(view -> dialog.dismiss());
         sheet.addView(close);
@@ -1297,25 +1216,57 @@ public class MainActivity extends Activity {
         tip.measure(View.MeasureSpec.makeMeasureSpec(
                 getResources().getDisplayMetrics().widthPixels - dp(40), View.MeasureSpec.AT_MOST),
                 View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
-        PopupWindow popup = new PopupWindow(tip, tip.getMeasuredWidth(), tip.getMeasuredHeight(), false);
+        int[] location = new int[2];
+        anchor.getLocationOnScreen(location);
+        int line = anchor.getLayout().getLineForOffset(offset);
+        Matcher word = WORD_PATTERN.matcher(anchor.getText());
+        word.region(offset, anchor.getText().length());
+        int end = word.lookingAt() ? word.end() : offset + 1;
+        Path selection = new Path();
+        anchor.getLayout().getSelectionPath(offset,
+                Math.min(end, anchor.getLayout().getLineEnd(line)), selection);
+        android.graphics.RectF bounds = new android.graphics.RectF();
+        selection.computeBounds(bounds, true);
+        float wordCenter = location[0] + anchor.getTotalPaddingLeft()
+                + bounds.centerX() - anchor.getScrollX();
+        int width = Math.max(tip.getMeasuredWidth(), dp(48));
+        int arrowHeight = dp(8);
+        int height = tip.getMeasuredHeight() + arrowHeight;
+        android.graphics.Rect visible = new android.graphics.Rect();
+        anchor.getWindowVisibleDisplayFrame(visible);
+        int x = Math.max(visible.left + dp(12), Math.min((int) wordCenter - width / 2,
+                visible.right - width - dp(12)));
+        int y = location[1] + anchor.getTotalPaddingTop()
+                + anchor.getLayout().getLineTop(line) - anchor.getScrollY() - height - dp(3);
+        boolean above = y >= visible.top;
+        if (!above) y = location[1] + anchor.getTotalPaddingTop()
+                + anchor.getLayout().getLineBottom(line) - anchor.getScrollY() + dp(3);
+        final float arrowCenter = wordCenter - x;
+        FrameLayout bubble = new FrameLayout(this) {
+            @Override protected void onDraw(Canvas canvas) {
+                super.onDraw(canvas);
+                Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
+                paint.setColor(SURFACE);
+                Path arrow = new Path();
+                float base = above ? getHeight() - arrowHeight : arrowHeight;
+                arrow.moveTo(arrowCenter - dp(7), base);
+                arrow.lineTo(arrowCenter, above ? getHeight() : 0);
+                arrow.lineTo(arrowCenter + dp(7), base);
+                arrow.close();
+                canvas.drawPath(arrow, paint);
+            }
+        };
+        bubble.setWillNotDraw(false);
+        bubble.setPadding(0, above ? 0 : arrowHeight, 0, above ? arrowHeight : 0);
+        bubble.addView(tip, new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+        PopupWindow popup = new PopupWindow(bubble, width, height, false);
         popup.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         popup.setElevation(dp(10));
         popup.setOutsideTouchable(true);
         if (Build.VERSION.SDK_INT >= 29) popup.setTouchModal(false);
         wordBubble = popup;
-        tip.setOnClickListener(v -> { popup.dismiss(); expand.run(); });
-        int[] location = new int[2];
-        anchor.getLocationOnScreen(location);
-        int line = anchor.getLayout().getLineForOffset(offset);
-        int x = location[0] + anchor.getTotalPaddingLeft()
-                + (int) anchor.getLayout().getPrimaryHorizontal(offset) - anchor.getScrollX();
-        int y = location[1] + anchor.getTotalPaddingTop()
-                + anchor.getLayout().getLineTop(line) - anchor.getScrollY() - tip.getMeasuredHeight() - dp(8);
-        android.graphics.Rect visible = new android.graphics.Rect();
-        anchor.getWindowVisibleDisplayFrame(visible);
-        if (y < visible.top) y = location[1] + anchor.getTotalPaddingTop()
-                + anchor.getLayout().getLineBottom(line) - anchor.getScrollY() + dp(8);
-        x = Math.max(dp(16), Math.min(x, visible.right - tip.getMeasuredWidth() - dp(16)));
+        bubble.setOnClickListener(v -> { popup.dismiss(); expand.run(); });
         popup.showAtLocation(anchor, Gravity.TOP | Gravity.LEFT, x, y);
     }
 

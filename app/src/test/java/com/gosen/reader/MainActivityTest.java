@@ -148,6 +148,16 @@ public class MainActivityTest {
         assertEquals(groups().get(0).getChildAt(1).getId(), groups().get(0).getCheckedRadioButtonId());
     }
 
+    @Test public void legacyRecallDraftResumesDirectlyInQuiz() throws Exception {
+        page("showReader", article(0));
+        ((ReadingSession) field("session")).page = "recall";
+        controller.pause().stop().destroy();
+        controller = null;
+        start();
+        assertEquals("quiz", ((ReadingSession) field("session")).page);
+        assertFalse(containsText(activity.findViewById(android.R.id.content), "60 秒主动回忆"));
+    }
+
     @Test public void backgroundTimeIsExcludedFromReading() throws Exception {
         page("showReader", article(0));
         ShadowSystemClock.advanceBy(Duration.ofSeconds(20));
