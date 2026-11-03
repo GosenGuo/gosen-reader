@@ -117,6 +117,48 @@ public class MainActivityTest {
         assertTrue(containsText(activity.findViewById(android.R.id.content), "本轮已完成"));
     }
 
+    @Test public void flashcardWordKeepsPositionAndSizeAcrossFaces() throws Exception {
+        LearningStore store = (LearningStore) field("learningStore");
+        store.recordWord("accompany", "accompany", "陪伴", "v.", "accompanies; accompanied; accompanying",
+                "陪伴；伴随", "Accompanied only by her dog, she survived cold weather.",
+                "她在狗的陪伴下度过了寒冷的天气。", "test", "Test", 1);
+        Method review = MainActivity.class.getDeclaredMethod("showReview");
+        review.setAccessible(true);
+        review.invoke(activity);
+        View root = activity.findViewById(android.R.id.content);
+        root.measure(View.MeasureSpec.makeMeasureSpec(420, View.MeasureSpec.EXACTLY),
+                View.MeasureSpec.makeMeasureSpec(1000, View.MeasureSpec.EXACTLY));
+        root.layout(0, 0, 420, 1000);
+        android.widget.TextView word = root.findViewWithTag("reviewWord");
+        int[] before = new int[2];
+        word.getLocationOnScreen(before);
+        float size = word.getTextSize();
+        android.widget.FrameLayout card = (android.widget.FrameLayout) word.getParent();
+        card.getChildAt(0).setVisibility(View.GONE);
+        card.getChildAt(1).setVisibility(View.VISIBLE);
+        root.measure(View.MeasureSpec.makeMeasureSpec(420, View.MeasureSpec.EXACTLY),
+                View.MeasureSpec.makeMeasureSpec(1000, View.MeasureSpec.EXACTLY));
+        root.layout(0, 0, 420, 1000);
+        int[] after = new int[2];
+        word.getLocationOnScreen(after);
+        assertArrayEquals(before, after);
+        assertEquals(size, word.getTextSize(), 0f);
+        assertTrue(containsText(root, "陪伴"));
+    }
+
+    @Test public void readerJustifiesTextWithoutChangingLookupOffsets() throws Exception {
+        JSONObject a = new JSONObject(article(0).toString());
+        String source = "   First paragraph has several words.\n    Second paragraph continues here.";
+        a.put("body", source);
+        page("showReader", a);
+        android.widget.TextView body = activity.findViewById(android.R.id.content).findViewWithTag("readingBody");
+        assertEquals(android.text.Layout.JUSTIFICATION_MODE_INTER_WORD, body.getJustificationMode());
+        assertEquals(source, body.getText().toString());
+        android.text.Spanned text = (android.text.Spanned) body.getText();
+        assertEquals(2, text.getSpans(0, text.length(), MainActivity.CollapsedIndentSpan.class).length);
+        assertTrue(text.getSpans(3, 8, android.text.style.ClickableSpan.class).length > 0);
+    }
+
     private boolean containsText(View view, String value) {
         if (view instanceof android.widget.TextView
                 && value.contentEquals(((android.widget.TextView) view).getText())) return true;

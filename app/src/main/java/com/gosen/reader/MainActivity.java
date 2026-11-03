@@ -26,6 +26,8 @@ import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
 import android.text.style.LeadingMarginSpan;
+import android.text.style.LineHeightSpan;
+import android.text.style.ReplacementSpan;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
@@ -703,19 +705,15 @@ public class MainActivity extends Activity {
         flashcard.setElevation(dp(3));
 
         LinearLayout front = new LinearLayout(this);
-        front.setGravity(Gravity.CENTER);
-        TextView frontWord = label(displayWord, 38, INK, true);
-        frontWord.setGravity(Gravity.CENTER);
-        front.addView(frontWord);
+        front.setMinimumHeight(dp(304));
 
         LinearLayout back = new LinearLayout(this);
         back.setOrientation(LinearLayout.VERTICAL);
-        back.setGravity(Gravity.CENTER_VERTICAL);
+        back.setPadding(0, dp(196), 0, 0);
         back.setVisibility(View.GONE);
-        TextView backWord = label(displayWord + "  ·  " + item.optString("pos", "—"),
-                25, INK, true);
-        backWord.setGravity(Gravity.CENTER);
-        back.addView(backWord);
+        TextView partOfSpeech = label(item.optString("pos", "—"), 14, MUTED, false);
+        partOfSpeech.setGravity(Gravity.CENTER);
+        back.addView(partOfSpeech);
         TextView backMeaning = label(contextMeaning, 26, GREEN, true);
         backMeaning.setGravity(Gravity.CENTER);
         back.addView(backMeaning);
@@ -737,9 +735,20 @@ public class MainActivity extends Activity {
                 + item.optInt("contextCount", 1) + " 个语境", 13, MUTED, false));
 
         flashcard.addView(front, new FrameLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         flashcard.addView(back, new FrameLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        TextView fixedWord = label(displayWord, 38, INK, true);
+        fixedWord.setTag("reviewWord");
+        fixedWord.setGravity(Gravity.CENTER);
+        fixedWord.setMaxLines(1);
+        fixedWord.setAutoSizeTextTypeUniformWithConfiguration(20, 38, 1,
+                android.util.TypedValue.COMPLEX_UNIT_SP);
+        FrameLayout.LayoutParams wordParams = new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, dp(64), Gravity.TOP);
+        wordParams.topMargin = dp(120);
+        flashcard.addView(fixedWord, wordParams);
+        flashcard.setPivotY(dp(180));
         TextView swipeFeedback = label("", 28, GREEN, true);
         swipeFeedback.setGravity(Gravity.CENTER);
         swipeFeedback.setAlpha(0f);
@@ -757,7 +766,7 @@ public class MainActivity extends Activity {
             if (content.getChildAt(0) == scroll) showReview();
         });
         page.addView(flashcard, new LinearLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, dp(360)));
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         page.addView(space(12));
         LinearLayout swipeGuide = new LinearLayout(this);
         swipeGuide.setGravity(Gravity.CENTER);
@@ -1087,14 +1096,24 @@ public class MainActivity extends Activity {
 
         page.addView(backRow("阅读文章", this::showHome));
         page.addView(space(12));
-        page.addView(label(article.optString("title"), 27, INK, true));
+        String readerTitle = article.optString("title")
+                .replaceFirst("^RACE\\s+高中英语阅读\\s+", "");
+        page.addView(label(readerTitle, 23, INK, true));
         page.addView(space(5));
-        page.addView(label(article.optString("source") + "  ·  "
+        String source = article.optString("source");
+        if (source.startsWith("RACE")) source = "RACE";
+        page.addView(label(source + "  ·  "
                 + article.optInt("wordCount") + " 词", 13, MUTED, false));
         page.addView(space(16));
 
         TextView body = label("", 19, INK, false);
-        body.setLineSpacing(dp(7), 1.05f);
+        body.setTag("readingBody");
+        body.setLineSpacing(dp(4), 1.12f);
+        body.setJustificationMode(android.text.Layout.JUSTIFICATION_MODE_INTER_WORD);
+        body.setBreakStrategy(android.text.Layout.BREAK_STRATEGY_HIGH_QUALITY);
+        body.setHyphenationFrequency(android.text.Layout.HYPHENATION_FREQUENCY_NORMAL);
+        body.setTextLocale(Locale.US);
+        body.setTextDirection(View.TEXT_DIRECTION_LTR);
         body.setTextIsSelectable(false);
         body.setHighlightColor(Color.TRANSPARENT);
         body.setMovementMethod(LinkMovementMethod.getInstance());
@@ -1124,6 +1143,17 @@ public class MainActivity extends Activity {
             if (!body.substring(paragraphStart, paragraphEnd).trim().isEmpty()) {
                 text.setSpan(new LeadingMarginSpan.Standard(dp(38), 0),
                         paragraphStart, paragraphEnd, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                int firstLetter = paragraphStart;
+                while (firstLetter < paragraphEnd && Character.isWhitespace(body.charAt(firstLetter))) firstLetter++;
+                if (firstLetter > paragraphStart) text.setSpan(new CollapsedIndentSpan(),
+                        paragraphStart, firstLetter, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                final int paragraphBoundary = paragraphEnd;
+                text.setSpan((LineHeightSpan) (source, start, end, spanTop, lineTop, metrics) -> {
+                    if (end >= paragraphBoundary) {
+                        metrics.descent += dp(10);
+                        metrics.bottom += dp(10);
+                    }
+                }, paragraphEnd - 1, paragraphEnd, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
             }
             if (newline < 0) break;
             paragraphStart = newline + 1;
@@ -1910,6 +1940,13 @@ public class MainActivity extends Activity {
     static final class LookupMark {
         final String lemma;
         LookupMark(String lemma) { this.lemma = lemma; }
+    }
+
+    static final class CollapsedIndentSpan extends ReplacementSpan {
+        @Override public int getSize(Paint paint, CharSequence text, int start, int end,
+                                     Paint.FontMetricsInt metrics) { return 0; }
+        @Override public void draw(Canvas canvas, CharSequence text, int start, int end,
+                                   float x, int top, int baseline, int bottom, Paint paint) { }
     }
 
     private void invalidateLookupMarks(View view) {
