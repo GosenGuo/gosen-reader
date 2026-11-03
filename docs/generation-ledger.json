@@ -2982,6 +2982,98 @@
           }
         }
       ]
+    },
+    {
+      "runId": "41638051624",
+      "startedAt": "2026-11-03T12:43:39.588Z",
+      "generatedAt": "2026-11-03T12:45:58.160Z",
+      "requestedArticles": 30,
+      "acceptedArticles": 2,
+      "completed": false,
+      "usage": {
+        "requests": 64,
+        "inputTokens": 205406,
+        "outputTokens": 55049,
+        "totalTokens": 260455,
+        "estimatedCostUsd": null,
+        "estimatedCostCny": 0.17052385,
+        "reportedCosts": {},
+        "pricingComplete": true,
+        "models": {
+          "claude-haiku-4-5-20251001": {
+            "requests": 12,
+            "inputTokens": 79439,
+            "outputTokens": 3014,
+            "totalTokens": 82453,
+            "estimatedCostUsd": null,
+            "estimatedCostCny": 0.00264625
+          },
+          "gemini-2.5-flash": {
+            "requests": 52,
+            "inputTokens": 125967,
+            "outputTokens": 52035,
+            "totalTokens": 178002,
+            "estimatedCostUsd": null,
+            "estimatedCostCny": 0.1678776
+          }
+        }
+      },
+      "articles": [
+        {
+          "articleId": "web-ab09e0f05574cc41",
+          "title": "RACE 高中英语阅读 high13846",
+          "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+          "requests": 27,
+          "inputTokens": 100693,
+          "outputTokens": 24024,
+          "totalTokens": 124717,
+          "estimatedCostUsd": null,
+          "estimatedCostCny": 0.07529637,
+          "reportedCosts": {},
+          "pricingComplete": true,
+          "models": {
+            "claude-haiku-4-5-20251001": {
+              "requests": 6,
+              "inputTokens": 40839,
+              "outputTokens": 1637,
+              "totalTokens": 42476,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.00137267
+            },
+            "gemini-2.5-flash": {
+              "requests": 21,
+              "inputTokens": 59854,
+              "outputTokens": 22387,
+              "totalTokens": 82241,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.0739237
+            }
+          }
+        },
+        {
+          "articleId": "web-5eb84eb3bce76526",
+          "title": "RACE 高中英语阅读 high13842",
+          "sourceUrl": "https://www.cs.cmu.edu/~glai1/data/race/",
+          "requests": 30,
+          "inputTokens": 65240,
+          "outputTokens": 28987,
+          "totalTokens": 94227,
+          "estimatedCostUsd": null,
+          "estimatedCostCny": 0.0920395,
+          "reportedCosts": {},
+          "pricingComplete": true,
+          "models": {
+            "gemini-2.5-flash": {
+              "requests": 30,
+              "inputTokens": 65240,
+              "outputTokens": 28987,
+              "totalTokens": 94227,
+              "estimatedCostUsd": null,
+              "estimatedCostCny": 0.0920395
+            }
+          }
+        }
+      ]
     }
   ]
 }
