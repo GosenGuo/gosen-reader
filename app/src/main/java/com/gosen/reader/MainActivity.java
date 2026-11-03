@@ -800,6 +800,10 @@ public class MainActivity extends Activity {
     }
 
     private void showVocabularyManager() {
+        showVocabularyManager(0);
+    }
+
+    private void showVocabularyManager(int scrollY) {
         onHomeScreen = false;
         ScrollView scroll = screenScroll();
         LinearLayout page = page();
@@ -852,8 +856,9 @@ public class MainActivity extends Activity {
             });
             Button remove = secondaryButton("移出生词本");
             remove.setOnClickListener(view -> {
+                int position = scroll.getScrollY();
                 learningStore.removeWord(senseKey);
-                showVocabularyManager();
+                showVocabularyManager(position);
             });
             box.addView(edit);
             box.addView(correction);
@@ -867,6 +872,9 @@ public class MainActivity extends Activity {
             page.addView(label("当前只显示最近的 200 个词。", 13, MUTED, false));
         }
         setScreen(scroll, false);
+        scroll.post(() -> {
+            if (content.getChildAt(0) == scroll) scroll.scrollTo(0, scrollY);
+        });
     }
 
     private void showStats() {
