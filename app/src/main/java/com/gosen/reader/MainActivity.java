@@ -62,6 +62,7 @@ import java.util.concurrent.Executors;
 public class MainActivity extends Activity {
     private PopupWindow wordBubble;
     private final Set<String> reviewRound = new HashSet<>();
+    private final Map<String, JSONObject> fallbackEntries = new HashMap<>();
     private final ExecutorService recommendations = Executors.newSingleThreadExecutor();
     private static final Pattern WORD_PATTERN =
             Pattern.compile("[A-Za-z]+(?:['’][A-Za-z]+)*");
@@ -361,10 +362,11 @@ public class MainActivity extends Activity {
         LinearLayout header = new LinearLayout(this);
         header.setOrientation(LinearLayout.HORIZONTAL);
         header.setGravity(Gravity.CENTER_VERTICAL);
-        TextView greeting = label("每日阅读", 34, INK, true);
+        TextView greeting = label("阅读", 34, INK, true);
         header.addView(greeting, new LinearLayout.LayoutParams(0,
                 ViewGroup.LayoutParams.WRAP_CONTENT, 1));
-        Button theme = secondaryButton(darkMode ? "浅色" : "深色");
+        Button theme = secondaryButton(darkMode ? "☀" : "☾");
+        theme.setContentDescription(darkMode ? "切换浅色模式" : "切换深色模式");
         theme.setTextSize(13);
         theme.setMinHeight(dp(40));
         theme.setPadding(dp(12), 0, dp(12), 0);
@@ -376,28 +378,25 @@ public class MainActivity extends Activity {
                 ViewGroup.LayoutParams.WRAP_CONTENT, dp(40)));
         page.addView(header);
         page.addView(space(6));
-        page.addView(label(LocalDate.now().format(DateTimeFormatter.ofPattern("M月d日 EEEE", Locale.CHINA))
-                + "  ·  你好，Gosen", 14, MUTED, false));
+        page.addView(label(LocalDate.now().format(DateTimeFormatter.ofPattern("MM.dd")), 14, MUTED, false));
         page.addView(space(24));
 
         LinearLayout widgets = new LinearLayout(this);
         widgets.setOrientation(LinearLayout.HORIZONTAL);
         LinearLayout streakCard = card(SURFACE);
-        streakCard.addView(label("连续阅读", 14, MUTED, false));
+        streakCard.addView(label("连续", 14, MUTED, false));
         TextView streak = label(prefs.getInt("streak", 0) + " 天", 38,
                 GREEN, true);
         streak.setPadding(0, dp(4), 0, dp(4));
         streakCard.addView(streak);
-        String doneText = isTodayDone() ? "今日已打卡 ✓" : "今日未打卡";
-        streakCard.addView(label(doneText, 13, MUTED, false));
+        if (isTodayDone()) streakCard.addView(label("✓", 13, GREEN, true));
         widgets.addView(streakCard, new LinearLayout.LayoutParams(0,
                 ViewGroup.LayoutParams.MATCH_PARENT, 1));
 
         LinearLayout reviewCard = card(GREEN_LIGHT);
         int due = learningStore.dueCount();
-        reviewCard.addView(label("生词复习", 14, MUTED, false));
+        reviewCard.addView(label("生词", 14, MUTED, false));
         reviewCard.addView(label(String.valueOf(due), 38, GREEN, true));
-        reviewCard.addView(label(due > 0 ? "待复习  ·  开始 →" : "自由复习 →", 13, GREEN, true));
         reviewCard.setOnClickListener(view -> showReview());
         reviewCard.setContentDescription("生词复习，" + due + " 个到期词，点击开始");
         LinearLayout.LayoutParams reviewParams = new LinearLayout.LayoutParams(0,
@@ -407,8 +406,6 @@ public class MainActivity extends Activity {
         page.addView(widgets);
         page.addView(space(28));
 
-        page.addView(label("今日阅读", 20, INK, true));
-        page.addView(space(10));
         if (repository.size() == 0) {
             LinearLayout empty = card(SURFACE);
             empty.addView(label("题库暂时无法读取", 17, INK, true));
@@ -416,7 +413,8 @@ public class MainActivity extends Activity {
         } else {
             LinearLayout recommendation = new LinearLayout(this);
             recommendation.setOrientation(LinearLayout.VERTICAL);
-            recommendation.addView(label("正在挑选适合你的文章…", 15, MUTED, false));
+            android.widget.ProgressBar loading = new android.widget.ProgressBar(this);
+            recommendation.addView(loading, new LinearLayout.LayoutParams(dp(28), dp(28)));
             page.addView(recommendation);
             JSONObject assessment = assessmentArticleIfDue();
             ArrayList<JSONObject> candidates = new ArrayList<>();
@@ -431,22 +429,15 @@ public class MainActivity extends Activity {
                 runOnUiThread(() -> {
                     if (isDestroyed() || content.getChildAt(0) != scroll) return;
                     recommendation.removeAllViews();
-                    if (isCurrentAssessmentArticle(article)) {
-                        LinearLayout assessmentNotice = card(GREEN_LIGHT);
-                        assessmentNotice.addView(label("阶段检测已到期", 17, GREEN, true));
-                        recommendation.addView(assessmentNotice);
-                        recommendation.addView(space(10));
-                    }
                     recommendation.addView(articleCard(article, true));
                 });
             });
         }
 
         page.addView(space(20));
-        page.addView(label("本月进度", 20, INK, true));
-        page.addView(space(10));
         LinearLayout progress = card(SURFACE);
-        progress.addView(label("已完成 " + completedDaysThisMonth() + " 天", 18, INK, true));
+        progress.addView(label("本月  " + completedDaysThisMonth() + " / "
+                + LocalDate.now().lengthOfMonth(), 18, INK, true));
         progress.addView(space(8));
         android.widget.ProgressBar monthProgress = new android.widget.ProgressBar(this, null,
                 android.R.attr.progressBarStyleHorizontal);
@@ -456,9 +447,6 @@ public class MainActivity extends Activity {
         monthProgress.setProgressBackgroundTintList(android.content.res.ColorStateList.valueOf(GREEN_LIGHT));
         progress.addView(monthProgress, new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, dp(8)));
-        progress.addView(space(12));
-        progress.addView(label(repository.size() + " 篇文章 · "
-                + unreadCount() + " 篇未读", 13, MUTED, false));
         page.addView(progress);
 
         setScreen(scroll, true);
@@ -553,21 +541,26 @@ public class MainActivity extends Activity {
     private LinearLayout articleCard(JSONObject article, boolean prominent, LinearLayout box) {
         box.removeAllViews();
         boolean assessment = isCurrentAssessmentArticle(article);
-        if (assessment) {
+        if (assessment && !prominent) {
             box.addView(label("阶段检测 · 固定难度对比", 13, GOLD, true));
             box.addView(space(6));
         }
-        TextView tag = label(article.optString("difficulty", "高中") + "  ·  "
+        TextView tag = label((prominent ? (assessment ? "检测 · " : "今日 · ") : "")
+                + article.optString("difficulty", "高中") + "  ·  "
                 + article.optInt("wordCount", 0) + " 词"
-                + (article.has("difficultyScore")
+                + (!prominent && article.has("difficultyScore")
                 ? "  ·  难度 " + article.optInt("difficultyScore") : ""),
                 13, GREEN, true);
         box.addView(tag);
         box.addView(space(8));
-        box.addView(label(article.optString("title"), prominent ? 23 : 18, INK, true));
-        box.addView(space(6));
-        box.addView(label(article.optString("source", "英语阅读"), 13, MUTED, false));
-        int learningWords = learningStore.learningWordCount(article);
+        String title = article.optString("title");
+        if (prominent) title = title.replaceFirst("^RACE\\s+高中英语阅读\\s+", "");
+        box.addView(label(title, prominent ? 23 : 18, INK, true));
+        if (!prominent) {
+            box.addView(space(6));
+            box.addView(label(article.optString("source", "英语阅读"), 13, MUTED, false));
+        }
+        int learningWords = prominent ? 0 : learningStore.learningWordCount(article);
         if (learningWords > 0) {
             box.addView(space(6));
             box.addView(label("包含 " + learningWords + " 个你正在巩固的词",
@@ -1093,9 +1086,12 @@ public class MainActivity extends Activity {
                     paint.setTypeface(Typeface.create(paint.getTypeface(), Typeface.NORMAL));
                 }
             }, matcher.start(), matcher.end(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            final String lookupKey = "waveMark:" + article.optString("id") + ":"
-                    + word.toLowerCase(Locale.ROOT).replace('’', '\'');
-            text.setSpan(new LookupMark(lookupKey), matcher.start(), matcher.end(),
+            String key = word.toLowerCase(Locale.ROOT).replace('’', '\'');
+            JSONObject glossary = article.optJSONObject("glossary");
+            JSONObject entry = glossary == null ? null : glossary.optJSONObject(key);
+            if (entry == null) entry = commonEntry(key);
+            String lemma = entry == null ? roughLemma(key) : entry.optString("lemma", key);
+            text.setSpan(new LookupMark(lemma), matcher.start(), matcher.end(),
                     Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         }
         return text;
@@ -1160,8 +1156,10 @@ public class MainActivity extends Activity {
         JSONObject translations = article.optJSONObject("sentenceTranslations");
         String chinese = translations == null ? "" : translations.optString(sentence);
         if (showingPassage && session != null) { session.clicks++; saveSession(); }
-        learningStore.recordWord(lemma, displayedWord, translation, pos, forms, meanings,
-                sentence, chinese, article.optString("id"), article.optString("title"), history);
+        if (learningStore.containsLemma(lemma)) {
+            learningStore.recordWord(lemma, displayedWord, translation, pos, forms, meanings,
+                    sentence, chinese, article.optString("id"), article.optString("title"), history);
+        }
         if (bubbleAnchor != null) {
             showTranslationBubble(bubbleAnchor, wordOffset, translation,
                     () -> showWordCard(article, displayedWord, sentence));
@@ -1210,16 +1208,20 @@ public class MainActivity extends Activity {
                 15, GREEN, false));
         sheet.addView(space(18));
 
-        String waveKey = "waveMark:" + article.optString("id") + ":" + key;
         android.widget.Switch waveToggle = new android.widget.Switch(this);
-        waveToggle.setText("波浪线标记");
+        waveToggle.setText("加入生词复习");
         waveToggle.setTextSize(16);
         waveToggle.setTextColor(INK);
         waveToggle.setPadding(0, dp(8), 0, dp(8));
         waveToggle.setMinHeight(dp(48));
-        waveToggle.setChecked(prefs.getBoolean(waveKey, false));
+        waveToggle.setChecked(learningStore.containsLemma(lemma));
         waveToggle.setOnCheckedChangeListener((button, checked) -> {
-            prefs.edit().putBoolean(waveKey, checked).apply();
+            if (checked) {
+                learningStore.recordWord(lemma, displayedWord, translation, pos, forms, meanings,
+                        sentence, chinese, article.optString("id"), article.optString("title"), history);
+            } else {
+                learningStore.removeLemma(lemma);
+            }
             invalidateLookupMarks(content);
         });
         sheet.addView(waveToggle);
@@ -1317,6 +1319,7 @@ public class MainActivity extends Activity {
     }
 
     private JSONObject commonEntry(String word) {
+        if (fallbackEntries.containsKey(word)) return fallbackEntries.get(word);
         Map<String, String[]> common = new HashMap<>();
         common.put("the", new String[]{"the", "这／该（特指）", "art.", "—", "这；该；特指的人或事物"});
         common.put("a", new String[]{"a", "一个", "art.", "an", "一个；某一个"});
@@ -1352,7 +1355,10 @@ public class MainActivity extends Activity {
         common.put("quiet", new String[]{"quiet", "安静的", "adj.", "quieter · quietest", "安静的；平静的"});
         common.put("changed", new String[]{"change", "改变", "v.", "changes · changed · changing", "改变；变化；零钱"});
         String[] values = common.get(word);
-        if (values == null) return null;
+        if (values == null) {
+            fallbackEntries.put(word, null);
+            return null;
+        }
         JSONObject result = new JSONObject();
         try {
             result.put("lemma", values[0]);
@@ -1361,6 +1367,7 @@ public class MainActivity extends Activity {
             result.put("forms", values[3]);
             result.put("meanings", values[4]);
         } catch (Exception ignored) { }
+        fallbackEntries.put(word, result);
         return result;
     }
 
@@ -1830,8 +1837,8 @@ public class MainActivity extends Activity {
     }
 
     static final class LookupMark {
-        final String preferenceKey;
-        LookupMark(String preferenceKey) { this.preferenceKey = preferenceKey; }
+        final String lemma;
+        LookupMark(String lemma) { this.lemma = lemma; }
     }
 
     private void invalidateLookupMarks(View view) {
@@ -1852,8 +1859,9 @@ public class MainActivity extends Activity {
         paint.setStrokeWidth(dp(1));
         canvas.save();
         canvas.translate(view.getTotalPaddingLeft(), view.getTotalPaddingTop());
+        Set<String> vocabulary = learningStore.vocabularyLemmas();
         for (LookupMark mark : text.getSpans(0, text.length(), LookupMark.class)) {
-            if (!prefs.getBoolean(mark.preferenceKey, false)) continue;
+            if (!vocabulary.contains(mark.lemma)) continue;
             int start = text.getSpanStart(mark), end = text.getSpanEnd(mark);
             for (int line = layout.getLineForOffset(start);
                     line <= layout.getLineForOffset(end - 1); line++) {

@@ -125,8 +125,9 @@ public class MainActivityTest {
                 android.text.style.ClickableSpan.class)[0];
         span.onClick(anchor);
         assertTrue(((android.widget.PopupWindow) field("wordBubble")).isShowing());
-        String waveKey = "waveMark:" + a.getString("id") + ":school";
-        assertFalse(prefs.getBoolean(waveKey, false));
+        LearningStore store = (LearningStore) field("learningStore");
+        assertFalse(store.containsLemma("school"));
+        assertEquals(0, store.totalCount());
         assertEquals(1, prefs.getInt("click:school", 0));
         span.onClick(anchor);
         assertTrue(((android.widget.PopupWindow) field("wordBubble")).isShowing());
@@ -143,7 +144,8 @@ public class MainActivityTest {
         assertNotNull(toggle);
         assertFalse(toggle.isChecked());
         toggle.setChecked(true);
-        assertTrue(prefs.getBoolean(waveKey, false));
+        assertTrue(store.containsLemma("school"));
+        assertTrue(store.vocabularyLemmas().contains("school"));
         details.dismiss();
         span.onClick(anchor);
         ((android.widget.PopupWindow) field("wordBubble")).getContentView().performClick();
@@ -151,7 +153,8 @@ public class MainActivityTest {
         toggle = findWaveToggle(details.findViewById(android.R.id.content));
         assertTrue(toggle.isChecked());
         toggle.setChecked(false);
-        assertFalse(prefs.getBoolean(waveKey, true));
+        assertFalse(store.containsLemma("school"));
+        assertFalse(store.vocabularyLemmas().contains("school"));
         details.dismiss();
     }
 

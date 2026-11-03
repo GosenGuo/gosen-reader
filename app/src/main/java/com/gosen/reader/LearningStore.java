@@ -26,6 +26,7 @@ final class LearningStore {
     private JSONObject cachedPool;
     private String indexedRaw;
     private Set<String> learningLemmas = Collections.emptySet();
+    private Set<String> vocabularyLemmas = Collections.emptySet();
     private final Map<JSONObject, Set<String>> articleLemmas = new WeakHashMap<>();
 
     LearningStore(SharedPreferences prefs) {
@@ -302,18 +303,43 @@ final class LearningStore {
         JSONObject pool = load();
         if (cachedRaw.equals(indexedRaw)) return learningLemmas;
         Set<String> lemmas = new HashSet<>();
+        Set<String> vocabulary = new HashSet<>();
         JSONArray names = pool.names();
         if (names != null) {
             for (int i = 0; i < names.length(); i++) {
                 JSONObject item = pool.optJSONObject(names.optString(i));
+                if (item != null) vocabulary.add(normalize(item.optString("lemma")));
                 if (item != null && !"mastered".equals(normalizedStatus(item))) {
                     lemmas.add(normalize(item.optString("lemma")));
                 }
             }
         }
         learningLemmas = Collections.unmodifiableSet(lemmas);
+        vocabularyLemmas = Collections.unmodifiableSet(vocabulary);
         indexedRaw = cachedRaw;
         return learningLemmas;
+    }
+
+    Set<String> vocabularyLemmas() {
+        learningLemmas();
+        return vocabularyLemmas;
+    }
+
+    boolean containsLemma(String lemma) {
+        return vocabularyLemmas().contains(normalize(lemma));
+    }
+
+    void removeLemma(String lemma) {
+        JSONObject pool = load();
+        JSONArray names = pool.names();
+        if (names == null) return;
+        String normalized = normalize(lemma);
+        for (int i = 0; i < names.length(); i++) {
+            String key = names.optString(i);
+            JSONObject item = pool.optJSONObject(key);
+            if (item != null && normalized.equals(normalize(item.optString("lemma")))) pool.remove(key);
+        }
+        save(pool);
     }
 
     synchronized int countLearningWords(JSONObject article, Set<String> learning) {
