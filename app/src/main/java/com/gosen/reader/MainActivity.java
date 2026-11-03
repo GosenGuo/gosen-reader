@@ -2,6 +2,10 @@ package com.gosen.reader;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
+import android.animation.StateListAnimator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -28,6 +32,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowInsets;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
+import android.view.animation.AnimationSet;
+import android.view.animation.DecelerateInterpolator;
+import android.view.animation.ScaleAnimation;
+import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.FrameLayout;
@@ -312,6 +322,7 @@ public class MainActivity extends Activity {
 
     private void addNavButton(String label, Runnable action) {
         Button button = new Button(this);
+        installPressAnimation(button);
         button.setText(label);
         button.setTextSize(14);
         button.setTextColor(GREEN);
@@ -350,6 +361,7 @@ public class MainActivity extends Activity {
         content.addView(view, new FrameLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         nav.setVisibility(showNav ? View.VISIBLE : View.GONE);
+        animateEnter(view, 1f, dp(6));
     }
 
     private void showHome() {
@@ -398,6 +410,7 @@ public class MainActivity extends Activity {
         reviewCard.addView(label("生词", 14, MUTED, false));
         reviewCard.addView(label(String.valueOf(due), 38, GREEN, true));
         reviewCard.setOnClickListener(view -> showReview());
+        installPressAnimation(reviewCard);
         reviewCard.setContentDescription("生词复习，" + due + " 个到期词，点击开始");
         LinearLayout.LayoutParams reviewParams = new LinearLayout.LayoutParams(0,
                 ViewGroup.LayoutParams.MATCH_PARENT, 1);
@@ -713,18 +726,21 @@ public class MainActivity extends Activity {
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         flashcard.addView(back, new FrameLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-        installFlashcardGestures(flashcard, front, back, () -> {
+        TextView swipeFeedback = label("", 28, GREEN, true);
+        swipeFeedback.setGravity(Gravity.CENTER);
+        swipeFeedback.setAlpha(0f);
+        flashcard.addView(swipeFeedback, new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, dp(40), Gravity.TOP));
+        installFlashcardGestures(flashcard, front, back, swipeFeedback, () -> {
             reviewRound.add(senseKey);
             learningStore.removeWord(senseKey);
             recordReviewToday();
-            Toast.makeText(this, "已认识，已移出生词库", Toast.LENGTH_SHORT).show();
-            showReview();
+            if (content.getChildAt(0) == scroll) showReview();
         }, () -> {
             reviewRound.add(senseKey);
             learningStore.answer(senseKey, LearningStore.VAGUE);
             recordReviewToday();
-            Toast.makeText(this, "已保留，之后继续复习", Toast.LENGTH_SHORT).show();
-            showReview();
+            if (content.getChildAt(0) == scroll) showReview();
         });
         page.addView(flashcard, new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, dp(360)));
@@ -743,13 +759,16 @@ public class MainActivity extends Activity {
         setScreen(scroll, true);
     }
 
-    private void installFlashcardGestures(View card, View front, View back,
+    private void installFlashcardGestures(View card, View front, View back, TextView feedback,
                                           Runnable onSwipeLeft, Runnable onSwipeRight) {
         final float[] downX = {0f};
         final float[] downY = {0f};
         final boolean[] horizontal = {false};
         final boolean[] showingBack = {false};
+        final boolean[] busy = {false};
+        card.setCameraDistance(dp(8000));
         card.setOnTouchListener((view, event) -> {
+            if (busy[0]) return true;
             float deltaX = event.getRawX() - downX[0];
             float deltaY = event.getRawY() - downY[0];
             if (event.getActionMasked() == MotionEvent.ACTION_DOWN) {
@@ -765,6 +784,11 @@ public class MainActivity extends Activity {
                     view.getParent().requestDisallowInterceptTouchEvent(true);
                 }
                 if (horizontal[0]) {
+                    boolean left = deltaX < 0;
+                    feedback.setText(left ? "✓" : "↻");
+                    feedback.setTextColor(left ? GREEN : GOLD);
+                    feedback.setAlpha(Math.min(1f, Math.abs(deltaX) / dp(90)));
+                    ((GradientDrawable) view.getBackground()).setStroke(dp(2), left ? GREEN : GOLD);
                     view.setTranslationX(deltaX);
                     view.setRotation(deltaX / Math.max(1f, view.getWidth()) * 8f);
                     view.setAlpha(Math.max(0.55f,
@@ -774,28 +798,42 @@ public class MainActivity extends Activity {
             }
             if (event.getActionMasked() == MotionEvent.ACTION_UP) {
                 if (horizontal[0] && Math.abs(deltaX) >= dp(90)) {
+                    busy[0] = true;
                     boolean left = deltaX < 0;
+                    feedback.setAlpha(1f);
+                    view.announceForAccessibility(left ? "已移除" : "已保留");
                     float target = left ? -Math.max(view.getWidth(), dp(420))
                             : Math.max(view.getWidth(), dp(420));
                     view.animate().translationX(target).rotation(left ? -10f : 10f)
-                            .alpha(0f).setDuration(180)
+                            .alpha(0f).setDuration(motionEnabled() ? 180 : 0)
                             .withEndAction(left ? onSwipeLeft : onSwipeRight).start();
                 } else {
+                    feedback.setAlpha(0f);
+                    ((GradientDrawable) view.getBackground()).setStroke(0, Color.TRANSPARENT);
                     view.animate().translationX(0f).rotation(0f).alpha(1f)
-                            .setDuration(140).start();
+                            .setDuration(motionEnabled() ? 140 : 0).start();
                     if (!horizontal[0] && Math.abs(deltaX) < dp(10)
                             && Math.abs(deltaY) < dp(10)) {
-                        showingBack[0] = !showingBack[0];
-                        front.setVisibility(showingBack[0] ? View.GONE : View.VISIBLE);
-                        back.setVisibility(showingBack[0] ? View.VISIBLE : View.GONE);
+                        busy[0] = true;
+                        view.animate().rotationY(motionEnabled() ? 90f : 0f)
+                                .setDuration(motionEnabled() ? 90 : 0).withEndAction(() -> {
+                                    showingBack[0] = !showingBack[0];
+                                    front.setVisibility(showingBack[0] ? View.GONE : View.VISIBLE);
+                                    back.setVisibility(showingBack[0] ? View.VISIBLE : View.GONE);
+                                    view.setRotationY(motionEnabled() ? -90f : 0f);
+                                    view.animate().rotationY(0f).setDuration(motionEnabled() ? 130 : 0)
+                                            .withEndAction(() -> busy[0] = false).start();
+                                }).start();
                     }
                 }
                 view.getParent().requestDisallowInterceptTouchEvent(false);
                 return true;
             }
             if (event.getActionMasked() == MotionEvent.ACTION_CANCEL) {
+                feedback.setAlpha(0f);
+                ((GradientDrawable) view.getBackground()).setStroke(0, Color.TRANSPARENT);
                 view.animate().translationX(0f).rotation(0f).alpha(1f)
-                        .setDuration(140).start();
+                        .setDuration(motionEnabled() ? 140 : 0).start();
                 view.getParent().requestDisallowInterceptTouchEvent(false);
                 return true;
             }
@@ -1261,6 +1299,7 @@ public class MainActivity extends Activity {
                     ViewGroup.LayoutParams.WRAP_CONTENT);
         });
         dialog.show();
+        animateEnter(sheet, 1f, dp(18));
     }
 
     private void showTranslationBubble(TextView anchor, int offset, String translation, Runnable expand) {
@@ -1323,6 +1362,7 @@ public class MainActivity extends Activity {
         wordBubble = popup;
         bubble.setOnClickListener(v -> { popup.dismiss(); expand.run(); });
         popup.showAtLocation(anchor, Gravity.TOP | Gravity.LEFT, x, y);
+        animateEnter(bubble, 0.94f, 0);
     }
 
     private boolean phraseContainsWord(String phrase, String word) {
@@ -1817,6 +1857,7 @@ public class MainActivity extends Activity {
         TextView back = label("‹  " + text, 16, GREEN, true);
         back.setPadding(0, dp(10), dp(10), dp(10));
         back.setOnClickListener(view -> action.run());
+        installPressAnimation(back);
         row.addView(back);
         return row;
     }
@@ -1922,6 +1963,7 @@ public class MainActivity extends Activity {
 
     private Button primaryButton(String value) {
         Button button = new Button(this);
+        installPressAnimation(button);
         button.setText(value);
         button.setTextSize(16);
         button.setTextColor(Color.WHITE);
@@ -1934,6 +1976,7 @@ public class MainActivity extends Activity {
 
     private Button secondaryButton(String value) {
         Button button = new Button(this);
+        installPressAnimation(button);
         button.setText(value);
         button.setTextSize(16);
         button.setTextColor(GREEN);
@@ -1941,6 +1984,38 @@ public class MainActivity extends Activity {
         button.setBackground(rounded(GREEN_LIGHT, 26));
         button.setMinHeight(dp(50));
         return button;
+    }
+
+    private boolean motionEnabled() {
+        return ValueAnimator.areAnimatorsEnabled();
+    }
+
+    private void animateEnter(View view, float scale, int offset) {
+        if (!motionEnabled()) return;
+        AnimationSet animation = new AnimationSet(true);
+        animation.addAnimation(new AlphaAnimation(0f, 1f));
+        animation.addAnimation(new TranslateAnimation(0, 0, offset, 0));
+        if (scale != 1f) animation.addAnimation(new ScaleAnimation(scale, 1f, scale, 1f,
+                Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f));
+        animation.setInterpolator(new DecelerateInterpolator());
+        animation.setDuration(180);
+        view.startAnimation(animation);
+    }
+
+    private void installPressAnimation(View view) {
+        if (!motionEnabled()) return;
+        StateListAnimator states = new StateListAnimator();
+        AnimatorSet pressed = new AnimatorSet();
+        pressed.playTogether(ObjectAnimator.ofFloat(view, "scaleX", 0.97f),
+                ObjectAnimator.ofFloat(view, "scaleY", 0.97f));
+        pressed.setDuration(80);
+        states.addState(new int[]{android.R.attr.state_pressed, android.R.attr.state_enabled}, pressed);
+        AnimatorSet released = new AnimatorSet();
+        released.playTogether(ObjectAnimator.ofFloat(view, "scaleX", 1f),
+                ObjectAnimator.ofFloat(view, "scaleY", 1f));
+        released.setDuration(140);
+        states.addState(new int[]{}, released);
+        view.setStateListAnimator(states);
     }
 
     private Space space(int heightDp) {
