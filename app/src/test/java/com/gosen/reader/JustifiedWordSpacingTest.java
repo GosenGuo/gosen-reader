@@ -21,6 +21,7 @@ import org.robolectric.annotation.GraphicsMode;
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
 public class JustifiedWordSpacingTest {
     private void layout(TextView view, int width) {
+        view.forceLayout();
         view.measure(View.MeasureSpec.makeMeasureSpec(width, View.MeasureSpec.EXACTLY),
                 View.MeasureSpec.makeMeasureSpec(3000, View.MeasureSpec.AT_MOST));
         view.layout(0, 0, width, view.getMeasuredHeight());
