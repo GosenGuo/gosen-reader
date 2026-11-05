@@ -699,18 +699,20 @@ public class MainActivity extends Activity {
                 "translation", item.optString("sentenceTranslation"));
 
         FrameLayout flashcard = new FrameLayout(this);
-        flashcard.setMinimumHeight(dp(360));
+        flashcard.setTag("reviewCard");
         flashcard.setPadding(dp(24), dp(28), dp(24), dp(28));
         flashcard.setBackground(rounded(SURFACE, 22));
         flashcard.setElevation(dp(3));
 
         LinearLayout front = new LinearLayout(this);
-        front.setMinimumHeight(dp(304));
 
         LinearLayout back = new LinearLayout(this);
         back.setOrientation(LinearLayout.VERTICAL);
-        back.setPadding(0, dp(196), 0, 0);
-        back.setVisibility(View.GONE);
+        ScrollView details = new ScrollView(this);
+        details.setTag("reviewDetails");
+        details.setClipToPadding(false);
+        details.addView(back);
+        details.setVisibility(View.GONE);
         TextView partOfSpeech = label(item.optString("pos", "—"), 14, MUTED, false);
         partOfSpeech.setGravity(Gravity.CENTER);
         back.addView(partOfSpeech);
@@ -735,9 +737,11 @@ public class MainActivity extends Activity {
                 + item.optInt("contextCount", 1) + " 个语境", 13, MUTED, false));
 
         flashcard.addView(front, new FrameLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-        flashcard.addView(back, new FrameLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+        FrameLayout.LayoutParams detailsParams = new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+        detailsParams.topMargin = dp(196);
+        flashcard.addView(details, detailsParams);
         TextView fixedWord = label(displayWord, 38, INK, true);
         fixedWord.setTag("reviewWord");
         fixedWord.setGravity(Gravity.CENTER);
@@ -754,7 +758,7 @@ public class MainActivity extends Activity {
         swipeFeedback.setAlpha(0f);
         flashcard.addView(swipeFeedback, new FrameLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, dp(40), Gravity.TOP));
-        installFlashcardGestures(flashcard, front, back, swipeFeedback, () -> {
+        installFlashcardGestures(flashcard, front, details, swipeFeedback, () -> {
             reviewRound.add(senseKey);
             learningStore.removeWord(senseKey);
             recordReviewToday();
@@ -766,7 +770,7 @@ public class MainActivity extends Activity {
             if (content.getChildAt(0) == scroll) showReview();
         });
         page.addView(flashcard, new LinearLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+                ViewGroup.LayoutParams.MATCH_PARENT, dp(460)));
         page.addView(space(12));
         LinearLayout swipeGuide = new LinearLayout(this);
         swipeGuide.setGravity(Gravity.CENTER);
@@ -790,7 +794,7 @@ public class MainActivity extends Activity {
         final boolean[] showingBack = {false};
         final boolean[] busy = {false};
         card.setCameraDistance(dp(8000));
-        card.setOnTouchListener((view, event) -> {
+        View.OnTouchListener gestures = (view, event) -> {
             if (busy[0]) return true;
             float deltaX = event.getRawX() - downX[0];
             float deltaY = event.getRawY() - downY[0];
@@ -860,6 +864,16 @@ public class MainActivity extends Activity {
                 view.getParent().requestDisallowInterceptTouchEvent(false);
                 return true;
             }
+            return false;
+        };
+        card.setOnTouchListener(gestures);
+        // Keep vertical scrolling inside the fixed back face, while sharing the
+        // card's tap/sideways-swipe handling with touches on its definitions.
+        back.setOnTouchListener((view, event) -> {
+            if (event.getActionMasked() == MotionEvent.ACTION_DOWN) {
+                view.getParent().requestDisallowInterceptTouchEvent(true);
+            }
+            gestures.onTouch(card, event);
             return false;
         });
     }

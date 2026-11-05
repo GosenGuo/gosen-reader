@@ -134,6 +134,8 @@ public class MainActivityTest {
         word.getLocationOnScreen(before);
         float size = word.getTextSize();
         android.widget.FrameLayout card = (android.widget.FrameLayout) word.getParent();
+        int height = card.getHeight();
+        int width = card.getWidth();
         card.getChildAt(0).setVisibility(View.GONE);
         card.getChildAt(1).setVisibility(View.VISIBLE);
         root.measure(View.MeasureSpec.makeMeasureSpec(420, View.MeasureSpec.EXACTLY),
@@ -143,7 +145,52 @@ public class MainActivityTest {
         word.getLocationOnScreen(after);
         assertArrayEquals(before, after);
         assertEquals(size, word.getTextSize(), 0f);
+        assertEquals(height, card.getHeight());
+        assertEquals(width, card.getWidth());
         assertTrue(containsText(root, "陪伴"));
+    }
+
+    @Test public void flashcardStaysFixedAcrossLongDefinitionsAndDifferentWords() throws Exception {
+        LearningStore store = (LearningStore) field("learningStore");
+        StringBuilder longText = new StringBuilder();
+        for (int i = 0; i < 80; i++) longText.append("A long example sentence with extra details. ");
+        String key = store.recordWord("accompany", "accompany", "陪伴", "v.", "accompanied",
+                "陪伴", longText.toString(), longText.toString(), "test", "Test", 1);
+        Method review = MainActivity.class.getDeclaredMethod("showReview");
+        review.setAccessible(true);
+        review.invoke(activity);
+        View root = activity.findViewById(android.R.id.content);
+        layoutReview(root);
+        android.widget.FrameLayout card = root.findViewWithTag("reviewCard");
+        int height = card.getHeight();
+        int width = card.getWidth();
+        android.widget.ScrollView details = root.findViewWithTag("reviewDetails");
+        card.getChildAt(0).setVisibility(View.GONE);
+        details.setVisibility(View.VISIBLE);
+        layoutReview(root);
+        assertEquals(height, card.getHeight());
+        assertEquals(width, card.getWidth());
+        assertTrue(details.getChildAt(0).getHeight() > details.getHeight());
+        details.scrollTo(0, details.getChildAt(0).getHeight());
+        assertTrue(details.getScrollY() > 0);
+        assertEquals(height, card.getHeight());
+
+        store.removeWord(key);
+        store.recordWord("school", "school", "学校", "n.", "schools", "学校",
+                "School.", "学校。", "test", "Test", 1);
+        review.invoke(activity);
+        layoutReview(root);
+        card = root.findViewWithTag("reviewCard");
+        assertEquals(height, card.getHeight());
+        assertEquals(width, card.getWidth());
+        assertEquals(0, ((android.widget.ScrollView) root.findViewWithTag("reviewDetails")).getScrollY());
+    }
+
+    private void layoutReview(View root) {
+        root.forceLayout();
+        root.measure(View.MeasureSpec.makeMeasureSpec(420, View.MeasureSpec.EXACTLY),
+                View.MeasureSpec.makeMeasureSpec(1000, View.MeasureSpec.EXACTLY));
+        root.layout(0, 0, 420, 1000);
     }
 
     @Test public void readerJustifiesTextWithoutChangingLookupOffsets() throws Exception {
